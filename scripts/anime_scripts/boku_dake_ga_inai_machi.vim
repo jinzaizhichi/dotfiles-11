@@ -1,0 +1,5 @@
+" increase font size and outline size
+argadd *.ass
+argdo %s/\v(Comment|Dialogue).+STAFF.*//ge | update
+argdo %s/\VTEXT JPO,EPSON 太明朝体Ｂ,34,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,1,0,1,2,0,2,0,0,12,128/TEXT JPO,EPSON 太明朝体Ｂ,68,\&H00FFFFFF,\&H000000FF,\&H00000000,\&H00000000,-1,0,0,0,100,100,1,0,1,4,0,2,0,0,12,128/ge | update
+argdo %s/\VTEXT JPO (UP),EPSON 太明朝体Ｂ,32,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,8,0,0,13,128/TEXT JPO (UP),EPSON 太明朝体Ｂ,32,\&H00FFFFFF,\&H000000FF,\&H00000000,\&H00000000,-1,0,0,0,100,100,0,0,1,3.4,0,8,0,0,13,128/ge | update

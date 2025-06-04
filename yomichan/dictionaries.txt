@@ -2,7 +2,7 @@
 [Bilingual] JMdict (Animecards compatible).zip
 [Monolingual] 旺文社国語辞典 第十一版 (Recommended).zip
 [Bilingual] 新和英.zip
-jitendex-yomitan-2024-09-16.zip
+jitendex-yomitan.zip
 [Grammar] Dictionary of Japanese Grammar 日本語文法辞典 (Recommended).zip
 [Monolingual] 実用日本語表現辞典 Extended (Recommended).zip
 [Monolingual] 新明解国語辞典 第八版 (Recommended).zip

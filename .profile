@@ -100,9 +100,9 @@ if [ -s "${XDG_CONFIG_HOME}/ssh/config" ]
 then
     export SSH_CONFIG="-F ${XDG_CONFIG_HOME}/ssh/config"
 fi
-if [ -s "${XDG_CONFIG_HOME}/ssh/id_dsa" ]
+if [ -s "${XDG_CONFIG_HOME}/ssh/id_rsa" ]
 then
-    export SSH_ID="-i ${XDG_CONFIG_HOME}/ssh/id_dsa"
+    export SSH_ID="-i ${XDG_CONFIG_HOME}/ssh/id_rsa"
 fi
 
 export PYTHONSTARTUP="${XDG_CONFIG_HOME:-$HOME/.config}/pythonstartup.py"

@@ -5,8 +5,7 @@ OPT=$HOME/opt
 ANKI=$OPT/anki
 PREFIX="/usr"
 
-# version=23.12.1
-version=24.06.2
+version=25.02.4
 anki_version="anki-$version-linux-qt6"
 anki_archive_zst="$anki_version.tar.zst "
 anki_archive_tar="$anki_version.tar"

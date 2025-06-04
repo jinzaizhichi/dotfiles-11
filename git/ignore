@@ -32,3 +32,13 @@ dump.sql
 .envrc
 .zcompcache
 kuat.sh
+.zsh_history
+.zcompdump
+id_dsa
+id_dsa.pub
+id_rsa
+id_rsa.pub
+id_dsa
+id_rsa
+.null-ls_*
+garbage
