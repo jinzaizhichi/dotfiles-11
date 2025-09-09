@@ -237,3 +237,5 @@ eval "$(mise activate zsh)"
 . "/home/evakuator/.local/share/cargo/env"
 
 . "$HOME/.local/share/cargo/env"
+
+. "$HOME/.local/share/../bin/env"

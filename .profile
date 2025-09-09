@@ -121,7 +121,7 @@ export PATH="$PATH:$XDG_DATA_HOME/coursier/bin"
 export NVIM_APPNAME="nvim"
 
 # https://jorengarenar.github.io/blog/vim-xdg
-export VIMINIT="if has('nvim') | so ${XDG_CONFIG_HOME:-$HOME/.config}/$NVIM_APPNAME/init.lua | else | set nocp | so ${XDG_CONFIG_HOME:-$HOME/.config}/vim/vimrc | endif"
+# export VIMINIT="if has('nvim') | so ${XDG_CONFIG_HOME:-$HOME/.config}/$NVIM_APPNAME/init.lua | else | set nocp | so ${XDG_CONFIG_HOME:-$HOME/.config}/vim/vimrc | endif"
 
 # RUBY
 export GEM_HOME="$XDG_CACHE_HOME/gems"
@@ -161,9 +161,12 @@ export WINEPREFIX="$XDG_DATA_HOME"/wineprefixes/default
 
 
 # steamtinkerlaunch
-export HSR="$XDG_DATA_HOME/Steam"
-export HSS="$HSR/steam"
+# export HSR="$XDG_DATA_HOME/Steam"
+# export HSS="$HSR/steam"
 
-. "/home/evakuator/.local/share/cargo/env"
+. "$XDG_DATA_HOME/cargo/env"
 
-. "$HOME/.local/share/cargo/env"
+# virtualenvs
+export WORKON_HOME="${XDG_DATA_HOME:-$HOME/.local/share}/virtualenvs"
+
+. "$HOME/.local/share/../bin/env"

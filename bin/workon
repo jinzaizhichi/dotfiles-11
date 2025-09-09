@@ -1,56 +1,110 @@
-#!/usr/bin/bash
+#!/usr/bin/env bash
 
-# It is necessary to put the following alias in `(.z|.ba|.fi)shrc` due to the nature of sourcing virtual environments.
-# alias workon=". =workon"
+export WORKON_HOME="${XDG_DATA_HOME:-$HOME/.local/share}/virtualenvs"
+mkdir -p "$WORKON_HOME"
 
-export WORKON_HOME=$XDG_DATA_HOME/virtualenvs
-mkdir -p $WORKON_HOME
+# Generate human-readable project name
+project_root="$(basename "$PWD")"
+short_hash="$(echo -n "$PWD" | shasum | cut -c1-6)"
+env_name="$(echo "$project_root" | tr '[:upper:]' '[:lower:]' | tr -c 'a-z0-9' '_')_$short_hash"
 
-pwd_hash="$(echo -n "$PWD" | shasum | cut -d ' ' -f 1)"
+venv_path="$WORKON_HOME/$env_name"
 
+# Create venv and pyrightconfig.json if missing
 if [ ! -f pyrightconfig.json ]; then
-  if [ -z "$1" ]; then
-    if ! command -v mise &> /dev/null; then
-      echo "Install mise!"
-      exit 1
-    else
-      PS3="Please enter your choice"$'\n'"> "
-      # options=("Option 1" "Option 2" "Option 3" "Quit")
-      my_array=($(mise list python | awk '{ print $2 }'))
-      
-      my_array+=('Quit')
-      select opt in "${my_array[@]}"
-      do
-        echo $opt
-        if [[ " ${my_array[*]} " =~ " ${opt} " ]]; then
-          if [[ "${opt}" == 'Quit' ]]; then
-            echo "Good Bye!" ; exit 1
-          fi
-          echo "python $opt will be used" ; break;
-        fi
-      done
-    fi
-    if [[ -z "$opt" ]]; then
-      version=$(python -V 2>&1 | grep -Po '(?<=Python )(.+)')
-    else
-      version=$opt
-    fi
+  if ! command -v uv &> /dev/null; then
+    echo "uv is not installed. Please install it first."
+    exit 1
   fi
-  echo $version
 
-  jq -n --arg venvPath "$WORKON_HOME" --arg venv $pwd_hash '{ venvPath: $venvPath, venv: $venv }' > $PWD/pyrightconfig.json
+  # Use a requested version if passed in
+  if [ -n "$1" ]; then
+    python_version="$1"
+    uv venv "$venv_path" --python "$python_version"
+  else
+    uv venv "$venv_path"
+  fi
 
-  $(mise where python $version)/bin/python -m venv "$WORKON_HOME"/"$pwd_hash"
+  # Write pyright config
+  jq -n --arg venvPath "$WORKON_HOME" --arg venv "$env_name" \
+    '{ venvPath: $venvPath, venv: $venv }' > pyrightconfig.json
+
+  jq -n --arg venvPath "$WORKON_HOME" --arg venv "$env_name" \
+    '{ environment: {"python": ($venvPath + "/" + $venv)  }  }' \
+  | yq -t > ty.toml
+
+  jq -n --arg venvPath "$WORKON_HOME" --arg venv "$env_name" \
+    '{ "python-interpreter": ($venvPath + "/" + $venv + "/bin/python3") }' \
+  | yq -t > pyrefly.toml
+
 fi
 
+# Activate venv
 if [ -f pyrightconfig.json ]; then
-
-  venvPath=$(cat pyrightconfig.json | jq -r ".venvPath")
-  venv=$(cat pyrightconfig.json | jq -r ".venv")
-  venvPath="$venvPath/$venv"
-
-  echo $venvPath/bin/activate
-
-  . $venvPath/bin/activate
-
+  venvPath="$(jq -r '.venvPath' pyrightconfig.json)/$(jq -r '.venv' pyrightconfig.json)"
+  if [ -f "$venvPath/bin/activate" ]; then
+    echo "Activating: $venvPath"
+    . "$venvPath/bin/activate"
+  else
+    echo "Error: Virtual environment not found at $venvPath"
+    exit 1
+  fi
 fi
+
+
+# #!/usr/bin/bash
+# 
+# # It is necessary to put the following alias in `(.z|.ba|.fi)shrc` due to the nature of sourcing virtual environments.
+# # alias workon=". =workon"
+# 
+# export WORKON_HOME=$XDG_DATA_HOME/virtualenvs
+# mkdir -p $WORKON_HOME
+# 
+# pwd_hash="$(echo -n "$PWD" | shasum | cut -d ' ' -f 1)"
+# 
+# if [ ! -f pyrightconfig.json ]; then
+#   if [ -z "$1" ]; then
+#     if ! command -v mise &> /dev/null; then
+#       echo "Install mise!"
+#       exit 1
+#     else
+#       PS3="Please enter your choice"$'\n'"> "
+#       # options=("Option 1" "Option 2" "Option 3" "Quit")
+#       my_array=($(mise list python | awk '{ print $2 }'))
+# 
+#       my_array+=('Quit')
+#       select opt in "${my_array[@]}"
+#       do
+#         echo $opt
+#         if [[ " ${my_array[*]} " =~ " ${opt} " ]]; then
+#           if [[ "${opt}" == 'Quit' ]]; then
+#             echo "Good Bye!" ; exit 1
+#           fi
+#           echo "python $opt will be used" ; break;
+#         fi
+#       done
+#     fi
+#     if [[ -z "$opt" ]]; then
+#       version=$(python -V 2>&1 | grep -Po '(?<=Python )(.+)')
+#     else
+#       version=$opt
+#     fi
+#   fi
+#   echo $version
+# 
+#   jq -n --arg venvPath "$WORKON_HOME" --arg venv $pwd_hash '{ venvPath: $venvPath, venv: $venv }' > $PWD/pyrightconfig.json
+# 
+#   $(mise where python $version)/bin/python -m venv "$WORKON_HOME"/"$pwd_hash"
+# fi
+# 
+# if [ -f pyrightconfig.json ]; then
+# 
+#   venvPath=$(cat pyrightconfig.json | jq -r ".venvPath")
+#   venv=$(cat pyrightconfig.json | jq -r ".venv")
+#   venvPath="$venvPath/$venv"
+# 
+#   echo $venvPath/bin/activate
+# 
+#   . $venvPath/bin/activate
+# 
+# fi

@@ -42,3 +42,5 @@ id_dsa
 id_rsa
 .null-ls_*
 garbage
+my_chroma_data
+ty.toml
