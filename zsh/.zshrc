@@ -232,10 +232,3 @@ alias zkcd="cd $ZK_NOTEBOOK_DIR"
 
 # https://mise.jdx.dev/getting-started.html#zsh
 eval "$(mise activate zsh)"
-
-
-. "/home/evakuator/.local/share/cargo/env"
-
-. "$HOME/.local/share/cargo/env"
-
-. "$HOME/.local/share/../bin/env"

@@ -168,5 +168,3 @@ export WINEPREFIX="$XDG_DATA_HOME"/wineprefixes/default
 
 # virtualenvs
 export WORKON_HOME="${XDG_DATA_HOME:-$HOME/.local/share}/virtualenvs"
-
-. "$HOME/.local/share/../bin/env"

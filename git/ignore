@@ -15,7 +15,6 @@ db.sqlite3
 static_root
 startup.log
 *.pyc 
-pyrightconfig.json
 kuat.sql
 plug.vim
 prod_test.sql
@@ -44,3 +43,5 @@ id_rsa
 garbage
 my_chroma_data
 ty.toml
+pyrefly.toml
+pyrightconfig.json
