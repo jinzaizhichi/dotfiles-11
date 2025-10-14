@@ -45,3 +45,4 @@ my_chroma_data
 ty.toml
 pyrefly.toml
 pyrightconfig.json
+session.vim

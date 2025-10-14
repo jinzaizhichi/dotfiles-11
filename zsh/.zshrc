@@ -39,8 +39,6 @@ zinit wait lucid light-mode for \
 zinit ice wait lucid atload"!_zsh_autosuggest_start"
 zinit load zsh-users/zsh-autosuggestions
 
-
-# zsh-users/zsh-completions
 zinit light chr-fritz/docker-completion.zshplugin
 
 zinit ice wait'0b' lucid id-as"junegunn/fzf_completions" pick"/dev/null" \
@@ -69,7 +67,7 @@ zinit light sharkdp/fd
 
 #stylua
 zinit wait'1b' lucid light-mode from'gh-r' as'command' bpick'*linux*.tar.gz' for \
-    bpick'*linux.zip' JohnnyMorganz/StyLua \
+    bpick'*linux*.zip' JohnnyMorganz/StyLua \
 
 # shfmt
 zinit ice from"gh-r" as"program" mv"shfmt* -> shfmt" fbin"shfmt"
@@ -81,36 +79,10 @@ zinit ice wait"0a" as"command" from"gh-r" lucid \
   atpull"%atclone" src"init.zsh" nocompile'!'
 zinit light ajeetdsouza/zoxide
 
-
-# zinit ice wait'0' lucid
-# zinit snippet 'https://github.com/git/git/contrib/completion/git-prompt.sh'
-
-
 # docker zsh completion
 # https://github.com/kg8m/dotfiles/blob/a748a5b7ca05247aea17fff16af464e73c7919cc/.config/zsh/completion.zsh#L17
 zinit ice lucid wait"0c" blockf atclone"zinit creinstall \${PWD}" atpull"%atclone"
 zinit light greymd/docker-zsh-completion
-
-
-########################### asdf-vm
-
-#### ASDF #### zinit wait lucid as"null" \
-#### ASDF ####     from"github" src"asdf.sh" as"program" for \
-#### ASDF ####     @asdf-vm/asdf
-#### ASDF #### 
-#### ASDF #### zinit ice lucid wait'1' from"gh-r" as"program" mv"direnv* -> direnv" \
-#### ASDF ####     atclone'./direnv hook zsh > zhook.zsh' atpull'%atclone' \
-#### ASDF ####     pick"direnv" src="zhook.zsh" for \
-#### ASDF ####         direnv/direnv
-#### ASDF #### 
-#### ASDF #### # it also works with turbo mode:
-#### ASDF #### zinit ice wait lucid
-#### ASDF #### zinit load redxtech/zsh-asdf-direnv
-#### ASDF #### 
-#### ASDF #### zinit ice wait lucid as"completion"
-#### ASDF #### zinit snippet https://github.com/asdf-vm/asdf/blob/master/completions/_asdf
-
-############################# asdf-vm
 
 ########## PROMPT
 # Load version control information
@@ -205,30 +177,30 @@ setopt HIST_BEEP                 # Beep when accessing nonexistent history.
 
 countdown
 
-
 # https://gist.github.com/ctechols/ca1035271ad134841284?permalink_comment_id=3401477#gistcomment-3401477
 autoload -Uz compinit; compinit
 zinit cdreplay
-# compinit -d $XDG_CACHE_HOME/zsh/zcompdump-${ZSH_VERSION}
-
-# https://github.com/zdharma-continuum/zinit#quick-start maybe?
-# SSH
-alias ssh="ssh $SSH_CONFIG $SSH_ID "
-alias ssh-copy-id="ssh-copy-id $SSH_ID"
-alias wget="wget --hsts-file="$XDG_CACHE_HOME/wget-hsts""
-
 
 if [ -x "$(command -v workon)" ]; then
   alias workon=". =workon"
 fi
 
-if [ -x "$(command -v venve)" ]; then
-  alias venve=". =venve"
-fi
+
+# SSH
+alias ssh="ssh $SSH_CONFIG $SSH_ID "
+alias ssh-copy-id="ssh-copy-id $SSH_ID"
+alias wget="wget --hsts-file="$XDG_CACHE_HOME/wget-hsts""
 
 alias zkcd="cd $ZK_NOTEBOOK_DIR"
-# alias cs="coursier"
-
 
 # https://mise.jdx.dev/getting-started.html#zsh
 eval "$(mise activate zsh)"
+
+# TODO
+
+# installing https://github.com/eza-community/eza with zinit
+## example: https://github.com/watiko/dotfiles/blob/a2ce18eed4d7684a73d6c40cb61ea7ed395bf62f/zshrc#L100
+# installing mise with zinit
+## example: https://github.com/watiko/dotfiles/blob/a2ce18eed4d7684a73d6c40cb61ea7ed395bf62f/zshrc#L125
+## example: https://github.com/davidosomething/dotfiles/blob/dc35b35614430f8a3e8a5639926845a260dfe8c6/zsh/zinit.zsh#L110
+# https://github.com/sharkdp/bat
