@@ -1,0 +1,37 @@
+# Font
+font-family = "UbuntuMono Nerd Font"
+font-size = 12
+
+# Colors
+background = #000000
+foreground = #FFFFFF
+
+# ANSI palette
+palette = 0=#000000
+palette = 1=#CD0000
+palette = 2=#00CD00
+palette = 3=#CDCD00
+palette = 4=#0000CD
+palette = 5=#CD00CD
+palette = 6=#00CDCD
+palette = 7=#FAEBD7
+palette = 8=#7E7474
+palette = 9=#FF0000
+palette = 10=#00FF00
+palette = 11=#FFFF00
+palette = 12=#0000FF
+palette = 13=#FF00FF
+palette = 14=#00FFFF
+palette = 15=#FFFFFF
+
+# Transparency
+background-opacity = 0.94
+
+shell-integration = detect
+
+window-padding-x = 0
+window-padding-y = 0
+gtk-titlebar = false
+window-show-tab-bar = never
+
+keybind = ctrl+m=text:\r

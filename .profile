@@ -134,15 +134,16 @@ export RUFF_CACHE_DIR="$XDG_CACHE_HOME/ruff"
 export CLASSPATH=.
 
 # JAVA FONTS XDG
-export _JAVA_OPTIONS=-Djava.util.prefs.userRoot="$XDG_CONFIG_HOME"/java
+# export _JAVA_OPTIONS=-Djava.util.prefs.userRoot="$XDG_CONFIG_HOME"/java
+export _JAVA_OPTIONS="-Djava.util.prefs.userRoot=$XDG_CONFIG_HOME/java -XX:ErrorFile=$XDG_STATE_HOME/java/hs_err_pid%p.log"
 
 # Docker
 export DOCKER_CONFIG="$XDG_CONFIG_HOME"/docker 
 
 #zettelkasten
-export ZK_NOTEBOOK_DIR="${HOME}/dev/personal/zettelkasten"
+export ZK_NOTEBOOK_DIR="${HOME}/zk"
 # export ZK_NOTEBOOK_DIR=~/dev/personal/zettelkasten
-mkdir -p $ZK_NOTEBOOK_DIR
+mkdir -p "$ZK_NOTEBOOK_DIR"
 
 export POETRY_CACHE_DIR=$XDG_CACHE_HOME/pypoetry
 export POETRY_VIRTUALENVS_PATH=$XDG_CACHE_HOME/virtualenvs

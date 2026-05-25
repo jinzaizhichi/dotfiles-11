@@ -10,3 +10,5 @@ pylance
 id_dsa
 id_rsa
 known_hosts
+user_files/
+*.sqlite3

@@ -1,0 +1,21 @@
+[user]
+	email = 
+	name = evakuator
+[core]
+  editor = nvr --remote-wait-silent
+  sshCommand = ssh -i ~/.config/ssh/id_rsa -F ~/.config/ssh/config
+[diff]
+  tool = nvr
+[difftool "nvr"]
+  cmd = nvr -s -d $LOCAL $REMOTE
+[merge]
+  tool = nvr
+[mergetool "nvr"]
+  cmd = nvr -s -d $LOCAL $BASE $REMOTE $MERGED -c 'wincmd J | wincmd ='
+[init]
+	defaultBranch = main
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true

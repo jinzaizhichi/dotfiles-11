@@ -38,16 +38,14 @@ declare -a home_configs=(
   ".xprofile" ".profile"
 )
 
-declare -a xdg_configs=(
- "asdf" "zathura" "bash"
- "git" "xkb" "zsh" ".ignore"
- "direnv" "ssh" "pythonstartup.py"
- "vim"
-)
-
 for config in "${home_configs[@]}"; do
   symlink_config "$DOTFILES/$config" "$HOME/$config"
 done
+
+setopt null_glob
+
+xdg_configs=("../xdg"/*(D:t))
+
 
 for config in "${xdg_configs[@]}"; do
   symlink_config "$DOTFILES/$config" "$XDG_CONFIG_HOME/$config"
