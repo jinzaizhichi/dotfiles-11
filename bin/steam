@@ -1,0 +1,9 @@
+#!/bin/sh
+
+fixsteam="${XDG_DATA_HOME:-$HOME/.local/share}/fixsteam/steam"
+[ -x "$fixsteam" ] || {
+	echo "fixsteam is not installed; run scripts/optional/desktop/install-steam.sh." >&2
+	exit 1
+}
+
+exec "$fixsteam" "$@"

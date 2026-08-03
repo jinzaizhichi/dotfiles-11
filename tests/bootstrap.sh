@@ -62,9 +62,10 @@ test "$(readlink "$temp_dir/home/.local/bin/appgate")" = "$repo/bin/appgate"
 test "$(readlink "$temp_dir/home/.local/bin/codium")" = "$repo/bin/codium"
 test "$(readlink "$temp_dir/home/.local/bin/fd")" = "$repo/bin/fd"
 test "$(readlink "$temp_dir/home/.local/bin/rg")" = "$repo/bin/rg"
+test "$(readlink "$temp_dir/home/.local/bin/steam")" = "$repo/bin/steam"
 "$temp_dir/home/.local/bin/fd" --version | grep -Fq 'fdfind '
 test "$(find "$repo/bin" -mindepth 1 -maxdepth 1 -printf '%f\n' | sort)" = \
-    $'appgate\ncodium\nfd\nrg'
+    $'appgate\ncodium\nfd\nrg\nsteam'
 
 appgate_test="$temp_dir/appgate"
 mkdir -p "$appgate_test/bin" "$appgate_test/data"
@@ -81,6 +82,19 @@ test "$output" = "$appgate_test/data/appgate/home
 test -d "$appgate_test/data/appgate/home"
 grep -Fqx 'exec "${APPGATE_BIN:-/usr/bin/appgate.vendor}" "$@"' \
     "$repo/bin/appgate"
+
+steam_test="$temp_dir/steam"
+mkdir -p "$steam_test/data/fixsteam"
+cat >"$steam_test/data/fixsteam/steam" <<'EOF'
+#!/usr/bin/env sh
+printf '%s\n' "$*" >"$STEAM_TEST_LAUNCH_LOG"
+EOF
+chmod +x "$steam_test/data/fixsteam/steam"
+
+STEAM_TEST_LAUNCH_LOG="$steam_test/launch.log" \
+    XDG_DATA_HOME="$steam_test/data" \
+    "$repo/bin/steam" 'argument with spaces' steam://open/games
+grep -Fqx 'argument with spaces steam://open/games' "$steam_test/launch.log"
 
 mkdir -p "$temp_dir/search/node_modules"
 mkdir -p "$temp_dir/search/venv"
@@ -500,6 +514,7 @@ expected_scripts=(
     scripts/bootstrap/install-packages.sh
     scripts/bootstrap/link-configs.sh
     scripts/optional/desktop/import-gnome-terminal-profile.sh
+    scripts/optional/desktop/install-steam.sh
     scripts/optional/desktop/install-ubuntu-mono-nerd-font.sh
     scripts/optional/desktop/lightdm/configure-xauthority.sh
     scripts/optional/desktop/lightdm/patch-binary.sh
@@ -541,6 +556,15 @@ for heading in \
     grep -Fqx "$heading" "$repo/README.md"
 done
 grep -Fq './tests/bootstrap.sh' "$repo/README.md"
+
+profile_home="$temp_dir/profile-home"
+mkdir -p "$profile_home"
+profile_compinit="$(
+    env -u skip_global_compinit HOME="$profile_home" sh -c \
+        '. "$1"; printf "%s" "$skip_global_compinit"' \
+        sh "$repo/configs/home/profile"
+)"
+test "$profile_compinit" = 1
 
 codex_test="$temp_dir/codex-home"
 codex_release=0.146.0-x86_64-unknown-linux-musl

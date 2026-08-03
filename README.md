@@ -101,6 +101,14 @@ Install New Tab Override and Vimium through Firefox Add-ons. In New Tab Override
 
 The new-tab service binds only to `127.0.0.1`. Firefox updates replace `omni.ja`, so rerun `firefox/patch-keybindings.sh` after an update if the custom browser shortcuts stop working.
 
+Install Valve's Steam package and the fixsteam fake-home launcher:
+
+```sh
+./scripts/optional/desktop/install-steam.sh
+```
+
+The script preserves the existing library in `$XDG_DATA_HOME/Steam` and installs [fixsteam](https://github.com/Samueru-sama/fixsteam) under `$XDG_DATA_HOME/fixsteam`. Run `steam` once afterwards so fixsteam can create its fake home and desktop launcher. Steam remains outside the automatic bootstrap.
+
 ### 5. Restore Japanese study tools
 
 Install Anki, link mpv configuration, install mpvacious, and check the Anki add-on manifest:
@@ -152,6 +160,7 @@ On Ubuntu 24.04 Cinnamon/X11, also run `setxkbmap -query`. On Kubuntu 26.04, run
 - `configs/xdg/` contains application configuration linked into `$XDG_CONFIG_HOME`, grouped by application. Notable exceptions handled specially by the linker are Codium's files and the global `ty.toml`.
 - `configs/system/keyboard` is the single tracked source for the system, Cinnamon, KDE, IBus, and live X11 keyboard layout; `configs/gnome-terminal/profile.dconf` is imported rather than linked.
 - `docs/ergonomic-keyboard.md` records the ergonomic-keyboard requirements, shortlist, and current recommendation.
+- `docs/todo.md` tracks setup that still requires an external account or private recovery material.
 - `japanese/anki/addons.txt` is the named AnkiWeb add-on manifest.
 - `japanese/yomitan/dictionaries.txt`, `japanese/yomitan/settings.json`, and `japanese/yomitan/sort-dictionaries.js` define the selected dictionaries, exported settings, and active-profile order.
 - `japanese/anime/` contains older subtitle timing tools and source-specific data; it is not part of bootstrap.
@@ -171,6 +180,7 @@ Nothing under `scripts/optional/` runs automatically. Several scripts use sudo, 
 | Script | Purpose |
 | --- | --- |
 | `desktop/import-gnome-terminal-profile.sh` | Imports the tracked GNOME Terminal profile. |
+| `desktop/install-steam.sh` | Installs Valve's Steam package and fixsteam fake-home launcher. |
 | `desktop/install-ubuntu-mono-nerd-font.sh` | Downloads and installs UbuntuMono Nerd Font. |
 | `desktop/lightdm/configure-xauthority.sh` | Stores LightDM Xauthority data outside the home root. |
 | `desktop/lightdm/patch-binary.sh` | Patches LightDM to move `.xsession-errors`; use only with LightDM. |
@@ -197,6 +207,7 @@ Nothing under `scripts/optional/` runs automatically. Several scripts use sudo, 
 - `bin/codium` launches VSCodium with its XDG data directory.
 - `bin/fd` exposes Ubuntu's `fdfind` executable under its upstream `fd` name.
 - `bin/rg` makes ripgrep share the ignore file used by fd.
+- `bin/steam` launches the optional fixsteam installation from its XDG data path.
 
 ### Test
 

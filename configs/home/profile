@@ -22,6 +22,7 @@ export XDG_STATE_HOME="$HOME/.local/state"
 export DOTFILES="$HOME/dotfiles"
 export OPT="$HOME/opt"
 export ZDOTDIR="$XDG_CONFIG_HOME/zsh"
+export skip_global_compinit=1
 
 mkdir -p "$OPT"
 mkdir -p "$XDG_STATE_HOME"
