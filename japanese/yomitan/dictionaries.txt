@@ -1,0 +1,12 @@
+# Selection: https://learnjapanese.moe/yomichan/
+# Sources: Yomitan's recommended catalog and https://github.com/MarvNC/yomitan-dictionaries
+# Google Drive file ID or download URL, followed by the local filename.
+
+https://github.com/stephenmk/stephenmk.github.io/releases/download/2026.07.09.0/jitendex-yomitan.zip	01 [JA-EN] jitendex-yomitan (2026-07-09).zip
+1egEcV18E3NUJvhteWLImyGFs1Erg-LKE	02 [JA-EN] 新和英.zip
+1WhJk0gsgL2z_A6cYqIB7185EZd5GPvxs	03 [JA-JA] 旺文社国語辞典 第十一版 [no-images].zip
+1eCe0Zeowv_EZZNp7ysMiER-Hj9A8PSvY	04 [JA-EN Grammar] dojg-consolidated-v1_01.zip
+https://github.com/Kuuuube/yomitan-dictionaries/releases/download/yomitan-permalink/JPDB_v2.2_Frequency_Kana.zip	05 [JA Freq] JPDB_v2.2_Frequency_Kana_2024-10-13.zip
+1Kvu8wVo5DHD0foIlmZSVtQ0weAwu0UgL	06 [JA Freq] Freq_CC100.zip
+https://github.com/yomidevs/jmdict-yomitan/releases/download/2026-08-02/KANJIDIC_english.zip	07 [Kanji] KANJIDIC_english (2026-08-02).zip
+1hBdI4GJ7VVc5rbtCCVHexsbzgUA0trxj	08 [Pitch] NHK2016.zip

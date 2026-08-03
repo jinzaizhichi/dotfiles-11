@@ -1,37 +1,46 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
-export DOTFILES="$HOME/dotfiles"
-export XDG_CONFIG_HOME="$HOME/.config"
-export XDG_DATA_HOME="$HOME/.local/share"
-export SCRIPTS="$DOTFILES/scripts"
-export OPT="$HOME/opt"
-export ASDF_DIR="$OPT/asdf"
+set -euo pipefail
 
-# . $SCRIPTS/install-system-packages.sh
-# . $SCRIPTS/install-xdg-and-home-configs.sh
-# . $SCRIPTS/setup-fonts.sh
-# . $SCRIPTS/set-zsh-to-be-default-shell.sh
-# . $SCRIPTS/install-anki.sh
-# . $SCRIPTS/disable-snap-ubuntu-22.04.sh
+os_release_file="${OS_RELEASE_FILE:-/etc/os-release}"
+if [ ! -r "$os_release_file" ]; then
+	echo "Cannot identify this operating system." >&2
+	exit 1
+fi
 
+. "$os_release_file"
 
-# . $SCRIPTS/install-firefox.sh
-# . $SCRIPTS/patch-the-fox.sh
-# . $SCRIPTS/enable-firefox-user-content-css.sh
+if [ "${ID:-}" != ubuntu ]; then
+	echo "This bootstrap supports Ubuntu only." >&2
+	exit 1
+fi
 
+case "${VERSION_ID:-}:${XDG_CURRENT_DESKTOP:-}" in
+24.04:*Cinnamon* | 26.04:*KDE*) ;;
+*)
+	printf 'Unsupported platform: Ubuntu %s with %s.\n' \
+		"${VERSION_ID:-unknown}" "${XDG_CURRENT_DESKTOP:-unknown}" >&2
+	exit 1
+	;;
+esac
 
-# . $SCRIPTS/disable-sudo-admin-successful.sh
-# . $SCRIPTS/patch-lightdm.sh
-# https://askubuntu.com/a/961459
-# . $SCRIPTS/change-xauthority-location.sh 
+scripts_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+DOTFILES="$(dirname "$scripts_dir")"
+export DOTFILES
+export XDG_CONFIG_HOME="${XDG_CONFIG_HOME:-$HOME/.config}"
+export XDG_DATA_HOME="${XDG_DATA_HOME:-$HOME/.local/share}"
 
+"$scripts_dir/bootstrap/install-packages.sh"
 
-# switch to mise, i guess
-# . $SCRIPTS/install-asdf.sh
+mkdir -p "$XDG_CONFIG_HOME" "$XDG_DATA_HOME/zinit"
+zinit_home="$XDG_DATA_HOME/zinit/zinit.git"
+if [ ! -f "$zinit_home/zinit.zsh" ]; then
+	git clone https://github.com/zdharma-continuum/zinit "$zinit_home"
+fi
 
- 
- 
-# # kinda crappy scripts
-# # run at your own risk
-# # OPT=$OPT . $SCRIPTS/install-python-lsp.sh
-# # . $SCRIPTS/xdg-bash.sh
+"$scripts_dir/bootstrap/link-configs.sh"
+"$scripts_dir/bootstrap/install-mise.sh"
+
+"$scripts_dir/bootstrap/configure-desktop.sh"
+
+echo "Bootstrap complete. Start a new login shell to load the configuration."

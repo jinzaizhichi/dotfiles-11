@@ -1,0 +1,68 @@
+(defcfg
+    process-unmapped-keys yes
+    log-layer-changes no
+)
+
+(defsrc
+    esc
+    caps
+    lshift
+    rshift
+    grv
+    spc
+)
+
+(deflayer default
+    caps
+    esc
+    @left-shift
+    @right-shift
+    grv
+    @space-ctrl
+)
+
+(defalias
+    ;; Space: tap = space, hold = Ctrl + symbol layer
+    space-ctrl
+    (tap-hold-press 150 150 spc (multi lctl (layer-while-held symbols)))
+
+    ;; Tap = one-shot Shift, double tap = locked Shift, tap again = unlock
+    left-shift (switch
+        ((input virtual shift-lock)) (on-press release-vkey shift-lock) break
+        () (tap-dance-eager 250 ((one-shot 2000 lsft) (on-press toggle-vkey shift-lock))) break)
+    right-shift (switch
+        ((input virtual shift-lock)) (on-press release-vkey shift-lock) break
+        () (tap-dance-eager 250 ((one-shot 2000 rsft) (on-press toggle-vkey shift-lock))) break)
+)
+
+;; Hold Space to type shifted symbols without holding Shift.
+(deflayermap (symbols)
+    1 (unmod lsft 1)
+    2 (unmod lsft 2)
+    3 (unmod lsft 3)
+    4 (unmod lsft 4)
+    5 (unmod lsft 5)
+    6 (unmod lsft 6)
+    7 (unmod lsft 7)
+    8 (unmod lsft 8)
+    9 (unmod lsft 9)
+    0 (unmod lsft 0)
+    - (unmod lsft -)
+    = (unmod lsft =)
+    ] (unmod lsft ])
+    \ (unmod lsft \)
+    ; (unmod lsft ;)
+    ' (unmod lsft ')
+    , (unmod lsft ,)
+    . (unmod lsft .)
+)
+
+(defvirtualkeys
+    shift-lock lsft
+)
+
+;; Swap ` and ~
+(defoverrides
+    (grv) (lsft grv)
+    (lsft grv) (grv)
+)

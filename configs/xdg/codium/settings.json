@@ -1,0 +1,36 @@
+{
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+    "vscode-neovim.compositeKeys": {
+        "kj": {
+            "command": "vscode-neovim.escape"
+        }
+    },
+    "git.openRepositoryInParentFolders": "never",
+    "workbench.activityBar.location": "hidden",
+    "window.menuBarVisibility": "toggle",
+    "vscode-neovim.revealCursorScrollLine": true,
+    "vscode-neovim.neovimPath": "nvim",
+    "editor.minimap.enabled": false,
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.cursorBlinking": "solid",
+    "editor.scrollbar.vertical": "hidden",
+    "editor.overviewRulerBorder": false,
+    "editor.lineNumbers": "relative",
+    "editor.renderLineHighlight": "none",
+    "editor.fontLigatures": false,
+    "redhat.telemetry.enabled": false,
+    "telemetry.telemetryLevel": "off",
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "code-runner.enableAppInsights": false,
+    "update.mode": "none",
+    "extensions.autoUpdate": "onlySelectedExtensions",
+    "extensions.ignoreRecommendations": true,
+    // "workbench.editor.showTabs": "none",
+    "workbench.editor.labelFormat": "long",
+    "editor.fontSize": 16,
+    "editor.fontFamily": "'UbuntuMono Nerd Font','Droid Sans Mono', 'monospace', monospace",
+    "keyboard.dispatch": "keyCode"
+}

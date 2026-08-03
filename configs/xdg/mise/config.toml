@@ -1,0 +1,18 @@
+[tools]
+node = "20.20.2"
+go = "1.21"
+java = "22"
+deno = "1.45.2"
+rust = "stable"
+uv = "latest"
+lazygit = "latest"
+lazydocker = "latest"
+shfmt = "latest"
+k9s = "latest"
+"github:zk-org/zk" = "latest"
+"github:ewhauser/shuck" = { version = "latest", matching = "shuck-cli" }
+bob = "latest"
+"github:jtroo/kanata" = { version = "latest", asset_pattern = "linux-binaries-x64.zip", rename_exe = { kanata_linux_x64 = "kanata" }, filter_bins = "kanata" }
+
+[settings]
+idiomatic_version_file_enable_tools = []

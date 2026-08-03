@@ -1,0 +1,16 @@
+85158043	Minimize to tray
+182970692	AJT Browser Play Button
+385888438	Edit Field During Review Cloze
+530953383	Removes Empty Note Types for 21
+580654285	Yomichan Forvo Server
+819023663	RefoldEase
+909972618	Kanji Grid
+1045800357	Local Audio Server for Yomichan
+1124670306	Set Added Date
+1238121460	Show total time spent in main screen
+1344485230	AJT Japanese
+1425504015	Merge Notes
+1730200873	Show total review count in main screen
+1771074083	Review Heatmap
+2055492159	AnkiConnect
+2491935955	Quick Colour Changing

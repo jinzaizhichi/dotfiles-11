@@ -1,25 +1,27 @@
-# Vimium Local New Tab Design
+# Local New Tab Design
 
 ## Goal
 
-Keep Vimium current while replacing its removed `pages/blank.html` with a private local page that preserves the existing background styling.
+Keep Vimium current while preserving the private background page for both Firefox's `Ctrl+T` and Vimium's `t` command.
 
 ## Design
 
-- Store the page at `xdg/vimium/blank.html` and its image at `xdg/vimium/background.webp`.
-- Let the existing XDG linker expose them as `$XDG_CONFIG_HOME/vimium/blank.html` and `$XDG_CONFIG_HOME/vimium/background.webp`.
-- Make the HTML self-contained except for the adjacent image. Preserve the active `userContent.css` behavior: full height, zero margin, no repeat, cover sizing, and right-center positioning.
-- Configure Vimium's supported **Custom URL** setting to the resulting `file://` URL. Do not patch Vimium or mutate Firefox's extension-storage database.
-- Remove the obsolete `pages/blank.html` CSS rule from the active Firefox profile after the local page is configured. Other `userContent.css` rules remain untouched.
+- Store the page and WebP separately under `configs/xdg/new-tab/`.
+- Serve that directory only on `127.0.0.1:8766` using Python's standard-library HTTP server and a systemd user service.
+- Configure New Tab Override's **Custom URL** as `http://127.0.0.1:8766/blank.html` and make it focus the website.
+- Configure Vimium's new-tab destination as **Browser's default new tab page**. Its `t` command then creates an ordinary new tab, which New Tab Override handles just like `Ctrl+T`.
+- Preserve the active appearance: full height, zero margin, no repeat, cover sizing, and right-center positioning.
+
+## Constraints
+
+Firefox rejects `file://` URLs supplied to the WebExtensions tab-creation API, and Vimium cannot inject into New Tab Override's `moz-extension://` local-file page. Do not point Vimium directly at the file, patch either extension, expose the service beyond loopback, or mutate Firefox's extension-storage databases.
 
 ## Fresh-machine behavior
 
-The normal bootstrap links the tracked `xdg/vimium` directory. Firefox/Vimium setup documentation gives the generated local URL to enter once in Vimium; Firefox Sync may subsequently carry that setting between profiles using the same home path.
-
-Vimium installation remains a user-confirmed Firefox action because Firefox does not permit an ordinary bootstrap script to silently install an AMO extension. No unsupported enterprise policy or direct SQLite editing is introduced.
+The bootstrap links the tracked files to `$XDG_CONFIG_HOME/new-tab/`. The optional Firefox configuration script links and enables the user service. Firefox requires a one-time New Tab Override configuration.
 
 ## Verification
 
-- The bootstrap test verifies the Vimium directory symlink and both page assets.
-- A static check verifies that the page references `background.webp` and retains the required layout declarations.
-- The current profile is checked manually after upgrading Vimium: `t` opens the local page, the image covers the viewport at right center, and normal Vimium commands work.
+- The bootstrap test verifies the XDG link, page assets, unit, and service-enabling command.
+- Render the tracked page in Firefox and verify the background fills the viewport at right center.
+- Confirm that the service listens only on `127.0.0.1` and that `Ctrl+T` plus Vimium's `t` open the loopback page with Vimium active.

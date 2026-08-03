@@ -1,0 +1,141 @@
+" XDG support
+
+if empty($MYVIMRC) | let $MYVIMRC = expand('<sfile>:p') | endif
+
+if empty($XDG_CACHE_HOME)  | let $XDG_CACHE_HOME  = $HOME."/.cache"       | endif
+if empty($XDG_CONFIG_HOME) | let $XDG_CONFIG_HOME = $HOME."/.config"      | endif
+if empty($XDG_DATA_HOME)   | let $XDG_DATA_HOME   = $HOME."/.local/share" | endif
+if empty($XDG_STATE_HOME)  | let $XDG_STATE_HOME  = $HOME."/.local/state" | endif
+
+set runtimepath^=$XDG_CONFIG_HOME/vim
+set runtimepath+=$XDG_DATA_HOME/vim
+set runtimepath+=$XDG_CONFIG_HOME/vim/after
+
+set packpath^=$XDG_DATA_HOME/vim,$XDG_CONFIG_HOME/vim
+set packpath+=$XDG_CONFIG_HOME/vim/after,$XDG_DATA_HOME/vim/after
+
+let g:netrw_home = $XDG_DATA_HOME."/vim"
+call mkdir($XDG_DATA_HOME."/vim/spell", 'p', 0700)
+
+set backupdir=$XDG_STATE_HOME/vim/backup | call mkdir(&backupdir, 'p', 0700)
+set directory=$XDG_STATE_HOME/vim/swap   | call mkdir(&directory, 'p', 0700)
+set undodir=$XDG_STATE_HOME/vim/undo     | call mkdir(&undodir,   'p', 0700)
+set viewdir=$XDG_STATE_HOME/vim/view     | call mkdir(&viewdir,   'p', 0700)
+
+
+if !has('nvim') " Neovim has its own special location
+  set viminfofile=$XDG_STATE_HOME/vim/viminfo
+endif
+
+let data_dir = has('nvim') ? stdpath('data') . '/site' : $XDG_CONFIG_HOME."/vim"
+if empty(glob(data_dir . '/autoload/plug.vim'))
+  silent execute '!curl -fLo '.data_dir.'/autoload/plug.vim --create-dirs  https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+endif
+
+call plug#begin($XDG_CACHE_HOME."/vim/plugged")
+  Plug 'vim/colorschemes'
+  Plug 'tomasiser/vim-code-dark'
+  Plug 'prabirshrestha/vim-lsp'
+  Plug 'mattn/vim-lsp-settings'
+  Plug 'prabirshrestha/asyncomplete.vim'
+  Plug 'prabirshrestha/asyncomplete-lsp.vim'
+  
+  Plug 'hrsh7th/vim-vsnip'
+  Plug 'hrsh7th/vim-vsnip-integ'
+  Plug 'OmniSharp/omnisharp-vim'
+
+call plug#end()
+
+let g:lsp_format_sync_timeout = 1000
+let g:lsp_diagnostics_echo_cursor = 1
+let g:lsp_diagnostics_virtual_text_enabled = 1
+
+function! s:on_lsp_buffer_enabled() abort
+    setlocal omnifunc=lsp#complete
+    setlocal signcolumn=yes
+    if exists('+tagfunc') | setlocal tagfunc=lsp#tagfunc | endif
+    nmap <buffer> gd <plug>(lsp-definition)
+    nmap <buffer> gs <plug>(lsp-document-symbol-search)
+    nmap <buffer> gS <plug>(lsp-workspace-symbol-search)
+    nmap <buffer> gr <plug>(lsp-references)
+    nmap <buffer> gi <plug>(lsp-implementation)
+    nmap <buffer> gt <plug>(lsp-type-definition)
+    nmap <buffer> <leader>rn <plug>(lsp-rename)
+    nmap <buffer> [g <plug>(lsp-previous-diagnostic)
+    nmap <buffer> ]g <plug>(lsp-next-diagnostic)
+    nmap <buffer> K <plug>(lsp-hover)
+    " nnoremap <buffer> <expr><c-f> lsp#scroll(+4)
+    " nnoremap <buffer> <expr><c-d> lsp#scroll(-4)
+
+    autocmd! BufWritePre *.rs,*.go call execute('LspDocumentFormatSync')
+
+    " refer to doc to add more commands
+endfunction
+
+augroup lsp_install
+    au!
+    " call s:on_lsp_buffer_enabled only for languages that has the server registered.
+    autocmd User lsp_buffer_enabled call s:on_lsp_buffer_enabled()
+augroup END
+
+" colorscheme codedark
+
+" NOTE: You can use other key to expand snippet.
+
+" Expand
+" imap <expr> <C-k>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-k>'
+" smap <expr> <C-k>   vsnip#expandable()  ? '<Plug>(vsnip-expand)'         : '<C-k>'
+
+" Expand or jump
+" imap <expr> <C-l>   vsnip#available(1)  ? '<Plug>(vsnip-expand-or-jump)' : '<C-l>'
+" smap <expr> <C-l>   vsnip#available(1)  ? '<Plug>(vsnip-expand-or-jump)' : '<C-l>'
+
+" Jump forward or backward
+imap <expr> <c-k>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<c-k>'
+smap <expr> <c-k>   vsnip#jumpable(1)   ? '<Plug>(vsnip-jump-next)'      : '<c-k>'
+imap <expr> <c-j> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<c-j>'
+smap <expr> <c-j> vsnip#jumpable(-1)  ? '<Plug>(vsnip-jump-prev)'      : '<c-j>'
+
+
+inoremap kj <esc>
+set hlsearch
+set incsearch
+
+let mapleader = ' '
+
+nnoremap q; q:
+" nnoremap <a-c> :
+nnoremap <esc>c :
+vnoremap <esc>c :
+inoremap kj <esc>
+nnoremap <silent> <c-l> <c-l>:silent nohls<cr>
+
+nnoremap <leader>ec  :edit <c-r>=fnameescape(expand('%:p:h')).'/*'<cr>
+nnoremap <leader>en  :edit <c-r>=stdpath('config').'/**/*'<cr>
+
+nnoremap <silent> <leader>lg :silent lgrep<space>
+nnoremap <leader>lf :lexpr system('fdfind --hidden --no-ignore-vcs -g "*"')<left><left><left><left>
+nnoremap <leader>lt :ltag <space>/
+nnoremap <leader>cc :silent cclose<bar>lclose<cr>
+nnoremap cd :silent lcd %:p:h<bar>pwd<cr>
+nnoremap cu :silent lcd ..<bar>pwd<cr>
+
+nnoremap <a-j> :m .+1<CR>==
+nnoremap <a-k> :m .-2<CR>==
+inoremap <a-j> <Esc>:m .+1<CR>==gi
+inoremap <a-k> <Esc>:m .-2<CR>==gi
+xnoremap <a-j> :m '>+1<CR>gv=gv
+xnoremap <a-k> :m '<-2<CR>gv=gv
+
+tnoremap <esc> <C-\><C-n>
+tnoremap <c-q> <C-\><C-n>
+
+nnoremap s <nop>
+
+snoremap <c-h> <c-h>
+
+set number
+set relativenumber
+
+set clipboard=unnamedplus

@@ -1,14 +1,13 @@
 extensions
 .zsh_history
 .zcompdump
-id_dsa
-id_dsa.pub
-id_rsa
-id_rsa.pub
-known_hosts
 pylance
-id_dsa
-id_rsa
-known_hosts
 user_files/
 *.sqlite3
+
+# Machine-specific SSH identities and host state.
+/configs/xdg/ssh/id_*
+/configs/xdg/ssh/known_hosts*
+
+# Restored separately; do not vendor downloaded Anki add-ons.
+/japanese/anki/addons21/

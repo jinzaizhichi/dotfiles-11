@@ -1,3 +1,0 @@
-# https://bbs.archlinux.org/viewtopic.php?pid=1543214#p1543214
-(sleep 3 && xset r rate 220 40)&
-(sleep 3.1 && xkbcomp $HOME/.config/xkb/my $DISPLAY 2> /dev/null)&

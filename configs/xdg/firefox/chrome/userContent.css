@@ -1,0 +1,341 @@
+@-moz-document regexp("about.*") {
+  html {
+    height: 100vh;
+    background-color: #1C1B22;
+  }
+}
+
+@-moz-document regexp("^moz-extension://.*/html/newtab[.]html$") {
+  html,
+  body {
+    background-color: #1c1b22 !important;
+  }
+}
+
+@-moz-document regexp("https://www.youtube.com/.*") {
+  ytd-guide-section-renderer.style-scope:nth-child(2) {
+    display: none !important;
+  }
+}
+
+@-moz-document regexp("^moz-extension://.*search.html.*$") {
+  .content {
+    background-color: #777;
+  }
+
+  .search-header-wrapper {
+    background-color: #777 !important;
+  }
+}
+
+@-moz-document regexp("^moz-extension://.*welcome.html.*$") {
+  .content {
+    background-color: #777;
+  }
+}
+
+@-moz-document regexp("^moz-extension://.*settings.html.*$") {
+  .content {
+    background-color: #777;
+  }
+}
+
+@-moz-document regexp("^https://reader.ttsu.app/.*$") {
+  .book-content .kindle .pcalibre1 {
+    color: #ccc;
+  }
+}
+
+
+@-moz-document regexp("https://x.com/.*") {
+  body, .r-kemksi, [style*="background-color: rgb(0, 0, 0);"] {
+      background-color: rgb(21, 32, 43) !important;
+  }
+
+  .r-5zmot {
+      background-color: rgb(21, 32, 43, 0.65) !important;
+  }
+
+  .r-1kqtdi0, .r-1roi411, .border-gray-100 {
+      border-color: rgb(56 68 77) !important;
+  }
+  .r-2sztyj {
+      border-top-color: rgb(56 68 77) !important;
+  }
+  .r-1igl3o0 {
+      border-bottom-color: rgb(56 68 77) !important;
+  }
+
+  [style*="color: rgb(113, 118, 123);"], .text-gray-700 {
+      color: rgb(139 152 165) !important;
+  }
+
+  .from-background {
+      --tw-gradient-from: none !important;
+  }
+}
+
+
+
+
+/* @-moz-document regexp("https://chatgpt.com/.*") { */
+/*   :root { */
+/*     --main-surface-primary: #212121 !important; */
+/*     --main-surface-secondary: #2b2b2b !important; */
+/*     --main-surface-tertiary: #333333 !important; */
+/*     --sidebar-surface-primary: #181818 !important; */
+/*   } */
+/**/
+/*   body, */
+/*   .dark, */
+/*   [class*="bg-token-main-surface-primary"] { */
+/*     background-color: #212121 !important; */
+/*   } */
+/**/
+/*   [class*="bg-token-main-surface-secondary"] { */
+/*     background-color: #2b2b2b !important; */
+/*   } */
+/**/
+/*   [class*="bg-token-main-surface-tertiary"] { */
+/*     background-color: #333333 !important; */
+/*   } */
+/* } */
+/**/
+/**/
+
+@-moz-document domain("coursera.org") {
+  /*
+   * Coursera — charcoal theme
+   * Inspired by ChatGPT's dark palette
+   */
+
+  :root {
+    color-scheme: dark !important;
+
+    --coursera-charcoal: #212121;
+    --coursera-surface: #2f2f2f;
+    --coursera-raised: #363636;
+    --coursera-hover: #424242;
+    --coursera-border: #4a4a4a;
+    --coursera-text: #ececec;
+    --coursera-muted: #b4b4b4;
+    --coursera-blue: #6ea8fe;
+
+    /* Coursera Design System variables */
+    --cds-color-neutral-background-primary: #212121 !important;
+    --cds-color-neutral-background-secondary: #2f2f2f !important;
+    --cds-color-neutral-background-weak: #363636 !important;
+    --cds-color-neutral-primary: #ececec !important;
+    --cds-color-neutral-primary-weak: #b4b4b4 !important;
+    --cds-color-neutral-border: #4a4a4a !important;
+  }
+
+  html,
+  body,
+  #root,
+  #rendered-content,
+  #page,
+  main {
+    background-color: var(--coursera-charcoal) !important;
+    color: var(--coursera-text) !important;
+  }
+
+  /*
+   * Major page surfaces
+   */
+  header,
+  footer,
+  nav,
+  aside,
+  section,
+  article,
+  [role="navigation"],
+  [role="dialog"],
+  [role="menu"],
+  [role="listbox"],
+  [class*="Card"],
+  [class*="card"],
+  [class*="Modal"],
+  [class*="modal"],
+  [class*="Drawer"],
+  [class*="drawer"],
+  [class*="Sidebar"],
+  [class*="sidebar"] {
+    background-color: var(--coursera-surface) !important;
+    border-color: var(--coursera-border) !important;
+  }
+
+  /*
+   * Replace explicit white backgrounds used by React components.
+   */
+  :is(div, section, article, aside, header, footer, nav)
+    [style*="background-color: white"],
+  :is(div, section, article, aside, header, footer, nav)
+    [style*="background-color: rgb(255, 255, 255)"],
+  :is(div, section, article, aside, header, footer, nav)
+    [style*="background: white"],
+  .bg-white {
+    background-color: var(--coursera-surface) !important;
+  }
+
+  /*
+   * Text
+   */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  li,
+  label,
+  legend,
+  dt,
+  dd,
+  span {
+    border-color: var(--coursera-border);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  label,
+  legend {
+    color: var(--coursera-text) !important;
+  }
+
+  p,
+  li,
+  dt,
+  dd,
+  time,
+  small {
+    color: inherit;
+  }
+
+  /*
+   * Links retain Coursera's identity.
+   */
+  a:not([role="button"]) {
+    color: var(--coursera-blue) !important;
+  }
+
+  a:not([role="button"]):hover {
+    color: #9bc2ff !important;
+  }
+
+  /*
+   * Form controls
+   */
+  input,
+  textarea,
+  select,
+  option {
+    background-color: var(--coursera-raised) !important;
+    border-color: var(--coursera-border) !important;
+    color: var(--coursera-text) !important;
+  }
+
+  input::placeholder,
+  textarea::placeholder {
+    color: var(--coursera-muted) !important;
+    opacity: 1 !important;
+  }
+
+  input:focus,
+  textarea:focus,
+  select:focus {
+    border-color: var(--coursera-blue) !important;
+    outline-color: var(--coursera-blue) !important;
+  }
+
+  /*
+   * Tables, menus, cards and expandable items
+   */
+  table,
+  thead,
+  tbody,
+  tr,
+  th,
+  td {
+    background-color: transparent !important;
+    border-color: var(--coursera-border) !important;
+    color: var(--coursera-text) !important;
+  }
+
+  [role="menu"],
+  [role="listbox"],
+  [role="dialog"],
+  [class*="popover"],
+  [class*="Popover"],
+  [class*="dropdown"],
+  [class*="Dropdown"] {
+    background-color: var(--coursera-raised) !important;
+    color: var(--coursera-text) !important;
+    box-shadow: 0 8px 24px rgb(0 0 0 / 45%) !important;
+  }
+
+  [role="menuitem"]:hover,
+  [role="option"]:hover,
+  summary:hover {
+    background-color: var(--coursera-hover) !important;
+  }
+
+  /*
+   * Course content and code
+   */
+  pre,
+  code,
+  kbd,
+  samp {
+    background-color: #171717 !important;
+    border-color: var(--coursera-border) !important;
+    color: #e6e6e6 !important;
+  }
+
+  blockquote {
+    background-color: var(--coursera-raised) !important;
+    border-color: var(--coursera-blue) !important;
+    color: var(--coursera-text) !important;
+  }
+
+  /*
+   * Dividers and progress tracks
+   */
+  hr {
+    border-color: var(--coursera-border) !important;
+  }
+
+  progress {
+    background-color: var(--coursera-hover) !important;
+    accent-color: var(--coursera-blue) !important;
+  }
+
+  /*
+   * Preserve content that should not be recoloured.
+   */
+  img,
+  picture,
+  video,
+  canvas,
+  iframe,
+  svg {
+    color-scheme: normal;
+  }
+
+  /*
+   * Scrollbars
+   */
+  * {
+    scrollbar-color: #686868 var(--coursera-charcoal);
+  }
+
+  ::selection {
+    background-color: #315f8f !important;
+    color: #fff !important;
+  }
+}

@@ -1,0 +1,8 @@
+#!/bin/sh
+
+set -eu
+
+real_home="$HOME"
+export HOME="${XDG_DATA_HOME:-$real_home/.local/share}/appgate/home"
+mkdir -p "$HOME"
+exec "${APPGATE_BIN:-/usr/bin/appgate.vendor}" "$@"

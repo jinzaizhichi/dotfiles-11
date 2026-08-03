@@ -1,0 +1,200 @@
+# ==========================================
+# Login shell environment (.profile)
+# Used by display managers like LightDM
+# and login shells.
+#
+# https://unix.stackexchange.com/questions/552459
+# ==========================================
+
+# ==========================================
+# XDG Base Directories
+# ==========================================
+
+export XDG_CONFIG_HOME="$HOME/.config"
+export XDG_DATA_HOME="$HOME/.local/share"
+export XDG_CACHE_HOME="$HOME/.cache"
+export XDG_STATE_HOME="$HOME/.local/state"
+
+# ==========================================
+# Core Paths
+# ==========================================
+
+export DOTFILES="$HOME/dotfiles"
+export OPT="$HOME/opt"
+export ZDOTDIR="$XDG_CONFIG_HOME/zsh"
+
+mkdir -p "$OPT"
+mkdir -p "$XDG_STATE_HOME"
+
+# ==========================================
+# PATH
+# User paths first
+# ==========================================
+
+if [ -d "$HOME/.local/bin" ]; then
+    export PATH="$HOME/.local/bin:$PATH"
+fi
+
+# ==========================================
+# Core Environment
+# ==========================================
+
+export BROWSER="firefox"
+export EDITOR="nvim"
+export NVIM_APPNAME="nvim"
+
+export WGETRC="$XDG_CONFIG_HOME/wgetrc"
+export INPUTRC="$XDG_CONFIG_HOME/readline/inputrc"
+
+export SUDO_ASKPASS="/usr/bin/ssh-askpass"
+
+mkdir -p "$XDG_STATE_HOME/redis" "$XDG_STATE_HOME/sqlite"
+export REDISCLI_HISTFILE="$XDG_STATE_HOME/redis/history"
+export SQLITE_HISTORY="$XDG_STATE_HOME/sqlite/history"
+
+# ==========================================
+# GnuPG
+# ==========================================
+
+export GNUPGHOME="$XDG_DATA_HOME/gnupg"
+
+# ==========================================
+# Node / npm
+# ==========================================
+
+# https://github.com/npm/npm/issues/6675
+export NPM_CONFIG_USERCONFIG="$XDG_CONFIG_HOME/npm/config"
+export NPM_CONFIG_CACHE="$XDG_CACHE_HOME/npm"
+
+# ==========================================
+# Rust
+# ==========================================
+
+export RUSTUP_HOME="$XDG_DATA_HOME/rustup"
+export CARGO_HOME="$XDG_DATA_HOME/cargo"
+
+export PATH="$CARGO_HOME/bin:$PATH"
+
+if [ -f "$CARGO_HOME/env" ]; then
+    . "$CARGO_HOME/env"
+fi
+
+# ==========================================
+# Go
+# ==========================================
+
+export GOPATH="$XDG_DATA_HOME/go"
+export PATH="$GOPATH/bin:$PATH"
+
+# ==========================================
+# Python
+# ==========================================
+
+export PYTHONSTARTUP="$XDG_CONFIG_HOME/pythonstartup.py"
+export UV_PROJECT_ENVIRONMENT=venv
+export NLTK_DATA="$XDG_DATA_HOME/nltk"
+
+# ==========================================
+# Ruby
+# ==========================================
+
+export GEM_HOME="$XDG_CACHE_HOME/gems"
+export PATH="$GEM_HOME/bin:$PATH"
+
+# ==========================================
+# Ruff
+# ==========================================
+
+export RUFF_CACHE_DIR="$XDG_CACHE_HOME/ruff"
+
+# ==========================================
+# Java
+# ==========================================
+
+export CLASSPATH="."
+export GRADLE_USER_HOME="$XDG_DATA_HOME/gradle"
+
+mkdir -p "$XDG_CONFIG_HOME/java"
+mkdir -p "$XDG_STATE_HOME/java"
+
+export _JAVA_OPTIONS="\
+-Djava.util.prefs.userRoot=$XDG_CONFIG_HOME/java \
+-XX:ErrorFile=$XDG_STATE_HOME/java/hs_err_pid%p.log"
+
+# ==========================================
+# Scala / Coursier
+# ==========================================
+
+export PATH="$XDG_DATA_HOME/coursier/bin:$PATH"
+
+# ==========================================
+# Mise
+# ==========================================
+
+export PATH="$XDG_DATA_HOME/bob/nvim-bin:$PATH"
+export PATH="$XDG_DATA_HOME/mise/shims:$PATH"
+
+# ==========================================
+# Codex
+# ==========================================
+
+export CODEX_HOME="$XDG_DATA_HOME/codex"
+
+# ==========================================
+# PostgreSQL
+# ==========================================
+
+mkdir -p "$XDG_CONFIG_HOME/pg"
+
+export PSQLRC="$XDG_CONFIG_HOME/pg/psqlrc"
+export PSQL_HISTORY="$XDG_STATE_HOME/psql_history"
+export PGPASSFILE="$XDG_CONFIG_HOME/pg/pgpass"
+export PGSERVICEFILE="$XDG_CONFIG_HOME/pg/pg_service.conf"
+
+# ==========================================
+# Docker
+# ==========================================
+
+export DOCKER_CONFIG="$XDG_CONFIG_HOME/docker"
+
+# ==========================================
+# Kubernetes
+# ==========================================
+
+export KUBECACHEDIR="$XDG_CACHE_HOME/kube"
+
+# ==========================================
+# Wine
+# ==========================================
+
+mkdir -p "$XDG_DATA_HOME/wineprefixes"
+
+export WINEPREFIX="$XDG_DATA_HOME/wineprefixes/default"
+
+# ==========================================
+# Less
+# ==========================================
+
+mkdir -p "$XDG_STATE_HOME/less"
+
+export LESSHISTFILE="$XDG_STATE_HOME/less/history"
+
+# ==========================================
+# Omnisharp
+# ==========================================
+
+export OMNISHARPHOME="$XDG_CONFIG_HOME/omnisharp"
+
+# ==========================================
+# Zettelkasten
+# ==========================================
+
+export ZK_NOTEBOOK_DIR="$HOME/zk"
+
+mkdir -p "$ZK_NOTEBOOK_DIR"
+
+# ==========================================
+# Temporary Directory
+# ==========================================
+
+mkdir -p /tmp/tmp
