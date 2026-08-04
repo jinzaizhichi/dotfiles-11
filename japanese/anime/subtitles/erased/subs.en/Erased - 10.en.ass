@@ -1,0 +1,324 @@
+[Script Info]
+Title: Erased - 10
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1280
+PlayResY: 720
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Dialogue,Noto Sans,46,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,40,40,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.78,0:00:03.13,Dialogue,,0,0,0,,Congratulations on graduating!
+Dialogue: 0,0:00:05.66,0:00:12.35,Dialogue,,0,0,0,,{\i1}In 1988 in my original life,\N{\i1}Kayo, Hiromi, and Nakanishi Aya went missing
+Dialogue: 0,0:00:12.84,0:00:14.43,Dialogue,,0,0,0,,{\i1}and were later found dead.
+Dialogue: 0,0:00:15.65,0:00:17.80,Dialogue,,0,0,0,,{\i1}I blamed myself for not being able to save anyone.
+Dialogue: 0,0:00:20.70,0:00:22.26,Dialogue,,0,0,0,,{\i1}I tried my hardest to forget all about it...
+Dialogue: 0,0:00:23.85,0:00:28.43,Dialogue,,0,0,0,,{\i1}and was left with nothing\Nbut a gaping hole in my heart.
+Dialogue: 0,0:00:30.41,0:00:35.63,Dialogue,,0,0,0,,You've experienced joy, sorrow, success, and failure.
+Dialogue: 0,0:00:36.56,0:00:41.16,Dialogue,,0,0,0,,Today you graduate elementary school,\Nbut you're all still lacking in many ways.
+Dialogue: 0,0:00:42.25,0:00:43.61,Dialogue,,0,0,0,,And I'm no different.
+Dialogue: 0,0:00:44.33,0:00:50.86,Dialogue,,0,0,0,,But I believe that filling the holes\Nin ourselves is what life's all about.
+Dialogue: 0,0:02:30.78,0:02:31.49,Dialogue,,0,0,0,,Hello.
+Dialogue: 0,0:02:34.04,0:02:34.75,Dialogue,,0,0,0,,Who're you?
+Dialogue: 0,0:02:35.46,0:02:37.32,Dialogue,,0,0,0,,I'm Fujinuma Satoru, a fifth-grader at Mikoto.
+Dialogue: 0,0:02:37.64,0:02:38.73,Dialogue,,0,0,0,,I'm Kobayashi Kenya.
+Dialogue: 0,0:02:39.07,0:02:40.21,Dialogue,,0,0,0,,I'm Sugita Hiromi.
+Dialogue: 0,0:02:40.92,0:02:42.05,Dialogue,,0,0,0,,Have we met before?
+Dialogue: 0,0:02:42.26,0:02:45.50,Dialogue,,0,0,0,,You're Nakanishi Aya-san, right?\NI hear you're pretty good at piano.
+Dialogue: 0,0:02:47.25,0:02:48.83,Dialogue,,0,0,0,,I'm pretty good, yeah.
+Dialogue: 0,0:02:49.73,0:02:51.16,Dialogue,,0,0,0,,Have we met at piano class?
+Dialogue: 0,0:02:51.48,0:02:53.09,Dialogue,,0,0,0,,No, that's not it.
+Dialogue: 0,0:02:53.77,0:02:55.74,Dialogue,,0,0,0,,Say, what's that book you're reading?
+Dialogue: 0,0:02:56.01,0:02:56.90,Dialogue,,0,0,0,,Oh, this?
+Dialogue: 0,0:02:57.72,0:02:58.60,Dialogue,,0,0,0,,Shakespeare.
+Dialogue: 0,0:02:58.72,0:02:59.60,Dialogue,,0,0,0,,King Lear?!
+Dialogue: 0,0:02:59.74,0:03:01.73,Dialogue,,0,0,0,,I've only read Romeo and Juliet.
+Dialogue: 0,0:03:02.20,0:03:05.09,Dialogue,,0,0,0,,My parents keep pushing me to\Nplay the piano and read Shakespeare.
+Dialogue: 0,0:03:06.78,0:03:08.59,Dialogue,,0,0,0,,What're they talking about?
+Dialogue: 0,0:03:09.09,0:03:10.89,Dialogue,,0,0,0,,Wanna get a little bit closer?
+Dialogue: 0,0:03:11.44,0:03:14.20,Dialogue,,0,0,0,,Ah! I thought you guys looked familiar!
+Dialogue: 0,0:03:14.36,0:03:17.82,Dialogue,,0,0,0,,You're the kids who're always sneaking\Ninto that building across the river!
+Dialogue: 0,0:03:19.21,0:03:22.03,Dialogue,,0,0,0,,Our hideout is totally visible from here?
+Dialogue: 0,0:03:22.52,0:03:23.14,Dialogue,,0,0,0,,Hideout?
+Dialogue: 0,0:03:24.28,0:03:25.15,Dialogue,,0,0,0,,How childish.
+Dialogue: 0,0:03:25.52,0:03:27.39,Dialogue,,0,0,0,,Ch-Ch-Chi—
+Dialogue: 0,0:03:27.64,0:03:29.17,Dialogue,,0,0,0,,Don't call it childish.
+Dialogue: 0,0:03:29.72,0:03:34.25,Dialogue,,0,0,0,,You boys are always sneaking around,\Nmaking secret bases or hideouts or whatever.
+Dialogue: 0,0:03:34.73,0:03:36.60,Dialogue,,0,0,0,,I bet you pretend to be superheroes or something.
+Dialogue: 0,0:03:36.85,0:03:39.12,Dialogue,,0,0,0,,D-Don't make fun of superheroes!
+Dialogue: 0,0:03:39.36,0:03:40.96,Dialogue,,0,0,0,,Satoru-kun!
+Dialogue: 0,0:03:41.34,0:03:43.39,Dialogue,,0,0,0,,Anyway, I have to go.
+Dialogue: 0,0:03:44.62,0:03:45.62,Dialogue,,0,0,0,,Goodbye.
+Dialogue: 0,0:03:47.33,0:03:48.34,Dialogue,,0,0,0,,Hold it!
+Dialogue: 0,0:03:48.81,0:03:49.78,Dialogue,,0,0,0,,Kazu?
+Dialogue: 0,0:03:50.33,0:03:50.84,Dialogue,,0,0,0,,Huh?
+Dialogue: 0,0:03:51.94,0:03:53.36,Dialogue,,0,0,0,,Wh-What do you want?
+Dialogue: 0,0:03:53.42,0:03:54.57,Dialogue,,0,0,0,,Hideouts are...
+Dialogue: 0,0:03:56.27,0:03:57.74,Dialogue,,0,0,0,,a symbol of adventure for men!
+Dialogue: 0,0:04:02.50,0:04:05.86,Dialogue,,0,0,0,,Try visiting our hideout when you're free!\NThen you'll understand!
+Dialogue: 0,0:04:06.92,0:04:08.25,Dialogue,,0,0,0,,You're a bunch of weirdos!
+Dialogue: 0,0:04:13.34,0:04:14.44,Dialogue,,0,0,0,,How childish.
+Dialogue: 0,0:04:16.61,0:04:18.56,Dialogue,,0,0,0,,Yesterday was fun, wasn't it?
+Dialogue: 0,0:04:19.71,0:04:24.27,Dialogue,,0,0,0,,{\i1}So I really did forget those gloves\Nthat I lost 18 years ago here.
+Dialogue: 0,0:04:24.85,0:04:26.53,Dialogue,,0,0,0,,I really don't like grinding.
+Dialogue: 0,0:04:26.57,0:04:28.01,Dialogue,,0,0,0,,But that's the fun part!
+Dialogue: 0,0:04:28.03,0:04:32.32,Dialogue,,0,0,0,,Hey, Satoru-kun,\NNakanishi-san should be {showing }at the park soon.
+Dialogue: 0,0:04:32.92,0:04:33.60,Dialogue,,0,0,0,,It's all good.
+Dialogue: 0,0:04:34.89,0:04:36.09,Dialogue,,0,0,0,,We can see her from here.
+Dialogue: 0,0:04:36.51,0:04:37.24,Dialogue,,0,0,0,,Ah.
+Dialogue: 0,0:04:37.84,0:04:39.52,Dialogue,,0,0,0,,{\i1}We messed up pretty bad yesterday.
+Dialogue: 0,0:04:40.05,0:04:42.16,Dialogue,,0,0,0,,{\i1}But how are we supposed to get closer to her?
+Dialogue: 0,0:04:47.05,0:04:49.81,Dialogue,,0,0,0,,I was free, so I figured I'd come see your hideout.
+Dialogue: 0,0:04:53.01,0:04:56.48,Dialogue,,0,0,0,,Welcome to our hideout!
+Dialogue: 0,0:04:59.78,0:05:00.53,Dialogue,,0,0,0,,Later!
+Dialogue: 0,0:05:00.59,0:05:01.41,Dialogue,,0,0,0,,Bye-bye!
+Dialogue: 0,0:05:05.78,0:05:07.07,Dialogue,,0,0,0,,Going to pick up Aya-chan again?
+Dialogue: 0,0:05:07.48,0:05:10.38,Dialogue,,0,0,0,,Yep. We'll both head to the hideout later.
+Dialogue: 0,0:05:10.94,0:05:12.54,Dialogue,,0,0,0,,Laters, then!
+Dialogue: 0,0:05:13.57,0:05:14.84,Dialogue,,0,0,0,,Laters, Sensei!
+Dialogue: 0,0:05:15.18,0:05:16.33,Dialogue,,0,0,0,,You mean "goodbye," young man.
+Dialogue: 0,0:05:16.90,0:05:19.37,Dialogue,,0,0,0,,I still can't believe those two got together.
+Dialogue: 0,0:05:19.52,0:05:23.01,Dialogue,,0,0,0,,I guess that solves the Nakanishi Aya problem.
+Dialogue: 0,0:05:23.29,0:05:23.83,Dialogue,,0,0,0,,Yeah...
+Dialogue: 0,0:05:25.61,0:05:27.34,Dialogue,,0,0,0,,Hey, Satoru-kun, Kenya-kun.
+Dialogue: 0,0:05:27.61,0:05:29.54,Dialogue,,0,0,0,,Thank you both.
+Dialogue: 0,0:05:31.06,0:05:34.81,Dialogue,,0,0,0,,I think getting rid of loneliness is a great thing.
+Dialogue: 0,0:05:35.29,0:05:37.85,Dialogue,,0,0,0,,I know how it feels.
+Dialogue: 0,0:05:37.90,0:05:40.68,Dialogue,,0,0,0,,I was always alone because\Nboth my parents work and are never really home.
+Dialogue: 0,0:05:41.53,0:05:46.14,Dialogue,,0,0,0,,You helped me get rid of mine and asked me \Nto help to get rid of Kayo-chan's and Aya-chan's.
+Dialogue: 0,0:05:47.25,0:05:48.12,Dialogue,,0,0,0,,That made me really happy!
+Dialogue: 0,0:05:51.14,0:05:52.05,Dialogue,,0,0,0,,Hey!
+Dialogue: 0,0:05:52.90,0:05:55.70,Dialogue,,0,0,0,,Let's go to the hideout already! I'm sick of waiting.
+Dialogue: 0,0:05:56.46,0:05:57.73,Dialogue,,0,0,0,,Huh? Where's Kazu?
+Dialogue: 0,0:05:58.09,0:05:59.40,Dialogue,,0,0,0,,He went to pick up Aya-chan.
+Dialogue: 0,0:06:00.17,0:06:00.70,Dialogue,,0,0,0,,Why?
+Dialogue: 0,0:06:01.61,0:06:02.67,Dialogue,,0,0,0,,What do you mean, "why"?
+Dialogue: 0,0:06:02.89,0:06:05.18,Dialogue,,0,0,0,,I mean, she knows where the hideout is.
+Dialogue: 0,0:06:05.50,0:06:07.09,Dialogue,,0,0,0,,Well, yeah, but...
+Dialogue: 0,0:06:07.64,0:06:09.47,Dialogue,,0,0,0,,Whatever, let's go!
+Dialogue: 0,0:06:09.85,0:06:11.38,Dialogue,,0,0,0,,O-Okay!
+Dialogue: 0,0:06:11.63,0:06:13.53,Dialogue,,0,0,0,,{\i1}Goodbye, Sensei!
+Dialogue: 0,0:06:18.05,0:06:19.20,Dialogue,,0,0,0,,Step on it!
+Dialogue: 0,0:06:19.31,0:06:20.52,Dialogue,,0,0,0,,Don't be in such a rush!
+Dialogue: 0,0:06:21.79,0:06:23.15,Dialogue,,0,0,0,,Wait for me!
+Dialogue: 0,0:06:25.65,0:06:26.82,Dialogue,,0,0,0,,That's right!
+Dialogue: 0,0:06:27.17,0:06:28.06,Dialogue,,0,0,0,,{\i1}Nakanishi Aya.
+Dialogue: 0,0:06:29.44,0:06:30.37,Dialogue,,0,0,0,,{\i1}Sugita Hiromi.
+Dialogue: 0,0:06:31.12,0:06:32.51,Dialogue,,0,0,0,,{\i1}And Hinazuki Kayo.
+Dialogue: 0,0:06:33.33,0:06:37.48,Dialogue,,0,0,0,,{\i1}The three of them were to be killed,\Nbut they must no longer be targets at this point.
+Dialogue: 0,0:06:38.18,0:06:42.41,Dialogue,,0,0,0,,{\i1}I'm not sure I can find him anymore, though,\Nnow that I've lost all my leads.
+Dialogue: 0,0:06:42.78,0:06:44.75,Dialogue,,0,0,0,,There. Now you look even more like a girl.
+Dialogue: 0,0:06:46.03,0:06:46.92,Dialogue,,0,0,0,,Isn't it great?
+Dialogue: 0,0:06:46.97,0:06:51.01,Dialogue,,0,0,0,,Satoru.\NAre we done playing detective?
+Dialogue: 0,0:06:52.57,0:06:54.94,Dialogue,,0,0,0,,Of course not. It's not over yet.
+Dialogue: 0,0:06:57.92,0:07:03.13,Dialogue,,0,0,0,,{\i1}In 2006, my mother told Sawada-san that\Nshe figured out who the real culprit was,
+Dialogue: 0,0:07:04.22,0:07:08.53,Dialogue,,0,0,0,,{\i1}which means it was probably\Nsomeone she knew back in 1988.
+Dialogue: 0,0:07:09.52,0:07:11.31,Dialogue,,0,0,0,,{\i1}Comparing it to Sensei's candy is weird,
+Dialogue: 0,0:07:11.62,0:07:16.32,Dialogue,,0,0,0,,{\i1}but now that the killer has lost his targets,\Nhe's surely looking for a substitute.
+Dialogue: 0,0:07:26.62,0:07:27.26,Dialogue,,0,0,0,,Move.
+Dialogue: 0,0:07:32.49,0:07:35.52,Dialogue,,0,0,0,,Well, we're gonna go watch the ice hockey game.
+Dialogue: 0,0:07:35.84,0:07:36.92,Dialogue,,0,0,0,,Is Hamada playing?
+Dialogue: 0,0:07:37.13,0:07:37.71,Dialogue,,0,0,0,,Of course.
+Dialogue: 0,0:07:37.77,0:07:38.98,Dialogue,,0,0,0,,Cool.
+Dialogue: 0,0:07:39.39,0:07:41.01,Dialogue,,0,0,0,,Tell him I wish him good luck.
+Dialogue: 0,0:07:42.04,0:07:42.76,Dialogue,,0,0,0,,'Kay.\NLaters.
+Dialogue: 0,0:07:44.99,0:07:46.11,Dialogue,,0,0,0,,Sorry to keep you waiting.
+Dialogue: 0,0:07:48.20,0:07:51.25,Dialogue,,0,0,0,,Have you noticed\NYanagihara-san's been all alone lately?
+Dialogue: 0,0:07:51.36,0:07:52.75,Dialogue,,0,0,0,,Misato?
+Dialogue: 0,0:07:53.34,0:07:57.60,Dialogue,,0,0,0,,She's become cut off from the rest of\Nthe class after that whole lunch money incident.
+Dialogue: 0,0:07:58.86,0:08:02.27,Dialogue,,0,0,0,,I see.\NI guess I'll try talking to her on Monday.
+Dialogue: 0,0:08:02.78,0:08:03.42,Dialogue,,0,0,0,,Okay.
+Dialogue: 0,0:08:10.89,0:08:12.22,Dialogue,,0,0,0,,Let's eat!
+Dialogue: 0,0:08:20.33,0:08:21.56,Dialogue,,0,0,0,,Oh, I might be a bit late today.
+Dialogue: 0,0:08:22.19,0:08:26.41,Dialogue,,0,0,0,,Okay, but call me as soon as you\Nknow what time you'll be here.
+Dialogue: 0,0:08:26.65,0:08:28.41,Dialogue,,0,0,0,,Got it. Bye!
+Dialogue: 0,0:08:29.73,0:08:31.56,Dialogue,,0,0,0,,Have a nice day, Satoru!
+Dialogue: 0,0:08:34.66,0:08:36.21,Dialogue,,0,0,0,,Sensei said he'd give us a ride in his car!
+Dialogue: 0,0:08:36.33,0:08:37.57,Dialogue,,0,0,0,,Huh? Really?
+Dialogue: 0,0:08:37.63,0:08:39.46,Dialogue,,0,0,0,,Let's go and leave you-know-who behind.
+Dialogue: 0,0:08:41.36,0:08:43.57,Dialogue,,0,0,0,,{\an8}Sounds good. Let's do it.
+Dialogue: 0,0:08:42.28,0:08:43.57,Dialogue,,0,0,0,,{\i1}How can I start a conversation with her?
+Dialogue: 0,0:08:48.74,0:08:50.00,Dialogue,,0,0,0,,She's taking the bus?
+Dialogue: 0,0:08:57.42,0:08:58.17,Dialogue,,0,0,0,,Satoru.
+Dialogue: 0,0:08:59.24,0:09:01.39,Dialogue,,0,0,0,,I hear Misato's been all alone.
+Dialogue: 0,0:09:01.88,0:09:03.63,Dialogue,,0,0,0,,Yeah, but...
+Dialogue: 0,0:09:04.58,0:09:06.41,Dialogue,,0,0,0,,She's probably headed to Wakaba Gym.
+Dialogue: 0,0:09:06.82,0:09:07.39,Dialogue,,0,0,0,,Really?
+Dialogue: 0,0:09:07.95,0:09:12.05,Dialogue,,0,0,0,,Yashiro-sensei said he invited her\Nto go cheer on Hamada-kun.
+Dialogue: 0,0:09:12.40,0:09:15.23,Dialogue,,0,0,0,,Speaking of which, we saw her\Nwatching the game by herself last week.
+Dialogue: 0,0:09:15.74,0:09:16.49,Dialogue,,0,0,0,,Thanks.
+Dialogue: 0,0:09:16.90,0:09:17.96,Dialogue,,0,0,0,,Want us to come?
+Dialogue: 0,0:09:18.48,0:09:20.73,Dialogue,,0,0,0,,Nah, it's probably better that I go alone.
+Dialogue: 0,0:09:21.16,0:09:22.02,Dialogue,,0,0,0,,I'm just going to see what's up, anyway.
+Dialogue: 0,0:09:22.32,0:09:23.06,Dialogue,,0,0,0,,Okay.
+Dialogue: 0,0:09:24.08,0:09:27.41,Dialogue,,0,0,0,,If we're still playing detective,\Ngive us a report tomorrow.
+Dialogue: 0,0:09:27.81,0:09:28.51,Dialogue,,0,0,0,,Sure.
+Dialogue: 0,0:09:28.98,0:09:30.89,Dialogue,,0,0,0,,Come to the hideout if you need anything.
+Dialogue: 0,0:09:31.94,0:09:32.82,Dialogue,,0,0,0,,Okay. Laters!
+Dialogue: 0,0:09:31.94,0:09:33.53,Dialogue,,0,0,0,,Laters!
+Dialogue: 0,0:09:33.68,0:09:35.14,Dialogue,,0,0,0,,See you tomorrow!
+Dialogue: 0,0:09:34.42,0:09:35.14,Dialogue,,0,0,0,,Laters!
+Dialogue: 0,0:09:35.16,0:09:35.92,Dialogue,,0,0,0,,Cya.
+Dialogue: 0,0:09:36.05,0:09:37.33,Dialogue,,0,0,0,,Laters!
+Dialogue: 0,0:09:38.77,0:09:40.58,Dialogue,,0,0,0,,He makes such a big deal out of it every day.
+Dialogue: 0,0:09:40.77,0:09:43.69,Dialogue,,0,0,0,,Tell me about it.\NIt's not like we won't see each other tomorrow.
+Dialogue: 0,0:09:47.85,0:09:49.55,Dialogue,,0,0,0,,Man, it's actually colder in here.
+Dialogue: 0,0:09:50.35,0:09:51.90,Dialogue,,0,0,0,,Go, Hamada!
+Dialogue: 0,0:09:52.52,0:09:54.20,Dialogue,,0,0,0,,Kick some butt, Kouichi!
+Dialogue: 0,0:09:54.34,0:09:56.48,Dialogue,,0,0,0,,Shut up, fugly! Just watch with your mouth shut!
+Dialogue: 0,0:09:56.66,0:09:58.58,Dialogue,,0,0,0,,Don't tell us what to do.
+Dialogue: 0,0:09:58.65,0:10:00.40,Dialogue,,0,0,0,,Watch your language, Kouichi.
+Dialogue: 0,0:10:00.84,0:10:02.10,Dialogue,,0,0,0,,Or else you won't get any food!
+Dialogue: 0,0:10:02.77,0:10:04.09,Dialogue,,0,0,0,,You've gotta be kidding me!
+Dialogue: 0,0:10:11.54,0:10:12.09,Dialogue,,0,0,0,,{\i1}There she is.
+Dialogue: 0,0:10:13.01,0:10:14.13,Dialogue,,0,0,0,,{\i1}And she really is all by herself.
+Dialogue: 0,0:10:15.22,0:10:17.63,Dialogue,,0,0,0,,All right, start warming up.
+Dialogue: 0,0:10:18.11,0:10:19.00,Dialogue,,0,0,0,,Okay!
+Dialogue: 0,0:10:19.58,0:10:25.68,Dialogue,,0,0,0,,{\i1}At any rate, she'd make an ideal target\Nfor a killer who's lost two others at once.
+Dialogue: 0,0:10:31.81,0:10:32.72,Dialogue,,0,0,0,,{\i1}Oh, the toilet.
+Dialogue: 0,0:10:35.24,0:10:36.86,Dialogue,,0,0,0,,The game starts in five minutes!
+Dialogue: 0,0:10:37.16,0:10:38.02,Dialogue,,0,0,0,,Got it!
+Dialogue: 0,0:10:40.04,0:10:41.55,Dialogue,,0,0,0,,{\i1}She's taking way too long.
+Dialogue: 0,0:10:50.73,0:10:51.88,Dialogue,,0,0,0,,I had to take a lollipop break.
+Dialogue: 0,0:10:52.81,0:10:55.23,Dialogue,,0,0,0,,What's the matter?\NThe game's about to start.
+Dialogue: 0,0:10:56.00,0:10:57.56,Dialogue,,0,0,0,,What are you doing here?
+Dialogue: 0,0:10:59.05,0:11:02.34,Dialogue,,0,0,0,,W-Well, uh, I wanted to talk to Misato.
+Dialogue: 0,0:11:02.43,0:11:03.47,Dialogue,,0,0,0,,Misato?
+Dialogue: 0,0:11:07.49,0:11:08.04,Dialogue,,0,0,0,,Huh?
+Dialogue: 0,0:11:09.54,0:11:11.25,Dialogue,,0,0,0,,Did she leave?
+Dialogue: 0,0:11:11.63,0:11:12.14,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:11:12.58,0:11:13.92,Dialogue,,0,0,0,,{\i1}But the game hasn't even started yet.
+Dialogue: 0,0:11:20.32,0:11:21.50,Dialogue,,0,0,0,,{\i1}The Shiratoris' truck?
+Dialogue: 0,0:11:22.16,0:11:24.67,Dialogue,,0,0,0,,Sensei, there's something\NI have to check right away!
+Dialogue: 0,0:11:25.23,0:11:25.95,Dialogue,,0,0,0,,Help me!
+Dialogue: 0,0:11:32.21,0:11:33.97,Dialogue,,0,0,0,,If what you're saying is true, this is a crime here.
+Dialogue: 0,0:11:34.52,0:11:36.92,Dialogue,,0,0,0,,We call it "playing detective."
+Dialogue: 0,0:11:37.48,0:11:39.42,Dialogue,,0,0,0,,We pretend there's a kidnapper on the prowl
+Dialogue: 0,0:11:39.80,0:11:43.74,Dialogue,,0,0,0,,and talk to girls who are often alone\Nand make friends with them.
+Dialogue: 0,0:11:44.77,0:11:47.45,Dialogue,,0,0,0,,It's sort of a precautionary measure\Nagainst kidnappings.
+Dialogue: 0,0:11:48.16,0:11:51.42,Dialogue,,0,0,0,,Well, it doesn't matter if you're only\N"playing" when you're getting results.
+Dialogue: 0,0:11:51.95,0:11:53.14,Dialogue,,0,0,0,,Thanks, Sensei.
+Dialogue: 0,0:11:54.42,0:11:56.98,Dialogue,,0,0,0,,Fasten your seat belt, Satoru.
+Dialogue: 0,0:12:02.16,0:12:02.86,Dialogue,,0,0,0,,Huh?
+Dialogue: 0,0:12:03.50,0:12:06.53,Dialogue,,0,0,0,,Oh, it's been acting up lately.
+Dialogue: 0,0:12:06.95,0:12:07.97,Dialogue,,0,0,0,,There we go.
+Dialogue: 0,0:12:12.90,0:12:15.94,Dialogue,,0,0,0,,So you've realized Misato has been all alone lately.
+Dialogue: 0,0:12:16.53,0:12:19.06,Dialogue,,0,0,0,,I actually didn't until Hiromi told me.
+Dialogue: 0,0:12:19.52,0:12:23.47,Dialogue,,0,0,0,,Still, I admire your spirit and bravery.
+Dialogue: 0,0:12:23.95,0:12:25.00,Dialogue,,0,0,0,,Really?
+Dialogue: 0,0:12:25.88,0:12:28.99,Dialogue,,0,0,0,,But this time, I hid behind the excuse\Nthat things were awkward between us...
+Dialogue: 0,0:12:29.53,0:12:31.95,Dialogue,,0,0,0,,...and ended up using her like bait.
+Dialogue: 0,0:12:33.81,0:12:36.86,Dialogue,,0,0,0,,Bait, huh? You must be pretty serious about this.
+Dialogue: 0,0:12:37.48,0:12:42.49,Dialogue,,0,0,0,,So that's why you've suddenly been\Nawfully friendly with people lately.
+Dialogue: 0,0:12:42.81,0:12:46.44,Dialogue,,0,0,0,,Yeah. I want to fill the gaping\Nhole in everyone's hearts.
+Dialogue: 0,0:12:46.98,0:12:48.26,Dialogue,,0,0,0,,Both mine and other people's.
+Dialogue: 0,0:12:50.37,0:12:53.31,Dialogue,,0,0,0,,{\i1}Crap! Those were Yashiro's words!
+Dialogue: 0,0:12:56.01,0:12:57.57,Dialogue,,0,0,0,,Great minds think alike, huh?
+Dialogue: 0,0:12:57.79,0:13:00.18,Dialogue,,0,0,0,,That's my exact philosophy in life.
+Dialogue: 0,0:13:00.84,0:13:05.18,Dialogue,,0,0,0,,I'd planned on talking about it on graduation\Nday if I was ever put in charge of sixth grade.
+Dialogue: 0,0:13:06.14,0:13:13.20,Dialogue,,0,0,0,,You may regret using Misato as bait, but there's\Nno need to feel guilty or ashamed about it.
+Dialogue: 0,0:13:15.74,0:13:22.24,Dialogue,,0,0,0,,Good deeds and bad deeds\Nare two sides of the same coin.\NThey're but things people do\Nto make up for their shortcomings.
+Dialogue: 0,0:13:23.13,0:13:24.78,Dialogue,,0,0,0,,{\i1}That's an extreme way of thinking.
+Dialogue: 0,0:13:25.32,0:13:29.29,Dialogue,,0,0,0,,I've done all kinds of things to get\Ncloser to a certain person myself.
+Dialogue: 0,0:13:30.01,0:13:32.78,Dialogue,,0,0,0,,Sometimes straightforward, sometimes roundabout.
+Dialogue: 0,0:13:33.54,0:13:35.95,Dialogue,,0,0,0,,I've even resorted to what you'd call "foul play."
+Dialogue: 0,0:13:37.17,0:13:38.85,Dialogue,,0,0,0,,It's been so much fun.
+Dialogue: 0,0:13:39.98,0:13:41.88,Dialogue,,0,0,0,,Er, a girlfriend?
+Dialogue: 0,0:13:43.14,0:13:45.17,Dialogue,,0,0,0,,I guess it is similar to romance in some ways.
+Dialogue: 0,0:13:47.02,0:13:49.61,Dialogue,,0,0,0,,At the very least, they're both ways\Nto fill a hole in one's heart.
+Dialogue: 0,0:13:52.88,0:13:53.69,Dialogue,,0,0,0,,Oh, want a candy?
+Dialogue: 0,0:13:57.24,0:13:58.30,Dialogue,,0,0,0,,Thanks, Satoru.
+Dialogue: 0,0:13:58.70,0:14:00.73,Dialogue,,0,0,0,,But there's no candy in there.
+Dialogue: 0,0:14:04.05,0:14:08.02,Dialogue,,0,0,0,,After all, this isn't my car.
+Dialogue: 0,0:14:22.00,0:14:24.27,Dialogue,,0,0,0,,What do you mean, this isn't your car?
+Dialogue: 0,0:14:24.57,0:14:29.89,Dialogue,,0,0,0,,Don't you think one's happiest moment\Nin life always changes?
+Dialogue: 0,0:14:30.54,0:14:33.07,Dialogue,,0,0,0,,Because mine changed just now.
+Dialogue: 0,0:14:33.73,0:14:38.22,Dialogue,,0,0,0,,Nothing beats that moment when\Nyou fill that void in your heart.
+Dialogue: 0,0:14:38.66,0:14:42.60,Dialogue,,0,0,0,,When you find what you're looking\Nfor and try to make it yours,
+Dialogue: 0,0:14:42.88,0:14:47.78,Dialogue,,0,0,0,,the more hurdles you face, the more happiness\Nyou obtain when you overcome them.
+Dialogue: 0,0:14:48.54,0:14:49.66,Dialogue,,0,0,0,,{\i1}I don't get it.
+Dialogue: 0,0:14:50.27,0:14:51.34,Dialogue,,0,0,0,,What the hell is he talking about?
+Dialogue: 0,0:14:52.34,0:14:52.99,Dialogue,,0,0,0,,{\i1}Laxatives?
+Dialogue: 0,0:14:53.47,0:14:56.69,Dialogue,,0,0,0,,I can tell you lied to me about one thing, Satoru.
+Dialogue: 0,0:14:57.39,0:15:00.10,Dialogue,,0,0,0,,You said you "pretend"\Nthere's a kidnapper on the prowl,
+Dialogue: 0,0:15:00.26,0:15:03.48,Dialogue,,0,0,0,,but you're acting under\Nthe certainty that there is one.
+Dialogue: 0,0:15:04.28,0:15:08.49,Dialogue,,0,0,0,,I refused to accept it. I couldn't believe it.
+Dialogue: 0,0:15:09.55,0:15:11.80,Dialogue,,0,0,0,,Or rather I didn't want to believe...
+Dialogue: 0,0:15:13.50,0:15:17.46,Dialogue,,0,0,0,,that someone could predict my thoughts.
+Dialogue: 0,0:15:25.60,0:15:29.09,Dialogue,,0,0,0,,Relax. Misato's not in that truck.
+Dialogue: 0,0:15:31.06,0:15:34.48,Dialogue,,0,0,0,,The only one in it is Shiratori Jun's father.
+Dialogue: 0,0:15:39.48,0:15:44.14,Dialogue,,0,0,0,,I had no idea until I saw you\Nfollowing Nakanishi Aya that day.
+Dialogue: 0,0:15:44.93,0:15:49.17,Dialogue,,0,0,0,,The day I gave you and your mother a ride\Nwas the day I was going to carry out my plan.
+Dialogue: 0,0:15:50.03,0:15:51.76,Dialogue,,0,0,0,,And yet, laughably,
+Dialogue: 0,0:15:52.21,0:15:57.39,Dialogue,,0,0,0,,there I was, seriously giving you\Nadvice on how to steal my prey.
+Dialogue: 0,0:15:59.79,0:16:02.75,Dialogue,,0,0,0,,That was the second time you foiled my plans.
+Dialogue: 0,0:16:03.10,0:16:05.52,Dialogue,,0,0,0,,I began to suspect it was no mere coincidence.
+Dialogue: 0,0:16:06.13,0:16:10.04,Dialogue,,0,0,0,,So I urged the lonesome Misato\Nto watch the ice hockey games...
+Dialogue: 0,0:16:10.25,0:16:12.48,Dialogue,,0,0,0,,...and told Hiromi about it.
+Dialogue: 0,0:16:13.25,0:16:16.93,Dialogue,,0,0,0,,And if you showed up,\Nmy suspicion would turn to conviction.
+Dialogue: 0,0:16:18.05,0:16:19.57,Dialogue,,0,0,0,,That you're my enemy.
+Dialogue: 0,0:16:20.83,0:16:21.50,Dialogue,,0,0,0,,{\i1}No way...
+Dialogue: 0,0:16:22.49,0:16:26.58,Dialogue,,0,0,0,,I waited for the right time,\Ngave Misato a drink laced with laxative,
+Dialogue: 0,0:16:27.08,0:16:29.63,Dialogue,,0,0,0,,and ordered food parcels from Shiratori Foods.
+Dialogue: 0,0:16:30.08,0:16:30.70,Dialogue,,0,0,0,,{\i1}It can't be...
+Dialogue: 0,0:16:31.56,0:16:32.40,Dialogue,,0,0,0,,{\i1}It can't be!
+Dialogue: 0,0:16:34.74,0:16:37.85,Dialogue,,0,0,0,,All the pieces of the puzzle fell\Nright into place, just as I'd planned.
+Dialogue: 0,0:16:38.80,0:16:41.65,Dialogue,,0,0,0,,This is who I really am.
+Dialogue: 0,0:16:42.60,0:16:45.68,Dialogue,,0,0,0,,By the way, I picked up this car right before coming.
+Dialogue: 0,0:16:46.28,0:16:49.38,Dialogue,,0,0,0,,My standards for choosing a car\Nare a tad different from others.
+Dialogue: 0,0:16:50.10,0:16:55.50,Dialogue,,0,0,0,,There should be several cars of\Nthe same make and color in the area,\Nso I can use them\Nas dummies whenever I want.
+Dialogue: 0,0:16:56.09,0:16:59.65,Dialogue,,0,0,0,,This is the first time they've ever come in handy, though.
+Dialogue: 0,0:16:59.74,0:17:01.65,Dialogue,,0,0,0,,{\i1}I'm such a fool.
+Dialogue: 0,0:17:10.17,0:17:11.63,Dialogue,,0,0,0,,{\i1}The truth was under my nose all along.
+Dialogue: 0,0:17:12.61,0:17:14.61,Dialogue,,0,0,0,,Kayo will be all right now.{flashback, ep9}
+Dialogue: 0,0:17:15.05,0:17:17.09,Dialogue,,0,0,0,,{\i1}I just didn't accept it.
+Dialogue: 0,0:17:18.33,0:17:21.44,Dialogue,,0,0,0,,{\i1}Yashiro Gaku's name was on\Nthe suspect list I saw at Sawada-san's place.
+Dialogue: 0,0:17:22.05,0:17:24.91,Dialogue,,0,0,0,,{\i1}But because my mother's name was also on it,
+Dialogue: 0,0:17:25.36,0:17:27.90,Dialogue,,0,0,0,,{\i1}I didn't think the list was important.
+Dialogue: 0,0:17:28.83,0:17:33.53,Dialogue,,0,0,0,,{\i1}Because I trusted Yashiro so much,\N{\i1}I tried to remove him\Nfrom my own list of suspects.
+Dialogue: 0,0:17:35.52,0:17:36.21,Dialogue,,0,0,0,,{\i1}But...
+Dialogue: 0,0:17:38.91,0:17:39.60,Dialogue,,0,0,0,,{\i1}the killer is...
+Dialogue: 0,0:17:41.45,0:17:43.88,Dialogue,,0,0,0,,{\i1}...the Yashiro I see in front of my eyes right now!
+Dialogue: 0,0:18:09.93,0:18:11.36,Dialogue,,0,0,0,,It's started to snow.
+Dialogue: 0,0:18:19.61,0:18:21.23,Dialogue,,0,0,0,,You can't take it off.
+Dialogue: 0,0:18:23.01,0:18:25.73,Dialogue,,0,0,0,,It's game over.\NFor the both of us.
+Dialogue: 0,0:18:39.76,0:18:42.00,Dialogue,,0,0,0,,I still can't believe it, Satoru.
+Dialogue: 0,0:18:42.56,0:18:45.88,Dialogue,,0,0,0,,You predicted my moves every step\Nof the way and destroyed my plans.
+Dialogue: 0,0:18:46.41,0:18:49.55,Dialogue,,0,0,0,,It sends shivers down my spine\Nthat you've forced me into this.
+Dialogue: 0,0:18:53.15,0:18:56.91,Dialogue,,0,0,0,,It's almost like you've seen the future.
+Dialogue: 0,0:18:59.32,0:19:02.29,Dialogue,,0,0,0,,I don't want it keeping me up at night,\Nso let me get it out of the way.
+Dialogue: 0,0:19:03.04,0:19:07.48,Dialogue,,0,0,0,,What I'm about to do isn't an act of revenge\Nagainst you for foiling my plans.
+Dialogue: 0,0:19:08.40,0:19:11.16,Dialogue,,0,0,0,,I seriously do admire you.
+Dialogue: 0,0:19:12.97,0:19:17.33,Dialogue,,0,0,0,,Think of it as a substitute for\Nmy desire that couldn't be fulfilled.
+Dialogue: 0,0:19:17.62,0:19:19.92,Dialogue,,0,0,0,,Didn't you say it was game over for you too?!
+Dialogue: 0,0:19:24.18,0:19:27.45,Dialogue,,0,0,0,,You're going to bring peace to this town, Satoru.
+Dialogue: 0,0:19:27.88,0:19:30.02,Dialogue,,0,0,0,,Isn't that exactly what you wanted?
+Dialogue: 0,0:19:30.61,0:19:35.57,Dialogue,,0,0,0,,And I'm going to bring upon your death\Nby my hands, and for my sake alone.
+Dialogue: 0,0:19:35.81,0:19:39.86,Dialogue,,0,0,0,,Screw you, Yashiro!\NI won't die until I see you destroyed!
+Dialogue: 0,0:19:40.26,0:19:42.45,Dialogue,,0,0,0,,That's what they call being overambitious.
+Dialogue: 0,0:19:45.70,0:19:48.16,Dialogue,,0,0,0,,Yashiro, you bastard!
+Dialogue: 0,0:19:48.34,0:19:49.79,Dialogue,,0,0,0,,Screw you!
+Dialogue: 0,0:19:53.97,0:19:55.40,Dialogue,,0,0,0,,Damn it!\NDa—
+Dialogue: 0,0:19:56.10,0:19:58.56,Dialogue,,0,0,0,,I've decided to leave this town.
+Dialogue: 0,0:20:02.45,0:20:03.78,Dialogue,,0,0,0,,Yashiro!
+Dialogue: 0,0:20:04.76,0:20:07.47,Dialogue,,0,0,0,,I know what lies in your future!
+Dialogue: 0,0:20:10.59,0:20:11.31,Dialogue,,0,0,0,,{\i1}Crap...
+Dialogue: 0,0:20:12.74,0:20:13.69,Dialogue,,0,0,0,,{\i1}It's freezing.
+Dialogue: 0,0:20:16.09,0:20:16.86,Dialogue,,0,0,0,,{\i1}Shit!
+Dialogue: 0,0:20:17.76,0:20:18.45,Dialogue,,0,0,0,,{\i1}Not good!
+Dialogue: 0,0:20:28.65,0:20:29.62,Dialogue,,0,0,0,,{\i1}I'm going numb...
+Dialogue: 0,0:20:32.19,0:20:32.98,Dialogue,,0,0,0,,{\i1}I'm screwed...
+Dialogue: 0,0:20:43.34,0:20:44.97,Dialogue,,0,0,0,,{\i1}Oh, Ma.
+Dialogue: 0,0:20:45.50,0:20:46.94,Dialogue,,0,0,0,,What is it, Satoru?
+Dialogue: 0,0:20:47.64,0:20:49.48,Dialogue,,0,0,0,,{\i1}Our eyes often met when I looked up at her.
+Dialogue: 0,0:20:52.58,0:20:53.31,Dialogue,,0,0,0,,{\i1}Guys...
+Dialogue: 0,0:20:53.81,0:20:54.92,Dialogue,,0,0,0,,Satoru!
+Dialogue: 0,0:20:53.81,0:20:54.92,Dialogue,,0,0,0,,Satoru-kun!
+Dialogue: 0,0:20:57.34,0:20:59.21,Dialogue,,0,0,0,,Thank you, Satoru.
+Dialogue: 0,0:21:00.03,0:21:00.62,Dialogue,,0,0,0,,{\i1}Kayo...
+Dialogue: 0,0:21:06.94,0:21:07.72,Dialogue,,0,0,0,,{\i1}Airi...

@@ -1,0 +1,359 @@
+[Script Info]
+Title: Fullmetal_Alchemist 36 - The Sinner Within
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1280
+PlayResY: 720
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Dialogue,Noto Sans,46,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,40,40,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:06.19,0:00:07.78,Dialogue,,0,0,0,,Those are Ishbalans, right?
+Dialogue: 0,0:00:08.03,0:00:10.57,Dialogue,,0,0,0,,I wonder what\Nthey're doing here.
+Dialogue: 0,0:00:10.66,0:00:14.12,Dialogue,,0,0,0,,The military is with them.\NI'm sure they're under escort.
+Dialogue: 0,0:00:16.62,0:00:18.54,Dialogue,,0,0,0,,This sure is taking a long time.
+Dialogue: 0,0:00:18.91,0:00:22.13,Dialogue,,0,0,0,,I heard they're having some\Nkind of trouble getting water.
+Dialogue: 0,0:00:22.54,0:00:24.21,Dialogue,,0,0,0,,What's going on here?
+Dialogue: 0,0:00:25.92,0:00:28.22,Dialogue,,0,0,0,,That should delay\Ntheir departure a little.
+Dialogue: 0,0:00:28.55,0:00:33.72,Dialogue,,0,0,0,,Yeah, that's a relief. Now we don't have to go all the way to the southern camp.
+Dialogue: 0,0:00:32.89,0:00:35.85,Dialogue,,0,0,0,,So then, what did you guys do?
+Dialogue: 0,0:00:35.93,0:00:37.27,Dialogue,,0,0,0,,You think we did something?
+Dialogue: 0,0:00:37.35,0:00:40.44,Dialogue,,0,0,0,,Your pals just suddenly \Nshowed up and grabbed us.
+Dialogue: 0,0:00:40.98,0:00:42.35,Dialogue,,0,0,0,,That's awful.
+Dialogue: 0,0:00:42.81,0:00:44.98,Dialogue,,0,0,0,,Ishbalans have their\Nown residential areas.
+Dialogue: 0,0:00:45.07,0:00:49.11,Dialogue,,0,0,0,,If you leave them\Nand band together,\Nyou'll make a good target\Nfor the military.
+Dialogue: 0,0:00:49.95,0:00:55.87,Dialogue,,0,0,0,,By the way, Scar said that the Ishbalans had once created a Philosopher's Stone.
+Dialogue: 0,0:00:55.95,0:00:58.70,Dialogue,,0,0,0,,We're looking for someone who knows the details about that.
+Dialogue: 0,0:00:58.95,0:01:01.58,Dialogue,,0,0,0,,You guys were good friends with Scar-san, right?
+Dialogue: 0,0:01:02.08,0:01:04.33,Dialogue,,0,0,0,,We were {\i1}not{\i0} good friends\Nwith that guy!
+Dialogue: 0,0:01:04.42,0:01:07.17,Dialogue,,0,0,0,,We don't have anything to tell the military.
+Dialogue: 0,0:01:08.76,0:01:10.17,Dialogue,,0,0,0,,We do not know anything,
+Dialogue: 0,0:01:10.42,0:01:13.26,Dialogue,,0,0,0,,but there is an old man who\Nlives on the outskirts of Kishua
+Dialogue: 0,0:01:13.34,0:01:15.60,Dialogue,,0,0,0,,who might know\Nsomething about it.
+Dialogue: 0,0:01:15.68,0:01:16.97,Dialogue,,0,0,0,,Chief!
+Dialogue: 0,0:01:17.06,0:01:19.68,Dialogue,,0,0,0,,These two should be\Nable to show you where.
+Dialogue: 0,0:01:19.98,0:01:21.77,Dialogue,,0,0,0,,You want us to go there?!
+Dialogue: 0,0:01:22.39,0:01:23.56,Dialogue,,0,0,0,,How's that?
+Dialogue: 0,0:01:23.94,0:01:26.57,Dialogue,,0,0,0,,At least get the children out of here, is that what you're saying?
+Dialogue: 0,0:01:26.65,0:01:30.49,Dialogue,,0,0,0,,Brother, their information\Nmust come at a cost, right?
+Dialogue: 0,0:01:30.74,0:01:32.11,Dialogue,,0,0,0,,Equivalent exchange.
+Dialogue: 0,0:01:32.20,0:01:35.74,Dialogue,,0,0,0,,It is not part of our teachings,\Nbut I don't see how it can be helped.
+Dialogue: 0,0:01:36.24,0:01:37.74,Dialogue,,0,0,0,,Chief...
+Dialogue: 0,0:01:38.95,0:01:41.46,Dialogue,,0,0,0,,We'll throw in a shower\Nat no extra charge.
+Dialogue: 0,0:01:46.54,0:01:48.96,Dialogue,,0,0,0,,Get them outside,\Nor else they'll get cooked!
+Dialogue: 0,0:01:57.35,0:01:58.39,Dialogue,,0,0,0,,Let's go!
+Dialogue: 0,0:02:03.64,0:02:04.65,Dialogue,,0,0,0,,Sorry...
+Dialogue: 0,0:02:05.56,0:02:07.36,Dialogue,,0,0,0,,Hey!\NWhat are you doing?!
+Dialogue: 0,0:02:08.32,0:02:09.44,Dialogue,,0,0,0,,Ed! Al!
+Dialogue: 0,0:02:09.57,0:02:10.40,Dialogue,,0,0,0,,Hop in!
+Dialogue: 0,0:02:10.48,0:02:12.90,Dialogue,,0,0,0,,Winry, did you steal that? You can't do that!
+Dialogue: 0,0:02:13.11,0:02:14.20,Dialogue,,0,0,0,,No!
+Dialogue: 0,0:02:14.28,0:02:15.95,Dialogue,,0,0,0,,They said it's mine if I could fix it.
+Dialogue: 0,0:02:16.03,0:02:17.87,Dialogue,,0,0,0,,Who do they think I am?
+Dialogue: 0,0:02:18.20,0:02:19.33,Dialogue,,0,0,0,,You guys!
+Dialogue: 0,0:02:20.58,0:02:21.91,Dialogue,,0,0,0,,We're out of here!
+Dialogue: 0,0:02:33.05,0:02:36.89,Dialogue,,0,0,0,,Man cannot obtain anything\Nwithout first sacrificing something.
+Dialogue: 0,0:02:37.68,0:02:41.47,Dialogue,,0,0,0,,In order to obtain anything,\Nsomething of equal value is required.
+Dialogue: 0,0:02:41.97,0:02:46.48,Dialogue,,0,0,0,,That is alchemy's\NLaw of Equivalent Exchange.
+Dialogue: 0,0:02:47.73,0:02:52.57,Dialogue,,0,0,0,,At the time, we believed that\Nto be the true way of the world.
+Dialogue: 0,0:04:28.25,0:04:30.79,Dialogue,,0,0,0,,Kishua is a bit westward, right?
+Dialogue: 0,0:04:31.00,0:04:32.38,Dialogue,,0,0,0,,No problem, no problem!
+Dialogue: 0,0:04:32.46,0:04:34.04,Dialogue,,0,0,0,,This sure will help, huh, Brother?
+Dialogue: 0,0:04:35.05,0:04:38.26,Dialogue,,0,0,0,,Winry, how long are you \Nplanning to tag along with us?
+Dialogue: 0,0:04:38.63,0:04:40.43,Dialogue,,0,0,0,,What's this now,\Nout of the puny?
+Dialogue: 0,0:04:40.51,0:04:43.01,Dialogue,,0,0,0,,That's "out of the blue"!
+Dialogue: 0,0:04:43.64,0:04:45.89,Dialogue,,0,0,0,,What I mean is,\Ngo home already.
+Dialogue: 0,0:04:45.97,0:04:49.39,Dialogue,,0,0,0,,If I'm not around,\Nwho's going to fix your Automail?
+Dialogue: 0,0:04:49.64,0:04:51.40,Dialogue,,0,0,0,,It's hard on me too.
+Dialogue: 0,0:04:52.31,0:04:57.28,Dialogue,,0,0,0,,I wanted to return that child homunculus' arm and leg to Brother,
+Dialogue: 0,0:04:53.94,0:04:57.28,Dialogue,,0,0,0,,even if it meant\Nyanking them off of him.
+Dialogue: 0,0:04:57.99,0:05:00.78,Dialogue,,0,0,0,,But I couldn't do that\Nin front of you, Winry.
+Dialogue: 0,0:05:00.86,0:05:03.16,Dialogue,,0,0,0,,You couldn't do that\Nin the first place.
+Dialogue: 0,0:05:03.49,0:05:05.91,Dialogue,,0,0,0,,Yeah, Al, you couldn't do that.
+Dialogue: 0,0:05:06.12,0:05:09.91,Dialogue,,0,0,0,,But I could, if it was\Nto achieve our goal.
+Dialogue: 0,0:05:10.29,0:05:11.42,Dialogue,,0,0,0,,Brother...
+Dialogue: 0,0:05:12.29,0:05:13.13,Dialogue,,0,0,0,,A long time ago,
+Dialogue: 0,0:05:13.38,0:05:16.71,Dialogue,,0,0,0,,there was this guy who said it was simple for someone to kill another person.
+Dialogue: 0,0:05:18.26,0:05:21.72,Dialogue,,0,0,0,,And indeed, even though it was unavoidable,
+Dialogue: 0,0:05:18.26,0:05:25.14,Dialogue,,0,0,0,,I allowed an alchemist named Majhal to die, long ago.
+Dialogue: 0,0:05:25.43,0:05:26.72,Dialogue,,0,0,0,,That was an accident.
+Dialogue: 0,0:05:26.81,0:05:28.77,Dialogue,,0,0,0,,You were trying to save him, Brother.
+Dialogue: 0,0:05:29.02,0:05:32.77,Dialogue,,0,0,0,,And in the 5th Laboratory,\NI nearly killed all of those prisoners.
+Dialogue: 0,0:05:33.48,0:05:37.65,Dialogue,,0,0,0,,Their lives seemed to pale in comparison with Al's body.
+Dialogue: 0,0:05:37.98,0:05:39.28,Dialogue,,0,0,0,,That's what I thought.
+Dialogue: 0,0:05:40.07,0:05:41.99,Dialogue,,0,0,0,,But you couldn't do it.
+Dialogue: 0,0:05:43.61,0:05:44.99,Dialogue,,0,0,0,,And then there's Scar...
+Dialogue: 0,0:05:45.87,0:05:47.99,Dialogue,,0,0,0,,If he stands in my way again,
+Dialogue: 0,0:05:48.37,0:05:51.08,Dialogue,,0,0,0,,then, like I did to Greed,\NI'm going to...
+Dialogue: 0,0:05:51.16,0:05:52.08,Dialogue,,0,0,0,,Kill him?
+Dialogue: 0,0:05:52.62,0:05:54.25,Dialogue,,0,0,0,,Are you going to kill that guy?
+Dialogue: 0,0:05:54.42,0:05:55.67,Dialogue,,0,0,0,,But that's the man who...
+Dialogue: 0,0:05:55.75,0:05:57.96,Dialogue,,0,0,0,,That traitor deserves to be killed.
+Dialogue: 0,0:06:01.55,0:06:04.43,Dialogue,,0,0,0,,In any event,\Nour dangerous battle goes on.
+Dialogue: 0,0:06:04.51,0:06:06.09,Dialogue,,0,0,0,,We can't have anyone\Nslowing us down.
+Dialogue: 0,0:06:10.89,0:06:11.73,Dialogue,,0,0,0,,Winry!
+Dialogue: 0,0:06:11.81,0:06:13.98,Dialogue,,0,0,0,,We'll see if I slow you down!
+Dialogue: 0,0:06:29.28,0:06:31.41,Dialogue,,0,0,0,,It's as though\Nthere was a war here.
+Dialogue: 0,0:06:31.70,0:06:34.50,Dialogue,,0,0,0,,You've never even seen a war.
+Dialogue: 0,0:06:34.96,0:06:36.29,Dialogue,,0,0,0,,I have.
+Dialogue: 0,0:06:36.83,0:06:38.21,Dialogue,,0,0,0,,We have.
+Dialogue: 0,0:06:38.46,0:06:42.13,Dialogue,,0,0,0,,This is just like that day...\Nthe day our mom died.
+Dialogue: 0,0:06:42.80,0:06:45.01,Dialogue,,0,0,0,,The military people\Nsurrounded the city,
+Dialogue: 0,0:06:45.93,0:06:48.14,Dialogue,,0,0,0,,but we didn't\Neven do anything.
+Dialogue: 0,0:06:49.14,0:06:51.47,Dialogue,,0,0,0,,And yet, why did they...
+Dialogue: 0,0:06:54.60,0:06:56.89,Dialogue,,0,0,0,,Mom!
+Dialogue: 0,0:06:55.65,0:06:56.89,Dialogue,,0,0,0,,R-Rick!
+Dialogue: 0,0:06:56.69,0:06:57.52,Dialogue,,0,0,0,,Mom!
+Dialogue: 0,0:06:57.77,0:06:59.48,Dialogue,,0,0,0,,Rick! Stop!
+Dialogue: 0,0:07:01.86,0:07:03.07,Dialogue,,0,0,0,,Stop it.
+Dialogue: 0,0:07:16.25,0:07:17.29,Dialogue,,0,0,0,,What's the matter?
+Dialogue: 0,0:07:17.37,0:07:19.71,Dialogue,,0,0,0,,We don't want to go\Nto that defiled place.
+Dialogue: 0,0:07:22.09,0:07:23.46,Dialogue,,0,0,0,,Okay then, Winry...
+Dialogue: 0,0:07:27.13,0:07:29.26,Dialogue,,0,0,0,,Pardon us.
+Dialogue: 0,0:07:32.18,0:07:33.01,Dialogue,,0,0,0,,Brother!
+Dialogue: 0,0:07:36.35,0:07:37.39,Dialogue,,0,0,0,,Is that...
+Dialogue: 0,0:07:37.48,0:07:39.56,Dialogue,,0,0,0,,It's just like the one on Scar-san's right arm.
+Dialogue: 0,0:07:39.77,0:07:42.02,Dialogue,,0,0,0,,As well as the one under the 5th Laboratory.
+Dialogue: 0,0:07:44.65,0:07:46.70,Dialogue,,0,0,0,,You two, come on out!
+Dialogue: 0,0:07:50.74,0:07:52.74,Dialogue,,0,0,0,,Lieutenant! Don't start shooting out of nowhere like that!
+Dialogue: 0,0:07:53.37,0:07:55.12,Dialogue,,0,0,0,,I figured you would\Nbe able to dodge it.
+Dialogue: 0,0:07:55.37,0:07:58.12,Dialogue,,0,0,0,,If you knew it was us in the\Nfirst place, then don't shoot!
+Dialogue: 0,0:07:58.50,0:08:01.00,Dialogue,,0,0,0,,That was for\NSergeant Fuery's bruise.
+Dialogue: 0,0:08:07.22,0:08:09.68,Dialogue,,0,0,0,,It's all right.
+Dialogue: 0,0:08:09.76,0:08:10.59,Dialogue,,0,0,0,,We'll wait for Ed and Al here, okay?
+Dialogue: 0,0:08:12.43,0:08:13.35,Dialogue,,0,0,0,,Where's the Colonel?
+Dialogue: 0,0:08:13.60,0:08:16.35,Dialogue,,0,0,0,,He went back to Central\Nwith Warrant Officer Falman.
+Dialogue: 0,0:08:16.43,0:08:20.23,Dialogue,,0,0,0,,So after putting on this sort of display, he ran right back home, huh?
+Dialogue: 0,0:08:20.60,0:08:24.02,Dialogue,,0,0,0,,You can't abide the way the Colonel acted against the Ishbalans,
+Dialogue: 0,0:08:24.11,0:08:25.90,Dialogue,,0,0,0,,so you attacked the escort train?
+Dialogue: 0,0:08:26.99,0:08:32.45,Dialogue,,0,0,0,,No, but right now, it's not as though the Ishbalans are starting any wars,
+Dialogue: 0,0:08:32.57,0:08:35.12,Dialogue,,0,0,0,,so you don't have to go around using force to control them.
+Dialogue: 0,0:08:35.20,0:08:36.49,Dialogue,,0,0,0,,Don't misunderstand.
+Dialogue: 0,0:08:36.58,0:08:39.62,Dialogue,,0,0,0,,There weren't any fatalities\Namong the Ishbalans this time.
+Dialogue: 0,0:08:39.71,0:08:42.00,Dialogue,,0,0,0,,There was one former\Nsoldier who died.
+Dialogue: 0,0:08:42.08,0:08:44.09,Dialogue,,0,0,0,,A man named Yoki,\Nwhom you two knew.
+Dialogue: 0,0:08:44.42,0:08:45.25,Dialogue,,0,0,0,,Yoki?
+Dialogue: 0,0:08:45.46,0:08:47.17,Dialogue,,0,0,0,,That old guy is dead?
+Dialogue: 0,0:08:48.05,0:08:51.68,Dialogue,,0,0,0,,There were shots fired from the Ishbalan side, and Yoki was hit.
+Dialogue: 0,0:08:51.89,0:08:54.18,Dialogue,,0,0,0,,Tensions flared as a result.
+Dialogue: 0,0:09:00.27,0:09:03.31,Dialogue,,0,0,0,,The Colonel stepped forward,\Nand with a display of his power,
+Dialogue: 0,0:09:03.44,0:09:05.86,Dialogue,,0,0,0,,he dashed the\NIshbalan's will to fight.
+Dialogue: 0,0:09:07.03,0:09:10.74,Dialogue,,0,0,0,,If he hadn't done that, there would have been more casualties on both sides.
+Dialogue: 0,0:09:12.32,0:09:15.58,Dialogue,,0,0,0,,Not a bad piece of work\Nfor a soldier.
+Dialogue: 0,0:09:16.16,0:09:18.45,Dialogue,,0,0,0,,Are you discriminating against him\Nbecause he's a soldier?
+Dialogue: 0,0:09:18.70,0:09:20.12,Dialogue,,0,0,0,,You're a member of\Nthe military too, you know.
+Dialogue: 0,0:09:22.33,0:09:26.42,Dialogue,,0,0,0,,We've decided to move most of\Nthe people to the camp in the south.
+Dialogue: 0,0:09:26.63,0:09:30.84,Dialogue,,0,0,0,,But we have to determine who it was that fired first and punish them.
+Dialogue: 0,0:09:31.34,0:09:34.55,Dialogue,,0,0,0,,In order to do that, we're still having several of them remain here.
+Dialogue: 0,0:09:34.93,0:09:38.85,Dialogue,,0,0,0,,There's an old man among them, right? The one who lived in that shack.
+Dialogue: 0,0:09:44.02,0:09:47.57,Dialogue,,0,0,0,,This is pretty tightly secured here, huh?\NIs he a material witness?
+Dialogue: 0,0:09:47.94,0:09:50.36,Dialogue,,0,0,0,,No, the old man is not a suspect.
+Dialogue: 0,0:09:50.44,0:09:51.82,Dialogue,,0,0,0,,We're just protecting him.
+Dialogue: 0,0:09:51.90,0:09:52.82,Dialogue,,0,0,0,,Protecting him?
+Dialogue: 0,0:09:55.78,0:09:58.83,Dialogue,,0,0,0,,Those are the Ishbalans\Nwho are under arrest, right?
+Dialogue: 0,0:09:59.66,0:10:01.12,Dialogue,,0,0,0,,They attacked him.
+Dialogue: 0,0:10:01.20,0:10:03.67,Dialogue,,0,0,0,,Called him a heretic and an outcast.
+Dialogue: 0,0:10:03.83,0:10:07.04,Dialogue,,0,0,0,,Apparently, he's not\Nregarded as being Ishbalan.
+Dialogue: 0,0:10:07.38,0:10:08.88,Dialogue,,0,0,0,,That's ridiculous!
+Dialogue: 0,0:10:08.96,0:10:12.67,Dialogue,,0,0,0,,I mean, the Ishbalans have always suffered discrimination!
+Dialogue: 0,0:10:12.76,0:10:15.01,Dialogue,,0,0,0,,And yet, even among themselves...
+Dialogue: 0,0:10:15.76,0:10:16.85,Dialogue,,0,0,0,,Outcasts?
+Dialogue: 0,0:10:17.10,0:10:19.39,Dialogue,,0,0,0,,What kind of people are they?
+Dialogue: 0,0:10:19.47,0:10:21.14,Dialogue,,0,0,0,,They're defiled.
+Dialogue: 0,0:10:21.22,0:10:23.23,Dialogue,,0,0,0,,They're people who have disobeyed the teachings of Ishbala.
+Dialogue: 0,0:10:23.44,0:10:25.10,Dialogue,,0,0,0,,He has a tattoo on his face.
+Dialogue: 0,0:10:25.19,0:10:26.94,Dialogue,,0,0,0,,That is the mark of an outcast.
+Dialogue: 0,0:10:28.52,0:10:31.57,Dialogue,,0,0,0,,When you say they disobey the teachings, what exactly?
+Dialogue: 0,0:10:33.15,0:10:35.28,Dialogue,,0,0,0,,It's what Mom told us.
+Dialogue: 0,0:10:35.36,0:10:38.74,Dialogue,,0,0,0,,Yeah. Believe in the god Ishbala.
+Dialogue: 0,0:10:38.83,0:10:41.08,Dialogue,,0,0,0,,Otherwise, you'll become an outcast.
+Dialogue: 0,0:10:44.04,0:10:47.08,Dialogue,,0,0,0,,But I didn't know that\Nhe was an outcast too.
+Dialogue: 0,0:10:47.42,0:10:48.59,Dialogue,,0,0,0,,"He"?
+Dialogue: 0,0:10:48.84,0:10:52.59,Dialogue,,0,0,0,,The one that you call Scar.\NHe's an outcast!
+Dialogue: 0,0:10:53.13,0:10:54.34,Dialogue,,0,0,0,,He's a traitor!
+Dialogue: 0,0:10:57.43,0:10:59.30,Dialogue,,0,0,0,,What kind of person\Nwas your mother?
+Dialogue: 0,0:11:01.43,0:11:04.14,Dialogue,,0,0,0,,You know, she was very nice.
+Dialogue: 0,0:11:04.31,0:11:06.23,Dialogue,,0,0,0,,Even though her eyes were unwell,
+Dialogue: 0,0:11:06.31,0:11:09.52,Dialogue,,0,0,0,,{\an8}she worked for everyone, in a hospital.
+Dialogue: 0,0:11:10.19,0:11:11.15,Dialogue,,0,0,0,,{\an8}In a hospital?
+Dialogue: 0,0:11:13.49,0:11:15.03,Dialogue,,0,0,0,,{\an8}The Philosopher's Stone, huh?
+Dialogue: 0,0:11:15.45,0:11:18.36,Dialogue,,0,0,0,,This is the third time\NI've been asked about it.
+Dialogue: 0,0:11:18.45,0:11:19.53,Dialogue,,0,0,0,,The third time?
+Dialogue: 0,0:11:19.62,0:11:21.79,Dialogue,,0,0,0,,That scarred young man,
+Dialogue: 0,0:11:21.91,0:11:26.16,Dialogue,,0,0,0,,and long ago, his older brother asked me the same question.
+Dialogue: 0,0:11:26.29,0:11:29.00,Dialogue,,0,0,0,,Scar and his brother?
+Dialogue: 0,0:11:29.08,0:11:32.71,Dialogue,,0,0,0,,Then Scar's brother created\Na Philosopher's Stone before?
+Dialogue: 0,0:11:33.05,0:11:35.47,Dialogue,,0,0,0,,No.\NHe did not make one.
+Dialogue: 0,0:11:35.55,0:11:38.05,Dialogue,,0,0,0,,The young man was too humane.
+Dialogue: 0,0:11:39.09,0:11:43.01,Dialogue,,0,0,0,,But why do you know about the Philosopher's Stone?
+Dialogue: 0,0:11:43.10,0:11:45.14,Dialogue,,0,0,0,,You're an Ishbalan, right?
+Dialogue: 0,0:11:45.23,0:11:47.48,Dialogue,,0,0,0,,I am an outcast.
+Dialogue: 0,0:11:47.56,0:11:50.27,Dialogue,,0,0,0,,I learned the Grand Art.
+Dialogue: 0,0:11:50.40,0:11:52.27,Dialogue,,0,0,0,,The Grand Art?
+Dialogue: 0,0:11:53.90,0:11:56.36,Dialogue,,0,0,0,,Once, we Ishbalans
+Dialogue: 0,0:11:56.44,0:12:00.16,Dialogue,,0,0,0,,had a secret art that had been passed down,\Nwhich we called the Grand Art.
+Dialogue: 0,0:12:00.24,0:12:03.08,Dialogue,,0,0,0,,And with it, we lived\Nin the lap of luxury.
+Dialogue: 0,0:12:03.16,0:12:06.33,Dialogue,,0,0,0,,But then, at some point, the art was sealed away
+Dialogue: 0,0:12:06.41,0:12:09.46,Dialogue,,0,0,0,,and became something\Nforbidden to touch upon.
+Dialogue: 0,0:12:09.71,0:12:16.09,Dialogue,,0,0,0,,Those who set their hand to it\Nwere made outcasts\Nand were unable to\Nreturn to their homeland.
+Dialogue: 0,0:12:16.88,0:12:21.47,Dialogue,,0,0,0,,The Grand Art allowed one to\Nalter the form of all things at will.
+Dialogue: 0,0:12:21.55,0:12:25.56,Dialogue,,0,0,0,,This act was said to be in\Ndefiance of God's teachings.
+Dialogue: 0,0:12:26.31,0:12:29.48,Dialogue,,0,0,0,,Then the Grand Art is alchemy?
+Dialogue: 0,0:12:29.56,0:12:31.86,Dialogue,,0,0,0,,Ridiculous! That's not possible!
+Dialogue: 0,0:12:32.11,0:12:33.82,Dialogue,,0,0,0,,There's no way that Ishbalans,
+Dialogue: 0,0:12:34.36,0:12:39.53,Dialogue,,0,0,0,,who live in the desert and have no \Nmechanical civilization, could have alchemy.
+Dialogue: 0,0:12:39.82,0:12:41.78,Dialogue,,0,0,0,,Is that what you're thinking?
+Dialogue: 0,0:12:43.03,0:12:44.99,Dialogue,,0,0,0,,It's nothing to be ashamed of.
+Dialogue: 0,0:12:45.08,0:12:48.45,Dialogue,,0,0,0,,When someone's skin and eye color are different,
+Dialogue: 0,0:12:48.54,0:12:53.04,Dialogue,,0,0,0,,not thinking that they could be\Nthe same as you are goes both ways.
+Dialogue: 0,0:12:55.80,0:13:00.43,Dialogue,,0,0,0,,Would you mind telling us about how to produce a Philosopher's Stone as well?
+Dialogue: 0,0:13:01.13,0:13:05.51,Dialogue,,0,0,0,,I doubt that the theory\Nthat you have arrived at
+Dialogue: 0,0:13:05.60,0:13:09.81,Dialogue,,0,0,0,,and our own ancient art are all that different.
+Dialogue: 0,0:13:09.98,0:13:13.27,Dialogue,,0,0,0,,All that remains is the number of humans sacrificed.
+Dialogue: 0,0:13:13.69,0:13:15.52,Dialogue,,0,0,0,,Human... sacrifice?
+Dialogue: 0,0:13:16.86,0:13:19.86,Dialogue,,0,0,0,,A city, or a nation...
+Dialogue: 0,0:13:20.65,0:13:24.12,Dialogue,,0,0,0,,When they fall, there is resentment and blood
+Dialogue: 0,0:13:24.41,0:13:29.87,Dialogue,,0,0,0,,of tens or hundreds of thousands of people, as they die mortified.
+Dialogue: 0,0:13:32.00,0:13:36.09,Dialogue,,0,0,0,,When they are taken into\Nthe body of a superior practitioner,
+Dialogue: 0,0:13:36.34,0:13:38.63,Dialogue,,0,0,0,,a Philosopher's Stone is produced.
+Dialogue: 0,0:13:41.59,0:13:45.26,Dialogue,,0,0,0,,That's just an overblown version of\Nthe way that we know how to make one.
+Dialogue: 0,0:13:45.35,0:13:47.60,Dialogue,,0,0,0,,It's not the one\Nwe're hoping to learn.
+Dialogue: 0,0:13:48.14,0:13:50.10,Dialogue,,0,0,0,,So, what about Scar-san?
+Dialogue: 0,0:13:50.73,0:13:53.44,Dialogue,,0,0,0,,He said he was going to make a Philosopher's Stone.
+Dialogue: 0,0:13:55.48,0:13:57.61,Dialogue,,0,0,0,,Why did you teach\Nmy brother about this?!
+Dialogue: 0,0:13:58.52,0:14:02.24,Dialogue,,0,0,0,,My brother only wanted to bring the woman he loved back to life.
+Dialogue: 0,0:14:02.70,0:14:05.74,Dialogue,,0,0,0,,But in order for that to happen,
+Dialogue: 0,0:14:02.70,0:14:07.66,Dialogue,,0,0,0,,the Ishbalan people would have to be destroyed, and their lives offered in sacrifice.
+Dialogue: 0,0:14:08.33,0:14:10.04,Dialogue,,0,0,0,,When my brother realized this,\Nhe blamed himself.
+Dialogue: 0,0:14:10.33,0:14:12.33,Dialogue,,0,0,0,,He said it was as though\Nhe were the one
+Dialogue: 0,0:14:12.41,0:14:14.75,Dialogue,,0,0,0,,who had summoned the disasters that had beset Ishbal!
+Dialogue: 0,0:14:16.66,0:14:18.67,Dialogue,,0,0,0,,Here he is!
+Dialogue: 0,0:14:17.34,0:14:18.67,Dialogue,,0,0,0,,In here!
+Dialogue: 0,0:14:27.80,0:14:29.64,Dialogue,,0,0,0,,You can't!\NNot with that many of them!
+Dialogue: 0,0:14:32.39,0:14:34.64,Dialogue,,0,0,0,,Is this scene to repeat itself\Nover and over?
+Dialogue: 0,0:14:35.02,0:14:38.94,Dialogue,,0,0,0,,Will the people of Ishbal \Never obtain eternal peace?
+Dialogue: 0,0:14:40.40,0:14:43.61,Dialogue,,0,0,0,,If I can obtain a power\Nbeyond theirs...
+Dialogue: 0,0:14:43.78,0:14:45.49,Dialogue,,0,0,0,,the Philosopher's Stone...
+Dialogue: 0,0:14:45.78,0:14:47.66,Dialogue,,0,0,0,,You would become an outcast?
+Dialogue: 0,0:14:52.54,0:14:55.21,Dialogue,,0,0,0,,I already {\i1}am{\i0} an outcast.
+Dialogue: 0,0:14:55.54,0:14:58.29,Dialogue,,0,0,0,,There are tens of thousands of lives\Ndwelling within this arm.
+Dialogue: 0,0:14:58.67,0:15:02.30,Dialogue,,0,0,0,,An outcast?\NA defiled person?
+Dialogue: 0,0:15:06.84,0:15:08.01,Dialogue,,0,0,0,,Rick!
+Dialogue: 0,0:15:08.72,0:15:11.64,Dialogue,,0,0,0,,{\i1}"Those who receive pain can still sleep."
+Dialogue: 0,0:15:11.85,0:15:15.06,Dialogue,,0,0,0,,{\i1}"Those who give pain cannot sleep."
+Dialogue: 0,0:15:15.60,0:15:18.56,Dialogue,,0,0,0,,In that case, as of today,\NI shall not sleep.
+Dialogue: 0,0:15:19.73,0:15:23.44,Dialogue,,0,0,0,,Go ahead! Go anyplace else but here, you outcast!
+Dialogue: 0,0:15:33.24,0:15:36.50,Dialogue,,0,0,0,,You're sure...\Nthey were named Rockbell?
+Dialogue: 0,0:15:36.87,0:15:37.79,Dialogue,,0,0,0,,That's right.
+Dialogue: 0,0:15:37.87,0:15:39.58,Dialogue,,0,0,0,,There was a lady doctor
+Dialogue: 0,0:15:39.67,0:15:42.55,Dialogue,,0,0,0,,who was scary when she got mad but used to give us candy a lot.
+Dialogue: 0,0:15:42.63,0:15:46.01,Dialogue,,0,0,0,,They would treat anyone,\Neven Ishbalans.
+Dialogue: 0,0:15:46.72,0:15:50.51,Dialogue,,0,0,0,,Mom said it was awful\Nthat they got killed.
+Dialogue: 0,0:15:50.80,0:15:53.97,Dialogue,,0,0,0,,You say they were killed by a State Alchemist?
+Dialogue: 0,0:15:54.39,0:15:57.23,Dialogue,,0,0,0,,They say he was an alchemist who used flame.
+Dialogue: 0,0:15:57.39,0:15:59.73,Dialogue,,0,0,0,,He got a commendation for it.
+Dialogue: 0,0:15:59.81,0:16:01.52,Dialogue,,0,0,0,,Mom cried over it, huh?
+Dialogue: 0,0:16:04.82,0:16:06.11,Dialogue,,0,0,0,,M-Miss!
+Dialogue: 0,0:16:07.15,0:16:10.24,Dialogue,,0,0,0,,The wounds didn't have\Nany burns around them?
+Dialogue: 0,0:16:10.45,0:16:12.62,Dialogue,,0,0,0,,No. What's more,\Nif they had been bullet wounds,
+Dialogue: 0,0:16:12.70,0:16:16.62,Dialogue,,0,0,0,,the entry wounds should be larger than the exit wounds, but they aren't.
+Dialogue: 0,0:16:17.16,0:16:18.79,Dialogue,,0,0,0,,Brother, these are...
+Dialogue: 0,0:16:19.00,0:16:21.88,Dialogue,,0,0,0,,There's a lieutenant colonel in Central named Archer, right?
+Dialogue: 0,0:16:22.59,0:16:25.00,Dialogue,,0,0,0,,He's going after these guys that are called homunculi.
+Dialogue: 0,0:16:25.09,0:16:26.21,Dialogue,,0,0,0,,Homunculi?
+Dialogue: 0,0:16:26.84,0:16:31.47,Dialogue,,0,0,0,,One of them is a monster that can quickly extend her fingers, like thin spears,
+Dialogue: 0,0:16:28.88,0:16:31.47,Dialogue,,0,0,0,,and then quickly retract them back to normal.
+Dialogue: 0,0:16:31.55,0:16:32.85,Dialogue,,0,0,0,,The thickness is about right.
+Dialogue: 0,0:16:32.93,0:16:35.81,Dialogue,,0,0,0,,Lt. Col.
+Dialogue: 0,0:16:35.89,0:16:37.23,Dialogue,,0,0,0,,Archer or Major Armstrong would believe this.
+Dialogue: 0,0:16:37.93,0:16:39.56,Dialogue,,0,0,0,,It wasn't an Ishbalan.
+Dialogue: 0,0:16:40.98,0:16:45.53,Dialogue,,0,0,0,,I can't very well ignore the word of\Nan esteemed State Alchemist, huh?
+Dialogue: 0,0:16:47.24,0:16:48.07,Dialogue,,0,0,0,,Hey, come on!
+Dialogue: 0,0:16:48.15,0:16:50.07,Dialogue,,0,0,0,,Yow-ow-ow!
+Dialogue: 0,0:16:51.45,0:16:52.78,Dialogue,,0,0,0,,Winry?
+Dialogue: 0,0:16:54.45,0:16:58.75,Dialogue,,0,0,0,,Rick, Leo, I managed to get them to overlook anything you might have done.
+Dialogue: 0,0:16:58.83,0:17:03.04,Dialogue,,0,0,0,,What's more, the people who are \Nbeing held here will not be punished.
+Dialogue: 0,0:17:03.13,0:17:05.59,Dialogue,,0,0,0,,They are going to be\Nsent to the camp, though.
+Dialogue: 0,0:17:06.13,0:17:09.59,Dialogue,,0,0,0,,If you guys want, you can go live in Resembool.
+Dialogue: 0,0:17:09.67,0:17:12.09,Dialogue,,0,0,0,,No, we'll go to the camp.
+Dialogue: 0,0:17:12.38,0:17:13.64,Dialogue,,0,0,0,,I see.
+Dialogue: 0,0:17:14.43,0:17:16.39,Dialogue,,0,0,0,,Where are you two going?
+Dialogue: 0,0:17:16.97,0:17:18.60,Dialogue,,0,0,0,,We're going to go after Scar.
+Dialogue: 0,0:17:19.14,0:17:21.60,Dialogue,,0,0,0,,If we don't, something terrible is going to happen.
+Dialogue: 0,0:17:21.77,0:17:22.60,Dialogue,,0,0,0,,Will you kill him?
+Dialogue: 0,0:17:23.81,0:17:24.77,Dialogue,,0,0,0,,Why would I?
+Dialogue: 0,0:17:24.86,0:17:26.61,Dialogue,,0,0,0,,Because he's an outcast!
+Dialogue: 0,0:17:26.86,0:17:28.82,Dialogue,,0,0,0,,He's defiled! That's why!
+Dialogue: 0,0:17:29.82,0:17:32.32,Dialogue,,0,0,0,,We want to stop him.
+Dialogue: 0,0:17:32.45,0:17:34.53,Dialogue,,0,0,0,,After all, we're alchemists,\Njust like he is.
+Dialogue: 0,0:17:34.62,0:17:37.08,Dialogue,,0,0,0,,No, we're human.
+Dialogue: 0,0:17:37.41,0:17:40.33,Dialogue,,0,0,0,,We won't kill anyone, and we don't want to let him kill anyone.
+Dialogue: 0,0:17:40.50,0:17:43.08,Dialogue,,0,0,0,,You're lying!\NYou hate Ishbalans!
+Dialogue: 0,0:17:59.27,0:18:00.35,Dialogue,,0,0,0,,Does this scare you?
+Dialogue: 0,0:18:00.43,0:18:01.77,Dialogue,,0,0,0,,Not even a little!
+Dialogue: 0,0:18:02.06,0:18:02.89,Dialogue,,0,0,0,,Well...
+Dialogue: 0,0:18:03.14,0:18:06.11,Dialogue,,0,0,0,,I'm a little bit\Nafraid of your red eyes.
+Dialogue: 0,0:18:07.15,0:18:11.57,Dialogue,,0,0,0,,The first time I met Scar, he was \Nthe first Ishbalan I had ever seen,
+Dialogue: 0,0:18:11.65,0:18:13.07,Dialogue,,0,0,0,,so I was more afraid of him.
+Dialogue: 0,0:18:13.57,0:18:18.08,Dialogue,,0,0,0,,Still,\Nthere are times when\Nour feelings are wrong.
+Dialogue: 0,0:18:18.95,0:18:24.04,Dialogue,,0,0,0,,What your mother and father told you isn't necessarily completely true.
+Dialogue: 0,0:18:24.67,0:18:28.88,Dialogue,,0,0,0,,That's why...\Nwe all have to find our own answers for ourselves.
+Dialogue: 0,0:18:29.63,0:18:31.01,Dialogue,,0,0,0,,One step at a time.
+Dialogue: 0,0:18:36.76,0:18:38.60,Dialogue,,0,0,0,,Winry, listen...
+Dialogue: 0,0:18:38.93,0:18:40.10,Dialogue,,0,0,0,,That being the case—
+Dialogue: 0,0:18:40.18,0:18:43.02,Dialogue,,0,0,0,,I'm going to Central.
+Dialogue: 0,0:18:43.10,0:18:45.44,Dialogue,,0,0,0,,Hawkeye-san, could you take me with you?
+Dialogue: 0,0:18:45.85,0:18:49.19,Dialogue,,0,0,0,,It's been so long, and I'd like to see Hughes-san and Elicia-chan.
+Dialogue: 0,0:18:49.61,0:18:50.44,Dialogue,,0,0,0,,Sure.
+Dialogue: 0,0:18:51.11,0:18:53.44,Dialogue,,0,0,0,,Winry, has something happened?
+Dialogue: 0,0:19:00.74,0:19:03.50,Dialogue,,0,0,0,,Well then, first up is Ishbal.
+Dialogue: 0,0:19:03.79,0:19:07.67,Dialogue,,0,0,0,,I sure hope Scar-san hasn't \Nmade his Philosopher's Stone.
+Dialogue: 0,0:19:06.83,0:19:07.67,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:19:08.29,0:19:12.21,Dialogue,,0,0,0,,It sounds so strange,\Nus hoping for such a thing.
+Dialogue: 0,0:19:13.67,0:19:15.26,Dialogue,,0,0,0,,What does this switch do?
+Dialogue: 0,0:19:26.27,0:19:27.19,Dialogue,,0,0,0,,Lieutenant...
+Dialogue: 0,0:19:27.56,0:19:28.98,Dialogue,,0,0,0,,Riza is fine.
+Dialogue: 0,0:19:29.90,0:19:32.69,Dialogue,,0,0,0,,Riza-san, have you ever shot anyone?
+Dialogue: 0,0:19:34.82,0:19:37.57,Dialogue,,0,0,0,,Yes, I have. Many times.
+Dialogue: 0,0:19:37.78,0:19:39.99,Dialogue,,0,0,0,,Did you know any doctors by the name of Rockbell?
+Dialogue: 0,0:19:40.45,0:19:41.28,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:19:43.66,0:19:46.46,Dialogue,,0,0,0,,I'm not sure what you know,
+Dialogue: 0,0:19:46.87,0:19:50.96,Dialogue,,0,0,0,,but there are times when a soldier has\Nno choice but to take another person's life.
+Dialogue: 0,0:19:51.46,0:19:53.63,Dialogue,,0,0,0,,Even when they're following orders that are irrational.
+Dialogue: 0,0:19:54.13,0:19:58.05,Dialogue,,0,0,0,,Maybe that's why I don't like soldiers very much.
+Dialogue: 0,0:19:58.43,0:20:00.55,Dialogue,,0,0,0,,But you're in the military.
+Dialogue: 0,0:20:00.80,0:20:02.89,Dialogue,,0,0,0,,That's because there is\Nsomeone I need to protect.
+Dialogue: 0,0:20:03.76,0:20:06.39,Dialogue,,0,0,0,,That is the one thing that\Nnobody has forced me to do.
+Dialogue: 0,0:20:06.85,0:20:08.23,Dialogue,,0,0,0,,It's something I decided myself.
+Dialogue: 0,0:20:08.64,0:20:12.90,Dialogue,,0,0,0,,I pull this trigger of my own will, \Nfor the sake of the one I need to protect.
+Dialogue: 0,0:20:14.32,0:20:18.95,Dialogue,,0,0,0,,Until the day when\Nthat person achieves his goal,\NI will not hesitate\Nto pull this trigger.
+Dialogue: 0,0:20:19.70,0:20:22.37,Dialogue,,0,0,0,,What if that person\Nwas not worth protecting?
+Dialogue: 0,0:20:22.74,0:20:25.08,Dialogue,,0,0,0,,That is something else\Nfor me to decide.
+Dialogue: 0,0:20:29.92,0:20:32.13,Dialogue,,0,0,0,,This boy is Wrath.\NHe is the seventh.
+Dialogue: 0,0:20:32.42,0:20:33.59,Dialogue,,0,0,0,,Wrath?
+Dialogue: 0,0:20:33.67,0:20:35.34,Dialogue,,0,0,0,,Nice to meet you, Wrath.
+Dialogue: 0,0:20:37.21,0:20:41.14,Dialogue,,0,0,0,,I want you to go after the\NFullmetal brothers once again.
+Dialogue: 0,0:20:41.22,0:20:45.85,Dialogue,,0,0,0,,Didn't you tell us that there was little hope of making them create a Philosopher's Stone?
+Dialogue: 0,0:20:46.22,0:20:48.85,Dialogue,,0,0,0,,The two of them\Nare heading for Ishbal.
+Dialogue: 0,0:20:49.10,0:20:49.98,Dialogue,,0,0,0,,I see.
+Dialogue: 0,0:20:50.14,0:20:53.40,Dialogue,,0,0,0,,If those boys learn the facts about what happened there,
+Dialogue: 0,0:20:53.48,0:20:56.90,Dialogue,,0,0,0,,they will never think again about making a Philosopher's Stone.
+Dialogue: 0,0:20:56.98,0:21:00.61,Dialogue,,0,0,0,,That will make it harder for us to move from here on as well.
+Dialogue: 0,0:21:00.99,0:21:03.37,Dialogue,,0,0,0,,Then can I eat them?
+Dialogue: 0,0:21:03.57,0:21:04.62,Dialogue,,0,0,0,,Maybe.
+Dialogue: 0,0:21:04.70,0:21:08.37,Dialogue,,0,0,0,,Depending on the circumstances, it might be quicker to dispose of them.
+Dialogue: 0,0:21:20.47,0:21:24.47,Dialogue,,0,0,0,,I'm sorry. I didn't know anything about this.
+Dialogue: 0,0:21:25.10,0:21:28.02,Dialogue,,0,0,0,,"I'm going to push him all the way to the top."
+Dialogue: 0,0:21:28.64,0:21:30.52,Dialogue,,0,0,0,,That's what he\Nalways used to say.
+Dialogue: 0,0:21:30.77,0:21:33.60,Dialogue,,0,0,0,,He was sure he was going to make Mustang-san the Führer.
+Dialogue: 0,0:21:35.27,0:21:36.40,Dialogue,,0,0,0,,This can't be...
+Dialogue: 0,0:21:36.98,0:21:39.90,Dialogue,,0,0,0,,I suppose he did\Nhelp out to that end.
+Dialogue: 0,0:21:45.99,0:21:50.04,Dialogue,,0,0,0,,This can't be...
+Dialogue: 0,0:23:39.40,0:23:40.98,Dialogue,,0,0,0,,{\i1}Fullmetal Alchemist{\i0}...
+Dialogue: 0,0:23:41.57,0:23:47.86,Dialogue,,0,0,0,,Episode 37: "The Flame Alchemist,
+Dialogue: 0,0:23:43.19,0:23:47.86,Dialogue,,0,0,0,,The Fighting Lieutenant,\NThe Mystery of Warehouse 13"

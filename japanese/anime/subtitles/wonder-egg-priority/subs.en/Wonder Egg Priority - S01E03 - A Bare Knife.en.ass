@@ -1,0 +1,316 @@
+[Script Info]
+Title: Wonder Egg Priority - S01E03 - A Bare Knife
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1280
+PlayResY: 720
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Dialogue,Noto Sans,46,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,40,40,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:04.77,0:00:09.42,Dialogue,,0,0,0,,I love young women! Let me gobble them up!
+Dialogue: 0,0:00:10.64,0:00:14.07,Dialogue,,0,0,0,,In that case, just go see a prostitute.
+Dialogue: 0,0:00:22.75,0:00:25.70,Dialogue,,0,0,0,,Thank you for protecting me.
+Dialogue: 0,0:00:28.67,0:00:29.93,Dialogue,,0,0,0,,You're welcome.
+Dialogue: 0,0:00:32.52,0:00:33.19,Dialogue,,0,0,0,,Huh.
+Dialogue: 0,0:00:42.44,0:00:44.98,Dialogue,,0,0,0,,Your palms are sweaty. Gross.
+Dialogue: 0,0:00:48.10,0:00:53.45,Dialogue,,0,0,0,,That said, {\i1}I{\i0} might look good in a flower garden like this,
+Dialogue: 0,0:00:55.06,0:00:56.91,Dialogue,,0,0,0,,but not a fatty like you.
+Dialogue: 0,0:02:34.49,0:02:36.00,Dialogue,,0,0,0,,Don't overdo it.
+Dialogue: 0,0:02:36.23,0:02:37.59,Dialogue,,0,0,0,,More haste, less speed.
+Dialogue: 0,0:02:38.13,0:02:39.16,Dialogue,,0,0,0,,Thank you.
+Dialogue: 0,0:02:40.18,0:02:41.85,Dialogue,,0,0,0,,Come again.
+Dialogue: 0,0:02:42.65,0:02:44.87,Dialogue,,0,0,0,,Come on, Ura-Acca, {show some concern}say something too.
+Dialogue: 0,0:02:48.99,0:02:50.03,Dialogue,,0,0,0,,A-Are you okay?!
+Dialogue: 0,0:02:50.45,0:02:51.42,Dialogue,,0,0,0,,Where does it hurt?
+Dialogue: 0,0:02:53.17,0:02:54.32,Dialogue,,0,0,0,,M-My ribs hurt.
+Dialogue: 0,0:02:55.15,0:02:56.51,Dialogue,,0,0,0,,I think they're broken.
+Dialogue: 0,0:02:56.89,0:02:57.46,Dialogue,,0,0,0,,A doctor should—
+Dialogue: 0,0:02:59.34,0:03:02.62,Dialogue,,0,0,0,,They never told me my body {\i1}here{\i0} would get hurt!
+Dialogue: 0,0:03:02.89,0:03:06.57,Dialogue,,0,0,0,,I'm terribly sorry, but that's none of our concern.
+Dialogue: 0,0:03:07.94,0:03:09.74,Dialogue,,0,0,0,,That's {\i1}your{\i0} responsibility.
+Dialogue: 0,0:03:09.79,0:03:10.87,Dialogue,,0,0,0,,You're awful!
+Dialogue: 0,0:03:11.02,0:03:12.29,Dialogue,,0,0,0,,Get used to it.
+Dialogue: 0,0:03:15.61,0:03:17.88,Dialogue,,0,0,0,,Adults suck, even in this place.
+Dialogue: 0,0:03:18.44,0:03:19.15,Dialogue,,0,0,0,,Huh?
+Dialogue: 0,0:03:21.01,0:03:22.51,Dialogue,,0,0,0,,Oh, I'm fine now.
+Dialogue: 0,0:03:25.59,0:03:26.84,Dialogue,,0,0,0,,I'm Kawai Rika.
+Dialogue: 0,0:03:27.08,0:03:28.99,Dialogue,,0,0,0,,Like "kawaii," 'cause I'm so cute.
+Dialogue: 0,0:03:29.64,0:03:31.32,Dialogue,,0,0,0,,Are you saving a friend, too?
+Dialogue: 0,0:03:31.76,0:03:33.04,Dialogue,,0,0,0,,Are those color contacts?
+Dialogue: 0,0:03:33.67,0:03:34.54,Dialogue,,0,0,0,,Huh?
+Dialogue: 0,0:03:34.78,0:03:37.33,Dialogue,,0,0,0,,Cool idea, mixing colors.
+Dialogue: 0,0:03:37.39,0:03:38.19,Dialogue,,0,0,0,,That might go viral.
+Dialogue: 0,0:03:38.35,0:03:40.36,Dialogue,,0,0,0,,No.\NIt's...
+Dialogue: 0,0:03:42.34,0:03:45.33,Dialogue,,0,0,0,,Does it bother you? Sorry.
+Dialogue: 0,0:03:46.39,0:03:49.29,Dialogue,,0,0,0,,Anyway, I forgot my wallet.
+Dialogue: 0,0:03:49.80,0:03:51.64,Dialogue,,0,0,0,,Sorry, but could you spot me cash?
+Dialogue: 0,0:03:51.93,0:03:52.72,Dialogue,,0,0,0,,Huh?
+Dialogue: 0,0:03:53.23,0:03:56.75,Dialogue,,0,0,0,,They didn't tell me the second one would cost money.
+Dialogue: 0,0:03:57.09,0:03:58.69,Dialogue,,0,0,0,,I most certainly did.
+Dialogue: 0,0:03:58.92,0:04:01.46,Dialogue,,0,0,0,,It'd be a pain to go back for my wallet.
+Dialogue: 0,0:04:02.16,0:04:03.77,Dialogue,,0,0,0,,Please! I'll pay you back!
+Dialogue: 0,0:04:04.53,0:04:07.87,Dialogue,,0,0,0,,Uh, umm...
+Dialogue: 0,0:04:04.53,0:04:09.19,Dialogue,,0,0,0,,Y-Yeah, okay, sure.
+Dialogue: 0,0:04:10.59,0:04:11.89,Dialogue,,0,0,0,,She will, huh?
+Dialogue: 0,0:04:12.44,0:04:12.91,Dialogue,,0,0,0,,Here.
+Dialogue: 0,0:04:13.76,0:04:14.46,Dialogue,,0,0,0,,Thanks.
+Dialogue: 0,0:04:15.75,0:04:16.41,Dialogue,,0,0,0,,Huh?
+Dialogue: 0,0:04:18.00,0:04:19.50,Dialogue,,0,0,0,,Come see {Rika}me again, okay?
+Dialogue: 0,0:04:21.84,0:04:22.78,Dialogue,,0,0,0,,Just kidding!
+Dialogue: 0,0:04:47.02,0:04:48.11,Dialogue,,0,0,0,,A handshake event?
+Dialogue: 0,0:04:59.95,0:05:00.90,Dialogue,,0,0,0,,Rika?
+Dialogue: 0,0:05:02.01,0:05:03.52,Dialogue,,0,0,0,,How'd you know where I live?
+Dialogue: 0,0:05:04.12,0:05:07.82,Dialogue,,0,0,0,,Ai-kyun, Ai-Ai, A-chan, Ai-ty, Aijorina.
+Dialogue: 0,0:05:08.41,0:05:09.47,Dialogue,,0,0,0,,What do people call you?
+Dialogue: 0,0:05:11.65,0:05:12.43,Dialogue,,0,0,0,,"Ohto."
+Dialogue: 0,0:05:13.11,0:05:14.72,Dialogue,,0,0,0,,I don't really have a nickname.
+Dialogue: 0,0:05:16.98,0:05:18.08,Dialogue,,0,0,0,,Oh... so {it's like that}that's how it is, huh?
+Dialogue: 0,0:05:19.34,0:05:20.67,Dialogue,,0,0,0,,I followed you yesterday.
+Dialogue: 0,0:05:20.94,0:05:22.75,Dialogue,,0,0,0,,Oh, to pay me back for—
+Dialogue: 0,0:05:22.79,0:05:25.65,Dialogue,,0,0,0,,Sorry! I forgot my wallet again.
+Dialogue: 0,0:05:28.41,0:05:29.91,Dialogue,,0,0,0,,You know someone in here?
+Dialogue: 0,0:05:30.24,0:05:31.93,Dialogue,,0,0,0,,Yeah. Her name's Neiru.
+Dialogue: 0,0:05:33.02,0:05:34.62,Dialogue,,0,0,0,,So, Neiru's {\i1}nailed{\i0} down in bed?
+Dialogue: 0,0:05:37.68,0:05:39.45,Dialogue,,0,0,0,,Don't rush your rehabilitation.
+Dialogue: 0,0:05:39.94,0:05:40.63,Dialogue,,0,0,0,,I'm fine.
+Dialogue: 0,0:05:43.40,0:05:45.43,Dialogue,,0,0,0,,You have to give your body time to rest,
+Dialogue: 0,0:05:46.02,0:05:47.87,Dialogue,,0,0,0,,or you'll only make things worse.
+Dialogue: 0,0:05:48.41,0:05:50.08,Dialogue,,0,0,0,,Don't worry, doctor.
+Dialogue: 0,0:05:50.78,0:05:52.59,Dialogue,,0,0,0,,We're still young.
+Dialogue: 0,0:05:53.21,0:05:55.53,Dialogue,,0,0,0,,Don't put too much confidence in youth.
+Dialogue: 0,0:05:56.22,0:05:58.00,Dialogue,,0,0,0,,I guess I shouldn't.
+Dialogue: 0,0:05:58.42,0:05:59.93,Dialogue,,0,0,0,,I'll be careful.
+Dialogue: 0,0:06:01.89,0:06:02.87,Dialogue,,0,0,0,,Thank you!
+Dialogue: 0,0:06:03.69,0:06:04.53,Dialogue,,0,0,0,,Thank you.
+Dialogue: 0,0:06:05.07,0:06:06.04,Dialogue,,0,0,0,,Thank you.
+Dialogue: 0,0:06:18.25,0:06:20.59,Dialogue,,0,0,0,,Oh, yeah.
+Dialogue: 0,0:06:21.20,0:06:22.19,Dialogue,,0,0,0,,Don't overdo it with this.{"this time" or something?}
+Dialogue: 0,0:06:23.79,0:06:26.34,Dialogue,,0,0,0,,Yes, I know.\NThank you.
+Dialogue: 0,0:06:27.91,0:06:29.42,Dialogue,,0,0,0,,This is Kawai Rika.
+Dialogue: 0,0:06:29.89,0:06:31.10,Dialogue,,0,0,0,,I met her buying Eggs.
+Dialogue: 0,0:06:31.60,0:06:36.03,Dialogue,,0,0,0,,I see.\NRemember it as {\i1}Kawaii{\i0} Rika, since I'm so super cute.
+Dialogue: 0,0:06:39.94,0:06:40.45,Dialogue,,0,0,0,,I won't.
+Dialogue: 0,0:06:43.48,0:06:44.76,Dialogue,,0,0,0,,A tsundere, huh?
+Dialogue: 0,0:06:45.75,0:06:47.44,Dialogue,,0,0,0,,Want to form a unit with me?
+Dialogue: 0,0:06:47.81,0:06:49.93,Dialogue,,0,0,0,,I used to be a junior idol.
+Dialogue: 0,0:06:50.14,0:06:52.62,Dialogue,,0,0,0,,A group called All-Out Kiss. Ever heard of us?
+Dialogue: 0,0:06:52.86,0:06:53.44,Dialogue,,0,0,0,,Never.
+Dialogue: 0,0:06:53.86,0:06:55.48,Dialogue,,0,0,0,,We broke up.
+Dialogue: 0,0:06:55.72,0:06:57.49,Dialogue,,0,0,0,,All the others were too ugly.
+Dialogue: 0,0:06:58.05,0:07:00.24,Dialogue,,0,0,0,,Come on. The two of us might get popular.
+Dialogue: 0,0:07:01.13,0:07:02.03,Dialogue,,0,0,0,,Not interested.
+Dialogue: 0,0:07:03.24,0:07:04.65,Dialogue,,0,0,0,,That's too bad.
+Dialogue: 0,0:07:08.21,0:07:09.21,Dialogue,,0,0,0,,I love kiwi.
+Dialogue: 0,0:07:11.55,0:07:12.49,Dialogue,,0,0,0,,What about me?
+Dialogue: 0,0:07:22.26,0:07:23.55,Dialogue,,0,0,0,,You've got nice legs.
+Dialogue: 0,0:07:24.63,0:07:25.93,Dialogue,,0,0,0,,Wanna be a backup dancer?
+Dialogue: 0,0:07:26.48,0:07:27.20,Dialogue,,0,0,0,,Backup?
+Dialogue: 0,0:07:37.90,0:07:38.62,Dialogue,,0,0,0,,Ai?
+Dialogue: 0,0:07:39.87,0:07:40.60,Dialogue,,0,0,0,,Oh?
+Dialogue: 0,0:07:41.51,0:07:42.49,Dialogue,,0,0,0,,Welcome!
+Dialogue: 0,0:07:43.01,0:07:43.77,Dialogue,,0,0,0,,A friend?
+Dialogue: 0,0:07:45.48,0:07:46.34,Dialogue,,0,0,0,,I'm Kawai Rika.
+Dialogue: 0,0:07:46.62,0:07:48.31,Dialogue,,0,0,0,,Like "kawaii," because I'm so cute.
+Dialogue: 0,0:07:48.31,0:07:49.57,Dialogue,,0,0,0,,H-Hey.
+Dialogue: 0,0:07:49.98,0:07:51.80,Dialogue,,0,0,0,,Welcome home. A friend of yours?
+Dialogue: 0,0:07:52.79,0:07:55.98,Dialogue,,0,0,0,,I'll leave for today, since I see you have company.
+Dialogue: 0,0:07:56.96,0:07:58.52,Dialogue,,0,0,0,,Oh yes, all right.
+Dialogue: 0,0:07:59.30,0:08:00.65,Dialogue,,0,0,0,,I'm sorry, Mr. Sawaki.
+Dialogue: 0,0:08:01.15,0:08:03.18,Dialogue,,0,0,0,,Don't be. It's no trouble.
+Dialogue: 0,0:08:03.42,0:08:05.79,Dialogue,,0,0,0,,Thank you for always coming by.
+Dialogue: 0,0:08:03.42,0:08:05.79,Dialogue,,0,0,0,,You've got one good-looking daddy.
+Dialogue: 0,0:08:05.79,0:08:06.61,Dialogue,,0,0,0,,He's not my dad.
+Dialogue: 0,0:08:06.77,0:08:08.10,Dialogue,,0,0,0,,Please, come in.
+Dialogue: 0,0:08:08.84,0:08:11.04,Dialogue,,0,0,0,,I'll bring you some roll cake later.
+Dialogue: 0,0:08:13.30,0:08:15.99,Dialogue,,0,0,0,,Your school counselor? Whoa.
+Dialogue: 0,0:08:16.98,0:08:18.96,Dialogue,,0,0,0,,Hang on, you're a shut-in?
+Dialogue: 0,0:08:19.78,0:08:21.72,Dialogue,,0,0,0,,Yeah. Since this semester started.
+Dialogue: 0,0:08:22.16,0:08:23.73,Dialogue,,0,0,0,,Oh, so you're out for attention.
+Dialogue: 0,0:08:24.11,0:08:24.79,Dialogue,,0,0,0,,What?
+Dialogue: 0,0:08:25.40,0:08:28.88,Dialogue,,0,0,0,,You're trying to get your hot\Ncounselor to worry about you, right?
+Dialogue: 0,0:08:29.22,0:08:30.39,Dialogue,,0,0,0,,N-No, I'm not!
+Dialogue: 0,0:08:30.92,0:08:32.67,Dialogue,,0,0,0,,It's because Koito died.
+Dialogue: 0,0:08:33.06,0:08:34.08,Dialogue,,0,0,0,,Koito?
+Dialogue: 0,0:08:35.51,0:08:37.40,Dialogue,,0,0,0,,Yeah. She was my only friend.
+Dialogue: 0,0:08:37.53,0:08:39.88,Dialogue,,0,0,0,,Quit it with the depressing talk.
+Dialogue: 0,0:08:40.17,0:08:41.89,Dialogue,,0,0,0,,It'll spoil the cake.
+Dialogue: 0,0:08:44.63,0:08:46.70,Dialogue,,0,0,0,,Aren't you trying to save your friend—
+Dialogue: 0,0:08:46.70,0:08:47.68,Dialogue,,0,0,0,,She's not my friend.
+Dialogue: 0,0:08:48.93,0:08:49.98,Dialogue,,0,0,0,,She's my fan.
+Dialogue: 0,0:08:51.12,0:08:54.03,Dialogue,,0,0,0,,My little wallet who'd buy me anything.
+Dialogue: 0,0:08:55.24,0:08:56.42,Dialogue,,0,0,0,,Your "wallet"?
+Dialogue: 0,0:08:57.02,0:09:00.14,Dialogue,,0,0,0,,My daddy says a beautiful woman doesn't need a wallet.
+Dialogue: 0,0:09:00.55,0:09:02.71,Dialogue,,0,0,0,,Someone will always offer to pay for her.
+Dialogue: 0,0:09:03.45,0:09:05.18,Dialogue,,0,0,0,,Of course, he got divorced.
+Dialogue: 0,0:09:06.96,0:09:08.48,Dialogue,,0,0,0,,Oh, I'll pay you back for the Egg.
+Dialogue: 0,0:09:08.65,0:09:09.33,Dialogue,,0,0,0,,Promise.
+Dialogue: 0,0:09:11.98,0:09:12.72,Dialogue,,0,0,0,,Coming!
+Dialogue: 0,0:09:14.89,0:09:15.89,Dialogue,,0,0,0,,Wow, it looks delicious!
+Dialogue: 0,0:09:16.33,0:09:18.09,Dialogue,,0,0,0,,Oh, I buy these roll cakes all the time.
+Dialogue: 0,0:09:16.33,0:09:18.09,Dialogue,,0,0,0,,You'd better.
+Dialogue: 0,0:09:18.85,0:09:21.64,Dialogue,,0,0,0,,I've been short on cash since Chiemi died.
+Dialogue: 0,0:09:23.55,0:09:26.97,Dialogue,,0,0,0,,So, I'm gonna save her and get my wallet back.
+Dialogue: 0,0:09:28.68,0:09:31.65,Dialogue,,0,0,0,,Chiemi's ugly and a real fatty.
+Dialogue: 0,0:09:31.94,0:09:33.71,Dialogue,,0,0,0,,She has gross, sweaty palms, too.
+Dialogue: 0,0:09:34.38,0:09:36.57,Dialogue,,0,0,0,,Way too embarrassing to call a friend, right?
+Dialogue: 0,0:09:37.58,0:09:40.49,Dialogue,,0,0,0,,You pick your friends based on looks?\NYup.
+Dialogue: 0,0:09:46.83,0:09:47.84,Dialogue,,0,0,0,,You gonna eat that?
+Dialogue: 0,0:09:48.71,0:09:49.49,Dialogue,,0,0,0,,Come on.
+Dialogue: 0,0:09:51.00,0:09:51.61,Dialogue,,0,0,0,,It's mine.
+Dialogue: 0,0:09:58.06,0:10:00.40,Dialogue,,0,0,0,,Was that Koito girl cute?
+Dialogue: 0,0:10:01.41,0:10:01.81,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:10:02.76,0:10:04.91,Dialogue,,0,0,0,,More "pretty" than "cute."
+Dialogue: 0,0:10:05.71,0:10:07.25,Dialogue,,0,0,0,,Compared to Neiru?
+Dialogue: 0,0:10:07.65,0:10:11.24,Dialogue,,0,0,0,,Neiru is cool, but Koito was more gentle and soft.
+Dialogue: 0,0:10:11.88,0:10:13.96,Dialogue,,0,0,0,,She was graceful and innocent, I guess.
+Dialogue: 0,0:10:15.37,0:10:16.35,Dialogue,,0,0,0,,See? It was looks.
+Dialogue: 0,0:10:16.57,0:10:17.30,Dialogue,,0,0,0,,No!
+Dialogue: 0,0:10:18.11,0:10:19.75,Dialogue,,0,0,0,,Ugh.
+Dialogue: 0,0:10:18.11,0:10:20.24,Dialogue,,0,0,0,,S-Sorry.
+Dialogue: 0,0:10:19.31,0:10:20.24,Dialogue,,0,0,0,,That's cold.
+Dialogue: 0,0:10:22.81,0:10:24.92,Dialogue,,0,0,0,,I'll grab a towel.
+Dialogue: 0,0:10:38.06,0:10:40.26,Dialogue,,0,0,0,,Ai, lend me some pajamas!
+Dialogue: 0,0:11:24.10,0:11:25.50,Dialogue,,0,0,0,,Did you call your parents?
+Dialogue: 0,0:11:27.75,0:11:29.60,Dialogue,,0,0,0,,Who cares about her?{wat}
+Dialogue: 0,0:11:33.19,0:11:35.58,Dialogue,,0,0,0,,Scratch the surface, and she's all slimy.
+Dialogue: 0,0:11:36.75,0:11:37.66,Dialogue,,0,0,0,,Everyone is.
+Dialogue: 0,0:11:41.71,0:11:43.80,Dialogue,,0,0,0,,Long baths will give you dry skin.
+Dialogue: 0,0:11:55.95,0:11:58.49,Dialogue,,0,0,0,,I won't cut anymore. I promised.
+Dialogue: 0,0:12:06.18,0:12:07.84,Dialogue,,0,0,0,,Koito, is club...
+Dialogue: 0,0:12:11.64,0:12:12.18,Dialogue,,0,0,0,,Ai?
+Dialogue: 0,0:12:14.81,0:12:15.48,Dialogue,,0,0,0,,Ohto?
+Dialogue: 0,0:12:20.94,0:12:21.77,Dialogue,,0,0,0,,Excuse me!
+Dialogue: 0,0:12:40.82,0:12:43.30,Dialogue,,0,0,0,,Why, Koito?
+Dialogue: 0,0:12:44.05,0:12:45.92,Dialogue,,0,0,0,,Was it because of Mr. Sawaki?
+Dialogue: 0,0:12:53.89,0:12:57.52,Dialogue,,0,0,0,,I knew it. You don't look too good in a flower garden either.
+Dialogue: 0,0:13:00.31,0:13:04.07,Dialogue,,0,0,0,,Look, that's my little wallet Chiemi over there.
+Dialogue: 0,0:13:04.94,0:13:07.28,Dialogue,,0,0,0,,She looks a little thinner from over here.{this distance maybe?}
+Dialogue: 0,0:13:09.41,0:13:10.24,Dialogue,,0,0,0,,Why?
+Dialogue: 0,0:13:11.66,0:13:12.66,Dialogue,,0,0,0,,You synchronized.
+Dialogue: 0,0:13:13.33,0:13:13.99,Dialogue,,0,0,0,,We what?
+Dialogue: 0,0:13:16.23,0:13:19.58,Dialogue,,0,0,0,,You fell asleep near each other\Nand at almost the same time, so...
+Dialogue: 0,0:13:20.29,0:13:21.21,Dialogue,,0,0,0,,We synchronized.
+Dialogue: 0,0:13:22.21,0:13:24.71,Dialogue,,0,0,0,,But why aren't we in my dream?
+Dialogue: 0,0:13:25.46,0:13:28.07,Dialogue,,0,0,0,,You're pulled by whoever's feelings are stronger.
+Dialogue: 0,0:13:28.59,0:13:29.55,Dialogue,,0,0,0,,That can't be it!
+Dialogue: 0,0:13:29.76,0:13:32.51,Dialogue,,0,0,0,,She calls her friend her "wallet"!
+Dialogue: 0,0:13:32.51,0:13:33.10,Dialogue,,0,0,0,,How could—
+Dialogue: 0,0:13:33.10,0:13:33.86,Dialogue,,0,0,0,,Hey!
+Dialogue: 0,0:13:35.40,0:13:36.47,Dialogue,,0,0,0,,Crack them on "go"?
+Dialogue: 0,0:13:38.60,0:13:39.64,Dialogue,,0,0,0,,Ready, go.
+Dialogue: 0,0:13:40.48,0:13:41.40,Dialogue,,0,0,0,,Miko!
+Dialogue: 0,0:13:41.51,0:13:42.44,Dialogue,,0,0,0,,Mako!
+Dialogue: 0,0:13:42.73,0:13:44.94,Dialogue,,0,0,0,,Friends?
+Dialogue: 0,0:13:42.73,0:13:45.49,Dialogue,,0,0,0,,You're here! You're here!
+Dialogue: 0,0:13:44.19,0:13:44.94,Dialogue,,0,0,0,,I got to see you again!
+Dialogue: 0,0:13:45.73,0:13:48.11,Dialogue,,0,0,0,,We're huge fans of Yu-Yu.
+Dialogue: 0,0:13:48.57,0:13:51.28,Dialogue,,0,0,0,,We went to meet-ups and concerts and things.
+Dialogue: 0,0:13:52.20,0:13:53.07,Dialogue,,0,0,0,,Who's Yu-Yu?
+Dialogue: 0,0:13:53.45,0:13:55.20,Dialogue,,0,0,0,,A singer who committed suicide.
+Dialogue: 0,0:13:55.74,0:13:57.37,Dialogue,,0,0,0,,We're huge Yu-Yu fans.
+Dialogue: 0,0:13:57.75,0:14:00.50,Dialogue,,0,0,0,,So, we followed Yu-Yu and died as fast as we could.
+Dialogue: 0,0:14:00.91,0:14:02.08,Dialogue,,0,0,0,,Just like that?
+Dialogue: 0,0:14:02.25,0:14:03.87,Dialogue,,0,0,0,,It's not easy or casual.{ugh}
+Dialogue: 0,0:14:04.42,0:14:06.88,Dialogue,,0,0,0,,That's basically the way fanatical fans are.
+Dialogue: 0,0:14:07.66,0:14:09.27,Dialogue,,0,0,0,,So, for now, we just have to...
+Dialogue: 0,0:14:09.76,0:14:12.01,Dialogue,,0,0,0,,Keep these girls safe until sunset.
+Dialogue: 0,0:14:13.26,0:14:15.51,Dialogue,,0,0,0,,I don't see any Seeno Evils.
+Dialogue: 0,0:14:16.26,0:14:17.31,Dialogue,,0,0,0,,The bystanders?
+Dialogue: 0,0:14:18.14,0:14:20.81,Dialogue,,0,0,0,,They're here. There's a swimming beach down below.
+Dialogue: 0,0:14:27.36,0:14:30.24,Dialogue,,0,0,0,,What are those?! They're adorbs!
+Dialogue: 0,0:14:31.82,0:14:34.66,Dialogue,,0,0,0,,Lucky. I wish we could swap.
+Dialogue: 0,0:14:44.75,0:14:45.63,Dialogue,,0,0,0,,That way!{over there?}
+Dialogue: 0,0:14:46.13,0:14:47.54,Dialogue,,0,0,0,,I know!
+Dialogue: 0,0:14:53.72,0:14:54.47,Dialogue,,0,0,0,,Watch out!
+Dialogue: 0,0:14:55.47,0:14:56.47,Dialogue,,0,0,0,,What the hell?!
+Dialogue: 0,0:14:56.47,0:14:57.85,Dialogue,,0,0,0,,S-Sorry.
+Dialogue: 0,0:14:58.31,0:15:00.22,Dialogue,,0,0,0,,But it's your fault for standing there.
+Dialogue: 0,0:15:00.22,0:15:01.68,Dialogue,,0,0,0,,I told you to go that way!
+Dialogue: 0,0:15:02.10,0:15:02.60,Dialogue,,0,0,0,,Jeez!
+Dialogue: 0,0:15:04.98,0:15:07.61,Dialogue,,0,0,0,,Oh, what is it now?!
+Dialogue: 0,0:15:08.02,0:15:08.86,Dialogue,,0,0,0,,Take that!
+Dialogue: 0,0:15:17.24,0:15:17.83,Dialogue,,0,0,0,,Behind you!
+Dialogue: 0,0:15:23.66,0:15:25.12,Dialogue,,0,0,0,,Piece of cake.
+Dialogue: 0,0:15:28.25,0:15:28.84,Dialogue,,0,0,0,,Behind you!
+Dialogue: 0,0:15:30.34,0:15:31.17,Dialogue,,0,0,0,,Are you okay?!
+Dialogue: 0,0:15:35.51,0:15:36.89,Dialogue,,0,0,0,,I'm fine.
+Dialogue: 0,0:15:37.80,0:15:39.01,Dialogue,,0,0,0,,Go get 'em!
+Dialogue: 0,0:15:39.10,0:15:41.01,Dialogue,,0,0,0,,It could be hard to fight in the open.
+Dialogue: 0,0:15:41.64,0:15:42.79,Dialogue,,0,0,0,,Hmm...
+Dialogue: 0,0:15:43.60,0:15:44.64,Dialogue,,0,0,0,,Oh.
+Dialogue: 0,0:16:06.46,0:16:08.33,Dialogue,,0,0,0,,Your cuts aren't healing.
+Dialogue: 0,0:16:09.71,0:16:12.21,Dialogue,,0,0,0,,Oh, don't worry. These are old.
+Dialogue: 0,0:16:13.55,0:16:14.84,Dialogue,,0,0,0,,Just a youthful whatever.{ah yes}
+Dialogue: 0,0:16:18.72,0:16:20.01,Dialogue,,0,0,0,,Okay, show's over.
+Dialogue: 0,0:16:21.97,0:16:24.52,Dialogue,,0,0,0,,Tell me about Chiemi for real.
+Dialogue: 0,0:16:24.89,0:16:26.56,Dialogue,,0,0,0,,It's none of your business.
+Dialogue: 0,0:16:26.56,0:16:27.44,Dialogue,,0,0,0,,Yes, it is.
+Dialogue: 0,0:16:30.81,0:16:33.94,Dialogue,,0,0,0,,Handshake events for unpopular idols are surreal.
+Dialogue: 0,0:16:34.28,0:16:37.07,Dialogue,,0,0,0,,Just a few people lining up over and over.
+Dialogue: 0,0:16:38.41,0:16:40.53,Dialogue,,0,0,0,,Chiemi was a real idiot.
+Dialogue: 0,0:16:41.95,0:16:45.41,Dialogue,,0,0,0,,She got in line for me dozens, maybe hundreds of times.
+Dialogue: 0,0:16:45.95,0:16:50.43,Dialogue,,0,0,0,,She just gave me all her allowance \Nand New Year's money with a smile.
+Dialogue: 0,0:16:52.17,0:16:55.46,Dialogue,,0,0,0,,I believed I had a rich patron.
+Dialogue: 0,0:16:56.42,0:16:59.13,Dialogue,,0,0,0,,Then one day, I saw her shoplifting in town.
+Dialogue: 0,0:17:00.39,0:17:02.68,Dialogue,,0,0,0,,She'd been selling what she {took}stole.
+Dialogue: 0,0:17:09.27,0:17:11.36,Dialogue,,0,0,0,,Oh, I totally know that feeling.
+Dialogue: 0,0:17:09.27,0:17:14.23,Dialogue,,0,0,0,,Yeah, we got sugar daddies for the same reason.{uhh}
+Dialogue: 0,0:17:14.55,0:17:15.82,Dialogue,,0,0,0,,I didn't want that.
+Dialogue: 0,0:17:16.61,0:17:19.15,Dialogue,,0,0,0,,So, I told her I'd never be friends with a fan.
+Dialogue: 0,0:17:19.86,0:17:23.83,Dialogue,,0,0,0,,I said I'd be too embarrassed to be\Nseen with a fatty in the first place.
+Dialogue: 0,0:17:24.20,0:17:25.41,Dialogue,,0,0,0,,I said, "Never come back."
+Dialogue: 0,0:17:27.17,0:17:29.83,Dialogue,,0,0,0,,After that, another fan told me what happened.
+Dialogue: 0,0:17:30.17,0:17:31.63,Dialogue,,0,0,0,,Chiemi died.
+Dialogue: 0,0:17:32.63,0:17:35.34,Dialogue,,0,0,0,,She was skin and bones, like a mummy.
+Dialogue: 0,0:17:36.38,0:17:38.42,Dialogue,,0,0,0,,I couldn't forget her if I wanted to.
+Dialogue: 0,0:17:39.63,0:17:42.89,Dialogue,,0,0,0,,This...\NThis isn't Chiemi.
+Dialogue: 0,0:17:44.60,0:17:45.39,Dialogue,,0,0,0,,Run!
+Dialogue: 0,0:17:52.73,0:17:55.23,Dialogue,,0,0,0,,If it means I can see Chiemi again,
+Dialogue: 0,0:17:56.57,0:17:58.90,Dialogue,,0,0,0,,I'll kill as many as it takes!
+Dialogue: 0,0:18:00.70,0:18:01.45,Dialogue,,0,0,0,,Rika...
+Dialogue: 0,0:18:28.60,0:18:29.39,Dialogue,,0,0,0,,I understand.
+Dialogue: 0,0:18:30.32,0:18:33.10,Dialogue,,0,0,0,,There was a part of me that resented her.
+Dialogue: 0,0:18:34.40,0:18:37.98,Dialogue,,0,0,0,,We were friends, so why didn't she talk to me?
+Dialogue: 0,0:18:38.82,0:18:39.65,Dialogue,,0,0,0,,Why?!
+Dialogue: 0,0:18:42.30,0:18:46.07,Dialogue,,0,0,0,,If she'd asked me to die with her, like those girls did...
+Dialogue: 0,0:18:47.78,0:18:48.45,Dialogue,,0,0,0,,I'd...
+Dialogue: 0,0:18:50.83,0:18:53.37,Dialogue,,0,0,0,,I'd have...
+Dialogue: 0,0:18:53.62,0:18:54.08,Dialogue,,0,0,0,,Ai?!
+Dialogue: 0,0:19:17.86,0:19:18.57,Dialogue,,0,0,0,,Rika,
+Dialogue: 0,0:19:19.78,0:19:22.53,Dialogue,,0,0,0,,I'll kill them with you.{I'll help you kill them?}
+Dialogue: 0,0:19:30.45,0:19:37.13,Dialogue,,0,0,0,,I wanted to die with her, too. To chase after Yu-Yu.
+Dialogue: 0,0:19:33.39,0:19:35.50,Dialogue,,0,0,0,,Wrapping people up?
+Dialogue: 0,0:19:34.74,0:19:37.13,Dialogue,,0,0,0,,Is this S&M?
+Dialogue: 0,0:19:37.50,0:19:40.46,Dialogue,,0,0,0,,This woman got arrested for stalking Yu-Yu!
+Dialogue: 0,0:19:40.80,0:19:42.42,Dialogue,,0,0,0,,Sachiko, the Asagaya Madame!{asagayama wat}
+Dialogue: 0,0:19:43.30,0:19:44.11,Dialogue,,0,0,0,,Sachiko...
+Dialogue: 0,0:19:44.55,0:19:45.92,Dialogue,,0,0,0,,You get them everywhere.
+Dialogue: 0,0:19:46.09,0:19:47.97,Dialogue,,0,0,0,,Delusional\Nweirdos who cross the line.
+Dialogue: 0,0:19:48.05,0:19:52.39,Dialogue,,0,0,0,,I can't see Yu-Yu because you're all so noisy.
+Dialogue: 0,0:19:49.22,0:19:52.39,Dialogue,,0,0,0,,It hurts. It hurts. It hurts!
+Dialogue: 0,0:19:52.43,0:19:56.27,Dialogue,,0,0,0,,Yu-Yu doesn't care about little \Nbrats; Yu-Yu likes mature women!
+Dialogue: 0,0:19:59.36,0:20:00.65,Dialogue,,0,0,0,,Help!
+Dialogue: 0,0:20:11.24,0:20:11.70,Dialogue,,0,0,0,,Ai!
+Dialogue: 0,0:20:21.00,0:20:23.13,Dialogue,,0,0,0,,Who are you supposed to be?
+Dialogue: 0,0:20:23.38,0:20:24.76,Dialogue,,0,0,0,,We protect these girls.
+Dialogue: 0,0:20:24.97,0:20:26.22,Dialogue,,0,0,0,,From monsters.
+Dialogue: 0,0:20:28.47,0:20:30.22,Dialogue,,0,0,0,,You're promoted from backup dancer.
+Dialogue: 0,0:20:30.58,0:20:31.56,Dialogue,,0,0,0,,Little girls!
+Dialogue: 0,0:20:31.97,0:20:34.81,Dialogue,,0,0,0,,People won't fawn over you forever, you know!
+Dialogue: 0,0:20:35.31,0:20:37.31,Dialogue,,0,0,0,,No, we won't end up like you, lady.
+Dialogue: 0,0:20:37.69,0:20:39.31,Dialogue,,0,0,0,,Not in a million years.\NYeah.
+Dialogue: 0,0:20:40.26,0:20:41.65,Dialogue,,0,0,0,,Be quiet!
+Dialogue: 0,0:20:50.20,0:20:51.70,Dialogue,,0,0,0,,Rika, are you okay?
+Dialogue: 0,0:20:53.03,0:20:55.70,Dialogue,,0,0,0,,I... can't move.
+Dialogue: 0,0:20:56.54,0:20:59.71,Dialogue,,0,0,0,,Hey...\NThis might be bad.
+Dialogue: 0,0:21:00.67,0:21:01.25,Dialogue,,0,0,0,,Ai...
+Dialogue: 0,0:21:05.92,0:21:06.80,Dialogue,,0,0,0,,good luck.
+Dialogue: 0,0:21:07.60,0:21:09.93,Dialogue,,0,0,0,,No way...\NRika!
+Dialogue: 0,0:21:10.92,0:21:11.64,Dialogue,,0,0,0,,Rika?!
+Dialogue: 0,0:22:47.52,0:22:48.07,Dialogue,,0,0,0,,To be continued!

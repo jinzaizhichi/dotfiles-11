@@ -1,0 +1,362 @@
+[Script Info]
+Title: Fullmetal_Alchemist 49 - To the Other Side of the Gate
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1280
+PlayResY: 720
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Dialogue,Noto Sans,46,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,40,40,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:04.85,0:00:06.64,Dialogue,,0,0,0,,Welcome home, Father!
+Dialogue: 0,0:00:07.18,0:00:09.10,Dialogue,,0,0,0,,I'm home, Selim.
+Dialogue: 0,0:00:17.07,0:00:17.90,Dialogue,,0,0,0,,Here.
+Dialogue: 0,0:00:23.24,0:00:25.32,Dialogue,,0,0,0,,You can go ahead and open it.
+Dialogue: 0,0:00:24.49,0:00:25.32,Dialogue,,0,0,0,,Okay!
+Dialogue: 0,0:00:31.62,0:00:32.79,Dialogue,,0,0,0,,Thank you very much!
+Dialogue: 0,0:00:33.37,0:00:36.79,Dialogue,,0,0,0,,Happy tenth birthday, Selim.
+Dialogue: 0,0:00:40.42,0:00:41.63,Dialogue,,0,0,0,,Where are we?
+Dialogue: 0,0:00:43.01,0:00:44.51,Dialogue,,0,0,0,,We're at you-know-who's place.
+Dialogue: 0,0:00:44.89,0:00:46.01,Dialogue,,0,0,0,,"You-know-who"?
+Dialogue: 0,0:00:46.26,0:00:49.01,Dialogue,,0,0,0,,The one who is making you homunculi search for the Philosopher's Stone?
+Dialogue: 0,0:00:49.22,0:00:50.64,Dialogue,,0,0,0,,That's not all.
+Dialogue: 0,0:00:50.89,0:00:54.94,Dialogue,,0,0,0,,The one who found us,\Nbrought us together, and nurtured us.
+Dialogue: 0,0:00:55.44,0:00:58.73,Dialogue,,0,0,0,,You're being tricked—all you homunculi who want to become human.
+Dialogue: 0,0:00:59.27,0:01:01.24,Dialogue,,0,0,0,,Those who are being tricked are fools.
+Dialogue: 0,0:01:02.61,0:01:03.53,Dialogue,,0,0,0,,What about you?
+Dialogue: 0,0:01:03.61,0:01:05.36,Dialogue,,0,0,0,,Yeah, I know.
+Dialogue: 0,0:01:05.45,0:01:08.49,Dialogue,,0,0,0,,That person just wants the\NPhilosopher's Stone to use personally.
+Dialogue: 0,0:01:09.74,0:01:11.12,Dialogue,,0,0,0,,So what?
+Dialogue: 0,0:01:11.20,0:01:15.50,Dialogue,,0,0,0,,As long as I get to see humans suffer, \Nthat's good enough for me.
+Dialogue: 0,0:01:19.92,0:01:22.21,Dialogue,,0,0,0,,Hey, now, your body is precious.
+Dialogue: 0,0:01:22.67,0:01:23.76,Dialogue,,0,0,0,,Don't do anything reckless.
+Dialogue: 0,0:01:25.63,0:01:26.51,Dialogue,,0,0,0,,Shoot!
+Dialogue: 0,0:01:28.14,0:01:33.43,Dialogue,,0,0,0,,How many people do you think Scar killed to make you the Philosopher's Stone?
+Dialogue: 0,0:01:33.68,0:01:35.81,Dialogue,,0,0,0,,Of the soldiers who\Ncharged into Liore,
+Dialogue: 0,0:01:36.23,0:01:38.15,Dialogue,,0,0,0,,seven thousand of them\Ndisappeared in an instant.
+Dialogue: 0,0:01:39.77,0:01:40.69,Dialogue,,0,0,0,,They're not dead.
+Dialogue: 0,0:01:41.11,0:01:42.65,Dialogue,,0,0,0,,They're all right here.
+Dialogue: 0,0:01:43.24,0:01:49.41,Dialogue,,0,0,0,,Oh yeah, and the guys that died long ago in Ishbal who were in Scar's right arm
+Dialogue: 0,0:01:45.61,0:01:49.41,Dialogue,,0,0,0,,are locked away\Ninside there as well.
+Dialogue: 0,0:01:49.95,0:01:51.66,Dialogue,,0,0,0,,Awesome, awesome!
+Dialogue: 0,0:01:52.24,0:01:56.21,Dialogue,,0,0,0,,You've got thousands—tens of thousands—of lives there inside you.
+Dialogue: 0,0:01:56.29,0:01:58.42,Dialogue,,0,0,0,,We should put them\Nto good use, huh?!
+Dialogue: 0,0:02:06.30,0:02:08.68,Dialogue,,0,0,0,,I should have died.
+Dialogue: 0,0:02:09.47,0:02:10.68,Dialogue,,0,0,0,,Back then...
+Dialogue: 0,0:02:11.97,0:02:12.93,Dialogue,,0,0,0,,and back then...
+Dialogue: 0,0:02:14.73,0:02:15.81,Dialogue,,0,0,0,,and back then too.
+Dialogue: 0,0:02:17.31,0:02:20.27,Dialogue,,0,0,0,,So then, why am I still alive?
+Dialogue: 0,0:02:21.40,0:02:22.40,Dialogue,,0,0,0,,Brother?
+Dialogue: 0,0:02:24.15,0:02:25.11,Dialogue,,0,0,0,,Dad?
+Dialogue: 0,0:02:27.95,0:02:29.24,Dialogue,,0,0,0,,The Philosopher's Stone.
+Dialogue: 0,0:02:29.95,0:02:35.04,Dialogue,,0,0,0,,Those who obtain it are set free from the Law of Equivalent Exchange.
+Dialogue: 0,0:02:35.54,0:02:39.33,Dialogue,,0,0,0,,There is no need to pay a price\Nin order to obtain something, either.
+Dialogue: 0,0:02:40.50,0:02:44.09,Dialogue,,0,0,0,,We sought it and found it.
+Dialogue: 0,0:04:35.37,0:04:36.62,Dialogue,,0,0,0,,Edward-san!
+Dialogue: 0,0:04:37.95,0:04:39.24,Dialogue,,0,0,0,,What were you doing?
+Dialogue: 0,0:04:39.33,0:04:40.37,Dialogue,,0,0,0,,Sorry.
+Dialogue: 0,0:04:40.83,0:04:42.41,Dialogue,,0,0,0,,Is this the place?
+Dialogue: 0,0:04:42.50,0:04:44.88,Dialogue,,0,0,0,,Yes. This is definitely the place.
+Dialogue: 0,0:04:45.08,0:04:46.84,Dialogue,,0,0,0,,Show me one more time.
+Dialogue: 0,0:04:48.71,0:04:54.34,Dialogue,,0,0,0,,Dad once came here to Central, \Nlooking for a way to refine the red water.
+Dialogue: 0,0:04:54.89,0:04:58.76,Dialogue,,0,0,0,,He wound up going to a place called the 5th Laboratory,
+Dialogue: 0,0:04:59.47,0:05:02.39,Dialogue,,0,0,0,,and there, he met up\Nwith a certain alchemist.
+Dialogue: 0,0:05:04.77,0:05:09.11,Dialogue,,0,0,0,,That person told him that there was some indispensable element
+Dialogue: 0,0:05:09.40,0:05:11.69,Dialogue,,0,0,0,,that was necessary to transmute the red water\Nall the way into a Philosopher's Stone
+Dialogue: 0,0:05:12.90,0:05:15.16,Dialogue,,0,0,0,,and hinted to him\Nthat it was human lives.
+Dialogue: 0,0:05:15.49,0:05:18.33,Dialogue,,0,0,0,,He also showed him\Nwhere the real laboratory was.
+Dialogue: 0,0:05:20.29,0:05:23.66,Dialogue,,0,0,0,,The 5th Laboratory was nothing more than a secret entrance.
+Dialogue: 0,0:05:24.08,0:05:27.33,Dialogue,,0,0,0,,In fact, there was an even larger human experimentation lab.
+Dialogue: 0,0:05:27.71,0:05:31.34,Dialogue,,0,0,0,,This does indeed appear to be the place that we have been searching for.
+Dialogue: 0,0:05:33.13,0:05:34.22,Dialogue,,0,0,0,,I'm going alone.
+Dialogue: 0,0:05:34.76,0:05:38.18,Dialogue,,0,0,0,,But Al-kun is in danger,\Nthough we don't know what kind, right?
+Dialogue: 0,0:05:39.35,0:05:40.64,Dialogue,,0,0,0,,It's all right.
+Dialogue: 0,0:05:40.72,0:05:43.23,Dialogue,,0,0,0,,He's just\Ngotten a little lost. That's all.
+Dialogue: 0,0:05:47.69,0:05:48.52,Dialogue,,0,0,0,,Ed...
+Dialogue: 0,0:05:51.65,0:05:53.82,Dialogue,,0,0,0,,The reason why we showed you what was in this journal...
+Dialogue: 0,0:05:54.11,0:05:56.61,Dialogue,,0,0,0,,was not because we wanted you to make a Philosopher's Stone.
+Dialogue: 0,0:05:57.78,0:05:58.91,Dialogue,,0,0,0,,I know.
+Dialogue: 0,0:05:59.16,0:06:01.58,Dialogue,,0,0,0,,I'm not going there\Nto create a Philosopher's Stone.
+Dialogue: 0,0:06:01.91,0:06:03.04,Dialogue,,0,0,0,,Believe me.
+Dialogue: 0,0:06:14.72,0:06:15.84,Dialogue,,0,0,0,,Come back to us now!
+Dialogue: 0,0:06:16.63,0:06:18.09,Dialogue,,0,0,0,,Come back to us alive!
+Dialogue: 0,0:06:32.07,0:06:33.69,Dialogue,,0,0,0,,According to Dad's journal,
+Dialogue: 0,0:06:34.11,0:06:38.32,Dialogue,,0,0,0,,you descend from the temple of the ancient religion
+Dialogue: 0,0:06:34.11,0:06:39.49,Dialogue,,0,0,0,,and go farther and farther underground, \Nand then suddenly...
+Dialogue: 0,0:06:42.28,0:06:46.54,Dialogue,,0,0,0,,there's another city, \Nall tucked away beneath Central.
+Dialogue: 0,0:06:47.66,0:06:52.67,Dialogue,,0,0,0,,Dad said that judging by its style of architecture,\Nit looked like the city was nearly four hundred years old.
+Dialogue: 0,0:06:53.75,0:06:56.13,Dialogue,,0,0,0,,There's a legend that says\Nthat the city that was there,
+Dialogue: 0,0:06:56.21,0:06:58.68,Dialogue,,0,0,0,,where Central is now,\Nvanished overnight.
+Dialogue: 0,0:07:00.30,0:07:04.10,Dialogue,,0,0,0,,Dad says he thought that there might have been alchemists who were performing
+Dialogue: 0,0:07:04.39,0:07:09.73,Dialogue,,0,0,0,,some kind of experiment and may have closed up the whole city underground.
+Dialogue: 0,0:07:11.81,0:07:16.94,Dialogue,,0,0,0,,The people of the city\Nwere all sacrificed\Nto be used in their\NPhilosopher's Stone.
+Dialogue: 0,0:07:17.82,0:07:21.78,Dialogue,,0,0,0,,And then, to hide the fact that there weren't any people left,
+Dialogue: 0,0:07:21.87,0:07:24.24,Dialogue,,0,0,0,,they made the city itself disappear.
+Dialogue: 0,0:07:25.04,0:07:28.37,Dialogue,,0,0,0,,There's actually someone who thought that up?
+Dialogue: 0,0:07:30.17,0:07:31.88,Dialogue,,0,0,0,,Is anyone there?!
+Dialogue: 0,0:07:34.96,0:07:36.34,Dialogue,,0,0,0,,I know you're here!
+Dialogue: 0,0:07:36.42,0:07:38.30,Dialogue,,0,0,0,,You knew about everything, didn't you,
+Dialogue: 0,0:07:38.92,0:07:40.80,Dialogue,,0,0,0,,Pop?!
+Dialogue: 0,0:07:47.56,0:07:49.10,Dialogue,,0,0,0,,No, Gluttony.
+Dialogue: 0,0:07:49.81,0:07:50.98,Dialogue,,0,0,0,,Be patient.
+Dialogue: 0,0:07:54.11,0:07:57.11,Dialogue,,0,0,0,,This girl's body is\Nvery important, after all.
+Dialogue: 0,0:08:00.03,0:08:01.61,Dialogue,,0,0,0,,So pretty.
+Dialogue: 0,0:08:02.16,0:08:05.08,Dialogue,,0,0,0,,It's no wonder why Ed and Al would like you.
+Dialogue: 0,0:08:05.95,0:08:08.91,Dialogue,,0,0,0,,They {\i1}are{\i0} his children.
+Dialogue: 0,0:08:09.20,0:08:11.21,Dialogue,,0,0,0,,Hey, what happened to Lust?!
+Dialogue: 0,0:08:12.21,0:08:14.38,Dialogue,,0,0,0,,Yes, what could have\Nhappened to her?
+Dialogue: 0,0:08:14.54,0:08:17.13,Dialogue,,0,0,0,,That's right, I need to\Nget my dress ready.
+Dialogue: 0,0:08:18.21,0:08:20.05,Dialogue,,0,0,0,,We have to be pretty\Nwhen we greet him.
+Dialogue: 0,0:08:21.17,0:08:22.22,Dialogue,,0,0,0,,Somebody's here.
+Dialogue: 0,0:08:23.34,0:08:25.22,Dialogue,,0,0,0,,My, that was quick.
+Dialogue: 0,0:08:27.64,0:08:28.47,Dialogue,,0,0,0,,Where is he?
+Dialogue: 0,0:08:28.60,0:08:31.06,Dialogue,,0,0,0,,Wrath...
+Dialogue: 0,0:08:28.60,0:08:31.06,Dialogue,,0,0,0,,{\an8}Where is he?!
+Dialogue: 0,0:08:29.52,0:08:31.06,Dialogue,,0,0,0,,What a pest!
+Dialogue: 0,0:08:29.52,0:08:32.60,Dialogue,,0,0,0,,{\an8}Where's the Philosopher's Stone?!
+Dialogue: 0,0:08:31.31,0:08:35.69,Dialogue,,0,0,0,,What's the meaning of this?
+Dialogue: 0,0:08:32.43,0:08:35.16,Dialogue,,0,0,0,,{\an8}Where is he?! Where did he go?!
+Dialogue: 0,0:08:33.30,0:08:35.95,Dialogue,,0,0,0,,I thought he was keeping an eye on Edward.
+Dialogue: 0,0:08:35.16,0:08:38.33,Dialogue,,0,0,0,,{\an8}Tell me, Envy! Please!
+Dialogue: 0,0:08:35.95,0:08:38.33,Dialogue,,0,0,0,,That's what I thought I told him to do.
+Dialogue: 0,0:08:38.28,0:08:40.15,Dialogue,,0,0,0,,Please! Give me the\NPhilosopher's Stone, quick!
+Dialogue: 0,0:08:40.28,0:08:44.28,Dialogue,,0,0,0,,Wrath, you have to be a good boy, \Nor I won't make you human.
+Dialogue: 0,0:08:44.36,0:08:45.66,Dialogue,,0,0,0,,There's no time for that!
+Dialogue: 0,0:08:45.99,0:08:47.66,Dialogue,,0,0,0,,Mama... Mama is going to be all gone!
+Dialogue: 0,0:08:48.20,0:08:49.04,Dialogue,,0,0,0,,Mama?
+Dialogue: 0,0:08:49.12,0:08:50.91,Dialogue,,0,0,0,,He means Sloth.
+Dialogue: 0,0:08:51.29,0:08:53.71,Dialogue,,0,0,0,,Sloth is not your mama.
+Dialogue: 0,0:08:53.79,0:08:56.29,Dialogue,,0,0,0,,Homunculi do not have mothers.
+Dialogue: 0,0:08:56.38,0:08:58.17,Dialogue,,0,0,0,,Bring Mama back to life! Please!
+Dialogue: 0,0:08:59.21,0:09:01.67,Dialogue,,0,0,0,,Don't talk like you're human.
+Dialogue: 0,0:09:01.80,0:09:03.55,Dialogue,,0,0,0,,Mama... Mama!
+Dialogue: 0,0:09:04.01,0:09:06.05,Dialogue,,0,0,0,,Mama!
+Dialogue: 0,0:09:05.22,0:09:06.05,Dialogue,,0,0,0,,Envy!
+Dialogue: 0,0:09:09.39,0:09:10.47,Dialogue,,0,0,0,,Please!
+Dialogue: 0,0:09:17.27,0:09:19.57,Dialogue,,0,0,0,,What do you think\Nyou can do in your shape?
+Dialogue: 0,0:09:30.12,0:09:31.75,Dialogue,,0,0,0,,What power!
+Dialogue: 0,0:09:32.16,0:09:35.92,Dialogue,,0,0,0,,It's only natural that \NEdward Elric would use Automail.
+Dialogue: 0,0:09:36.25,0:09:37.33,Dialogue,,0,0,0,,This is fun!
+Dialogue: 0,0:09:38.08,0:09:40.09,Dialogue,,0,0,0,,Someone like you is a soldier?
+Dialogue: 0,0:09:40.46,0:09:42.55,Dialogue,,0,0,0,,That explains why no one has realized who the Führer is!
+Dialogue: 0,0:09:43.22,0:09:45.13,Dialogue,,0,0,0,,It's still not too late for you.
+Dialogue: 0,0:09:45.22,0:09:46.72,Dialogue,,0,0,0,,Become one of my soldiers.
+Dialogue: 0,0:09:48.35,0:09:52.39,Dialogue,,0,0,0,,We are ready to wage war on\Nthe north, the west, and the south.
+Dialogue: 0,0:09:52.85,0:09:54.89,Dialogue,,0,0,0,,The time has come for\Nthe continent to be united.
+Dialogue: 0,0:09:56.14,0:09:57.27,Dialogue,,0,0,0,,Not interested.
+Dialogue: 0,0:09:57.77,0:09:59.19,Dialogue,,0,0,0,,In that case, die!
+Dialogue: 0,0:10:09.24,0:10:11.41,Dialogue,,0,0,0,,Your pupils will be\Nfollowing you soon as well.
+Dialogue: 0,0:10:14.25,0:10:15.79,Dialogue,,0,0,0,,What are you doing?!\NI am your superior officer!
+Dialogue: 0,0:10:17.71,0:10:19.00,Dialogue,,0,0,0,,You too?!
+Dialogue: 0,0:10:19.88,0:10:20.92,Dialogue,,0,0,0,,Izumi-san!
+Dialogue: 0,0:10:21.75,0:10:23.51,Dialogue,,0,0,0,,Where's... Ed?
+Dialogue: 0,0:10:24.21,0:10:26.84,Dialogue,,0,0,0,,By now, both brothers should be at the place that was written about in that journal.
+Dialogue: 0,0:10:29.55,0:10:31.76,Dialogue,,0,0,0,,You all believed...
+Dialogue: 0,0:10:32.51,0:10:33.35,Dialogue,,0,0,0,,in those boys?
+Dialogue: 0,0:10:34.35,0:10:38.48,Dialogue,,0,0,0,,Believing in and protecting children \Nis the job of an adult.
+Dialogue: 0,0:10:39.40,0:10:41.11,Dialogue,,0,0,0,,That's what someone once told me.
+Dialogue: 0,0:11:17.81,0:11:18.64,Dialogue,,0,0,0,,Rose?
+Dialogue: 0,0:11:24.19,0:11:25.40,Dialogue,,0,0,0,,Ed...
+Dialogue: 0,0:11:26.74,0:11:28.53,Dialogue,,0,0,0,,You finally came.
+Dialogue: 0,0:11:32.45,0:11:35.24,Dialogue,,0,0,0,,Now, that should \Nteach you a lesson.
+Dialogue: 0,0:11:35.33,0:11:37.45,Dialogue,,0,0,0,,Don't start any fights\Nwith these guys.
+Dialogue: 0,0:11:39.08,0:11:42.50,Dialogue,,0,0,0,,You really don't ever learn \Nunless you get hurt.
+Dialogue: 0,0:11:42.96,0:11:44.42,Dialogue,,0,0,0,,Something the matter?
+Dialogue: 0,0:11:46.00,0:11:48.42,Dialogue,,0,0,0,,I think I just figured something out.
+Dialogue: 0,0:11:49.55,0:11:50.43,Dialogue,,0,0,0,,Figured what out?
+Dialogue: 0,0:11:51.47,0:11:54.55,Dialogue,,0,0,0,,Hughes-san said something\Nbefore he died.
+Dialogue: 0,0:11:54.64,0:11:57.27,Dialogue,,0,0,0,,"What if everything was backwards?"
+Dialogue: 0,0:11:57.52,0:11:59.68,Dialogue,,0,0,0,,I never understood what he meant.
+Dialogue: 0,0:11:59.77,0:12:01.14,Dialogue,,0,0,0,,And you figured it out?
+Dialogue: 0,0:12:01.60,0:12:07.44,Dialogue,,0,0,0,,We've been thinking that the homunculi \Nwere trying to create a Philosopher's Stone.
+Dialogue: 0,0:12:07.94,0:12:10.40,Dialogue,,0,0,0,,But what if it was \Nthe other way around?
+Dialogue: 0,0:12:11.36,0:12:14.16,Dialogue,,0,0,0,,They wait until it is just barely completed, and then take it away.
+Dialogue: 0,0:12:14.24,0:12:17.45,Dialogue,,0,0,0,,Then they eliminate everyone\Nwho can prove it ever happened.
+Dialogue: 0,0:12:17.54,0:12:21.37,Dialogue,,0,0,0,,What's left is a rumor that says if you come near the Philosopher's Stone, you'll be destroyed.
+Dialogue: 0,0:12:21.58,0:12:24.38,Dialogue,,0,0,0,,In time, people become afraid of the Philosopher's Stone...
+Dialogue: 0,0:12:25.42,0:12:28.21,Dialogue,,0,0,0,,So they'll keep away from it?
+Dialogue: 0,0:12:28.80,0:12:30.63,Dialogue,,0,0,0,,But that would almost make them good people, wouldn't it?
+Dialogue: 0,0:12:30.88,0:12:34.84,Dialogue,,0,0,0,,They're making sure people stay out of danger, after all.
+Dialogue: 0,0:12:35.80,0:12:36.64,Dialogue,,0,0,0,,What's more,
+Dialogue: 0,0:12:37.10,0:12:38.64,Dialogue,,0,0,0,,no matter how dangerous it is,
+Dialogue: 0,0:12:39.35,0:12:42.94,Dialogue,,0,0,0,,I'll bet that people will\Nstill go on looking for it.
+Dialogue: 0,0:12:45.15,0:12:47.73,Dialogue,,0,0,0,,I wonder how Edward-san and his brother are doing.
+Dialogue: 0,0:12:47.94,0:12:49.65,Dialogue,,0,0,0,,I'm sure they're getting along fine.
+Dialogue: 0,0:12:50.03,0:12:51.36,Dialogue,,0,0,0,,That much is certain.
+Dialogue: 0,0:12:53.78,0:12:56.32,Dialogue,,0,0,0,,Pain that teaches a lesson, huh?
+Dialogue: 0,0:12:56.62,0:13:00.41,Dialogue,,0,0,0,,But God is the only one who can teach that kind of lesson.
+Dialogue: 0,0:13:06.08,0:13:08.38,Dialogue,,0,0,0,,R-Rose, what are you doing here?
+Dialogue: 0,0:13:08.88,0:13:12.34,Dialogue,,0,0,0,,I've been waiting for you\Na long, long time.
+Dialogue: 0,0:13:12.88,0:13:14.38,Dialogue,,0,0,0,,Ed, I...
+Dialogue: 0,0:13:15.64,0:13:16.68,Dialogue,,0,0,0,,Rose...
+Dialogue: 0,0:13:19.72,0:13:22.14,Dialogue,,0,0,0,,Rose, was Al brought here?
+Dialogue: 0,0:13:22.73,0:13:23.89,Dialogue,,0,0,0,,What exactly is this place?
+Dialogue: 0,0:13:28.36,0:13:29.61,Dialogue,,0,0,0,,My baby...
+Dialogue: 0,0:13:34.78,0:13:35.99,Dialogue,,0,0,0,,My baby...
+Dialogue: 0,0:13:36.66,0:13:38.58,Dialogue,,0,0,0,,You should have danced with her.
+Dialogue: 0,0:13:38.95,0:13:42.37,Dialogue,,0,0,0,,She's been waiting for you ever since we fled here.
+Dialogue: 0,0:13:42.75,0:13:43.71,Dialogue,,0,0,0,,You're despicable.
+Dialogue: 0,0:13:44.83,0:13:47.21,Dialogue,,0,0,0,,Lyra, you brought Rose here?
+Dialogue: 0,0:13:47.83,0:13:50.96,Dialogue,,0,0,0,,There's an old city that\Nonly alchemists know of.
+Dialogue: 0,0:13:51.30,0:13:52.84,Dialogue,,0,0,0,,That's what Dante-sensei told me.
+Dialogue: 0,0:13:53.38,0:13:58.60,Dialogue,,0,0,0,,Speaking of Dante-san, I still \Nhaven't heard how she was killed.
+Dialogue: 0,0:13:58.68,0:14:01.64,Dialogue,,0,0,0,,She was killed by\Nthat homunculus Greed.
+Dialogue: 0,0:14:01.72,0:14:02.93,Dialogue,,0,0,0,,I thought I told you.
+Dialogue: 0,0:14:03.02,0:14:03.89,Dialogue,,0,0,0,,That is a lie.
+Dialogue: 0,0:14:04.52,0:14:05.44,Dialogue,,0,0,0,,A lie?
+Dialogue: 0,0:14:05.77,0:14:08.86,Dialogue,,0,0,0,,The transmutation circle that was left in Dante-san's house
+Dialogue: 0,0:14:08.94,0:14:11.98,Dialogue,,0,0,0,,was one that could keep\Na homunculus from moving.
+Dialogue: 0,0:14:12.36,0:14:15.90,Dialogue,,0,0,0,,There were bones from the man\Non whom Greed was based.
+Dialogue: 0,0:14:16.24,0:14:19.32,Dialogue,,0,0,0,,Greed shouldn't have been able to\Ntake action against Dante-san.
+Dialogue: 0,0:14:19.41,0:14:20.78,Dialogue,,0,0,0,,Are you sure?
+Dialogue: 0,0:14:21.03,0:14:23.58,Dialogue,,0,0,0,,Still, Dante-san definitely is dead.
+Dialogue: 0,0:14:23.66,0:14:25.12,Dialogue,,0,0,0,,But supposing that what was there
+Dialogue: 0,0:14:25.41,0:14:28.25,Dialogue,,0,0,0,,was nothing more than a shell\Nthat her soul had sloughed off...
+Dialogue: 0,0:14:28.63,0:14:29.71,Dialogue,,0,0,0,,What are you saying?
+Dialogue: 0,0:14:30.04,0:14:33.88,Dialogue,,0,0,0,,Let's suppose there were people who used the power of the Philosopher's Stone
+Dialogue: 0,0:14:33.96,0:14:36.55,Dialogue,,0,0,0,,to move from one body to another\Nand who have lived for hundreds of years.
+Dialogue: 0,0:14:37.47,0:14:40.43,Dialogue,,0,0,0,,Back there, you made it\Nlook like you were dead
+Dialogue: 0,0:14:40.51,0:14:42.39,Dialogue,,0,0,0,,and then took over Lyra's body.
+Dialogue: 0,0:14:42.47,0:14:43.81,Dialogue,,0,0,0,,Isn't that right?!
+Dialogue: 0,0:14:44.14,0:14:45.93,Dialogue,,0,0,0,,Ed, stop! I am—
+Dialogue: 0,0:14:55.94,0:14:57.07,Dialogue,,0,0,0,,That was close.
+Dialogue: 0,0:14:57.78,0:14:59.74,Dialogue,,0,0,0,,When did you see the gate, Lyra?
+Dialogue: 0,0:15:01.82,0:15:04.16,Dialogue,,0,0,0,,You transmuted without\Nusing a transmutation circle.
+Dialogue: 0,0:15:04.45,0:15:06.08,Dialogue,,0,0,0,,That's my answer, Dante!
+Dialogue: 0,0:15:07.46,0:15:10.79,Dialogue,,0,0,0,,When did you figure it out,\NEdward Elric?
+Dialogue: 0,0:15:10.96,0:15:12.75,Dialogue,,0,0,0,,Then it's true?
+Dialogue: 0,0:15:12.84,0:15:15.38,Dialogue,,0,0,0,,I've really come to like this body.
+Dialogue: 0,0:15:15.46,0:15:17.30,Dialogue,,0,0,0,,So then, what number is she?
+Dialogue: 0,0:15:17.67,0:15:20.80,Dialogue,,0,0,0,,Who knows?\NIt hasn't been ten yet, though.
+Dialogue: 0,0:15:21.18,0:15:24.93,Dialogue,,0,0,0,,After all, I have to use the\NPhilosopher's Stone each time.
+Dialogue: 0,0:15:25.47,0:15:29.64,Dialogue,,0,0,0,,Did you wipe out the residents of this city to make your Philosopher's Stone?
+Dialogue: 0,0:15:29.73,0:15:33.19,Dialogue,,0,0,0,,Yes, the same as with the nation to the east,\Nwhich was destroyed overnight.
+Dialogue: 0,0:15:33.69,0:15:36.82,Dialogue,,0,0,0,,I should mention, though,\Nthat I was not the one who made them.
+Dialogue: 0,0:15:36.99,0:15:39.07,Dialogue,,0,0,0,,Hohenheim of Light...
+Dialogue: 0,0:15:39.49,0:15:43.16,Dialogue,,0,0,0,,You shouldn't address\Nyour own father like that.
+Dialogue: 0,0:15:43.24,0:15:46.58,Dialogue,,0,0,0,,So he's prolonged his life\Nthe same way?
+Dialogue: 0,0:15:46.79,0:15:48.20,Dialogue,,0,0,0,,For what reason?
+Dialogue: 0,0:15:48.29,0:15:50.58,Dialogue,,0,0,0,,Because we deserve to.
+Dialogue: 0,0:15:50.67,0:15:52.96,Dialogue,,0,0,0,,You covertly create\Nthe Philosopher's Stone
+Dialogue: 0,0:15:53.04,0:15:56.00,Dialogue,,0,0,0,,just so you can use it to extend your own lives.
+Dialogue: 0,0:15:56.25,0:15:58.26,Dialogue,,0,0,0,,You think you can\Nget away with that?!
+Dialogue: 0,0:15:58.34,0:16:01.34,Dialogue,,0,0,0,,Humans cannot use\Nthe Philosopher's Stone.
+Dialogue: 0,0:16:01.43,0:16:04.93,Dialogue,,0,0,0,,Is that why, when people fail to\Ncomplete a Philosopher's Stone,
+Dialogue: 0,0:16:05.01,0:16:06.64,Dialogue,,0,0,0,,you obliterate everything\Nand leave behind the story
+Dialogue: 0,0:16:06.72,0:16:09.77,Dialogue,,0,0,0,,that destruction befalls those who get too close to the Philosopher's Stone?
+Dialogue: 0,0:16:09.85,0:16:13.90,Dialogue,,0,0,0,,Yes, to keep people from getting \Ntoo close to the Philosopher's Stone.
+Dialogue: 0,0:16:14.27,0:16:19.36,Dialogue,,0,0,0,,And for those who\Nstill get too close,\Nwe take it from them at the last minute\Nand use it carefully.
+Dialogue: 0,0:16:19.86,0:16:23.11,Dialogue,,0,0,0,,After all, there's no telling what humans would do
+Dialogue: 0,0:16:23.20,0:16:25.24,Dialogue,,0,0,0,,if they were given a\NPhilosopher's Stone, right?
+Dialogue: 0,0:16:25.70,0:16:30.33,Dialogue,,0,0,0,,I do it to keep foolish people from destroying the world.
+Dialogue: 0,0:16:30.62,0:16:34.29,Dialogue,,0,0,0,,You could say that I have extended my life to protect the world.
+Dialogue: 0,0:16:34.67,0:16:38.30,Dialogue,,0,0,0,,To keep humans from doing anything foolish with the Philosopher's Stone.
+Dialogue: 0,0:16:38.71,0:16:40.88,Dialogue,,0,0,0,,Cut the crap! You're human too!
+Dialogue: 0,0:16:41.76,0:16:43.43,Dialogue,,0,0,0,,Not anymore.
+Dialogue: 0,0:16:43.55,0:16:44.39,Dialogue,,0,0,0,,Lust!
+Dialogue: 0,0:16:46.05,0:16:48.64,Dialogue,,0,0,0,,Lust!
+Dialogue: 0,0:16:46.07,0:16:50.48,Dialogue,,0,0,0,,Where's Lust?!
+Dialogue: 0,0:16:48.71,0:16:50.48,Dialogue,,0,0,0,,What a shame.
+Dialogue: 0,0:16:51.10,0:16:52.77,Dialogue,,0,0,0,,I was looking forward to entering this girl's body
+Dialogue: 0,0:16:53.19,0:16:56.94,Dialogue,,0,0,0,,and making love to\NHohenheim's son.
+Dialogue: 0,0:16:57.32,0:16:59.07,Dialogue,,0,0,0,,Rose's body is next, is it?!
+Dialogue: 0,0:16:59.28,0:17:00.32,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:17:00.57,0:17:02.40,Dialogue,,0,0,0,,I have obtained a\NPhilosopher's Stone again, and all.
+Dialogue: 0,0:17:03.36,0:17:04.41,Dialogue,,0,0,0,,Al?! Where's Al?!
+Dialogue: 0,0:17:05.95,0:17:08.16,Dialogue,,0,0,0,,Where's Lust?!\NWhat happened to Lust?!
+Dialogue: 0,0:17:08.58,0:17:12.00,Dialogue,,0,0,0,,Try asking him, Gluttony.
+Dialogue: 0,0:17:11.16,0:17:12.00,Dialogue,,0,0,0,,Lust!
+Dialogue: 0,0:17:14.62,0:17:16.58,Dialogue,,0,0,0,,Lust! Where's Lust?!
+Dialogue: 0,0:17:17.21,0:17:18.46,Dialogue,,0,0,0,,She's dead.
+Dialogue: 0,0:17:18.75,0:17:19.84,Dialogue,,0,0,0,,And it was my fault.
+Dialogue: 0,0:17:20.38,0:17:22.92,Dialogue,,0,0,0,,Lust... is dead?
+Dialogue: 0,0:17:23.01,0:17:24.05,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:17:24.13,0:17:27.30,Dialogue,,0,0,0,,Your pal Wrath sealed her up.
+Dialogue: 0,0:17:33.94,0:17:35.06,Dialogue,,0,0,0,,Gluttony?
+Dialogue: 0,0:17:35.98,0:17:37.06,Dialogue,,0,0,0,,Lust...
+Dialogue: 0,0:17:40.36,0:17:41.36,Dialogue,,0,0,0,,Gluttony!
+Dialogue: 0,0:17:41.78,0:17:42.69,Dialogue,,0,0,0,,Lust...
+Dialogue: 0,0:17:45.70,0:17:46.70,Dialogue,,0,0,0,,Here I come!
+Dialogue: 0,0:18:00.80,0:18:01.67,Dialogue,,0,0,0,,I knew it.
+Dialogue: 0,0:18:02.55,0:18:06.68,Dialogue,,0,0,0,,Repeatedly bonding just your soul is not something you can continue doing forever.
+Dialogue: 0,0:18:07.47,0:18:08.80,Dialogue,,0,0,0,,Equivalent exchange!
+Dialogue: 0,0:18:09.01,0:18:11.31,Dialogue,,0,0,0,,That's the backlash from performing that idiocy over and over!
+Dialogue: 0,0:18:11.68,0:18:12.97,Dialogue,,0,0,0,,Equivalent exchange?
+Dialogue: 0,0:18:13.73,0:18:15.89,Dialogue,,0,0,0,,Do you still believe in\Nthat childish theory?
+Dialogue: 0,0:18:16.10,0:18:17.48,Dialogue,,0,0,0,,It's no theory!
+Dialogue: 0,0:18:17.56,0:18:18.86,Dialogue,,0,0,0,,It's the law of alchemy—
+Dialogue: 0,0:18:18.94,0:18:21.36,Dialogue,,0,0,0,,no, of the whole world!
+Dialogue: 0,0:18:21.44,0:18:23.53,Dialogue,,0,0,0,,You're the one who\Nsaid so, aren't you?
+Dialogue: 0,0:18:23.61,0:18:27.24,Dialogue,,0,0,0,,That in order to obtain anything,\Nit requires something of equal value?
+Dialogue: 0,0:18:27.66,0:18:29.49,Dialogue,,0,0,0,,That's something that\Nonly a child would say.
+Dialogue: 0,0:18:29.91,0:18:33.62,Dialogue,,0,0,0,,Like "make everything equal," or "that wouldn't be fair."
+Dialogue: 0,0:18:34.16,0:18:37.25,Dialogue,,0,0,0,,However, there's no such thing as equivalent exchange.
+Dialogue: 0,0:18:37.33,0:18:38.58,Dialogue,,0,0,0,,That's absurd!
+Dialogue: 0,0:18:38.67,0:18:41.25,Dialogue,,0,0,0,,There is a cost required in order for you to obtain something...
+Dialogue: 0,0:18:42.04,0:18:46.01,Dialogue,,0,0,0,,In that case, if you reverse it—\Nif you pay a price, you are certain to obtain something, right?
+Dialogue: 0,0:18:46.26,0:18:47.13,Dialogue,,0,0,0,,That's right.
+Dialogue: 0,0:18:47.22,0:18:50.18,Dialogue,,0,0,0,,That's why people\Nput forth an effort to pay the price.
+Dialogue: 0,0:18:50.26,0:18:51.47,Dialogue,,0,0,0,,But there's something\Nstrange about that.
+Dialogue: 0,0:18:52.31,0:18:55.02,Dialogue,,0,0,0,,After all, even if you\Npay the same price,
+Dialogue: 0,0:18:55.10,0:18:57.10,Dialogue,,0,0,0,,you can't always necessarily obtain the same thing.
+Dialogue: 0,0:18:58.19,0:18:59.10,Dialogue,,0,0,0,,Well, that's...
+Dialogue: 0,0:18:59.98,0:19:02.82,Dialogue,,0,0,0,,There's the State Alchemist Exam, right?
+Dialogue: 0,0:19:03.15,0:19:07.28,Dialogue,,0,0,0,,In order to pass it, many people\Nspend time studying.
+Dialogue: 0,0:19:07.36,0:19:08.70,Dialogue,,0,0,0,,That's a cost.
+Dialogue: 0,0:19:08.95,0:19:12.07,Dialogue,,0,0,0,,But only a handful of people\Nactually pass it.
+Dialogue: 0,0:19:12.53,0:19:15.66,Dialogue,,0,0,0,,Everyone may start out the same\Nwhen they learn alchemy,
+Dialogue: 0,0:19:15.75,0:19:18.12,Dialogue,,0,0,0,,but huge differences arise in their actual abilities.
+Dialogue: 0,0:19:19.46,0:19:22.54,Dialogue,,0,0,0,,And people's lives\Nare not all equal, either.
+Dialogue: 0,0:19:30.05,0:19:33.01,Dialogue,,0,0,0,,If nobody does anything,\Nthat baby is going to die, right?
+Dialogue: 0,0:19:33.43,0:19:34.26,Dialogue,,0,0,0,,Stop!
+Dialogue: 0,0:19:34.35,0:19:36.68,Dialogue,,0,0,0,,It really would be easy\Nfor me to kill it.
+Dialogue: 0,0:19:37.02,0:19:39.81,Dialogue,,0,0,0,,If I do, was the baby\Nborn only in order to die?
+Dialogue: 0,0:19:40.35,0:19:44.27,Dialogue,,0,0,0,,The baby is paying the price of desperately trying to survive.
+Dialogue: 0,0:19:44.65,0:19:47.53,Dialogue,,0,0,0,,Yet is death the only thing\Nthey're going to get for that?
+Dialogue: 0,0:19:48.15,0:19:51.82,Dialogue,,0,0,0,,Elsewhere, there are people who kill others\Nand continue to go on living.
+Dialogue: 0,0:19:52.03,0:19:56.62,Dialogue,,0,0,0,,No matter how hard you may try to live, when it's time for you to die, you die.
+Dialogue: 0,0:19:57.08,0:20:00.08,Dialogue,,0,0,0,,When you compare that to\Npeople who don't make any effort
+Dialogue: 0,0:20:00.16,0:20:03.00,Dialogue,,0,0,0,,yet are afforded riches and power\Nand live lives of happiness,
+Dialogue: 0,0:20:03.08,0:20:05.00,Dialogue,,0,0,0,,it's quite unfair, isn't it?
+Dialogue: 0,0:20:05.42,0:20:07.71,Dialogue,,0,0,0,,The world is quite cruel.
+Dialogue: 0,0:20:08.17,0:20:10.34,Dialogue,,0,0,0,,Which is why you might say\Nit's so beautiful.
+Dialogue: 0,0:20:10.42,0:20:11.59,Dialogue,,0,0,0,,Cut the sophistry!
+Dialogue: 0,0:20:18.22,0:20:19.31,Dialogue,,0,0,0,,My baby...
+Dialogue: 0,0:20:21.27,0:20:25.69,Dialogue,,0,0,0,,Equivalent exchange is an excuse that the weak use to comfort themselves.
+Dialogue: 0,0:20:25.98,0:20:30.57,Dialogue,,0,0,0,,They tell themselves that by paying a price, it's supposed to make themselves happier.
+Dialogue: 0,0:20:30.65,0:20:32.74,Dialogue,,0,0,0,,This baby doesn't\Nhave to make any excuses!
+Dialogue: 0,0:20:34.74,0:20:35.95,Dialogue,,0,0,0,,You're his son, all right.
+Dialogue: 0,0:20:46.88,0:20:48.55,Dialogue,,0,0,0,,Ouch...
+Dialogue: 0,0:20:49.92,0:20:50.97,Dialogue,,0,0,0,,What is this?
+Dialogue: 0,0:20:51.38,0:20:53.84,Dialogue,,0,0,0,,What's going on here?
+Dialogue: 0,0:20:54.84,0:20:55.80,Dialogue,,0,0,0,,My eyes...
+Dialogue: 0,0:21:07.06,0:21:08.90,Dialogue,,0,0,0,,Who is this?
+Dialogue: 0,0:21:11.07,0:21:12.03,Dialogue,,0,0,0,,What's that?
+Dialogue: 0,0:21:12.11,0:21:12.95,Dialogue,,0,0,0,,Edward-kun!
+Dialogue: 0,0:21:13.32,0:21:15.45,Dialogue,,0,0,0,,What are you doing?!\NIt's an air raid!
+Dialogue: 0,0:21:20.58,0:21:21.54,Dialogue,,0,0,0,,Hurry up!
+Dialogue: 0,0:21:22.16,0:21:23.29,Dialogue,,0,0,0,,Wait!
+Dialogue: 0,0:21:23.37,0:21:25.54,Dialogue,,0,0,0,,Pop, what are you doing here?!
+Dialogue: 0,0:21:25.63,0:21:26.46,Dialogue,,0,0,0,,What is this place?!
+Dialogue: 0,0:21:27.46,0:21:28.46,Dialogue,,0,0,0,,"Pop"?
+Dialogue: 0,0:21:28.63,0:21:30.46,Dialogue,,0,0,0,,Edward-kun,\Nwhat are you talking about?
+Dialogue: 0,0:21:30.71,0:21:33.26,Dialogue,,0,0,0,,I thought you were at\NDante-san's place!
+Dialogue: 0,0:21:33.34,0:21:34.88,Dialogue,,0,0,0,,What is this place?!
+Dialogue: 0,0:21:35.22,0:21:36.47,Dialogue,,0,0,0,,What's happened to me?!
+Dialogue: 0,0:21:36.84,0:21:38.68,Dialogue,,0,0,0,,My face... my hand?
+Dialogue: 0,0:21:42.22,0:21:45.31,Dialogue,,0,0,0,,Are you my son Edward?
+Dialogue: 0,0:21:45.90,0:21:47.44,Dialogue,,0,0,0,,Of course I am!
+Dialogue: 0,0:21:47.52,0:21:48.81,Dialogue,,0,0,0,,What are you doing here?
+Dialogue: 0,0:21:48.90,0:21:49.73,Dialogue,,0,0,0,,I don't know...
+Dialogue: 0,0:21:52.74,0:21:53.90,Dialogue,,0,0,0,,Let's go!
+Dialogue: 0,0:21:53.99,0:21:54.82,Dialogue,,0,0,0,,They're coming!
+Dialogue: 0,0:21:56.16,0:21:57.20,Dialogue,,0,0,0,,Who do you mean, "they"?!
+Dialogue: 0,0:21:57.28,0:21:58.20,Dialogue,,0,0,0,,Zeppelins!
+Dialogue: 0,0:21:58.28,0:21:59.58,Dialogue,,0,0,0,,Zeppelins?
+Dialogue: 0,0:23:39.18,0:23:40.97,Dialogue,,0,0,0,,{\i1}Fullmetal Alchemist{\i0}...
+Dialogue: 0,0:23:41.09,0:23:43.76,Dialogue,,0,0,0,,Episode 50: "Death"

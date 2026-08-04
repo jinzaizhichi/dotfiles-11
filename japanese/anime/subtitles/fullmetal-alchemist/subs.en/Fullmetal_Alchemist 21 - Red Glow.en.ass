@@ -1,0 +1,279 @@
+[Script Info]
+Title: Fullmetal_Alchemist 21 - Red Glow
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1280
+PlayResY: 720
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Dialogue,Noto Sans,46,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,40,40,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:13.29,0:00:16.67,Dialogue,,0,0,0,,What's wrong?\NSuddenly, you're not moving so well.
+Dialogue: 0,0:00:17.47,0:00:22.10,Dialogue,,0,0,0,,It looks like an artificially created soul isn't quite perfect.
+Dialogue: 0,0:00:22.18,0:00:25.52,Dialogue,,0,0,0,,Is this what happens when you find out what you really are?
+Dialogue: 0,0:00:28.52,0:00:29.73,Dialogue,,0,0,0,,No...
+Dialogue: 0,0:00:29.81,0:00:32.19,Dialogue,,0,0,0,,I'm...
+Dialogue: 0,0:00:33.02,0:00:34.65,Dialogue,,0,0,0,,Alphonse Elric!
+Dialogue: 0,0:00:41.32,0:00:43.74,Dialogue,,0,0,0,,I told you, there's no\Nproof of that.
+Dialogue: 0,0:00:43.83,0:00:47.20,Dialogue,,0,0,0,,Yeah?\NAccept it. You'll feel better.
+Dialogue: 0,0:00:47.29,0:00:50.33,Dialogue,,0,0,0,,If that's so,\Nwhat about you?!
+Dialogue: 0,0:00:53.25,0:00:55.75,Dialogue,,0,0,0,,You have memories of when\Nyou were alive.
+Dialogue: 0,0:00:55.84,0:00:56.67,Dialogue,,0,0,0,,Which means...
+Dialogue: 0,0:01:06.05,0:01:07.56,Dialogue,,0,0,0,,I'm so pleased.
+Dialogue: 0,0:01:07.77,0:01:10.27,Dialogue,,0,0,0,,The fools keep coming\None after another today.
+Dialogue: 0,0:01:10.98,0:01:13.52,Dialogue,,0,0,0,,You asked about me?
+Dialogue: 0,0:01:13.60,0:01:14.90,Dialogue,,0,0,0,,It's simple.
+Dialogue: 0,0:01:15.44,0:01:18.53,Dialogue,,0,0,0,,I love cutting up live people,
+Dialogue: 0,0:01:18.61,0:01:21.86,Dialogue,,0,0,0,,and I like killing people\Nso much, I can't stand it.
+Dialogue: 0,0:01:22.20,0:01:25.07,Dialogue,,0,0,0,,I kill; therefore, I am!
+Dialogue: 0,0:01:28.20,0:01:30.46,Dialogue,,0,0,0,,I am who I am!
+Dialogue: 0,0:01:31.00,0:01:33.50,Dialogue,,0,0,0,,That's all the evidence I need!
+Dialogue: 0,0:01:37.38,0:01:42.43,Dialogue,,0,0,0,,There is no need for you to prove your existence.
+Dialogue: 0,0:01:43.97,0:01:47.89,Dialogue,,0,0,0,,Man cannot obtain anything\Nwithout first sacrificing something.
+Dialogue: 0,0:01:48.68,0:01:52.44,Dialogue,,0,0,0,,In order to obtain anything,\Nsomething of equal value is required.
+Dialogue: 0,0:01:52.98,0:01:57.48,Dialogue,,0,0,0,,That is alchemy's\NLaw of Equivalent Exchange.
+Dialogue: 0,0:01:58.69,0:02:03.49,Dialogue,,0,0,0,,At the time, we believed that\Nto be the true way of the world.
+Dialogue: 0,0:03:42.13,0:03:45.21,Dialogue,,0,0,0,,You!
+Dialogue: 0,0:03:43.25,0:03:45.21,Dialogue,,0,0,0,,An acquaintance of yours?! That's dirty!
+Dialogue: 0,0:03:45.30,0:03:47.51,Dialogue,,0,0,0,,Who knew you still had friends around?!
+Dialogue: 0,0:03:47.97,0:03:49.09,Dialogue,,0,0,0,,Friends?
+Dialogue: 0,0:03:49.76,0:03:50.85,Dialogue,,0,0,0,,What, then?!
+Dialogue: 0,0:03:56.85,0:03:58.27,Dialogue,,0,0,0,,What the?!
+Dialogue: 0,0:03:58.35,0:03:59.44,Dialogue,,0,0,0,,What happened?
+Dialogue: 0,0:04:00.02,0:04:02.36,Dialogue,,0,0,0,,You have a wretched body as well?
+Dialogue: 0,0:04:02.44,0:04:06.78,Dialogue,,0,0,0,,May you find peace with God...
+Dialogue: 0,0:04:05.94,0:04:06.78,Dialogue,,0,0,0,,Huh?
+Dialogue: 0,0:04:08.28,0:04:10.78,Dialogue,,0,0,0,,What is that doing there?!
+Dialogue: 0,0:04:12.03,0:04:13.16,Dialogue,,0,0,0,,What about this?
+Dialogue: 0,0:04:13.78,0:04:15.49,Dialogue,,0,0,0,,Huh?
+Dialogue: 0,0:04:15.58,0:04:18.71,Dialogue,,0,0,0,,By any chance,\Ndo you not know what that is?
+Dialogue: 0,0:04:19.12,0:04:22.17,Dialogue,,0,0,0,,Answer me!
+Dialogue: 0,0:04:22.88,0:04:24.71,Dialogue,,0,0,0,,What are you saying this is?!
+Dialogue: 0,0:04:25.38,0:04:29.55,Dialogue,,0,0,0,,I see, you want to \Nfind out that badly.
+Dialogue: 0,0:04:29.63,0:04:32.47,Dialogue,,0,0,0,,Let's see now...
+Dialogue: 0,0:04:37.18,0:04:38.23,Dialogue,,0,0,0,,No, I'm not saying.
+Dialogue: 0,0:05:18.81,0:05:21.60,Dialogue,,0,0,0,,It's been 130 years, huh?
+Dialogue: 0,0:05:35.99,0:05:41.96,Dialogue,,0,0,0,,This is where they keep the animals for experimentation, huh?\NCome with me,\Nor go play in hell, you choose.
+Dialogue: 0,0:05:45.75,0:05:47.00,Dialogue,,0,0,0,,Decide now!
+Dialogue: 0,0:06:03.52,0:06:06.23,Dialogue,,0,0,0,,These devices are set\Nso I can bust things up
+Dialogue: 0,0:06:06.31,0:06:08.27,Dialogue,,0,0,0,,and make myself\Nall gone at any time!
+Dialogue: 0,0:06:09.11,0:06:12.32,Dialogue,,0,0,0,,Now then, it's about time\NI went bye-bye.
+Dialogue: 0,0:06:12.82,0:06:13.65,Dialogue,,0,0,0,,Wait!
+Dialogue: 0,0:06:15.20,0:06:20.37,Dialogue,,0,0,0,,If you want to find out about your arm, you have to come all the way inside here!
+Dialogue: 0,0:06:22.41,0:06:23.87,Dialogue,,0,0,0,,He got away.
+Dialogue: 0,0:06:24.75,0:06:25.58,Dialogue,,0,0,0,,Hey...
+Dialogue: 0,0:06:26.88,0:06:28.67,Dialogue,,0,0,0,,I'm sorry!
+Dialogue: 0,0:06:31.92,0:06:33.13,Dialogue,,0,0,0,,Where are you going?
+Dialogue: 0,0:06:34.38,0:06:37.64,Dialogue,,0,0,0,,If you're here,\Nthen Fullmetal must be inside.
+Dialogue: 0,0:06:38.18,0:06:39.22,Dialogue,,0,0,0,,W-Wait!
+Dialogue: 0,0:06:39.64,0:06:41.02,Dialogue,,0,0,0,,Wait up, I say!
+Dialogue: 0,0:06:49.40,0:06:51.69,Dialogue,,0,0,0,,What was that tremor\Na moment ago?
+Dialogue: 0,0:06:51.78,0:06:53.19,Dialogue,,0,0,0,,Good question.
+Dialogue: 0,0:06:54.03,0:06:58.95,Dialogue,,0,0,0,,However, there are explosives set throughout this building, for destroying evidence.
+Dialogue: 0,0:06:59.53,0:07:03.29,Dialogue,,0,0,0,,With that shock just now,\Nthere's no telling when they will go off.
+Dialogue: 0,0:07:04.37,0:07:06.79,Dialogue,,0,0,0,,And I still don't know anything!
+Dialogue: 0,0:07:07.50,0:07:09.38,Dialogue,,0,0,0,,I will keep my promise.
+Dialogue: 0,0:07:10.34,0:07:13.21,Dialogue,,0,0,0,,You came here in search of the secrets of the Philosopher's Stone, right?
+Dialogue: 0,0:07:13.84,0:07:18.84,Dialogue,,0,0,0,,It's not as though I know everything, but I will lead you to the entrance.
+Dialogue: 0,0:07:23.18,0:07:25.35,Dialogue,,0,0,0,,But what do we do\Nwith your brother?
+Dialogue: 0,0:07:25.85,0:07:27.73,Dialogue,,0,0,0,,We can't just leave him here.
+Dialogue: 0,0:07:28.27,0:07:30.31,Dialogue,,0,0,0,,You don't need to worry.
+Dialogue: 0,0:07:30.40,0:07:32.19,Dialogue,,0,0,0,,Finish me off, immediately.
+Dialogue: 0,0:07:33.61,0:07:36.20,Dialogue,,0,0,0,,I told you,\NI'm not killing anyone!
+Dialogue: 0,0:07:39.32,0:07:42.20,Dialogue,,0,0,0,,You said we were people, right?
+Dialogue: 0,0:07:42.62,0:07:44.12,Dialogue,,0,0,0,,In that case, tell me,
+Dialogue: 0,0:07:44.20,0:07:47.21,Dialogue,,0,0,0,,how am I supposed to\Ngo on living in this body?
+Dialogue: 0,0:07:47.62,0:07:50.63,Dialogue,,0,0,0,,Well, I...
+Dialogue: 0,0:07:52.13,0:07:53.59,Dialogue,,0,0,0,,Don't attach him! Don't attach him!
+Dialogue: 0,0:07:53.88,0:07:58.34,Dialogue,,0,0,0,,Are you implying I should join with my brother,\Nand together, continue guarding this deserted house?!
+Dialogue: 0,0:07:58.59,0:08:00.93,Dialogue,,0,0,0,,In this unaging, hollow body?
+Dialogue: 0,0:08:01.43,0:08:03.43,Dialogue,,0,0,0,,You could give this up, right?
+Dialogue: 0,0:08:03.89,0:08:05.98,Dialogue,,0,0,0,,And what, go outside?
+Dialogue: 0,0:08:06.06,0:08:09.85,Dialogue,,0,0,0,,Would guys like us have the freedom to just wander around on our own outside?
+Dialogue: 0,0:08:09.94,0:08:11.23,Dialogue,,0,0,0,,Hang on.
+Dialogue: 0,0:08:11.31,0:08:14.90,Dialogue,,0,0,0,,My own brother has the same kind of body as you.
+Dialogue: 0,0:08:14.98,0:08:19.70,Dialogue,,0,0,0,,You see, it's in order to\Nreturn him back to normal\Nthat I'm searching for\Nthe Philosopher's Stone.
+Dialogue: 0,0:08:20.07,0:08:22.16,Dialogue,,0,0,0,,If I ever find it...
+Dialogue: 0,0:08:23.03,0:08:27.45,Dialogue,,0,0,0,,If we were ever returned to being human, we would just be executed again.
+Dialogue: 0,0:08:29.29,0:08:30.75,Dialogue,,0,0,0,,Do you understand?
+Dialogue: 0,0:08:30.83,0:08:32.96,Dialogue,,0,0,0,,Even if we became human,\Nwe would just get killed again.
+Dialogue: 0,0:08:33.75,0:08:38.26,Dialogue,,0,0,0,,Or are you saying that you would turn\Na blind eye to us, a couple of serial killers?
+Dialogue: 0,0:08:38.34,0:08:39.18,Dialogue,,0,0,0,,But still!
+Dialogue: 0,0:08:39.88,0:08:42.22,Dialogue,,0,0,0,,Would you treat us as humans?
+Dialogue: 0,0:08:42.30,0:08:44.31,Dialogue,,0,0,0,,It sounds admirable in word,
+Dialogue: 0,0:08:44.60,0:08:47.56,Dialogue,,0,0,0,,but if you were to treat us\Nas though we were humans,
+Dialogue: 0,0:08:47.64,0:08:51.10,Dialogue,,0,0,0,,when we can only go on\Nliving in this form,
+Dialogue: 0,0:08:51.19,0:08:52.86,Dialogue,,0,0,0,,do you realize how cruel that would be to us?!
+Dialogue: 0,0:08:57.36,0:08:59.74,Dialogue,,0,0,0,,You idiot! What are you doing?!
+Dialogue: 0,0:09:00.65,0:09:02.16,Dialogue,,0,0,0,,Just shut up and watch.
+Dialogue: 0,0:09:02.66,0:09:06.45,Dialogue,,0,0,0,,What are you saying?!\NHe's your younger brother!
+Dialogue: 0,0:09:06.87,0:09:10.83,Dialogue,,0,0,0,,I'm glad that you\Nregard him as a person.
+Dialogue: 0,0:09:10.92,0:09:13.96,Dialogue,,0,0,0,,That's why he can no longer\Ngo back to being Number 48.
+Dialogue: 0,0:09:14.04,0:09:16.42,Dialogue,,0,0,0,,This is the only thing\Nhe can do as a person.
+Dialogue: 0,0:09:16.50,0:09:17.96,Dialogue,,0,0,0,,That isn't true!
+Dialogue: 0,0:09:20.93,0:09:22.68,Dialogue,,0,0,0,,Brother, I'm going on ahead.
+Dialogue: 0,0:09:25.01,0:09:26.31,Dialogue,,0,0,0,,Stop!
+Dialogue: 0,0:09:37.78,0:09:41.11,Dialogue,,0,0,0,,My brother, once I fulfill my promise,\NI will come at once.
+Dialogue: 0,0:09:42.99,0:09:44.78,Dialogue,,0,0,0,,What were you thinking?
+Dialogue: 0,0:09:46.28,0:09:48.74,Dialogue,,0,0,0,,What were you guys thinking?
+Dialogue: 0,0:09:48.99,0:09:51.00,Dialogue,,0,0,0,,It was the only choice\Nhe could make.
+Dialogue: 0,0:09:52.25,0:09:57.80,Dialogue,,0,0,0,,If I treated you guys as people, all you could do is die.
+Dialogue: 0,0:09:57.88,0:10:01.01,Dialogue,,0,0,0,,In that case, what was\NI supposed to do for him?
+Dialogue: 0,0:10:01.76,0:10:05.80,Dialogue,,0,0,0,,There are many problems in this world for which there is no way to answer.
+Dialogue: 0,0:10:12.06,0:10:14.23,Dialogue,,0,0,0,,I'm going to return\NAl back to normal.
+Dialogue: 0,0:10:14.81,0:10:16.73,Dialogue,,0,0,0,,I'm not about to allow Al to go through this.
+Dialogue: 0,0:10:18.19,0:10:19.19,Dialogue,,0,0,0,,Let's go.
+Dialogue: 0,0:10:32.33,0:10:35.00,Dialogue,,0,0,0,,We're really going to\Nlet these guys out?
+Dialogue: 0,0:10:35.08,0:10:38.50,Dialogue,,0,0,0,,That was the order. I hear they're\Ngoing to be used in military research.
+Dialogue: 0,0:10:39.00,0:10:41.38,Dialogue,,0,0,0,,Even though they have life sentences,
+Dialogue: 0,0:10:41.46,0:10:43.72,Dialogue,,0,0,0,,it wouldn't be surprising\Nif they were really executed.
+Dialogue: 0,0:10:46.26,0:10:47.39,Dialogue,,0,0,0,,Is that an earthquake?
+Dialogue: 0,0:10:47.47,0:10:51.52,Dialogue,,0,0,0,,That is the sound of the building collapsing due to explosives.
+Dialogue: 0,0:10:52.64,0:10:54.81,Dialogue,,0,0,0,,Ah, what a pleasant sound...
+Dialogue: 0,0:10:56.27,0:10:57.86,Dialogue,,0,0,0,,Kimbly!
+Dialogue: 0,0:10:58.40,0:11:03.49,Dialogue,,0,0,0,,Ah, that brings back memories of \Nthe extermination assault on Ishbal.
+Dialogue: 0,0:11:04.49,0:11:06.49,Dialogue,,0,0,0,,Come on out!\NYou've been summoned!
+Dialogue: 0,0:11:06.86,0:11:11.79,Dialogue,,0,0,0,,You blew away both\Nfriend and foe there,\Nyou miserable mad bomber, Kimbly...
+Dialogue: 0,0:11:15.58,0:11:19.25,Dialogue,,0,0,0,,Such a pleasant sound.\NIt reverberates in the pit of my stomach.
+Dialogue: 0,0:11:19.50,0:11:23.30,Dialogue,,0,0,0,,This is how far the former\NCrimson Alchemist has fallen.
+Dialogue: 0,0:11:28.76,0:11:31.76,Dialogue,,0,0,0,,Now all we need is for Envy to gather the ingredients.
+Dialogue: 0,0:11:33.06,0:11:35.98,Dialogue,,0,0,0,,How long have we been\Nwaiting for this, I wonder...
+Dialogue: 0,0:11:36.39,0:11:37.48,Dialogue,,0,0,0,,Lust!
+Dialogue: 0,0:11:39.44,0:11:40.48,Dialogue,,0,0,0,,What's this?
+Dialogue: 0,0:11:41.02,0:11:43.28,Dialogue,,0,0,0,,It's him! It's him!
+Dialogue: 0,0:11:43.36,0:11:45.82,Dialogue,,0,0,0,,{\i1}Him{\i0}?\NYou don't mean...
+Dialogue: 0,0:11:46.32,0:11:47.36,Dialogue,,0,0,0,,Greed?
+Dialogue: 0,0:11:49.36,0:11:51.66,Dialogue,,0,0,0,,It looks like we'll have to hurry,
+Dialogue: 0,0:11:51.74,0:11:54.12,Dialogue,,0,0,0,,before there are any\Nunwanted intrusions.
+Dialogue: 0,0:11:56.96,0:11:59.96,Dialogue,,0,0,0,,There aren't any more\Nweird traps, right?
+Dialogue: 0,0:12:00.25,0:12:03.46,Dialogue,,0,0,0,,There haven't been any intruders who have gotten in this far.
+Dialogue: 0,0:12:03.80,0:12:06.97,Dialogue,,0,0,0,,You mean, because they were all dealt with by you guys?
+Dialogue: 0,0:12:08.63,0:12:12.26,Dialogue,,0,0,0,,So, who was it that\Nplaced you in that form?
+Dialogue: 0,0:12:23.57,0:12:26.15,Dialogue,,0,0,0,,What, you were lying about the traps?!
+Dialogue: 0,0:12:26.24,0:12:27.69,Dialogue,,0,0,0,,This isn't a trap.
+Dialogue: 0,0:12:40.83,0:12:41.67,Dialogue,,0,0,0,,Dammit!
+Dialogue: 0,0:12:51.64,0:12:52.72,Dialogue,,0,0,0,,What?
+Dialogue: 0,0:12:57.64,0:13:00.35,Dialogue,,0,0,0,,It's the one who\Ncreated these Chimera.
+Dialogue: 0,0:13:01.35,0:13:03.61,Dialogue,,0,0,0,,There are still people here?
+Dialogue: 0,0:13:03.90,0:13:07.23,Dialogue,,0,0,0,,If you can call him a person.
+Dialogue: 0,0:13:16.08,0:13:17.54,Dialogue,,0,0,0,,The Chimera?
+Dialogue: 0,0:13:18.41,0:13:20.41,Dialogue,,0,0,0,,This thing created the Chimera?
+Dialogue: 0,0:13:21.04,0:13:23.88,Dialogue,,0,0,0,,Not all of them.
+Dialogue: 0,0:13:25.75,0:13:28.76,Dialogue,,0,0,0,,It's been a long time, Edward-kun.
+Dialogue: 0,0:13:33.05,0:13:34.18,Dialogue,,0,0,0,,Tucker...
+Dialogue: 0,0:13:35.55,0:13:38.52,Dialogue,,0,0,0,,The Sewing Life... Alchemist...
+Dialogue: 0,0:13:40.93,0:13:41.77,Dialogue,,0,0,0,,Why?!
+Dialogue: 0,0:13:42.14,0:13:43.98,Dialogue,,0,0,0,,Why are you here?!
+Dialogue: 0,0:13:44.56,0:13:48.28,Dialogue,,0,0,0,,We are here because we are\Nsupposed to have been executed.
+Dialogue: 0,0:13:48.82,0:13:52.49,Dialogue,,0,0,0,,It shouldn't seem strange that there would be those who are living as Chimera here too.
+Dialogue: 0,0:13:52.86,0:13:55.20,Dialogue,,0,0,0,,That's not what I'm talking about!
+Dialogue: 0,0:13:55.37,0:13:57.03,Dialogue,,0,0,0,,Nina...
+Dialogue: 0,0:13:59.66,0:14:00.50,Dialogue,,0,0,0,,Nina...
+Dialogue: 0,0:14:02.37,0:14:04.67,Dialogue,,0,0,0,,That girl is dead because of you!
+Dialogue: 0,0:14:04.75,0:14:06.67,Dialogue,,0,0,0,,Why are you still alive?!
+Dialogue: 0,0:14:06.75,0:14:08.88,Dialogue,,0,0,0,,For Nina.
+Dialogue: 0,0:14:09.42,0:14:13.22,Dialogue,,0,0,0,,I know well\Nhow you must feel now.
+Dialogue: 0,0:14:16.47,0:14:20.77,Dialogue,,0,0,0,,Um, can't I ask you to stop going after Brother now?
+Dialogue: 0,0:14:21.14,0:14:23.14,Dialogue,,0,0,0,,It is the will of Ishbala.
+Dialogue: 0,0:14:23.81,0:14:25.65,Dialogue,,0,0,0,,He is an accursed alchemist—
+Dialogue: 0,0:14:25.73,0:14:29.02,Dialogue,,0,0,0,,and what's worse, he now\Nseeks the Philosopher's Stone.
+Dialogue: 0,0:14:30.07,0:14:32.78,Dialogue,,0,0,0,,Why is alchemy so bad?
+Dialogue: 0,0:14:32.86,0:14:34.99,Dialogue,,0,0,0,,I mean, your own\Nright arm has a circle,
+Dialogue: 0,0:14:35.07,0:14:38.33,Dialogue,,0,0,0,,though it's one\NI've never seen before.
+Dialogue: 0,0:14:38.41,0:14:44.71,Dialogue,,0,0,0,,It is a brand I received when I took on\Nthe calling to destroy all State Alchemists.
+Dialogue: 0,0:14:45.79,0:14:47.79,Dialogue,,0,0,0,,And as for the Philosopher's Stone,
+Dialogue: 0,0:14:48.50,0:14:51.26,Dialogue,,0,0,0,,he isn't looking for it\Nto use it in battle.
+Dialogue: 0,0:14:52.05,0:14:55.47,Dialogue,,0,0,0,,It's in order to return\Nmy body to me.
+Dialogue: 0,0:14:56.89,0:14:59.81,Dialogue,,0,0,0,,You don't know the terror\Nof the Philosopher's Stone!
+Dialogue: 0,0:15:00.01,0:15:01.43,Dialogue,,0,0,0,,We do!
+Dialogue: 0,0:15:01.52,0:15:05.06,Dialogue,,0,0,0,,There's a legend that destruction befalls those who seek the Philosopher's Stone, right?
+Dialogue: 0,0:15:05.27,0:15:07.85,Dialogue,,0,0,0,,But if we were afraid of that,\Nwe'd never get our hands on anything.
+Dialogue: 0,0:15:09.36,0:15:14.11,Dialogue,,0,0,0,,Come to mention it, I heard that Ishbal also perished
+Dialogue: 0,0:15:10.86,0:15:14.11,Dialogue,,0,0,0,,because it came too close\Nto the Philosopher's Stone.
+Dialogue: 0,0:15:14.19,0:15:15.03,Dialogue,,0,0,0,,No!
+Dialogue: 0,0:15:15.90,0:15:18.99,Dialogue,,0,0,0,,Ishbal did not perish.
+Dialogue: 0,0:15:19.83,0:15:21.41,Dialogue,,0,0,0,,It was destroyed!
+Dialogue: 0,0:15:21.49,0:15:23.04,Dialogue,,0,0,0,,Brother!
+Dialogue: 0,0:15:23.95,0:15:26.04,Dialogue,,0,0,0,,Brother! Open up!
+Dialogue: 0,0:15:26.96,0:15:28.25,Dialogue,,0,0,0,,Brother!
+Dialogue: 0,0:15:32.67,0:15:36.72,Dialogue,,0,0,0,,Brother, is it true?\NYou've tried alchemy?
+Dialogue: 0,0:15:44.47,0:15:45.93,Dialogue,,0,0,0,,I failed.
+Dialogue: 0,0:15:46.48,0:15:48.31,Dialogue,,0,0,0,,It cannot be done this way.
+Dialogue: 0,0:15:48.56,0:15:51.94,Dialogue,,0,0,0,,However,\Nthere is still the Philosopher's Stone.
+Dialogue: 0,0:15:53.48,0:15:59.28,Dialogue,,0,0,0,,Brother, alchemy is a heretical practice that alters the creation that God has given us!
+Dialogue: 0,0:15:59.62,0:16:02.83,Dialogue,,0,0,0,,But...\Nour god, Ishbala...
+Dialogue: 0,0:16:03.74,0:16:06.29,Dialogue,,0,0,0,,will not bring her\Nback to life for us.
+Dialogue: 0,0:16:18.80,0:16:19.89,Dialogue,,0,0,0,,Brother!
+Dialogue: 0,0:16:25.85,0:16:28.27,Dialogue,,0,0,0,,The military...\NThey mean business...
+Dialogue: 0,0:16:28.81,0:16:31.44,Dialogue,,0,0,0,,Brother, it's too dangerous here!
+Dialogue: 0,0:16:39.03,0:16:40.03,Dialogue,,0,0,0,,Brother!
+Dialogue: 0,0:16:40.78,0:16:45.87,Dialogue,,0,0,0,,I have finally begun to see...\NWhat the Philosopher's Stone is...
+Dialogue: 0,0:16:46.12,0:16:50.04,Dialogue,,0,0,0,,Why Ishbala has forbidden it to us...
+Dialogue: 0,0:16:50.29,0:16:53.29,Dialogue,,0,0,0,,Brother...\NStop this already!
+Dialogue: 0,0:16:53.38,0:16:57.63,Dialogue,,0,0,0,,The enemy is trying to destroy us\Nwith this power of the Devil!
+Dialogue: 0,0:16:57.71,0:16:59.88,Dialogue,,0,0,0,,Yes, it's true.
+Dialogue: 0,0:17:00.59,0:17:02.30,Dialogue,,0,0,0,,Ishbal will be destroyed.
+Dialogue: 0,0:17:03.72,0:17:08.31,Dialogue,,0,0,0,,That is something that has been preordained.
+Dialogue: 0,0:17:08.93,0:17:13.86,Dialogue,,0,0,0,,I believed that if I could obtain the Philosopher's Stone,\Nshe would come back to life
+Dialogue: 0,0:17:13.94,0:17:16.82,Dialogue,,0,0,0,,and Ishbal would be saved.
+Dialogue: 0,0:17:17.48,0:17:20.24,Dialogue,,0,0,0,,However, it is for that purpose
+Dialogue: 0,0:17:20.49,0:17:23.57,Dialogue,,0,0,0,,that Ishbal must be destroyed.
+Dialogue: 0,0:17:23.82,0:17:24.82,Dialogue,,0,0,0,,Brother...
+Dialogue: 0,0:17:27.83,0:17:28.66,Dialogue,,0,0,0,,Brother!
+Dialogue: 0,0:17:42.22,0:17:43.93,Dialogue,,0,0,0,,Brother!
+Dialogue: 0,0:17:50.43,0:17:51.52,Dialogue,,0,0,0,,Scar-san...
+Dialogue: 0,0:17:52.60,0:17:58.32,Dialogue,,0,0,0,,I know that the Philosopher's Stone \Ncan be made from people's bodies.
+Dialogue: 0,0:17:58.94,0:18:00.86,Dialogue,,0,0,0,,We came to verify that.
+Dialogue: 0,0:18:01.90,0:18:04.70,Dialogue,,0,0,0,,If that's true, then we...
+Dialogue: 0,0:18:04.78,0:18:06.07,Dialogue,,0,0,0,,My, my...
+Dialogue: 0,0:18:08.41,0:18:11.58,Dialogue,,0,0,0,,There sure are\Na lot of intruders today.
+Dialogue: 0,0:18:12.08,0:18:13.29,Dialogue,,0,0,0,,Who are you?
+Dialogue: 0,0:18:13.87,0:18:14.71,Dialogue,,0,0,0,,You!
+Dialogue: 0,0:18:15.38,0:18:17.38,Dialogue,,0,0,0,,Why are you making that face?
+Dialogue: 0,0:18:18.84,0:18:22.34,Dialogue,,0,0,0,,My brother...\NDid he succeed?
+Dialogue: 0,0:18:22.72,0:18:24.22,Dialogue,,0,0,0,,What do you mean?
+Dialogue: 0,0:18:24.30,0:18:25.93,Dialogue,,0,0,0,,Can I eat them?
+Dialogue: 0,0:18:27.05,0:18:29.93,Dialogue,,0,0,0,,The armored one would be bad for your stomach.
+Dialogue: 0,0:18:30.14,0:18:31.06,Dialogue,,0,0,0,,I'll do my best!
+Dialogue: 0,0:18:32.06,0:18:33.56,Dialogue,,0,0,0,,Homunculus...
+Dialogue: 0,0:18:36.61,0:18:37.81,Dialogue,,0,0,0,,Homunculus?
+Dialogue: 0,0:18:38.73,0:18:39.69,Dialogue,,0,0,0,,They couldn't be...!
+Dialogue: 0,0:18:43.11,0:18:45.32,Dialogue,,0,0,0,,So the military falsified your execution
+Dialogue: 0,0:18:45.86,0:18:48.37,Dialogue,,0,0,0,,and had you create Chimeras here?
+Dialogue: 0,0:18:49.87,0:18:51.33,Dialogue,,0,0,0,,Not just Chimeras...
+Dialogue: 0,0:18:52.04,0:18:57.83,Dialogue,,0,0,0,,I'm doing research on\Na number of things...\Nthat cannot be made\Npublic knowledge.
+Dialogue: 0,0:18:58.38,0:19:03.34,Dialogue,,0,0,0,,Spirit bonding, and other tricks\Nyou can't do with ordinary alchemy.
+Dialogue: 0,0:19:03.55,0:19:05.30,Dialogue,,0,0,0,,You may have become a Chimera,
+Dialogue: 0,0:19:05.38,0:19:07.84,Dialogue,,0,0,0,,but you still have your complete memory from when you were human.
+Dialogue: 0,0:19:08.55,0:19:10.93,Dialogue,,0,0,0,,Who has that kind of skill?
+Dialogue: 0,0:19:11.01,0:19:14.85,Dialogue,,0,0,0,,Doctor Marcoh?\NBasque Grand? Someone else?
+Dialogue: 0,0:19:16.10,0:19:17.56,Dialogue,,0,0,0,,Answer me!
+Dialogue: 0,0:19:17.65,0:19:19.44,Dialogue,,0,0,0,,Who the hell runs this place?!
+Dialogue: 0,0:19:25.65,0:19:27.61,Dialogue,,0,0,0,,Please don't look at them.
+Dialogue: 0,0:19:28.41,0:19:30.12,Dialogue,,0,0,0,,They're quite bashful.
+Dialogue: 0,0:19:45.22,0:19:46.26,Dialogue,,0,0,0,,Nina?
+Dialogue: 0,0:19:46.93,0:19:51.22,Dialogue,,0,0,0,,They still cannot keep their shape when exposed to the open air.
+Dialogue: 0,0:19:53.89,0:19:57.81,Dialogue,,0,0,0,,There's no way you're able to\Nperform human transmutation.
+Dialogue: 0,0:19:58.02,0:20:01.98,Dialogue,,0,0,0,,You created a Chimera...\Nto look like Nina?
+Dialogue: 0,0:20:02.19,0:20:07.70,Dialogue,,0,0,0,,But each time, I failed,\Nand in the end,\NI wound up in this form.
+Dialogue: 0,0:20:08.78,0:20:11.12,Dialogue,,0,0,0,,However, I'm just one step away...
+Dialogue: 0,0:20:12.66,0:20:14.24,Dialogue,,0,0,0,,Just one step away...
+Dialogue: 0,0:20:16.54,0:20:18.79,Dialogue,,0,0,0,,One... step away?
+Dialogue: 0,0:20:59.87,0:21:04.88,Dialogue,,0,0,0,,The unfinished Philosopher's Stone material that Doctor Marcoh had...
+Dialogue: 0,0:21:05.05,0:21:09.88,Dialogue,,0,0,0,,You must already know that \Nit alone has considerable power.
+Dialogue: 0,0:21:17.10,0:21:21.85,Dialogue,,0,0,0,,If this large amount of unfinished material could be completely refined,
+Dialogue: 0,0:21:21.94,0:21:24.02,Dialogue,,0,0,0,,you would have a Philosopher's Stone.
+Dialogue: 0,0:21:35.37,0:21:36.20,Dialogue,,0,0,0,,Too slow!
+Dialogue: 0,0:21:42.67,0:21:47.00,Dialogue,,0,0,0,,However, no one\Nhas yet been successful.
+Dialogue: 0,0:21:47.88,0:21:51.72,Dialogue,,0,0,0,,It is impossible...\Nfor any ordinary alchemist.
+Dialogue: 0,0:21:55.89,0:21:59.85,Dialogue,,0,0,0,,I am...
+Dialogue: 0,0:22:01.69,0:22:04.48,Dialogue,,0,0,0,,no ordinary alchemist.
+Dialogue: 0,0:23:38.66,0:23:40.24,Dialogue,,0,0,0,,{\i1}Fullmetal Alchemist{\i0}...
+Dialogue: 0,0:23:40.33,0:23:43.37,Dialogue,,0,0,0,,Episode 22: "Created Human"
+Dialogue: 0,0:23:43.95,0:23:48.33,Dialogue,,0,0,0,,Homunculus—\Na pseudo-human,\Ncreated through alchemy.
+Dialogue: 0,0:23:49.38,0:23:52.80,Dialogue,,0,0,0,,But they exist only in legends.

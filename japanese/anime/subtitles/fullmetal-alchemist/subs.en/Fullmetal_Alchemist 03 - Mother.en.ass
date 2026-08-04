@@ -1,0 +1,285 @@
+[Script Info]
+Title: Fullmetal_Alchemist 03 - Mother
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1280
+PlayResY: 720
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Dialogue,Noto Sans,46,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,40,40,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.66,0:00:07.75,Dialogue,,0,0,0,,{\an8}Sure enough, there aren't any more books written about the Philosopher's Stone.
+Dialogue: 0,0:00:08.04,0:00:10.58,Dialogue,,0,0,0,,What that minister had was a fake,
+Dialogue: 0,0:00:10.67,0:00:13.25,Dialogue,,0,0,0,,and once again, we don't have any other leads.
+Dialogue: 0,0:00:13.42,0:00:17.26,Dialogue,,0,0,0,,How about we head \Nback to Central, then?
+Dialogue: 0,0:00:15.38,0:00:17.26,Dialogue,,0,0,0,,Brother!
+Dialogue: 0,0:00:18.18,0:00:19.05,Dialogue,,0,0,0,,Look!
+Dialogue: 0,0:00:19.59,0:00:22.39,Dialogue,,0,0,0,,"An Introduction to Alchemy."\NThis sure takes me back.
+Dialogue: 0,0:00:22.47,0:00:24.26,Dialogue,,0,0,0,,Huh, it does?
+Dialogue: 0,0:00:39.49,0:00:42.28,Dialogue,,0,0,0,,Hey,\Nthis is boring!
+Dialogue: 0,0:00:42.95,0:00:44.41,Dialogue,,0,0,0,,{\an8}Hold on, just a little longer.
+Dialogue: 0,0:00:44.49,0:00:45.79,Dialogue,,0,0,0,,{\an8}All right, done!
+Dialogue: 0,0:00:46.45,0:00:47.79,Dialogue,,0,0,0,,Watch this, Winry!
+Dialogue: 0,0:00:47.87,0:00:50.54,Dialogue,,0,0,0,,You said you were giving me a present.
+Dialogue: 0,0:00:51.08,0:00:54.04,Dialogue,,0,0,0,,And we're making your present right now.
+Dialogue: 0,0:01:42.97,0:01:46.43,Dialogue,,0,0,0,,That was our very first transmutation.
+Dialogue: 0,0:01:48.52,0:01:52.35,Dialogue,,0,0,0,,Man cannot obtain anything\Nwithout first sacrificing something.
+Dialogue: 0,0:01:53.19,0:01:56.94,Dialogue,,0,0,0,,In order to obtain anything,\Nsomething of equal value is required.
+Dialogue: 0,0:01:57.57,0:02:02.03,Dialogue,,0,0,0,,That is alchemy's\NLaw of Equivalent Exchange.
+Dialogue: 0,0:02:03.28,0:02:08.08,Dialogue,,0,0,0,,At the time, we believed that\Nto be the true way of the world.
+Dialogue: 0,0:03:58.35,0:04:01.77,Dialogue,,0,0,0,,Winry, you were wrong to do that\Nafter those two went to all that trouble.
+Dialogue: 0,0:04:01.90,0:04:07.07,Dialogue,,0,0,0,,That's right. Both Edward-chan and Alphonse-chan were doing it for you.
+Dialogue: 0,0:04:07.15,0:04:09.70,Dialogue,,0,0,0,,I'm really sorry about this.
+Dialogue: 0,0:04:10.91,0:04:16.04,Dialogue,,0,0,0,,No matter how much they learn,\Nthe usual person gives up\Nsomewhere along the way.
+Dialogue: 0,0:04:16.12,0:04:19.29,Dialogue,,0,0,0,,However, those boys are already magnificent alchemists.
+Dialogue: 0,0:04:21.17,0:04:25.34,Dialogue,,0,0,0,,But those boys shouldn't know anything about alchemy.
+Dialogue: 0,0:04:25.80,0:04:29.34,Dialogue,,0,0,0,,They are {\i1}his{\i0} sons after all.
+Dialogue: 0,0:04:40.06,0:04:43.07,Dialogue,,0,0,0,,So when did your dad\Nteach you about alchemy?
+Dialogue: 0,0:04:43.36,0:04:45.44,Dialogue,,0,0,0,,How could we learn anything from someone who isn't ever around?
+Dialogue: 0,0:04:45.53,0:04:47.36,Dialogue,,0,0,0,,It was written in that book.
+Dialogue: 0,0:04:47.86,0:04:49.91,Dialogue,,0,0,0,,You can understand something as difficult as this?
+Dialogue: 0,0:04:49.99,0:04:51.07,Dialogue,,0,0,0,,More or less.
+Dialogue: 0,0:04:52.16,0:04:53.53,Dialogue,,0,0,0,,Did we do anything wrong?
+Dialogue: 0,0:04:53.78,0:04:56.29,Dialogue,,0,0,0,,No, you did outstanding!
+Dialogue: 0,0:04:56.45,0:04:58.04,Dialogue,,0,0,0,,I think I'll brag to everyone about it.
+Dialogue: 0,0:05:01.67,0:05:04.38,Dialogue,,0,0,0,,Be sure to put the books back where you find them.
+Dialogue: 0,0:05:04.46,0:05:06.63,Dialogue,,0,0,0,,Once Dad comes home,\Nmake sure to thank him.
+Dialogue: 0,0:05:06.71,0:05:07.84,Dialogue,,0,0,0,,And lastly,
+Dialogue: 0,0:05:07.97,0:05:09.80,Dialogue,,0,0,0,,do not open that door.
+Dialogue: 0,0:05:09.88,0:05:10.97,Dialogue,,0,0,0,,Understood!
+Dialogue: 0,0:05:11.51,0:05:12.55,Dialogue,,0,0,0,,Here they are!
+Dialogue: 0,0:05:22.35,0:05:25.48,Dialogue,,0,0,0,,Dad departed without telling anyone where he was going,
+Dialogue: 0,0:05:25.61,0:05:28.49,Dialogue,,0,0,0,,so Mom started staring off into the distance a lot.
+Dialogue: 0,0:05:29.11,0:05:32.70,Dialogue,,0,0,0,,But still, once we began practicing alchemy,
+Dialogue: 0,0:05:32.78,0:05:35.66,Dialogue,,0,0,0,,she would smile at us\Nmore frequently.
+Dialogue: 0,0:05:36.45,0:05:38.33,Dialogue,,0,0,0,,Mother was praising us.
+Dialogue: 0,0:05:39.12,0:05:42.17,Dialogue,,0,0,0,,We competed with each other\Nas we became absorbed in alchemy.
+Dialogue: 0,0:05:46.25,0:05:47.38,Dialogue,,0,0,0,,Mom!
+Dialogue: 0,0:05:48.17,0:05:49.01,Dialogue,,0,0,0,,Mom!
+Dialogue: 0,0:05:50.34,0:05:51.38,Dialogue,,0,0,0,,{\an8}Look, look!
+Dialogue: 0,0:05:51.47,0:05:52.76,Dialogue,,0,0,0,,{\an8}See?\NOh, my!
+Dialogue: 0,0:05:52.84,0:05:54.68,Dialogue,,0,0,0,,Brother made it!
+Dialogue: 0,0:05:55.01,0:05:56.64,Dialogue,,0,0,0,,I can still only do this.
+Dialogue: 0,0:05:56.93,0:05:58.93,Dialogue,,0,0,0,,Incredible, both of you!
+Dialogue: 0,0:05:59.02,0:06:01.06,Dialogue,,0,0,0,,You certainly are his children!
+Dialogue: 0,0:06:02.77,0:06:04.56,Dialogue,,0,0,0,,Would Father commend us too?
+Dialogue: 0,0:06:06.77,0:06:09.57,Dialogue,,0,0,0,,Yes.\NOnce he comes home,\NI'm sure he will.
+Dialogue: 0,0:06:12.78,0:06:14.24,Dialogue,,0,0,0,,I'm going over to Winry's!
+Dialogue: 0,0:06:14.32,0:06:15.37,Dialogue,,0,0,0,,Brother!
+Dialogue: 0,0:06:25.88,0:06:29.59,Dialogue,,0,0,0,,Brother,\Ndo you hate Father?
+Dialogue: 0,0:06:30.26,0:06:32.22,Dialogue,,0,0,0,,I wouldn't say I hate him...
+Dialogue: 0,0:06:33.01,0:06:34.47,Dialogue,,0,0,0,,I just don't remember him too well.
+Dialogue: 0,0:06:35.76,0:06:40.60,Dialogue,,0,0,0,,Whenever anyone talks about him, Mom makes a strange face.
+Dialogue: 0,0:06:41.85,0:06:43.31,Dialogue,,0,0,0,,That's what I don't like.
+Dialogue: 0,0:06:44.14,0:06:45.23,Dialogue,,0,0,0,,S-Sorry...
+Dialogue: 0,0:06:50.53,0:06:52.49,Dialogue,,0,0,0,,Let's go over to Winry's!
+Dialogue: 0,0:06:59.66,0:07:02.00,Dialogue,,0,0,0,,Wh-What do you mean?
+Dialogue: 0,0:07:02.08,0:07:03.37,Dialogue,,0,0,0,,Just like I told you!
+Dialogue: 0,0:07:03.71,0:07:06.17,Dialogue,,0,0,0,,My mom and dad are dead.
+Dialogue: 0,0:07:08.17,0:07:11.76,Dialogue,,0,0,0,,B-But your folks are doctors, right?
+Dialogue: 0,0:07:12.17,0:07:13.26,Dialogue,,0,0,0,,That's right.
+Dialogue: 0,0:07:13.42,0:07:15.76,Dialogue,,0,0,0,,That's why they went to the war in Ishbal,
+Dialogue: 0,0:07:15.84,0:07:17.34,Dialogue,,0,0,0,,and now they're dead.
+Dialogue: 0,0:07:20.18,0:07:22.39,Dialogue,,0,0,0,,W-Winry,
+Dialogue: 0,0:07:22.47,0:07:26.02,Dialogue,,0,0,0,,our father is...\Nkind of in the same situation...
+Dialogue: 0,0:07:26.10,0:07:27.73,Dialogue,,0,0,0,,It's not the same!
+Dialogue: 0,0:07:28.15,0:07:31.40,Dialogue,,0,0,0,,If you're dead, that means\Nyou can never come back again!
+Dialogue: 0,0:07:33.07,0:07:34.90,Dialogue,,0,0,0,,It's {\i1}not{\i0} as though you can't ever come back.
+Dialogue: 0,0:07:36.28,0:07:37.74,Dialogue,,0,0,0,,I read so in a book.
+Dialogue: 0,0:07:38.16,0:07:40.95,Dialogue,,0,0,0,,There's this artificial person thing,\Ncalled a homunculus.
+Dialogue: 0,0:07:41.28,0:07:43.41,Dialogue,,0,0,0,,It sounds sort of like a doll that doesn't have a mind.
+Dialogue: 0,0:07:43.75,0:07:46.50,Dialogue,,0,0,0,,But with alchemy,\Nyour folks could probably be—
+Dialogue: 0,0:07:46.58,0:07:47.42,Dialogue,,0,0,0,,Stop right there!
+Dialogue: 0,0:07:47.87,0:07:50.42,Dialogue,,0,0,0,,That is something\Nwhich is not allowed!
+Dialogue: 0,0:07:51.21,0:07:53.96,Dialogue,,0,0,0,,Alchemy is not all-powerful.
+Dialogue: 0,0:07:54.05,0:07:57.47,Dialogue,,0,0,0,,That's why we Automail\Nengineers exist, you know.
+Dialogue: 0,0:07:59.26,0:08:00.43,Dialogue,,0,0,0,,Dirty old hag...
+Dialogue: 0,0:08:07.89,0:08:11.06,Dialogue,,0,0,0,,I feel sorry for Winry.
+Dialogue: 0,0:08:29.12,0:08:30.79,Dialogue,,0,0,0,,What's the matter with you two?
+Dialogue: 0,0:08:32.21,0:08:33.96,Dialogue,,0,0,0,,What's the matter, Edward?
+Dialogue: 0,0:08:34.04,0:08:36.80,Dialogue,,0,0,0,,You're such a big boy.\NThis looks funny, you know.
+Dialogue: 0,0:08:48.35,0:08:49.44,Dialogue,,0,0,0,,Al, you're so slow!
+Dialogue: 0,0:08:57.94,0:09:00.16,Dialogue,,0,0,0,,Mom, sorry we're late!
+Dialogue: 0,0:09:08.04,0:09:09.04,Dialogue,,0,0,0,,Mom...
+Dialogue: 0,0:09:09.83,0:09:11.12,Dialogue,,0,0,0,,Mom!
+Dialogue: 0,0:09:17.21,0:09:19.51,Dialogue,,0,0,0,,She hasn't been sick since just today or yesterday.
+Dialogue: 0,0:09:19.59,0:09:23.30,Dialogue,,0,0,0,,She must've been suffering\Nfrom this illness for years now.
+Dialogue: 0,0:09:27.89,0:09:28.73,Dialogue,,0,0,0,,Honey...
+Dialogue: 0,0:09:31.90,0:09:33.90,Dialogue,,0,0,0,,These here are letters\Nthat came for him.
+Dialogue: 0,0:09:34.94,0:09:37.86,Dialogue,,0,0,0,,If we send a letter to\Neach one of them...
+Dialogue: 0,0:09:37.98,0:09:42.03,Dialogue,,0,0,0,,Someone will know where he is and tell him to come home?
+Dialogue: 0,0:09:42.32,0:09:44.32,Dialogue,,0,0,0,,I don't want him to come home!
+Dialogue: 0,0:09:44.41,0:09:46.74,Dialogue,,0,0,0,,But we don't have any choice! Damn!
+Dialogue: 0,0:09:51.16,0:09:54.92,Dialogue,,0,0,0,,Your dad...\Nleft us this money.
+Dialogue: 0,0:09:56.34,0:09:57.75,Dialogue,,0,0,0,,I haven't touched it.
+Dialogue: 0,0:09:58.30,0:10:01.68,Dialogue,,0,0,0,,Use that,\Nand the two of you\Ntake care of each other.
+Dialogue: 0,0:10:02.18,0:10:04.34,Dialogue,,0,0,0,,What are you talking about, Mom?
+Dialogue: 0,0:10:04.93,0:10:09.10,Dialogue,,0,0,0,,Would you transmute something for me...\NEdward?
+Dialogue: 0,0:10:10.02,0:10:12.77,Dialogue,,0,0,0,,I know...
+Dialogue: 0,0:10:10.02,0:10:13.69,Dialogue,,0,0,0,,A corsage would be nice.
+Dialogue: 0,0:10:14.81,0:10:21.15,Dialogue,,0,0,0,,He... always...\Nmade them... for me.
+Dialogue: 0,0:10:30.66,0:10:34.12,Dialogue,,0,0,0,,The reason Mom was so thrilled to see us practicing alchemy
+Dialogue: 0,0:10:34.46,0:10:39.59,Dialogue,,0,0,0,,was that it reminded her of Dad.\NThat's what we finally realized.
+Dialogue: 0,0:10:48.89,0:10:52.31,Dialogue,,0,0,0,,Brother...\NI'm hungry.
+Dialogue: 0,0:10:54.27,0:10:55.69,Dialogue,,0,0,0,,I'm cold as well.
+Dialogue: 0,0:10:57.90,0:10:59.07,Dialogue,,0,0,0,,Let's go home.
+Dialogue: 0,0:10:59.15,0:11:00.11,Dialogue,,0,0,0,,Al...
+Dialogue: 0,0:11:02.03,0:11:05.24,Dialogue,,0,0,0,,Let's...\Nbring Mom back.
+Dialogue: 0,0:11:15.12,0:11:17.08,Dialogue,,0,0,0,,{\an8}Look, here in his notes!
+Dialogue: 0,0:11:17.96,0:11:21.59,Dialogue,,0,0,0,,I don't understand it all,\Nbut something about human transmutation is written here!
+Dialogue: 0,0:11:21.88,0:11:23.67,Dialogue,,0,0,0,,If we can decipher this...
+Dialogue: 0,0:11:23.97,0:11:28.34,Dialogue,,0,0,0,,But it's written here that human transmutation is forbidden.
+Dialogue: 0,0:11:28.47,0:11:31.72,Dialogue,,0,0,0,,If dead people can come back to life,\Nthen of course it would make anyone happy.
+Dialogue: 0,0:11:31.93,0:11:36.19,Dialogue,,0,0,0,,Nobody has succeeded,\Nand they're all frustrated,\Nso the grown-ups have just prohibited it.
+Dialogue: 0,0:11:36.69,0:11:39.94,Dialogue,,0,0,0,,Al, if you, me, and Mom can all live happily together again,
+Dialogue: 0,0:11:40.02,0:11:42.36,Dialogue,,0,0,0,,then Mom would be thrilled!
+Dialogue: 0,0:11:42.78,0:11:45.82,Dialogue,,0,0,0,,Still, maybe we should\Nask Dad about this first...
+Dialogue: 0,0:11:45.90,0:11:48.11,Dialogue,,0,0,0,,It's his fault that Mom died!
+Dialogue: 0,0:11:48.53,0:11:51.62,Dialogue,,0,0,0,,Mom was always waiting for him,
+Dialogue: 0,0:11:52.20,0:11:54.16,Dialogue,,0,0,0,,and he didn't even\Ncome home for her funeral!
+Dialogue: 0,0:11:54.95,0:11:58.54,Dialogue,,0,0,0,,If this is something that he\Ncouldn't do, then {\i1}we'll{\i0} do it!
+Dialogue: 0,0:11:59.33,0:12:00.38,Dialogue,,0,0,0,,{\i1}We're{\i0} gonna do it!
+Dialogue: 0,0:12:03.05,0:12:07.22,Dialogue,,0,0,0,,We found ourselves a teacher\Nand learned alchemy from the beginning.
+Dialogue: 0,0:12:07.76,0:12:09.18,Dialogue,,0,0,0,,And then, one day...
+Dialogue: 0,0:12:12.85,0:12:16.64,Dialogue,,0,0,0,,Water, 35 liters;
+Dialogue: 0,0:12:12.85,0:12:20.77,Dialogue,,0,0,0,,carbon, 20 kilograms; ammonia, 4 liters;
+Dialogue: 0,0:12:16.89,0:12:20.77,Dialogue,,0,0,0,,lime, 1.5 kilograms...
+Dialogue: 0,0:12:21.11,0:12:26.65,Dialogue,,0,0,0,,Phosphorus, 800 grams;\Nsalt, 250 grams; saltpeter, 100 grams;
+Dialogue: 0,0:12:27.28,0:12:32.16,Dialogue,,0,0,0,,fluorine, 7.5 grams;\Niron, 5 grams; silicon, 3 grams...
+Dialogue: 0,0:12:33.45,0:12:37.96,Dialogue,,0,0,0,,These are the elements that comprise an adult human—\Nthe structural formula.
+Dialogue: 0,0:12:39.21,0:12:43.46,Dialogue,,0,0,0,,By including a soul in this,
+Dialogue: 0,0:12:39.21,0:12:46.01,Dialogue,,0,0,0,,we should be able to call Mom's spirit back and connect it with her body once again.
+Dialogue: 0,0:12:46.67,0:12:48.68,Dialogue,,0,0,0,,Brother, are you sure we should?
+Dialogue: 0,0:12:48.76,0:12:50.76,Dialogue,,0,0,0,,After we've come this far, Al?
+Dialogue: 0,0:12:50.84,0:12:54.14,Dialogue,,0,0,0,,But still, alchemy is about\Nequivalent exchange, right?
+Dialogue: 0,0:12:54.51,0:13:00.31,Dialogue,,0,0,0,,We've got the ingredients for the body,\Nbut what do we exchange for Mom's spirit?
+Dialogue: 0,0:13:00.40,0:13:01.69,Dialogue,,0,0,0,,Don't worry, just stick out your finger.
+Dialogue: 0,0:13:09.74,0:13:13.24,Dialogue,,0,0,0,,Information...\Nabout the soul...
+Dialogue: 0,0:13:17.16,0:13:18.58,Dialogue,,0,0,0,,That's everything.
+Dialogue: 0,0:13:19.54,0:13:20.71,Dialogue,,0,0,0,,Let's do it, Al.
+Dialogue: 0,0:13:31.18,0:13:32.89,Dialogue,,0,0,0,,The village of Resembool...
+Dialogue: 0,0:13:55.78,0:13:58.20,Dialogue,,0,0,0,,Brother, something's not right here!
+Dialogue: 0,0:14:04.75,0:14:05.67,Dialogue,,0,0,0,,Al!
+Dialogue: 0,0:14:11.01,0:14:12.18,Dialogue,,0,0,0,,Brother!
+Dialogue: 0,0:14:12.76,0:14:14.55,Dialogue,,0,0,0,,Brother!
+Dialogue: 0,0:14:15.85,0:14:18.93,Dialogue,,0,0,0,,Brother! Brother!
+Dialogue: 0,0:14:19.97,0:14:22.56,Dialogue,,0,0,0,,Al!
+Dialogue: 0,0:14:25.31,0:14:27.19,Dialogue,,0,0,0,,The last thing I saw
+Dialogue: 0,0:14:27.44,0:14:31.07,Dialogue,,0,0,0,,was the sight of Brother's left leg\Nbeing broken down and disappearing.
+Dialogue: 0,0:14:31.90,0:14:33.07,Dialogue,,0,0,0,,And then...
+Dialogue: 0,0:14:45.25,0:14:46.33,Dialogue,,0,0,0,,What is this?
+Dialogue: 0,0:14:53.13,0:14:55.43,Dialogue,,0,0,0,,I'm sorry, Al.
+Dialogue: 0,0:14:56.39,0:14:57.55,Dialogue,,0,0,0,,Brother!
+Dialogue: 0,0:14:58.76,0:15:00.85,Dialogue,,0,0,0,,Brother, what happened to me?
+Dialogue: 0,0:15:00.93,0:15:04.23,Dialogue,,0,0,0,,And...\Nyour arm...
+Dialogue: 0,0:15:06.31,0:15:10.23,Dialogue,,0,0,0,,With just my right arm,
+Dialogue: 0,0:15:06.31,0:15:14.28,Dialogue,,0,0,0,,I was only able to bond your spirit to the armor that was sitting over there.
+Dialogue: 0,0:15:15.82,0:15:16.66,Dialogue,,0,0,0,,Brother...
+Dialogue: 0,0:15:17.99,0:15:20.83,Dialogue,,0,0,0,,So, what about Mom?
+Dialogue: 0,0:15:21.04,0:15:23.91,Dialogue,,0,0,0,,It wasn't...\Nhuman.
+Dialogue: 0,0:15:28.79,0:15:34.01,Dialogue,,0,0,0,,That can't be...\NHow come? Brother, your theories should have been perfect.
+Dialogue: 0,0:15:34.76,0:15:37.22,Dialogue,,0,0,0,,My theories weren't what was wrong.
+Dialogue: 0,0:15:38.18,0:15:39.85,Dialogue,,0,0,0,,What was wrong...
+Dialogue: 0,0:15:40.93,0:15:42.22,Dialogue,,0,0,0,,was us.
+Dialogue: 0,0:15:43.52,0:15:44.35,Dialogue,,0,0,0,,Grandma!
+Dialogue: 0,0:15:45.44,0:15:46.35,Dialogue,,0,0,0,,Brother...
+Dialogue: 0,0:15:48.27,0:15:50.02,Dialogue,,0,0,0,,Help my brother!
+Dialogue: 0,0:15:51.44,0:15:53.90,Dialogue,,0,0,0,,Al...\Nis that you?
+Dialogue: 0,0:15:58.36,0:16:00.87,Dialogue,,0,0,0,,You guys are back from your training?
+Dialogue: 0,0:16:01.33,0:16:02.70,Dialogue,,0,0,0,,So then, why?
+Dialogue: 0,0:16:02.79,0:16:07.62,Dialogue,,0,0,0,,Don't tell me you were thinking of creating your mom.
+Dialogue: 0,0:16:10.29,0:16:13.63,Dialogue,,0,0,0,,So that's it. That was the light\Nof human transmutation, huh?
+Dialogue: 0,0:16:14.46,0:16:17.18,Dialogue,,0,0,0,,I've never seen such a furious reaction in a transmutation before.
+Dialogue: 0,0:16:18.55,0:16:19.39,Dialogue,,0,0,0,,Pardon me.
+Dialogue: 0,0:16:20.85,0:16:22.72,Dialogue,,0,0,0,,A State Alchemist?
+Dialogue: 0,0:16:22.93,0:16:24.68,Dialogue,,0,0,0,,What business does\Nthe military have here?
+Dialogue: 0,0:16:25.02,0:16:28.10,Dialogue,,0,0,0,,As you can see, these boys\Nhave suffered grave injuries.
+Dialogue: 0,0:16:28.35,0:16:30.61,Dialogue,,0,0,0,,This letter came my way.
+Dialogue: 0,0:16:31.19,0:16:34.11,Dialogue,,0,0,0,,That's one that Brother sent to Dad's acquaintances!
+Dialogue: 0,0:16:34.19,0:16:39.45,Dialogue,,0,0,0,,We've been searching for your father, Hohenheim, for a long time.
+Dialogue: 0,0:16:39.66,0:16:42.24,Dialogue,,0,0,0,,We still don't know\Nwhere their father is.
+Dialogue: 0,0:16:42.58,0:16:44.41,Dialogue,,0,0,0,,There are hurt people here. Go away.
+Dialogue: 0,0:16:45.70,0:16:50.08,Dialogue,,0,0,0,,If they performed human transmutation\Nand escaped with their lives,
+Dialogue: 0,0:16:51.21,0:16:53.04,Dialogue,,0,0,0,,then I am more interested in them\Nthan in their father.
+Dialogue: 0,0:16:53.96,0:16:56.63,Dialogue,,0,0,0,,They could make fine State Alchemists.
+Dialogue: 0,0:16:57.22,0:16:59.34,Dialogue,,0,0,0,,This boy hasn't done anything.
+Dialogue: 0,0:16:59.80,0:17:01.97,Dialogue,,0,0,0,,Go away, we have things to do here.
+Dialogue: 0,0:17:04.72,0:17:07.93,Dialogue,,0,0,0,,I am State Alchemist\NLt. Col. Roy Mustang.
+Dialogue: 0,0:17:08.56,0:17:10.23,Dialogue,,0,0,0,,Come pay a visit to Central.
+Dialogue: 0,0:17:39.05,0:17:43.26,Dialogue,,0,0,0,,Uh, good morning, Winry.
+Dialogue: 0,0:17:40.97,0:17:43.26,Dialogue,,0,0,0,,Al!
+Dialogue: 0,0:17:43.34,0:17:44.68,Dialogue,,0,0,0,,You're awake?!
+Dialogue: 0,0:17:44.76,0:17:45.60,Dialogue,,0,0,0,,I-I'm sorry, I was just...
+Dialogue: 0,0:17:49.48,0:17:52.60,Dialogue,,0,0,0,,Grandma, in the house, there's some money...
+Dialogue: 0,0:17:53.02,0:17:55.61,Dialogue,,0,0,0,,You dummy, don't be worried over something as trivial as that.
+Dialogue: 0,0:17:55.69,0:17:56.77,Dialogue,,0,0,0,,That's not what I meant.
+Dialogue: 0,0:17:57.36,0:18:00.70,Dialogue,,0,0,0,,Use that money and fix me up\Nwith some Automail.
+Dialogue: 0,0:18:02.07,0:18:06.91,Dialogue,,0,0,0,,I'm going to go see that Roy guy from earlier\Nand become a State Alchemist.
+Dialogue: 0,0:18:07.41,0:18:10.33,Dialogue,,0,0,0,,I'll need the freedom of my own arms and legs to do so, right?
+Dialogue: 0,0:18:10.50,0:18:13.08,Dialogue,,0,0,0,,You mean, you were listening?
+Dialogue: 0,0:18:13.71,0:18:15.29,Dialogue,,0,0,0,,I heard about them from my teacher.
+Dialogue: 0,0:18:15.42,0:18:17.21,Dialogue,,0,0,0,,If I become a State Alchemist,
+Dialogue: 0,0:18:17.30,0:18:20.17,Dialogue,,0,0,0,,I'll be able to read valuable documents that the state is in charge of.
+Dialogue: 0,0:18:20.26,0:18:23.18,Dialogue,,0,0,0,,I'll also be provided an allowance\Nand allowed to do research on my own.
+Dialogue: 0,0:18:23.38,0:18:28.56,Dialogue,,0,0,0,,What's more, that watch\Ncan amplify an alchemist's power.
+Dialogue: 0,0:18:29.64,0:18:32.23,Dialogue,,0,0,0,,Didn't your teacher tell you this?
+Dialogue: 0,0:18:33.06,0:18:35.77,Dialogue,,0,0,0,,Once war breaks out,\Nyou will be brought into it,
+Dialogue: 0,0:18:36.15,0:18:41.36,Dialogue,,0,0,0,,and if ordered, use your alchemy to \Ntake lives for the good of the people.
+Dialogue: 0,0:18:42.36,0:18:45.49,Dialogue,,0,0,0,,In the war that claimed\Nmy own sons' lives,
+Dialogue: 0,0:18:45.78,0:18:48.24,Dialogue,,0,0,0,,there were State Alchemists involved.
+Dialogue: 0,0:18:48.45,0:18:51.41,Dialogue,,0,0,0,,I don't care if I have to become\Na dog of the military or whatever.
+Dialogue: 0,0:18:51.83,0:18:54.08,Dialogue,,0,0,0,,There is something that I have to do.
+Dialogue: 0,0:18:54.83,0:18:57.59,Dialogue,,0,0,0,,Ed, are you still at it?
+Dialogue: 0,0:18:59.92,0:19:04.05,Dialogue,,0,0,0,,Just bear with us. This is the highest-quality stuff I can make!
+Dialogue: 0,0:19:07.39,0:19:09.31,Dialogue,,0,0,0,,We're okay! Don't come in!
+Dialogue: 0,0:19:09.81,0:19:11.31,Dialogue,,0,0,0,,I'm surprised.
+Dialogue: 0,0:19:11.64,0:19:15.98,Dialogue,,0,0,0,,Even adults scream at the pain of attaching each nerve to the mechanisms.
+Dialogue: 0,0:19:17.10,0:19:21.40,Dialogue,,0,0,0,,This pain is nothing...\Ncompared to his.
+Dialogue: 0,0:19:35.29,0:19:38.54,Dialogue,,0,0,0,,It's been a while.\NShall we go at it,\NBrother?
+Dialogue: 0,0:19:39.42,0:19:42.63,Dialogue,,0,0,0,,"To train the mind,\None must train the body."
+Dialogue: 0,0:19:43.51,0:19:45.26,Dialogue,,0,0,0,,That's what Teacher said.
+Dialogue: 0,0:19:45.34,0:19:48.18,Dialogue,,0,0,0,,But, Al, are you going to be able to handle it in that body?
+Dialogue: 0,0:19:48.39,0:19:50.64,Dialogue,,0,0,0,,I'm not going to lose\Nto some Automail!
+Dialogue: 0,0:20:07.20,0:20:10.95,Dialogue,,0,0,0,,Brother, are you serious about becoming a State Alchemist?
+Dialogue: 0,0:20:11.33,0:20:15.75,Dialogue,,0,0,0,,I don't know whether or not I can become one,\Nbut I am going to go see that Roy guy.
+Dialogue: 0,0:20:15.83,0:20:16.96,Dialogue,,0,0,0,,Don't do it.
+Dialogue: 0,0:20:17.12,0:20:18.33,Dialogue,,0,0,0,,I've made up my mind.
+Dialogue: 0,0:20:18.67,0:20:19.63,Dialogue,,0,0,0,,Well then, I'll become one!
+Dialogue: 0,0:20:20.71,0:20:22.17,Dialogue,,0,0,0,,You can't.
+Dialogue: 0,0:20:22.25,0:20:26.05,Dialogue,,0,0,0,,Brother, are you still\Nplanning to transmute Mom?
+Dialogue: 0,0:20:27.43,0:20:31.51,Dialogue,,0,0,0,,You said at the time that we were wrong to do so, didn't you?
+Dialogue: 0,0:20:35.60,0:20:37.69,Dialogue,,0,0,0,,I'll become a State Alchemist,
+Dialogue: 0,0:20:38.56,0:20:44.69,Dialogue,,0,0,0,,and then I'll find a way to\Nget your arm and leg back.
+Dialogue: 0,0:20:45.32,0:20:47.70,Dialogue,,0,0,0,,You don't have to worry about that.
+Dialogue: 0,0:20:47.78,0:20:49.53,Dialogue,,0,0,0,,But it's my fault!
+Dialogue: 0,0:20:49.91,0:20:53.62,Dialogue,,0,0,0,,If I had objected,\Nyou wouldn't have lost your leg!
+Dialogue: 0,0:20:54.20,0:20:57.96,Dialogue,,0,0,0,,And then you lost your arm in order to bond my spirit...
+Dialogue: 0,0:21:02.50,0:21:05.46,Dialogue,,0,0,0,,What about you? What are you supposed to do with that body?
+Dialogue: 0,0:21:07.59,0:21:08.59,Dialogue,,0,0,0,,Brother...
+Dialogue: 0,0:21:08.97,0:21:12.51,Dialogue,,0,0,0,,I'm going to go find a way\Nto get you back to normal.
+Dialogue: 0,0:21:12.60,0:21:15.18,Dialogue,,0,0,0,,You won't try anything with Mom, right?
+Dialogue: 0,0:21:15.89,0:21:20.60,Dialogue,,0,0,0,,It's likely that there isn't anything in the world
+Dialogue: 0,0:21:21.23,0:21:22.86,Dialogue,,0,0,0,,that we can exchange\Nequivalently for Mom's life.
+Dialogue: 0,0:21:23.44,0:21:24.32,Dialogue,,0,0,0,,And besides...
+Dialogue: 0,0:21:25.73,0:21:27.49,Dialogue,,0,0,0,,I don't want to lose you too.
+Dialogue: 0,0:21:29.49,0:21:32.03,Dialogue,,0,0,0,,In that case,\NI'm going with you.
+Dialogue: 0,0:21:32.45,0:21:33.41,Dialogue,,0,0,0,,But why?
+Dialogue: 0,0:21:33.49,0:21:36.45,Dialogue,,0,0,0,,Brother, you slack off too quickly! If I'm not around...
+Dialogue: 0,0:21:36.70,0:21:38.54,Dialogue,,0,0,0,,That's what you're getting at?
+Dialogue: 0,0:21:38.62,0:21:39.62,Dialogue,,0,0,0,,And I...
+Dialogue: 0,0:21:40.71,0:21:42.75,Dialogue,,0,0,0,,don't ever want us\Nto get separated again.
+Dialogue: 0,0:21:59.85,0:22:01.73,Dialogue,,0,0,0,,Even though they\Nwere our own bodies,
+Dialogue: 0,0:22:02.10,0:22:05.90,Dialogue,,0,0,0,,we would still be seeking to perform a forbidden human transmutation.
+Dialogue: 0,0:22:06.65,0:22:10.74,Dialogue,,0,0,0,,If unsuccessful,\Nthis time we would probably\Ndisappear from this world for good.
+Dialogue: 0,0:22:11.90,0:22:15.45,Dialogue,,0,0,0,,There would be no telling what further punishment we would receive.
+Dialogue: 0,0:22:16.83,0:22:18.74,Dialogue,,0,0,0,,There could be no\Nturning back for us.
+Dialogue: 0,0:22:20.00,0:22:24.25,Dialogue,,0,0,0,,{\an8}And so, on the day\Nwe left on our journey,\N{\an8}we burned down our house.
+Dialogue: 0,0:23:39.03,0:23:40.49,Dialogue,,0,0,0,,{\i1}Fullmetal Alchemist{\i0}...
+Dialogue: 0,0:23:40.58,0:23:42.75,Dialogue,,0,0,0,,Episode 4: "Transmutation of Love"
+Dialogue: 0,0:23:43.08,0:23:47.04,Dialogue,,0,0,0,,When a doll takes on life, a man learns of his own foolishness.
+Dialogue: 0,0:23:47.54,0:23:51.63,Dialogue,,0,0,0,,And yet he'll do it again \Nif he can transmute love.

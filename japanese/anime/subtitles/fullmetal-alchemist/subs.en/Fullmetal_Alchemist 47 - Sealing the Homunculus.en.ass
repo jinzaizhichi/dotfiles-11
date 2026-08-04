@@ -1,0 +1,276 @@
+[Script Info]
+Title: Fullmetal_Alchemist 47 - Sealing the Homunculus
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1280
+PlayResY: 720
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Dialogue,Noto Sans,46,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,40,40,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.28,0:00:04.87,Dialogue,,0,0,0,,Come along now, Alphonse.
+Dialogue: 0,0:00:05.62,0:00:06.83,Dialogue,,0,0,0,,That must have hurt,
+Dialogue: 0,0:00:07.87,0:00:09.25,Dialogue,,0,0,0,,but it's okay now.
+Dialogue: 0,0:00:09.50,0:00:10.87,Dialogue,,0,0,0,,I'll make it better right away.
+Dialogue: 0,0:00:11.71,0:00:14.38,Dialogue,,0,0,0,,Remember? Like I did\Nwhen you were a little boy.
+Dialogue: 0,0:00:25.18,0:00:26.39,Dialogue,,0,0,0,,Mom?
+Dialogue: 0,0:00:28.35,0:00:29.18,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:01:27.37,0:01:28.20,Dialogue,,0,0,0,,Mama...
+Dialogue: 0,0:01:36.13,0:01:37.34,Dialogue,,0,0,0,,Mama...
+Dialogue: 0,0:01:40.38,0:01:41.84,Dialogue,,0,0,0,,The Philosopher's Stone.
+Dialogue: 0,0:01:42.47,0:01:47.68,Dialogue,,0,0,0,,Those who obtain it are set free from the Law of Equivalent Exchange.
+Dialogue: 0,0:01:47.97,0:01:51.77,Dialogue,,0,0,0,,There is no need to pay a price\Nin order to obtain something, either.
+Dialogue: 0,0:01:52.98,0:01:56.65,Dialogue,,0,0,0,,We sought it and found it.
+Dialogue: 0,0:03:44.63,0:03:45.63,Dialogue,,0,0,0,,Let...
+Dialogue: 0,0:03:45.71,0:03:48.05,Dialogue,,0,0,0,,Let me try again, please!
+Dialogue: 0,0:03:48.38,0:03:50.55,Dialogue,,0,0,0,,Al-kun, please,
+Dialogue: 0,0:03:50.89,0:03:52.22,Dialogue,,0,0,0,,I beg you.
+Dialogue: 0,0:03:53.56,0:03:56.77,Dialogue,,0,0,0,,Your role in this is over, Tucker.
+Dialogue: 0,0:04:08.20,0:04:09.28,Dialogue,,0,0,0,,Brother...
+Dialogue: 0,0:04:23.84,0:04:26.76,Dialogue,,0,0,0,,You homunculus, get away from Al!
+Dialogue: 0,0:04:28.97,0:04:30.76,Dialogue,,0,0,0,,Brother, this is...
+Dialogue: 0,0:04:30.97,0:04:33.39,Dialogue,,0,0,0,,Yeah, I was taken in as well.
+Dialogue: 0,0:04:33.97,0:04:35.64,Dialogue,,0,0,0,,But that isn't Mom.
+Dialogue: 0,0:04:35.72,0:04:37.77,Dialogue,,0,0,0,,I'm aware of that too, but...
+Dialogue: 0,0:04:37.85,0:04:41.77,Dialogue,,0,0,0,,No matter whose form\Nshe may resemble,\Nthat thing doesn't have a soul!
+Dialogue: 0,0:04:42.98,0:04:45.90,Dialogue,,0,0,0,,What an awful thing to say, Edward.
+Dialogue: 0,0:04:47.73,0:04:50.53,Dialogue,,0,0,0,,Please, Al-kun...
+Dialogue: 0,0:04:50.61,0:04:51.66,Dialogue,,0,0,0,,Tucker!
+Dialogue: 0,0:04:51.74,0:04:54.45,Dialogue,,0,0,0,,You intentionally\Ncalled Al here by himself?!
+Dialogue: 0,0:04:56.49,0:04:58.16,Dialogue,,0,0,0,,It's equivalent exchange.
+Dialogue: 0,0:04:58.25,0:05:00.33,Dialogue,,0,0,0,,By using the Philosopher's Stone, this is what happened.
+Dialogue: 0,0:05:01.54,0:05:03.96,Dialogue,,0,0,0,,You were suckered\Ninto this by Tucker!
+Dialogue: 0,0:05:04.04,0:05:07.09,Dialogue,,0,0,0,,Dammit, there's getting to be too many people I'm planning to whale on later,
+Dialogue: 0,0:05:07.59,0:05:10.17,Dialogue,,0,0,0,,and if I don't make notes or something of them all, I'm going to forget!
+Dialogue: 0,0:05:10.26,0:05:12.93,Dialogue,,0,0,0,,Never mind. Right now, you're coming with me.
+Dialogue: 0,0:05:13.05,0:05:14.59,Dialogue,,0,0,0,,He can't do that, Ed.
+Dialogue: 0,0:05:14.68,0:05:17.18,Dialogue,,0,0,0,,Are you going to\Nreturn Al back to normal?
+Dialogue: 0,0:05:17.26,0:05:21.89,Dialogue,,0,0,0,,Or are you just going to let the whole rest of Al's body\Nbe used up by this\N"you-know-who" person?!
+Dialogue: 0,0:05:24.94,0:05:25.86,Dialogue,,0,0,0,,Al, get out of the way!
+Dialogue: 0,0:05:40.00,0:05:41.00,Dialogue,,0,0,0,,Brother!
+Dialogue: 0,0:05:41.12,0:05:42.33,Dialogue,,0,0,0,,You stay out of the way!
+Dialogue: 0,0:05:44.37,0:05:46.33,Dialogue,,0,0,0,,That hurt, Edward.
+Dialogue: 0,0:05:46.63,0:05:49.96,Dialogue,,0,0,0,,I know it's going to take \Nmore than that for you to die.
+Dialogue: 0,0:05:57.47,0:05:58.64,Dialogue,,0,0,0,,Don't run away.
+Dialogue: 0,0:06:05.40,0:06:06.35,Dialogue,,0,0,0,,What's this?
+Dialogue: 0,0:06:06.48,0:06:08.36,Dialogue,,0,0,0,,It's the transmutation circle
+Dialogue: 0,0:06:08.69,0:06:11.44,Dialogue,,0,0,0,,that was drawn inside Dante-san's house when I defeated Greed.
+Dialogue: 0,0:06:12.03,0:06:14.57,Dialogue,,0,0,0,,This is what seals up\Nyou homunculi, right?
+Dialogue: 0,0:06:16.24,0:06:17.66,Dialogue,,0,0,0,,You're smart, aren't you?
+Dialogue: 0,0:06:17.74,0:06:19.53,Dialogue,,0,0,0,,But this alone is not enough.
+Dialogue: 0,0:06:19.62,0:06:20.91,Dialogue,,0,0,0,,I know.
+Dialogue: 0,0:06:21.20,0:06:23.08,Dialogue,,0,0,0,,It also takes a\Nhomunculus' only weakness—
+Dialogue: 0,0:06:23.50,0:06:24.62,Dialogue,,0,0,0,,a portion of the\Nbody of the person
+Dialogue: 0,0:06:25.50,0:06:30.05,Dialogue,,0,0,0,,who was the object of the attempt at resurrection by human transmutation.
+Dialogue: 0,0:06:37.55,0:06:39.10,Dialogue,,0,0,0,,Brother, what is that?!
+Dialogue: 0,0:06:39.26,0:06:44.10,Dialogue,,0,0,0,,The object of the human transmutation that gave rise to this homunculus.
+Dialogue: 0,0:06:45.60,0:06:46.81,Dialogue,,0,0,0,,Mom...
+Dialogue: 0,0:06:52.15,0:06:55.53,Dialogue,,0,0,0,,Brother, you dug up Mom's grave\Nwithout telling me!
+Dialogue: 0,0:06:55.61,0:06:57.66,Dialogue,,0,0,0,,I'm the only one who\Nneeded to go through that!
+Dialogue: 0,0:07:00.87,0:07:02.49,Dialogue,,0,0,0,,It's no use, Sloth.
+Dialogue: 0,0:07:02.74,0:07:05.66,Dialogue,,0,0,0,,Doing that won't erase\Nthe transmutation circle.
+Dialogue: 0,0:07:06.75,0:07:09.17,Dialogue,,0,0,0,,I carved it deep with\Nthese nails, after all.
+Dialogue: 0,0:07:12.25,0:07:13.67,Dialogue,,0,0,0,,Thanks.
+Dialogue: 0,0:07:17.59,0:07:20.60,Dialogue,,0,0,0,,It's not like I did it\Nbecause I wanted that thing.
+Dialogue: 0,0:07:21.18,0:07:24.14,Dialogue,,0,0,0,,Why... would you betray the One?
+Dialogue: 0,0:07:24.43,0:07:25.68,Dialogue,,0,0,0,,Sloth,
+Dialogue: 0,0:07:26.52,0:07:28.65,Dialogue,,0,0,0,,do you really not\Nremember anything?
+Dialogue: 0,0:07:29.35,0:07:30.90,Dialogue,,0,0,0,,What are you talking about?
+Dialogue: 0,0:07:32.23,0:07:35.36,Dialogue,,0,0,0,,I remember.
+Dialogue: 0,0:07:36.36,0:07:37.99,Dialogue,,0,0,0,,It's just a little bit, but still...
+Dialogue: 0,0:07:40.12,0:07:42.45,Dialogue,,0,0,0,,There's no reason why\Nwe should have any memories.
+Dialogue: 0,0:07:43.33,0:07:46.37,Dialogue,,0,0,0,,Maybe it's just that the thoughts of the person\Nwho performs human transmutation are so strong,
+Dialogue: 0,0:07:46.79,0:07:50.46,Dialogue,,0,0,0,,and the memories of\Nthe deceased get burned in.
+Dialogue: 0,0:07:51.38,0:07:54.63,Dialogue,,0,0,0,,Still, even so,\NI do have memories.
+Dialogue: 0,0:07:55.55,0:07:56.72,Dialogue,,0,0,0,,I was...
+Dialogue: 0,0:07:58.88,0:08:01.18,Dialogue,,0,0,0,,an Ishbalan woman.
+Dialogue: 0,0:08:02.51,0:08:03.43,Dialogue,,0,0,0,,Stop it.
+Dialogue: 0,0:08:04.14,0:08:08.94,Dialogue,,0,0,0,,If the memories of before you were born \Nwere ever to return to you...
+Dialogue: 0,0:08:09.73,0:08:11.15,Dialogue,,0,0,0,,Stop it, Lust!
+Dialogue: 0,0:08:11.23,0:08:14.19,Dialogue,,0,0,0,,...then it will be you\Nthat gets a glimpse of hell.
+Dialogue: 0,0:08:20.95,0:08:22.53,Dialogue,,0,0,0,,Al! What are you doing?!
+Dialogue: 0,0:08:23.58,0:08:27.29,Dialogue,,0,0,0,,Brother, you can't use \NMom's body to do this!
+Dialogue: 0,0:08:27.37,0:08:31.83,Dialogue,,0,0,0,,Al, if we don't kill them,\Nthey're going to be after you forever!
+Dialogue: 0,0:08:32.33,0:08:37.84,Dialogue,,0,0,0,,But if you were able to stop her with that, then that's what that means, right?
+Dialogue: 0,0:08:38.34,0:08:41.30,Dialogue,,0,0,0,,She's what was born back then.
+Dialogue: 0,0:08:44.64,0:08:47.27,Dialogue,,0,0,0,,Al, she's a homunculus!
+Dialogue: 0,0:08:47.35,0:08:50.73,Dialogue,,0,0,0,,A homunculus is born during\Na failed human transmutation.
+Dialogue: 0,0:08:51.39,0:08:53.48,Dialogue,,0,0,0,,Even if she doesn't have a soul...
+Dialogue: 0,0:08:53.81,0:08:55.11,Dialogue,,0,0,0,,Please, Al!
+Dialogue: 0,0:08:55.19,0:08:56.98,Dialogue,,0,0,0,,We're the ones who made her!
+Dialogue: 0,0:08:57.07,0:08:58.78,Dialogue,,0,0,0,,That's right! That's why we have to bury her!
+Dialogue: 0,0:08:58.86,0:09:00.32,Dialogue,,0,0,0,,We can't!\NAl!
+Dialogue: 0,0:09:00.40,0:09:02.49,Dialogue,,0,0,0,,In that case, {\i1}I'll{\i0} do it.
+Dialogue: 0,0:09:13.46,0:09:15.54,Dialogue,,0,0,0,,Go pick it up, Fullmetal boy.
+Dialogue: 0,0:09:15.79,0:09:16.71,Dialogue,,0,0,0,,We can still seal her.
+Dialogue: 0,0:09:24.93,0:09:27.93,Dialogue,,0,0,0,,You were trying to\Npick on Mama using this, huh?
+Dialogue: 0,0:09:28.27,0:09:29.22,Dialogue,,0,0,0,,Mama?
+Dialogue: 0,0:09:29.39,0:09:32.44,Dialogue,,0,0,0,,Wrath, she is not your mother!
+Dialogue: 0,0:09:32.89,0:09:36.44,Dialogue,,0,0,0,,I've decided to take everything of yours away from you.
+Dialogue: 0,0:09:36.65,0:09:38.90,Dialogue,,0,0,0,,She's not my mother either.
+Dialogue: 0,0:09:38.98,0:09:40.94,Dialogue,,0,0,0,,Then I'll take her.
+Dialogue: 0,0:09:41.78,0:09:42.90,Dialogue,,0,0,0,,Hand it over.
+Dialogue: 0,0:10:12.35,0:10:14.77,Dialogue,,0,0,0,,What are you doing to Mama?!
+Dialogue: 0,0:10:13.94,0:10:14.77,Dialogue,,0,0,0,,Mama?
+Dialogue: 0,0:10:16.23,0:10:20.28,Dialogue,,0,0,0,,He's looking for a mother,\Nand he's found a substitute.
+Dialogue: 0,0:10:20.36,0:10:22.57,Dialogue,,0,0,0,,Stop, I tell you!
+Dialogue: 0,0:10:44.47,0:10:46.01,Dialogue,,0,0,0,,Come on, let's go.
+Dialogue: 0,0:10:50.51,0:10:51.35,Dialogue,,0,0,0,,Al!
+Dialogue: 0,0:11:03.23,0:11:04.82,Dialogue,,0,0,0,,I will handle Wrath.
+Dialogue: 0,0:11:07.16,0:11:11.28,Dialogue,,0,0,0,,You're a little old to be longing for mother's milk, aren't you?
+Dialogue: 0,0:11:30.10,0:11:31.26,Dialogue,,0,0,0,,That won't do any good.
+Dialogue: 0,0:11:31.81,0:11:33.60,Dialogue,,0,0,0,,I can keep coming back to life forever.
+Dialogue: 0,0:11:34.06,0:11:36.85,Dialogue,,0,0,0,,As many times as you have red stones, right?
+Dialogue: 0,0:11:37.64,0:11:38.48,Dialogue,,0,0,0,,Which is why...
+Dialogue: 0,0:11:40.15,0:11:41.90,Dialogue,,0,0,0,,I will kill you as many times...
+Dialogue: 0,0:11:43.32,0:11:44.44,Dialogue,,0,0,0,,as it takes...
+Dialogue: 0,0:11:45.49,0:11:47.28,Dialogue,,0,0,0,,{\an8}to use them up.
+Dialogue: 0,0:11:51.32,0:11:52.24,Dialogue,,0,0,0,,{\an8}I'm...
+Dialogue: 0,0:11:54.16,0:11:55.50,Dialogue,,0,0,0,,going to become him!
+Dialogue: 0,0:11:55.91,0:11:57.87,Dialogue,,0,0,0,,What would doing that make you?
+Dialogue: 0,0:11:58.16,0:12:00.88,Dialogue,,0,0,0,,Well, for that matter...
+Dialogue: 0,0:12:02.21,0:12:04.21,Dialogue,,0,0,0,,what am I doing here at all?!
+Dialogue: 0,0:12:11.05,0:12:13.26,Dialogue,,0,0,0,,The whole thing was\Na mistake from the start.
+Dialogue: 0,0:12:14.43,0:12:18.31,Dialogue,,0,0,0,,Have you forgotten?\NI can use alchemy!
+Dialogue: 0,0:12:41.25,0:12:42.08,Dialogue,,0,0,0,,Al!
+Dialogue: 0,0:12:48.01,0:12:48.84,Dialogue,,0,0,0,,I'm sorry!
+Dialogue: 0,0:12:49.13,0:12:50.93,Dialogue,,0,0,0,,I can't get free!
+Dialogue: 0,0:12:56.18,0:12:59.85,Dialogue,,0,0,0,,If I touch him, there'll be a reaction,\Nand there's no telling what will happen!
+Dialogue: 0,0:13:00.06,0:13:01.81,Dialogue,,0,0,0,,Yes, so it seems.
+Dialogue: 0,0:13:02.06,0:13:03.27,Dialogue,,0,0,0,,So back off.
+Dialogue: 0,0:13:03.77,0:13:04.73,Dialogue,,0,0,0,,Mom!
+Dialogue: 0,0:13:05.86,0:13:07.36,Dialogue,,0,0,0,,You get it now, Al?
+Dialogue: 0,0:13:07.44,0:13:08.94,Dialogue,,0,0,0,,She's not Mom!
+Dialogue: 0,0:13:09.03,0:13:10.65,Dialogue,,0,0,0,,Mom wouldn't say something like that!
+Dialogue: 0,0:13:10.74,0:13:12.20,Dialogue,,0,0,0,,She wouldn't use you as a shield, Al!
+Dialogue: 0,0:13:14.57,0:13:16.37,Dialogue,,0,0,0,,And she wouldn't hit me!
+Dialogue: 0,0:13:22.25,0:13:23.37,Dialogue,,0,0,0,,Brother!
+Dialogue: 0,0:13:23.75,0:13:27.21,Dialogue,,0,0,0,,You can't touch your brother, so you're trying to use a transmutation circle.
+Dialogue: 0,0:13:27.30,0:13:29.59,Dialogue,,0,0,0,,But I won't give you\Nenough time to draw one!
+Dialogue: 0,0:13:29.84,0:13:30.97,Dialogue,,0,0,0,,Brother!
+Dialogue: 0,0:13:31.80,0:13:32.68,Dialogue,,0,0,0,,That was enough!
+Dialogue: 0,0:13:33.80,0:13:35.43,Dialogue,,0,0,0,,Al!
+Dialogue: 0,0:13:58.62,0:14:00.54,Dialogue,,0,0,0,,Isn't this what you wanted?
+Dialogue: 0,0:14:01.16,0:14:03.58,Dialogue,,0,0,0,,You wanted to become human so you could die, didn't you?
+Dialogue: 0,0:14:04.67,0:14:06.33,Dialogue,,0,0,0,,I wanted to die...
+Dialogue: 0,0:14:12.80,0:14:14.22,Dialogue,,0,0,0,,Is that it?
+Dialogue: 0,0:14:15.64,0:14:16.80,Dialogue,,0,0,0,,I...
+Dialogue: 0,0:14:19.64,0:14:21.64,Dialogue,,0,0,0,,wanted to die?
+Dialogue: 0,0:14:36.78,0:14:38.70,Dialogue,,0,0,0,,If I become human...
+Dialogue: 0,0:14:40.49,0:14:41.87,Dialogue,,0,0,0,,does it just mean death?
+Dialogue: 0,0:14:44.04,0:14:47.71,Dialogue,,0,0,0,,Then, what is it to be \Ncompletely human?
+Dialogue: 0,0:14:51.38,0:14:54.05,Dialogue,,0,0,0,,Can't you answer me?!\NYou're a human!
+Dialogue: 0,0:15:00.43,0:15:01.26,Dialogue,,0,0,0,,Mama...
+Dialogue: 0,0:15:02.14,0:15:05.27,Dialogue,,0,0,0,,That's right...\NI have to protect Mama.
+Dialogue: 0,0:15:07.52,0:15:09.31,Dialogue,,0,0,0,,Al, sorry about that.
+Dialogue: 0,0:15:09.40,0:15:12.23,Dialogue,,0,0,0,,Mm-mm, {\i1}I'm{\i0} the one who's sorry.
+Dialogue: 0,0:15:14.24,0:15:16.53,Dialogue,,0,0,0,,Come to think of it,\Nwhere's Lust?
+Dialogue: 0,0:15:20.20,0:15:21.37,Dialogue,,0,0,0,,That night...
+Dialogue: 0,0:15:22.91,0:15:24.54,Dialogue,,0,0,0,,That night, I...
+Dialogue: 0,0:15:26.54,0:15:28.04,Dialogue,,0,0,0,,I saw you...
+Dialogue: 0,0:15:29.13,0:15:30.25,Dialogue,,0,0,0,,Edward.
+Dialogue: 0,0:15:42.89,0:15:44.56,Dialogue,,0,0,0,,Eat these.
+Dialogue: 0,0:15:52.40,0:15:54.48,Dialogue,,0,0,0,,They are his sons, after all.
+Dialogue: 0,0:15:56.11,0:15:58.32,Dialogue,,0,0,0,,I knew this would happen.
+Dialogue: 0,0:16:05.75,0:16:08.25,Dialogue,,0,0,0,,She's starting to look a little more presentable, huh?
+Dialogue: 0,0:16:08.33,0:16:11.50,Dialogue,,0,0,0,,You all used to\Nlook like that as well.
+Dialogue: 0,0:16:23.47,0:16:24.47,Dialogue,,0,0,0,,What...
+Dialogue: 0,0:16:25.35,0:16:26.27,Dialogue,,0,0,0,,was that?
+Dialogue: 0,0:16:27.27,0:16:28.60,Dialogue,,0,0,0,,There were children...
+Dialogue: 0,0:16:29.60,0:16:30.65,Dialogue,,0,0,0,,two of them...
+Dialogue: 0,0:16:31.56,0:16:33.11,Dialogue,,0,0,0,,and a husband.
+Dialogue: 0,0:16:33.86,0:16:35.11,Dialogue,,0,0,0,,I was happy...
+Dialogue: 0,0:16:36.11,0:16:37.49,Dialogue,,0,0,0,,and yet very...
+Dialogue: 0,0:16:37.99,0:16:39.15,Dialogue,,0,0,0,,sad.
+Dialogue: 0,0:16:39.49,0:16:41.78,Dialogue,,0,0,0,,You will understand\Nonce you become human.
+Dialogue: 0,0:16:42.12,0:16:43.20,Dialogue,,0,0,0,,Human?
+Dialogue: 0,0:16:43.62,0:16:45.58,Dialogue,,0,0,0,,I will assist you.
+Dialogue: 0,0:16:46.16,0:16:48.29,Dialogue,,0,0,0,,Find the Philosopher's Stone.
+Dialogue: 0,0:16:49.75,0:16:52.13,Dialogue,,0,0,0,,How about I place her at your side?
+Dialogue: 0,0:16:52.21,0:16:56.63,Dialogue,,0,0,0,,There is a vacant military registry\Nthat I used during the Ishbal incident.
+Dialogue: 0,0:16:56.92,0:16:58.92,Dialogue,,0,0,0,,She can slip in using that.
+Dialogue: 0,0:16:59.72,0:17:00.76,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:17:00.84,0:17:02.43,Dialogue,,0,0,0,,If you were to\Ntake her home with you,
+Dialogue: 0,0:17:02.51,0:17:05.26,Dialogue,,0,0,0,,your adorable wife would become jealous, huh?
+Dialogue: 0,0:17:06.72,0:17:08.10,Dialogue,,0,0,0,,Sloth...
+Dialogue: 0,0:17:08.64,0:17:12.10,Dialogue,,0,0,0,,As of today,\Nyou are Sloth.
+Dialogue: 0,0:17:14.86,0:17:18.61,Dialogue,,0,0,0,,Is she vibrating her cells and generating heat?
+Dialogue: 0,0:17:28.04,0:17:29.20,Dialogue,,0,0,0,,Edward...
+Dialogue: 0,0:17:29.83,0:17:32.25,Dialogue,,0,0,0,,Stop pretending to be Mom!
+Dialogue: 0,0:17:32.33,0:17:34.00,Dialogue,,0,0,0,,You don't even have any of her memories!
+Dialogue: 0,0:17:34.08,0:17:35.33,Dialogue,,0,0,0,,I {\i1}do{\i0} have memories.
+Dialogue: 0,0:17:36.34,0:17:38.00,Dialogue,,0,0,0,,Like Lust said,
+Dialogue: 0,0:17:38.71,0:17:44.89,Dialogue,,0,0,0,,maybe the thoughts of your mother \Nwithin you were just burned into me.
+Dialogue: 0,0:17:45.51,0:17:46.35,Dialogue,,0,0,0,,You're lying!
+Dialogue: 0,0:17:46.43,0:17:47.60,Dialogue,,0,0,0,,If that were so,\Nyou wouldn't be able to do this!
+Dialogue: 0,0:17:47.68,0:17:48.77,Dialogue,,0,0,0,,It's {\i1}why{\i0}...
+Dialogue: 0,0:17:48.85,0:17:50.18,Dialogue,,0,0,0,,I'm able to do this.
+Dialogue: 0,0:17:55.02,0:17:56.44,Dialogue,,0,0,0,,I do have memories.
+Dialogue: 0,0:17:57.61,0:18:00.40,Dialogue,,0,0,0,,Memories of myself as your mother...
+Dialogue: 0,0:18:01.07,0:18:02.03,Dialogue,,0,0,0,,And yet,
+Dialogue: 0,0:18:02.82,0:18:04.99,Dialogue,,0,0,0,,your mother is dead.
+Dialogue: 0,0:18:05.07,0:18:06.28,Dialogue,,0,0,0,,I am...
+Dialogue: 0,0:18:06.78,0:18:08.74,Dialogue,,0,0,0,,not human.
+Dialogue: 0,0:18:09.20,0:18:11.04,Dialogue,,0,0,0,,Who am I?
+Dialogue: 0,0:18:11.66,0:18:13.58,Dialogue,,0,0,0,,I am...
+Dialogue: 0,0:18:14.42,0:18:16.08,Dialogue,,0,0,0,,going to kill you.
+Dialogue: 0,0:18:16.42,0:18:21.05,Dialogue,,0,0,0,,By doing so, I can prove\Nthat I am not your mother.
+Dialogue: 0,0:18:21.92,0:18:24.93,Dialogue,,0,0,0,,If you were no longer here,
+Dialogue: 0,0:18:25.18,0:18:27.72,Dialogue,,0,0,0,,I wouldn't be tormented by these memories.
+Dialogue: 0,0:18:27.93,0:18:32.39,Dialogue,,0,0,0,,I am not your mother, and yet...\NI feel I {\i1}am{\i0} your mother.
+Dialogue: 0,0:18:33.52,0:18:35.60,Dialogue,,0,0,0,,I almost feel as though\NI could love you.
+Dialogue: 0,0:18:36.90,0:18:38.48,Dialogue,,0,0,0,,You created me.
+Dialogue: 0,0:18:39.65,0:18:41.69,Dialogue,,0,0,0,,I'm supposed to hate you.
+Dialogue: 0,0:18:57.67,0:19:00.25,Dialogue,,0,0,0,,Brother, what should we do?!
+Dialogue: 0,0:19:00.59,0:19:03.34,Dialogue,,0,0,0,,This is the form\Nour sin has taken on!
+Dialogue: 0,0:19:15.73,0:19:16.77,Dialogue,,0,0,0,,Mama!
+Dialogue: 0,0:19:26.74,0:19:29.16,Dialogue,,0,0,0,,I am not your mother.
+Dialogue: 0,0:19:29.66,0:19:31.95,Dialogue,,0,0,0,,I have no intention\Nof holding you.
+Dialogue: 0,0:19:46.30,0:19:47.30,Dialogue,,0,0,0,,Brother...
+Dialogue: 0,0:19:47.84,0:19:48.68,Dialogue,,0,0,0,,Mama!
+Dialogue: 0,0:19:49.72,0:19:53.43,Dialogue,,0,0,0,,I transmuted my Automail into sodium.
+Dialogue: 0,0:19:53.85,0:19:56.39,Dialogue,,0,0,0,,It explodes when it\Nreacts with water.
+Dialogue: 0,0:19:56.73,0:19:58.91,Dialogue,,0,0,0,,Mama!
+Dialogue: 0,0:19:57.61,0:19:58.91,Dialogue,,0,0,0,,Stop it!
+Dialogue: 0,0:19:58.94,0:20:00.40,Dialogue,,0,0,0,,She wasn't anyone's mama.
+Dialogue: 0,0:20:01.83,0:20:04.34,Dialogue,,0,0,0,,Mama! Mama!
+Dialogue: 0,0:20:01.83,0:20:04.34,Dialogue,,0,0,0,,Your mama is dead.
+Dialogue: 0,0:20:04.57,0:20:06.36,Dialogue,,0,0,0,,Mama!
+Dialogue: 0,0:20:13.03,0:20:15.04,Dialogue,,0,0,0,,No matter what you do,
+Dialogue: 0,0:20:15.83,0:20:17.25,Dialogue,,0,0,0,,I am not going to die.
+Dialogue: 0,0:20:17.33,0:20:20.75,Dialogue,,0,0,0,,Mama!
+Dialogue: 0,0:20:18.96,0:20:20.75,Dialogue,,0,0,0,,Stay back, Wrath.
+Dialogue: 0,0:20:20.83,0:20:23.25,Dialogue,,0,0,0,,Mama, I'm going to\Nbecome one with you!
+Dialogue: 0,0:20:37.14,0:20:40.65,Dialogue,,0,0,0,,He fused himself with another homunculus?
+Dialogue: 0,0:20:40.98,0:20:42.36,Dialogue,,0,0,0,,Wrath...
+Dialogue: 0,0:20:43.40,0:20:44.69,Dialogue,,0,0,0,,What have you done?
+Dialogue: 0,0:20:45.73,0:20:50.40,Dialogue,,0,0,0,,He took the portion of my mom \NI brought with me inside his own body.
+Dialogue: 0,0:20:57.79,0:21:00.79,Dialogue,,0,0,0,,With it that close to you,\Nyou can't move, can you?
+Dialogue: 0,0:21:01.96,0:21:04.46,Dialogue,,0,0,0,,I'm going to reconstruct\Nall of the material
+Dialogue: 0,0:21:04.54,0:21:06.84,Dialogue,,0,0,0,,you're composed of\Ninto another material.
+Dialogue: 0,0:21:06.92,0:21:08.01,Dialogue,,0,0,0,,That's not possible, Brother!
+Dialogue: 0,0:21:08.34,0:21:10.22,Dialogue,,0,0,0,,You can't transmute a person's body!
+Dialogue: 0,0:21:11.09,0:21:13.51,Dialogue,,0,0,0,,I realized something\Nduring my fight with Greed.
+Dialogue: 0,0:21:15.01,0:21:17.93,Dialogue,,0,0,0,,I rearranged the elements he was composed of.
+Dialogue: 0,0:21:18.52,0:21:20.35,Dialogue,,0,0,0,,It's not like what Kimbly did,
+Dialogue: 0,0:21:20.52,0:21:22.81,Dialogue,,0,0,0,,when he restructured the\Nelements in just one place.
+Dialogue: 0,0:21:22.90,0:21:25.40,Dialogue,,0,0,0,,I'll be able to restructure\Nthe entire body.
+Dialogue: 0,0:21:26.36,0:21:28.57,Dialogue,,0,0,0,,The reason being\Nthat a homunculus...
+Dialogue: 0,0:21:29.07,0:21:31.32,Dialogue,,0,0,0,,is not human!
+Dialogue: 0,0:21:38.41,0:21:39.54,Dialogue,,0,0,0,,Mama...
+Dialogue: 0,0:21:40.08,0:21:41.00,Dialogue,,0,0,0,,What did you do?!
+Dialogue: 0,0:21:41.37,0:21:42.37,Dialogue,,0,0,0,,What did you do to Mama?!
+Dialogue: 0,0:21:42.46,0:21:43.62,Dialogue,,0,0,0,,Get away from her.
+Dialogue: 0,0:21:44.21,0:21:45.25,Dialogue,,0,0,0,,Get away from her now.
+Dialogue: 0,0:21:46.84,0:21:47.75,Dialogue,,0,0,0,,Mama?
+Dialogue: 0,0:21:48.96,0:21:52.76,Dialogue,,0,0,0,,I restructured your water into ethanol.
+Dialogue: 0,0:21:53.59,0:21:55.64,Dialogue,,0,0,0,,It vaporizes at room temperature.
+Dialogue: 0,0:23:38.45,0:23:40.20,Dialogue,,0,0,0,,{\i1}Fullmetal Alchemist{\i0}...
+Dialogue: 0,0:23:40.28,0:23:43.49,Dialogue,,0,0,0,,Episode 48: "Good-bye"
+Dialogue: 0,0:23:44.20,0:23:47.33,Dialogue,,0,0,0,,Mom... Colonel... Al...
+Dialogue: 0,0:23:48.58,0:23:51.38,Dialogue,,0,0,0,,This is the path I have chosen.

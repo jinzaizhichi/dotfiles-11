@@ -1,0 +1,280 @@
+[Script Info]
+Title: Fullmetal_Alchemist 31 - Sin
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1280
+PlayResY: 720
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Dialogue,Noto Sans,46,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,40,40,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:27.82,0:00:31.70,Dialogue,,0,0,0,,Still, these Ishbalans are just refugees, right?
+Dialogue: 0,0:00:31.87,0:00:35.70,Dialogue,,0,0,0,,If Scar is among them, \Nthen it's a different story.
+Dialogue: 0,0:00:35.79,0:00:38.71,Dialogue,,0,0,0,,Even if that's true,\Nisn't this a bit much?
+Dialogue: 0,0:00:38.83,0:00:41.71,Dialogue,,0,0,0,,Oh? Are you criticizing our superiors,\NSergeant Fuery?
+Dialogue: 0,0:00:41.79,0:00:44.42,Dialogue,,0,0,0,,Wh-What are you talking about?
+Dialogue: 0,0:00:44.96,0:00:47.51,Dialogue,,0,0,0,,Our ultimate objective\Nis to secure Scar.
+Dialogue: 0,0:00:47.59,0:00:50.14,Dialogue,,0,0,0,,It's likely that we won't\Nmeet with any resistance.
+Dialogue: 0,0:00:51.80,0:00:54.77,Dialogue,,0,0,0,,But what if we do?
+Dialogue: 0,0:00:56.98,0:00:59.23,Dialogue,,0,0,0,,I mean, we have information that before we were posted there,
+Dialogue: 0,0:00:59.31,0:01:04.23,Dialogue,,0,0,0,,the Ishbalan refugees were attacked in Central by thugs who claimed to be the military.
+Dialogue: 0,0:01:04.90,0:01:07.49,Dialogue,,0,0,0,,I'm just saying, they may not have too much trust in the military.
+Dialogue: 0,0:01:44.06,0:01:45.86,Dialogue,,0,0,0,,Those markings...
+Dialogue: 0,0:01:48.11,0:01:51.95,Dialogue,,0,0,0,,Man cannot obtain anything\Nwithout first sacrificing something.
+Dialogue: 0,0:01:52.82,0:01:56.54,Dialogue,,0,0,0,,In order to obtain anything,\Nsomething of equal value is required.
+Dialogue: 0,0:01:57.12,0:02:01.62,Dialogue,,0,0,0,,That is alchemy's\NLaw of Equivalent Exchange.
+Dialogue: 0,0:02:02.83,0:02:07.71,Dialogue,,0,0,0,,At the time, we believed that\Nto be the true way of the world.
+Dialogue: 0,0:03:47.40,0:03:50.15,Dialogue,,0,0,0,,You...!\NZolf J. Kimbly!
+Dialogue: 0,0:03:50.40,0:03:51.48,Dialogue,,0,0,0,,How are you still alive?!
+Dialogue: 0,0:03:51.57,0:03:53.07,Dialogue,,0,0,0,,Kimbly?
+Dialogue: 0,0:03:53.19,0:03:54.78,Dialogue,,0,0,0,,The Crimson Alchemist?
+Dialogue: 0,0:03:54.99,0:03:56.91,Dialogue,,0,0,0,,A State Alchemist?
+Dialogue: 0,0:03:57.16,0:03:59.53,Dialogue,,0,0,0,,You were supposed to have been executed a long time ago
+Dialogue: 0,0:04:00.12,0:04:02.20,Dialogue,,0,0,0,,for your multiple violations of orders at Ishbal.
+Dialogue: 0,0:04:02.29,0:04:04.33,Dialogue,,0,0,0,,You can come right out and say it.
+Dialogue: 0,0:04:04.41,0:04:07.58,Dialogue,,0,0,0,,I indiscriminately made women and children go "boom."
+Dialogue: 0,0:04:07.87,0:04:10.09,Dialogue,,0,0,0,,And when my superiors\Ntried to stop me, they also went...
+Dialogue: 0,0:04:10.17,0:04:11.67,Dialogue,,0,0,0,,"Boom!"
+Dialogue: 0,0:04:11.88,0:04:16.17,Dialogue,,0,0,0,,I was certain I would be looking forward to an execution.
+Dialogue: 0,0:04:16.38,0:04:18.80,Dialogue,,0,0,0,,But for some reason,\NI was kept alive.
+Dialogue: 0,0:04:19.18,0:04:20.30,Dialogue,,0,0,0,,Why?
+Dialogue: 0,0:04:20.39,0:04:24.10,Dialogue,,0,0,0,,Who can say?
+Dialogue: 0,0:04:24.18,0:04:25.18,Dialogue,,0,0,0,,The gentleman standing there would know, wouldn't he?
+Dialogue: 0,0:04:25.27,0:04:27.27,Dialogue,,0,0,0,,{\i1}How am I supposed to know?
+Dialogue: 0,0:04:27.48,0:04:31.15,Dialogue,,0,0,0,,How long are you going to allow this disturbance to persist inside the command center?!
+Dialogue: 0,0:04:31.31,0:04:33.07,Dialogue,,0,0,0,,Arrest them!
+Dialogue: 0,0:04:33.15,0:04:33.98,Dialogue,,0,0,0,,Take them all into custody at once!\NYes, sir!
+Dialogue: 0,0:04:35.11,0:04:35.94,Dialogue,,0,0,0,,Sensei...
+Dialogue: 0,0:04:39.28,0:04:40.87,Dialogue,,0,0,0,,I told you, it's no use!
+Dialogue: 0,0:04:45.41,0:04:47.29,Dialogue,,0,0,0,,Please wait, Sensei!
+Dialogue: 0,0:04:48.54,0:04:49.67,Dialogue,,0,0,0,,All right, Al!
+Dialogue: 0,0:04:53.71,0:04:54.80,Dialogue,,0,0,0,,Magnificent!
+Dialogue: 0,0:04:55.76,0:04:57.72,Dialogue,,0,0,0,,He's a homunculus, all right.
+Dialogue: 0,0:04:57.88,0:04:59.30,Dialogue,,0,0,0,,Now, if you'll excuse me.
+Dialogue: 0,0:04:59.84,0:05:00.68,Dialogue,,0,0,0,,Hold it!
+Dialogue: 0,0:05:05.31,0:05:06.47,Dialogue,,0,0,0,,She's magnificent too!
+Dialogue: 0,0:05:11.65,0:05:13.31,Dialogue,,0,0,0,,A superb transmutation!
+Dialogue: 0,0:05:13.40,0:05:16.53,Dialogue,,0,0,0,,But those who would dare lay a hand on the Führer...
+Dialogue: 0,0:05:18.53,0:05:22.32,Dialogue,,0,0,0,,must meet with defeat by\Nmy own artful transmutations!
+Dialogue: 0,0:05:33.04,0:05:34.71,Dialogue,,0,0,0,,I wish you'd give me\Nsome more credit.
+Dialogue: 0,0:05:34.79,0:05:38.97,Dialogue,,0,0,0,,I'm used to seeing muscles, \Nones more handsome than yours.
+Dialogue: 0,0:05:46.85,0:05:50.06,Dialogue,,0,0,0,,Brother, if we don't stop those two fast, the whole building will be destroyed!
+Dialogue: 0,0:05:50.14,0:05:52.60,Dialogue,,0,0,0,,If they're not careful,\Nthis town's going to cease to exist!
+Dialogue: 0,0:05:57.23,0:05:58.23,Dialogue,,0,0,0,,Brother!
+Dialogue: 0,0:06:00.32,0:06:02.70,Dialogue,,0,0,0,,Interesting body you have there, huh?
+Dialogue: 0,0:06:08.58,0:06:11.37,Dialogue,,0,0,0,,He caused an explosion\Nout of nowhere!
+Dialogue: 0,0:06:12.04,0:06:13.71,Dialogue,,0,0,0,,I've heard about this.
+Dialogue: 0,0:06:14.46,0:06:18.13,Dialogue,,0,0,0,,It's an alchemy where he transmutes the materials within a body into something similar to explosives,
+Dialogue: 0,0:06:18.21,0:06:21.72,Dialogue,,0,0,0,,then quickly contracts them\Nto create an enormous explosion.
+Dialogue: 0,0:06:23.89,0:06:26.18,Dialogue,,0,0,0,,Why are you interfering with us?!
+Dialogue: 0,0:06:26.39,0:06:29.68,Dialogue,,0,0,0,,We want that child too.
+Dialogue: 0,0:06:29.77,0:06:34.02,Dialogue,,0,0,0,,Besides, our boss has \Nsome business with you.
+Dialogue: 0,0:06:35.52,0:06:37.11,Dialogue,,0,0,0,,Oh, is that right?
+Dialogue: 0,0:06:51.33,0:06:52.25,Dialogue,,0,0,0,,Just a second!
+Dialogue: 0,0:06:52.33,0:06:54.21,Dialogue,,0,0,0,,Don't tell me you're planning to turn me into a bomb!
+Dialogue: 0,0:06:54.29,0:06:55.42,Dialogue,,0,0,0,,You mean I can't?
+Dialogue: 0,0:06:55.50,0:06:57.42,Dialogue,,0,0,0,,No, you can't!
+Dialogue: 0,0:07:14.44,0:07:18.98,Dialogue,,0,0,0,,Did Fullmetal tell you that that was his arm and leg?
+Dialogue: 0,0:07:17.69,0:07:18.98,Dialogue,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:07:19.07,0:07:23.24,Dialogue,,0,0,0,,Then you passed through the doorway under your own power?
+Dialogue: 0,0:07:23.70,0:07:24.61,Dialogue,,0,0,0,,Doorway?
+Dialogue: 0,0:07:24.95,0:07:26.32,Dialogue,,0,0,0,,Doorway?!\NWhoa, now...
+Dialogue: 0,0:07:26.66,0:07:30.45,Dialogue,,0,0,0,,Starting today, \Nyou're no longer alone.
+Dialogue: 0,0:07:29.53,0:07:30.45,Dialogue,,0,0,0,,Here,
+Dialogue: 0,0:07:31.08,0:07:32.16,Dialogue,,0,0,0,,eat these.
+Dialogue: 0,0:07:34.25,0:07:35.29,Dialogue,,0,0,0,,Come on.
+Dialogue: 0,0:07:49.39,0:07:52.14,Dialogue,,0,0,0,,Enjoy them well.
+Dialogue: 0,0:07:53.14,0:07:56.56,Dialogue,,0,0,0,,They've got several hundred human lives\Npacked inside them, after all.
+Dialogue: 0,0:07:57.60,0:07:58.94,Dialogue,,0,0,0,,Human...?
+Dialogue: 0,0:08:02.32,0:08:04.49,Dialogue,,0,0,0,,What's the matter?\NYou don't like them?
+Dialogue: 0,0:08:04.57,0:08:05.99,Dialogue,,0,0,0,,I see.
+Dialogue: 0,0:08:06.11,0:08:07.57,Dialogue,,0,0,0,,Well, that leaves us with no other choice.
+Dialogue: 0,0:08:07.95,0:08:11.37,Dialogue,,0,0,0,,You can just return the arm and leg\Nthat you took from him.
+Dialogue: 0,0:08:23.50,0:08:25.88,Dialogue,,0,0,0,,You can use alchemy, huh?
+Dialogue: 0,0:08:26.01,0:08:29.47,Dialogue,,0,0,0,,I get it, it's because of that arm and leg.
+Dialogue: 0,0:08:31.60,0:08:35.98,Dialogue,,0,0,0,,Listen, we're raised on\Nthese stones of life.
+Dialogue: 0,0:08:36.14,0:08:39.56,Dialogue,,0,0,0,,We aren't human.\NWe're homunculi.
+Dialogue: 0,0:08:40.40,0:08:42.61,Dialogue,,0,0,0,,The fact that you can eat those...
+Dialogue: 0,0:08:42.86,0:08:44.73,Dialogue,,0,0,0,,means that you aren't human either.
+Dialogue: 0,0:08:59.21,0:09:02.38,Dialogue,,0,0,0,,Sure enough, we'll have to ask Greed-sama himself to step in!
+Dialogue: 0,0:09:02.46,0:09:04.46,Dialogue,,0,0,0,,Greed-sama!
+Dialogue: 0,0:09:05.38,0:09:09.63,Dialogue,,0,0,0,,Well, well, maybe I should \Nblow the whole building up.
+Dialogue: 0,0:09:11.59,0:09:15.39,Dialogue,,0,0,0,,I am Lt. Col. Frank Archer.\NCrimson Alchemist.
+Dialogue: 0,0:09:16.10,0:09:17.39,Dialogue,,0,0,0,,It's a pleasure.
+Dialogue: 0,0:09:17.89,0:09:23.52,Dialogue,,0,0,0,,If you're here like this, then it must \Nmean that the Führer has agreed to it.
+Dialogue: 0,0:09:23.86,0:09:26.44,Dialogue,,0,0,0,,Or was this at Basque Grand's discretion?
+Dialogue: 0,0:09:26.53,0:09:27.36,Dialogue,,0,0,0,,Good question.
+Dialogue: 0,0:09:27.69,0:09:30.95,Dialogue,,0,0,0,,You have no intention of\Nreturning to military duty?
+Dialogue: 0,0:09:33.99,0:09:35.62,Dialogue,,0,0,0,,I can make it happen.
+Dialogue: 0,0:09:38.62,0:09:41.42,Dialogue,,0,0,0,,Sensei!
+Dialogue: 0,0:09:42.83,0:09:45.75,Dialogue,,0,0,0,,That bastard!\NHe scratched me good!
+Dialogue: 0,0:09:46.30,0:09:47.71,Dialogue,,0,0,0,,Major!
+Dialogue: 0,0:09:48.38,0:09:50.26,Dialogue,,0,0,0,,Ah, yow-ow-ow-ow!\NThis is bad!
+Dialogue: 0,0:09:50.34,0:09:55.14,Dialogue,,0,0,0,,I should have expected the master of the\NElric brothers to be able to take me unawares!
+Dialogue: 0,0:09:55.93,0:09:57.47,Dialogue,,0,0,0,,Thank you, Major.
+Dialogue: 0,0:09:57.56,0:10:00.44,Dialogue,,0,0,0,,I thought it might\Nturn out like this.
+Dialogue: 0,0:10:01.81,0:10:03.15,Dialogue,,0,0,0,,Your hand should be\Non the other side.
+Dialogue: 0,0:10:18.58,0:10:20.37,Dialogue,,0,0,0,,This boy is no longer...
+Dialogue: 0,0:10:39.06,0:10:40.31,Dialogue,,0,0,0,,Go on now.
+Dialogue: 0,0:10:40.39,0:10:43.19,Dialogue,,0,0,0,,Do as you like.
+Dialogue: 0,0:10:54.74,0:10:57.41,Dialogue,,0,0,0,,Brother, it doesn't look like Sensei is here anymore.
+Dialogue: 0,0:10:57.49,0:10:58.53,Dialogue,,0,0,0,,Damn.
+Dialogue: 0,0:10:58.62,0:11:01.87,Dialogue,,0,0,0,,Why is she so caught up in that boy, considering the shape her body is in?
+Dialogue: 0,0:11:01.95,0:11:04.04,Dialogue,,0,0,0,,You two go around to the south! The rest of you come with me!
+Dialogue: 0,0:11:04.12,0:11:06.88,Dialogue,,0,0,0,,Let's go. We're trespassers here.
+Dialogue: 0,0:11:06.96,0:11:09.71,Dialogue,,0,0,0,,The Colonel's going to make more snide remarks about me.
+Dialogue: 0,0:11:13.88,0:11:14.72,Dialogue,,0,0,0,,What?
+Dialogue: 0,0:11:15.13,0:11:16.72,Dialogue,,0,0,0,,Verify that once again.
+Dialogue: 0,0:11:16.80,0:11:17.80,Dialogue,,0,0,0,,What is it?
+Dialogue: 0,0:11:17.93,0:11:20.10,Dialogue,,0,0,0,,Don't you know whether or not\Nthe Führer is safe yet?
+Dialogue: 0,0:11:20.31,0:11:23.02,Dialogue,,0,0,0,,That's just it. When we contacted Central,
+Dialogue: 0,0:11:23.10,0:11:25.85,Dialogue,,0,0,0,,they told us that the Führer was not scheduled to come down south.
+Dialogue: 0,0:11:26.06,0:11:27.06,Dialogue,,0,0,0,,Impossible!
+Dialogue: 0,0:11:27.15,0:11:28.15,Dialogue,,0,0,0,,We saw him with our own...
+Dialogue: 0,0:11:30.32,0:11:32.69,Dialogue,,0,0,0,,Have you taken the Elric brothers and that woman into custody?
+Dialogue: 0,0:11:32.78,0:11:37.49,Dialogue,,0,0,0,,No, I thought it was more urgent \Nto secure this crumbling building,
+Dialogue: 0,0:11:37.57,0:11:39.16,Dialogue,,0,0,0,,so I have returned.
+Dialogue: 0,0:11:39.49,0:11:40.58,Dialogue,,0,0,0,,Major!
+Dialogue: 0,0:11:41.24,0:11:42.79,Dialogue,,0,0,0,,No, it's all right.
+Dialogue: 0,0:11:42.87,0:11:46.17,Dialogue,,0,0,0,,Those two don't have anywhere else to return to besides the military, after all.
+Dialogue: 0,0:11:47.63,0:11:50.80,Dialogue,,0,0,0,,{\an8}Just in case, have everyone look one more time for the Führer.
+Dialogue: 0,0:11:50.88,0:11:51.71,Dialogue,,0,0,0,,{\an8}Yes, sir.
+Dialogue: 0,0:11:54.67,0:11:57.51,Dialogue,,0,0,0,,{\an8}You know where Sensei is, don't you?!
+Dialogue: 0,0:11:57.72,0:11:59.60,Dialogue,,0,0,0,,Please, tell us.
+Dialogue: 0,0:11:59.68,0:12:01.76,Dialogue,,0,0,0,,We're concerned about her condition.
+Dialogue: 0,0:12:01.85,0:12:05.98,Dialogue,,0,0,0,,What's more, that child is a homunculus, and there's no telling what he'll do.
+Dialogue: 0,0:12:09.06,0:12:10.98,Dialogue,,0,0,0,,The place where she performed human transmutation...
+Dialogue: 0,0:12:12.44,0:12:14.99,Dialogue,,0,0,0,,Izumi-san lost her child there.
+Dialogue: 0,0:12:15.40,0:12:19.45,Dialogue,,0,0,0,,She then transmuted his body, to try to bring him back to life.
+Dialogue: 0,0:12:19.87,0:12:21.70,Dialogue,,0,0,0,,How do you know that?!
+Dialogue: 0,0:12:22.37,0:12:23.70,Dialogue,,0,0,0,,I knew it.
+Dialogue: 0,0:12:24.50,0:12:26.87,Dialogue,,0,0,0,,She's gone to the same place this time.
+Dialogue: 0,0:12:27.00,0:12:28.67,Dialogue,,0,0,0,,That's my hunch.
+Dialogue: 0,0:12:29.08,0:12:31.09,Dialogue,,0,0,0,,The place Sensei would choose...
+Dialogue: 0,0:12:31.42,0:12:34.84,Dialogue,,0,0,0,,Where she wouldn't do damage to the surrounding area...\NWhere no one else would go...
+Dialogue: 0,0:12:35.38,0:12:36.55,Dialogue,,0,0,0,,Yock Island.
+Dialogue: 0,0:12:38.30,0:12:39.47,Dialogue,,0,0,0,,That's it, right?
+Dialogue: 0,0:13:49.00,0:13:50.33,Dialogue,,0,0,0,,My son...
+Dialogue: 0,0:14:00.76,0:14:02.01,Dialogue,,0,0,0,,What's the matter?
+Dialogue: 0,0:14:02.84,0:14:04.55,Dialogue,,0,0,0,,Hurry up and do it.
+Dialogue: 0,0:14:04.97,0:14:06.64,Dialogue,,0,0,0,,Otherwise, I'll kill you.
+Dialogue: 0,0:14:10.69,0:14:12.10,Dialogue,,0,0,0,,Sensei!
+Dialogue: 0,0:14:20.03,0:14:23.75,Dialogue,,0,0,0,,Sensei!
+Dialogue: 0,0:14:22.09,0:14:23.75,Dialogue,,0,0,0,,Izumi-san!
+Dialogue: 0,0:14:26.41,0:14:27.33,Dialogue,,0,0,0,,Sensei!
+Dialogue: 0,0:14:29.25,0:14:30.12,Dialogue,,0,0,0,,Stop that!
+Dialogue: 0,0:14:34.71,0:14:35.54,Dialogue,,0,0,0,,Sensei!
+Dialogue: 0,0:14:40.01,0:14:41.55,Dialogue,,0,0,0,,You bastard!
+Dialogue: 0,0:14:43.18,0:14:44.01,Dialogue,,0,0,0,,Stop!
+Dialogue: 0,0:14:48.22,0:14:49.27,Dialogue,,0,0,0,,It's all right.
+Dialogue: 0,0:14:49.68,0:14:50.64,Dialogue,,0,0,0,,Sensei...
+Dialogue: 0,0:14:50.73,0:14:52.89,Dialogue,,0,0,0,,But that boy was going to kill you, Izumi-san!
+Dialogue: 0,0:14:54.48,0:14:57.61,Dialogue,,0,0,0,,I was planning to kill him.
+Dialogue: 0,0:14:58.61,0:15:01.49,Dialogue,,0,0,0,,But I'm the one\Nwho should have died.
+Dialogue: 0,0:15:01.57,0:15:02.53,Dialogue,,0,0,0,,Why?!
+Dialogue: 0,0:15:03.61,0:15:06.41,Dialogue,,0,0,0,,I'm the one who created him.
+Dialogue: 0,0:15:08.33,0:15:12.71,Dialogue,,0,0,0,,I added some other materials to my dead baby's remains
+Dialogue: 0,0:15:12.87,0:15:14.87,Dialogue,,0,0,0,,and attempted a\Nhuman transmutation.
+Dialogue: 0,0:15:15.63,0:15:19.42,Dialogue,,0,0,0,,But what was born...
+Dialogue: 0,0:15:17.34,0:15:19.42,Dialogue,,0,0,0,,You know, don't you?
+Dialogue: 0,0:15:21.21,0:15:23.76,Dialogue,,0,0,0,,It wasn't... human.
+Dialogue: 0,0:15:43.19,0:15:47.32,Dialogue,,0,0,0,,When I came to, I was in front of the gateway once again.
+Dialogue: 0,0:15:48.24,0:15:51.87,Dialogue,,0,0,0,,Ed, what did you see on\Nthe other side of the door?
+Dialogue: 0,0:15:52.75,0:15:54.71,Dialogue,,0,0,0,,Everything that is alchemy.
+Dialogue: 0,0:15:55.16,0:16:00.88,Dialogue,,0,0,0,,It felt as though all the reasoning \Nof the world was pouring into me.
+Dialogue: 0,0:16:00.96,0:16:03.84,Dialogue,,0,0,0,,The truth was in there.
+Dialogue: 0,0:16:05.05,0:16:06.26,Dialogue,,0,0,0,,The truth, huh?
+Dialogue: 0,0:16:07.09,0:16:09.93,Dialogue,,0,0,0,,To me, it looked like hell.
+Dialogue: 0,0:16:10.89,0:16:13.27,Dialogue,,0,0,0,,I placed the boy there.
+Dialogue: 0,0:16:44.46,0:16:48.51,Dialogue,,0,0,0,,But there's no way this boy could be that child.
+Dialogue: 0,0:16:49.64,0:16:51.80,Dialogue,,0,0,0,,I recognized him in one glance.
+Dialogue: 0,0:16:51.93,0:16:55.43,Dialogue,,0,0,0,,If he had continued to grow,\Nhe would've been exactly the same age.
+Dialogue: 0,0:16:56.81,0:16:59.94,Dialogue,,0,0,0,,Most of all, for a homunculus to appear in this place,
+Dialogue: 0,0:17:00.19,0:17:02.90,Dialogue,,0,0,0,,it would have to be the boy\NI left behind then.
+Dialogue: 0,0:17:03.15,0:17:05.19,Dialogue,,0,0,0,,He's a homunculus!
+Dialogue: 0,0:17:05.32,0:17:08.15,Dialogue,,0,0,0,,A man-made person,\Nsomething that somebody created!
+Dialogue: 0,0:17:08.24,0:17:09.20,Dialogue,,0,0,0,,Created?
+Dialogue: 0,0:17:09.91,0:17:14.70,Dialogue,,0,0,0,,Do you know how \Nhomunculi are created?
+Dialogue: 0,0:17:15.04,0:17:16.20,Dialogue,,0,0,0,,No, we don't.
+Dialogue: 0,0:17:16.29,0:17:20.58,Dialogue,,0,0,0,,But it's probably the same way Chimera are created, \Nin places like the 5th Laboratory!
+Dialogue: 0,0:17:21.83,0:17:23.88,Dialogue,,0,0,0,,N—
+Dialogue: 0,0:17:22.75,0:17:23.88,Dialogue,,0,0,0,,No.
+Dialogue: 0,0:17:24.84,0:17:30.18,Dialogue,,0,0,0,,When worthless humans like you perform human transmutations for the hell of it,
+Dialogue: 0,0:17:30.38,0:17:34.35,Dialogue,,0,0,0,,what is born as a result\Nis a soulless reject,
+Dialogue: 0,0:17:34.76,0:17:37.89,Dialogue,,0,0,0,,furnished with only\Na body and a mind.
+Dialogue: 0,0:17:38.35,0:17:41.73,Dialogue,,0,0,0,,That's what you guys \Ncall a homunculus!
+Dialogue: 0,0:17:43.90,0:17:44.90,Dialogue,,0,0,0,,It couldn't be...
+Dialogue: 0,0:17:45.48,0:17:47.49,Dialogue,,0,0,0,,How do you know\Nsomething like that?!
+Dialogue: 0,0:17:47.69,0:17:51.07,Dialogue,,0,0,0,,I was forced to remember it, by Envy.
+Dialogue: 0,0:17:51.36,0:17:52.20,Dialogue,,0,0,0,,Envy?
+Dialogue: 0,0:17:52.28,0:17:53.57,Dialogue,,0,0,0,,You've met with him?!
+Dialogue: 0,0:17:53.91,0:17:54.95,Dialogue,,0,0,0,,That's right.
+Dialogue: 0,0:17:55.03,0:17:59.29,Dialogue,,0,0,0,,Envy and all the others were born long ago,
+Dialogue: 0,0:17:59.37,0:18:03.29,Dialogue,,0,0,0,,thanks to some idiot somewhere performing human transmutation.
+Dialogue: 0,0:18:03.88,0:18:06.13,Dialogue,,0,0,0,,That's why we all\Nwant to become human.
+Dialogue: 0,0:18:21.73,0:18:22.85,Dialogue,,0,0,0,,Shall we get going?
+Dialogue: 0,0:18:22.94,0:18:25.31,Dialogue,,0,0,0,,Well if isn't the Mightiest Shield.
+Dialogue: 0,0:18:26.77,0:18:32.45,Dialogue,,0,0,0,,Yo, Mightiest—er, was it "Monster" that you liked to be called?
+Dialogue: 0,0:18:32.78,0:18:36.95,Dialogue,,0,0,0,,Even after being locked away for a century,\Nit appears you still haven't learned, huh?
+Dialogue: 0,0:18:37.16,0:18:40.25,Dialogue,,0,0,0,,Yeah, you'll have to excuse me.\NWas that joke too old?
+Dialogue: 0,0:18:40.33,0:18:43.04,Dialogue,,0,0,0,,I don't know any\Npresent-day ones.
+Dialogue: 0,0:18:43.12,0:18:45.08,Dialogue,,0,0,0,,What happened to the skull?
+Dialogue: 0,0:18:45.84,0:18:48.30,Dialogue,,0,0,0,,I destroyed it, of course.
+Dialogue: 0,0:18:48.50,0:18:51.55,Dialogue,,0,0,0,,Is that right? You put it away someplace safe, huh?
+Dialogue: 0,0:18:51.63,0:18:54.09,Dialogue,,0,0,0,,Once I find it, I'll lock you away once again without delay.
+Dialogue: 0,0:18:54.93,0:18:55.93,Dialogue,,0,0,0,,As if I'd let you!
+Dialogue: 0,0:19:04.06,0:19:08.02,Dialogue,,0,0,0,,It appears that there really is a new member around here.
+Dialogue: 0,0:19:08.15,0:19:09.94,Dialogue,,0,0,0,,He's got nothing to do with you.
+Dialogue: 0,0:19:10.07,0:19:13.61,Dialogue,,0,0,0,,No, I would like to\Ngo on living, after all.
+Dialogue: 0,0:19:13.95,0:19:16.49,Dialogue,,0,0,0,,I'm going to need\Nfriends to do that.
+Dialogue: 0,0:19:16.70,0:19:17.91,Dialogue,,0,0,0,,You're late to the party.
+Dialogue: 0,0:19:32.26,0:19:33.13,Dialogue,,0,0,0,,Sloth...
+Dialogue: 0,0:19:33.22,0:19:34.34,Dialogue,,0,0,0,,Sloth?
+Dialogue: 0,0:19:34.43,0:19:36.76,Dialogue,,0,0,0,,So, someone with that name\Nhas been born, huh?
+Dialogue: 0,0:19:37.43,0:19:39.31,Dialogue,,0,0,0,,There's a new Lust as well.
+Dialogue: 0,0:19:39.39,0:19:42.47,Dialogue,,0,0,0,,That means that for the first time\Nin a while, all seven of us are around.
+Dialogue: 0,0:19:43.64,0:19:47.94,Dialogue,,0,0,0,,Pleased to meet you, Greed.\NIt is an honor to make\Nyour acquaintance.
+Dialogue: 0,0:19:51.48,0:19:54.07,Dialogue,,0,0,0,,I may be greedy,\Nbut I'm not stupid.
+Dialogue: 0,0:19:54.45,0:19:57.95,Dialogue,,0,0,0,,I have no intention of\Nfighting against two homunculi.
+Dialogue: 0,0:19:59.07,0:20:00.12,Dialogue,,0,0,0,,Oh, my.
+Dialogue: 0,0:20:03.79,0:20:06.08,Dialogue,,0,0,0,,We'll deal with him later.
+Dialogue: 0,0:20:06.62,0:20:07.46,Dialogue,,0,0,0,,Where's Wrath?
+Dialogue: 0,0:20:07.54,0:20:10.59,Dialogue,,0,0,0,,Ah, right about now,\Nhe's with the Fullmetal boy.
+Dialogue: 0,0:20:12.17,0:20:15.22,Dialogue,,0,0,0,,You maneuvered him into a\Nconfrontation with Edward Elric?
+Dialogue: 0,0:20:15.30,0:20:20.14,Dialogue,,0,0,0,,You were supposed to use Wrath to lure those two\Ntoward the Philosopher's Stone once again, weren't you?
+Dialogue: 0,0:20:20.30,0:20:27.10,Dialogue,,0,0,0,,I wanted to see Fullmetal's—that dirty bastard's child's face tense with fear!
+Dialogue: 0,0:20:31.32,0:20:33.90,Dialogue,,0,0,0,,Everything—I remember it all!
+Dialogue: 0,0:20:34.11,0:20:38.49,Dialogue,,0,0,0,,On the other side of that door,\Nthe only thing I could do was wait.
+Dialogue: 0,0:20:38.82,0:20:40.91,Dialogue,,0,0,0,,Just wait and wait...
+Dialogue: 0,0:20:41.20,0:20:44.50,Dialogue,,0,0,0,,Meanwhile, my body\Ngrew bigger, little by little.
+Dialogue: 0,0:20:44.70,0:20:47.25,Dialogue,,0,0,0,,And then this one time,\Na fool came by.
+Dialogue: 0,0:20:48.12,0:20:51.09,Dialogue,,0,0,0,,That fool came to leave\Nhis arm and leg at the doorway,
+Dialogue: 0,0:20:51.88,0:20:53.96,Dialogue,,0,0,0,,shouting for his brother to be returned to him.
+Dialogue: 0,0:20:54.09,0:20:58.22,Dialogue,,0,0,0,,And so, I took that arm and leg.
+Dialogue: 0,0:21:00.47,0:21:05.39,Dialogue,,0,0,0,,And then, after another long while,\NI opened the door.
+Dialogue: 0,0:21:07.18,0:21:09.85,Dialogue,,0,0,0,,I had finally come out of there!
+Dialogue: 0,0:21:10.56,0:21:11.77,Dialogue,,0,0,0,,It's not true...
+Dialogue: 0,0:21:11.90,0:21:14.07,Dialogue,,0,0,0,,Thank you for the arm and leg.
+Dialogue: 0,0:21:14.65,0:21:16.99,Dialogue,,0,0,0,,Thank you for the incomplete life.
+Dialogue: 0,0:21:17.86,0:21:21.49,Dialogue,,0,0,0,,I'm so thankful that no matter how much I might hate you, it's still not enough.
+Dialogue: 0,0:21:22.57,0:21:25.95,Dialogue,,0,0,0,,Now, give me all of your body!
+Dialogue: 0,0:21:26.04,0:21:28.58,Dialogue,,0,0,0,,Then I will become human!
+Dialogue: 0,0:21:36.55,0:21:37.67,Dialogue,,0,0,0,,That stung.
+Dialogue: 0,0:21:37.76,0:21:39.80,Dialogue,,0,0,0,,I don't want {\i1}your{\i0} body.
+Dialogue: 0,0:21:40.34,0:21:43.55,Dialogue,,0,0,0,,Brother, if you're not \Ngoing to fight, then I will!
+Dialogue: 0,0:21:45.22,0:21:46.68,Dialogue,,0,0,0,,Al, stop! That boy isn't—
+Dialogue: 0,0:21:46.77,0:21:47.64,Dialogue,,0,0,0,,Still...!
+Dialogue: 0,0:21:48.23,0:21:52.06,Dialogue,,0,0,0,,This boy's right arm and left leg\Nbelong to Brother!
+Dialogue: 0,0:21:52.27,0:21:53.94,Dialogue,,0,0,0,,He lost them for my sake!
+Dialogue: 0,0:21:54.40,0:21:55.44,Dialogue,,0,0,0,,Al...
+Dialogue: 0,0:21:56.03,0:21:59.74,Dialogue,,0,0,0,,The whole reason\Nwe've been traveling...
+Dialogue: 0,0:22:00.45,0:22:02.24,Dialogue,,0,0,0,,is to get them back!
+Dialogue: 0,0:23:38.84,0:23:40.55,Dialogue,,0,0,0,,{\i1}Fullmetal Alchemist{\i0}...
+Dialogue: 0,0:23:40.63,0:23:44.01,Dialogue,,0,0,0,,Episode 32: "Dante of the Deep Forest"
+Dialogue: 0,0:23:44.97,0:23:48.51,Dialogue,,0,0,0,,Greed—\Nalso known as the Mightiest Shield.
+Dialogue: 0,0:23:49.22,0:23:51.68,Dialogue,,0,0,0,,He is a homunculus.

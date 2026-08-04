@@ -1,0 +1,144 @@
+[Script Info]
+Title: Sonny Boy - 12 - A Two-Year Recess
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1280
+PlayResY: 720
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Dialogue,Noto Sans,46,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,40,40,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:58.52,0:01:00.38,Dialogue,,0,0,0,,Hey, did you go anywhere\Nfor summer vacation?
+Dialogue: 0,0:01:00.92,0:01:03.42,Dialogue,,0,0,0,,No, nowhere. I worked all summer.
+Dialogue: 0,0:01:02.65,0:01:06.51,Dialogue,,0,0,0,,Hey, that sounds nice. You must\Nhave saved a ton of money, huh?
+Dialogue: 0,0:01:02.65,0:01:10.75,Dialogue,,0,0,0,,My family went to Hawaii.
+Dialogue: 0,0:01:13.41,0:01:19.27,Dialogue,,0,0,0,,Looks a lot like Hateno Island.
+Dialogue: 0,0:01:13.41,0:01:24.18,Dialogue,,0,0,0,,Huh?\NThe ocean was insanely clear.
+Dialogue: 0,0:01:19.27,0:01:21.77,Dialogue,,0,0,0,,What are you talking about?
+Dialogue: 0,0:01:23.78,0:01:26.28,Dialogue,,0,0,0,,I was impressed by how many fish\Nyou could see when you went under.
+Dialogue: 0,0:02:45.08,0:02:55.93,Dialogue,,0,0,0,,Hey, Mizuho...
+Dialogue: 0,0:02:55.58,0:02:57.48,Dialogue,,0,0,0,,Huh? Who're you?
+Dialogue: 0,0:02:59.93,0:03:03.40,Dialogue,,0,0,0,,Sorry, wrong person.
+Dialogue: 0,0:03:10.50,0:03:28.62,Dialogue,,0,0,0,,Watch where you're walking.
+Dialogue: 0,0:03:27.57,0:03:29.03,Dialogue,,0,0,0,,Sorry.
+Dialogue: 0,0:03:30.29,0:03:31.68,Dialogue,,0,0,0,,Seriously...
+Dialogue: 0,0:03:40.85,0:03:44.40,Dialogue,,0,0,0,,Did our going adrift ever actually happen?
+Dialogue: 0,0:05:25.99,0:05:28.77,Dialogue,,0,0,0,,Took you long enough. I've been waiting.
+Dialogue: 0,0:05:28.77,0:05:32.82,Dialogue,,0,0,0,,Oh, the guys in the basketball club\Nasked me to sub in again.
+Dialogue: 0,0:05:32.82,0:05:34.97,Dialogue,,0,0,0,,Those guys sure take me for granted.
+Dialogue: 0,0:06:17.29,0:06:18.20,Dialogue,,0,0,0,,Then again,
+Dialogue: 0,0:06:19.18,0:06:20.74,Dialogue,,0,0,0,,I know it had to have happened--
+Dialogue: 0,0:06:25.18,0:06:27.83,Dialogue,,0,0,0,,being adrift for those two years.
+Dialogue: 0,0:06:53.75,0:06:55.69,Dialogue,,0,0,0,,Something's come unfastened. Are we okay?
+Dialogue: 0,0:06:56.53,0:06:58.19,Dialogue,,0,0,0,,Right according to plan.
+Dialogue: 0,0:06:58.19,0:07:00.32,Dialogue,,0,0,0,,It looks\Nlike we just passed the speed of light.
+Dialogue: 0,0:07:01.42,0:07:04.07,Dialogue,,0,0,0,,We've arrived at the\Nentrance to other dimensions.
+Dialogue: 0,0:07:06.51,0:07:08.20,Dialogue,,0,0,0,,Huh...\NWe should start getting ready.
+Dialogue: 0,0:08:24.53,0:08:28.78,Dialogue,,0,0,0,,Are you sure you understand what\Nkind of consequences this will have?
+Dialogue: 0,0:08:29.37,0:08:32.88,Dialogue,,0,0,0,,Our original selves are different people.
+Dialogue: 0,0:08:33.39,0:08:35.67,Dialogue,,0,0,0,,Still, I don't think\Nthis is the place for us.
+Dialogue: 0,0:08:36.64,0:08:38.44,Dialogue,,0,0,0,,You guys are nuts.
+Dialogue: 0,0:08:39.39,0:08:40.24,Dialogue,,0,0,0,,So was she...
+Dialogue: 0,0:08:42.06,0:08:44.76,Dialogue,,0,0,0,,It would have been enough\Nif you'd never known.
+Dialogue: 0,0:08:44.76,0:08:47.43,Dialogue,,0,0,0,,What we've been given is plenty, isn't it?
+Dialogue: 0,0:08:47.43,0:08:50.01,Dialogue,,0,0,0,,Neither here nor our original world\Nwill change.
+Dialogue: 0,0:08:50.01,0:08:51.64,Dialogue,,0,0,0,,You know that, right?
+Dialogue: 0,0:08:52.78,0:08:55.31,Dialogue,,0,0,0,,We want to get there on our own.
+Dialogue: 0,0:08:55.31,0:08:57.81,Dialogue,,0,0,0,,Nozomi was following her own heart.
+Dialogue: 0,0:08:58.27,0:09:00.63,Dialogue,,0,0,0,,The responsibility was her own, after all.
+Dialogue: 0,0:09:19.64,0:09:20.94,Dialogue,,0,0,0,,They're all gone now.
+Dialogue: 0,0:09:21.81,0:09:22.92,Dialogue,,0,0,0,,Even Ms. Aki.
+Dialogue: 0,0:09:23.61,0:09:26.18,Dialogue,,0,0,0,,Kossetsu went off to join Hoshi.
+Dialogue: 0,0:09:26.18,0:09:30.43,Dialogue,,0,0,0,,Rajdhani's become a forest,\Nand is living with the animals.
+Dialogue: 0,0:09:31.32,0:09:34.22,Dialogue,,0,0,0,,Hateno Island has sunk.
+Dialogue: 0,0:09:34.22,0:09:35.06,Dialogue,,0,0,0,,It turns out...
+Dialogue: 0,0:09:36.88,0:09:38.00,Dialogue,,0,0,0,,...nothing is left here for me.
+Dialogue: 0,0:09:48.96,0:09:49.68,Dialogue,,0,0,0,,Go on.
+Dialogue: 0,0:09:49.80,0:09:52.60,Dialogue,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:09:56.05,0:09:57.08,Dialogue,,0,0,0,,See you.
+Dialogue: 0,0:10:27.24,0:10:30.53,Dialogue,,0,0,0,,You must not leave here.
+Dialogue: 0,0:10:32.05,0:10:33.66,Dialogue,,0,0,0,,You're not saying that we\N{\i1}can't {\i0}leave here, then?
+Dialogue: 0,0:10:36.60,0:10:38.94,Dialogue,,0,0,0,,We'll be all right this time. Let's go.
+Dialogue: 0,0:10:39.72,0:10:42.54,Dialogue,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:11:03.96,0:11:06.19,Dialogue,,0,0,0,,How are you going to\Ntake that back with you?
+Dialogue: 0,0:12:13.48,0:12:18.59,Dialogue,,0,0,0,,We don't know if Nozomi will be\Nalive once we get there, do we?
+Dialogue: 0,0:12:15.89,0:12:19.64,Dialogue,,0,0,0,,That's why we're using her Compass.
+Dialogue: 0,0:12:20.01,0:12:20.62,Dialogue,,0,0,0,,Huh?
+Dialogue: 0,0:12:21.41,0:12:24.68,Dialogue,,0,0,0,,None of the outcomes\Nare going to be changed.
+Dialogue: 0,0:12:24.00,0:12:27.78,Dialogue,,0,0,0,,Only the things that {\i1}can {\i0}happen\N{\i1}do {\i0}happen in the world, after all.
+Dialogue: 0,0:12:28.79,0:12:31.78,Dialogue,,0,0,0,,So we're going to\Nre-roll the possibilities.
+Dialogue: 0,0:12:40.32,0:12:47.92,Dialogue,,0,0,0,,Tell me, Nagara,\Nwhat made you decide to go back?
+Dialogue: 0,0:12:54.36,0:12:55.55,Dialogue,,0,0,0,,Because this...
+Dialogue: 0,0:12:55.82,0:12:57.99,Dialogue,,0,0,0,,...is the light that Nozomi saw.
+Dialogue: 0,0:14:01.66,0:14:04.29,Dialogue,,0,0,0,,Apparently, they're building\Napartments here.
+Dialogue: 0,0:14:04.29,0:14:06.58,Dialogue,,0,0,0,,Oh, yeah?
+Dialogue: 0,0:14:09.35,0:14:11.48,Dialogue,,0,0,0,,I wonder how Grandma's cats are doing.
+Dialogue: 0,0:14:12.48,0:14:14.18,Dialogue,,0,0,0,,I heard that Tora passed away.
+Dialogue: 0,0:14:15.56,0:14:17.59,Dialogue,,0,0,0,,Oh, really...
+Dialogue: 0,0:14:18.23,0:14:20.59,Dialogue,,0,0,0,,Well, he was 13 years old.
+Dialogue: 0,0:14:21.26,0:14:23.35,Dialogue,,0,0,0,,He lived plenty long.
+Dialogue: 0,0:14:23.76,0:14:25.60,Dialogue,,0,0,0,,The service that took them in is sure\Npricey, though.
+Dialogue: 0,0:14:25.60,0:14:29.35,Dialogue,,0,0,0,,400,000 yen for just one.
+Dialogue: 0,0:14:29.35,0:14:35.23,Dialogue,,0,0,0,,All three cats cost 1.2 million. But for\Nthat price, I'm sure they're doing well.
+Dialogue: 0,0:14:31.77,0:14:35.23,Dialogue,,0,0,0,,{\an8}Everything's gone.
+Dialogue: 0,0:14:56.06,0:14:57.88,Dialogue,,0,0,0,,Hey, Mizuho...
+Dialogue: 0,0:14:58.77,0:15:00.63,Dialogue,,0,0,0,,Huh? Who're you?
+Dialogue: 0,0:15:04.78,0:15:06.87,Dialogue,,0,0,0,,Sorry, wrong person.
+Dialogue: 0,0:16:35.95,0:16:37.38,Dialogue,,0,0,0,,Hey, Nagara.
+Dialogue: 0,0:16:40.25,0:16:42.36,Dialogue,,0,0,0,,"Rajdhani's parrot laughs."
+Dialogue: 0,0:16:50.39,0:16:52.65,Dialogue,,0,0,0,,So you remember.\NMm-hmm.
+Dialogue: 0,0:17:00.06,0:17:01.38,Dialogue,,0,0,0,,Is work hard?
+Dialogue: 0,0:17:02.81,0:17:04.84,Dialogue,,0,0,0,,Yeah, not too bad.
+Dialogue: 0,0:17:04.84,0:17:06.93,Dialogue,,0,0,0,,Maybe I should get a job, too.
+Dialogue: 0,0:17:06.93,0:17:10.22,Dialogue,,0,0,0,,Rent an apartment, and take in the cats.
+Dialogue: 0,0:17:10.22,0:17:13.27,Dialogue,,0,0,0,,If you don't have to do it,\Nyou're better off not.
+Dialogue: 0,0:17:13.27,0:17:16.23,Dialogue,,0,0,0,,There's a lot of other stuff\Nthat you {\i1}have {\i0}to do.
+Dialogue: 0,0:17:18.91,0:17:21.38,Dialogue,,0,0,0,,I knew that nothing was going to change.
+Dialogue: 0,0:17:22.53,0:17:25.24,Dialogue,,0,0,0,,In my mind, I thought I understood that.
+Dialogue: 0,0:17:27.58,0:17:29.99,Dialogue,,0,0,0,,This is the future that you chose, right?
+Dialogue: 0,0:17:34.01,0:17:39.38,Dialogue,,0,0,0,,Do you remember when you told me\Nonce that we couldn't change the world,
+Dialogue: 0,0:17:39.38,0:17:42.38,Dialogue,,0,0,0,,so it would be all right?
+Dialogue: 0,0:17:44.86,0:17:46.26,Dialogue,,0,0,0,,Do you still think so now?
+Dialogue: 0,0:17:48.65,0:17:49.88,Dialogue,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:17:50.53,0:17:52.76,Dialogue,,0,0,0,,We really can't change the world.
+Dialogue: 0,0:17:54.24,0:17:57.63,Dialogue,,0,0,0,,But this is still the world that I chose.
+Dialogue: 0,0:18:03.33,0:18:06.07,Dialogue,,0,0,0,,Standing here, looking back now,
+Dialogue: 0,0:18:06.07,0:18:08.91,Dialogue,,0,0,0,,there were just some probabilistic\Ncomponents at work back there,
+Dialogue: 0,0:18:08.91,0:18:12.66,Dialogue,,0,0,0,,and after some time now,\NI can't even tell them apart anymore.
+Dialogue: 0,0:18:14.34,0:18:19.98,Dialogue,,0,0,0,,Someday, I'll forget this feeling, too,\Nand do the same thing over again.
+Dialogue: 0,0:18:20.89,0:18:24.32,Dialogue,,0,0,0,,I don't know if Nozomi is the\Nsame Nozomi that we knew, either.
+Dialogue: 0,0:18:25.78,0:18:28.48,Dialogue,,0,0,0,,But this {\i1}is {\i0}the future that she saw.
+Dialogue: 0,0:18:29.03,0:18:30.88,Dialogue,,0,0,0,,Have you talked to Nozomi?
+Dialogue: 0,0:18:31.07,0:18:33.29,Dialogue,,0,0,0,,No, I've only spotted her so far.
+Dialogue: 0,0:18:34.38,0:18:36.81,Dialogue,,0,0,0,,She won't remember going adrift.
+Dialogue: 0,0:18:36.81,0:18:38.06,Dialogue,,0,0,0,,Probably not.
+Dialogue: 0,0:18:38.06,0:18:39.71,Dialogue,,0,0,0,,I wonder if she's a different person.
+Dialogue: 0,0:18:42.58,0:18:43.69,Dialogue,,0,0,0,,I don't know.
+Dialogue: 0,0:18:45.04,0:18:46.32,Dialogue,,0,0,0,,You've got work, right?
+Dialogue: 0,0:18:47.04,0:18:48.30,Dialogue,,0,0,0,,Well, see you later.
+Dialogue: 0,0:19:00.64,0:19:02.69,Dialogue,,0,0,0,,Hey, you'll be fine.
+Dialogue: 0,0:19:04.68,0:19:08.07,Dialogue,,0,0,0,,As long as there's still a little of\Nwho you were on that island in there,
+Dialogue: 0,0:19:08.94,0:19:09.82,Dialogue,,0,0,0,,you'll be fine.
+Dialogue: 0,0:19:14.78,0:19:16.28,Dialogue,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:21:00.93,0:21:02.45,Dialogue,,0,0,0,,You were worried about them, too?
+Dialogue: 0,0:21:04.18,0:21:06.62,Dialogue,,0,0,0,,I mean, they were chirping at night.
+Dialogue: 0,0:21:06.62,0:21:10.82,Dialogue,,0,0,0,,The guy at the station\Nsaid that he thought\Nthat maybe their mother\Nhad gotten killed by a crow.
+Dialogue: 0,0:21:11.48,0:21:13.46,Dialogue,,0,0,0,,The others were all dead,
+Dialogue: 0,0:21:14.38,0:21:15.91,Dialogue,,0,0,0,,but this little one is still alive.
+Dialogue: 0,0:21:18.07,0:21:19.47,Dialogue,,0,0,0,,Will you look after it?
+Dialogue: 0,0:21:20.78,0:21:21.81,Dialogue,,0,0,0,,Huh?
+Dialogue: 0,0:21:21.91,0:21:24.75,Dialogue,,0,0,0,,No, I'm not allowed to have pets.
+Dialogue: 0,0:21:27.54,0:21:29.76,Dialogue,,0,0,0,,We went to the same\Nmiddle school, didn't we?
+Dialogue: 0,0:21:32.48,0:21:36.82,Dialogue,,0,0,0,,Mm-hmm. You transferred in during\Nthe second term of 3rd year, right?
+Dialogue: 0,0:21:36.82,0:21:37.72,Dialogue,,0,0,0,,Nozomi...
+Dialogue: 0,0:21:38.55,0:21:42.20,Dialogue,,0,0,0,,Ah, sure enough,\Ntheir mother never came back.
+Dialogue: 0,0:21:42.59,0:21:44.35,Dialogue,,0,0,0,,This is the only one still alive.
+Dialogue: 0,0:21:45.64,0:21:46.96,Dialogue,,0,0,0,,Oh? So what are you going to do with it?
+Dialogue: 0,0:21:48.68,0:21:51.18,Dialogue,,0,0,0,,Hmm, I think I'll look\Nafter it until it can fly away.
+Dialogue: 0,0:22:12.92,0:22:14.59,Dialogue,,0,0,0,,Our lives are only beginning.
+Dialogue: 0,0:22:15.54,0:22:19.38,Dialogue,,0,0,0,,What lies\Nahead will take just a little bit longer.

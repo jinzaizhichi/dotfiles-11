@@ -1,0 +1,284 @@
+[Script Info]
+Title: Wonder Egg Priority - S01E02 - The Terms Of Friendship
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1280
+PlayResY: 720
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Dialogue,Noto Sans,46,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,40,40,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:11.12,0:00:12.95,Dialogue,,0,0,0,,Good thing it's sunny today, huh?
+Dialogue: 0,0:00:14.16,0:00:15.61,Dialogue,,0,0,0,,I'm Ohto Ai.
+Dialogue: 0,0:00:18.08,0:00:19.50,Dialogue,,0,0,0,,Your clothes are cute.
+Dialogue: 0,0:00:20.13,0:00:21.22,Dialogue,,0,0,0,,Where do you shop?
+Dialogue: 0,0:00:24.81,0:00:27.92,Dialogue,,0,0,0,,Really, though, the weather is great.
+Dialogue: 0,0:00:38.02,0:00:40.53,Dialogue,,0,0,0,,Isn't it hard to protect a lot of Eggs?
+Dialogue: 0,0:00:41.23,0:00:42.61,Dialogue,,0,0,0,,Is there a trick to it?
+Dialogue: 0,0:00:43.83,0:00:45.54,Dialogue,,0,0,0,,These snacks are really good.
+Dialogue: 0,0:00:49.83,0:00:51.49,Dialogue,,0,0,0,,Can I ask you a question, too?
+Dialogue: 0,0:00:54.24,0:00:56.06,Dialogue,,0,0,0,,Of course! Ask me anything!
+Dialogue: 0,0:01:00.91,0:01:03.55,Dialogue,,0,0,0,,Who are you fighting for?
+Dialogue: 0,0:01:04.49,0:01:06.47,Dialogue,,0,0,0,,For Koito, of course!
+Dialogue: 0,0:01:07.28,0:01:08.00,Dialogue,,0,0,0,,Who's Koito?
+Dialogue: 0,0:01:09.08,0:01:10.00,Dialogue,,0,0,0,,My friend.
+Dialogue: 0,0:01:11.38,0:01:11.83,Dialogue,,0,0,0,,I see.
+Dialogue: 0,0:01:13.91,0:01:15.62,Dialogue,,0,0,0,,Are you sure it's not for yourself?
+Dialogue: 0,0:01:16.98,0:01:17.91,Dialogue,,0,0,0,,What do you mean?
+Dialogue: 0,0:01:19.09,0:01:21.65,Dialogue,,0,0,0,,You don't like who you are now, so you go.
+Dialogue: 0,0:01:22.35,0:01:23.55,Dialogue,,0,0,0,,Even if you're scared.
+Dialogue: 0,0:01:24.17,0:01:25.98,Dialogue,,0,0,0,,You want to change the self you hate.
+Dialogue: 0,0:01:26.96,0:01:27.76,Dialogue,,0,0,0,,You too?
+Dialogue: 0,0:01:28.95,0:01:32.40,Dialogue,,0,0,0,,I'm not like you. I love myself.
+Dialogue: 0,0:01:33.11,0:01:34.51,Dialogue,,0,0,0,,Why do you do it, then?
+Dialogue: 0,0:01:36.31,0:01:37.26,Dialogue,,0,0,0,,For my sister.
+Dialogue: 0,0:01:38.25,0:01:38.96,Dialogue,,0,0,0,,Your sister?
+Dialogue: 0,0:01:39.35,0:01:40.43,Dialogue,,0,0,0,,I let her die.
+Dialogue: 0,0:03:17.13,0:03:18.14,Dialogue,,0,0,0,,I'm home.
+Dialogue: 0,0:03:22.99,0:03:25.23,Dialogue,,0,0,0,,Welcome home,\NAi.
+Dialogue: 0,0:03:27.17,0:03:27.87,Dialogue,,0,0,0,,Ohto,
+Dialogue: 0,0:03:29.86,0:03:32.11,Dialogue,,0,0,0,,do your injuries feel all right now?
+Dialogue: 0,0:03:34.65,0:03:35.99,Dialogue,,0,0,0,,Your mother is worried.
+Dialogue: 0,0:03:36.60,0:03:39.88,Dialogue,,0,0,0,,Won't you tell me what happened to you?
+Dialogue: 0,0:03:43.27,0:03:44.08,Dialogue,,0,0,0,,Ai!
+Dialogue: 0,0:03:45.13,0:03:45.62,Dialogue,,0,0,0,,Ma'am.
+Dialogue: 0,0:03:46.51,0:03:47.33,Dialogue,,0,0,0,,I'm sorry.
+Dialogue: 0,0:03:49.89,0:03:52.36,Dialogue,,0,0,0,,Do you hate me that much?
+Dialogue: 0,0:03:54.24,0:03:57.84,Dialogue,,0,0,0,,Not really.\NI don't hate you.
+Dialogue: 0,0:03:58.72,0:03:59.66,Dialogue,,0,0,0,,I'm glad.
+Dialogue: 0,0:04:01.13,0:04:02.92,Dialogue,,0,0,0,,{\i1}You can't say that!
+Dialogue: 0,0:04:09.46,0:04:11.70,Dialogue,,0,0,0,,Here's my contact info.
+Dialogue: 0,0:04:12.38,0:04:14.58,Dialogue,,0,0,0,,Message me when you want to change plans.
+Dialogue: 0,0:04:14.66,0:04:18.50,Dialogue,,0,0,0,,I'll buy Eggs on odd days; you buy them on even days.
+Dialogue: 0,0:04:16.54,0:04:17.50,Dialogue,,0,0,0,,Huh?!
+Dialogue: 0,0:04:19.17,0:04:21.02,Dialogue,,0,0,0,,We won't have to meet again.
+Dialogue: 0,0:04:28.52,0:04:29.31,Dialogue,,0,0,0,,Good luck.
+Dialogue: 0,0:04:30.17,0:04:32.61,Dialogue,,0,0,0,,Don't misuse my contact info.
+Dialogue: 0,0:04:36.07,0:04:36.89,Dialogue,,0,0,0,,As if.
+Dialogue: 0,0:05:04.46,0:05:09.47,Dialogue,,0,0,0,,So,\Nas long as I don't crack the Egg, nothing will happen.
+Dialogue: 0,0:05:09.80,0:05:12.13,Dialogue,,0,0,0,,They don't attack me, after all.
+Dialogue: 0,0:05:46.54,0:05:47.30,Dialogue,,0,0,0,,Okay.
+Dialogue: 0,0:05:47.69,0:05:48.41,Dialogue,,0,0,0,,Umm...
+Dialogue: 0,0:05:51.44,0:05:52.72,Dialogue,,0,0,0,,Sorry, talk later!
+Dialogue: 0,0:05:54.69,0:05:55.39,Dialogue,,0,0,0,,Huh?\NRun!
+Dialogue: 0,0:05:57.69,0:05:59.39,Dialogue,,0,0,0,,Umm, what's going on?
+Dialogue: 0,0:06:01.19,0:06:03.03,Dialogue,,0,0,0,,Is this... a school?
+Dialogue: 0,0:06:03.85,0:06:05.27,Dialogue,,0,0,0,,Hey, where are you going?!
+Dialogue: 0,0:06:08.56,0:06:09.58,Dialogue,,0,0,0,,Ow...
+Dialogue: 0,0:06:13.37,0:06:13.91,Dialogue,,0,0,0,,You okay?
+Dialogue: 0,0:06:14.42,0:06:15.56,Dialogue,,0,0,0,,Hey, wait!
+Dialogue: 0,0:06:15.84,0:06:17.44,Dialogue,,0,0,0,,I'll protect you!
+Dialogue: 0,0:06:29.36,0:06:30.03,Dialogue,,0,0,0,,Thank you.
+Dialogue: 0,0:06:37.63,0:06:38.10,Dialogue,,0,0,0,,This way!
+Dialogue: 0,0:06:38.85,0:06:39.96,Dialogue,,0,0,0,,Go in there!
+Dialogue: 0,0:06:50.06,0:06:52.29,Dialogue,,0,0,0,,I think that should buy us some time.
+Dialogue: 0,0:06:53.12,0:06:55.21,Dialogue,,0,0,0,,Sorry to spring that on you. I'm—
+Dialogue: 0,0:07:01.41,0:07:02.08,Dialogue,,0,0,0,,Are you okay?
+Dialogue: 0,0:07:02.89,0:07:04.06,Dialogue,,0,0,0,,I'm Ohto Ai.
+Dialogue: 0,0:07:04.93,0:07:06.75,Dialogue,,0,0,0,,Suzuhara Minami.
+Dialogue: 0,0:07:07.07,0:07:11.12,Dialogue,,0,0,0,,Don't worry. I'll protect you to save Koito.
+Dialogue: 0,0:07:11.93,0:07:13.04,Dialogue,,0,0,0,,Koito?
+Dialogue: 0,0:07:15.86,0:07:17.46,Dialogue,,0,0,0,,She's your friend?
+Dialogue: 0,0:07:18.70,0:07:19.10,Dialogue,,0,0,0,,Yup.
+Dialogue: 0,0:07:20.49,0:07:21.75,Dialogue,,0,0,0,,I'm jealous.
+Dialogue: 0,0:07:22.28,0:07:24.26,Dialogue,,0,0,0,,I wish I had friends.
+Dialogue: 0,0:07:27.44,0:07:29.25,Dialogue,,0,0,0,,Huh?! Umm...
+Dialogue: 0,0:07:31.05,0:07:32.83,Dialogue,,0,0,0,,So, why a leotard?
+Dialogue: 0,0:07:33.97,0:07:36.41,Dialogue,,0,0,0,,Huh? Umm... I'm in the gymnastics club.
+Dialogue: 0,0:07:36.89,0:07:40.47,Dialogue,,0,0,0,,I knew it!\NYou've got a great figure. I'm jealous.
+Dialogue: 0,0:07:42.89,0:07:47.13,Dialogue,,0,0,0,,The coach was always yelling at me to maintain it.
+Dialogue: 0,0:07:47.36,0:07:51.10,Dialogue,,0,0,0,,I'm a shut-in, so my legs are all puffy.
+Dialogue: 0,0:07:51.41,0:07:52.78,Dialogue,,0,0,0,,You're a shut-in?
+Dialogue: 0,0:07:53.25,0:07:55.23,Dialogue,,0,0,0,,Yup. I'm hopeless.
+Dialogue: 0,0:07:57.34,0:07:58.27,Dialogue,,0,0,0,,Wow.\NHuh?
+Dialogue: 0,0:07:59.51,0:08:02.28,Dialogue,,0,0,0,,I wish I had your spirit and guts.
+Dialogue: 0,0:08:02.81,0:08:04.20,Dialogue,,0,0,0,,Wh-What do you mean?
+Dialogue: 0,0:08:04.88,0:08:09.84,Dialogue,,0,0,0,,One time, I made up my mind to skip morning practice.
+Dialogue: 0,0:08:11.33,0:08:13.08,Dialogue,,0,0,0,,Yeah?\NI wanted to stay in bed.
+Dialogue: 0,0:08:13.31,0:08:14.53,Dialogue,,0,0,0,,I know that feeling.
+Dialogue: 0,0:08:14.99,0:08:18.30,Dialogue,,0,0,0,,I wanted to see what morning rush hour was like.
+Dialogue: 0,0:08:18.78,0:08:20.20,Dialogue,,0,0,0,,Oh.
+Dialogue: 0,0:08:20.21,0:08:24.05,Dialogue,,0,0,0,,But, maybe because I psyched myself\Nup, I couldn't sleep all night.
+Dialogue: 0,0:08:24.22,0:08:25.18,Dialogue,,0,0,0,,Oh, yeah!
+Dialogue: 0,0:08:25.42,0:08:27.67,Dialogue,,0,0,0,,Like when you wake up and it's already evening!
+Dialogue: 0,0:08:27.99,0:08:31.40,Dialogue,,0,0,0,,In the end, I went to morning practice without sleeping.
+Dialogue: 0,0:08:32.50,0:08:34.47,Dialogue,,0,0,0,,I was out of it from my all-nighter,
+Dialogue: 0,0:08:34.82,0:08:37.89,Dialogue,,0,0,0,,so the coach really let me have it.
+Dialogue: 0,0:08:38.28,0:08:42.26,Dialogue,,0,0,0,,I think that's way more impressive than anything I do.
+Dialogue: 0,0:08:43.44,0:08:46.23,Dialogue,,0,0,0,,If only I were strong like you, Ohto.
+Dialogue: 0,0:08:48.50,0:08:49.15,Dialogue,,0,0,0,,Don't worry.
+Dialogue: 0,0:08:49.83,0:08:52.41,Dialogue,,0,0,0,,I'll protect you, so let's survive together.
+Dialogue: 0,0:08:53.23,0:08:54.21,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:08:53.61,0:08:56.36,Dialogue,,0,0,0,,It will take more than that to bring your friend back.
+Dialogue: 0,0:08:56.69,0:08:57.23,Dialogue,,0,0,0,,Huh?
+Dialogue: 0,0:08:57.57,0:08:58.24,Dialogue,,0,0,0,,Huh?
+Dialogue: 0,0:08:58.98,0:09:00.28,Dialogue,,0,0,0,,Oh, it's kind of...
+Dialogue: 0,0:09:00.59,0:09:03.05,Dialogue,,0,0,0,,Here I am. Over here.
+Dialogue: 0,0:09:05.20,0:09:07.40,Dialogue,,0,0,0,,To free the captured maiden,
+Dialogue: 0,0:09:07.62,0:09:09.66,Dialogue,,0,0,0,,you have to beat the Wonder Killer.
+Dialogue: 0,0:09:10.29,0:09:11.98,Dialogue,,0,0,0,,What does that mean?
+Dialogue: 0,0:09:12.53,0:09:15.67,Dialogue,,0,0,0,,I thought it would be easier\Nto understand if they had a name.
+Dialogue: 0,0:09:16.34,0:09:18.76,Dialogue,,0,0,0,,Don't we just have to survive?!
+Dialogue: 0,0:09:19.09,0:09:22.85,Dialogue,,0,0,0,,How is just running away supposed to solve anything?
+Dialogue: 0,0:09:23.59,0:09:25.68,Dialogue,,0,0,0,,Stand and fight, young lady!
+Dialogue: 0,0:09:26.27,0:09:28.12,Dialogue,,0,0,0,,Stand and fight what?
+Dialogue: 0,0:09:28.45,0:09:32.05,Dialogue,,0,0,0,,A Wonder Killer is the form of an Egg's trauma.
+Dialogue: 0,0:09:32.62,0:09:34.60,Dialogue,,0,0,0,,The two are drawn to each other.
+Dialogue: 0,0:09:35.07,0:09:36.83,Dialogue,,0,0,0,,To take down a Wonder Killer, you need...
+Dialogue: 0,0:09:36.94,0:09:41.40,Dialogue,,0,0,0,,your...\NWhat?
+Dialogue: 0,0:09:36.94,0:09:41.63,Dialogue,,0,0,0,,U-Umm...
+Dialogue: 0,0:09:39.03,0:09:41.63,Dialogue,,0,0,0,,Hello?
+Dialogue: 0,0:09:41.63,0:09:44.57,Dialogue,,0,0,0,,I hear something from the other side of the...
+Dialogue: 0,0:09:47.89,0:09:50.15,Dialogue,,0,0,0,,Is that delinquent rubbing off on you?
+Dialogue: 0,0:09:50.29,0:09:52.25,Dialogue,,0,0,0,,I only took my eyes off you for a minute.
+Dialogue: 0,0:09:53.06,0:09:54.60,Dialogue,,0,0,0,,Who's this lady?
+Dialogue: 0,0:09:54.99,0:09:58.17,Dialogue,,0,0,0,,Practice. Don't slack off, Suzuhara.
+Dialogue: 0,0:09:58.38,0:09:59.21,Dialogue,,0,0,0,,Speak up!
+Dialogue: 0,0:09:59.84,0:10:01.06,Dialogue,,0,0,0,,I'm sorry, Coach!
+Dialogue: 0,0:10:01.69,0:10:03.01,Dialogue,,0,0,0,,C-Coach?!
+Dialogue: 0,0:10:03.72,0:10:05.07,Dialogue,,0,0,0,,This is her trauma?!
+Dialogue: 0,0:10:06.01,0:10:09.64,Dialogue,,0,0,0,,You mean my teaching? Nonsense.
+Dialogue: 0,0:10:10.13,0:10:11.59,Dialogue,,0,0,0,,Stay away from Minami.
+Dialogue: 0,0:10:12.31,0:10:13.53,Dialogue,,0,0,0,,Now I'm really—
+Dialogue: 0,0:10:13.53,0:10:14.06,Dialogue,,0,0,0,,No!
+Dialogue: 0,0:10:14.68,0:10:15.98,Dialogue,,0,0,0,,It's because I'm no good.
+Dialogue: 0,0:10:16.90,0:10:17.48,Dialogue,,0,0,0,,Huh?
+Dialogue: 0,0:10:17.57,0:10:21.03,Dialogue,,0,0,0,,That's right. It's because you don't have enough spirit.
+Dialogue: 0,0:10:21.39,0:10:23.63,Dialogue,,0,0,0,,I'm sorry. I'll try harder.
+Dialogue: 0,0:10:24.59,0:10:25.59,Dialogue,,0,0,0,,What do you mean?
+Dialogue: 0,0:10:25.90,0:10:28.16,Dialogue,,0,0,0,,Wasn't that so hard you couldn't take it?
+Dialogue: 0,0:10:28.61,0:10:32.79,Dialogue,,0,0,0,,Coach says she does it for me, because I'm gutless.
+Dialogue: 0,0:10:36.87,0:10:40.63,Dialogue,,0,0,0,,Mi...\NMinami, get away from her!
+Dialogue: 0,0:10:42.33,0:10:43.23,Dialogue,,0,0,0,,I'll...
+Dialogue: 0,0:10:49.75,0:10:52.45,Dialogue,,0,0,0,,Minami...\NI'll...
+Dialogue: 0,0:10:55.42,0:10:56.70,Dialogue,,0,0,0,,Oh, no. What happened?
+Dialogue: 0,0:10:57.77,0:10:59.53,Dialogue,,0,0,0,,Classic harassment.
+Dialogue: 0,0:11:00.29,0:11:02.06,Dialogue,,0,0,0,,Why would they do this to you?
+Dialogue: 0,0:11:02.79,0:11:04.16,Dialogue,,0,0,0,,Because you're my friend?
+Dialogue: 0,0:11:04.52,0:11:05.60,Dialogue,,0,0,0,,That's not it.
+Dialogue: 0,0:11:06.73,0:11:09.39,Dialogue,,0,0,0,,They say Mr. Sawaki is giving me special treatment.
+Dialogue: 0,0:11:09.70,0:11:11.58,Dialogue,,0,0,0,,I think they're jealous.
+Dialogue: 0,0:11:12.18,0:11:14.32,Dialogue,,0,0,0,,Of course he is. You're a transfer student.
+Dialogue: 0,0:11:15.16,0:11:17.06,Dialogue,,0,0,0,,A woman's jealousy sure is scary, huh?
+Dialogue: 0,0:11:19.45,0:11:21.03,Dialogue,,0,0,0,,This isn't funny.
+Dialogue: 0,0:11:23.19,0:11:25.07,Dialogue,,0,0,0,,Hey, this is wicked.
+Dialogue: 0,0:11:25.19,0:11:26.93,Dialogue,,0,0,0,,Hey, face this way.
+Dialogue: 0,0:11:27.12,0:11:27.89,Dialogue,,0,0,0,,Please stop.
+Dialogue: 0,0:11:27.89,0:11:28.51,Dialogue,,0,0,0,,Hey.
+Dialogue: 0,0:11:33.95,0:11:34.89,Dialogue,,0,0,0,,Are you okay?
+Dialogue: 0,0:11:41.97,0:11:43.59,Dialogue,,0,0,0,,Did you get the video?
+Dialogue: 0,0:11:52.07,0:11:55.00,Dialogue,,0,0,0,,I'm sorry. I was scared.
+Dialogue: 0,0:11:56.07,0:11:57.79,Dialogue,,0,0,0,,Scared of being left out.
+Dialogue: 0,0:12:00.71,0:12:03.27,Dialogue,,0,0,0,,You were scared, huh?\NSorry.
+Dialogue: 0,0:12:03.65,0:12:04.47,Dialogue,,0,0,0,,I'm so sorry.
+Dialogue: 0,0:12:04.93,0:12:08.43,Dialogue,,0,0,0,,It's fine.\NI know you tried your best.
+Dialogue: 0,0:12:08.88,0:12:12.89,Dialogue,,0,0,0,,I'm sorry.
+Dialogue: 0,0:12:13.65,0:12:14.63,Dialogue,,0,0,0,,I'm sorry.
+Dialogue: 0,0:12:23.20,0:12:24.75,Dialogue,,0,0,0,,I feel sorry for Minami.
+Dialogue: 0,0:12:25.65,0:12:27.83,Dialogue,,0,0,0,,What's so strong about you?
+Dialogue: 0,0:12:29.01,0:12:29.68,Dialogue,,0,0,0,,Shut up.
+Dialogue: 0,0:12:31.75,0:12:34.60,Dialogue,,0,0,0,,I'm going\Nto change.
+Dialogue: 0,0:12:41.63,0:12:44.09,Dialogue,,0,0,0,,That's what's wrong with you.
+Dialogue: 0,0:12:44.42,0:12:46.30,Dialogue,,0,0,0,,Your figure changed on your period?
+Dialogue: 0,0:12:46.30,0:12:48.76,Dialogue,,0,0,0,,Take gymnastics seriously, damn it!
+Dialogue: 0,0:12:48.84,0:12:51.56,Dialogue,,0,0,0,,I'm sorry. Please forgive me.
+Dialogue: 0,0:12:51.70,0:12:54.22,Dialogue,,0,0,0,,Just so you know, this isn't corporal punishment.
+Dialogue: 0,0:12:54.48,0:12:58.56,Dialogue,,0,0,0,,It's tough love. I do it because I love you.
+Dialogue: 0,0:12:59.02,0:13:00.86,Dialogue,,0,0,0,,Yes, Coach.
+Dialogue: 0,0:13:04.07,0:13:06.40,Dialogue,,0,0,0,,Once you're a good girl,
+Dialogue: 0,0:13:06.40,0:13:09.03,Dialogue,,0,0,0,,I'll make sure to finish you off painlessly.
+Dialogue: 0,0:13:10.07,0:13:11.77,Dialogue,,0,0,0,,Thank you very much.
+Dialogue: 0,0:13:14.33,0:13:15.66,Dialogue,,0,0,0,,Ohto?
+Dialogue: 0,0:13:17.71,0:13:20.67,Dialogue,,0,0,0,,Enough is enough, you old bitch!
+Dialogue: 0,0:13:31.89,0:13:32.72,Dialogue,,0,0,0,,Stop!
+Dialogue: 0,0:13:33.47,0:13:37.14,Dialogue,,0,0,0,,It's my fault!\NLeave me alone!
+Dialogue: 0,0:13:37.52,0:13:42.27,Dialogue,,0,0,0,,I don't have enough spirit or guts, and I'm ugly and timid.
+Dialogue: 0,0:13:42.27,0:13:44.15,Dialogue,,0,0,0,,It's all my fault.
+Dialogue: 0,0:13:44.48,0:13:46.94,Dialogue,,0,0,0,,So...\NSo—
+Dialogue: 0,0:13:46.94,0:13:48.66,Dialogue,,0,0,0,,You just want attention!
+Dialogue: 0,0:13:49.70,0:13:54.33,Dialogue,,0,0,0,,What you really mean is that you\Nwant someone to find you and love you!
+Dialogue: 0,0:13:56.62,0:13:58.23,Dialogue,,0,0,0,,So, I won't leave you alone!
+Dialogue: 0,0:14:00.52,0:14:01.79,Dialogue,,0,0,0,,I {\i1}can't {\i0}leave you alone!
+Dialogue: 0,0:14:02.88,0:14:05.88,Dialogue,,0,0,0,,Keep your mouth shut, brat!
+Dialogue: 0,0:14:05.96,0:14:08.05,Dialogue,,0,0,0,,Shut up, bitch!
+Dialogue: 0,0:14:12.00,0:14:14.56,Dialogue,,0,0,0,,You're interrupting practice!
+Dialogue: 0,0:14:19.39,0:14:21.06,Dialogue,,0,0,0,,You annoying fly.
+Dialogue: 0,0:14:22.60,0:14:24.19,Dialogue,,0,0,0,,Please stop, Coach!
+Dialogue: 0,0:14:25.44,0:14:29.28,Dialogue,,0,0,0,,I'll do what you say!\NI'll do anything!
+Dialogue: 0,0:14:34.83,0:14:35.95,Dialogue,,0,0,0,,Minami...
+Dialogue: 0,0:14:48.55,0:14:52.68,Dialogue,,0,0,0,,Oh, for the love of...\NYou're all hopeless!
+Dialogue: 0,0:14:55.39,0:14:56.81,Dialogue,,0,0,0,,My ribbon.
+Dialogue: 0,0:14:58.31,0:15:00.98,Dialogue,,0,0,0,,All right!\NI can fight with this!
+Dialogue: 0,0:15:00.98,0:15:02.77,Dialogue,,0,0,0,,How do you like this, then?
+Dialogue: 0,0:15:03.65,0:15:05.94,Dialogue,,0,0,0,,What is this stuff? I can't see.
+Dialogue: 0,0:15:07.02,0:15:08.32,Dialogue,,0,0,0,,It's over.
+Dialogue: 0,0:15:08.40,0:15:09.44,Dialogue,,0,0,0,,Jump!
+Dialogue: 0,0:15:13.57,0:15:14.87,Dialogue,,0,0,0,,Dodge right!
+Dialogue: 0,0:15:15.62,0:15:16.73,Dialogue,,0,0,0,,She'll come from behind!
+Dialogue: 0,0:15:21.28,0:15:23.46,Dialogue,,0,0,0,,What do you think you're doing?
+Dialogue: 0,0:15:23.71,0:15:25.54,Dialogue,,0,0,0,,Are you disobeying me?
+Dialogue: 0,0:15:25.79,0:15:27.46,Dialogue,,0,0,0,,Are you going to betray me?
+Dialogue: 0,0:15:28.00,0:15:30.21,Dialogue,,0,0,0,,Betray my tough love?
+Dialogue: 0,0:15:31.34,0:15:33.55,Dialogue,,0,0,0,,I won't know if you don't speak up!
+Dialogue: 0,0:15:33.93,0:15:36.18,Dialogue,,0,0,0,,Well? Are you going to disobey me?
+Dialogue: 0,0:15:37.81,0:15:41.80,Dialogue,,0,0,0,,Answer me, Suzuhara!
+Dialogue: 0,0:15:42.10,0:15:44.06,Dialogue,,0,0,0,,Here. I'm right here.
+Dialogue: 0,0:15:50.48,0:15:51.78,Dialogue,,0,0,0,,Stupid brats!
+Dialogue: 0,0:15:51.94,0:15:55.28,Dialogue,,0,0,0,,I've got clout with the association!
+Dialogue: 0,0:15:55.74,0:15:59.41,Dialogue,,0,0,0,,They even consult me\Nwhen they pick competitors!
+Dialogue: 0,0:15:59.71,0:16:05.83,Dialogue,,0,0,0,,So...\NSo what, you asshole?!
+Dialogue: 0,0:16:06.67,0:16:07.88,Dialogue,,0,0,0,,It's tough love!
+Dialogue: 0,0:16:08.38,0:16:09.12,Dialogue,,0,0,0,,Dodge!
+Dialogue: 0,0:16:11.38,0:16:16.66,Dialogue,,0,0,0,,Sorry, but that's just abuse!
+Dialogue: 0,0:16:18.22,0:16:21.43,Dialogue,,0,0,0,,Now I'm really mad!
+Dialogue: 0,0:16:21.43,0:16:24.39,Dialogue,,0,0,0,,Goodbye, Coach!
+Dialogue: 0,0:16:37.41,0:16:39.49,Dialogue,,0,0,0,,Minami!\NAre you okay?!
+Dialogue: 0,0:16:43.20,0:16:45.12,Dialogue,,0,0,0,,Thank you, Ai.
+Dialogue: 0,0:16:46.67,0:16:48.71,Dialogue,,0,0,0,,It's thanks to you and your ribbon.
+Dialogue: 0,0:16:49.09,0:16:51.59,Dialogue,,0,0,0,,You were really brave.
+Dialogue: 0,0:16:52.42,0:16:52.88,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:16:53.63,0:16:58.05,Dialogue,,0,0,0,,I wish I'd met you sooner, Ai.\NYeah.
+Dialogue: 0,0:16:59.01,0:17:02.70,Dialogue,,0,0,0,,If I had, we'd have chatted over\Nburgers and played games and things.
+Dialogue: 0,0:17:03.93,0:17:06.06,Dialogue,,0,0,0,,Like normal girls.
+Dialogue: 0,0:17:06.89,0:17:07.29,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:17:13.57,0:17:16.24,Dialogue,,0,0,0,,Will you remember me sometimes?
+Dialogue: 0,0:17:17.24,0:17:17.84,Dialogue,,0,0,0,,Minami?
+Dialogue: 0,0:17:26.16,0:17:27.04,Dialogue,,0,0,0,,Damn it.
+Dialogue: 0,0:17:52.52,0:17:53.92,Dialogue,,0,0,0,,Is one enough for you?
+Dialogue: 0,0:17:56.57,0:17:58.53,Dialogue,,0,0,0,,You're prudent, unlike Neiru.
+Dialogue: 0,0:17:58.99,0:18:00.32,Dialogue,,0,0,0,,Haste makes waste.
+Dialogue: 0,0:18:00.95,0:18:02.42,Dialogue,,0,0,0,,Did she die?
+Dialogue: 0,0:18:03.24,0:18:03.87,Dialogue,,0,0,0,,I don't know.
+Dialogue: 0,0:18:05.70,0:18:09.37,Dialogue,,0,0,0,,There's no point going to save\Nsomeone if she gets herself killed.
+Dialogue: 0,0:18:11.71,0:18:13.10,Dialogue,,0,0,0,,What do you know about it?!
+Dialogue: 0,0:18:13.88,0:18:14.81,Dialogue,,0,0,0,,It's her sister.
+Dialogue: 0,0:18:15.17,0:18:17.38,Dialogue,,0,0,0,,Neiru is going to save her little sister.
+Dialogue: 0,0:18:17.88,0:18:19.70,Dialogue,,0,0,0,,She wants to save her quickly.
+Dialogue: 0,0:18:20.37,0:18:21.47,Dialogue,,0,0,0,,I wonder about that.
+Dialogue: 0,0:18:21.93,0:18:24.89,Dialogue,,0,0,0,,Maybe she really wants to die, too.
+Dialogue: 0,0:18:26.01,0:18:28.23,Dialogue,,0,0,0,,Huh?\NThat's why she's fearless.
+Dialogue: 0,0:19:24.91,0:19:26.77,Dialogue,,0,0,0,,What are you doing?
+Dialogue: 0,0:19:27.30,0:19:28.48,Dialogue,,0,0,0,,Oh, sorry.
+Dialogue: 0,0:19:38.13,0:19:39.50,Dialogue,,0,0,0,,Are you recovering okay?
+Dialogue: 0,0:19:40.71,0:19:41.33,Dialogue,,0,0,0,,I guess.
+Dialogue: 0,0:19:42.42,0:19:43.31,Dialogue,,0,0,0,,I'm glad.
+Dialogue: 0,0:19:45.80,0:19:47.80,Dialogue,,0,0,0,,What would we do if we were friends?
+Dialogue: 0,0:19:48.56,0:19:50.60,Dialogue,,0,0,0,,We could go to a burger place.
+Dialogue: 0,0:19:52.15,0:19:53.39,Dialogue,,0,0,0,,And then what?
+Dialogue: 0,0:19:55.85,0:19:58.36,Dialogue,,0,0,0,,You and I would eat.
+Dialogue: 0,0:19:59.07,0:20:00.86,Dialogue,,0,0,0,,Fries, burgers, that kind of thing.
+Dialogue: 0,0:20:01.70,0:20:05.38,Dialogue,,0,0,0,,We'd both eat them together, at the same table.
+Dialogue: 0,0:20:06.91,0:20:08.38,Dialogue,,0,0,0,,Is that fun?
+Dialogue: 0,0:20:11.83,0:20:12.66,Dialogue,,0,0,0,,I wonder.
+Dialogue: 0,0:20:13.84,0:20:14.24,Dialogue,,0,0,0,,Here.
+Dialogue: 0,0:20:16.26,0:20:16.93,Dialogue,,0,0,0,,Thanks.
+Dialogue: 0,0:20:25.01,0:20:26.84,Dialogue,,0,0,0,,This smells amazing!
+Dialogue: 0,0:20:30.06,0:20:30.71,Dialogue,,0,0,0,,You're right.
+Dialogue: 0,0:20:31.68,0:20:32.08,Dialogue,,0,0,0,,Right?
+Dialogue: 0,0:20:45.74,0:20:47.10,Dialogue,,0,0,0,,Maybe once in a while.\NHm?
+Dialogue: 0,0:22:47.36,0:22:48.03,Dialogue,,0,0,0,,To be continued.

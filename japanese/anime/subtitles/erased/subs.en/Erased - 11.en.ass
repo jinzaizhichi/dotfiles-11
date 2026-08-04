@@ -1,0 +1,266 @@
+[Script Info]
+Title: Erased - 11
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1280
+PlayResY: 720
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Dialogue,Noto Sans,46,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,40,40,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:03.46,0:00:05.89,Dialogue,,0,0,0,,{\i1}Let me tell you a story about my past.
+Dialogue: 0,0:00:06.82,0:00:09.74,Dialogue,,0,0,0,,{\i1}It was back when I was in sixth grade.
+Dialogue: 0,0:00:10.66,0:00:16.80,Dialogue,,0,0,0,,{\i1}One of the girls in my class brought a box\Nwith around seven or eight hamsters to me.
+Dialogue: 0,0:00:17.72,0:00:22.26,Dialogue,,0,0,0,,{\i1}She'd carelessly let them breed...
+Dialogue: 0,0:00:17.72,0:00:23.62,Dialogue,,0,0,0,,{\i1}...and had no idea what to do \Nsince she couldn't keep them all.
+Dialogue: 0,0:00:24.52,0:00:29.58,Dialogue,,0,0,0,,{\i1}I took them home,\Nfilled a large wine bottle with water,
+Dialogue: 0,0:00:29.82,0:00:32.01,Dialogue,,0,0,0,,{\i1}and dropped them all in it.
+Dialogue: 0,0:00:32.81,0:00:38.18,Dialogue,,0,0,0,,{\i1}When I returned to my room\Nafter dinner three hours later,\N{\i1}I was fascinated by what I saw.
+Dialogue: 0,0:00:39.53,0:00:46.15,Dialogue,,0,0,0,,{\i1}One of the hamsters had managed to stay alive\Nby standing on the other lifeless corpses.
+Dialogue: 0,0:00:47.00,0:00:48.63,Dialogue,,0,0,0,,{\i1}It honestly gave me goosebumps.
+Dialogue: 0,0:00:49.37,0:00:52.64,Dialogue,,0,0,0,,{\i1}I decided to keep it and named it Spice.
+Dialogue: 0,0:00:53.43,0:00:58.62,Dialogue,,0,0,0,,{\i1}What I saw reminded me of\Nthe short story, "The Spider's Thread."
+Dialogue: 0,0:00:59.16,0:01:00.07,Dialogue,,0,0,0,,{\i1}Have you heard of it?
+Dialogue: 0,0:01:00.47,0:01:04.64,Dialogue,,0,0,0,,{\i1}A sinner named Kandata was a cold-blooded\Ncriminal who'd been sent to Hell,
+Dialogue: 0,0:01:04.96,0:01:08.96,Dialogue,,0,0,0,,{\i1}but he had performed one act of compassion\Nin his life by sparing a spider's life.
+Dialogue: 0,0:01:09.30,0:01:12.38,Dialogue,,0,0,0,,{\i1}Moved by it, Buddha lowers\Na spider's thread from Paradise to Hell.
+Dialogue: 0,0:01:12.96,0:01:15.88,Dialogue,,0,0,0,,{\i1}Kandata begins climbing it to Paradise,
+Dialogue: 0,0:01:16.05,0:01:20.85,Dialogue,,0,0,0,,{\i1}but he kicks off all the other sinners\Nwho tried to follow him.
+Dialogue: 0,0:01:22.81,0:01:26.71,Dialogue,,0,0,0,,{\i1}At that moment, the thread breaks,\Ncasting him back down to the depths of Hell.
+Dialogue: 0,0:01:28.78,0:01:32.55,Dialogue,,0,0,0,,{\i1}You might not believe this, but I'll tell you anyway.
+Dialogue: 0,0:01:33.13,0:01:35.83,Dialogue,,0,0,0,,{\i1}Actually, you might understand.
+Dialogue: 0,0:01:36.55,0:01:38.29,Dialogue,,0,0,0,,{\i1}Ever since I met Spice,
+Dialogue: 0,0:01:39.38,0:01:42.21,Dialogue,,0,0,0,,{\i1}I've started seeing spider's threads\Nevery now and then.
+Dialogue: 0,0:01:43.18,0:01:45.83,Dialogue,,0,0,0,,{\i1}I've killed anyone I've seen\Nwith one dangling above their head.
+Dialogue: 0,0:01:46.82,0:01:51.05,Dialogue,,0,0,0,,{\i1}But this one time, a boy foiled my plans.
+Dialogue: 0,0:01:51.41,0:01:55.94,Dialogue,,0,0,0,,{\i1}And then, a spider's thread\Nappeared above his head, too.
+Dialogue: 0,0:01:57.14,0:01:58.90,Dialogue,,0,0,0,,Yashiro!
+Dialogue: 0,0:01:59.01,0:02:01.88,Dialogue,,0,0,0,,I know what lies in your future!
+Dialogue: 0,0:02:02.79,0:02:06.02,Dialogue,,0,0,0,,{\i1}But the boy didn't die.
+Dialogue: 0,0:02:07.38,0:02:11.51,Dialogue,,0,0,0,,{\i1}I named him Spice and decided to observe him.
+Dialogue: 0,0:02:13.34,0:02:15.78,Dialogue,,0,0,0,,{\i1}That's you, Satoru.
+Dialogue: 0,0:03:50.81,0:03:53.81,Dialogue,,0,0,0,,That will be 987 yen.
+Dialogue: 0,0:03:54.52,0:03:55.64,Dialogue,,0,0,0,,Thank you.
+Dialogue: 0,0:04:44.69,0:04:47.88,Dialogue,,0,0,0,,{\i1}Come to think of it,\Ndidn't Satoru mention this one time?
+Dialogue: 0,0:04:50.40,0:04:54.09,Dialogue,,0,0,0,,You can actually take a direct train to Ueno.
+Dialogue: 0,0:04:55.62,0:04:56.49,Dialogue,,0,0,0,,{\i1}It's true.
+Dialogue: 0,0:04:57.61,0:04:59.68,Dialogue,,0,0,0,,{\i1}Just why did he say that?
+Dialogue: 0,0:05:52.61,0:05:54.58,Dialogue,,0,0,0,,Good morning, Satoru!
+Dialogue: 0,0:06:03.28,0:06:04.88,Dialogue,,0,0,0,,Yeah, this is quite remarkable.
+Dialogue: 0,0:06:05.53,0:06:07.50,Dialogue,,0,0,0,,You don't seem like you spent\Nfifteen years in a coma.
+Dialogue: 0,0:06:08.32,0:06:11.59,Dialogue,,0,0,0,,Fifteen... years...
+Dialogue: 0,0:06:12.84,0:06:13.92,Dialogue,,0,0,0,,Wow, you can speak already?
+Dialogue: 0,0:06:14.13,0:06:16.63,Dialogue,,0,0,0,,Looks like you'll be able\Nto begin rehabilitation soon.
+Dialogue: 0,0:06:19.85,0:06:26.93,Dialogue,,0,0,0,,{\i1}For fifteen whole years, Mom spent \Nfour hours every day taking care of my body.
+Dialogue: 0,0:06:28.56,0:06:32.57,Dialogue,,0,0,0,,{\i1}And for the last three years,
+Dialogue: 0,0:06:28.56,0:06:35.21,Dialogue,,0,0,0,,{\i1}she's been using something called \Nan EMS device to prepare for the day I woke up.
+Dialogue: 0,0:06:36.45,0:06:39.08,Dialogue,,0,0,0,,{\i1}She kept my joints and muscles in shape.
+Dialogue: 0,0:06:40.44,0:06:47.04,Dialogue,,0,0,0,,{\i1}I was 139 cm tall back in fifth grade,\Nbut now I am 169 cm tall.
+Dialogue: 0,0:06:48.25,0:06:53.94,Dialogue,,0,0,0,,{\i1}Dr. Kitamura kept alternating between\N"This is all thanks to your mother"\N{\i1}and "I can't believe this" over and over.
+Dialogue: 0,0:06:55.19,0:06:58.52,Dialogue,,0,0,0,,All right, Satoru-kun. I think it's about time.
+Dialogue: 0,0:06:58.95,0:07:00.46,Dialogue,,0,0,0,,Answer this question.
+Dialogue: 0,0:07:01.38,0:07:05.51,Dialogue,,0,0,0,,What's the last thing you remember\Nfrom before you fell into the coma?
+Dialogue: 0,0:07:06.16,0:07:08.80,Dialogue,,0,0,0,,The last thing I remember...
+Dialogue: 0,0:07:15.68,0:07:16.29,Dialogue,,0,0,0,,{\i1}Huh?
+Dialogue: 0,0:07:17.60,0:07:18.17,Dialogue,,0,0,0,,{\i1}Huh?
+Dialogue: 0,0:07:19.27,0:07:20.36,Dialogue,,0,0,0,,{\i1}What happened, again?
+Dialogue: 0,0:07:24.29,0:07:28.38,Dialogue,,0,0,0,,{\i1}Those memories had been\Nlocked up tightly behind a closed door.
+Dialogue: 0,0:07:31.97,0:07:32.81,Dialogue,,0,0,0,,Do you want to see yourself?
+Dialogue: 0,0:07:36.39,0:07:37.25,Dialogue,,0,0,0,,You're taking it in stride, huh?
+Dialogue: 0,0:07:38.37,0:07:42.12,Dialogue,,0,0,0,,I mean, your face must look a lot different\Nfrom when you were eleven.
+Dialogue: 0,0:07:42.50,0:07:45.08,Dialogue,,0,0,0,,But well, considering how\Nyour memories are all jumbled up,
+Dialogue: 0,0:07:45.30,0:07:48.82,Dialogue,,0,0,0,,maybe you're still having trouble\Nzeroing in on your own identity.
+Dialogue: 0,0:07:49.06,0:07:52.23,Dialogue,,0,0,0,,{\i1}At first, I accepted his words at face value,
+Dialogue: 0,0:07:52.89,0:07:56.65,Dialogue,,0,0,0,,{\i1}but the term "Heisei era", \Nwhich I should've never seen before,
+Dialogue: 0,0:07:57.13,0:07:58.95,Dialogue,,0,0,0,,{\i1}didn't seem at all unfamiliar.
+Dialogue: 0,0:07:59.92,0:08:00.66,Dialogue,,0,0,0,,{\i1}"Endure."
+Dialogue: 0,0:08:00.68,0:08:01.86,Dialogue,,0,0,0,,{\i1}"Heart rate monitor."
+Dialogue: 0,0:08:02.13,0:08:04.20,Dialogue,,0,0,0,,{\i1}"Feeling of loss."\N{\i1}"Arbitration."
+Dialogue: 0,0:08:05.22,0:08:06.31,Dialogue,,0,0,0,,{\i1}I can read all these words.
+Dialogue: 0,0:08:06.92,0:08:09.01,Dialogue,,0,0,0,,Just when did I learn them?
+Dialogue: 0,0:08:10.50,0:08:12.49,Dialogue,,0,0,0,,{\i1}What's with me?
+Dialogue: 0,0:08:17.18,0:08:18.46,Dialogue,,0,0,0,,Good morning, Satoru.
+Dialogue: 0,0:08:20.24,0:08:21.08,Dialogue,,0,0,0,,Morning.
+Dialogue: 0,0:08:21.38,0:08:23.78,Dialogue,,0,0,0,,You have visitors.
+Dialogue: 0,0:08:24.90,0:08:26.20,Dialogue,,0,0,0,,Long time no see, Satoru.
+Dialogue: 0,0:08:26.30,0:08:28.18,Dialogue,,0,0,0,,You seem well, Satoru-kun.
+Dialogue: 0,0:08:29.91,0:08:34.50,Dialogue,,0,0,0,,{\i1}Kobayashi Kenya and Sugita Hiromi\Nwere two classmates of mine I was close to.
+Dialogue: 0,0:08:35.24,0:08:38.02,Dialogue,,0,0,0,,{\i1}Kenya had become a lawyer, and Hiromi a doctor.
+Dialogue: 0,0:08:39.46,0:08:41.56,Dialogue,,0,0,0,,{\i1}I had fun talking to them\Nabout the most pointless things.
+Dialogue: 0,0:08:43.11,0:08:45.81,Dialogue,,0,0,0,,{\i1}Kenya looked like he wanted to ask me something,
+Dialogue: 0,0:08:46.39,0:08:49.02,Dialogue,,0,0,0,,{\i1}but I think Mom had told him to tread carefully.
+Dialogue: 0,0:08:50.18,0:08:52.41,Dialogue,,0,0,0,,{\i1}So we ended up just chatting that day.
+Dialogue: 0,0:08:54.47,0:08:55.06,Dialogue,,0,0,0,,Laters.
+Dialogue: 0,0:08:55.35,0:08:56.07,Dialogue,,0,0,0,,Laters.
+Dialogue: 0,0:08:58.93,0:09:01.78,Dialogue,,0,0,0,,{\i1}There were a lot of questions\NI wanted to ask them, too,
+Dialogue: 0,0:09:02.53,0:09:06.25,Dialogue,,0,0,0,,{\i1}but it seemed like Mom was trying to\Nprevent me from talking about my past.
+Dialogue: 0,0:09:07.78,0:09:10.72,Dialogue,,0,0,0,,{\i1}Mom had been living solely\Nfor my sake for fifteen years,
+Dialogue: 0,0:09:11.06,0:09:13.42,Dialogue,,0,0,0,,{\i1}holding onto the belief I would awaken someday.
+Dialogue: 0,0:09:14.79,0:09:19.20,Dialogue,,0,0,0,,{\i1}If she doesn't want me to remember,\Nthen maybe I don't have to.
+Dialogue: 0,0:09:28.47,0:09:29.43,Dialogue,,0,0,0,,Are you okay?
+Dialogue: 0,0:09:29.94,0:09:31.53,Dialogue,,0,0,0,,Shall we call it a day?
+Dialogue: 0,0:09:40.26,0:09:41.04,Dialogue,,0,0,0,,Satoru!
+Dialogue: 0,0:10:03.56,0:10:05.20,Dialogue,,0,0,0,,Congratulations, Kayo.
+Dialogue: 0,0:10:08.37,0:10:11.36,Dialogue,,0,0,0,,I got married. I'm Sugita Kayo now.
+Dialogue: 0,0:10:12.33,0:10:14.06,Dialogue,,0,0,0,,Oh, so Hiromi's the father?\NYeah.
+Dialogue: 0,0:10:15.09,0:10:18.58,Dialogue,,0,0,0,,I knew he wanted to say something to me.\NI guess it was about you and your child.
+Dialogue: 0,0:10:19.09,0:10:19.59,Dialogue,,0,0,0,,Probably.
+Dialogue: 0,0:10:20.01,0:10:22.87,Dialogue,,0,0,0,,Come to think of it,\Nthe baby has Hiromi's long eyelashes.
+Dialogue: 0,0:10:23.06,0:10:25.49,Dialogue,,0,0,0,,Yeah, even though he's a boy.
+Dialogue: 0,0:10:25.94,0:10:27.08,Dialogue,,0,0,0,,His name's Mirai.
+Dialogue: 0,0:10:27.57,0:10:28.76,Dialogue,,0,0,0,,Mirai... "Future," huh?
+Dialogue: 0,0:10:29.09,0:10:30.02,Dialogue,,0,0,0,,That's a great name.
+Dialogue: 0,0:10:32.31,0:10:35.49,Dialogue,,0,0,0,,Satoru...
+Dialogue: 0,0:10:32.31,0:10:39.06,Dialogue,,0,0,0,,Honestly, we didn't know if it was right\Nfor us to find happiness by ourselves.
+Dialogue: 0,0:10:39.69,0:10:44.17,Dialogue,,0,0,0,,I mean, it could've been our fault\Nthat you ended up in a coma.
+Dialogue: 0,0:10:44.88,0:10:45.65,Dialogue,,0,0,0,,It kind of felt like...
+Dialogue: 0,0:10:46.69,0:10:48.96,Dialogue,,0,0,0,,we were leaving you behind.
+Dialogue: 0,0:10:51.10,0:10:53.75,Dialogue,,0,0,0,,Kayo, I hold my fate in my own hands.
+Dialogue: 0,0:10:54.22,0:10:56.29,Dialogue,,0,0,0,,You don't have to feel guilty about anything.
+Dialogue: 0,0:10:56.88,0:11:00.85,Dialogue,,0,0,0,,I'm sure I am who I am right now\Nas a result of my own choices.
+Dialogue: 0,0:11:02.54,0:11:06.27,Dialogue,,0,0,0,,For a guy who spent fifteen years in a coma,\Nyou've still got a way with words.
+Dialogue: 0,0:11:09.50,0:11:10.92,Dialogue,,0,0,0,,But you know what, Satoru?
+Dialogue: 0,0:11:11.42,0:11:14.57,Dialogue,,0,0,0,,Before, I could only ever picture\Na life of solitude for myself,
+Dialogue: 0,0:11:14.88,0:11:16.90,Dialogue,,0,0,0,,but now I have a family to call my own.
+Dialogue: 0,0:11:17.32,0:11:19.02,Dialogue,,0,0,0,,And it's all because you were there for me.
+Dialogue: 0,0:11:19.67,0:11:20.39,Dialogue,,0,0,0,,Thank you.
+Dialogue: 0,0:11:22.06,0:11:23.81,Dialogue,,0,0,0,,{\i1}"Thank you," huh?
+Dialogue: 0,0:11:25.59,0:11:27.09,Dialogue,,0,0,0,,{\i1}What did I do?
+Dialogue: 0,0:11:30.87,0:11:33.38,Dialogue,,0,0,0,,There, there! Hungry, are we?
+Dialogue: 0,0:11:33.45,0:11:34.47,Dialogue,,0,0,0,,There, there.
+Dialogue: 0,0:11:43.19,0:11:45.44,Dialogue,,0,0,0,,Satoru? Are you all right?
+Dialogue: 0,0:11:45.67,0:11:46.62,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:11:46.68,0:11:50.24,Dialogue,,0,0,0,,Sorry for springing all this on you at once.\NMust've worn you out.
+Dialogue: 0,0:11:51.83,0:11:53.30,Dialogue,,0,0,0,,Bye. I'll come visit you again.
+Dialogue: 0,0:11:53.56,0:11:54.87,Dialogue,,0,0,0,,Sure. Laters.
+Dialogue: 0,0:12:12.46,0:12:14.71,Dialogue,,0,0,0,,Oh, you're back already?\NYeah.
+Dialogue: 0,0:12:16.45,0:12:18.37,Dialogue,,0,0,0,,Hinazuki dropped by earlier.
+Dialogue: 0,0:12:18.52,0:12:20.36,Dialogue,,0,0,0,,Yeah, I ran into her too.
+Dialogue: 0,0:12:20.70,0:12:22.56,Dialogue,,0,0,0,,Her baby's adorable, isn't he?
+Dialogue: 0,0:12:25.91,0:12:27.82,Dialogue,,0,0,0,,Say, Mom...
+Dialogue: 0,0:12:28.62,0:12:29.35,Dialogue,,0,0,0,,What is it?
+Dialogue: 0,0:12:31.04,0:12:32.41,Dialogue,,0,0,0,,They're here again?!
+Dialogue: 0,0:12:34.01,0:12:34.52,Dialogue,,0,0,0,,Who is?
+Dialogue: 0,0:12:35.18,0:12:37.00,Dialogue,,0,0,0,,Gossip magazine photographers.
+Dialogue: 0,0:12:37.58,0:12:41.03,Dialogue,,0,0,0,,They want to cover your story now that\Nyou've awoken from a fifteen-year coma.
+Dialogue: 0,0:12:41.14,0:12:42.34,Dialogue,,0,0,0,,Oh, right.
+Dialogue: 0,0:12:42.87,0:12:45.21,Dialogue,,0,0,0,,You were saying something?
+Dialogue: 0,0:12:45.62,0:12:48.04,Dialogue,,0,0,0,,Nah. Never mind.
+Dialogue: 0,0:12:49.76,0:12:50.53,Dialogue,,0,0,0,,Come in.
+Dialogue: 0,0:12:53.90,0:12:54.85,Dialogue,,0,0,0,,Hello.
+Dialogue: 0,0:12:54.95,0:12:56.63,Dialogue,,0,0,0,,Thank you for doing this.
+Dialogue: 0,0:12:57.73,0:13:01.51,Dialogue,,0,0,0,,When will I be able to walk again, Dr. Kitamura?
+Dialogue: 0,0:13:02.21,0:13:04.20,Dialogue,,0,0,0,,I couldn't say. It's all up to you.
+Dialogue: 0,0:13:04.64,0:13:07.48,Dialogue,,0,0,0,,Then double my rehab regimen from today.
+Dialogue: 0,0:13:08.84,0:13:10.29,Dialogue,,0,0,0,,I want to walk outside as soon as possible.
+Dialogue: 0,0:13:12.29,0:13:13.33,Dialogue,,0,0,0,,I'll consider it.
+Dialogue: 0,0:13:13.92,0:13:14.73,Dialogue,,0,0,0,,Excuse me.
+Dialogue: 0,0:13:16.01,0:13:18.25,Dialogue,,0,0,0,,Yes. Thank you, Director.
+Dialogue: 0,0:13:19.02,0:13:20.50,Dialogue,,0,0,0,,He's making a steady recovery.
+Dialogue: 0,0:13:21.18,0:13:23.67,Dialogue,,0,0,0,,He could regain his memories anytime now.
+Dialogue: 0,0:13:25.27,0:13:29.65,Dialogue,,0,0,0,,No.\NLike I said the other day,\NI'll have to turn you down.
+Dialogue: 0,0:13:30.36,0:13:32.56,Dialogue,,0,0,0,,My patient isn't some guinea pig—
+Dialogue: 0,0:13:35.65,0:13:36.63,Dialogue,,0,0,0,,Goodbye.
+Dialogue: 0,0:13:40.01,0:13:41.78,Dialogue,,0,0,0,,That's great, Satoru-kun!
+Dialogue: 0,0:13:42.08,0:13:44.14,Dialogue,,0,0,0,,Your limbs have gotten a lot stronger.
+Dialogue: 0,0:14:08.41,0:14:09.69,Dialogue,,0,0,0,,Congrats, Satoru-kun!
+Dialogue: 0,0:14:09.73,0:14:12.98,Dialogue,,0,0,0,,You're amazing, Fujinuma-san!\NI can't believe you went the distance!
+Dialogue: 0,0:14:13.03,0:14:14.04,Dialogue,,0,0,0,,Great job hanging in there.
+Dialogue: 0,0:14:27.20,0:14:30.53,Dialogue,,0,0,0,,Kenya-kun's here to see you, Satoru.
+Dialogue: 0,0:14:30.95,0:14:32.05,Dialogue,,0,0,0,,Hey, Kenya.
+Dialogue: 0,0:14:32.28,0:14:33.76,Dialogue,,0,0,0,,Sorry for coming so late.
+Dialogue: 0,0:14:34.30,0:14:35.88,Dialogue,,0,0,0,,Nah. Thanks for coming.
+Dialogue: 0,0:14:36.26,0:14:37.65,Dialogue,,0,0,0,,Hello, Satoru-kun.
+Dialogue: 0,0:14:40.36,0:14:41.52,Dialogue,,0,0,0,,Nice to meet you.
+Dialogue: 0,0:14:41.85,0:14:43.83,Dialogue,,0,0,0,,I used to work with your mother.
+Dialogue: 0,0:14:44.01,0:14:48.00,Dialogue,,0,0,0,,We've met several times before\Nyou started elementary school.
+Dialogue: 0,0:14:49.20,0:14:53.98,Dialogue,,0,0,0,,Come on, that was more than twenty years ago!\NThere's no way he'd remember.
+Dialogue: 0,0:14:59.13,0:15:00.45,Dialogue,,0,0,0,,Bye. I'll come again.
+Dialogue: 0,0:15:01.40,0:15:02.09,Dialogue,,0,0,0,,Take care.
+Dialogue: 0,0:15:04.92,0:15:08.46,Dialogue,,0,0,0,,We've waited fifteen long years.\NWhat's the point of rushing now?
+Dialogue: 0,0:15:08.95,0:15:10.28,Dialogue,,0,0,0,,Let's take it slow and steady.
+Dialogue: 0,0:15:10.90,0:15:11.40,Dialogue,,0,0,0,,Right.
+Dialogue: 0,0:15:21.72,0:15:22.57,Dialogue,,0,0,0,,Hello.
+Dialogue: 0,0:15:25.80,0:15:26.68,Dialogue,,0,0,0,,Oh...
+Dialogue: 0,0:15:27.18,0:15:29.05,Dialogue,,0,0,0,,So you're having surgery in two weeks, Kumi-chan.
+Dialogue: 0,0:15:29.74,0:15:32.64,Dialogue,,0,0,0,,Onee-chan's giving me this "bone marrow" thing.
+Dialogue: 0,0:15:33.43,0:15:34.76,Dialogue,,0,0,0,,They say it'll cure me.
+Dialogue: 0,0:15:36.18,0:15:38.60,Dialogue,,0,0,0,,But I'm scared.
+Dialogue: 0,0:15:42.46,0:15:44.89,Dialogue,,0,0,0,,Is it true you were asleep for fifteen years?
+Dialogue: 0,0:15:45.77,0:15:49.43,Dialogue,,0,0,0,,You've been here around three months, huh?
+Dialogue: 0,0:15:50.19,0:15:51.03,Dialogue,,0,0,0,,Yep.
+Dialogue: 0,0:15:51.13,0:15:54.87,Dialogue,,0,0,0,,I've been doing my best\Nso I'd look good in front of you.
+Dialogue: 0,0:15:55.67,0:15:57.50,Dialogue,,0,0,0,,If you're gone, I'll lose all motivation.
+Dialogue: 0,0:16:06.22,0:16:06.81,Dialogue,,0,0,0,,Courage...
+Dialogue: 0,0:16:09.81,0:16:12.33,Dialogue,,0,0,0,,Want me to teach you how to muster up courage?
+Dialogue: 0,0:16:13.68,0:16:15.85,Dialogue,,0,0,0,,Picture the smiles of the people you care about.
+Dialogue: 0,0:16:16.92,0:16:18.50,Dialogue,,0,0,0,,With a smile on your face too, of course.
+Dialogue: 0,0:16:22.40,0:16:23.88,Dialogue,,0,0,0,,"A drifter in time.
+Dialogue: 0,0:16:24.24,0:16:26.90,Dialogue,,0,0,0,,Man who wakes up after\Nfifteen-year coma still likes little girls.
+Dialogue: 0,0:16:27.36,0:16:30.79,Dialogue,,0,0,0,,Adult in body, child at heart.\NHe gets discharged soon!"
+Dialogue: 0,0:16:31.08,0:16:32.12,Dialogue,,0,0,0,,How's that for a story?
+Dialogue: 0,0:16:32.26,0:16:33.09,Dialogue,,0,0,0,,Nice.
+Dialogue: 0,0:16:35.46,0:16:40.56,Dialogue,,0,0,0,,Secretly photographing\Ncivilians on hospital grounds,\Nlibel, and trespassing.
+Dialogue: 0,0:16:40.97,0:16:43.44,Dialogue,,0,0,0,,More than enough to get you punished by law.
+Dialogue: 0,0:16:43.60,0:16:45.17,Dialogue,,0,0,0,,Get out of here right now.
+Dialogue: 0,0:16:47.76,0:16:49.97,Dialogue,,0,0,0,,That flower was really pretty.
+Dialogue: 0,0:16:51.21,0:16:53.21,Dialogue,,0,0,0,,Oh, Nishizono-san!\NHello!
+Dialogue: 0,0:16:53.45,0:16:54.50,Dialogue,,0,0,0,,Hey, Kumi-chan.
+Dialogue: 0,0:16:57.28,0:16:58.82,Dialogue,,0,0,0,,Fujinuma Satoru-kun...
+Dialogue: 0,0:17:00.26,0:17:00.68,Dialogue,,0,0,0,,Y-Yes?
+Dialogue: 0,0:17:01.37,0:17:04.04,Dialogue,,0,0,0,,It's me. Did you forget?
+Dialogue: 0,0:17:04.86,0:17:08.08,Dialogue,,0,0,0,,Well, I guess I have changed a lot myself.
+Dialogue: 0,0:17:08.64,0:17:12.05,Dialogue,,0,0,0,,Look. I'm your homeroom teacher from fifth grade...
+Dialogue: 0,0:17:12.84,0:17:13.99,Dialogue,,0,0,0,,Yashiro Gaku.
+Dialogue: 0,0:17:16.34,0:17:18.82,Dialogue,,0,0,0,,I go by Nishizono now.
+Dialogue: 0,0:17:19.13,0:17:21.01,Dialogue,,0,0,0,,I also changed my first name to Manabu.
+Dialogue: 0,0:17:22.43,0:17:24.70,Dialogue,,0,0,0,,Why did you change your name?
+Dialogue: 0,0:17:24.95,0:17:28.98,Dialogue,,0,0,0,,I got married five years ago and was adopted\Ninto my wife's family as a son-in-law.
+Dialogue: 0,0:17:30.75,0:17:34.35,Dialogue,,0,0,0,,My father-in-law had been a city councilor for ages,
+Dialogue: 0,0:17:34.80,0:17:36.29,Dialogue,,0,0,0,,but he passed away three years ago.
+Dialogue: 0,0:17:36.62,0:17:39.48,Dialogue,,0,0,0,,I inherited his constituency\Nand became a councilor myself.
+Dialogue: 0,0:17:39.93,0:17:43.53,Dialogue,,0,0,0,,That's when I switched to the more\Ncommon reading of my name.
+Dialogue: 0,0:17:43.97,0:17:45.87,Dialogue,,0,0,0,,So you're a politician now?
+Dialogue: 0,0:17:46.42,0:17:48.19,Dialogue,,0,0,0,,Yeah, but I'm still in my first year.
+Dialogue: 0,0:17:49.98,0:17:53.68,Dialogue,,0,0,0,,But I think you'll make for\Na fine politician, Yashiro-sensei.
+Dialogue: 0,0:17:56.73,0:18:00.84,Dialogue,,0,0,0,,I met Kumi-chan at a charity event for leukemia.
+Dialogue: 0,0:18:01.26,0:18:04.79,Dialogue,,0,0,0,,I happen to know one of this hospital's\Ndirectors, so I referred her here.
+Dialogue: 0,0:18:05.26,0:18:06.46,Dialogue,,0,0,0,,Is that so?
+Dialogue: 0,0:18:07.20,0:18:10.48,Dialogue,,0,0,0,,I found out that you had regained\Nconsciousness much earlier,
+Dialogue: 0,0:18:10.77,0:18:13.04,Dialogue,,0,0,0,,but it took me this long to come visit you.
+Dialogue: 0,0:18:15.16,0:18:17.17,Dialogue,,0,0,0,,You came all the way to see me today?
+Dialogue: 0,0:18:18.10,0:18:22.14,Dialogue,,0,0,0,,I'd been eagerly waiting for you\Nto wake for fifteen years.
+Dialogue: 0,0:18:23.73,0:18:24.34,Dialogue,,0,0,0,,Thank you.
+Dialogue: 0,0:18:25.38,0:18:27.46,Dialogue,,0,0,0,,Hey, we went through a lot together.
+Dialogue: 0,0:18:28.26,0:18:30.50,Dialogue,,0,0,0,,Sorry, I...
+Dialogue: 0,0:18:30.94,0:18:32.50,Dialogue,,0,0,0,,Yeah, I heard.
+Dialogue: 0,0:18:34.61,0:18:37.21,Dialogue,,0,0,0,,You haven't regained all your memories yet, right?
+Dialogue: 0,0:18:38.01,0:18:39.75,Dialogue,,0,0,0,,You can regain them one step at a time.
+Dialogue: 0,0:19:21.21,0:19:21.61,Dialogue,,0,0,0,,Hey.
+Dialogue: 0,0:19:24.07,0:19:25.16,Dialogue,,0,0,0,,Oh, Yashiro-sensei.
+Dialogue: 0,0:19:25.45,0:19:27.05,Dialogue,,0,0,0,,Are you going to see Kumi-chan too?
+Dialogue: 0,0:19:27.46,0:19:29.56,Dialogue,,0,0,0,,Yes. I heard that her surgery's\Nthe day after tomorrow,
+Dialogue: 0,0:19:29.68,0:19:32.04,Dialogue,,0,0,0,,so today's the last day she can have visitors.
+Dialogue: 0,0:19:32.58,0:19:35.04,Dialogue,,0,0,0,,Yeah. I just saw her myself.
+Dialogue: 0,0:19:35.18,0:19:38.48,Dialogue,,0,0,0,,That said, she was fast asleep, so I couldn't talk to her.
+Dialogue: 0,0:19:38.88,0:19:41.89,Dialogue,,0,0,0,,Oh...\NMaybe I should come back later, then.
+Dialogue: 0,0:19:43.58,0:19:45.69,Dialogue,,0,0,0,,Since you're here, mind chatting for a bit?
+Dialogue: 0,0:19:46.32,0:19:49.69,Dialogue,,0,0,0,,Sure, but we don't want\Nthe paparazzi interrupting us.
+Dialogue: 0,0:19:49.81,0:19:50.93,Dialogue,,0,0,0,,Why don't we go someplace quieter?
+Dialogue: 0,0:19:54.39,0:19:56.54,Dialogue,,0,0,0,,In fact, I know the perfect place.
+Dialogue: 0,0:20:01.94,0:20:05.70,Dialogue,,0,0,0,,You didn't know about this elevator, did you?
+Dialogue: 0,0:20:07.68,0:20:09.41,Dialogue,,0,0,0,,This is a bit like an adventure, isn't it?
+Dialogue: 0,0:20:17.97,0:20:19.70,Dialogue,,0,0,0,,Press the roof button for me, would you?
+Dialogue: 0,0:20:39.53,0:20:40.38,Dialogue,,0,0,0,,That's a shame.
+Dialogue: 0,0:20:41.37,0:20:44.00,Dialogue,,0,0,0,,On a clear day, we'd get to see a beautiful\Nsunset from here right about now.
+Dialogue: 0,0:20:44.94,0:20:47.88,Dialogue,,0,0,0,,Still, no sketchy photographers will come up here.
+Dialogue: 0,0:20:48.81,0:20:51.84,Dialogue,,0,0,0,,This place is technically off-limits,\Nso keep this a secret.
+Dialogue: 0,0:20:53.33,0:21:00.07,Dialogue,,0,0,0,,{\q2}Reminds me of how you, Kenya, Hiromi, and the rest\Nalways talked about going to your secret "hideout."
+Dialogue: 0,0:21:01.42,0:21:02.05,Dialogue,,0,0,0,,Yashiro.
+Dialogue: 0,0:21:08.12,0:21:09.30,Dialogue,,0,0,0,,I've regained...
+Dialogue: 0,0:21:09.89,0:21:11.00,Dialogue,,0,0,0,,my memories!

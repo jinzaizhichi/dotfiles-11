@@ -1,0 +1,352 @@
+[Script Info]
+Title: Fullmetal_Alchemist 23 - Fullmetal Heart
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1280
+PlayResY: 720
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Dialogue,Noto Sans,46,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,40,40,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:04.32,0:00:05.99,Dialogue,,0,0,0,,Edward-san!
+Dialogue: 0,0:00:06.37,0:00:08.41,Dialogue,,0,0,0,,Thank goodness!\NYou're coming around, right?
+Dialogue: 0,0:00:10.49,0:00:11.54,Dialogue,,0,0,0,,Where am I?
+Dialogue: 0,0:00:13.58,0:00:15.62,Dialogue,,0,0,0,,Al!
+Dialogue: 0,0:00:30.89,0:00:34.81,Dialogue,,0,0,0,,Man cannot obtain anything\Nwithout first sacrificing something.
+Dialogue: 0,0:00:35.60,0:00:39.40,Dialogue,,0,0,0,,In order to obtain anything,\Nsomething of equal value is required.
+Dialogue: 0,0:00:39.86,0:00:44.40,Dialogue,,0,0,0,,That is alchemy's\NLaw of Equivalent Exchange.
+Dialogue: 0,0:00:45.65,0:00:50.49,Dialogue,,0,0,0,,At the time, we believed that\Nto be the true way of the world.
+Dialogue: 0,0:02:26.38,0:02:30.09,Dialogue,,0,0,0,,Sorry about that.\NI'll get you back to normal right away, okay?
+Dialogue: 0,0:02:30.80,0:02:32.80,Dialogue,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:02:37.31,0:02:41.10,Dialogue,,0,0,0,,Edward-san, what in the world\Nhappened at the 5th Laboratory?
+Dialogue: 0,0:02:42.40,0:02:43.48,Dialogue,,0,0,0,,Nothing much.
+Dialogue: 0,0:02:43.56,0:02:46.07,Dialogue,,0,0,0,,Nothing much? And you were this seriously injured?
+Dialogue: 0,0:02:46.28,0:02:48.19,Dialogue,,0,0,0,,It's no big deal.
+Dialogue: 0,0:02:48.28,0:02:52.99,Dialogue,,0,0,0,,Jeez, and I was just one step away from getting my hand on the truth, too.
+Dialogue: 0,0:03:01.50,0:03:04.79,Dialogue,,0,0,0,,Well, next time, I won't botch things—
+Dialogue: 0,0:03:03.29,0:03:04.79,Dialogue,,0,0,0,,Edward-san!
+Dialogue: 0,0:03:05.00,0:03:06.63,Dialogue,,0,0,0,,I apologize in advance\Nfor my discourtesy.
+Dialogue: 0,0:03:15.30,0:03:17.60,Dialogue,,0,0,0,,You nearly lost your life!
+Dialogue: 0,0:03:18.06,0:03:21.10,Dialogue,,0,0,0,,You should recognize that you are still a child!
+Dialogue: 0,0:03:22.02,0:03:25.61,Dialogue,,0,0,0,,You could trust us adults\Na little more, couldn't you?
+Dialogue: 0,0:03:28.78,0:03:33.45,Dialogue,,0,0,0,,My conduct was unbecoming of an inferior officer!\NI beg your forgiveness!
+Dialogue: 0,0:03:34.57,0:03:38.83,Dialogue,,0,0,0,,No, I'm the one \Nwho's sorry to you.
+Dialogue: 0,0:03:43.12,0:03:47.96,Dialogue,,0,0,0,,This is one of Ed's parts, all right.
+Dialogue: 0,0:03:50.51,0:03:54.55,Dialogue,,0,0,0,,As someone who's been sung of as\Na young, beautiful, gifted Automail engineer,
+Dialogue: 0,0:03:54.64,0:03:56.68,Dialogue,,0,0,0,,this is a terrible blunder for me!
+Dialogue: 0,0:03:57.22,0:03:58.93,Dialogue,,0,0,0,,Is something the matter?
+Dialogue: 0,0:03:59.01,0:04:00.68,Dialogue,,0,0,0,,Ah, no!
+Dialogue: 0,0:04:00.93,0:04:02.56,Dialogue,,0,0,0,,N-Nothing at all, nothing at all, really!
+Dialogue: 0,0:04:06.10,0:04:08.65,Dialogue,,0,0,0,,Yes, Rockbell Prosthetic-Limb Outfitters.
+Dialogue: 0,0:04:08.86,0:04:10.28,Dialogue,,0,0,0,,Winry?
+Dialogue: 0,0:04:11.07,0:04:12.24,Dialogue,,0,0,0,,E-Ed?
+Dialogue: 0,0:04:12.44,0:04:15.99,Dialogue,,0,0,0,,As it turns out, I can't move my right arm anymore.
+Dialogue: 0,0:04:16.11,0:04:18.16,Dialogue,,0,0,0,,Sure enough...\NSure enough?
+Dialogue: 0,0:04:18.37,0:04:20.62,Dialogue,,0,0,0,,Ah, you see?
+Dialogue: 0,0:04:18.37,0:04:23.25,Dialogue,,0,0,0,,Didn't I tell you that I made it lighter, \Nso it wouldn't be quite so strong this time?
+Dialogue: 0,0:04:23.33,0:04:25.04,Dialogue,,0,0,0,,Jeez, you've gone and done something reckless again, haven't you?
+Dialogue: 0,0:04:26.17,0:04:30.55,Dialogue,,0,0,0,,A-Anyhow, I can't get down there right now, so I'm in a fix.
+Dialogue: 0,0:04:30.75,0:04:34.38,Dialogue,,0,0,0,,In that case, I'll make the trip!\NI'll dash on over, just wait there.
+Dialogue: 0,0:04:35.13,0:04:37.55,Dialogue,,0,0,0,,Aren't you unusually kind today?
+Dialogue: 0,0:04:37.68,0:04:40.93,Dialogue,,0,0,0,,Oh, I'm always kind!
+Dialogue: 0,0:04:41.01,0:04:43.10,Dialogue,,0,0,0,,Okay then, if you would. Thanks.
+Dialogue: 0,0:04:48.19,0:04:51.23,Dialogue,,0,0,0,,This time, make sure you do his maintenance right.
+Dialogue: 0,0:04:51.36,0:04:52.36,Dialogue,,0,0,0,,Right...
+Dialogue: 0,0:05:10.75,0:05:13.76,Dialogue,,0,0,0,,Yo, Ed!\NI heard you could get up.
+Dialogue: 0,0:05:13.96,0:05:15.26,Dialogue,,0,0,0,,Lieutenant Colonel!
+Dialogue: 0,0:05:15.47,0:05:16.38,Dialogue,,0,0,0,,Al, are you okay too?
+Dialogue: 0,0:05:17.59,0:05:18.72,Dialogue,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:05:19.93,0:05:21.39,Dialogue,,0,0,0,,Oh, that's right.
+Dialogue: 0,0:05:21.72,0:05:23.56,Dialogue,,0,0,0,,Would you guys go buy some lunch for me?
+Dialogue: 0,0:05:23.64,0:05:28.02,Dialogue,,0,0,0,,Ah, I'll get that myself.
+Dialogue: 0,0:05:25.27,0:05:28.02,Dialogue,,0,0,0,,Lieutenant Ross, you go with him.
+Dialogue: 0,0:05:28.94,0:05:30.19,Dialogue,,0,0,0,,Understood.
+Dialogue: 0,0:05:30.81,0:05:34.36,Dialogue,,0,0,0,,Sorry, I'm just so hungry.
+Dialogue: 0,0:05:44.49,0:05:46.71,Dialogue,,0,0,0,,About the 5th Laboratory...
+Dialogue: 0,0:05:46.96,0:05:49.58,Dialogue,,0,0,0,,Everything that happened\Nconcerning the incident there
+Dialogue: 0,0:05:49.71,0:05:53.84,Dialogue,,0,0,0,,is being chalked up as the doing of Scar, \Nwho was pursuing you.
+Dialogue: 0,0:05:53.92,0:05:56.84,Dialogue,,0,0,0,,Of course,\NI'm not convinced of that.
+Dialogue: 0,0:05:59.34,0:06:02.43,Dialogue,,0,0,0,,There were a lot of bodies left there\Nthat are thought to have been Chimeras.
+Dialogue: 0,0:06:02.64,0:06:06.48,Dialogue,,0,0,0,,And a great deal of equipment that I can't help but believe was still operational until just yesterday.
+Dialogue: 0,0:06:07.31,0:06:10.90,Dialogue,,0,0,0,,Among the prisoners who were\Nforcibly taken there by someone,
+Dialogue: 0,0:06:11.02,0:06:14.27,Dialogue,,0,0,0,,there are those who said they saw Brig. Gen. Basque Grand, who was killed in the line of duty.
+Dialogue: 0,0:06:14.90,0:06:17.03,Dialogue,,0,0,0,,What the hell happened there?
+Dialogue: 0,0:06:18.99,0:06:19.86,Dialogue,,0,0,0,,Ed!
+Dialogue: 0,0:06:20.66,0:06:23.20,Dialogue,,0,0,0,,How am I supposed to know?
+Dialogue: 0,0:06:23.41,0:06:26.29,Dialogue,,0,0,0,,Just tell me what you saw.
+Dialogue: 0,0:06:37.01,0:06:38.30,Dialogue,,0,0,0,,Homunculi.
+Dialogue: 0,0:06:38.97,0:06:41.80,Dialogue,,0,0,0,,Homunculi?!\NYou can't be serious!
+Dialogue: 0,0:06:42.09,0:06:42.97,Dialogue,,0,0,0,,Still...
+Dialogue: 0,0:06:45.89,0:06:48.56,Dialogue,,0,0,0,,they definitely weren't human.
+Dialogue: 0,0:06:53.02,0:06:55.07,Dialogue,,0,0,0,,They're tied in with the\NPhilosopher's Stone, huh?
+Dialogue: 0,0:06:55.27,0:06:59.57,Dialogue,,0,0,0,,They were trying to make me create a Philosopher's Stone.
+Dialogue: 0,0:07:00.03,0:07:03.57,Dialogue,,0,0,0,,And by using live prisoners, at that.
+Dialogue: 0,0:07:08.41,0:07:09.75,Dialogue,,0,0,0,,What the hell...
+Dialogue: 0,0:07:10.33,0:07:12.46,Dialogue,,0,0,0,,Isn't that right, Al?
+Dialogue: 0,0:07:14.00,0:07:14.88,Dialogue,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:07:19.59,0:07:24.05,Dialogue,,0,0,0,,A guardian who was only a spirit...\NA dangerous guy named Envy or something...
+Dialogue: 0,0:07:24.22,0:07:29.27,Dialogue,,0,0,0,,Not to mention Philosopher's Stone transmutation circles and Uroboros tattoos...
+Dialogue: 0,0:07:29.56,0:07:32.10,Dialogue,,0,0,0,,I saw all of them there.
+Dialogue: 0,0:07:32.48,0:07:36.86,Dialogue,,0,0,0,,For experiments about a lousy stone,\Nnone of those are laughing matters, huh?
+Dialogue: 0,0:07:37.27,0:07:38.90,Dialogue,,0,0,0,,I heard from Marcoh-san
+Dialogue: 0,0:07:38.98,0:07:42.53,Dialogue,,0,0,0,,that Philosopher's Stones were used in the Eastern Rebellion.
+Dialogue: 0,0:07:44.87,0:07:46.32,Dialogue,,0,0,0,,They said that for some reason,
+Dialogue: 0,0:07:46.62,0:07:49.66,Dialogue,,0,0,0,,I was being kept alive\Nfor their sakes.
+Dialogue: 0,0:07:52.41,0:07:54.12,Dialogue,,0,0,0,,Thanks for telling me.
+Dialogue: 0,0:07:54.42,0:07:56.25,Dialogue,,0,0,0,,Let me handle it from here.
+Dialogue: 0,0:07:57.34,0:07:58.55,Dialogue,,0,0,0,,Get some rest.
+Dialogue: 0,0:07:59.09,0:08:01.63,Dialogue,,0,0,0,,Right now, you should just think about yourselves.
+Dialogue: 0,0:08:14.02,0:08:16.40,Dialogue,,0,0,0,,I'm finally here.
+Dialogue: 0,0:08:17.06,0:08:17.90,Dialogue,,0,0,0,,Let's see...
+Dialogue: 0,0:08:18.19,0:08:21.32,Dialogue,,0,0,0,,He said he was going to have a sign or something ready for me...
+Dialogue: 0,0:08:24.24,0:08:28.37,Dialogue,,0,0,0,,Well, well, if it isn't Winry!\NThank you for taking\Nthe trouble to come so far!
+Dialogue: 0,0:08:28.58,0:08:30.79,Dialogue,,0,0,0,,There it is.
+Dialogue: 0,0:08:34.16,0:08:37.21,Dialogue,,0,0,0,,No way... I hadn't heard\Nthat you were in a hospital!
+Dialogue: 0,0:08:37.63,0:08:40.00,Dialogue,,0,0,0,,Yeah, well, one thing led to another...
+Dialogue: 0,0:08:40.09,0:08:41.84,Dialogue,,0,0,0,,It's nothing to laugh about.
+Dialogue: 0,0:08:42.63,0:08:43.59,Dialogue,,0,0,0,,Winry?
+Dialogue: 0,0:08:43.80,0:08:46.76,Dialogue,,0,0,0,,I didn't maintain you properly,
+Dialogue: 0,0:08:46.93,0:08:49.05,Dialogue,,0,0,0,,and now, this has happened.
+Dialogue: 0,0:08:49.43,0:08:51.47,Dialogue,,0,0,0,,This isn't particularly your fault!
+Dialogue: 0,0:08:51.56,0:08:52.60,Dialogue,,0,0,0,,Right, Al?
+Dialogue: 0,0:08:52.97,0:08:54.48,Dialogue,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:08:54.68,0:08:56.44,Dialogue,,0,0,0,,There, you hear that?
+Dialogue: 0,0:08:56.52,0:08:57.35,Dialogue,,0,0,0,,But...
+Dialogue: 0,0:08:57.44,0:08:59.61,Dialogue,,0,0,0,,Your maintenance was perfect!
+Dialogue: 0,0:08:59.81,0:09:02.40,Dialogue,,0,0,0,,Besides, sometimes it just happens to stop moving.
+Dialogue: 0,0:09:02.48,0:09:06.49,Dialogue,,0,0,0,,If the timing had been different, \Nwhat happened might've been worse.
+Dialogue: 0,0:09:06.57,0:09:10.08,Dialogue,,0,0,0,,And the reason it broke was because\NI was using it too roughly in the first place.
+Dialogue: 0,0:09:11.12,0:09:14.37,Dialogue,,0,0,0,,{\i1}Could it be that he hasn't noticed\Nthat I forgot to tighten that screw?
+Dialogue: 0,0:09:16.16,0:09:18.88,Dialogue,,0,0,0,,Well, sure!
+Dialogue: 0,0:09:18.96,0:09:19.79,Dialogue,,0,0,0,,Ed, you're always too rough!
+Dialogue: 0,0:09:19.88,0:09:20.71,Dialogue,,0,0,0,,Hey...
+Dialogue: 0,0:09:28.84,0:09:29.76,Dialogue,,0,0,0,,Excuse me. Lt.
+Dialogue: 0,0:09:29.84,0:09:32.68,Dialogue,,0,0,0,,Colonel,\Nthere's a phone call from Colonel Mustang.
+Dialogue: 0,0:09:36.18,0:09:39.06,Dialogue,,0,0,0,,Yo! You called at a good time!
+Dialogue: 0,0:09:39.15,0:09:40.73,Dialogue,,0,0,0,,I have great news!\NYou found Scar?!
+Dialogue: 0,0:09:40.86,0:09:43.73,Dialogue,,0,0,0,,Huh?! How would that be great news?!
+Dialogue: 0,0:09:43.82,0:09:45.24,Dialogue,,0,0,0,,Have you forgotten?
+Dialogue: 0,0:09:45.32,0:09:48.11,Dialogue,,0,0,0,,Tomorrow is Elicia-chan's birthday!
+Dialogue: 0,0:09:48.70,0:09:51.99,Dialogue,,0,0,0,,Unless you want to turn into charcoal, report your current situation immediately!
+Dialogue: 0,0:09:52.08,0:09:54.66,Dialogue,,0,0,0,,Not to worry.\NIf anything happens, I'll contact you.
+Dialogue: 0,0:09:54.74,0:09:57.71,Dialogue,,0,0,0,,More importantly, be sure to send Elicia-chan a present.
+Dialogue: 0,0:09:57.79,0:09:58.79,Dialogue,,0,0,0,,Bye now!
+Dialogue: 0,0:10:01.71,0:10:06.05,Dialogue,,0,0,0,,Um, are you sure it's okay not to report anything?
+Dialogue: 0,0:10:06.30,0:10:07.13,Dialogue,,0,0,0,,It's okay.
+Dialogue: 0,0:10:07.72,0:10:10.22,Dialogue,,0,0,0,,Right now, he doesn't\Nneed to know anything.
+Dialogue: 0,0:10:12.39,0:10:15.47,Dialogue,,0,0,0,,Never mind that, how are \Nthose reports I requested?
+Dialogue: 0,0:10:16.68,0:10:19.48,Dialogue,,0,0,0,,Working without rest,\NI've finally finished them!
+Dialogue: 0,0:10:20.40,0:10:23.36,Dialogue,,0,0,0,,Okay, here's what's next.
+Dialogue: 0,0:10:27.90,0:10:29.11,Dialogue,,0,0,0,,How are you doing, Ed?
+Dialogue: 0,0:10:29.20,0:10:32.12,Dialogue,,0,0,0,,What do you know,\Nyou're done eating already.
+Dialogue: 0,0:10:32.20,0:10:33.37,Dialogue,,0,0,0,,Y-Yeah.
+Dialogue: 0,0:10:33.45,0:10:35.58,Dialogue,,0,0,0,,Well then,\Nlet me fix you right away...
+Dialogue: 0,0:10:39.50,0:10:40.92,Dialogue,,0,0,0,,You left your milk.
+Dialogue: 0,0:10:43.00,0:10:43.92,Dialogue,,0,0,0,,Ed...
+Dialogue: 0,0:10:44.00,0:10:46.67,Dialogue,,0,0,0,,Please, anything but that.
+Dialogue: 0,0:10:46.92,0:10:47.76,Dialogue,,0,0,0,,What are you talking about?!
+Dialogue: 0,0:10:47.84,0:10:49.17,Dialogue,,0,0,0,,Milk is good for the body! Drink it right now!
+Dialogue: 0,0:10:49.26,0:10:50.59,Dialogue,,0,0,0,,Shut up!\NIf I hate it, I hate it!
+Dialogue: 0,0:10:50.68,0:10:52.43,Dialogue,,0,0,0,,Not drinking my milk isn't\Nparticularly going to kill me!
+Dialogue: 0,0:10:52.51,0:10:53.39,Dialogue,,0,0,0,,Ah, jeez!
+Dialogue: 0,0:10:53.47,0:10:55.26,Dialogue,,0,0,0,,This is the reason why you're always going to be such a bean sprout!
+Dialogue: 0,0:10:55.46,0:10:57.59,Dialogue,,0,0,0,,Bean sprout?
+Dialogue: 0,0:10:56.04,0:10:57.59,Dialogue,,0,0,0,,That's right, bean sprout.
+Dialogue: 0,0:10:57.64,0:10:59.02,Dialogue,,0,0,0,,Right, Al?
+Dialogue: 0,0:11:00.77,0:11:03.40,Dialogue,,0,0,0,,That's right, Brother.\NYou have to drink it.
+Dialogue: 0,0:11:06.23,0:11:08.65,Dialogue,,0,0,0,,Yeah, yeah. Good for you, Al.
+Dialogue: 0,0:11:08.74,0:11:10.86,Dialogue,,0,0,0,,You got all big without\Nhaving to drink this stuff.
+Dialogue: 0,0:11:13.16,0:11:14.20,Dialogue,,0,0,0,,I...
+Dialogue: 0,0:11:15.74,0:11:18.41,Dialogue,,0,0,0,,didn't get this body\Nbecause I wanted to.
+Dialogue: 0,0:11:20.29,0:11:22.12,Dialogue,,0,0,0,,S-Sorry...
+Dialogue: 0,0:11:23.50,0:11:25.67,Dialogue,,0,0,0,,What's the matter between you two?
+Dialogue: 0,0:11:25.75,0:11:27.09,Dialogue,,0,0,0,,Al?
+Dialogue: 0,0:11:28.63,0:11:30.13,Dialogue,,0,0,0,,Did something happen?
+Dialogue: 0,0:11:31.01,0:11:32.01,Dialogue,,0,0,0,,Well?
+Dialogue: 0,0:11:37.64,0:11:41.43,Dialogue,,0,0,0,,Why?\NHow come you never talk to me?
+Dialogue: 0,0:11:42.10,0:11:43.69,Dialogue,,0,0,0,,About your injuries,
+Dialogue: 0,0:11:44.02,0:11:46.73,Dialogue,,0,0,0,,or about the two of you?\NHere I am, worried sick,
+Dialogue: 0,0:11:46.82,0:11:49.48,Dialogue,,0,0,0,,and you won't talk to me\Nabout anything important?!
+Dialogue: 0,0:11:49.73,0:11:51.11,Dialogue,,0,0,0,,Ed! Al!
+Dialogue: 0,0:11:56.87,0:11:58.08,Dialogue,,0,0,0,,I don't care anymore!
+Dialogue: 0,0:12:01.37,0:12:03.29,Dialogue,,0,0,0,,Yo!
+Dialogue: 0,0:12:03.37,0:12:04.21,Dialogue,,0,0,0,,Nice to meet you, Winry-chan.
+Dialogue: 0,0:12:04.29,0:12:07.17,Dialogue,,0,0,0,,I'm Lt. Col. Maes Hughes.\NIt's a pleasure.
+Dialogue: 0,0:12:08.50,0:12:09.42,Dialogue,,0,0,0,,And this...
+Dialogue: 0,0:12:10.38,0:12:12.26,Dialogue,,0,0,0,,is my adorable Elicia-chan!
+Dialogue: 0,0:12:12.34,0:12:15.14,Dialogue,,0,0,0,,How about it? Cute, right?\NYou'd like to meet her, right?
+Dialogue: 0,0:12:15.22,0:12:16.22,Dialogue,,0,0,0,,Y-Yeah, sure...
+Dialogue: 0,0:12:16.30,0:12:17.72,Dialogue,,0,0,0,,All right!
+Dialogue: 0,0:12:17.80,0:12:18.64,Dialogue,,0,0,0,,I'll let you meet her!
+Dialogue: 0,0:12:19.22,0:12:21.47,Dialogue,,0,0,0,,Okay then, I'll look after Winry-chan!
+Dialogue: 0,0:12:21.56,0:12:22.39,Dialogue,,0,0,0,,Later!
+Dialogue: 0,0:12:23.80,0:12:25.19,Dialogue,,0,0,0,,U-Um...
+Dialogue: 0,0:12:24.22,0:12:26.29,Dialogue,,0,0,0,,You are so lucky!
+Dialogue: 0,0:12:26.23,0:12:30.90,Dialogue,,0,0,0,,After all, tomorrow is \NElicia-chan's birthday.
+Dialogue: 0,0:12:30.98,0:12:32.49,Dialogue,,0,0,0,,Now that you mention it, so is Ed's...
+Dialogue: 0,0:12:32.69,0:12:35.82,Dialogue,,0,0,0,,Sure.\NWe'll have to get\Na present for him too.
+Dialogue: 0,0:12:36.45,0:12:40.24,Dialogue,,0,0,0,,So, what kind of present\Nare you going to give Elicia-chan?
+Dialogue: 0,0:12:40.49,0:12:41.83,Dialogue,,0,0,0,,Huh?
+Dialogue: 0,0:12:42.04,0:12:44.37,Dialogue,,0,0,0,,What? A stuffed teddy bear?
+Dialogue: 0,0:12:44.46,0:12:45.29,Dialogue,,0,0,0,,And a giant-size one, at that?
+Dialogue: 0,0:12:45.37,0:12:47.25,Dialogue,,0,0,0,,Elicia-chan will be thrilled with that!
+Dialogue: 0,0:12:58.93,0:13:01.51,Dialogue,,0,0,0,,Happy birthday, Elicia-chan!
+Dialogue: 0,0:13:01.72,0:13:04.77,Dialogue,,0,0,0,,Congratulations!\NWay to go, Elicia-chan!
+Dialogue: 0,0:13:04.98,0:13:07.52,Dialogue,,0,0,0,,You see, apples are best\Nif you coat them with syrup.
+Dialogue: 0,0:13:07.60,0:13:08.52,Dialogue,,0,0,0,,So that's how you did it.
+Dialogue: 0,0:13:08.73,0:13:10.73,Dialogue,,0,0,0,,Lately, my own daughter has been...
+Dialogue: 0,0:13:10.94,0:13:12.32,Dialogue,,0,0,0,,Nice, Elicia-chan.
+Dialogue: 0,0:13:12.40,0:13:14.19,Dialogue,,0,0,0,,What a cute bear.
+Dialogue: 0,0:13:14.28,0:13:15.61,Dialogue,,0,0,0,,Elicia-chan...
+Dialogue: 0,0:13:16.20,0:13:17.61,Dialogue,,0,0,0,,Happy birthday.
+Dialogue: 0,0:13:17.70,0:13:19.32,Dialogue,,0,0,0,,Here's your present.
+Dialogue: 0,0:13:19.57,0:13:22.91,Dialogue,,0,0,0,,Thanks, Miss Bookworm.
+Dialogue: 0,0:13:22.99,0:13:24.33,Dialogue,,0,0,0,,Bookworm?
+Dialogue: 0,0:13:27.62,0:13:28.79,Dialogue,,0,0,0,,Miss?
+Dialogue: 0,0:13:33.34,0:13:36.38,Dialogue,,0,0,0,,Elicia-chan, can you tell me how old you are now?
+Dialogue: 0,0:13:38.72,0:13:39.59,Dialogue,,0,0,0,,Four!
+Dialogue: 0,0:13:39.68,0:13:41.68,Dialogue,,0,0,0,,How adorable!
+Dialogue: 0,0:13:41.76,0:13:43.56,Dialogue,,0,0,0,,Miss, know what?
+Dialogue: 0,0:13:44.77,0:13:47.19,Dialogue,,0,0,0,,Congratulations!\NCongratulations! Congratulations!
+Dialogue: 0,0:13:49.02,0:13:49.85,Dialogue,,0,0,0,,Know what?
+Dialogue: 0,0:13:49.94,0:13:52.61,Dialogue,,0,0,0,,Papa says the more people say "congratulations" to you,
+Dialogue: 0,0:13:49.94,0:13:53.65,Dialogue,,0,0,0,,the more good things \Nwill happen to you.
+Dialogue: 0,0:13:54.36,0:13:56.11,Dialogue,,0,0,0,,That's why I'm telling you too, Miss.
+Dialogue: 0,0:13:56.19,0:13:57.65,Dialogue,,0,0,0,,Elicia-chan...
+Dialogue: 0,0:13:59.70,0:14:02.12,Dialogue,,0,0,0,,You two almost look\Nlike you're siblings.
+Dialogue: 0,0:14:02.58,0:14:06.50,Dialogue,,0,0,0,,Really. I wish I had\Na little sister like this.
+Dialogue: 0,0:14:06.83,0:14:08.75,Dialogue,,0,0,0,,I'm an only child, after all.
+Dialogue: 0,0:14:08.83,0:14:11.08,Dialogue,,0,0,0,,You do have brothers, you know.
+Dialogue: 0,0:14:12.75,0:14:16.46,Dialogue,,0,0,0,,Brothers would talk to me\Nmore about things.
+Dialogue: 0,0:14:16.55,0:14:20.64,Dialogue,,0,0,0,,For a long time now, they've never talked about anything important with me.
+Dialogue: 0,0:14:20.72,0:14:21.97,Dialogue,,0,0,0,,Can't help that.
+Dialogue: 0,0:14:22.05,0:14:25.93,Dialogue,,0,0,0,,Guys are creatures that demonstrate things more by their actions than with their words.
+Dialogue: 0,0:14:27.02,0:14:32.06,Dialogue,,0,0,0,,As much as possible, they don't want to burden anyone with their adversities.
+Dialogue: 0,0:14:32.15,0:14:34.07,Dialogue,,0,0,0,,Nor do they want to worry others.
+Dialogue: 0,0:14:34.15,0:14:35.40,Dialogue,,0,0,0,,That's why they bottle everything up.
+Dialogue: 0,0:14:36.53,0:14:39.53,Dialogue,,0,0,0,,And even so, when those two\Nfinally do give in and complain,
+Dialogue: 0,0:14:39.61,0:14:42.12,Dialogue,,0,0,0,,I'll bet you're the \Nonly one they do it to.
+Dialogue: 0,0:14:43.49,0:14:46.08,Dialogue,,0,0,0,,When that happens,\Nyou're the one who receives them.
+Dialogue: 0,0:14:46.66,0:14:48.04,Dialogue,,0,0,0,,Isn't that enough?
+Dialogue: 0,0:14:51.62,0:14:56.25,Dialogue,,0,0,0,,If their older sister\Nmakes that kind of face,\Nthe younger brothers won't ever\Ncome to depend on her, will they?
+Dialogue: 0,0:14:57.09,0:14:58.46,Dialogue,,0,0,0,,Hughes-san...
+Dialogue: 0,0:14:58.88,0:15:01.68,Dialogue,,0,0,0,,Here...
+Dialogue: 0,0:14:58.88,0:15:05.01,Dialogue,,0,0,0,,Thanks for waiting. I've finished \Nbaking a birthday cake for Ed-kun.
+Dialogue: 0,0:15:06.06,0:15:07.89,Dialogue,,0,0,0,,Go ahead, go, go!
+Dialogue: 0,0:15:08.52,0:15:09.35,Dialogue,,0,0,0,,Here.
+Dialogue: 0,0:15:10.35,0:15:13.40,Dialogue,,0,0,0,,But, Hughes-san, don't you have a present for Ed?
+Dialogue: 0,0:15:13.48,0:15:14.52,Dialogue,,0,0,0,,What are you talking about?
+Dialogue: 0,0:15:15.86,0:15:19.28,Dialogue,,0,0,0,,There's no present that's a match for your smiling face, Winry-chan.
+Dialogue: 0,0:15:32.50,0:15:34.79,Dialogue,,0,0,0,,Congratulations!\NCongratulations! Congratulations!
+Dialogue: 0,0:15:36.25,0:15:39.96,Dialogue,,0,0,0,,Know what?\NThey say that on your birthday,
+Dialogue: 0,0:15:36.25,0:15:42.13,Dialogue,,0,0,0,,the more you get told "congratulations," the happier you'll be.
+Dialogue: 0,0:15:44.80,0:15:47.06,Dialogue,,0,0,0,,Here. This is from Gracia-san.
+Dialogue: 0,0:15:47.14,0:15:48.39,Dialogue,,0,0,0,,O-Oh...
+Dialogue: 0,0:15:49.10,0:15:51.35,Dialogue,,0,0,0,,I made sure to learn\Nhow to make it from her,
+Dialogue: 0,0:15:51.43,0:15:55.15,Dialogue,,0,0,0,,so once you're able to eat, \NI can make it for you at any time, Al.
+Dialogue: 0,0:15:56.11,0:15:56.94,Dialogue,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:15:57.44,0:16:01.65,Dialogue,,0,0,0,,Now that you mention it,\Nwhen we were kids,\Nthe three of us always\Nused to eat cake together, huh?
+Dialogue: 0,0:16:01.74,0:16:05.87,Dialogue,,0,0,0,,Uh-huh. And that one time, Den ate Al's cake.
+Dialogue: 0,0:16:05.95,0:16:07.58,Dialogue,,0,0,0,,And then Al bawled.
+Dialogue: 0,0:16:07.66,0:16:09.29,Dialogue,,0,0,0,,Right, right.
+Dialogue: 0,0:16:10.16,0:16:12.58,Dialogue,,0,0,0,,I-Is that so?
+Dialogue: 0,0:16:13.08,0:16:16.38,Dialogue,,0,0,0,,You were still little.\NDon't you remember?
+Dialogue: 0,0:16:17.92,0:16:18.75,Dialogue,,0,0,0,,Mm-mm.
+Dialogue: 0,0:16:19.42,0:16:20.76,Dialogue,,0,0,0,,Is something the matter?
+Dialogue: 0,0:16:21.13,0:16:26.05,Dialogue,,0,0,0,,I'll be outside until you\Nfinish repairing Brother.
+Dialogue: 0,0:16:26.30,0:16:27.18,Dialogue,,0,0,0,,Al...
+Dialogue: 0,0:16:30.77,0:16:33.27,Dialogue,,0,0,0,,Are you sure\Nyou're okay out here?
+Dialogue: 0,0:16:33.81,0:16:34.64,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:16:34.81,0:16:37.15,Dialogue,,0,0,0,,Okay, I'll come back\Nto get you later.
+Dialogue: 0,0:16:37.52,0:16:38.36,Dialogue,,0,0,0,,Thanks.
+Dialogue: 0,0:16:47.16,0:16:50.79,Dialogue,,0,0,0,,Say, Ed,\Nsomething happened\Nbetween you and Al, huh?
+Dialogue: 0,0:16:53.08,0:16:57.63,Dialogue,,0,0,0,,I...\Ndid something awful to him.
+Dialogue: 0,0:16:59.71,0:17:02.96,Dialogue,,0,0,0,,I had the chance to\Nreturn him back to normal,
+Dialogue: 0,0:17:03.17,0:17:04.13,Dialogue,,0,0,0,,but I hesitated.
+Dialogue: 0,0:17:05.30,0:17:06.51,Dialogue,,0,0,0,,How come?
+Dialogue: 0,0:17:08.30,0:17:12.60,Dialogue,,0,0,0,,I would have had to\Nsacrifice other people.
+Dialogue: 0,0:17:14.98,0:17:19.81,Dialogue,,0,0,0,,In comparison with Al,\Nthey should have been people who I didn't care about...
+Dialogue: 0,0:17:20.77,0:17:26.32,Dialogue,,0,0,0,,But I couldn't do it...\Nwhile he watched from the sidelines...
+Dialogue: 0,0:17:28.74,0:17:30.41,Dialogue,,0,0,0,,It's good that you didn't.
+Dialogue: 0,0:17:31.28,0:17:35.29,Dialogue,,0,0,0,,After all, Al wouldn't be happy
+Dialogue: 0,0:17:35.37,0:17:40.84,Dialogue,,0,0,0,,if someone else\Nended up being sacrificed,\Neven if it did mean\Nhe could return to normal.
+Dialogue: 0,0:17:40.92,0:17:41.84,Dialogue,,0,0,0,,But still...
+Dialogue: 0,0:17:42.30,0:17:44.80,Dialogue,,0,0,0,,More importantly,\NI wonder if Al isn't upset
+Dialogue: 0,0:17:44.88,0:17:49.68,Dialogue,,0,0,0,,over seeing you about to sacrifice someone even once, Ed.
+Dialogue: 0,0:17:55.98,0:17:58.73,Dialogue,,0,0,0,,Suppose your personality and memories
+Dialogue: 0,0:17:58.81,0:18:02.48,Dialogue,,0,0,0,,were implanted in you\Nas it suited your brother.
+Dialogue: 0,0:18:02.94,0:18:07.78,Dialogue,,0,0,0,,{\t(4550,5040,\1c&HFFFFFF&,\3c&HFFFFFF&,\4c&HFFFFFF&)}These people are all homunculi—\Nperfectly created humans.
+Dialogue: 0,0:18:09.70,0:18:12.87,Dialogue,,0,0,0,,Was I ever really human?
+Dialogue: 0,0:18:18.66,0:18:19.71,Dialogue,,0,0,0,,All finished.
+Dialogue: 0,0:18:20.17,0:18:22.50,Dialogue,,0,0,0,,Come on, let's go see Al.
+Dialogue: 0,0:18:22.67,0:18:25.63,Dialogue,,0,0,0,,But...\Nwhat do I say to him?
+Dialogue: 0,0:18:25.96,0:18:27.34,Dialogue,,0,0,0,,What are you talking about?
+Dialogue: 0,0:18:27.88,0:18:29.84,Dialogue,,0,0,0,,Just say "sorry"\Nand apologize to him.
+Dialogue: 0,0:18:29.93,0:18:32.39,Dialogue,,0,0,0,,You're always stuck for words.
+Dialogue: 0,0:18:34.89,0:18:36.39,Dialogue,,0,0,0,,All right.
+Dialogue: 0,0:18:45.53,0:18:48.28,Dialogue,,0,0,0,,Al...\NI'm sorry.
+Dialogue: 0,0:18:48.57,0:18:50.15,Dialogue,,0,0,0,,I'll fix you up right away.
+Dialogue: 0,0:18:53.57,0:18:56.45,Dialogue,,0,0,0,,Look, I brought a bunch of stuff from Resembool.
+Dialogue: 0,0:18:57.54,0:19:00.71,Dialogue,,0,0,0,,Al, I'm not giving up.
+Dialogue: 0,0:19:01.25,0:19:05.17,Dialogue,,0,0,0,,We'll do things our way\Nand get ourselves back to normal for sure, okay?
+Dialogue: 0,0:19:05.34,0:19:06.30,Dialogue,,0,0,0,,No matter what.
+Dialogue: 0,0:19:08.92,0:19:13.05,Dialogue,,0,0,0,,Maybe you can get back to normal like that, Brother,
+Dialogue: 0,0:19:13.59,0:19:15.76,Dialogue,,0,0,0,,but I wonder if the same goes for me.
+Dialogue: 0,0:19:16.81,0:19:19.98,Dialogue,,0,0,0,,Of course it does. Don't sweat it.
+Dialogue: 0,0:19:22.48,0:19:23.31,Dialogue,,0,0,0,,Here goes.
+Dialogue: 0,0:19:43.46,0:19:44.50,Dialogue,,0,0,0,,How's that?
+Dialogue: 0,0:19:47.13,0:19:51.88,Dialogue,,0,0,0,,That's the way you bonded my soul to this armor back then, huh?
+Dialogue: 0,0:19:52.09,0:19:52.93,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:19:53.47,0:19:55.18,Dialogue,,0,0,0,,Along with my memories...
+Dialogue: 0,0:19:56.47,0:20:00.56,Dialogue,,0,0,0,,Memories are nothing more than simply information, after all.
+Dialogue: 0,0:20:01.06,0:20:03.14,Dialogue,,0,0,0,,An alchemist as good as you, Brother,
+Dialogue: 0,0:20:03.23,0:20:06.69,Dialogue,,0,0,0,,would have no trouble concocting a person's memories, right?
+Dialogue: 0,0:20:07.57,0:20:08.98,Dialogue,,0,0,0,,Is that...
+Dialogue: 0,0:20:09.61,0:20:11.65,Dialogue,,0,0,0,,what you've been ruminating about?
+Dialogue: 0,0:20:11.74,0:20:12.61,Dialogue,,0,0,0,,Brother...
+Dialogue: 0,0:20:13.03,0:20:17.33,Dialogue,,0,0,0,,Earlier in Resembool, there was something you were about to tell me, remember?
+Dialogue: 0,0:20:17.74,0:20:21.25,Dialogue,,0,0,0,,Something you were too afraid to say to me till now.
+Dialogue: 0,0:20:24.37,0:20:27.75,Dialogue,,0,0,0,,It was that my soul and\Nmemories and everything
+Dialogue: 0,0:20:27.92,0:20:31.38,Dialogue,,0,0,0,,are really something fake that you came up with, wasn't it?
+Dialogue: 0,0:20:32.55,0:20:34.38,Dialogue,,0,0,0,,No! What Ed wanted\Nto say to you was—
+Dialogue: 0,0:20:34.72,0:20:35.55,Dialogue,,0,0,0,,Never mind!
+Dialogue: 0,0:20:37.51,0:20:42.64,Dialogue,,0,0,0,,After all, the person named Alphonse Elric \Nnever existed in this world.
+Dialogue: 0,0:20:44.02,0:20:46.94,Dialogue,,0,0,0,,What are you saying?!\NYou two have always been together!
+Dialogue: 0,0:20:47.02,0:20:49.61,Dialogue,,0,0,0,,Besides, there's been me\Nand Grandma!
+Dialogue: 0,0:20:49.69,0:20:51.28,Dialogue,,0,0,0,,Believe me, Al!
+Dialogue: 0,0:20:52.78,0:20:54.32,Dialogue,,0,0,0,,What would you have me believe?
+Dialogue: 0,0:20:56.07,0:20:59.41,Dialogue,,0,0,0,,What would you have me believe, with this hollow body?
+Dialogue: 0,0:21:00.28,0:21:03.16,Dialogue,,0,0,0,,It's possible that all of you are deceiving me together, isn't it?
+Dialogue: 0,0:21:05.21,0:21:06.12,Dialogue,,0,0,0,,You've...
+Dialogue: 0,0:21:06.71,0:21:09.38,Dialogue,,0,0,0,,been keeping that\Nto yourself all this time?
+Dialogue: 0,0:21:10.96,0:21:13.59,Dialogue,,0,0,0,,Is that all you have to say?
+Dialogue: 0,0:21:13.67,0:21:16.26,Dialogue,,0,0,0,,What about you, Brother?! Answer my question!
+Dialogue: 0,0:21:17.18,0:21:19.39,Dialogue,,0,0,0,,Why don't you say anything?!
+Dialogue: 0,0:21:19.51,0:21:20.64,Dialogue,,0,0,0,,Why?!
+Dialogue: 0,0:21:22.60,0:21:23.64,Dialogue,,0,0,0,,Let go of me.
+Dialogue: 0,0:21:24.27,0:21:26.06,Dialogue,,0,0,0,,There's no point in me living!
+Dialogue: 0,0:21:27.10,0:21:28.35,Dialogue,,0,0,0,,You stupid jerk!
+Dialogue: 0,0:21:28.48,0:21:30.98,Dialogue,,0,0,0,,Let go of me! Let go of me!
+Dialogue: 0,0:21:31.07,0:21:31.90,Dialogue,,0,0,0,,Al!
+Dialogue: 0,0:21:34.49,0:21:35.90,Dialogue,,0,0,0,,Let go of me!
+Dialogue: 0,0:21:37.20,0:21:38.03,Dialogue,,0,0,0,,Ed!
+Dialogue: 0,0:21:45.79,0:21:46.75,Dialogue,,0,0,0,,Al...
+Dialogue: 0,0:21:48.08,0:21:48.96,Dialogue,,0,0,0,,Stay back.
+Dialogue: 0,0:21:49.42,0:21:50.33,Dialogue,,0,0,0,,Al...
+Dialogue: 0,0:21:50.71,0:21:51.84,Dialogue,,0,0,0,,Stay back...
+Dialogue: 0,0:21:53.05,0:21:54.59,Dialogue,,0,0,0,,Keep away!
+Dialogue: 0,0:21:55.01,0:21:55.84,Dialogue,,0,0,0,,Al!
+Dialogue: 0,0:21:57.47,0:21:58.30,Dialogue,,0,0,0,,Al!
+Dialogue: 0,0:22:01.76,0:22:02.85,Dialogue,,0,0,0,,Al!
+Dialogue: 0,0:22:03.18,0:22:04.14,Dialogue,,0,0,0,,Ed!
+Dialogue: 0,0:22:08.10,0:22:08.94,Dialogue,,0,0,0,,Al!
+Dialogue: 0,0:22:09.60,0:22:11.90,Dialogue,,0,0,0,,{\t(1330,2300,\1c&H000000&,\3c&H000000&,\4c&H000000&)}Al!
+Dialogue: 0,0:23:38.61,0:23:40.11,Dialogue,,0,0,0,,{\i1}Fullmetal Alchemist{\i0}...
+Dialogue: 0,0:23:40.19,0:23:43.41,Dialogue,,0,0,0,,Episode 24: "Bonding Memories"
+Dialogue: 0,0:23:43.91,0:23:46.99,Dialogue,,0,0,0,,Even if everybody else has forgotten,\NI still remember...
+Dialogue: 0,0:23:47.45,0:23:51.71,Dialogue,,0,0,0,,your voice...\Nyour warmth...\Nyour smile...

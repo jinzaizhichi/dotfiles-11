@@ -1,0 +1,384 @@
+[Script Info]
+Title: Fullmetal_Alchemist 10 - The Phantom Thief Psiren
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1280
+PlayResY: 720
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Dialogue,Noto Sans,46,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,40,40,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:03.57,0:00:04.66,Dialogue,,0,0,0,,Changing two.
+Dialogue: 0,0:00:05.78,0:00:07.87,Dialogue,,0,0,0,,{\an8\i1}Sheesh, more junk?
+Dialogue: 0,0:00:11.20,0:00:12.87,Dialogue,,0,0,0,,Stop dawdling around!
+Dialogue: 0,0:00:12.96,0:00:14.96,Dialogue,,0,0,0,,Okay, I'll also change two.
+Dialogue: 0,0:00:16.46,0:00:17.71,Dialogue,,0,0,0,,{\i1}There it is!
+Dialogue: 0,0:00:17.96,0:00:20.34,Dialogue,,0,0,0,,Say, Brother,\Nwant to double the bet?
+Dialogue: 0,0:00:20.80,0:00:21.67,Dialogue,,0,0,0,,Suit yourself.
+Dialogue: 0,0:00:23.17,0:00:25.68,Dialogue,,0,0,0,,Sorry, but I have a full house.
+Dialogue: 0,0:00:25.88,0:00:29.18,Dialogue,,0,0,0,,Sorry, but I have \Na royal straight flush.
+Dialogue: 0,0:00:29.39,0:00:32.64,Dialogue,,0,0,0,,No way! I lose {\i1}again{\i0}?!
+Dialogue: 0,0:00:32.73,0:00:33.93,Dialogue,,0,0,0,,All right, this time for sure...
+Dialogue: 0,0:00:34.02,0:00:35.39,Dialogue,,0,0,0,,I'm out. This is boring.
+Dialogue: 0,0:00:35.85,0:00:39.36,Dialogue,,0,0,0,,What's wrong, Brother?\NYou've done nothing but win for a while.
+Dialogue: 0,0:00:39.61,0:00:41.98,Dialogue,,0,0,0,,Are you bored from only winning?
+Dialogue: 0,0:00:42.07,0:00:44.86,Dialogue,,0,0,0,,It has nothing to do with the cards.\NThe problem is...
+Dialogue: 0,0:00:45.11,0:00:46.53,Dialogue,,0,0,0,,Colonel Mustang.
+Dialogue: 0,0:00:47.87,0:00:48.95,Dialogue,,0,0,0,,You don't want to see him.
+Dialogue: 0,0:00:49.03,0:00:50.24,Dialogue,,0,0,0,,Of course not!
+Dialogue: 0,0:00:50.78,0:00:53.25,Dialogue,,0,0,0,,It turns out that the\NPhilosopher's Stone was a fake,
+Dialogue: 0,0:00:53.54,0:00:55.87,Dialogue,,0,0,0,,and we haven't produced\Nany other results, after all.
+Dialogue: 0,0:00:56.17,0:00:57.50,Dialogue,,0,0,0,,That may be true...
+Dialogue: 0,0:00:57.58,0:00:59.25,Dialogue,,0,0,0,,Just watch as I give my report.
+Dialogue: 0,0:00:59.63,0:01:01.59,Dialogue,,0,0,0,,This is Colonel Mustang\Nwe're talking about.
+Dialogue: 0,0:01:02.13,0:01:04.21,Dialogue,,0,0,0,,The kinds of sarcastic\Nthings he'll say to me...
+Dialogue: 0,0:01:06.34,0:01:10.43,Dialogue,,0,0,0,,Just imagining it \Nputs me in a nasty mood.
+Dialogue: 0,0:01:14.98,0:01:18.90,Dialogue,,0,0,0,,Man cannot obtain anything\Nwithout first sacrificing something.
+Dialogue: 0,0:01:19.69,0:01:23.36,Dialogue,,0,0,0,,In order to obtain anything,\Nsomething of equal value is required.
+Dialogue: 0,0:01:24.03,0:01:28.66,Dialogue,,0,0,0,,That is alchemy's\NLaw of Equivalent Exchange.
+Dialogue: 0,0:01:29.70,0:01:34.70,Dialogue,,0,0,0,,At the time, we believed that\Nto be the true way of the world.
+Dialogue: 0,0:03:23.23,0:03:26.65,Dialogue,,0,0,0,,Are you sure this is okay, Brother?\NGetting off the train along the way?
+Dialogue: 0,0:03:26.73,0:03:28.11,Dialogue,,0,0,0,,We're okay.
+Dialogue: 0,0:03:28.19,0:03:31.36,Dialogue,,0,0,0,,You never know where information leading to the Philosopher's Stone might be lying around, after all.
+Dialogue: 0,0:03:32.24,0:03:35.03,Dialogue,,0,0,0,,Besides, Aquroya is a famous tourist spot.
+Dialogue: 0,0:03:35.16,0:03:37.37,Dialogue,,0,0,0,,It wouldn't hurt to\Nhave a look at it, right?
+Dialogue: 0,0:03:37.79,0:03:40.41,Dialogue,,0,0,0,,It sort of feels like we're playing hooky from school, huh?
+Dialogue: 0,0:03:40.50,0:03:42.00,Dialogue,,0,0,0,,Who's playing hooky?!
+Dialogue: 0,0:03:44.21,0:03:46.29,Dialogue,,0,0,0,,What's this?!
+Dialogue: 0,0:03:46.38,0:03:47.63,Dialogue,,0,0,0,,Brother, by any chance...
+Dialogue: 0,0:03:50.17,0:03:51.17,Dialogue,,0,0,0,,Wait up, Brother!
+Dialogue: 0,0:03:51.84,0:03:54.05,Dialogue,,0,0,0,,You cheater! You cheated!
+Dialogue: 0,0:03:54.13,0:03:56.14,Dialogue,,0,0,0,,Brother, you're a cheater!
+Dialogue: 0,0:04:06.19,0:04:07.56,Dialogue,,0,0,0,,After her! Don't let her escape!
+Dialogue: 0,0:04:08.19,0:04:10.57,Dialogue,,0,0,0,,Today's the day we catch Psiren!
+Dialogue: 0,0:04:15.74,0:04:17.07,Dialogue,,0,0,0,,All right, that's far enough.
+Dialogue: 0,0:04:17.57,0:04:19.54,Dialogue,,0,0,0,,You've got nowhere to run, Psiren!
+Dialogue: 0,0:04:33.47,0:04:34.84,Dialogue,,0,0,0,,Hey, hold it!
+Dialogue: 0,0:04:45.69,0:04:47.69,Dialogue,,0,0,0,,It's a pretty city, isn't it, Brother?
+Dialogue: 0,0:04:47.77,0:04:48.61,Dialogue,,0,0,0,,Isn't it?
+Dialogue: 0,0:04:49.11,0:04:52.73,Dialogue,,0,0,0,,The City of Water, Aquroya,\Nis a famous sightseeing area.
+Dialogue: 0,0:04:53.49,0:04:58.49,Dialogue,,0,0,0,,This is far better than going to that dusty East City,
+Dialogue: 0,0:04:55.45,0:04:58.49,Dialogue,,0,0,0,,and having to look into that\Ncynical face of the Colonel's.
+Dialogue: 0,0:05:00.08,0:05:01.24,Dialogue,,0,0,0,,How the hell could you do that?!
+Dialogue: 0,0:05:01.54,0:05:03.91,Dialogue,,0,0,0,,It {\i1}is{\i0} the City of Water, after all.
+Dialogue: 0,0:05:09.25,0:05:10.59,Dialogue,,0,0,0,,What do you want, Pops?
+Dialogue: 0,0:05:10.67,0:05:11.50,Dialogue,,0,0,0,,Yow!
+Dialogue: 0,0:05:11.59,0:05:12.67,Dialogue,,0,0,0,,You're coming to\Nthe station with me.
+Dialogue: 0,0:05:13.17,0:05:15.92,Dialogue,,0,0,0,,There's something\NI want to ask you about.
+Dialogue: 0,0:05:18.43,0:05:22.35,Dialogue,,0,0,0,,So, you're a State Alchemist, then?
+Dialogue: 0,0:05:22.81,0:05:24.93,Dialogue,,0,0,0,,And the famous Fullmetal one, at that.
+Dialogue: 0,0:05:25.02,0:05:26.89,Dialogue,,0,0,0,,How many times are you going to make me say it?
+Dialogue: 0,0:05:26.98,0:05:29.19,Dialogue,,0,0,0,,That should be more\Nproof than anything!
+Dialogue: 0,0:05:30.19,0:05:32.19,Dialogue,,0,0,0,,If it's the real thing, that is.
+Dialogue: 0,0:05:32.52,0:05:34.69,Dialogue,,0,0,0,,How a pipsqueak like you could be—
+Dialogue: 0,0:05:34.78,0:05:38.07,Dialogue,,0,0,0,,Who are you calling a pee-wee so small \Nthat you instinctively want to step on him?!
+Dialogue: 0,0:05:38.16,0:05:40.37,Dialogue,,0,0,0,,Brother, nobody said anything like that.
+Dialogue: 0,0:05:40.45,0:05:42.70,Dialogue,,0,0,0,,Now, now, don't get so worked up.
+Dialogue: 0,0:05:42.83,0:05:48.00,Dialogue,,0,0,0,,Right now, we have an unidentified phantom thief in the city
+Dialogue: 0,0:05:44.08,0:05:48.00,Dialogue,,0,0,0,,who goes by the name of "Psiren" plaguing us.
+Dialogue: 0,0:05:48.08,0:05:49.04,Dialogue,,0,0,0,,Psiren?
+Dialogue: 0,0:05:49.12,0:05:51.00,Dialogue,,0,0,0,,We only have one thing\Nthat you could call a lead.
+Dialogue: 0,0:05:51.21,0:05:54.17,Dialogue,,0,0,0,,And that's the fact that Psiren uses alchemy.
+Dialogue: 0,0:05:55.26,0:05:56.92,Dialogue,,0,0,0,,You're an alchemist too, right?
+Dialogue: 0,0:05:57.34,0:06:00.80,Dialogue,,0,0,0,,That's why I thought I would hear what you have to say.
+Dialogue: 0,0:06:02.47,0:06:04.26,Dialogue,,0,0,0,,Damn that guy!
+Dialogue: 0,0:06:04.39,0:06:07.14,Dialogue,,0,0,0,,He kept repeating the same questions for three whole hours.
+Dialogue: 0,0:06:07.48,0:06:09.39,Dialogue,,0,0,0,,What is he using for brains?
+Dialogue: 0,0:06:09.48,0:06:13.57,Dialogue,,0,0,0,,But, Brother, doesn't it bother you? I mean, an alchemist thief...
+Dialogue: 0,0:06:13.65,0:06:15.65,Dialogue,,0,0,0,,Well, I...
+Dialogue: 0,0:06:14.69,0:06:15.65,Dialogue,,0,0,0,,Brother?
+Dialogue: 0,0:06:16.23,0:06:17.32,Dialogue,,0,0,0,,What's wrong?
+Dialogue: 0,0:06:18.24,0:06:20.28,Dialogue,,0,0,0,,M-My stomach...
+Dialogue: 0,0:06:25.37,0:06:27.66,Dialogue,,0,0,0,,It's some mild food poisoning.
+Dialogue: 0,0:06:28.04,0:06:29.25,Dialogue,,0,0,0,,You didn't just eat\Ntoo much, then.
+Dialogue: 0,0:06:29.33,0:06:30.21,Dialogue,,0,0,0,,Leave me alone.
+Dialogue: 0,0:06:30.29,0:06:31.58,Dialogue,,0,0,0,,Better give you a shot.
+Dialogue: 0,0:06:31.67,0:06:33.00,Dialogue,,0,0,0,,Clara-kun!\NYes?
+Dialogue: 0,0:06:33.09,0:06:33.92,Dialogue,,0,0,0,,A shot?
+Dialogue: 0,0:06:34.25,0:06:35.67,Dialogue,,0,0,0,,Yes, a shot.
+Dialogue: 0,0:06:35.84,0:06:38.42,Dialogue,,0,0,0,,No way! I hate shots!
+Dialogue: 0,0:06:38.55,0:06:40.59,Dialogue,,0,0,0,,Brother! Don't make a scene!
+Dialogue: 0,0:06:40.72,0:06:41.97,Dialogue,,0,0,0,,I'm okay! I'm already better!
+Dialogue: 0,0:06:42.05,0:06:43.22,Dialogue,,0,0,0,,You're not a child!
+Dialogue: 0,0:06:43.30,0:06:44.26,Dialogue,,0,0,0,,Here, take off your coat!
+Dialogue: 0,0:06:44.35,0:06:47.06,Dialogue,,0,0,0,,Stop, Al! Are you trying to\Nsell your brother out here?!
+Dialogue: 0,0:06:47.14,0:06:49.69,Dialogue,,0,0,0,,You're going to make me mad, Brother!
+Dialogue: 0,0:06:48.35,0:06:49.69,Dialogue,,0,0,0,,Aah! I hate shots!
+Dialogue: 0,0:06:54.40,0:06:55.23,Dialogue,,0,0,0,,There!
+Dialogue: 0,0:06:55.69,0:06:57.03,Dialogue,,0,0,0,,Your shot is all done.
+Dialogue: 0,0:06:57.15,0:06:58.19,Dialogue,,0,0,0,,That didn't hurt, did it?
+Dialogue: 0,0:06:58.44,0:06:59.99,Dialogue,,0,0,0,,{\i1}I-I didn't even notice...
+Dialogue: 0,0:07:00.07,0:07:01.61,Dialogue,,0,0,0,,{\i1}That was incredibly fast work...
+Dialogue: 0,0:07:01.70,0:07:03.07,Dialogue,,0,0,0,,Say, listen...
+Dialogue: 0,0:07:03.16,0:07:04.20,Dialogue,,0,0,0,,Wh-What?
+Dialogue: 0,0:07:06.08,0:07:07.70,Dialogue,,0,0,0,,You need to grow up soon.
+Dialogue: 0,0:07:08.41,0:07:10.66,Dialogue,,0,0,0,,M-Mind your own business.
+Dialogue: 0,0:07:14.50,0:07:16.92,Dialogue,,0,0,0,,She sure was a pretty nurse, huh?
+Dialogue: 0,0:07:17.71,0:07:20.17,Dialogue,,0,0,0,,I unexpectedly found myself fascinated by her.
+Dialogue: 0,0:07:20.59,0:07:23.09,Dialogue,,0,0,0,,What kind of taste\Nhave you got, anyhow?
+Dialogue: 0,0:07:23.22,0:07:25.10,Dialogue,,0,0,0,,What's so good about\Na woman like her?
+Dialogue: 0,0:07:25.18,0:07:26.97,Dialogue,,0,0,0,,This won't do, ma'am.
+Dialogue: 0,0:07:27.31,0:07:29.18,Dialogue,,0,0,0,,You've left so much here.
+Dialogue: 0,0:07:29.47,0:07:30.98,Dialogue,,0,0,0,,I'm sorry,
+Dialogue: 0,0:07:31.27,0:07:34.31,Dialogue,,0,0,0,,but I just can't get them down.
+Dialogue: 0,0:07:34.40,0:07:35.73,Dialogue,,0,0,0,,I can't help you there. Well...
+Dialogue: 0,0:07:36.86,0:07:38.69,Dialogue,,0,0,0,,How about I peel another piece of fruit for you?
+Dialogue: 0,0:07:41.95,0:07:43.24,Dialogue,,0,0,0,,Are you all right with that?
+Dialogue: 0,0:07:43.74,0:07:45.28,Dialogue,,0,0,0,,This is no problem.
+Dialogue: 0,0:07:45.37,0:07:46.78,Dialogue,,0,0,0,,That looks dangerous.
+Dialogue: 0,0:07:46.87,0:07:48.91,Dialogue,,0,0,0,,I'll do it. Let me have it, Brother.
+Dialogue: 0,0:07:49.20,0:07:50.95,Dialogue,,0,0,0,,I'm okay. Back off!
+Dialogue: 0,0:07:58.63,0:07:59.46,Dialogue,,0,0,0,,There...
+Dialogue: 0,0:08:01.34,0:08:02.67,Dialogue,,0,0,0,,You two eat.
+Dialogue: 0,0:08:06.80,0:08:09.14,Dialogue,,0,0,0,,What are you thinking about?
+Dialogue: 0,0:08:09.35,0:08:10.56,Dialogue,,0,0,0,,Nothing.
+Dialogue: 0,0:08:10.64,0:08:11.48,Dialogue,,0,0,0,,Still...
+Dialogue: 0,0:08:12.06,0:08:13.31,Dialogue,,0,0,0,,Clara-san isn't just pretty.
+Dialogue: 0,0:08:13.39,0:08:16.23,Dialogue,,0,0,0,,She's kind, too.
+Dialogue: 0,0:08:16.69,0:08:19.65,Dialogue,,0,0,0,,She kind of resembles Mom a little bit.
+Dialogue: 0,0:08:20.07,0:08:22.40,Dialogue,,0,0,0,,Don't be ridiculous!
+Dialogue: 0,0:08:22.49,0:08:23.40,Dialogue,,0,0,0,,They're completely different!
+Dialogue: 0,0:08:24.57,0:08:26.41,Dialogue,,0,0,0,,I-I'm sorry.
+Dialogue: 0,0:08:26.57,0:08:29.20,Dialogue,,0,0,0,,That's okay, ma'am.\NDon't worry about it.
+Dialogue: 0,0:08:39.34,0:08:40.17,Dialogue,,0,0,0,,Here.
+Dialogue: 0,0:08:41.76,0:08:44.93,Dialogue,,0,0,0,,You two are alchemists?
+Dialogue: 0,0:08:45.80,0:08:46.97,Dialogue,,0,0,0,,Elric!
+Dialogue: 0,0:08:47.05,0:08:48.51,Dialogue,,0,0,0,,Mr. Elric!
+Dialogue: 0,0:08:48.60,0:08:51.60,Dialogue,,0,0,0,,Now what, Pops?!\NI'm not a thief!
+Dialogue: 0,0:08:51.72,0:08:53.18,Dialogue,,0,0,0,,I know, I know.
+Dialogue: 0,0:08:54.77,0:08:56.94,Dialogue,,0,0,0,,The truth is, I have a request.
+Dialogue: 0,0:08:58.98,0:09:02.98,Dialogue,,0,0,0,,We salute the State Alchemist, Edward Elric-sensei!
+Dialogue: 0,0:09:03.40,0:09:04.24,Dialogue,,0,0,0,,Yikes.
+Dialogue: 0,0:09:05.82,0:09:07.28,Dialogue,,0,0,0,,What are you up to, Pops?
+Dialogue: 0,0:09:07.36,0:09:10.33,Dialogue,,0,0,0,,No, no, no, I'm sorry about earlier.
+Dialogue: 0,0:09:10.41,0:09:12.16,Dialogue,,0,0,0,,As you said, Sensei,
+Dialogue: 0,0:09:12.24,0:09:15.75,Dialogue,,0,0,0,,I inquired of Commander Mustang of the Eastern Command Center.
+Dialogue: 0,0:09:16.21,0:09:20.92,Dialogue,,0,0,0,,When I did, it turned out that you really are a State Alchemist, Sensei!
+Dialogue: 0,0:09:21.00,0:09:22.75,Dialogue,,0,0,0,,My, my, I truly underestimated you!
+Dialogue: 0,0:09:23.17,0:09:24.67,Dialogue,,0,0,0,,Isn't that what I said?
+Dialogue: 0,0:09:24.76,0:09:25.76,Dialogue,,0,0,0,,I-Indeed.
+Dialogue: 0,0:09:26.13,0:09:28.84,Dialogue,,0,0,0,,As it happens, Sensei,\NI have a favor to a—
+Dialogue: 0,0:09:30.18,0:09:31.01,Dialogue,,0,0,0,,Another serving.
+Dialogue: 0,0:09:31.93,0:09:33.52,Dialogue,,0,0,0,,As many as you'd like.
+Dialogue: 0,0:09:35.39,0:09:38.27,Dialogue,,0,0,0,,With Sensei on our side, we can rest assured.
+Dialogue: 0,0:09:39.02,0:09:41.77,Dialogue,,0,0,0,,Today is the last day for Psiren.
+Dialogue: 0,0:09:41.86,0:09:44.15,Dialogue,,0,0,0,,Well, I'll give it a shot.
+Dialogue: 0,0:09:44.86,0:09:47.36,Dialogue,,0,0,0,,Still, though,\Nthat's an awful lot of people.
+Dialogue: 0,0:09:47.45,0:09:48.28,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:09:48.36,0:09:50.91,Dialogue,,0,0,0,,I don't know\Nwhat Psiren is thinking,
+Dialogue: 0,0:09:50.99,0:09:54.54,Dialogue,,0,0,0,,sending prior notice to newspapers\Nthroughout the country of upcoming thefts.
+Dialogue: 0,0:09:55.04,0:10:00.04,Dialogue,,0,0,0,,Newspaper reporters, spectators, \Nand even Psiren groupies show up as a result.
+Dialogue: 0,0:10:00.13,0:10:01.71,Dialogue,,0,0,0,,She's quite popular, huh?
+Dialogue: 0,0:10:01.79,0:10:03.75,Dialogue,,0,0,0,,Well, that popularity ends tonight.
+Dialogue: 0,0:10:03.96,0:10:06.47,Dialogue,,0,0,0,,We'll leave it in your hands, Sensei.
+Dialogue: 0,0:10:06.59,0:10:09.76,Dialogue,,0,0,0,,Now then, I'm going to go\Ncheck on the security situation.
+Dialogue: 0,0:10:11.76,0:10:15.31,Dialogue,,0,0,0,,You know, Brother,\NI'm surprised you took on this job.
+Dialogue: 0,0:10:15.56,0:10:17.27,Dialogue,,0,0,0,,I've taken an interest...
+Dialogue: 0,0:10:17.77,0:10:20.65,Dialogue,,0,0,0,,in this alchemist thief.
+Dialogue: 0,0:10:34.41,0:10:35.24,Dialogue,,0,0,0,,Oh, no!
+Dialogue: 0,0:10:37.33,0:10:39.08,Dialogue,,0,0,0,,Hold it!
+Dialogue: 0,0:10:38.25,0:10:39.08,Dialogue,,0,0,0,,What?
+Dialogue: 0,0:10:48.09,0:10:49.05,Dialogue,,0,0,0,,Hold it!
+Dialogue: 0,0:11:01.31,0:11:04.44,Dialogue,,0,0,0,,There are many ways\Nto use alchemy.
+Dialogue: 0,0:11:04.65,0:11:07.48,Dialogue,,0,0,0,,But I won't allow you \Nto use it for stealing!
+Dialogue: 0,0:11:08.19,0:11:11.45,Dialogue,,0,0,0,,Besides, thanks to you,\NI also got treated like a thief!
+Dialogue: 0,0:11:11.91,0:11:13.95,Dialogue,,0,0,0,,Now apologize,\Nfor all you're worth!
+Dialogue: 0,0:11:33.72,0:11:35.89,Dialogue,,0,0,0,,I've caught you!
+Dialogue: 0,0:11:37.51,0:11:39.64,Dialogue,,0,0,0,,Y-You're a woman?!
+Dialogue: 0,0:11:40.68,0:11:42.64,Dialogue,,0,0,0,,It's a shame I can't\Nshow you my face.
+Dialogue: 0,0:11:43.19,0:11:45.11,Dialogue,,0,0,0,,I'm terribly good-looking.
+Dialogue: 0,0:11:50.82,0:11:52.65,Dialogue,,0,0,0,,Dammit, what are you doing?!
+Dialogue: 0,0:11:53.11,0:11:56.16,Dialogue,,0,0,0,,Children ought to be in\Nbed by now, pipsqueak.
+Dialogue: 0,0:11:59.20,0:12:03.54,Dialogue,,0,0,0,,{\an8}Who are you calling an ultra-hyper-pipsqueak?!
+Dialogue: 0,0:12:07.00,0:12:07.96,Dialogue,,0,0,0,,{\an8}Al...
+Dialogue: 0,0:12:08.42,0:12:09.34,Dialogue,,0,0,0,,Al!
+Dialogue: 0,0:12:10.05,0:12:13.09,Dialogue,,0,0,0,,Where the hell did he go, for crying out loud?
+Dialogue: 0,0:12:32.49,0:12:33.57,Dialogue,,0,0,0,,You...
+Dialogue: 0,0:12:33.78,0:12:36.66,Dialogue,,0,0,0,,This is a surprise. Who would've thought that the kindly nurse
+Dialogue: 0,0:12:37.24,0:12:39.37,Dialogue,,0,0,0,,is actually the Phantom Thief Psiren?
+Dialogue: 0,0:12:39.45,0:12:41.16,Dialogue,,0,0,0,,Wh-What are you talking about?
+Dialogue: 0,0:12:41.70,0:12:44.33,Dialogue,,0,0,0,,I just came here to\Nget some medicine.
+Dialogue: 0,0:12:44.58,0:12:48.29,Dialogue,,0,0,0,,Yeah, medicine that you \Ntransmuted through alchemy.
+Dialogue: 0,0:12:48.84,0:12:49.88,Dialogue,,0,0,0,,You lying bitch!
+Dialogue: 0,0:12:51.38,0:12:53.72,Dialogue,,0,0,0,,I don't see how I'm a liar.
+Dialogue: 0,0:12:53.84,0:12:56.05,Dialogue,,0,0,0,,I am an incredible beauty, right?\NJust like I told you.
+Dialogue: 0,0:12:56.97,0:12:58.09,Dialogue,,0,0,0,,That's not the issue here!
+Dialogue: 0,0:12:58.18,0:12:59.01,Dialogue,,0,0,0,,Brother!
+Dialogue: 0,0:13:00.01,0:13:01.51,Dialogue,,0,0,0,,Brother, bad news...
+Dialogue: 0,0:13:03.22,0:13:04.23,Dialogue,,0,0,0,,Is something the matter?
+Dialogue: 0,0:13:04.39,0:13:05.98,Dialogue,,0,0,0,,What do you think is the matter?!
+Dialogue: 0,0:13:06.56,0:13:07.77,Dialogue,,0,0,0,,She's Psiren!
+Dialogue: 0,0:13:07.85,0:13:08.69,Dialogue,,0,0,0,,Look!
+Dialogue: 0,0:13:09.40,0:13:12.11,Dialogue,,0,0,0,,The transmutation circle on her chest is more proof than anything!
+Dialogue: 0,0:13:13.44,0:13:15.70,Dialogue,,0,0,0,,A lot can happen in one's life.
+Dialogue: 0,0:13:15.95,0:13:18.99,Dialogue,,0,0,0,,You kids probably\Nwouldn't understand.
+Dialogue: 0,0:13:19.07,0:13:19.99,Dialogue,,0,0,0,,What?!
+Dialogue: 0,0:13:20.08,0:13:21.70,Dialogue,,0,0,0,,I understand.
+Dialogue: 0,0:13:22.41,0:13:26.46,Dialogue,,0,0,0,,I heard earlier that the hospital is going to be demolished.
+Dialogue: 0,0:13:27.08,0:13:31.38,Dialogue,,0,0,0,,Clara-san, you had no choice but to become a thief in order to save the hospital, right?
+Dialogue: 0,0:13:31.84,0:13:34.01,Dialogue,,0,0,0,,That's it, right, Clara-san?
+Dialogue: 0,0:13:35.30,0:13:36.67,Dialogue,,0,0,0,,Th-That's right.
+Dialogue: 0,0:13:37.80,0:13:40.72,Dialogue,,0,0,0,,I didn't want to become a thief.
+Dialogue: 0,0:13:41.26,0:13:44.85,Dialogue,,0,0,0,,But in order to save\Nthe patients here,\NI had no choice.
+Dialogue: 0,0:13:46.43,0:13:47.69,Dialogue,,0,0,0,,I knew it.
+Dialogue: 0,0:13:47.94,0:13:49.77,Dialogue,,0,0,0,,You're such a kind person.
+Dialogue: 0,0:13:50.77,0:13:52.40,Dialogue,,0,0,0,,Sensei!
+Dialogue: 0,0:13:52.52,0:13:54.40,Dialogue,,0,0,0,,Sensei! There's another notice from Psiren...
+Dialogue: 0,0:13:56.28,0:13:58.86,Dialogue,,0,0,0,,Is something the matter?\NSensei?
+Dialogue: 0,0:14:01.45,0:14:04.08,Dialogue,,0,0,0,,It looks like there's less security around this time.
+Dialogue: 0,0:14:04.16,0:14:04.99,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:14:05.08,0:14:08.42,Dialogue,,0,0,0,,The owner of this mansion is a very cautious man, you see.
+Dialogue: 0,0:14:08.96,0:14:11.92,Dialogue,,0,0,0,,There's a little trap \Nset up inside the mansion.
+Dialogue: 0,0:14:12.29,0:14:13.13,Dialogue,,0,0,0,,A trap?
+Dialogue: 0,0:14:13.55,0:14:15.30,Dialogue,,0,0,0,,Just watch, and you'll understand.
+Dialogue: 0,0:14:15.38,0:14:17.84,Dialogue,,0,0,0,,This time, Psiren has had it for sure!
+Dialogue: 0,0:14:17.92,0:14:19.72,Dialogue,,0,0,0,,But the unexpected could always happen.
+Dialogue: 0,0:14:19.80,0:14:22.10,Dialogue,,0,0,0,,If it does, we'll be counting on you.
+Dialogue: 0,0:14:24.56,0:14:26.56,Dialogue,,0,0,0,,What should we do, Brother?
+Dialogue: 0,0:14:48.33,0:14:49.50,Dialogue,,0,0,0,,Oh, no!
+Dialogue: 0,0:14:50.00,0:14:51.04,Dialogue,,0,0,0,,A trap?
+Dialogue: 0,0:15:04.80,0:15:05.89,Dialogue,,0,0,0,,Kid...
+Dialogue: 0,0:15:07.27,0:15:09.14,Dialogue,,0,0,0,,Why did you help me out?
+Dialogue: 0,0:15:09.23,0:15:11.56,Dialogue,,0,0,0,,I didn't particularly help {\i1}you{\i0} out.
+Dialogue: 0,0:15:11.64,0:15:14.73,Dialogue,,0,0,0,,There are times when\Nwrongdoing may be necessary.\NThat's all I thought.
+Dialogue: 0,0:15:15.69,0:15:17.73,Dialogue,,0,0,0,,If that's what it takes\Nto save the hospital...
+Dialogue: 0,0:15:18.78,0:15:19.74,Dialogue,,0,0,0,,What's so funny?!
+Dialogue: 0,0:15:20.45,0:15:22.74,Dialogue,,0,0,0,,It's just that you sound like such a grown-up.
+Dialogue: 0,0:15:24.16,0:15:25.49,Dialogue,,0,0,0,,I {\i1}am{\i0} a grown-up!
+Dialogue: 0,0:15:26.83,0:15:27.83,Dialogue,,0,0,0,,Right.
+Dialogue: 0,0:15:27.95,0:15:31.00,Dialogue,,0,0,0,,As a grown woman,\NI have to repay my debt to you.
+Dialogue: 0,0:15:31.87,0:15:34.50,Dialogue,,0,0,0,,Is there anything you'd like me to do for you?
+Dialogue: 0,0:15:36.04,0:15:37.71,Dialogue,,0,0,0,,Just answer me one thing.
+Dialogue: 0,0:15:38.34,0:15:41.72,Dialogue,,0,0,0,,If you're an alchemist, you must've\Nheard about the Philosopher's Stone.
+Dialogue: 0,0:15:42.05,0:15:44.64,Dialogue,,0,0,0,,If you have any information about it, tell me.
+Dialogue: 0,0:15:44.93,0:15:47.22,Dialogue,,0,0,0,,I have to get that stone,\Nno matter what.
+Dialogue: 0,0:15:49.85,0:15:50.73,Dialogue,,0,0,0,,Sorry.
+Dialogue: 0,0:15:51.23,0:15:52.98,Dialogue,,0,0,0,,It doesn't look like I can help you.
+Dialogue: 0,0:15:53.39,0:15:54.40,Dialogue,,0,0,0,,How about instead,
+Dialogue: 0,0:15:54.94,0:15:57.07,Dialogue,,0,0,0,,if you ever find out where the stone is, you let me know?
+Dialogue: 0,0:15:57.19,0:15:58.65,Dialogue,,0,0,0,,I'll steal it for you.
+Dialogue: 0,0:16:03.03,0:16:03.91,Dialogue,,0,0,0,,Hey!
+Dialogue: 0,0:16:05.78,0:16:07.91,Dialogue,,0,0,0,,I'm glad you're able\Nto save the hospital.
+Dialogue: 0,0:16:09.33,0:16:11.25,Dialogue,,0,0,0,,Sure! Thanks to you!
+Dialogue: 0,0:16:16.17,0:16:17.84,Dialogue,,0,0,0,,What's going on here?
+Dialogue: 0,0:16:18.50,0:16:20.76,Dialogue,,0,0,0,,Don't tell me she tricked us...
+Dialogue: 0,0:16:20.88,0:16:22.30,Dialogue,,0,0,0,,No way!
+Dialogue: 0,0:16:22.42,0:16:23.72,Dialogue,,0,0,0,,Clara-san would be\Nthe last person to do something like that.
+Dialogue: 0,0:16:24.30,0:16:25.76,Dialogue,,0,0,0,,There has to be\Nsome kind of mistake!
+Dialogue: 0,0:16:25.89,0:16:28.39,Dialogue,,0,0,0,,The only mistakes going on are inside that head of yours!
+Dialogue: 0,0:16:28.51,0:16:31.02,Dialogue,,0,0,0,,{\i1}Clara{\i0} has robbed\Nyour head of {\i1}clarity{\i0}!
+Dialogue: 0,0:16:31.10,0:16:33.27,Dialogue,,0,0,0,,That's terrible, Brother,\Nsaying it like that!
+Dialogue: 0,0:16:33.35,0:16:34.56,Dialogue,,0,0,0,,You mustn't argue.
+Dialogue: 0,0:16:34.64,0:16:36.44,Dialogue,,0,0,0,,It goes against the will of God.
+Dialogue: 0,0:16:40.65,0:16:41.94,Dialogue,,0,0,0,,Clara-san...
+Dialogue: 0,0:16:42.19,0:16:43.44,Dialogue,,0,0,0,,You...?
+Dialogue: 0,0:16:44.78,0:16:46.95,Dialogue,,0,0,0,,It's too bad about the hospital.
+Dialogue: 0,0:16:47.37,0:16:51.29,Dialogue,,0,0,0,,I tried to save it, \Nbut I was too late.
+Dialogue: 0,0:16:51.41,0:16:53.58,Dialogue,,0,0,0,,I was so beside myself\Nwith grief that I...
+Dialogue: 0,0:16:54.21,0:16:55.29,Dialogue,,0,0,0,,became a nun!
+Dialogue: 0,0:16:55.71,0:16:56.71,Dialogue,,0,0,0,,Clara-san!
+Dialogue: 0,0:16:56.79,0:16:57.79,Dialogue,,0,0,0,,I'll just bet.
+Dialogue: 0,0:16:58.08,0:16:59.42,Dialogue,,0,0,0,,It's true!
+Dialogue: 0,0:16:59.79,0:17:01.67,Dialogue,,0,0,0,,Those who believe will be saved.
+Dialogue: 0,0:17:01.80,0:17:05.01,Dialogue,,0,0,0,,And there are still others\Nwhom I can save.
+Dialogue: 0,0:17:05.43,0:17:06.80,Dialogue,,0,0,0,,For example, this convent.
+Dialogue: 0,0:17:07.05,0:17:09.64,Dialogue,,0,0,0,,It will soon be demolished!
+Dialogue: 0,0:17:10.47,0:17:11.35,Dialogue,,0,0,0,,I-I knew it!
+Dialogue: 0,0:17:11.85,0:17:12.89,Dialogue,,0,0,0,,You're right!
+Dialogue: 0,0:17:12.97,0:17:16.98,Dialogue,,0,0,0,,This time,\Nyou've got to stick with it, please!\NWe'll give you our support, too!
+Dialogue: 0,0:17:18.94,0:17:20.11,Dialogue,,0,0,0,,Brother! Bad news!
+Dialogue: 0,0:17:20.56,0:17:21.40,Dialogue,,0,0,0,,What is it?!
+Dialogue: 0,0:17:21.61,0:17:24.40,Dialogue,,0,0,0,,They're saying that Psiren appeared again!\NThe whole city is in an uproar!
+Dialogue: 0,0:17:24.86,0:17:25.74,Dialogue,,0,0,0,,She's done it!
+Dialogue: 0,0:17:25.82,0:17:27.95,Dialogue,,0,0,0,,Now the convent can be saved!
+Dialogue: 0,0:17:32.99,0:17:34.83,Dialogue,,0,0,0,,There's some kind of mistake.
+Dialogue: 0,0:17:35.04,0:17:36.37,Dialogue,,0,0,0,,Right, Brother?
+Dialogue: 0,0:17:36.50,0:17:37.83,Dialogue,,0,0,0,,What are you, an idiot?!
+Dialogue: 0,0:17:37.92,0:17:39.42,Dialogue,,0,0,0,,Quit being such a nice guy already!
+Dialogue: 0,0:17:39.50,0:17:40.84,Dialogue,,0,0,0,,She's a con artist!
+Dialogue: 0,0:17:40.92,0:17:42.92,Dialogue,,0,0,0,,She's just been teasing us\Nand having herself a laugh!
+Dialogue: 0,0:17:43.00,0:17:45.05,Dialogue,,0,0,0,,Don't say it like that, Brother!
+Dialogue: 0,0:17:45.17,0:17:47.18,Dialogue,,0,0,0,,You shouldn't fight.
+Dialogue: 0,0:17:47.26,0:17:48.09,Dialogue,,0,0,0,,Stop it, boys.
+Dialogue: 0,0:17:51.43,0:17:52.72,Dialogue,,0,0,0,,Why, you!
+Dialogue: 0,0:17:52.85,0:17:54.43,Dialogue,,0,0,0,,What are you this time, in that getup?
+Dialogue: 0,0:17:54.52,0:17:57.52,Dialogue,,0,0,0,,I know! You've become a schoolteacher, right?
+Dialogue: 0,0:17:57.60,0:18:00.48,Dialogue,,0,0,0,,You're fighting for a school\Nthat's soon to be destroyed!
+Dialogue: 0,0:18:00.81,0:18:02.36,Dialogue,,0,0,0,,That's it, right?
+Dialogue: 0,0:18:02.44,0:18:03.32,Dialogue,,0,0,0,,Isn't that right, Clara-san?!
+Dialogue: 0,0:18:03.94,0:18:06.11,Dialogue,,0,0,0,,Y-Yes, yes.
+Dialogue: 0,0:18:06.19,0:18:07.03,Dialogue,,0,0,0,,Well done.
+Dialogue: 0,0:18:07.11,0:18:07.95,Dialogue,,0,0,0,,Stop jerking us around!
+Dialogue: 0,0:18:08.95,0:18:10.78,Dialogue,,0,0,0,,What are you?
+Dialogue: 0,0:18:10.91,0:18:12.58,Dialogue,,0,0,0,,Are you just a thief after all?
+Dialogue: 0,0:18:12.74,0:18:16.70,Dialogue,,0,0,0,,A common criminal, who uses alchemy for her own selfish interests?!
+Dialogue: 0,0:18:18.87,0:18:20.21,Dialogue,,0,0,0,,Well, that's a good question.
+Dialogue: 0,0:18:21.08,0:18:22.71,Dialogue,,0,0,0,,You're a grown-up, right?
+Dialogue: 0,0:18:23.17,0:18:25.21,Dialogue,,0,0,0,,Think about it for yourself.
+Dialogue: 0,0:18:32.35,0:18:33.81,Dialogue,,0,0,0,,Extra! Extra!
+Dialogue: 0,0:18:34.39,0:18:36.77,Dialogue,,0,0,0,,Another notice from Psiren!
+Dialogue: 0,0:18:37.56,0:18:39.69,Dialogue,,0,0,0,,What are you so pleased about?
+Dialogue: 0,0:18:39.77,0:18:41.52,Dialogue,,0,0,0,,Psiren is just a common criminal, right?
+Dialogue: 0,0:18:41.65,0:18:42.94,Dialogue,,0,0,0,,What are you talking about?
+Dialogue: 0,0:18:43.02,0:18:45.90,Dialogue,,0,0,0,,We owe Psiren for saving the city of Aquroya.
+Dialogue: 0,0:18:46.28,0:18:48.15,Dialogue,,0,0,0,,She's our star of hope, you know!
+Dialogue: 0,0:18:48.70,0:18:50.41,Dialogue,,0,0,0,,Your star of hope?
+Dialogue: 0,0:18:51.32,0:18:56.95,Dialogue,,0,0,0,,This city—the City of Water, Aquroya—\Nsinks a little bit into\Nthe water every year.
+Dialogue: 0,0:18:57.04,0:19:01.42,Dialogue,,0,0,0,,In another five years, the whole city will be wiped out at the bottom of the lake.
+Dialogue: 0,0:19:01.62,0:19:05.17,Dialogue,,0,0,0,,Because of that,\Neveryone else fled the city.
+Dialogue: 0,0:19:05.29,0:19:09.76,Dialogue,,0,0,0,,That made us all so lonesome. At least until Psiren appeared.
+Dialogue: 0,0:19:10.80,0:19:14.97,Dialogue,,0,0,0,,But thanks to Psiren,\Nlife has returned to the city.
+Dialogue: 0,0:19:15.10,0:19:16.93,Dialogue,,0,0,0,,Reporters from all over the country\Nand tourists alike
+Dialogue: 0,0:19:17.35,0:19:19.85,Dialogue,,0,0,0,,come here in the hope of\Ncatching a glimpse of Psiren.
+Dialogue: 0,0:19:20.48,0:19:22.35,Dialogue,,0,0,0,,Before disappearing under the water,
+Dialogue: 0,0:19:22.52,0:19:25.94,Dialogue,,0,0,0,,she has made Aquroya bloom one last time.
+Dialogue: 0,0:19:27.44,0:19:29.94,Dialogue,,0,0,0,,What does it mean, Brother?
+Dialogue: 0,0:19:30.82,0:19:35.16,Dialogue,,0,0,0,,Could it be that Clara-san\Nbecame a thief to save the city?
+Dialogue: 0,0:19:35.24,0:19:36.33,Dialogue,,0,0,0,,Maybe.
+Dialogue: 0,0:19:36.53,0:19:40.71,Dialogue,,0,0,0,,The one thing\NI can say for sure...\Nis that she tricked me—
+Dialogue: 0,0:19:41.37,0:19:43.33,Dialogue,,0,0,0,,the Fullmetal Alchemist.
+Dialogue: 0,0:19:44.21,0:19:47.17,Dialogue,,0,0,0,,She's going to pay for that offense, at least.
+Dialogue: 0,0:19:59.14,0:20:01.64,Dialogue,,0,0,0,,I thought you would come,\Nkid.
+Dialogue: 0,0:20:02.94,0:20:06.69,Dialogue,,0,0,0,,Pretty fantastic, isn't it?\NA date here, on the water.
+Dialogue: 0,0:20:06.77,0:20:08.78,Dialogue,,0,0,0,,Shut up, you crook.
+Dialogue: 0,0:20:08.86,0:20:11.61,Dialogue,,0,0,0,,Dear me, the same could be said of you, couldn't it?
+Dialogue: 0,0:20:11.69,0:20:13.78,Dialogue,,0,0,0,,You want the Philosopher's Stone, right?
+Dialogue: 0,0:20:14.82,0:20:18.45,Dialogue,,0,0,0,,The desire to have an object...\Nis the same in both of us.
+Dialogue: 0,0:20:19.45,0:20:20.50,Dialogue,,0,0,0,,Maybe so.
+Dialogue: 0,0:20:21.00,0:20:23.37,Dialogue,,0,0,0,,However...\Nthere is something that's different.
+Dialogue: 0,0:20:23.87,0:20:27.92,Dialogue,,0,0,0,,What we use our alchemy for,\Nand the burdens we each bear.
+Dialogue: 0,0:20:29.71,0:20:31.17,Dialogue,,0,0,0,,Here I go, kid.
+Dialogue: 0,0:20:39.85,0:20:40.68,Dialogue,,0,0,0,,I did it...
+Dialogue: 0,0:21:06.75,0:21:08.84,Dialogue,,0,0,0,,That was pretty sharp, kid.
+Dialogue: 0,0:21:09.04,0:21:11.25,Dialogue,,0,0,0,,I'm sure you'll turn into a fine man.
+Dialogue: 0,0:21:11.34,0:21:13.46,Dialogue,,0,0,0,,Once you do, let's fight again.
+Dialogue: 0,0:21:13.63,0:21:16.13,Dialogue,,0,0,0,,Next time, as a man and a woman.
+Dialogue: 0,0:21:16.22,0:21:17.59,Dialogue,,0,0,0,,Clara-san...
+Dialogue: 0,0:21:17.97,0:21:20.51,Dialogue,,0,0,0,,Let me tell you one last thing.
+Dialogue: 0,0:21:21.14,0:21:22.18,Dialogue,,0,0,0,,It's about the Philosopher's Stone.
+Dialogue: 0,0:21:22.27,0:21:23.10,Dialogue,,0,0,0,,What?
+Dialogue: 0,0:21:23.31,0:21:26.10,Dialogue,,0,0,0,,Go to the city of Xenotime and have a look.
+Dialogue: 0,0:21:26.35,0:21:31.32,Dialogue,,0,0,0,,I've heard that there's somebody there researching the Philosopher's Stone.
+Dialogue: 0,0:21:32.36,0:21:33.61,Dialogue,,0,0,0,,Xenotime...
+Dialogue: 0,0:21:37.53,0:21:40.12,Dialogue,,0,0,0,,What, are you still angry?
+Dialogue: 0,0:21:40.41,0:21:41.58,Dialogue,,0,0,0,,I had no choice, you know.
+Dialogue: 0,0:21:41.70,0:21:44.29,Dialogue,,0,0,0,,She was, after all,\Na common criminal.
+Dialogue: 0,0:21:44.37,0:21:45.20,Dialogue,,0,0,0,,She was {\i1}not{\i0}!
+Dialogue: 0,0:21:46.37,0:21:49.46,Dialogue,,0,0,0,,She wasn't just \Na common criminal.
+Dialogue: 0,0:21:48.62,0:21:52.75,Dialogue,,0,0,0,,Brother, you said yourself that sometimes, wrongdoing is necessary, didn't you?
+Dialogue: 0,0:21:53.50,0:21:54.84,Dialogue,,0,0,0,,Clara-san was...
+Dialogue: 0,0:21:55.59,0:21:58.09,Dialogue,,0,0,0,,Clara-san was a kind person.
+Dialogue: 0,0:21:58.47,0:22:00.72,Dialogue,,0,0,0,,You really think so too, Brother!
+Dialogue: 0,0:22:03.31,0:22:04.43,Dialogue,,0,0,0,,About that...
+Dialogue: 0,0:22:05.56,0:22:08.02,Dialogue,,0,0,0,,I'm not sure.
+Dialogue: 0,0:22:13.02,0:22:15.23,Dialogue,,0,0,0,,Say, it's a little bit warm in here.
+Dialogue: 0,0:22:16.03,0:22:18.70,Dialogue,,0,0,0,,Could I get you to lower the zipper on my chest?
+Dialogue: 0,0:23:38.94,0:23:40.53,Dialogue,,0,0,0,,{\i1}Fullmetal Alchemist{\i0}...
+Dialogue: 0,0:23:40.61,0:23:44.53,Dialogue,,0,0,0,,Episode 11: "Land of Stones, Part 1"
+Dialogue: 0,0:23:45.24,0:23:48.54,Dialogue,,0,0,0,,Another me...\NAnother Brother...
+Dialogue: 0,0:23:49.29,0:23:52.08,Dialogue,,0,0,0,,And a red stone that binds the four of us together.

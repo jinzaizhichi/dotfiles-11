@@ -1,0 +1,241 @@
+[Script Info]
+Title: Erased - 12
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1280
+PlayResY: 720
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Dialogue,Noto Sans,46,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,40,40,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.65,0:00:01.95,Dialogue,,0,0,0,,But you know what, Satoru?
+Dialogue: 0,0:00:02.45,0:00:05.52,Dialogue,,0,0,0,,Before, I could only ever picture\Na life of solitude for myself,
+Dialogue: 0,0:00:06.06,0:00:08.14,Dialogue,,0,0,0,,but now I have a family to call my own.
+Dialogue: 0,0:00:08.71,0:00:10.44,Dialogue,,0,0,0,,And it's all because you were there for me.
+Dialogue: 0,0:00:11.09,0:00:11.78,Dialogue,,0,0,0,,Thank you.
+Dialogue: 0,0:00:13.40,0:00:15.05,Dialogue,,0,0,0,,{\i1}"Thank you," huh?
+Dialogue: 0,0:00:16.90,0:00:17.95,Dialogue,,0,0,0,,{\i1}What did I do?
+Dialogue: 0,0:00:22.11,0:00:24.62,Dialogue,,0,0,0,,There, there! Hungry, are we?
+Dialogue: 0,0:00:24.73,0:00:25.76,Dialogue,,0,0,0,,There, there.
+Dialogue: 0,0:00:38.12,0:00:41.86,Dialogue,,0,0,0,,{\i1}Right, I saved Hinazuki.
+Dialogue: 0,0:00:42.89,0:00:50.20,Dialogue,,0,0,0,,{\i1}And then, we tried to make sure\NNakanishi Aya and Misato weren't alone.
+Dialogue: 0,0:00:58.61,0:00:59.26,Dialogue,,0,0,0,,Yashiro.
+Dialogue: 0,0:01:01.78,0:01:02.92,Dialogue,,0,0,0,,I've regained...
+Dialogue: 0,0:01:03.70,0:01:04.77,Dialogue,,0,0,0,,...my memories!
+Dialogue: 0,0:02:45.32,0:02:46.66,Dialogue,,0,0,0,,Kazu's a carpenter, huh?
+Dialogue: 0,0:02:47.42,0:02:49.33,Dialogue,,0,0,0,,Looks like both him and Osamu are working hard.
+Dialogue: 0,0:02:50.65,0:02:53.77,Dialogue,,0,0,0,,Yeah. By the way, Misato said\Nshe'd come stop by here soon.
+Dialogue: 0,0:02:54.70,0:02:55.44,Dialogue,,0,0,0,,Really?
+Dialogue: 0,0:02:56.18,0:02:58.97,Dialogue,,0,0,0,,I thought she hated me.
+Dialogue: 0,0:02:59.36,0:03:00.88,Dialogue,,0,0,0,,Takes me back.
+Dialogue: 0,0:03:01.22,0:03:03.65,Dialogue,,0,0,0,,You had your ups and downs, huh?\NLike that lunch money affair.
+Dialogue: 0,0:03:04.08,0:03:08.78,Dialogue,,0,0,0,,But, you know,
+Dialogue: 0,0:03:04.08,0:03:10.44,Dialogue,,0,0,0,,she was the one who suggested a fundraiser\Nto help with your hospital bills.
+Dialogue: 0,0:03:11.11,0:03:12.40,Dialogue,,0,0,0,,Really?
+Dialogue: 0,0:03:13.08,0:03:16.20,Dialogue,,0,0,0,,You were trying to save Misato that day.
+Dialogue: 0,0:03:17.32,0:03:19.62,Dialogue,,0,0,0,,You've remembered everything, haven't you?
+Dialogue: 0,0:03:23.57,0:03:25.98,Dialogue,,0,0,0,,Why didn't you tell us?
+Dialogue: 0,0:03:27.65,0:03:29.12,Dialogue,,0,0,0,,I didn't want to get you guys involved.
+Dialogue: 0,0:03:30.12,0:03:34.11,Dialogue,,0,0,0,,I mean, it's been fifteen years.
+Dialogue: 0,0:03:30.12,0:03:37.18,Dialogue,,0,0,0,,All the evidence is gone, and I doubt\Nanyone will believe anything I say.
+Dialogue: 0,0:03:41.18,0:03:45.53,Dialogue,,0,0,0,,Seeing you wake up after fifteen\Nyears made me really happy.
+Dialogue: 0,0:03:46.38,0:03:49.04,Dialogue,,0,0,0,,I was simply overjoyed that you came back to us.
+Dialogue: 0,0:03:49.56,0:03:52.40,Dialogue,,0,0,0,,So I avoided asking you about the past.
+Dialogue: 0,0:03:53.45,0:03:55.34,Dialogue,,0,0,0,,You've fought enough already,
+Dialogue: 0,0:03:55.67,0:03:59.79,Dialogue,,0,0,0,,and I didn't want to disturb you while\Nyour body and mind were still healing.
+Dialogue: 0,0:04:00.62,0:04:04.72,Dialogue,,0,0,0,,But if you're thinking about fighting\Nall by yourself again, don't.
+Dialogue: 0,0:04:05.94,0:04:07.29,Dialogue,,0,0,0,,Take us with you.
+Dialogue: 0,0:04:09.04,0:04:13.55,Dialogue,,0,0,0,,While Hiromi kept visiting you in the hospital,\Nhe found his calling as a doctor.
+Dialogue: 0,0:04:14.13,0:04:18.76,Dialogue,,0,0,0,,I became a lawyer, and I'm still searching\Nfor your attacker with Sawada-san.
+Dialogue: 0,0:04:19.50,0:04:22.20,Dialogue,,0,0,0,,You were our hero back then.
+Dialogue: 0,0:04:22.97,0:04:27.81,Dialogue,,0,0,0,,Our desire to catch up to you and fight\N with you is what made us who we are today.
+Dialogue: 0,0:04:28.65,0:04:30.36,Dialogue,,0,0,0,,It was the same when we\Nhelped Hinazuki, wasn't it?
+Dialogue: 0,0:04:30.83,0:04:33.67,Dialogue,,0,0,0,,You believed in me and gave\Nme your side of the story.
+Dialogue: 0,0:04:34.29,0:04:36.78,Dialogue,,0,0,0,,That's why I did my part and believed in you too.
+Dialogue: 0,0:04:39.77,0:04:42.50,Dialogue,,0,0,0,,It's for my own sake that I want to trust you.
+Dialogue: 0,0:04:43.12,0:04:46.26,Dialogue,,0,0,0,,Similar to someone wanting to be trusted,\Nbut the other way around.
+Dialogue: 0,0:04:47.03,0:04:47.80,Dialogue,,0,0,0,,{\i1}Airi...
+Dialogue: 0,0:04:52.53,0:04:53.45,Dialogue,,0,0,0,,{\i1}That's right.
+Dialogue: 0,0:04:54.42,0:04:56.50,Dialogue,,0,0,0,,{\i1}I have friends I can trust.
+Dialogue: 0,0:05:01.11,0:05:02.04,Dialogue,,0,0,0,,The killer is...
+Dialogue: 0,0:05:02.81,0:05:03.59,Dialogue,,0,0,0,,Yashiro.
+Dialogue: 0,0:05:04.81,0:05:06.18,Dialogue,,0,0,0,,I thought as much.
+Dialogue: 0,0:05:07.61,0:05:11.25,Dialogue,,0,0,0,,When I tapped my finger on\Nyour wheelchair on the way here...
+Dialogue: 0,0:05:12.62,0:05:14.77,Dialogue,,0,0,0,,you stifled a reaction, didn't you?
+Dialogue: 0,0:05:17.27,0:05:18.34,Dialogue,,0,0,0,,Fifteen years ago...
+Dialogue: 0,0:05:19.22,0:05:22.46,Dialogue,,0,0,0,,you predicted my every move and foiled my plans.
+Dialogue: 0,0:05:31.78,0:05:33.12,Dialogue,,0,0,0,,That was far beyond...
+Dialogue: 0,0:05:35.21,0:05:38.13,Dialogue,,0,0,0,,...the level of a child.
+Dialogue: 0,0:05:41.80,0:05:44.35,Dialogue,,0,0,0,,It was as though you could see the future.
+Dialogue: 0,0:05:45.24,0:05:49.51,Dialogue,,0,0,0,,{\i1}Yashiro!\N{\i1}I know what lies in your future!
+Dialogue: 0,0:05:53.01,0:05:56.26,Dialogue,,0,0,0,,Why?\NHow could you predict my thoughts?
+Dialogue: 0,0:05:56.94,0:05:59.06,Dialogue,,0,0,0,,What did you mean,\Nyou knew what lies in my future?
+Dialogue: 0,0:06:00.20,0:06:03.67,Dialogue,,0,0,0,,Not like telling you would stop you from killing me.
+Dialogue: 0,0:06:04.92,0:06:06.09,Dialogue,,0,0,0,,I know what you're up to.
+Dialogue: 0,0:06:06.48,0:06:09.44,Dialogue,,0,0,0,,You have a cell phone in your pocket, right?
+Dialogue: 0,0:06:10.13,0:06:13.41,Dialogue,,0,0,0,,You're either recording this yourself,\Nor on the phone with someone who is.
+Dialogue: 0,0:06:13.52,0:06:15.64,Dialogue,,0,0,0,,I assume that someone is Kenya.
+Dialogue: 0,0:06:30.02,0:06:32.67,Dialogue,,0,0,0,,The statute of limitations has passed\Non the case from fifteen years ago,
+Dialogue: 0,0:06:33.01,0:06:37.07,Dialogue,,0,0,0,,so you wanted to make me talk about cases\Nwhose statute hadn't passed yet, right?
+Dialogue: 0,0:06:38.09,0:06:40.86,Dialogue,,0,0,0,,Unfortunately for you, they don't exist.
+Dialogue: 0,0:06:41.32,0:06:45.76,Dialogue,,0,0,0,,So you'll never be able to catch me, Satoru.
+Dialogue: 0,0:06:46.77,0:06:49.38,Dialogue,,0,0,0,,Look, you have a text from Kumi-chan.
+Dialogue: 0,0:06:51.55,0:06:54.99,Dialogue,,0,0,0,,Her IV drip starts at 4:30 p.m.
+Dialogue: 0,0:06:55.91,0:06:58.46,Dialogue,,0,0,0,,But today's bag is laced with muscle relaxants.
+Dialogue: 0,0:06:58.72,0:07:00.90,Dialogue,,0,0,0,,Of course, your fingerprints are on the bag, too.
+Dialogue: 0,0:07:01.48,0:07:07.06,Dialogue,,0,0,0,,You've granted a merciful death to a young\Ngirl who was worried about her surgery.
+Dialogue: 0,0:07:07.68,0:07:11.53,Dialogue,,0,0,0,,And racked with guilt, I take my own\Nlife by jumping off this rooftop.
+Dialogue: 0,0:07:17.09,0:07:22.60,Dialogue,,0,0,0,,Even if you told me how you\Nwere able to predict my thoughts,\Nthere's nothing you can do to save your own life.
+Dialogue: 0,0:07:22.93,0:07:25.90,Dialogue,,0,0,0,,But you can save Kumi-chan's life.
+Dialogue: 0,0:07:26.26,0:07:29.33,Dialogue,,0,0,0,,How do I know for sure that\Nyou'll spare her life if I talk?
+Dialogue: 0,0:07:29.70,0:07:31.97,Dialogue,,0,0,0,,You don't, obviously.
+Dialogue: 0,0:07:32.46,0:07:34.17,Dialogue,,0,0,0,,But there is a possibility.
+Dialogue: 0,0:07:34.58,0:07:37.56,Dialogue,,0,0,0,,If you don't talk, you'll erase the possibility.
+Dialogue: 0,0:07:41.20,0:07:43.85,Dialogue,,0,0,0,,Too bad. We're out of time.
+Dialogue: 0,0:07:44.40,0:07:47.57,Dialogue,,0,0,0,,This was an all-or-nothing gamble for me as well.
+Dialogue: 0,0:07:48.01,0:07:51.54,Dialogue,,0,0,0,,But in the end, there was no particular\Nreason you foresaw my moves, huh?
+Dialogue: 0,0:07:52.25,0:07:54.09,Dialogue,,0,0,0,,It was all dumb luck.
+Dialogue: 0,0:07:54.74,0:07:58.28,Dialogue,,0,0,0,,What you said about knowing\Nwhat lies in my future was a bluff, too.
+Dialogue: 0,0:08:01.44,0:08:02.66,Dialogue,,0,0,0,,Rest assured.
+Dialogue: 0,0:08:03.68,0:08:07.33,Dialogue,,0,0,0,,I'll put all my heart into writing\Nyour parting words to your mother.
+Dialogue: 0,0:08:09.32,0:08:13.54,Dialogue,,0,0,0,,{\i1}Bye, Satoru. I've got a morning shift tomorrow,\Nso I'll see you in the afternoon.
+Dialogue: 0,0:08:15.43,0:08:16.70,Dialogue,,0,0,0,,Sleeping, huh?
+Dialogue: 0,0:08:19.85,0:08:20.49,Dialogue,,0,0,0,,Ma...
+Dialogue: 0,0:08:23.78,0:08:25.98,Dialogue,,0,0,0,,My memories have actually...
+Dialogue: 0,0:08:26.01,0:08:27.02,Dialogue,,0,0,0,,...returned, haven't they?
+Dialogue: 0,0:08:27.66,0:08:28.41,Dialogue,,0,0,0,,I know.
+Dialogue: 0,0:08:28.72,0:08:30.21,Dialogue,,0,0,0,,It must've happened\Nwhen Kayo-chan visited.
+Dialogue: 0,0:08:30.75,0:08:31.78,Dialogue,,0,0,0,,{\i1}She's a demon.
+Dialogue: 0,0:08:32.66,0:08:35.92,Dialogue,,0,0,0,,Hey, you didn't tell her to keep quiet, did you?
+Dialogue: 0,0:08:39.05,0:08:41.65,Dialogue,,0,0,0,,{\q2}When Kenya-kun and Hiromi-kun left after their first visit,
+Dialogue: 0,0:08:41.85,0:08:45.33,Dialogue,,0,0,0,,I felt like I'd made a mistake.
+Dialogue: 0,0:08:46.35,0:08:48.96,Dialogue,,0,0,0,,'Cause you boys couldn't\Nspeak from the heart that day.
+Dialogue: 0,0:08:49.81,0:08:53.80,Dialogue,,0,0,0,,When I saw Kayo-chan and her baby,\NI couldn't bring myself to have her keep quiet.
+Dialogue: 0,0:08:54.44,0:08:58.55,Dialogue,,0,0,0,,I mean, she came to see you\Nafter waiting fifteen long years.
+Dialogue: 0,0:09:00.60,0:09:04.81,Dialogue,,0,0,0,,Y'know, I looked at your face\Nand talked to you every single day.
+Dialogue: 0,0:09:05.21,0:09:08.16,Dialogue,,0,0,0,,But only when you started talking and\NI noticed how much your voice had changed...
+Dialogue: 0,0:09:09.05,0:09:11.68,Dialogue,,0,0,0,,...did I realize that you'd grown up.
+Dialogue: 0,0:09:12.25,0:09:13.20,Dialogue,,0,0,0,,It made me so happy.
+Dialogue: 0,0:09:13.96,0:09:16.14,Dialogue,,0,0,0,,My baby boy is an adult now.
+Dialogue: 0,0:09:22.36,0:09:23.10,Dialogue,,0,0,0,,Mom...
+Dialogue: 0,0:09:23.86,0:09:25.61,Dialogue,,0,0,0,,I want to live life digging deep\Nand taking that extra step.
+Dialogue: 0,0:09:26.39,0:09:28.51,Dialogue,,0,0,0,,Bit late for that, don't you think?
+Dialogue: 0,0:09:28.78,0:09:33.17,Dialogue,,0,0,0,,That's how you lived your life even before the coma.
+Dialogue: 0,0:09:40.59,0:09:43.10,Dialogue,,0,0,0,,"Filling the holes in ourselves\Nis what life's all about."
+Dialogue: 0,0:09:44.10,0:09:48.10,Dialogue,,0,0,0,,That's part of the graduation day speech\NI gave the sixth graders I was in charge of.
+Dialogue: 0,0:09:48.61,0:09:52.97,Dialogue,,0,0,0,,The day Hinazuki was placed\Nunder protective custody,\NI stood beside you and saw\Nyour face in the falling snow.
+Dialogue: 0,0:09:54.23,0:09:57.24,Dialogue,,0,0,0,,That's the one look of yours\NI remember most clearly.
+Dialogue: 0,0:09:59.23,0:10:02.64,Dialogue,,0,0,0,,{\move(960,1020,960,937.5,0,794)}My father left soon after I was born,
+Dialogue: 0,0:10:03.50,0:10:05.45,Dialogue,,0,0,0,,so I don't remember how he looked at all.
+Dialogue: 0,0:10:06.61,0:10:11.27,Dialogue,,0,0,0,,But back then, you took his place.\NYou were my father.
+Dialogue: 0,0:10:12.57,0:10:15.69,Dialogue,,0,0,0,,You filled the gaping hole in my heart.
+Dialogue: 0,0:10:21.31,0:10:25.41,Dialogue,,0,0,0,,I spent fifteen years waiting for you to wake up, too.
+Dialogue: 0,0:10:26.41,0:10:32.69,Dialogue,,0,0,0,,When I lost you, I also lost\Nthe impulse that defined me.
+Dialogue: 0,0:10:33.83,0:10:35.40,Dialogue,,0,0,0,,I waited for so long.
+Dialogue: 0,0:10:36.73,0:10:37.45,Dialogue,,0,0,0,,But—
+Dialogue: 0,0:10:36.73,0:10:38.95,Dialogue,,0,0,0,,You're not alone anymore.
+Dialogue: 0,0:10:40.48,0:10:42.20,Dialogue,,0,0,0,,What decides this little game of ours?
+Dialogue: 0,0:10:43.18,0:10:47.64,Dialogue,,0,0,0,,The police catching you?\NYou killing me?
+Dialogue: 0,0:10:49.02,0:10:50.72,Dialogue,,0,0,0,,The game is already over.
+Dialogue: 0,0:10:51.05,0:10:52.92,Dialogue,,0,0,0,,And I'm pretty sure I won.
+Dialogue: 0,0:10:54.71,0:10:58.14,Dialogue,,0,0,0,,{\q2}Hinazuki Kayo, Nakanishi Aya, Hiromi, and Yuuki-san...
+Dialogue: 0,0:10:58.53,0:10:59.88,Dialogue,,0,0,0,,I saved all of them.
+Dialogue: 0,0:11:00.80,0:11:03.06,Dialogue,,0,0,0,,Even Ma, whom you murdered in the future.
+Dialogue: 0,0:11:03.84,0:11:05.71,Dialogue,,0,0,0,,"Murdered in the future"?
+Dialogue: 0,0:11:06.68,0:11:08.92,Dialogue,,0,0,0,,What are you talking about?
+Dialogue: 0,0:11:09.28,0:11:11.45,Dialogue,,0,0,0,,You wanted to know how I could foil your plans?
+Dialogue: 0,0:11:12.56,0:11:15.03,Dialogue,,0,0,0,,It was because I know what lies in your future.
+Dialogue: 0,0:11:16.05,0:11:17.05,Dialogue,,0,0,0,,That's all there is to it.
+Dialogue: 0,0:11:18.37,0:11:19.81,Dialogue,,0,0,0,,That's why I could keep everyone safe.
+Dialogue: 0,0:11:20.76,0:11:24.62,Dialogue,,0,0,0,,That's why you couldn't kill\Neven one person connected to me.
+Dialogue: 0,0:11:26.25,0:11:27.54,Dialogue,,0,0,0,,Including myself.
+Dialogue: 0,0:11:28.18,0:11:31.32,Dialogue,,0,0,0,,I could've killed you anytime I pleased, Satoru.
+Dialogue: 0,0:11:31.92,0:11:33.14,Dialogue,,0,0,0,,I could kill you right now, too.
+Dialogue: 0,0:11:33.40,0:11:37.22,Dialogue,,0,0,0,,But for fifteen whole years, you didn't.
+Dialogue: 0,0:11:38.16,0:11:40.50,Dialogue,,0,0,0,,Because you needed me.
+Dialogue: 0,0:11:41.61,0:11:43.39,Dialogue,,0,0,0,,I was your purpose in life.
+Dialogue: 0,0:11:43.81,0:11:45.55,Dialogue,,0,0,0,,I was your hope.
+Dialogue: 0,0:11:46.62,0:11:48.94,Dialogue,,0,0,0,,I filled the gaping hole in your heart.
+Dialogue: 0,0:11:52.65,0:11:55.18,Dialogue,,0,0,0,,I beat you.
+Dialogue: 0,0:11:56.95,0:11:57.86,Dialogue,,0,0,0,,You're wrong!
+Dialogue: 0,0:11:58.05,0:12:00.11,Dialogue,,0,0,0,,Wrong, wrong!
+Dialogue: 0,0:12:00.17,0:12:01.11,Dialogue,,0,0,0,,This time's no different.
+Dialogue: 0,0:12:01.84,0:12:03.16,Dialogue,,0,0,0,,I'll win again!
+Dialogue: 0,0:12:26.62,0:12:29.06,Dialogue,,0,0,0,,You can't kill me.
+Dialogue: 0,0:12:33.12,0:12:35.36,Dialogue,,0,0,0,,Fifteen years is a long time.
+Dialogue: 0,0:12:36.49,0:12:38.96,Dialogue,,0,0,0,,I was asleep, so it went by in a flash for me,
+Dialogue: 0,0:12:39.43,0:12:43.39,Dialogue,,0,0,0,,but it must've felt like an eternity for you.
+Dialogue: 0,0:13:12.95,0:13:15.76,Dialogue,,0,0,0,,It's only because I'm around that you're alive.
+Dialogue: 0,0:13:16.58,0:13:18.15,Dialogue,,0,0,0,,That you feel alive.
+Dialogue: 0,0:13:22.86,0:13:26.29,Dialogue,,0,0,0,,I've repeated my life several times now.
+Dialogue: 0,0:13:26.77,0:13:29.22,Dialogue,,0,0,0,,You've killed several of my friends.
+Dialogue: 0,0:13:30.06,0:13:33.10,Dialogue,,0,0,0,,But I bear no hatred towards you anymore.
+Dialogue: 0,0:13:34.02,0:13:37.17,Dialogue,,0,0,0,,Because there's only one person in\Nthis world who knows the real you.
+Dialogue: 0,0:13:38.88,0:13:39.82,Dialogue,,0,0,0,,Me.
+Dialogue: 0,0:13:45.85,0:13:46.69,Dialogue,,0,0,0,,You're right.
+Dialogue: 0,0:13:51.99,0:13:52.69,Dialogue,,0,0,0,,Satoru...
+Dialogue: 0,0:13:56.34,0:13:57.18,Dialogue,,0,0,0,,I can't...
+Dialogue: 0,0:14:07.34,0:14:08.26,Dialogue,,0,0,0,,I can't...
+Dialogue: 0,0:14:10.84,0:14:13.29,Dialogue,,0,0,0,,...live without you anymore.
+Dialogue: 0,0:15:01.29,0:15:03.96,Dialogue,,0,0,0,,He was immediately arrested for attempted murder.
+Dialogue: 0,0:15:04.74,0:15:05.91,Dialogue,,0,0,0,,Is Kumi-chan all right?
+Dialogue: 0,0:15:06.47,0:15:11.09,Dialogue,,0,0,0,,Yeah, but we didn't tell her about Yashiro,\Nwhat with her surgery coming up and all.
+Dialogue: 0,0:15:09.85,0:15:11.09,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:15:13.09,0:15:15.58,Dialogue,,0,0,0,,"I believe" is such an odd turn of phrase, isn't it?
+Dialogue: 0,0:15:16.54,0:15:21.20,Dialogue,,0,0,0,,I mean, if you truly believed\Nfrom the bottom of your heart,\Nyou wouldn't need to spell it out.
+Dialogue: 0,0:15:21.98,0:15:23.86,Dialogue,,0,0,0,,It's like saying, "I believe in air."
+Dialogue: 0,0:15:24.60,0:15:27.41,Dialogue,,0,0,0,,So people only say "they believe"\Nwhen they doubt something?
+Dialogue: 0,0:15:27.76,0:15:31.82,Dialogue,,0,0,0,,I'm not trying to say that "believing\Nin something" is a barefaced lie.
+Dialogue: 0,0:15:33.20,0:15:37.91,Dialogue,,0,0,0,,Just that they are words of hope\Nborn from a desire to believe.
+Dialogue: 0,0:15:49.96,0:15:54.48,Dialogue,,0,0,0,,{\i1}I lost my life between the ages of 11 to 25.
+Dialogue: 0,0:15:55.71,0:15:59.82,Dialogue,,0,0,0,,{\i1}But the time I lost is my treasure.
+Dialogue: 0,0:16:00.71,0:16:02.50,Dialogue,,0,0,0,,{\i1}In a town from which only I was erased,
+Dialogue: 0,0:16:02.96,0:16:06.48,Dialogue,,0,0,0,,{\i1}my friends spent precious times\Nin their lives on my behalf.
+Dialogue: 0,0:16:08.28,0:16:10.24,Dialogue,,0,0,0,,You know heroes always arrive fashionably late.
+Dialogue: 0,0:16:12.26,0:16:12.96,Dialogue,,0,0,0,,Oh, there's Satoru.
+Dialogue: 0,0:16:12.98,0:16:13.61,Dialogue,,0,0,0,,You're late.
+Dialogue: 0,0:16:13.64,0:16:14.84,Dialogue,,0,0,0,,You're finally here.
+Dialogue: 0,0:16:13.64,0:16:17.00,Dialogue,,0,0,0,,Took you long enough!
+Dialogue: 0,0:16:14.66,0:16:17.00,Dialogue,,0,0,0,,As stupid as ever, I see.
+Dialogue: 0,0:16:17.03,0:16:20.74,Dialogue,,0,0,0,,{\i1}A town from which only I was erased,\Nand a time from which only I was erased...
+Dialogue: 0,0:16:23.51,0:16:26.42,Dialogue,,0,0,0,,{\i1}Those are my treasures.
+Dialogue: 0,0:16:34.62,0:16:36.18,Dialogue,,0,0,0,,This is great!
+Dialogue: 0,0:16:36.32,0:16:40.23,Dialogue,,0,0,0,,I love how you dig deep as you draw.
+Dialogue: 0,0:16:40.99,0:16:43.30,Dialogue,,0,0,0,,I'll keep going in that direction, then.
+Dialogue: 0,0:16:43.62,0:16:46.32,Dialogue,,0,0,0,,Sorry to have you come all the way here.
+Dialogue: 0,0:16:46.94,0:16:48.20,Dialogue,,0,0,0,,Are you leaving on a trip?
+Dialogue: 0,0:16:48.28,0:16:48.73,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:16:49.37,0:16:52.74,Dialogue,,0,0,0,,I'm going back to Hokkaido to see some old friends.
+Dialogue: 0,0:16:53.33,0:16:54.78,Dialogue,,0,0,0,,Oh, really?
+Dialogue: 0,0:16:55.70,0:16:57.56,Dialogue,,0,0,0,,Well, have a great weekend.
+Dialogue: 0,0:16:59.01,0:16:59.97,Dialogue,,0,0,0,,I almost forgot.
+Dialogue: 0,0:17:00.51,0:17:02.95,Dialogue,,0,0,0,,Congratulations on the animated adaptation.
+Dialogue: 0,0:17:09.95,0:17:12.18,Dialogue,,0,0,0,,{\i1}I make a living as a manga artist now.
+Dialogue: 0,0:17:16.39,0:17:19.36,Dialogue,,0,0,0,,{\i1}I haven't experienced Revival since then.
+Dialogue: 0,0:18:44.93,0:18:50.06,Dialogue,,0,0,0,,{\an8}Two weeks until the opening of\Nthe 2010 Olympics in Vancouver...
+Dialogue: 0,0:18:57.33,0:18:58.55,Dialogue,,0,0,0,,I'm going for a walk.
+Dialogue: 0,0:18:58.96,0:18:59.92,Dialogue,,0,0,0,,See you later!
+Dialogue: 0,0:19:00.38,0:19:01.52,Dialogue,,0,0,0,,See you later.
+Dialogue: 0,0:19:03.13,0:19:06.42,Dialogue,,0,0,0,,Wait, they said we'd get even\Nmore snowfall in the evening.
+Dialogue: 0,0:19:41.12,0:19:43.67,Dialogue,,0,0,0,,{\i1}"My Hero," by Fujinuma Satoru.
+Dialogue: 0,0:19:45.76,0:19:50.52,Dialogue,,0,0,0,,{\i1}I don't have the courage to\Ndig deep and take the first step.\N{\i1}That's why I don't have any allies.
+Dialogue: 0,0:19:51.74,0:19:56.73,Dialogue,,0,0,0,,{\i1}I do have friends to have fun with,\N{\i1}but I think "friends" and "allies" are different.
+Dialogue: 0,0:19:58.18,0:20:03.23,Dialogue,,0,0,0,,{\i1}Yesterday, I watched the final episode\Nof my favorite show, "Fight, Wonder Guy!"
+Dialogue: 0,0:20:04.48,0:20:08.54,Dialogue,,0,0,0,,{\i1}At the start of the show, Wonder Guy fought alone.
+Dialogue: 0,0:20:09.69,0:20:14.46,Dialogue,,0,0,0,,{\i1}He got knocked down again and again,\N{\i1}but he never gave up, and he mustered\Nup the courage to keep fighting.
+Dialogue: 0,0:20:15.76,0:20:21.16,Dialogue,,0,0,0,,{\i1}"You can't carve open a path without\Ndigging deep and taking the extra step,"\N{\i1}he said, and kept fighting.
+Dialogue: 0,0:20:21.78,0:20:27.46,Dialogue,,0,0,0,,{\i1}And then, the people he moved with his\Ncourage became his allies one by one.
+Dialogue: 0,0:20:28.66,0:20:31.65,Dialogue,,0,0,0,,{\i1}That's why, even when it looked like he\Nwas going to lose to the bad guy at the end,
+Dialogue: 0,0:20:32.08,0:20:36.46,Dialogue,,0,0,0,,{\i1}he never stopped believing that\Nhis allies would come to his aid.
+Dialogue: 0,0:20:37.15,0:20:41.38,Dialogue,,0,0,0,,{\i1}But unlike Wonder Guy,\NI don't have courage or allies.
+Dialogue: 0,0:20:42.48,0:20:44.57,Dialogue,,0,0,0,,{\i1}So I felt extremely envious of him.
+Dialogue: 0,0:20:45.68,0:20:51.29,Dialogue,,0,0,0,,{\i1}It made me want to grow up to have true allies\Nwith whom I'd share a bond of trust.
+Dialogue: 0,0:22:08.12,0:22:09.91,Dialogue,,0,0,0,,It's really coming down, huh?
+Dialogue: 0,0:22:10.24,0:22:14.01,Dialogue,,0,0,0,,They said on TV it's the most snowfall\NKanto has had in a decade.
+Dialogue: 0,0:22:24.73,0:22:26.99,Dialogue,,0,0,0,,Mind if I take shelter from the snow with you?
+Dialogue: 0,0:22:41.83,0:22:43.74,Dialogue,,0,0,0,,{\i1}I always believed.

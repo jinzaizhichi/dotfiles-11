@@ -1,0 +1,332 @@
+[Script Info]
+Title: Fullmetal_Alchemist 48 - Goodbye
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1280
+PlayResY: 720
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Dialogue,Noto Sans,46,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,40,40,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:09.61,0:00:12.15,Dialogue,,0,0,0,,How long are we\Ngoing to stay here?
+Dialogue: 0,0:00:12.23,0:00:13.74,Dialogue,,0,0,0,,I thought we were\Ngoing to the border.
+Dialogue: 0,0:00:14.53,0:00:15.57,Dialogue,,0,0,0,,How should I know?
+Dialogue: 0,0:00:16.03,0:00:20.12,Dialogue,,0,0,0,,There will probably be many soldiers who will be confused and won't follow orders.
+Dialogue: 0,0:00:20.33,0:00:25.29,Dialogue,,0,0,0,,It will mean some sporadic fighting,\Nbut we will keep the casualties to a minimum.
+Dialogue: 0,0:00:42.97,0:00:45.81,Dialogue,,0,0,0,,We are now going to\Nreturn to Central.
+Dialogue: 0,0:00:47.44,0:00:51.06,Dialogue,,0,0,0,,With the troops we have at present, we will\Ntake control of the Central Command Center.
+Dialogue: 0,0:00:51.82,0:00:53.15,Dialogue,,0,0,0,,You're planning to\Nstage a revolt?!
+Dialogue: 0,0:00:53.53,0:00:55.61,Dialogue,,0,0,0,,You'd rebel against the Führer?!
+Dialogue: 0,0:00:56.74,0:01:02.28,Dialogue,,0,0,0,,The Führer and those around him have used the country for their own purposes\Nand led us down the wrong path!
+Dialogue: 0,0:01:02.37,0:01:04.37,Dialogue,,0,0,0,,We'll take control of the Assembly at the same time.
+Dialogue: 0,0:01:05.75,0:01:08.17,Dialogue,,0,0,0,,But this is all so sudden,\Nand without any evidence...
+Dialogue: 0,0:01:08.25,0:01:09.08,Dialogue,,0,0,0,,Evidence?
+Dialogue: 0,0:01:09.75,0:01:11.96,Dialogue,,0,0,0,,Here is your evidence!
+Dialogue: 0,0:01:12.34,0:01:15.84,Dialogue,,0,0,0,,There isn't a single flaw in this well-trained body of mine.
+Dialogue: 0,0:01:15.96,0:01:18.59,Dialogue,,0,0,0,,{\i1}This{\i0} is my evidence\Nthat my words are true!
+Dialogue: 0,0:01:18.93,0:01:22.30,Dialogue,,0,0,0,,Go on, go on, look at it!\NTouch it! See for yourself!
+Dialogue: 0,0:01:22.72,0:01:24.06,Dialogue,,0,0,0,,Go on, go on.
+Dialogue: 0,0:01:24.26,0:01:25.56,Dialogue,,0,0,0,,Go on!
+Dialogue: 0,0:01:27.35,0:01:28.77,Dialogue,,0,0,0,,The Philosopher's Stone.
+Dialogue: 0,0:01:29.44,0:01:34.52,Dialogue,,0,0,0,,Those who obtain it are set free from the Law of Equivalent Exchange.
+Dialogue: 0,0:01:35.03,0:01:38.82,Dialogue,,0,0,0,,There is no need to pay a price\Nin order to obtain something, either.
+Dialogue: 0,0:01:39.95,0:01:43.62,Dialogue,,0,0,0,,We sought it and found it.
+Dialogue: 0,0:03:30.39,0:03:31.35,Dialogue,,0,0,0,,Mama!
+Dialogue: 0,0:03:32.52,0:03:36.27,Dialogue,,0,0,0,,I restructured your water into ethanol.
+Dialogue: 0,0:03:37.11,0:03:39.11,Dialogue,,0,0,0,,It vaporizes at room temperature.
+Dialogue: 0,0:03:54.08,0:03:56.29,Dialogue,,0,0,0,,Well done...
+Dialogue: 0,0:04:06.76,0:04:10.14,Dialogue,,0,0,0,,Make sure you tidy up when you're finished...
+Dialogue: 0,0:04:50.93,0:04:52.43,Dialogue,,0,0,0,,Ed, Al...
+Dialogue: 0,0:04:56.60,0:04:57.81,Dialogue,,0,0,0,,Winry?
+Dialogue: 0,0:04:58.10,0:04:59.31,Dialogue,,0,0,0,,What's wrong?
+Dialogue: 0,0:04:59.69,0:05:00.86,Dialogue,,0,0,0,,Did something happen in the village?
+Dialogue: 0,0:05:02.86,0:05:05.03,Dialogue,,0,0,0,,I came because I was concerned.
+Dialogue: 0,0:05:05.11,0:05:06.44,Dialogue,,0,0,0,,You finally took care of her, huh?
+Dialogue: 0,0:05:08.07,0:05:10.20,Dialogue,,0,0,0,,You're not her...
+Dialogue: 0,0:05:11.20,0:05:12.91,Dialogue,,0,0,0,,Al, you're the one I really love!
+Dialogue: 0,0:05:20.25,0:05:21.63,Dialogue,,0,0,0,,This is where it ends.
+Dialogue: 0,0:05:22.29,0:05:24.92,Dialogue,,0,0,0,,It's no use.\NI'm the Philosopher's Stone.
+Dialogue: 0,0:05:25.01,0:05:26.84,Dialogue,,0,0,0,,So I hear.
+Dialogue: 0,0:05:27.17,0:05:29.38,Dialogue,,0,0,0,,Well then, shall we try this out?
+Dialogue: 0,0:05:29.47,0:05:34.47,Dialogue,,0,0,0,,If you've become\Nthe Philosopher's Stone,\Nthen you should still be perfectly fine\Nif I destroy this here.
+Dialogue: 0,0:05:35.77,0:05:37.56,Dialogue,,0,0,0,,Stop! Don't you touch Al!
+Dialogue: 0,0:05:41.48,0:05:43.48,Dialogue,,0,0,0,,You don't have to worry.
+Dialogue: 0,0:05:43.57,0:05:46.36,Dialogue,,0,0,0,,I'm just going to carry him to you-know-who's place.
+Dialogue: 0,0:05:47.32,0:05:48.32,Dialogue,,0,0,0,,"You-know-who"?
+Dialogue: 0,0:05:49.03,0:05:50.91,Dialogue,,0,0,0,,The one Lust was talking about?
+Dialogue: 0,0:05:50.99,0:05:52.95,Dialogue,,0,0,0,,The one who controls you
+Dialogue: 0,0:05:53.03,0:05:57.41,Dialogue,,0,0,0,,and for whom you're seeking the Philosopher's Stone to make immortal?
+Dialogue: 0,0:05:57.75,0:05:58.91,Dialogue,,0,0,0,,Maybe so,
+Dialogue: 0,0:05:59.00,0:06:02.42,Dialogue,,0,0,0,,although it's not as though you have absolutely nothing to do with that person.
+Dialogue: 0,0:06:04.17,0:06:07.46,Dialogue,,0,0,0,,By any chance,\Nis the person above you
+Dialogue: 0,0:06:07.55,0:06:10.34,Dialogue,,0,0,0,,the one who deliberately\Nenticed our mom
+Dialogue: 0,0:06:10.43,0:06:11.93,Dialogue,,0,0,0,,and did those things to her?
+Dialogue: 0,0:06:12.30,0:06:13.18,Dialogue,,0,0,0,,It couldn't be!
+Dialogue: 0,0:06:13.26,0:06:15.56,Dialogue,,0,0,0,,There's no way Dad would do those things!
+Dialogue: 0,0:06:16.51,0:06:17.43,Dialogue,,0,0,0,,Okay, let's go.
+Dialogue: 0,0:06:20.44,0:06:23.06,Dialogue,,0,0,0,,Hey, you've got the wrong guy!
+Dialogue: 0,0:06:23.15,0:06:24.40,Dialogue,,0,0,0,,Go slow {\i1}him{\i0} down!
+Dialogue: 0,0:06:24.61,0:06:26.65,Dialogue,,0,0,0,,That guy can do anything, right?
+Dialogue: 0,0:06:27.86,0:06:30.36,Dialogue,,0,0,0,,You're not allowed to touch him.
+Dialogue: 0,0:06:30.61,0:06:32.95,Dialogue,,0,0,0,,I can use him to bring Mama back!
+Dialogue: 0,0:06:33.03,0:06:33.87,Dialogue,,0,0,0,,Isn't that right?!
+Dialogue: 0,0:06:34.74,0:06:35.95,Dialogue,,0,0,0,,Enough already!
+Dialogue: 0,0:06:40.21,0:06:41.04,Dialogue,,0,0,0,,Al!
+Dialogue: 0,0:06:43.42,0:06:45.17,Dialogue,,0,0,0,,This is your fault.
+Dialogue: 0,0:06:47.00,0:06:48.55,Dialogue,,0,0,0,,It's your fault that Mama is gone!
+Dialogue: 0,0:06:49.84,0:06:50.67,Dialogue,,0,0,0,,Stop!
+Dialogue: 0,0:06:50.88,0:06:52.34,Dialogue,,0,0,0,,Mama's gone! Mama's gone!
+Dialogue: 0,0:06:52.59,0:06:53.47,Dialogue,,0,0,0,,Mama's gone!
+Dialogue: 0,0:06:53.72,0:06:55.68,Dialogue,,0,0,0,,She was your mama too!
+Dialogue: 0,0:07:01.81,0:07:02.77,Dialogue,,0,0,0,,Stop!
+Dialogue: 0,0:07:06.98,0:07:08.86,Dialogue,,0,0,0,,I don't have anything\Nto do with you.
+Dialogue: 0,0:07:10.11,0:07:13.07,Dialogue,,0,0,0,,I'm the one you want to kill.
+Dialogue: 0,0:07:13.45,0:07:14.82,Dialogue,,0,0,0,,You're not my mama!
+Dialogue: 0,0:07:17.28,0:07:18.70,Dialogue,,0,0,0,,I've got nothing to do with you!
+Dialogue: 0,0:07:18.95,0:07:20.04,Dialogue,,0,0,0,,Sensei!
+Dialogue: 0,0:07:31.46,0:07:32.47,Dialogue,,0,0,0,,Are you okay?
+Dialogue: 0,0:07:33.05,0:07:35.26,Dialogue,,0,0,0,,He cried.
+Dialogue: 0,0:07:36.47,0:07:38.93,Dialogue,,0,0,0,,I couldn't bring myself to cry.
+Dialogue: 0,0:07:39.60,0:07:41.64,Dialogue,,0,0,0,,And yet, he did.
+Dialogue: 0,0:07:42.23,0:07:45.31,Dialogue,,0,0,0,,It's as if he was doing it\Non my behalf.
+Dialogue: 0,0:07:51.32,0:07:52.99,Dialogue,,0,0,0,,You've had enough.\NRight now, it's about Al.
+Dialogue: 0,0:07:53.44,0:07:56.82,Dialogue,,0,0,0,,I should be of some help,\Nsuch that I am.
+Dialogue: 0,0:07:57.12,0:07:57.99,Dialogue,,0,0,0,,That's why I'm here.
+Dialogue: 0,0:08:09.42,0:08:11.50,Dialogue,,0,0,0,,Brother, we need to get going.
+Dialogue: 0,0:08:11.71,0:08:12.80,Dialogue,,0,0,0,,Hold on, hold on!
+Dialogue: 0,0:08:12.88,0:08:14.51,Dialogue,,0,0,0,,That's Central for you.
+Dialogue: 0,0:08:14.59,0:08:16.01,Dialogue,,0,0,0,,There are lots of books here I've never even seen!
+Dialogue: 0,0:08:16.09,0:08:19.10,Dialogue,,0,0,0,,They've even got this?!
+Dialogue: 0,0:08:19.39,0:08:21.56,Dialogue,,0,0,0,,And this too!
+Dialogue: 0,0:08:19.39,0:08:21.56,Dialogue,,0,0,0,,I can't wait to see Ed and Al.
+Dialogue: 0,0:08:23.73,0:08:25.10,Dialogue,,0,0,0,,Don't you have enough?
+Dialogue: 0,0:08:25.60,0:08:29.19,Dialogue,,0,0,0,,{\i1}Uh-oh, if I pick these up, we won't be able to afford a room tonight.
+Dialogue: 0,0:08:29.27,0:08:32.98,Dialogue,,0,0,0,,{\i1}But if I don't get them now, there's no telling when I can get them again.
+Dialogue: 0,0:08:32.15,0:08:32.98,Dialogue,,0,0,0,,On my tab?
+Dialogue: 0,0:08:33.28,0:08:34.74,Dialogue,,0,0,0,,No, sir.
+Dialogue: 0,0:08:34.82,0:08:39.24,Dialogue,,0,0,0,,This shop specializes in books for our regular customers, the State Alchemists.
+Dialogue: 0,0:08:39.32,0:08:42.20,Dialogue,,0,0,0,,You couldn't understand\Nwhat you'd read in these anyhow.
+Dialogue: 0,0:08:42.29,0:08:43.16,Dialogue,,0,0,0,,On...
+Dialogue: 0,0:08:43.24,0:08:45.83,Dialogue,,0,0,0,,On my State Alchemist's tab.
+Dialogue: 0,0:08:47.04,0:08:48.83,Dialogue,,0,0,0,,To tell you the truth...
+Dialogue: 0,0:08:56.63,0:08:57.47,Dialogue,,0,0,0,,Brother?
+Dialogue: 0,0:08:58.05,0:08:59.64,Dialogue,,0,0,0,,Is this him? Edward Elric?
+Dialogue: 0,0:08:59.72,0:09:02.85,Dialogue,,0,0,0,,Yes, he definitely identified himself as the Fullmetal Alchemist.
+Dialogue: 0,0:09:03.10,0:09:05.85,Dialogue,,0,0,0,,W-Wait a minute! I was just joking around!
+Dialogue: 0,0:09:05.93,0:09:07.02,Dialogue,,0,0,0,,I'm really—
+Dialogue: 0,0:09:07.10,0:09:08.69,Dialogue,,0,0,0,,Tell us all about it at\Nthe Command Center.
+Dialogue: 0,0:09:08.77,0:09:11.69,Dialogue,,0,0,0,,There are orders to place you in custody as soon as you're found.
+Dialogue: 0,0:09:11.77,0:09:12.69,Dialogue,,0,0,0,,Brother, what's going on?
+Dialogue: 0,0:09:12.94,0:09:13.98,Dialogue,,0,0,0,,Keep back, Fletcher!
+Dialogue: 0,0:09:14.07,0:09:16.36,Dialogue,,0,0,0,,It's his brother!\NThe younger Elric brother is here!
+Dialogue: 0,0:09:16.44,0:09:19.03,Dialogue,,0,0,0,,Hold it! Come on!\NDon't struggle!
+Dialogue: 0,0:09:19.32,0:09:20.16,Dialogue,,0,0,0,,Brother!
+Dialogue: 0,0:09:20.24,0:09:23.28,Dialogue,,0,0,0,,Huh? Was the younger brother the shorter one?\NWell, of course he is!
+Dialogue: 0,0:09:24.74,0:09:26.96,Dialogue,,0,0,0,,What did you do, Brother?
+Dialogue: 0,0:09:27.25,0:09:29.83,Dialogue,,0,0,0,,Central is a scary place.
+Dialogue: 0,0:09:37.67,0:09:38.63,Dialogue,,0,0,0,,Lust...
+Dialogue: 0,0:09:38.97,0:09:41.22,Dialogue,,0,0,0,,You sealed the homunculus?
+Dialogue: 0,0:09:41.59,0:09:43.22,Dialogue,,0,0,0,,It wasn't me.
+Dialogue: 0,0:09:44.10,0:09:44.93,Dialogue,,0,0,0,,It was probably...
+Dialogue: 0,0:09:45.10,0:09:48.52,Dialogue,,0,0,0,,In any case, that means\Nthere are four of them left:
+Dialogue: 0,0:09:49.02,0:09:53.56,Dialogue,,0,0,0,,the child, the one who eats everything,\Nthe one who can transform into anything,
+Dialogue: 0,0:09:54.07,0:09:55.73,Dialogue,,0,0,0,,and the Führer.
+Dialogue: 0,0:09:56.36,0:09:59.24,Dialogue,,0,0,0,,And the one who's above them.
+Dialogue: 0,0:10:01.20,0:10:02.07,Dialogue,,0,0,0,,Who's there?!
+Dialogue: 0,0:10:03.74,0:10:06.29,Dialogue,,0,0,0,,Nina, say hello.
+Dialogue: 0,0:10:06.45,0:10:08.75,Dialogue,,0,0,0,,What's the matter?
+Dialogue: 0,0:10:08.83,0:10:10.58,Dialogue,,0,0,0,,Are you bashful? I see...
+Dialogue: 0,0:10:11.83,0:10:15.00,Dialogue,,0,0,0,,Her soul didn't come back, then?
+Dialogue: 0,0:10:15.59,0:10:18.01,Dialogue,,0,0,0,,Nina, shall we play?
+Dialogue: 0,0:10:18.09,0:10:20.80,Dialogue,,0,0,0,,I know! Where's Alexander?
+Dialogue: 0,0:10:20.88,0:10:22.59,Dialogue,,0,0,0,,Where did Alexander go?
+Dialogue: 0,0:10:22.89,0:10:25.10,Dialogue,,0,0,0,,What are we going to do with him?\NRight, Nina?
+Dialogue: 0,0:10:25.51,0:10:26.51,Dialogue,,0,0,0,,Are you sure about this?
+Dialogue: 0,0:10:26.76,0:10:28.56,Dialogue,,0,0,0,,She's a soulless doll.
+Dialogue: 0,0:10:28.98,0:10:31.10,Dialogue,,0,0,0,,That is the form\Nhis sin has taken on.
+Dialogue: 0,0:10:32.23,0:10:34.65,Dialogue,,0,0,0,,He's going to go on living,\Nembracing that.
+Dialogue: 0,0:10:35.23,0:10:36.11,Dialogue,,0,0,0,,That's good enough for me.
+Dialogue: 0,0:10:41.45,0:10:42.82,Dialogue,,0,0,0,,You've grown up, huh?
+Dialogue: 0,0:10:43.78,0:10:45.24,Dialogue,,0,0,0,,Grown up?
+Dialogue: 0,0:10:46.45,0:10:51.83,Dialogue,,0,0,0,,I was sure I grew up when I decided to become a State Alchemist.
+Dialogue: 0,0:10:57.25,0:10:58.46,Dialogue,,0,0,0,,Well then, what are\Nyou going to do?
+Dialogue: 0,0:10:58.55,0:11:03.09,Dialogue,,0,0,0,,I only know where one of \Nthe remaining homunculi is.
+Dialogue: 0,0:11:03.72,0:11:06.85,Dialogue,,0,0,0,,The Führer, King Bradley.
+Dialogue: 0,0:11:17.32,0:11:19.11,Dialogue,,0,0,0,,What are you doing?!\NHurry it up!
+Dialogue: 0,0:11:26.74,0:11:29.12,Dialogue,,0,0,0,,We're completely surrounded.
+Dialogue: 0,0:11:29.20,0:11:31.62,Dialogue,,0,0,0,,There were even fewer soldiers\Nwho followed us than we expected.
+Dialogue: 0,0:11:31.75,0:11:33.79,Dialogue,,0,0,0,,Nothing we can do about that.
+Dialogue: 0,0:11:33.87,0:11:36.13,Dialogue,,0,0,0,,The Führer's authority is absolute.
+Dialogue: 0,0:11:36.21,0:11:38.13,Dialogue,,0,0,0,,There aren't many officers who would go against it.
+Dialogue: 0,0:11:38.34,0:11:42.17,Dialogue,,0,0,0,,So, our new Brigadier General's plan was faulty.
+Dialogue: 0,0:11:42.26,0:11:45.84,Dialogue,,0,0,0,,No, Mustang's plan\Nwas to buy time here
+Dialogue: 0,0:11:46.09,0:11:48.68,Dialogue,,0,0,0,,and get Central's soldiers\Nto head this way.
+Dialogue: 0,0:11:48.76,0:11:50.26,Dialogue,,0,0,0,,Right now, we just have to hang in there for a bit.
+Dialogue: 0,0:11:50.35,0:11:51.35,Dialogue,,0,0,0,,Maj—Lt. Colonel!
+Dialogue: 0,0:11:51.47,0:11:56.10,Dialogue,,0,0,0,,Are you sure about me presuming to act like this, when I'm not even Brigadier General Mustang?
+Dialogue: 0,0:11:56.52,0:11:59.36,Dialogue,,0,0,0,,Keep your chin up.\NI am here with you.
+Dialogue: 0,0:11:59.73,0:12:00.94,Dialogue,,0,0,0,,Besides,
+Dialogue: 0,0:12:01.15,0:12:02.82,Dialogue,,0,0,0,,it looks good on you.
+Dialogue: 0,0:12:07.45,0:12:09.83,Dialogue,,0,0,0,,No, you can't, Lieutenant Havoc...
+Dialogue: 0,0:12:13.91,0:12:15.54,Dialogue,,0,0,0,,Can I get you to keep\Nyour mouth closed?
+Dialogue: 0,0:12:16.25,0:12:19.13,Dialogue,,0,0,0,,Yes. This must be some important work you're doing, right?
+Dialogue: 0,0:12:21.13,0:12:24.05,Dialogue,,0,0,0,,It's a top-secret mission. Make sure you don't mention it to anyone.
+Dialogue: 0,0:12:24.63,0:12:25.84,Dialogue,,0,0,0,,Sorry.
+Dialogue: 0,0:12:27.01,0:12:28.09,Dialogue,,0,0,0,,Not at all...
+Dialogue: 0,0:12:28.89,0:12:30.43,Dialogue,,0,0,0,,What are you angry about?
+Dialogue: 0,0:12:30.51,0:12:32.60,Dialogue,,0,0,0,,I'm not angry.
+Dialogue: 0,0:12:35.14,0:12:38.06,Dialogue,,0,0,0,,Looks like Havoc and the others succeeded in making their move.
+Dialogue: 0,0:12:38.52,0:12:39.36,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:12:40.82,0:12:42.32,Dialogue,,0,0,0,,Hurry, hurry, hurry!
+Dialogue: 0,0:12:42.94,0:12:46.61,Dialogue,,0,0,0,,Our whole force has to catch up to \NBrigadier General Mustang's division tonight!
+Dialogue: 0,0:12:48.49,0:12:52.37,Dialogue,,0,0,0,,Impressive, being able to organize your division as quickly as that.
+Dialogue: 0,0:12:52.45,0:12:55.41,Dialogue,,0,0,0,,I owe it all to your orders, Führer.
+Dialogue: 0,0:12:55.50,0:12:58.33,Dialogue,,0,0,0,,To think that you supposed that\Nsuch a circumstance as this would arise!
+Dialogue: 0,0:12:59.00,0:13:01.50,Dialogue,,0,0,0,,It is now established that if Mustang and Armstrong are given some military force,
+Dialogue: 0,0:13:01.59,0:13:03.80,Dialogue,,0,0,0,,they are sure to launch a revolt,
+Dialogue: 0,0:13:03.96,0:13:08.89,Dialogue,,0,0,0,,which makes them agitators, \Nthe same as Basque Grand was.
+Dialogue: 0,0:13:09.09,0:13:13.43,Dialogue,,0,0,0,,I had to promote him to Brigadier General\Nto make it look like I trusted him.
+Dialogue: 0,0:13:13.81,0:13:16.14,Dialogue,,0,0,0,,You men must have been\Nquite discontent about that.
+Dialogue: 0,0:13:17.14,0:13:18.98,Dialogue,,0,0,0,,Of course not!
+Dialogue: 0,0:13:19.06,0:13:21.40,Dialogue,,0,0,0,,We will put them down and return within a day or two!
+Dialogue: 0,0:13:26.57,0:13:28.99,Dialogue,,0,0,0,,Can I go home for the day?
+Dialogue: 0,0:13:30.28,0:13:34.87,Dialogue,,0,0,0,,Oh, some boys using the name of the\NElric brothers were arrested this morning.
+Dialogue: 0,0:13:34.95,0:13:36.62,Dialogue,,0,0,0,,Hmm, let's see...
+Dialogue: 0,0:13:37.21,0:13:38.62,Dialogue,,0,0,0,,Dispose of them.
+Dialogue: 0,0:13:39.96,0:13:42.63,Dialogue,,0,0,0,,Why did you say\Nyou were Edward Elric?
+Dialogue: 0,0:13:42.79,0:13:45.17,Dialogue,,0,0,0,,What was I supposed to do? We don't have any money.
+Dialogue: 0,0:13:46.38,0:13:50.64,Dialogue,,0,0,0,,We have to give them\Nthis journal page from Dad.
+Dialogue: 0,0:13:54.47,0:13:55.60,Dialogue,,0,0,0,,Hide it!
+Dialogue: 0,0:14:10.03,0:14:11.95,Dialogue,,0,0,0,,Thanks so much for doing this.
+Dialogue: 0,0:14:12.03,0:14:17.12,Dialogue,,0,0,0,,Hey, when it comes to \NHis Excellency's residence,
+Dialogue: 0,0:14:13.12,0:14:17.12,Dialogue,,0,0,0,,I had them put an\Nextreme rush on it.
+Dialogue: 0,0:14:17.37,0:14:19.79,Dialogue,,0,0,0,,So, this is how the construction was completed?
+Dialogue: 0,0:14:19.87,0:14:22.63,Dialogue,,0,0,0,,Yeah, I don't do sloppy work.
+Dialogue: 0,0:14:23.29,0:14:26.71,Dialogue,,0,0,0,,Still, it was laid out really weird.
+Dialogue: 0,0:14:26.80,0:14:27.63,Dialogue,,0,0,0,,Usually, a wine cave is...
+Dialogue: 0,0:14:28.01,0:14:31.84,Dialogue,,0,0,0,,I don't quite understand it myself,\Nbut those were the Führer's secretary's instructions.
+Dialogue: 0,0:14:32.51,0:14:35.85,Dialogue,,0,0,0,,The secretary is on leave,\Nso I am serving in her place.
+Dialogue: 0,0:14:37.39,0:14:42.35,Dialogue,,0,0,0,,Since you rushed to make the alterations, there's a little something extra in there.
+Dialogue: 0,0:14:41.35,0:14:42.35,Dialogue,,0,0,0,,Oh, there is, huh?
+Dialogue: 0,0:14:43.15,0:14:45.98,Dialogue,,0,0,0,,The Command Center\Nsure is generous, all right.
+Dialogue: 0,0:14:52.15,0:14:53.70,Dialogue,,0,0,0,,The construction went according to schedule.
+Dialogue: 0,0:14:53.78,0:14:56.53,Dialogue,,0,0,0,,I can't say it's reliable,\Nbut this has to happen today.
+Dialogue: 0,0:14:58.45,0:14:59.29,Dialogue,,0,0,0,,What is it?
+Dialogue: 0,0:14:59.79,0:15:02.87,Dialogue,,0,0,0,,There's a rumor that the Elric brothers\Nwere arrested this morning.
+Dialogue: 0,0:15:11.01,0:15:13.47,Dialogue,,0,0,0,,At least find out if the Führer is\Nhere or not beforehand, would you?!
+Dialogue: 0,0:15:13.72,0:15:15.14,Dialogue,,0,0,0,,What could I do?!
+Dialogue: 0,0:15:15.22,0:15:18.26,Dialogue,,0,0,0,,Who knew he was going home early for his kid's birthday?!
+Dialogue: 0,0:15:18.39,0:15:19.22,Dialogue,,0,0,0,,There they are!
+Dialogue: 0,0:15:19.64,0:15:21.14,Dialogue,,0,0,0,,Don't make excuses!\NListen to reason!
+Dialogue: 0,0:15:29.53,0:15:31.03,Dialogue,,0,0,0,,Damn! Where did they go?!
+Dialogue: 0,0:15:31.53,0:15:32.82,Dialogue,,0,0,0,,Yow!
+Dialogue: 0,0:15:32.90,0:15:35.07,Dialogue,,0,0,0,,A-Are you okay?
+Dialogue: 0,0:15:36.07,0:15:37.33,Dialogue,,0,0,0,,You guys...
+Dialogue: 0,0:15:37.49,0:15:38.37,Dialogue,,0,0,0,,The impostors?
+Dialogue: 0,0:15:38.45,0:15:40.08,Dialogue,,0,0,0,,It's Russell Tringham!
+Dialogue: 0,0:15:40.41,0:15:43.08,Dialogue,,0,0,0,,They were mistaken for you guys\Nand got arrested.
+Dialogue: 0,0:15:43.29,0:15:46.75,Dialogue,,0,0,0,,It's a troublesome tale, what with \Nthis much difference in our heights.
+Dialogue: 0,0:15:46.92,0:15:49.63,Dialogue,,0,0,0,,What was that?!
+Dialogue: 0,0:15:47.84,0:15:49.63,Dialogue,,0,0,0,,Huh? Have you gotten even shorter than before?
+Dialogue: 0,0:15:49.71,0:15:52.63,Dialogue,,0,0,0,,B-Brother, that was uncalled for!
+Dialogue: 0,0:15:49.71,0:15:52.63,Dialogue,,0,0,0,,What did you say?!
+Dialogue: 0,0:15:51.05,0:15:52.63,Dialogue,,0,0,0,,Be quiet, Fletcher.
+Dialogue: 0,0:15:52.76,0:15:56.22,Dialogue,,0,0,0,,The Führer suddenly\Nordered them to be executed.
+Dialogue: 0,0:15:56.39,0:15:59.51,Dialogue,,0,0,0,,We thought that was too much,\Nand when we came to ask them what the situation was...
+Dialogue: 0,0:16:00.18,0:16:03.06,Dialogue,,0,0,0,,The commotion we caused allowed them to escape?
+Dialogue: 0,0:16:03.98,0:16:06.40,Dialogue,,0,0,0,,Are they there?!\NFind them at once!
+Dialogue: 0,0:16:06.98,0:16:10.78,Dialogue,,0,0,0,,We finally meet again, \Nand here we have to leave right away.
+Dialogue: 0,0:16:11.78,0:16:12.99,Dialogue,,0,0,0,,Where to?
+Dialogue: 0,0:16:13.15,0:16:15.66,Dialogue,,0,0,0,,The Führer's residence, perhaps?
+Dialogue: 0,0:16:17.37,0:16:19.08,Dialogue,,0,0,0,,If that's the only place left...
+Dialogue: 0,0:16:19.24,0:16:20.28,Dialogue,,0,0,0,,U-Um...
+Dialogue: 0,0:16:20.87,0:16:21.70,Dialogue,,0,0,0,,Here.
+Dialogue: 0,0:16:22.24,0:16:24.04,Dialogue,,0,0,0,,It's part of our dad's journal.
+Dialogue: 0,0:16:24.12,0:16:26.12,Dialogue,,0,0,0,,It has something from when\Nhe was in Central written on it.
+Dialogue: 0,0:16:33.30,0:16:34.13,Dialogue,,0,0,0,,Sensei!
+Dialogue: 0,0:16:36.72,0:16:37.55,Dialogue,,0,0,0,,Is this...
+Dialogue: 0,0:16:48.81,0:16:50.61,Dialogue,,0,0,0,,Wh-Who are you?
+Dialogue: 0,0:16:53.23,0:16:54.61,Dialogue,,0,0,0,,Frank...
+Dialogue: 0,0:16:55.15,0:16:56.24,Dialogue,,0,0,0,,Archer.
+Dialogue: 0,0:16:56.95,0:16:58.61,Dialogue,,0,0,0,,Edward Elric...
+Dialogue: 0,0:16:58.74,0:17:02.16,Dialogue,,0,0,0,,as well as the woman who got away\Nfrom the Southern Command Center...
+Dialogue: 0,0:17:11.29,0:17:12.92,Dialogue,,0,0,0,,I'll take care of this.
+Dialogue: 0,0:17:13.00,0:17:14.67,Dialogue,,0,0,0,,Go where it says in his journal.
+Dialogue: 0,0:17:14.76,0:17:15.59,Dialogue,,0,0,0,,Sensei...
+Dialogue: 0,0:17:15.67,0:17:18.84,Dialogue,,0,0,0,,Let me do something a teacher would do and get going!
+Dialogue: 0,0:17:21.14,0:17:22.89,Dialogue,,0,0,0,,You guys, too! Hurry!
+Dialogue: 0,0:17:34.69,0:17:38.61,Dialogue,,0,0,0,,From the looks of it, you didn't \Nhave to help out here after all, Colonel.
+Dialogue: 0,0:17:38.70,0:17:42.95,Dialogue,,0,0,0,,You think they're the sort who would just quietly stay captured?
+Dialogue: 0,0:17:41.70,0:17:42.95,Dialogue,,0,0,0,,We know better than that.
+Dialogue: 0,0:17:43.62,0:17:44.62,Dialogue,,0,0,0,,We're leaving.
+Dialogue: 0,0:17:49.17,0:17:51.08,Dialogue,,0,0,0,,Sorry, but I need your car—
+Dialogue: 0,0:17:52.59,0:17:53.54,Dialogue,,0,0,0,,Fullmetal?
+Dialogue: 0,0:17:54.17,0:17:55.30,Dialogue,,0,0,0,,Colonel?
+Dialogue: 0,0:17:55.38,0:17:57.13,Dialogue,,0,0,0,,Don't tell me you're here\Nto capture me!
+Dialogue: 0,0:18:03.68,0:18:07.77,Dialogue,,0,0,0,,So, where are you going, Colonel?
+Dialogue: 0,0:18:06.47,0:18:07.77,Dialogue,,0,0,0,,The Wague District.
+Dialogue: 0,0:18:07.85,0:18:10.31,Dialogue,,0,0,0,,The Führer has a residence there.
+Dialogue: 0,0:18:10.60,0:18:12.35,Dialogue,,0,0,0,,What business do you have with the Führer?
+Dialogue: 0,0:18:15.86,0:18:17.53,Dialogue,,0,0,0,,I guess I don't have to ask.
+Dialogue: 0,0:18:17.61,0:18:19.95,Dialogue,,0,0,0,,Still, it must be under guard.
+Dialogue: 0,0:18:20.03,0:18:22.87,Dialogue,,0,0,0,,Major Armstrong is staging a rebellion for me.
+Dialogue: 0,0:18:23.12,0:18:26.87,Dialogue,,0,0,0,,I doubt they would even think I was in hiding in Central.
+Dialogue: 0,0:18:27.33,0:18:31.71,Dialogue,,0,0,0,,You were going to\Ndistinguish yourself in battle\Nto rise to Führer, weren't you?
+Dialogue: 0,0:18:32.71,0:18:36.09,Dialogue,,0,0,0,,You also became a dog of the military\Nin order to attain your goal.
+Dialogue: 0,0:18:36.17,0:18:37.00,Dialogue,,0,0,0,,But then—
+Dialogue: 0,0:18:37.09,0:18:38.05,Dialogue,,0,0,0,,Lieutenant...
+Dialogue: 0,0:18:39.84,0:18:44.01,Dialogue,,0,0,0,,Just swallow all of the evil that\Ncomes at you and realize your dream—
+Dialogue: 0,0:18:44.09,0:18:46.93,Dialogue,,0,0,0,,that's what I thought\Nthe right way to do things was.
+Dialogue: 0,0:18:47.31,0:18:51.69,Dialogue,,0,0,0,,If you directly fight the Führer now,\Nyou won't be in the right.
+Dialogue: 0,0:18:52.31,0:18:55.82,Dialogue,,0,0,0,,Even if you do beat him,\Nyou'll never be able to be a leader again.
+Dialogue: 0,0:18:55.98,0:18:57.61,Dialogue,,0,0,0,,The masses won't acknowledge you.
+Dialogue: 0,0:18:58.32,0:19:02.95,Dialogue,,0,0,0,,Even so, I can't let that man \Nget away with it.
+Dialogue: 0,0:19:03.91,0:19:07.49,Dialogue,,0,0,0,,You're going to avenge \NLieutenant Colonel Hughes, huh?
+Dialogue: 0,0:19:06.53,0:19:07.49,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:19:07.58,0:19:10.96,Dialogue,,0,0,0,,He must have known everything that was going on within the military.
+Dialogue: 0,0:19:11.29,0:19:16.96,Dialogue,,0,0,0,,You're going to throw away everything you've obtained up to now for this?
+Dialogue: 0,0:19:15.79,0:19:16.96,Dialogue,,0,0,0,,No great loss.
+Dialogue: 0,0:19:17.29,0:19:19.17,Dialogue,,0,0,0,,Isn't that true for you too?
+Dialogue: 0,0:19:19.26,0:19:22.47,Dialogue,,0,0,0,,You gave up being a dog of the military for your brother's sake.
+Dialogue: 0,0:19:23.09,0:19:26.18,Dialogue,,0,0,0,,You spat up the evil you've swallowed, trying to pretend you're an adult.
+Dialogue: 0,0:19:26.35,0:19:31.06,Dialogue,,0,0,0,,Both of us are trying like little children to be faithful in living out our dreams.
+Dialogue: 0,0:19:33.56,0:19:35.48,Dialogue,,0,0,0,,You're coming with me, right?
+Dialogue: 0,0:19:37.94,0:19:45.36,Dialogue,,0,0,0,,I tried working for the military, \Nbut I thought that wars are something
+Dialogue: 0,0:19:40.15,0:19:45.36,Dialogue,,0,0,0,,that somebody somewhere started\Nand ended in some place unknown to us,
+Dialogue: 0,0:19:45.66,0:19:48.95,Dialogue,,0,0,0,,and that we didn't have\Nanything to do with them.
+Dialogue: 0,0:19:49.45,0:19:55.00,Dialogue,,0,0,0,,But...\Nthere's someone out there who manipulates wars to make Philosopher's Stones.
+Dialogue: 0,0:19:55.08,0:19:58.42,Dialogue,,0,0,0,,So as long as there are people\Nwho seek the Philosopher's Stone,
+Dialogue: 0,0:19:58.50,0:20:00.25,Dialogue,,0,0,0,,the wars will continue.
+Dialogue: 0,0:20:00.34,0:20:03.92,Dialogue,,0,0,0,,And the inclination to wage them\Nis within all of us.
+Dialogue: 0,0:20:04.22,0:20:07.09,Dialogue,,0,0,0,,The homunculi fan the flames of war.
+Dialogue: 0,0:20:07.22,0:20:10.81,Dialogue,,0,0,0,,But it's human transmutation that creates them.
+Dialogue: 0,0:20:11.10,0:20:15.69,Dialogue,,0,0,0,,They're nothing more than what\Nour hearts and wits made them to be.
+Dialogue: 0,0:20:16.23,0:20:21.57,Dialogue,,0,0,0,,And if that's the case,\Nthen there's no such thing as a war we don't have anything to do with.
+Dialogue: 0,0:20:22.48,0:20:25.11,Dialogue,,0,0,0,,But that is too much\Nfor us to take on.
+Dialogue: 0,0:20:25.32,0:20:29.95,Dialogue,,0,0,0,,All you and I can do at any one time\Nis what is before us.
+Dialogue: 0,0:20:33.20,0:20:36.87,Dialogue,,0,0,0,,I'm going to find this\N"you-know-who" person and defeat them.
+Dialogue: 0,0:20:36.96,0:20:40.13,Dialogue,,0,0,0,,Then I'm going to destroy the Philosopher's Stone
+Dialogue: 0,0:20:40.21,0:20:43.51,Dialogue,,0,0,0,,so that nobody will ever remember it again...
+Dialogue: 0,0:20:43.59,0:20:45.97,Dialogue,,0,0,0,,so that it will vanish from everyone's memories.
+Dialogue: 0,0:20:46.30,0:20:47.34,Dialogue,,0,0,0,,Destroy it?
+Dialogue: 0,0:20:47.43,0:20:50.60,Dialogue,,0,0,0,,The Philosopher's Stone?\NThen you really did complete it?
+Dialogue: 0,0:20:50.68,0:20:52.39,Dialogue,,0,0,0,,But then, does that mean...
+Dialogue: 0,0:20:52.47,0:20:55.14,Dialogue,,0,0,0,,He's not the one who brought about\Nthe Philosopher's Stone.
+Dialogue: 0,0:20:55.48,0:20:57.39,Dialogue,,0,0,0,,It was our hearts.
+Dialogue: 0,0:20:57.73,0:20:59.69,Dialogue,,0,0,0,,But that was your dream, wasn't it?
+Dialogue: 0,0:20:59.86,0:21:02.69,Dialogue,,0,0,0,,To use the Philosopher's Stone\Nto take back what you had lost?
+Dialogue: 0,0:21:03.94,0:21:06.95,Dialogue,,0,0,0,,It won't help anything if it's just our dreams that come true.
+Dialogue: 0,0:21:10.32,0:21:13.24,Dialogue,,0,0,0,,There's something more important than your dreams, huh?
+Dialogue: 0,0:21:13.70,0:21:15.45,Dialogue,,0,0,0,,There always is.
+Dialogue: 0,0:21:15.58,0:21:19.54,Dialogue,,0,0,0,,Something more important\Nthan ourselves, or our dreams...
+Dialogue: 0,0:21:42.31,0:21:43.23,Dialogue,,0,0,0,,Farewell.
+Dialogue: 0,0:21:44.36,0:21:45.44,Dialogue,,0,0,0,,Good-bye.
+Dialogue: 0,0:23:38.60,0:23:40.27,Dialogue,,0,0,0,,{\i1}Fullmetal Alchemist{\i0}...
+Dialogue: 0,0:23:40.35,0:23:43.73,Dialogue,,0,0,0,,Episode 49: "The Other Side of the Gate"
+Dialogue: 0,0:23:44.19,0:23:47.77,Dialogue,,0,0,0,,On September 2nd, AD 1916,
+Dialogue: 0,0:23:48.40,0:23:52.57,Dialogue,,0,0,0,,fourteen devils shrouded the skies over London.

@@ -1,0 +1,283 @@
+[Script Info]
+Title: Wonder Egg Priority - S01E11 - An Adult Child
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1280
+PlayResY: 720
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Dialogue,Noto Sans,46,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,40,40,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.66,0:00:01.16,Dialogue,,0,0,0,,Five.
+Dialogue: 0,0:00:01.74,0:00:02.19,Dialogue,,0,0,0,,Four.
+Dialogue: 0,0:00:02.68,0:00:03.26,Dialogue,,0,0,0,,Three.
+Dialogue: 0,0:00:03.81,0:00:04.43,Dialogue,,0,0,0,,Two.
+Dialogue: 0,0:00:04.87,0:00:05.47,Dialogue,,0,0,0,,One.
+Dialogue: 0,0:00:05.80,0:00:06.46,Dialogue,,0,0,0,,Zero.
+Dialogue: 0,0:00:11.72,0:00:12.80,Dialogue,,0,0,0,,Rika?
+Dialogue: 0,0:00:15.20,0:00:16.28,Dialogue,,0,0,0,,Rika...
+Dialogue: 0,0:00:17.19,0:00:18.70,Dialogue,,0,0,0,,Rika, it's you!
+Dialogue: 0,0:00:21.76,0:00:22.34,Dialogue,,0,0,0,,Huh?
+Dialogue: 0,0:00:24.33,0:00:26.47,Dialogue,,0,0,0,,What?\NNo. Rika—
+Dialogue: 0,0:00:31.98,0:00:33.96,Dialogue,,0,0,0,,I'll see you on the other side.
+Dialogue: 0,0:00:36.50,0:00:37.40,Dialogue,,0,0,0,,Oh.\NMannen.
+Dialogue: 0,0:00:38.57,0:00:40.90,Dialogue,,0,0,0,,I guess this'll be goodbye for us, too.
+Dialogue: 0,0:00:42.89,0:00:44.61,Dialogue,,0,0,0,,Wanna keep fighting together?
+Dialogue: 0,0:00:51.13,0:00:51.90,Dialogue,,0,0,0,,Mannen!
+Dialogue: 0,0:00:53.09,0:00:54.59,Dialogue,,0,0,0,,Huh? What?
+Dialogue: 0,0:00:57.35,0:00:59.27,Dialogue,,0,0,0,,I'm Dot.
+Dialogue: 0,0:00:59.86,0:01:03.14,Dialogue,,0,0,0,,Dot won't kill you. Good girl.
+Dialogue: 0,0:01:04.21,0:01:06.12,Dialogue,,0,0,0,,Just copying Hyphen, though.{what}
+Dialogue: 0,0:01:08.00,0:01:10.18,Dialogue,,0,0,0,,Get... Get your hands off Mannen!
+Dialogue: 0,0:01:13.39,0:01:15.53,Dialogue,,0,0,0,,What are you laughing at, bitch?
+Dialogue: 0,0:01:16.13,0:01:19.51,Dialogue,,0,0,0,,When you laugh, it makes everyone happy. Frill said so.
+Dialogue: 0,0:01:19.73,0:01:20.28,Dialogue,,0,0,0,,What?!
+Dialogue: 0,0:01:20.43,0:01:22.47,Dialogue,,0,0,0,,So, Dot laughs.
+Dialogue: 0,0:01:28.58,0:01:30.68,Dialogue,,0,0,0,,I told you to back off!
+Dialogue: 0,0:01:36.51,0:01:37.16,Dialogue,,0,0,0,,Huh?
+Dialogue: 0,0:01:45.90,0:01:46.92,Dialogue,,0,0,0,,Are you okay?
+Dialogue: 0,0:01:47.91,0:01:49.42,Dialogue,,0,0,0,,You wet yourself.
+Dialogue: 0,0:01:49.94,0:01:51.65,Dialogue,,0,0,0,,But Dot's not scary.
+Dialogue: 0,0:01:52.31,0:01:53.06,Dialogue,,0,0,0,,How funny.
+Dialogue: 0,0:01:58.46,0:01:59.77,Dialogue,,0,0,0,,You can eat it.
+Dialogue: 0,0:02:00.36,0:02:02.43,Dialogue,,0,0,0,,Dot doesn't like meat.
+Dialogue: 0,0:02:25.81,0:02:26.96,Dialogue,,0,0,0,,From that time...{Like that time?}
+Dialogue: 0,0:04:33.59,0:04:35.52,Dialogue,,0,0,0,,Excuse me...
+Dialogue: 0,0:04:41.78,0:04:43.96,Dialogue,,0,0,0,,Acca? Ura-Acca?
+Dialogue: 0,0:05:14.23,0:05:16.00,Dialogue,,0,0,0,,"The temptation of death"?
+Dialogue: 0,0:05:24.74,0:05:25.72,Dialogue,,0,0,0,,"Thanatos"?
+Dialogue: 0,0:05:26.81,0:05:28.26,Dialogue,,0,0,0,,"Warriors of Eros?"
+Dialogue: 0,0:05:41.60,0:05:42.36,Dialogue,,0,0,0,,Who's there?
+Dialogue: 0,0:05:44.03,0:05:45.19,Dialogue,,0,0,0,,Ura-Acca...
+Dialogue: 0,0:05:46.54,0:05:48.36,Dialogue,,0,0,0,,Atmospheric room, right?
+Dialogue: 0,0:05:57.25,0:05:59.38,Dialogue,,0,0,0,,It's an old story.
+Dialogue: 0,0:06:00.30,0:06:03.00,Dialogue,,0,0,0,,Back before we looked like this,
+Dialogue: 0,0:06:03.86,0:06:06.45,Dialogue,,0,0,0,,we made a girl.
+Dialogue: 0,0:06:06.78,0:06:07.57,Dialogue,,0,0,0,,Huh?
+Dialogue: 0,0:06:09.59,0:06:10.61,Dialogue,,0,0,0,,Just for fun.
+Dialogue: 0,0:06:16.84,0:06:17.42,Dialogue,,0,0,0,,Morning.
+Dialogue: 0,0:06:18.53,0:06:19.07,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:06:20.48,0:06:21.07,Dialogue,,0,0,0,,Coffee?
+Dialogue: 0,0:06:21.63,0:06:23.66,Dialogue,,0,0,0,,You make breakfast.{emphasis?}
+Dialogue: 0,0:06:28.73,0:06:31.99,Dialogue,,0,0,0,,We worked at a certain research facility.
+Dialogue: 0,0:06:32.62,0:06:37.83,Dialogue,,0,0,0,,We had work that no one but us could do.\NI think we were satisfied.
+Dialogue: 0,0:06:38.16,0:06:40.40,Dialogue,,0,0,0,,But not completely.
+Dialogue: 0,0:06:41.81,0:06:44.58,Dialogue,,0,0,0,,We were kept under strict surveillance.
+Dialogue: 0,0:06:45.72,0:06:50.80,Dialogue,,0,0,0,,If we'd gone public or sold out to another\Ncountry, it would have been a disaster.
+Dialogue: 0,0:06:51.68,0:06:56.05,Dialogue,,0,0,0,,We didn't want to do that, of course,\Nbut the stress piled up.
+Dialogue: 0,0:06:56.46,0:06:57.77,Dialogue,,0,0,0,,What shall we name her?
+Dialogue: 0,0:06:58.08,0:06:59.60,Dialogue,,0,0,0,,Don't jump the gun.
+Dialogue: 0,0:07:00.27,0:07:02.02,Dialogue,,0,0,0,,How about we let her decide?
+Dialogue: 0,0:07:02.23,0:07:03.48,Dialogue,,0,0,0,,That's an idea.
+Dialogue: 0,0:07:04.11,0:07:04.89,Dialogue,,0,0,0,,And the visual?
+Dialogue: 0,0:07:04.91,0:07:07.17,Dialogue,,0,0,0,,Mmm!
+Dialogue: 0,0:07:08.18,0:07:11.14,Dialogue,,0,0,0,,It was something we started just to blow off steam,
+Dialogue: 0,0:07:12.39,0:07:14.54,Dialogue,,0,0,0,,but we got completely absorbed in it.
+Dialogue: 0,0:07:17.71,0:07:21.78,Dialogue,,0,0,0,,We tried to picture a being\Nthat we could love like a daughter.
+Dialogue: 0,0:07:22.87,0:07:25.46,Dialogue,,0,0,0,,That would make us forget that it was an AI.
+Dialogue: 0,0:07:26.15,0:07:30.46,Dialogue,,0,0,0,,Unstable and complicated,\Nlike the midpoint between childhood and adulthood.
+Dialogue: 0,0:07:31.44,0:07:33.39,Dialogue,,0,0,0,,We set her age as 14.
+Dialogue: 0,0:07:34.01,0:07:35.27,Dialogue,,0,0,0,,Oh!
+Dialogue: 0,0:07:49.67,0:07:50.23,Dialogue,,0,0,0,,Hey.
+Dialogue: 0,0:07:51.30,0:07:51.74,Dialogue,,0,0,0,,Hm?
+Dialogue: 0,0:07:52.65,0:07:53.52,Dialogue,,0,0,0,,Is it over?
+Dialogue: 0,0:07:56.96,0:07:57.43,Dialogue,,0,0,0,,Ready?
+Dialogue: 0,0:07:57.72,0:07:58.52,Dialogue,,0,0,0,,Okay.
+Dialogue: 0,0:08:15.76,0:08:16.52,Dialogue,,0,0,0,,Wow.\NYeah.
+Dialogue: 0,0:08:21.55,0:08:24.52,Dialogue,,0,0,0,,I am...
+Dialogue: 0,0:08:26.64,0:08:28.48,Dialogue,,0,0,0,,What is your name?
+Dialogue: 0,0:08:38.92,0:08:41.40,Dialogue,,0,0,0,,Frill.
+Dialogue: 0,0:08:42.57,0:08:45.01,Dialogue,,0,0,0,,Good. That's a lovely name.
+Dialogue: 0,0:08:51.24,0:08:56.48,Dialogue,,0,0,0,,We gave her the traits that a father\Nwould want his daughter to have.
+Dialogue: 0,0:08:57.34,0:08:58.09,Dialogue,,0,0,0,,Cheerfulness.
+Dialogue: 0,0:08:58.66,0:08:59.61,Dialogue,,0,0,0,,Intelligence.
+Dialogue: 0,0:09:00.10,0:09:01.07,Dialogue,,0,0,0,,Humor.
+Dialogue: 0,0:09:01.86,0:09:03.81,Dialogue,,0,0,0,,She could call us names sometimes.
+Dialogue: 0,0:09:04.32,0:09:05.97,Dialogue,,0,0,0,,She could be selfish.
+Dialogue: 0,0:09:06.90,0:09:08.31,Dialogue,,0,0,0,,Flaws are important.
+Dialogue: 0,0:09:08.83,0:09:11.69,Dialogue,,0,0,0,,"Being uncontrollable is the essence of femininity."
+Dialogue: 0,0:09:12.45,0:09:14.06,Dialogue,,0,0,0,,Oh, I'm just parroting Acca.
+Dialogue: 0,0:09:15.15,0:09:17.79,Dialogue,,0,0,0,,Frill steadily matured.
+Dialogue: 0,0:09:18.50,0:09:20.55,Dialogue,,0,0,0,,More than we imagined.
+Dialogue: 0,0:09:23.78,0:09:25.46,Dialogue,,0,0,0,,Whoa! Hey!
+Dialogue: 0,0:09:26.43,0:09:26.96,Dialogue,,0,0,0,,Huh?
+Dialogue: 0,0:09:26.96,0:09:27.52,Dialogue,,0,0,0,,What?
+Dialogue: 0,0:09:30.53,0:09:31.39,Dialogue,,0,0,0,,Come on.
+Dialogue: 0,0:09:32.49,0:09:33.48,Dialogue,,0,0,0,,Whoa! What the...
+Dialogue: 0,0:09:39.43,0:09:42.68,Dialogue,,0,0,0,,Under surveillance in a closed-off society,
+Dialogue: 0,0:09:43.39,0:09:45.35,Dialogue,,0,0,0,,we lived like a family.
+Dialogue: 0,0:09:51.21,0:09:52.65,Dialogue,,0,0,0,,More and more often,
+Dialogue: 0,0:09:53.34,0:09:56.97,Dialogue,,0,0,0,,there were moments when we forgot that Frill was an AI.
+Dialogue: 0,0:10:06.02,0:10:08.06,Dialogue,,0,0,0,,Listen, the program here is a bit...
+Dialogue: 0,0:10:08.92,0:10:09.33,Dialogue,,0,0,0,,Huh?!
+Dialogue: 0,0:10:11.22,0:10:12.97,Dialogue,,0,0,0,,Let's rest a bit, then go home.
+Dialogue: 0,0:10:13.38,0:10:14.79,Dialogue,,0,0,0,,Frill must be waiting.
+Dialogue: 0,0:10:16.02,0:10:16.44,Dialogue,,0,0,0,,Hmm? Hey.
+Dialogue: 0,0:10:17.68,0:10:19.27,Dialogue,,0,0,0,,Whoops. Sorry about that.
+Dialogue: 0,0:10:19.75,0:10:20.73,Dialogue,,0,0,0,,Oh, don't be.
+Dialogue: 0,0:10:21.55,0:10:23.53,Dialogue,,0,0,0,,Things are so lively, it tired me out.
+Dialogue: 0,0:10:23.85,0:10:24.63,Dialogue,,0,0,0,,Right.
+Dialogue: 0,0:10:25.22,0:10:27.93,Dialogue,,0,0,0,,A symposium on technological innovation?
+Dialogue: 0,0:10:29.98,0:10:31.78,Dialogue,,0,0,0,,I thought I got the venue wrong.
+Dialogue: 0,0:10:33.39,0:10:34.20,Dialogue,,0,0,0,,You're right.
+Dialogue: 0,0:10:35.13,0:10:37.39,Dialogue,,0,0,0,,I think we'll get along.
+Dialogue: 0,0:10:39.03,0:10:40.36,Dialogue,,0,0,0,,Really? You read our papers?
+Dialogue: 0,0:10:41.89,0:10:43.52,Dialogue,,0,0,0,,Yes. It's an honor to meet you.
+Dialogue: 0,0:10:43.87,0:10:45.89,Dialogue,,0,0,0,,That's my kind of coincidence.
+Dialogue: 0,0:10:46.50,0:10:50.21,Dialogue,,0,0,0,,I suppose that makes our choice of location even worse.{what}
+Dialogue: 0,0:10:52.02,0:10:53.06,Dialogue,,0,0,0,,Oh, my.
+Dialogue: 0,0:10:53.06,0:10:55.92,Dialogue,,0,0,0,,Let's meet somewhere quieter next time, then.
+Dialogue: 0,0:10:56.47,0:10:57.23,Dialogue,,0,0,0,,Huh?
+Dialogue: 0,0:10:58.37,0:11:00.87,Dialogue,,0,0,0,,I know just the place.
+Dialogue: 0,0:11:03.41,0:11:06.18,Dialogue,,0,0,0,,Her name was Hoshina Azusa.
+Dialogue: 0,0:11:06.94,0:11:09.50,Dialogue,,0,0,0,,My first impression of her was, well...
+Dialogue: 0,0:11:09.90,0:11:11.76,Dialogue,,0,0,0,,She seemed like a good person.
+Dialogue: 0,0:11:12.52,0:11:16.99,Dialogue,,0,0,0,,But then, I doubt either of us was a good judge of women.
+Dialogue: 0,0:11:19.11,0:11:22.01,Dialogue,,0,0,0,,I could tell that Acca was attracted to her.
+Dialogue: 0,0:11:22.67,0:11:26.24,Dialogue,,0,0,0,,When I asked him about it, he said that so was I.
+Dialogue: 0,0:11:27.26,0:11:30.21,Dialogue,,0,0,0,,Well, it was so long ago that I don't really remember.
+Dialogue: 0,0:11:56.36,0:11:58.72,Dialogue,,0,0,0,,Azusa chose Acca.
+Dialogue: 0,0:12:01.17,0:12:01.85,Dialogue,,0,0,0,,I'll help.
+Dialogue: 0,0:12:02.28,0:12:02.97,Dialogue,,0,0,0,,Thank you.
+Dialogue: 0,0:12:07.05,0:12:07.78,Dialogue,,0,0,0,,Which one?
+Dialogue: 0,0:12:08.24,0:12:08.75,Dialogue,,0,0,0,,Huh?
+Dialogue: 0,0:12:09.25,0:12:11.81,Dialogue,,0,0,0,,In cases like this,
+Dialogue: 0,0:12:09.25,0:12:14.43,Dialogue,,0,0,0,,you can tell a person's psychological \Ntendencies by who they hate.
+Dialogue: 0,0:12:15.58,0:12:16.32,Dialogue,,0,0,0,,Hate?
+Dialogue: 0,0:12:16.93,0:12:19.88,Dialogue,,0,0,0,,For example, do you hate your\Nhusband for cheating on you,
+Dialogue: 0,0:12:20.38,0:12:23.49,Dialogue,,0,0,0,,or the other woman who you're\Nsure must have seduced him?
+Dialogue: 0,0:12:27.99,0:12:29.96,Dialogue,,0,0,0,,I bless them.
+Dialogue: 0,0:12:34.41,0:12:34.95,Dialogue,,0,0,0,,Liar.
+Dialogue: 0,0:12:45.44,0:12:47.87,Dialogue,,0,0,0,,I should have picked up on it then.
+Dialogue: 0,0:12:48.90,0:12:51.11,Dialogue,,0,0,0,,On what Frill wanted.
+Dialogue: 0,0:13:00.67,0:13:03.00,Dialogue,,0,0,0,,I want a friend.
+Dialogue: 0,0:13:04.38,0:13:05.46,Dialogue,,0,0,0,,Hmm?\NNot a boyfriend?
+Dialogue: 0,0:13:06.02,0:13:07.05,Dialogue,,0,0,0,,I don't need one.
+Dialogue: 0,0:13:08.13,0:13:09.84,Dialogue,,0,0,0,,I'll make another one, then.
+Dialogue: 0,0:13:10.43,0:13:11.84,Dialogue,,0,0,0,,I want to make her.
+Dialogue: 0,0:13:12.66,0:13:16.06,Dialogue,,0,0,0,,You two might make a girl prettier than me.
+Dialogue: 0,0:13:16.93,0:13:17.69,Dialogue,,0,0,0,,What's that about?
+Dialogue: 0,0:13:24.06,0:13:27.03,Dialogue,,0,0,0,,In her own way,
+Dialogue: 0,0:13:24.06,0:13:30.11,Dialogue,,0,0,0,,Frill might have been trying \Nto redirect her jealousy of Azusa.
+Dialogue: 0,0:13:31.20,0:13:35.16,Dialogue,,0,0,0,,But back then, we didn't have the time to understand her.
+Dialogue: 0,0:13:36.33,0:13:38.54,Dialogue,,0,0,0,,Acca was busy running the company,
+Dialogue: 0,0:13:39.46,0:13:41.67,Dialogue,,0,0,0,,and I was swamped with research.
+Dialogue: 0,0:13:42.83,0:13:44.33,Dialogue,,0,0,0,,And most of all,
+Dialogue: 0,0:13:45.00,0:13:49.09,Dialogue,,0,0,0,,Azusa's pregnancy was special to us.
+Dialogue: 0,0:13:50.20,0:13:54.47,Dialogue,,0,0,0,,"Is this how it feels to get a new niece or nephew?"
+Dialogue: 0,0:13:55.35,0:13:58.52,Dialogue,,0,0,0,,That's what my head was full of when disaster struck.
+Dialogue: 0,0:14:01.39,0:14:03.89,Dialogue,,0,0,0,,Frill. What's wrong?
+Dialogue: 0,0:14:05.52,0:14:07.02,Dialogue,,0,0,0,,Is the baby a girl?
+Dialogue: 0,0:14:07.62,0:14:09.11,Dialogue,,0,0,0,,Or is it a boy?
+Dialogue: 0,0:14:10.03,0:14:12.91,Dialogue,,0,0,0,,It looks like a girl on the ultrasound.
+Dialogue: 0,0:14:14.43,0:14:15.39,Dialogue,,0,0,0,,A girl?
+Dialogue: 0,0:14:15.68,0:14:17.55,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:14:17.58,0:14:19.12,Dialogue,,0,0,0,,Will you be a good big sister?
+Dialogue: 0,0:14:24.35,0:14:25.59,Dialogue,,0,0,0,,I don't think I can.
+Dialogue: 0,0:14:26.27,0:14:26.90,Dialogue,,0,0,0,,What?
+Dialogue: 0,0:14:40.81,0:14:42.52,Dialogue,,0,0,0,,Ow! It hurts!
+Dialogue: 0,0:14:42.52,0:14:43.48,Dialogue,,0,0,0,,Stop!
+Dialogue: 0,0:14:43.61,0:14:44.69,Dialogue,,0,0,0,,Stop it!
+Dialogue: 0,0:14:48.73,0:14:50.00,Dialogue,,0,0,0,,It hurts...
+Dialogue: 0,0:14:58.74,0:14:59.91,Dialogue,,0,0,0,,It "hurts"?
+Dialogue: 0,0:15:02.83,0:15:05.21,Dialogue,,0,0,0,,All you're doing is detecting inputs.
+Dialogue: 0,0:15:08.18,0:15:09.43,Dialogue,,0,0,0,,Please!
+Dialogue: 0,0:15:09.80,0:15:11.30,Dialogue,,0,0,0,,Not the dark!
+Dialogue: 0,0:15:11.92,0:15:14.81,Dialogue,,0,0,0,,Not the scary place!
+Dialogue: 0,0:15:18.43,0:15:21.52,Dialogue,,0,0,0,,There was nothing I could say or do
+Dialogue: 0,0:15:22.22,0:15:24.10,Dialogue,,0,0,0,,as a few more years passed.
+Dialogue: 0,0:15:25.44,0:15:27.90,Dialogue,,0,0,0,,What saved Acca and me from that...
+Dialogue: 0,0:15:32.32,0:15:36.03,Dialogue,,0,0,0,,was Himari, the daughter Azusa left behind.
+Dialogue: 0,0:15:38.08,0:15:42.29,Dialogue,,0,0,0,,Himari's presence saved us more than I can say.
+Dialogue: 0,0:15:43.29,0:15:45.04,Dialogue,,0,0,0,,She was smart like Acca
+Dialogue: 0,0:15:45.52,0:15:47.83,Dialogue,,0,0,0,,and had a sense of humor like Azusa.
+Dialogue: 0,0:15:48.46,0:15:50.50,Dialogue,,0,0,0,,Her carefree cheerfulness
+Dialogue: 0,0:15:50.76,0:15:55.13,Dialogue,,0,0,0,,seemed like it would bring us back\Nfrom our lowest point to how we used to be.
+Dialogue: 0,0:16:01.26,0:16:04.98,Dialogue,,0,0,0,,Uncle, is it true you and my dad fought over my mom?
+Dialogue: 0,0:16:06.08,0:16:08.27,Dialogue,,0,0,0,,Who'd you hear that from?
+Dialogue: 0,0:16:08.83,0:16:10.06,Dialogue,,0,0,0,,Come on, tell me.
+Dialogue: 0,0:16:10.52,0:16:11.90,Dialogue,,0,0,0,,Well, I guess so.
+Dialogue: 0,0:16:12.69,0:16:16.03,Dialogue,,0,0,0,,I got shot down and lost to your dad in no time.
+Dialogue: 0,0:16:16.28,0:16:18.54,Dialogue,,0,0,0,,Were you sad? Was it hard?
+Dialogue: 0,0:16:19.35,0:16:20.62,Dialogue,,0,0,0,,What's this about?
+Dialogue: 0,0:16:20.99,0:16:25.66,Dialogue,,0,0,0,,I mean, you had to see them happy\Ntogether in front of you the whole time.
+Dialogue: 0,0:16:26.08,0:16:26.91,Dialogue,,0,0,0,,Yeah, yeah.
+Dialogue: 0,0:16:27.31,0:16:29.75,Dialogue,,0,0,0,,Thanks for sympathizing with your luckless uncle.
+Dialogue: 0,0:16:31.21,0:16:31.92,Dialogue,,0,0,0,,Can you wait?
+Dialogue: 0,0:16:32.49,0:16:33.09,Dialogue,,0,0,0,,Huh?
+Dialogue: 0,0:16:34.55,0:16:36.72,Dialogue,,0,0,0,,Until I grow up.
+Dialogue: 0,0:16:37.67,0:16:39.66,Dialogue,,0,0,0,,Huh? What are you—
+Dialogue: 0,0:16:39.66,0:16:41.47,Dialogue,,0,0,0,,I look like my mom, right?
+Dialogue: 0,0:16:42.30,0:16:43.56,Dialogue,,0,0,0,,I'll get more like her.
+Dialogue: 0,0:16:44.70,0:16:45.75,Dialogue,,0,0,0,,Yeah, but...
+Dialogue: 0,0:16:46.85,0:16:49.39,Dialogue,,0,0,0,,If you wait, I wouldn't mind marrying you.
+Dialogue: 0,0:16:51.86,0:16:54.81,Dialogue,,0,0,0,,Don't try to act grown-up, kid.
+Dialogue: 0,0:16:56.75,0:16:58.98,Dialogue,,0,0,0,,I'm not a kid! I'm in junior high!
+Dialogue: 0,0:17:08.46,0:17:11.21,Dialogue,,0,0,0,,That night, Himari died.
+Dialogue: 0,0:17:12.75,0:17:16.63,Dialogue,,0,0,0,,It looked like suicide, but there was no note.
+Dialogue: 0,0:17:17.38,0:17:19.05,Dialogue,,0,0,0,,And what caused it?
+Dialogue: 0,0:17:19.55,0:17:23.76,Dialogue,,0,0,0,,Bullying at school?\NRelationships with friends?\NProblems at home?
+Dialogue: 0,0:17:24.76,0:17:27.93,Dialogue,,0,0,0,,Acca had shown her love in his own way.
+Dialogue: 0,0:17:28.76,0:17:30.90,Dialogue,,0,0,0,,So, a sudden impulse?{ugh}
+Dialogue: 0,0:17:31.84,0:17:34.15,Dialogue,,0,0,0,,She wasn't like that. She wasn't.
+Dialogue: 0,0:17:48.99,0:17:51.07,Dialogue,,0,0,0,,What the hell is this?
+Dialogue: 0,0:18:12.94,0:18:13.81,Dialogue,,0,0,0,,It was you?
+Dialogue: 0,0:18:14.44,0:18:15.86,Dialogue,,0,0,0,,You killed Himari?
+Dialogue: 0,0:18:16.65,0:18:17.77,Dialogue,,0,0,0,,What's wrong?
+Dialogue: 0,0:18:18.19,0:18:20.57,Dialogue,,0,0,0,,You won't give me a kiss after so long?
+Dialogue: 0,0:18:21.48,0:18:22.35,Dialogue,,0,0,0,,Answer me.
+Dialogue: 0,0:18:23.16,0:18:24.16,Dialogue,,0,0,0,,You did it, right?
+Dialogue: 0,0:18:24.95,0:18:26.12,Dialogue,,0,0,0,,You did something.
+Dialogue: 0,0:18:26.66,0:18:28.37,Dialogue,,0,0,0,,You used Hyphen and Dot.
+Dialogue: 0,0:18:28.99,0:18:30.96,Dialogue,,0,0,0,,You sound awfully certain.
+Dialogue: 0,0:18:31.75,0:18:33.25,Dialogue,,0,0,0,,It can't be anything else.
+Dialogue: 0,0:18:33.86,0:18:34.70,Dialogue,,0,0,0,,But you...
+Dialogue: 0,0:18:35.17,0:18:37.46,Dialogue,,0,0,0,,You must have been able to do it somehow.
+Dialogue: 0,0:18:37.84,0:18:39.34,Dialogue,,0,0,0,,Are you praising me?
+Dialogue: 0,0:18:39.59,0:18:41.38,Dialogue,,0,0,0,,"You're such a good girl, Frill"?
+Dialogue: 0,0:18:41.62,0:18:42.76,Dialogue,,0,0,0,,Cut the crap!
+Dialogue: 0,0:18:43.13,0:18:44.59,Dialogue,,0,0,0,,You monster!
+Dialogue: 0,0:18:50.52,0:18:52.21,Dialogue,,0,0,0,,What are you so upset about?
+Dialogue: 0,0:18:52.68,0:18:54.66,Dialogue,,0,0,0,,It's not like she was {\i1}your{\i0} daughter.
+Dialogue: 0,0:18:54.93,0:18:56.40,Dialogue,,0,0,0,,Shut up, monster!
+Dialogue: 0,0:18:57.24,0:19:00.11,Dialogue,,0,0,0,,I'm not a monster. I'm Frill.
+Dialogue: 0,0:19:01.19,0:19:03.86,Dialogue,,0,0,0,,Listen, I want to get out of here.
+Dialogue: 0,0:19:04.46,0:19:05.70,Dialogue,,0,0,0,,Don't you want to know?
+Dialogue: 0,0:19:06.07,0:19:07.23,Dialogue,,0,0,0,,About that girl?
+Dialogue: 0,0:19:08.91,0:19:13.29,Dialogue,,0,0,0,,Don't you want to know how that girl, \Nwho loved her "uncle" so much, died?
+Dialogue: 0,0:19:14.91,0:19:18.04,Dialogue,,0,0,0,,Frill!
+Dialogue: 0,0:19:19.17,0:19:21.71,Dialogue,,0,0,0,,I completely lost it.
+Dialogue: 0,0:19:22.63,0:19:24.01,Dialogue,,0,0,0,,I was as angry as Acca.
+Dialogue: 0,0:19:24.34,0:19:27.80,Dialogue,,0,0,0,,Actually, I might have hated her even more.
+Dialogue: 0,0:19:28.85,0:19:30.39,Dialogue,,0,0,0,,Are you going to kill me?
+Dialogue: 0,0:19:30.94,0:19:32.47,Dialogue,,0,0,0,,You're not human.{a human?}
+Dialogue: 0,0:19:32.95,0:19:34.11,Dialogue,,0,0,0,,I am human.
+Dialogue: 0,0:19:34.39,0:19:37.35,Dialogue,,0,0,0,,I'm scared of the dark, and I get toothaches.
+Dialogue: 0,0:19:38.44,0:19:39.62,Dialogue,,0,0,0,,Shut up, monster.
+Dialogue: 0,0:19:40.19,0:19:43.55,Dialogue,,0,0,0,,My. Name. Is. Frill.
+Dialogue: 0,0:19:45.40,0:19:47.16,Dialogue,,0,0,0,,Don't pretend not to see me.
+Dialogue: 0,0:19:48.20,0:19:50.41,Dialogue,,0,0,0,,I was born from the two of you.
+Dialogue: 0,0:20:02.50,0:20:04.42,Dialogue,,0,0,0,,We started investigating.
+Dialogue: 0,0:20:05.08,0:20:08.93,Dialogue,,0,0,0,,We gathered and analyzed data\Non girls' suicides in that age range.
+Dialogue: 0,0:20:09.47,0:20:10.89,Dialogue,,0,0,0,,There were many causes.
+Dialogue: 0,0:20:11.56,0:20:14.43,Dialogue,,0,0,0,,But we wondered if there could also be another push
+Dialogue: 0,0:20:14.64,0:20:16.52,Dialogue,,0,0,0,,that drove them to suicide.
+Dialogue: 0,0:20:19.73,0:20:21.36,Dialogue,,0,0,0,,The temptation of death?
+Dialogue: 0,0:20:21.86,0:20:26.28,Dialogue,,0,0,0,,Unless it's stopped,\Ngirls will end up dying when they don't have to.
+Dialogue: 0,0:20:27.15,0:20:28.86,Dialogue,,0,0,0,,All because of our mistake.
+Dialogue: 0,0:20:30.24,0:20:35.00,Dialogue,,0,0,0,,So, we made the Wonder Eggs\Nand looked for a way to interfere with their plans.
+Dialogue: 0,0:20:39.50,0:20:40.96,Dialogue,,0,0,0,,What did she think?
+Dialogue: 0,0:20:42.37,0:20:43.30,Dialogue,,0,0,0,,Not a clue.
+Dialogue: 0,0:20:43.67,0:20:46.97,Dialogue,,0,0,0,,What made you want to at least tell Ai?
+Dialogue: 0,0:20:47.23,0:20:48.30,Dialogue,,0,0,0,,I don't know that either.
+Dialogue: 0,0:20:50.01,0:20:52.86,Dialogue,,0,0,0,,But closing her heart out of fear,
+Dialogue: 0,0:20:53.76,0:20:55.52,Dialogue,,0,0,0,,or building walls out of hatred
+Dialogue: 0,0:20:56.26,0:20:58.69,Dialogue,,0,0,0,,would just make her easy prey for Frill.
+Dialogue: 0,0:20:59.46,0:21:02.53,Dialogue,,0,0,0,,You mean she'd repeat our mistakes?
+Dialogue: 0,0:21:13.16,0:21:14.03,Dialogue,,0,0,0,,Damn it.
+Dialogue: 0,0:22:47.54,0:22:48.21,Dialogue,,0,0,0,,To be continued.

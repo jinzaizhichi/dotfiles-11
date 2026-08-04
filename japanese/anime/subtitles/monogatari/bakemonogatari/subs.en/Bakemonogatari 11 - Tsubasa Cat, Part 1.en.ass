@@ -1,0 +1,302 @@
+[Script Info]
+Title: Bakemonogatari 11 - Tsubasa Cat, Part 1
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1280
+PlayResY: 720
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Dialogue,Noto Sans,46,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,40,40,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:09.09,0:00:14.22,Dialogue,,0,0,0,,It happened on the 29th of April, the first day of Golden Week.
+Dialogue: 0,0:00:16.81,0:00:21.90,Dialogue,,0,0,0,,Basically, my mother's husband's second wife is my current "mother,"
+Dialogue: 0,0:00:21.98,0:00:25.32,Dialogue,,0,0,0,,and her second husband is my current "father."
+Dialogue: 0,0:00:27.74,0:00:32.32,Dialogue,,0,0,0,,So in short, your current parents aren't really your parents at all... right?
+Dialogue: 0,0:00:33.83,0:00:37.95,Dialogue,,0,0,0,,But isn't that something you wouldn't normally tell a kid?
+Dialogue: 0,0:00:38.04,0:00:42.88,Dialogue,,0,0,0,,My parents are rather frank, so I heard about it before elementary school.
+Dialogue: 0,0:00:44.04,0:00:46.96,Dialogue,,0,0,0,,I must really be a burden.
+Dialogue: 0,0:00:47.84,0:00:52.72,Dialogue,,0,0,0,,They apparently wanted to send me to an orphanage, but didn't, to save face.
+Dialogue: 0,0:00:55.01,0:00:57.72,Dialogue,,0,0,0,,That's why I tried to be a good kid.
+Dialogue: 0,0:00:59.43,0:01:01.60,Dialogue,,0,0,0,,Though really, a good kid is just a normal kid, I guess.
+Dialogue: 0,0:01:02.69,0:01:07.82,Dialogue,,0,0,0,,{\q3}When your family situation is so complex, there are times when people are biased against you.
+Dialogue: 0,0:01:08.07,0:01:12.11,Dialogue,,0,0,0,,{\q3}But I decided that I wouldn't change simply because of trivial things like that.
+Dialogue: 0,0:01:14.41,0:01:15.24,Dialogue,,0,0,0,,Hanekawa...
+Dialogue: 0,0:01:16.66,0:01:18.37,Dialogue,,0,0,0,,What are you planning to do, Araragi-kun?
+Dialogue: 0,0:01:20.00,0:01:22.12,Dialogue,,0,0,0,,{\q3}I mean, it's Golden Week, after all.
+Dialogue: 0,0:01:22.21,0:01:23.50,Dialogue,,0,0,0,,Aren't you going to study or something?
+Dialogue: 0,0:01:23.75,0:01:28.21,Dialogue,,0,0,0,,Why should I have to study during Golden Week?
+Dialogue: 0,0:01:36.89,0:01:39.97,Dialogue,,0,0,0,,Well, I like to take walks on days off,
+Dialogue: 0,0:01:40.06,0:01:41.14,Dialogue,,0,0,0,,because I don't want to be at home.
+Dialogue: 0,0:01:42.48,0:01:44.40,Dialogue,,0,0,0,,Spending a whole day at home with my parents...
+Dialogue: 0,0:01:46.06,0:01:46.90,Dialogue,,0,0,0,,freaks me out.
+Dialogue: 0,0:01:49.57,0:01:51.69,Dialogue,,0,0,0,,That's why I take walks on days off.
+Dialogue: 0,0:01:54.16,0:01:56.49,Dialogue,,0,0,0,,I think you're worrying too much... but okay.
+Dialogue: 0,0:02:10.30,0:02:12.55,Dialogue,,0,0,0,,Hey, what's with the gauze on your face?
+Dialogue: 0,0:02:16.05,0:02:18.30,Dialogue,,0,0,0,,Do you promise not to tell anyone?
+Dialogue: 0,0:02:20.14,0:02:22.31,Dialogue,,0,0,0,,I... promise.
+Dialogue: 0,0:02:24.77,0:02:27.31,Dialogue,,0,0,0,,This morning, my father hit me.
+Dialogue: 0,0:02:29.40,0:02:31.69,Dialogue,,0,0,0,,Hit you? That's...
+Dialogue: 0,0:02:32.11,0:02:35.95,Dialogue,,0,0,0,,Come on, Araragi-kun, think about it.
+Dialogue: 0,0:02:36.53,0:02:41.83,Dialogue,,0,0,0,,{\q3}If you heard an ignorant child talking about something that's none of her business,
+Dialogue: 0,0:02:42.41,0:02:45.75,Dialogue,,0,0,0,,you might be a bit annoyed, or get a bit angry...
+Dialogue: 0,0:02:46.25,0:02:48.25,Dialogue,,0,0,0,,But isn't that understandable?
+Dialogue: 0,0:02:48.38,0:02:49.21,Dialogue,,0,0,0,,No!
+Dialogue: 0,0:02:49.88,0:02:51.13,Dialogue,,0,0,0,,Violence is understandable?
+Dialogue: 0,0:02:52.09,0:02:54.59,Dialogue,,0,0,0,,Are you saying you're okay with that?!
+Dialogue: 0,0:02:54.67,0:02:56.72,Dialogue,,0,0,0,,Isn't that the one thing you find most unforgivable?!
+Dialogue: 0,0:02:56.80,0:02:58.01,Dialogue,,0,0,0,,It's okay!
+Dialogue: 0,0:02:58.55,0:02:59.39,Dialogue,,0,0,0,,It's only one time.
+Dialogue: 0,0:03:11.98,0:03:14.03,Dialogue,,0,0,0,,You promised, you know, Araragi-kun.
+Dialogue: 0,0:03:16.28,0:03:19.37,Dialogue,,0,0,0,,You promised that you wouldn't tell anyone.
+Dialogue: 0,0:03:20.87,0:03:24.25,Dialogue,,0,0,0,,But... a promise like that.
+Dialogue: 0,0:03:24.79,0:03:26.12,Dialogue,,0,0,0,,Please, Araragi-kun!
+Dialogue: 0,0:03:27.00,0:03:29.75,Dialogue,,0,0,0,,Please don't tell anyone about this!
+Dialogue: 0,0:03:29.83,0:03:32.25,Dialogue,,0,0,0,,If you don't tell, I'll do anything.
+Dialogue: 0,0:03:35.67,0:03:36.51,Dialogue,,0,0,0,,I'm begging you.
+Dialogue: 0,0:03:39.26,0:03:40.89,Dialogue,,0,0,0,,Okay, I get it.
+Dialogue: 0,0:03:44.22,0:03:45.06,Dialogue,,0,0,0,,What's that?
+Dialogue: 0,0:03:59.91,0:04:00.91,Dialogue,,0,0,0,,Will you help me?
+Dialogue: 0,0:06:09.29,0:06:11.33,Dialogue,,0,0,0,,Koyomi-oniichan, I've been waiting for you.
+Dialogue: 0,0:06:14.92,0:06:19.05,Dialogue,,0,0,0,,Oh, hey there, Sengoku.\NWhat are you doing here?
+Dialogue: 0,0:06:19.30,0:06:23.72,Dialogue,,0,0,0,,Koyomi-oniichan, it's just that...
+Dialogue: 0,0:06:25.30,0:06:28.05,Dialogue,,0,0,0,,I wanted to thank you properly.
+Dialogue: 0,0:06:28.14,0:06:31.77,Dialogue,,0,0,0,,Oh, well if that's it, you should really be thanking Kanbaru instead.
+Dialogue: 0,0:06:31.85,0:06:33.68,Dialogue,,0,0,0,,Has she come by here yet?
+Dialogue: 0,0:06:33.77,0:06:37.98,Dialogue,,0,0,0,,Yeah, but before I could say anything,
+Dialogue: 0,0:06:38.48,0:06:42.11,Dialogue,,0,0,0,,she ran off faster than the eye could see.
+Dialogue: 0,0:06:48.41,0:06:50.87,Dialogue,,0,0,0,,She must've had something really important to do. Yeah, that's it.
+Dialogue: 0,0:06:51.54,0:06:54.62,Dialogue,,0,0,0,,Yeah... it was like a Lightspeed Attack.
+Dialogue: 0,0:06:54.75,0:07:01.34,Dialogue,,0,0,0,,{\q3}Why would you use the special attack used by Prince Yamato from Bikkuriman to describe her?!
+Dialogue: 0,0:07:01.42,0:07:05.34,Dialogue,,0,0,0,,{\q3\fscx90}Even worse than being hard to understand, I can't even follow up on the joke without it turning into an explanation!
+Dialogue: 0,0:07:05.63,0:07:09.01,Dialogue,,0,0,0,,Yeah...  I didn't expect you to get it.
+Dialogue: 0,0:07:11.81,0:07:14.89,Dialogue,,0,0,0,,Koyomi-oniichan, you're as interesting as ever.
+Dialogue: 0,0:07:17.85,0:07:19.98,Dialogue,,0,0,0,,But what should I do now?
+Dialogue: 0,0:07:20.06,0:07:21.65,Dialogue,,0,0,0,,What's wrong?
+Dialogue: 0,0:07:21.73,0:07:24.74,Dialogue,,0,0,0,,Other than talking to Kanbaru-san, I had other things to do, too.
+Dialogue: 0,0:07:24.82,0:07:25.65,Dialogue,,0,0,0,,Oh, really?
+Dialogue: 0,0:07:25.82,0:07:26.65,Dialogue,,0,0,0,,Yeah...
+Dialogue: 0,0:07:27.20,0:07:30.12,Dialogue,,0,0,0,,If that's the case, I'd be more than willing to help out.
+Dialogue: 0,0:07:30.41,0:07:33.91,Dialogue,,0,0,0,,I still need to thank Kanbaru-san myself, too.
+Dialogue: 0,0:07:34.00,0:07:37.62,Dialogue,,0,0,0,,But I couldn't ask you to do that, Koyomi-oniichan...
+Dialogue: 0,0:07:37.71,0:07:39.42,Dialogue,,0,0,0,,I don't mind at all.
+Dialogue: 0,0:07:39.50,0:07:42.50,Dialogue,,0,0,0,,I don't consider something like this to be work.
+Dialogue: 0,0:07:42.59,0:07:43.42,Dialogue,,0,0,0,,Just leave it to me.
+Dialogue: 0,0:07:44.01,0:07:47.43,Dialogue,,0,0,0,,Are you sure? Well, then I guess it's okay...
+Dialogue: 0,0:07:49.09,0:07:49.93,Dialogue,,0,0,0,,Here.
+Dialogue: 0,0:07:50.05,0:07:50.89,Dialogue,,0,0,0,,This...
+Dialogue: 0,0:07:51.05,0:07:53.01,Dialogue,,0,0,0,,It's already been washed.
+Dialogue: 0,0:07:53.10,0:07:56.43,Dialogue,,0,0,0,,If you could return it for me, I'd be really grateful.
+Dialogue: 0,0:08:05.69,0:08:08.32,Dialogue,,0,0,0,,Well... certainly.
+Dialogue: 0,0:08:12.95,0:08:16.25,Dialogue,,0,0,0,,Oh yeah, Sengoku.
+Dialogue: 0,0:08:16.33,0:08:17.16,Dialogue,,0,0,0,,Can I ask you about something?
+Dialogue: 0,0:08:17.25,0:08:20.58,Dialogue,,0,0,0,,What? What is it?
+Dialogue: 0,0:08:20.75,0:08:23.59,Dialogue,,0,0,0,,Oh, it's nothing big.
+Dialogue: 0,0:08:24.25,0:08:25.09,Dialogue,,0,0,0,,It's about Shinobu.
+Dialogue: 0,0:08:25.63,0:08:26.46,Dialogue,,0,0,0,,Shinobu?
+Dialogue: 0,0:08:26.92,0:08:32.35,Dialogue,,0,0,0,,{\q3}Last night after getting rid of the Jagirinawa, we went back to the old school,
+Dialogue: 0,0:08:32.43,0:08:34.60,Dialogue,,0,0,0,,and since it was late, we stayed the night, right?
+Dialogue: 0,0:08:38.23,0:08:40.85,Dialogue,,0,0,0,,There was a cute little girl with blond hair.
+Dialogue: 0,0:08:42.40,0:08:45.73,Dialogue,,0,0,0,,Did she say anything to you while I wasn't there?
+Dialogue: 0,0:08:46.90,0:08:47.74,Dialogue,,0,0,0,,No.
+Dialogue: 0,0:08:48.40,0:08:49.53,Dialogue,,0,0,0,,I see...
+Dialogue: 0,0:08:49.61,0:08:52.74,Dialogue,,0,0,0,,She's a vampire, isn't she?
+Dialogue: 0,0:08:52.99,0:08:58.37,Dialogue,,0,0,0,,Yeah, but right now, I guess she's more of a pseudo-vampire.
+Dialogue: 0,0:08:58.75,0:09:02.38,Dialogue,,0,0,0,,So it's her fault that you were...
+Dialogue: 0,0:09:03.00,0:09:04.25,Dialogue,,0,0,0,,It wasn't her fault.
+Dialogue: 0,0:09:05.17,0:09:06.34,Dialogue,,0,0,0,,It was mine.
+Dialogue: 0,0:09:06.46,0:09:10.34,Dialogue,,0,0,0,,Besides, trying to place the blame on an aberration isn't right.
+Dialogue: 0,0:09:10.68,0:09:14.43,Dialogue,,0,0,0,,They're merely trying to exist, and that's just how they are.
+Dialogue: 0,0:09:15.39,0:09:18.18,Dialogue,,0,0,0,,Even aberrations have some semblance of reason for the things they do.
+Dialogue: 0,0:09:18.39,0:09:19.77,Dialogue,,0,0,0,,That basically sums it up.
+Dialogue: 0,0:09:20.23,0:09:22.10,Dialogue,,0,0,0,,Yeah, I guess so.
+Dialogue: 0,0:09:22.77,0:09:26.61,Dialogue,,0,0,0,,Well, anyway, don't worry about stuff like that too much.
+Dialogue: 0,0:09:26.94,0:09:29.28,Dialogue,,0,0,0,,It'd be best if you just went back to living a normal life.
+Dialogue: 0,0:09:29.78,0:09:30.78,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:09:30.86,0:09:33.41,Dialogue,,0,0,0,,If you have any problems, feel free to come and talk to me.
+Dialogue: 0,0:09:33.49,0:09:38.79,Dialogue,,0,0,0,,{\q3}Though of course, if you have any really big problems, Oshino may be better able to help.
+Dialogue: 0,0:09:39.41,0:09:40.79,Dialogue,,0,0,0,,O-Oh, really?
+Dialogue: 0,0:09:41.21,0:09:45.33,Dialogue,,0,0,0,,Yeah, but he did warn me...
+Dialogue: 0,0:09:45.63,0:09:48.46,Dialogue,,0,0,0,,I can't just always rely on him.
+Dialogue: 0,0:09:48.84,0:09:52.68,Dialogue,,0,0,0,,It's like how if you constantly rely on Doraemon's secret gadgets, you become like Nobita-kun. {rinTLC: LOL}
+Dialogue: 0,0:09:53.18,0:09:56.39,Dialogue,,0,0,0,,Yeah, that's true.\NIt was Oshino-san that gave you the protective seal, too.
+Dialogue: 0,0:09:56.47,0:09:59.97,Dialogue,,0,0,0,,That really {\i1}is{\i0\fscx140} {\r}like Doraemon's secret gadgets!
+Dialogue: 0,0:10:00.06,0:10:03.81,Dialogue,,0,0,0,,It's like the Genius Helmet or Skill Gloves.
+Dialogue: 0,0:10:04.90,0:10:10.11,Dialogue,,0,0,0,,{\fscx95}Why would you go out of your way to use minor secret gadgets that only showed up in the movies as examples?!
+Dialogue: 0,0:10:10.61,0:10:12.82,Dialogue,,0,0,0,,Use something like the Takecopter or the Anywhere Door instead!
+Dialogue: 0,0:10:13.61,0:10:18.78,Dialogue,,0,0,0,,Koyomi-oniichan, you always follow up on my jokes perfectly!
+Dialogue: 0,0:10:30.13,0:10:32.63,Dialogue,,0,0,0,,W-What is it?
+Dialogue: 0,0:10:33.67,0:10:35.80,Dialogue,,0,0,0,,Nothing... really...
+Dialogue: 0,0:10:48.98,0:10:53.69,Dialogue,,0,0,0,,I feel like my manhood is being measured when I'm around you.
+Dialogue: 0,0:10:55.20,0:10:57.53,Dialogue,,0,0,0,,Don't worry about it.
+Dialogue: 0,0:10:57.78,0:10:59.99,Dialogue,,0,0,0,,Oh yeah, Koyomi-oniichan.
+Dialogue: 0,0:11:00.08,0:11:01.04,Dialogue,,0,0,0,,What's up?
+Dialogue: 0,0:11:01.20,0:11:03.41,Dialogue,,0,0,0,,It's about Shinobu-chan.
+Dialogue: 0,0:11:03.50,0:11:04.33,Dialogue,,0,0,0,,Shinobu?
+Dialogue: 0,0:11:04.87,0:11:07.79,Dialogue,,0,0,0,,She... was constantly glaring at me.
+Dialogue: 0,0:11:09.04,0:11:12.96,Dialogue,,0,0,0,,{\q3}I feel like her eyes were different when she was looking at you and Oshino-san...
+Dialogue: 0,0:11:14.38,0:11:19.97,Dialogue,,0,0,0,,than when she was looking at me and Kanbaru-san.
+Dialogue: 0,0:11:22.06,0:11:26.14,Dialogue,,0,0,0,,Are you saying that she looks at men and women differently?
+Dialogue: 0,0:11:27.52,0:11:30.02,Dialogue,,0,0,0,,I'm really aware of people's looks...
+Dialogue: 0,0:11:31.15,0:11:32.53,Dialogue,,0,0,0,,so I can just tell.
+Dialogue: 0,0:11:34.74,0:11:36.53,Dialogue,,0,0,0,,Oh, if it isn't Araragi-kun.
+Dialogue: 0,0:11:38.03,0:11:40.16,Dialogue,,0,0,0,,What are you doing here?
+Dialogue: 0,0:11:41.62,0:11:43.41,Dialogue,,0,0,0,,Umm...
+Dialogue: 0,0:11:43.91,0:11:47.00,Dialogue,,0,0,0,,Oh, Hanekawa, this is the girl{\fscx200}-
+Dialogue: 0,0:11:47.08,0:11:48.92,Dialogue,,0,0,0,,E-E-Excuse me!
+Dialogue: 0,0:11:58.72,0:12:01.72,Dialogue,,0,0,0,,Araragi-kun, I think I'm a little hurt.
+Dialogue: 0,0:12:05.72,0:12:10.73,Dialogue,,0,0,0,,{\q3}Umm... yeah, that's my sister's friend that I mentioned yesterday, Sengoku Nadeko.
+Dialogue: 0,0:12:13.27,0:12:18.99,Dialogue,,0,0,0,,Oh yeah, Araragi-kun, what happened after that snake incident?
+Dialogue: 0,0:12:19.99,0:12:21.95,Dialogue,,0,0,0,,{\q3}Well, it was basically solved.
+Dialogue: 0,0:12:22.16,0:12:24.87,Dialogue,,0,0,0,,Though we really just ended up relying on Oshino again.
+Dialogue: 0,0:12:26.41,0:12:31.13,Dialogue,,0,0,0,,I don't really understand, but it's good that it was solved swiftly.
+Dialogue: 0,0:12:32.38,0:12:33.88,Dialogue,,0,0,0,,Yeah, that's about it.
+Dialogue: 0,0:12:36.26,0:12:38.63,Dialogue,,0,0,0,,In any case, she really did seem like a nice, sweet girl.
+Dialogue: 0,0:12:39.76,0:12:44.10,Dialogue,,0,0,0,,If I'm not mistaken, that uniform is from the middle school you graduated from, isn't it, Araragi-kun?
+Dialogue: 0,0:12:44.56,0:12:46.81,Dialogue,,0,0,0,,You really do know everything, don't you?
+Dialogue: 0,0:12:46.89,0:12:49.89,Dialogue,,0,0,0,,It's not that I know everything. I just know what I know.
+Dialogue: 0,0:12:51.48,0:12:53.06,Dialogue,,0,0,0,,By the way, Araragi-kun.
+Dialogue: 0,0:12:53.15,0:12:54.06,Dialogue,,0,0,0,,What's up?
+Dialogue: 0,0:12:54.15,0:12:56.65,Dialogue,,0,0,0,,Didn't you say you had something to do today?
+Dialogue: 0,0:12:58.78,0:13:04.49,Dialogue,,0,0,0,,{\q3}By any chance, was talking to a cute middle school girl the "something" you had to{\fscx200}-
+Dialogue: 0,0:13:04.58,0:13:05.41,Dialogue,,0,0,0,,No!
+Dialogue: 0,0:13:06.91,0:13:09.91,Dialogue,,0,0,0,,That was something concerning Senjougahara.
+Dialogue: 0,0:13:11.04,0:13:13.29,Dialogue,,0,0,0,,It's just embarrassing, so I didn't want to say anything.
+Dialogue: 0,0:13:16.17,0:13:18.30,Dialogue,,0,0,0,,Senjougahara-san, huh?
+Dialogue: 0,0:13:21.55,0:13:24.60,Dialogue,,0,0,0,,Want to hear some interesting rumors?
+Dialogue: 0,0:13:24.68,0:13:28.02,Dialogue,,0,0,0,,What? Doesn't sound interesting at all, but I'm listening.
+Dialogue: 0,0:13:28.89,0:13:33.02,Dialogue,,0,0,0,,{\q3}"Ever since Senjougahara became friends with Araragi, she's started acting strangely."
+Dialogue: 0,0:13:34.31,0:13:37.27,Dialogue,,0,0,0,,"Araragi is being a bad influence on Senjougahara."
+Dialogue: 0,0:13:38.28,0:13:39.11,Dialogue,,0,0,0,,And things like that.
+Dialogue: 0,0:13:41.40,0:13:47.83,Dialogue,,0,0,0,,{\q3}Just a bit ago, Hoshina-sensei asked me, "Hanekawa, do you know anything about this?"
+Dialogue: 0,0:13:49.79,0:13:55.42,Dialogue,,0,0,0,,I don't really know how you and Senjougahara-san got so close,
+Dialogue: 0,0:13:55.50,0:13:59.80,Dialogue,,0,0,0,,but I think people are going to start saying even more things like that from now on.
+Dialogue: 0,0:14:00.88,0:14:02.93,Dialogue,,0,0,0,,Yeah... they probably will, won't they.
+Dialogue: 0,0:14:03.38,0:14:09.68,Dialogue,,0,0,0,,{\q3}That's a big problem for you. From now on, you'll need to prove that things aren't like that, Araragi-kun.
+Dialogue: 0,0:14:10.93,0:14:14.40,Dialogue,,0,0,0,,You shouldn't just let people say bad things about Senjougahara-san,
+Dialogue: 0,0:14:14.48,0:14:17.19,Dialogue,,0,0,0,,like how going out with some guy caused her to go bad.
+Dialogue: 0,0:14:18.23,0:14:19.07,Dialogue,,0,0,0,,You're absolutely right.
+Dialogue: 0,0:14:24.03,0:14:26.95,Dialogue,,0,0,0,,Well anyway, I told him otherwise.
+Dialogue: 0,0:14:27.03,0:14:28.83,Dialogue,,0,0,0,,I told him I didn't think it was like that.
+Dialogue: 0,0:14:29.33,0:14:31.25,Dialogue,,0,0,0,,Oh... thanks for that.
+Dialogue: 0,0:14:31.79,0:14:33.62,Dialogue,,0,0,0,,But do you really think that?
+Dialogue: 0,0:14:34.62,0:14:36.54,Dialogue,,0,0,0,,That it's not like that.
+Dialogue: 0,0:14:36.63,0:14:37.96,Dialogue,,0,0,0,,Of course.
+Dialogue: 0,0:14:38.84,0:14:40.84,Dialogue,,0,0,0,,I never lie, after all.
+Dialogue: 0,0:14:42.92,0:14:46.97,Dialogue,,0,0,0,,Other than you, I've never heard anyone but liars use that line.
+Dialogue: 0,0:14:47.85,0:14:50.10,Dialogue,,0,0,0,,Really? I think there are plenty!
+Dialogue: 0,0:14:51.02,0:14:56.35,Dialogue,,0,0,0,,{\q3}Honestly, I really feel that Senjougahara-san is developing in the right direction.
+Dialogue: 0,0:14:56.85,0:15:02.15,Dialogue,,0,0,0,,I don't know if it's thanks to\Nrecovering from her illness, or thanks to you...
+Dialogue: 0,0:15:02.53,0:15:08.37,Dialogue,,0,0,0,,But I think that you need to be by\Nher side to support how she's changing.
+Dialogue: 0,0:15:10.12,0:15:13.50,Dialogue,,0,0,0,,You don't talk like a high school{highschool?} student, you know.
+Dialogue: 0,0:15:13.87,0:15:15.62,Dialogue,,0,0,0,,Really? I think I'm perfectly normal.
+Dialogue: 0,0:15:18.63,0:15:19.71,Dialogue,,0,0,0,,Really?
+Dialogue: 0,0:15:20.59,0:15:24.38,Dialogue,,0,0,0,,Speaking of which, I wonder if Hanekawa has someone.
+Dialogue: 0,0:15:25.47,0:15:28.80,Dialogue,,0,0,0,,She's the kind of person that's gentle with anyone,
+Dialogue: 0,0:15:25.47,0:15:31.47,Dialogue,,0,0,0,,but I wonder if she has that one special person.
+Dialogue: 0,0:15:32.10,0:15:33.22,Dialogue,,0,0,0,,Hey, Hanekawa.
+Dialogue: 0,0:15:34.02,0:15:34.85,Dialogue,,0,0,0,,What is it?
+Dialogue: 0,0:15:37.19,0:15:38.60,Dialogue,,0,0,0,,What is it, Araragi-kun?
+Dialogue: 0,0:15:38.69,0:15:42.48,Dialogue,,0,0,0,,Umm... about Doraemon's secret gadgets{\fscx200}-
+Dialogue: 0,0:15:42.57,0:15:46.36,Dialogue,,0,0,0,,Ouch!
+Dialogue: 0,0:15:55.25,0:15:57.46,Dialogue,,0,0,0,,Are you okay?
+Dialogue: 0,0:15:57.67,0:16:00.88,Dialogue,,0,0,0,,Y-Yeah... I'm fine...\NBut...
+Dialogue: 0,0:16:01.84,0:16:03.38,Dialogue,,0,0,0,,You're worrying too much.
+Dialogue: 0,0:16:06.84,0:16:12.51,Dialogue,,0,0,0,,Hanekawa, this can't be like that time during Golden Week, can it?
+Dialogue: 0,0:16:14.14,0:16:19.27,Dialogue,,0,0,0,,Golden Week, the 9 day period between April 29th and May 7th.
+Dialogue: 0,0:16:21.69,0:16:23.15,Dialogue,,0,0,0,,Hanekawa!
+Dialogue: 0,0:16:27.44,0:16:28.28,Dialogue,,0,0,0,,It hurts!
+Dialogue: 0,0:16:28.45,0:16:29.28,Dialogue,,0,0,0,,Hanekawa!
+Dialogue: 0,0:16:32.24,0:16:33.08,Dialogue,,0,0,0,,Hanekawa!
+Dialogue: 0,0:16:55.22,0:16:57.10,Dialogue,,0,0,0,,She was possessed by a cat.
+Dialogue: 0,0:16:59.48,0:17:00.48,Dialogue,,0,0,0,,Meddlecat.
+Dialogue: 0,0:17:00.98,0:17:01.85,Dialogue,,0,0,0,,Meddlecat?
+Dialogue: 0,0:17:02.19,0:17:05.11,Dialogue,,0,0,0,,Yeah.\NIt's also known as Silver Cat.
+Dialogue: 0,0:17:05.19,0:17:08.28,Dialogue,,0,0,0,,But really, Meddlecat is its more customary name.
+Dialogue: 0,0:17:08.49,0:17:12.03,Dialogue,,0,0,0,,It's a cat without a tail; one that doesn't leave anything behind.{i'm trying to avoid rhyming here. D:}
+Dialogue: 0,0:17:12.41,0:17:14.70,Dialogue,,0,0,0,,What do you mean by that, Oshino?
+Dialogue: 0,0:17:14.78,0:17:18.91,Dialogue,,0,0,0,,{\q3}If we're talking in terms of "reality," then I'd say it's a kind of multiple personality disorder.
+Dialogue: 0,0:17:19.16,0:17:22.67,Dialogue,,0,0,0,,That's the inner personality of your President{rinTLC: how did we tl this before?}{nomae: I have no clue, and would rather not look through every ep of the show to find it, if it is later fixed... also fix the lines at 18:01 and 18:20} manifesting itself.
+Dialogue: 0,0:17:22.96,0:17:25.00,Dialogue,,0,0,0,,The black, bad Hanekawa Tsubasa.
+Dialogue: 0,0:17:25.59,0:17:28.26,Dialogue,,0,0,0,,Let's call her "Black Hanekawa."
+Dialogue: 0,0:17:28.92,0:17:30.26,Dialogue,,0,0,0,,But she's {\i1}white.{\i0}
+Dialogue: 0,0:17:30.76,0:17:33.26,Dialogue,,0,0,0,,It doesn't matter what's outside, but rather, what's inside.
+Dialogue: 0,0:17:34.55,0:17:39.06,Dialogue,,0,0,0,,What's wrong, Araragi-kun? You're more impatient than normal.
+Dialogue: 0,0:17:39.68,0:17:44.65,Dialogue,,0,0,0,,{\q3}Even when you were assaulted by monsters over spring break, you weren't this distracted.
+Dialogue: 0,0:17:45.15,0:17:47.90,Dialogue,,0,0,0,,And? How are we going to get Hanekawa back to normal?
+Dialogue: 0,0:17:48.23,0:17:51.70,Dialogue,,0,0,0,,I'm telling you, don't worry. I'll explain just how to do it.
+Dialogue: 0,0:17:52.36,0:17:57.79,Dialogue,,0,0,0,,Anyway, there's a reason that the black President,\Nor rather, the Meddlecat, is appearing now.
+Dialogue: 0,0:17:58.08,0:18:00.79,Dialogue,,0,0,0,,That reason is likely stress.
+Dialogue: 0,0:18:01.08,0:18:01.91,Dialogue,,0,0,0,,Stress?
+Dialogue: 0,0:18:02.50,0:18:04.83,Dialogue,,0,0,0,,It's probably an extreme amount of stress, too.
+Dialogue: 0,0:18:05.21,0:18:09.46,Dialogue,,0,0,0,,{\q3}Like the large amount of stress that accumulates over a long period of time.
+Dialogue: 0,0:18:11.09,0:18:15.43,Dialogue,,0,0,0,,Araragi-kun, the President isn't under any kind of stress, is she?
+Dialogue: 0,0:18:15.51,0:18:18.56,Dialogue,,0,0,0,,It could be love, or studies, or perhaps her family...
+Dialogue: 0,0:18:29.86,0:18:34.91,Dialogue,,0,0,0,,{\q3}Night after night, Black Hanekawa attacked passersby without discrimination.
+Dialogue: 0,0:18:38.16,0:18:42.04,Dialogue,,0,0,0,,By doing this, it was attempting to relieve Hanekawa's stress.
+Dialogue: 0,0:18:46.17,0:18:49.55,Dialogue,,0,0,0,,One of the Meddlecat's characteristics as an aberration is energy drain.
+Dialogue: 0,0:18:50.25,0:18:56.64,Dialogue,,0,0,0,,{\fscx95}Like when it often appears in video games, it is the power to absorb strength and energy from people you touch.
+Dialogue: 0,0:19:04.43,0:19:07.69,Dialogue,,0,0,0,,Of those who were energy drained, the worst were hospitalized.
+Dialogue: 0,0:19:08.65,0:19:10.19,Dialogue,,0,0,0,,Two people were hospitalized.
+Dialogue: 0,0:19:10.94,0:19:15.11,Dialogue,,0,0,0,,They were the first, and most serious, victims.
+Dialogue: 0,0:19:15.65,0:19:19.20,Dialogue,,0,0,0,,They were also the cause of Hanekawa's stress...
+Dialogue: 0,0:19:26.42,0:19:28.38,Dialogue,,0,0,0,,Those were her parents.
+Dialogue: 0,0:19:31.50,0:19:34.88,Dialogue,,0,0,0,,Then, on the final day of Golden Week, May 7th...
+Dialogue: 0,0:19:48.10,0:19:51.44,Dialogue,,0,0,0,,Hey, human, I've trapped you nyow.
+Dialogue: 0,0:19:53.86,0:19:55.99,Dialogue,,0,0,0,,Showing off, trying to follow me around...
+Dialogue: 0,0:19:56.07,0:19:59.20,Dialogue,,0,0,0,,I don't really knyow what you're trying to do, but it's pointless, meow.
+Dialogue: 0,0:20:01.78,0:20:06.21,Dialogue,,0,0,0,,Until my myaster's stress is completely gone, I won't be going anywhere.
+Dialogue: 0,0:20:07.46,0:20:11.08,Dialogue,,0,0,0,,And speaking of which, if that stress is nyot relieved in a year...
+Dialogue: 0,0:20:20.43,0:20:24.81,Dialogue,,0,0,0,,Shinobu... no, she didn't yet have the name Shinobu at that time.
+Dialogue: 0,0:20:25.56,0:20:30.06,Dialogue,,0,0,0,,One of her characteristics as a vampire is, like the Meddlecat, energy drain.
+Dialogue: 0,0:20:36.15,0:20:39.82,Dialogue,,0,0,0,,{\q3}But to compare a Meddlecat to a vampire... the level of aberration is completely different.
+Dialogue: 0,0:20:45.41,0:20:47.96,Dialogue,,0,0,0,,The Meddlecat, which could also be said to be the avatar of Hanekawa's stress,
+Dialogue: 0,0:20:48.75,0:20:50.96,Dialogue,,0,0,0,,was drained by Shinobu's energy drain, and disappeared.
+Dialogue: 0,0:20:52.04,0:20:55.55,Dialogue,,0,0,0,,Hanekawa's stress was, for the time being, reduced.
+Dialogue: 0,0:21:03.10,0:21:05.60,Dialogue,,0,0,0,,Just like that, the problem was solved.
+Dialogue: 0,0:21:06.60,0:21:10.10,Dialogue,,0,0,0,,This seems just like that time during Golden Week,\Nthough nothing out of the ordinary is happening.
+Dialogue: 0,0:21:11.02,0:21:11.85,Dialogue,,0,0,0,,But...
+Dialogue: 0,0:21:12.48,0:21:13.90,Dialogue,,0,0,0,,Hey, Hanekawa!
+Dialogue: 0,0:21:14.61,0:21:16.61,Dialogue,,0,0,0,,Really, I'm okay.
+Dialogue: 0,0:21:18.99,0:21:22.20,Dialogue,,0,0,0,,We should go... no, the school infirmary's closed by now.
+Dialogue: 0,0:21:22.28,0:21:23.20,Dialogue,,0,0,0,,We should go to the hospital.
+Dialogue: 0,0:21:23.28,0:21:27.20,Dialogue,,0,0,0,,I said I'm fine. You're blowing this out of proportion.
+Dialogue: 0,0:21:27.29,0:21:29.79,Dialogue,,0,0,0,,But you said this has been happening often, lately...
+Dialogue: 0,0:21:29.87,0:21:32.12,Dialogue,,0,0,0,,And I'm telling you, you're worrying too much.
+Dialogue: 0,0:21:32.37,0:21:35.50,Dialogue,,0,0,0,,You're really a chicken sometimes, Araragi-kun.
+Dialogue: 0,0:21:36.04,0:21:36.88,Dialogue,,0,0,0,,But you're...
+Dialogue: 0,0:21:37.34,0:21:40.13,Dialogue,,0,0,0,,You really are kind, Araragi-kun.
+Dialogue: 0,0:21:42.72,0:21:48.27,Dialogue,,0,0,0,,{\q3}More importantly, Araragi-kun, have you been trying to understand Senjougahara-san?
+Dialogue: 0,0:21:49.18,0:21:53.06,Dialogue,,0,0,0,,It's not enough to just understand, though.\NYou have to put it into action.
+Dialogue: 0,0:21:53.44,0:21:55.77,Dialogue,,0,0,0,,Yeah, I know...
+Dialogue: 0,0:22:00.24,0:22:02.15,Dialogue,,0,0,0,,Sorry for always making you worry about it.
+Dialogue: 0,0:22:02.65,0:22:06.07,Dialogue,,0,0,0,,It's fine.
+Dialogue: 0,0:22:02.65,0:22:10.50,Dialogue,,0,0,0,,Anyway, if you really understand\Nwhat I'm saying, Araragi-kun, come on...
+Dialogue: 0,0:22:10.58,0:22:11.41,Dialogue,,0,0,0,,What?
+Dialogue: 0,0:22:11.87,0:22:17.42,Dialogue,,0,0,0,,Those bloomers and school swimsuit\Nthat you're clutching like treasures...
+Dialogue: 0,0:22:18.13,0:22:20.92,Dialogue,,0,0,0,,Perhaps you should at least put them in your bag.
+Dialogue: 0,0:23:56.31,0:23:57.77,Dialogue,,0,0,0,,I'm Karen!\NI'm Tsukihi!
+Dialogue: 0,0:23:57.89,0:23:59.73,Dialogue,,0,0,0,,We've already reached the 11th preview!
+Dialogue: 0,0:23:59.81,0:24:00.86,Dialogue,,0,0,0,,It really is the 11th one.
+Dialogue: 0,0:24:00.98,0:24:02.27,Dialogue,,0,0,0,,11 is a prime number, right?
+Dialogue: 0,0:24:02.36,0:24:03.19,Dialogue,,0,0,0,,It certainly is prime.
+Dialogue: 0,0:24:02.36,0:24:04.73,Dialogue,,0,0,0,,What is the definition of a prime number?
+Dialogue: 0,0:24:04.82,0:24:08.99,Dialogue,,0,0,0,,A number that is not divisible other than itself\Nor a positive integer other than one.
+Dialogue: 0,0:24:09.07,0:24:09.99,Dialogue,,0,0,0,,Where is that number?
+Dialogue: 0,0:24:10.07,0:24:11.32,Dialogue,,0,0,0,,It's a fake number.
+Dialogue: 0,0:24:11.41,0:24:13.03,Dialogue,,0,0,0,,Then what's the definition of a prime number?
+Dialogue: 0,0:24:13.12,0:24:14.33,Dialogue,,0,0,0,,A positive integer, not a prime number.
+Dialogue: 0,0:24:14.41,0:24:15.25,Dialogue,,0,0,0,,It is a number!
+Dialogue: 0,0:24:15.33,0:24:16.16,Dialogue,,0,0,0,,A prime number, right?
+Dialogue: 0,0:24:16.25,0:24:17.08,Dialogue,,0,0,0,,It's the closing puzzle!
+Dialogue: 0,0:24:17.16,0:24:18.00,Dialogue,,0,0,0,,Puzzle?
+Dialogue: 0,0:24:17.16,0:24:19.21,Dialogue,,0,0,0,,What's the difference between a puzzle and a quiz?
+Dialogue: 0,0:24:19.33,0:24:21.04,Dialogue,,0,0,0,,Puzzles are tricky.\NQuizzes are hard!
+Dialogue: 0,0:24:21.13,0:24:22.67,Dialogue,,0,0,0,,So hard.\NSo tricky!
+Dialogue: 0,0:24:22.79,0:24:24.50,Dialogue,,0,0,0,,Next time, Tsubasa Cat Part Two!
+Dialogue: 0,0:24:24.63,0:24:26.51,Dialogue,,0,0,0,,So, what's the definition of a mantissa?
+Dialogue: 0,0:24:26.63,0:24:27.67,Dialogue,,0,0,0,,I don't know.

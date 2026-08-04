@@ -1,0 +1,294 @@
+[Script Info]
+Title: Fullmetal_Alchemist 42 - His Name Is Unknown
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1280
+PlayResY: 720
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Dialogue,Noto Sans,46,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,40,40,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.37,0:00:03.54,Dialogue,,0,0,0,,What is this?
+Dialogue: 0,0:00:04.20,0:00:07.33,Dialogue,,0,0,0,,This is weird...\NMy body is...
+Dialogue: 0,0:00:08.25,0:00:09.63,Dialogue,,0,0,0,,Why, you!
+Dialogue: 0,0:00:10.08,0:00:15.05,Dialogue,,0,0,0,,Just so you know,\NI only specialize in bomb making.
+Dialogue: 0,0:00:15.46,0:00:18.80,Dialogue,,0,0,0,,You'll have to take it up with\Nsomeone else to change him ba—
+Dialogue: 0,0:00:21.26,0:00:24.89,Dialogue,,0,0,0,,It's okay.\NYou have time.
+Dialogue: 0,0:00:25.31,0:00:31.77,Dialogue,,0,0,0,,I made it so that his composition \Nslowly but surely absorbs oxygen.
+Dialogue: 0,0:00:32.36,0:00:37.94,Dialogue,,0,0,0,,Enjoy the slow, steady approach of that moment when he explo—
+Dialogue: 0,0:00:42.20,0:00:43.62,Dialogue,,0,0,0,,He doesn't mean it, right?
+Dialogue: 0,0:00:43.83,0:00:45.66,Dialogue,,0,0,0,,My body isn't going to...
+Dialogue: 0,0:00:50.42,0:00:52.42,Dialogue,,0,0,0,,I can't... move... It's hard...
+Dialogue: 0,0:00:52.79,0:00:53.67,Dialogue,,0,0,0,,to talk...
+Dialogue: 0,0:00:53.75,0:00:56.25,Dialogue,,0,0,0,,Do not move.\NAlphonse Elric,
+Dialogue: 0,0:00:56.80,0:00:59.42,Dialogue,,0,0,0,,I don't know what has\Nhappened to your body.
+Dialogue: 0,0:00:59.84,0:01:04.22,Dialogue,,0,0,0,,If you carelessly stimulate it—
+Dialogue: 0,0:01:00.93,0:01:04.22,Dialogue,,0,0,0,,You'd best not touch him, scarred man.
+Dialogue: 0,0:01:05.76,0:01:07.14,Dialogue,,0,0,0,,Homunculus!
+Dialogue: 0,0:01:08.56,0:01:09.94,Dialogue,,0,0,0,,Homunculus?
+Dialogue: 0,0:01:10.81,0:01:13.77,Dialogue,,0,0,0,,The only thing your arm is capable of is destruction.
+Dialogue: 0,0:01:14.31,0:01:18.40,Dialogue,,0,0,0,,Edward would be able to transmute the boy into another material
+Dialogue: 0,0:01:18.61,0:01:21.03,Dialogue,,0,0,0,,and should be able to\Nprevent him from exploding.
+Dialogue: 0,0:01:21.49,0:01:22.70,Dialogue,,0,0,0,,Transmute him...
+Dialogue: 0,0:01:23.32,0:01:24.74,Dialogue,,0,0,0,,into another material?
+Dialogue: 0,0:01:24.83,0:01:25.66,Dialogue,,0,0,0,,Let's go.
+Dialogue: 0,0:01:28.79,0:01:32.62,Dialogue,,0,0,0,,I thought that your objective was to create a Philosopher's Stone.
+Dialogue: 0,0:01:34.67,0:01:37.00,Dialogue,,0,0,0,,You really aren't that woman.
+Dialogue: 0,0:01:38.34,0:01:41.72,Dialogue,,0,0,0,,There is no way that\Nshe would say such a thing.
+Dialogue: 0,0:03:32.49,0:03:33.83,Dialogue,,0,0,0,,Shut up...
+Dialogue: 0,0:03:33.95,0:03:35.62,Dialogue,,0,0,0,,Stop...
+Dialogue: 0,0:03:35.71,0:03:37.29,Dialogue,,0,0,0,,Make that thing shut up.
+Dialogue: 0,0:03:44.17,0:03:46.30,Dialogue,,0,0,0,,Get up... and walk!
+Dialogue: 0,0:03:47.55,0:03:49.43,Dialogue,,0,0,0,,Move... forward!
+Dialogue: 0,0:03:51.05,0:03:52.51,Dialogue,,0,0,0,,Shut up!
+Dialogue: 0,0:03:53.35,0:03:55.77,Dialogue,,0,0,0,,Ed!
+Dialogue: 0,0:04:03.15,0:04:04.48,Dialogue,,0,0,0,,Rose! Get back!
+Dialogue: 0,0:04:06.53,0:04:08.49,Dialogue,,0,0,0,,Let go of me! Let go of me!
+Dialogue: 0,0:04:08.57,0:04:09.74,Dialogue,,0,0,0,,Dammit!
+Dialogue: 0,0:04:12.66,0:04:16.16,Dialogue,,0,0,0,,I'm not going to allow you to use that arm for any more alchemy!
+Dialogue: 0,0:04:16.29,0:04:17.41,Dialogue,,0,0,0,,Shut up!
+Dialogue: 0,0:04:26.05,0:04:27.88,Dialogue,,0,0,0,,Stop that, Edward.
+Dialogue: 0,0:04:30.43,0:04:31.80,Dialogue,,0,0,0,,Come over here.
+Dialogue: 0,0:04:43.02,0:04:45.19,Dialogue,,0,0,0,,Ed!
+Dialogue: 0,0:04:44.07,0:04:45.19,Dialogue,,0,0,0,,Don't!
+Dialogue: 0,0:04:46.23,0:04:48.40,Dialogue,,0,0,0,,I've been wondering\Nabout you for a while now.
+Dialogue: 0,0:04:49.40,0:04:51.82,Dialogue,,0,0,0,,You look too much like her.
+Dialogue: 0,0:04:52.78,0:04:54.99,Dialogue,,0,0,0,,But I've been trying to keep myself from thinking about it...
+Dialogue: 0,0:04:55.54,0:04:56.95,Dialogue,,0,0,0,,Trying not to think about it...
+Dialogue: 0,0:04:58.04,0:05:00.17,Dialogue,,0,0,0,,On that day, did we...
+Dialogue: 0,0:05:02.58,0:05:04.09,Dialogue,,0,0,0,,create you?
+Dialogue: 0,0:05:07.84,0:05:09.13,Dialogue,,0,0,0,,Ed!
+Dialogue: 0,0:05:12.34,0:05:13.55,Dialogue,,0,0,0,,If so, then you...
+Dialogue: 0,0:05:15.22,0:05:16.47,Dialogue,,0,0,0,,are our sin!
+Dialogue: 0,0:05:29.57,0:05:31.91,Dialogue,,0,0,0,,A homunculus...
+Dialogue: 0,0:05:32.70,0:05:35.08,Dialogue,,0,0,0,,So you've infiltrated\Nthe military, have you?
+Dialogue: 0,0:05:35.70,0:05:36.83,Dialogue,,0,0,0,,For what purpose?
+Dialogue: 0,0:05:36.91,0:05:39.20,Dialogue,,0,0,0,,Don't you lay a hand on her!
+Dialogue: 0,0:05:54.89,0:05:56.14,Dialogue,,0,0,0,,Let's go, Rose.
+Dialogue: 0,0:05:59.85,0:06:00.89,Dialogue,,0,0,0,,You went too easy on them.
+Dialogue: 0,0:06:01.43,0:06:03.52,Dialogue,,0,0,0,,Homunculi have more than just one life.
+Dialogue: 0,0:06:04.23,0:06:06.40,Dialogue,,0,0,0,,It will take more than that to finish them off.
+Dialogue: 0,0:06:09.07,0:06:10.53,Dialogue,,0,0,0,,That was amazing, Rose!
+Dialogue: 0,0:06:11.49,0:06:13.20,Dialogue,,0,0,0,,Your voice is back.
+Dialogue: 0,0:06:15.41,0:06:16.41,Dialogue,,0,0,0,,You're right.
+Dialogue: 0,0:06:18.45,0:06:19.45,Dialogue,,0,0,0,,You're right.
+Dialogue: 0,0:06:20.33,0:06:24.17,Dialogue,,0,0,0,,Thanks to both you and your\Nbaby's voices, I was spared...
+Dialogue: 0,0:06:31.67,0:06:33.43,Dialogue,,0,0,0,,I can't reach Kimbly.
+Dialogue: 0,0:06:34.18,0:06:35.93,Dialogue,,0,0,0,,Nor your Chimeras.
+Dialogue: 0,0:06:36.18,0:06:38.60,Dialogue,,0,0,0,,They are on a special mission from the Führer.
+Dialogue: 0,0:06:41.22,0:06:45.15,Dialogue,,0,0,0,,Does it really take this long\Njust to find Fullmetal's corpse\Nand bring it back here?
+Dialogue: 0,0:06:45.65,0:06:50.90,Dialogue,,0,0,0,,Did he and Scar end up\Nkilling each other?\NOr is he just out having fun\Ndestroying things?
+Dialogue: 0,0:06:52.24,0:06:53.07,Dialogue,,0,0,0,,I can't stand this waiting!
+Dialogue: 0,0:06:58.28,0:07:01.20,Dialogue,,0,0,0,,So this is your command center,\Nis it, Archer?
+Dialogue: 0,0:07:02.33,0:07:03.75,Dialogue,,0,0,0,,You're out of line, Mustang!
+Dialogue: 0,0:07:04.50,0:07:05.33,Dialogue,,0,0,0,,Don't move!
+Dialogue: 0,0:07:07.00,0:07:07.83,Dialogue,,0,0,0,,Hi.
+Dialogue: 0,0:07:11.42,0:07:12.67,Dialogue,,0,0,0,,What was that?
+Dialogue: 0,0:07:13.34,0:07:14.92,Dialogue,,0,0,0,,How mean!
+Dialogue: 0,0:07:15.97,0:07:18.18,Dialogue,,0,0,0,,Lieutenant!\NRelax.
+Dialogue: 0,0:07:19.39,0:07:20.22,Dialogue,,0,0,0,,He's...
+Dialogue: 0,0:07:20.72,0:07:21.68,Dialogue,,0,0,0,,Yes, he is.
+Dialogue: 0,0:07:22.39,0:07:26.19,Dialogue,,0,0,0,,Shou Tucker,\Nthe Sewing Life Alchemist.
+Dialogue: 0,0:07:26.81,0:07:27.81,Dialogue,,0,0,0,,You, huh?
+Dialogue: 0,0:07:29.36,0:07:32.19,Dialogue,,0,0,0,,I guess you couldn't go along with my methods, then?
+Dialogue: 0,0:07:32.65,0:07:35.70,Dialogue,,0,0,0,,I don't remember ever\Nsupporting you to begin with.
+Dialogue: 0,0:07:36.32,0:07:39.41,Dialogue,,0,0,0,,I just had to dip myself in the sludge in order to get the corruption
+Dialogue: 0,0:07:39.57,0:07:41.91,Dialogue,,0,0,0,,that's rampant throughout the military\Nto rise to the surface.
+Dialogue: 0,0:07:44.12,0:07:47.37,Dialogue,,0,0,0,,There's no such thing as a military that\Ndoesn't have any corruption or evil within it.
+Dialogue: 0,0:07:51.34,0:07:52.42,Dialogue,,0,0,0,,Tucker!
+Dialogue: 0,0:08:04.81,0:08:06.68,Dialogue,,0,0,0,,What good does it do you,\Npulling a stupid stunt like this?!
+Dialogue: 0,0:08:07.64,0:08:10.69,Dialogue,,0,0,0,,As you were recognized\Nonce upon a time in Ishbal,
+Dialogue: 0,0:08:11.44,0:08:14.40,Dialogue,,0,0,0,,today, I will be the hero.
+Dialogue: 0,0:08:22.37,0:08:23.20,Dialogue,,0,0,0,,Hey, hey!
+Dialogue: 0,0:08:26.96,0:08:29.21,Dialogue,,0,0,0,,They're gonna die. They're gonna die.
+Dialogue: 0,0:08:29.42,0:08:31.63,Dialogue,,0,0,0,,They're all gonna die, huh?
+Dialogue: 0,0:08:33.42,0:08:35.46,Dialogue,,0,0,0,,I guess the depth of\Nthat person's thoughts
+Dialogue: 0,0:08:36.26,0:08:38.72,Dialogue,,0,0,0,,is lost on the likes of humans.
+Dialogue: 0,0:08:41.39,0:08:42.30,Dialogue,,0,0,0,,No matter.
+Dialogue: 0,0:08:43.05,0:08:45.35,Dialogue,,0,0,0,,As long as they get rid of Scar.
+Dialogue: 0,0:08:45.52,0:08:49.81,Dialogue,,0,0,0,,Then again, if they are to become ingredients for the Philosopher's Stone...
+Dialogue: 0,0:08:50.19,0:08:52.81,Dialogue,,0,0,0,,The Philosopher's Stone? They're gonna make it?
+Dialogue: 0,0:08:53.57,0:08:55.94,Dialogue,,0,0,0,,There's no way it will\Nfall into the hands of men.
+Dialogue: 0,0:08:56.69,0:08:59.28,Dialogue,,0,0,0,,In other words,\Nit won't even exist.
+Dialogue: 0,0:09:06.04,0:09:08.54,Dialogue,,0,0,0,,I'm sorry, but I can't\Nremember anything.
+Dialogue: 0,0:09:09.21,0:09:11.12,Dialogue,,0,0,0,,I wasn't expecting you to.
+Dialogue: 0,0:09:11.79,0:09:16.05,Dialogue,,0,0,0,,You are not the woman my brother was trying to bring back to life.
+Dialogue: 0,0:09:16.92,0:09:19.30,Dialogue,,0,0,0,,You just look like her, that's all.
+Dialogue: 0,0:09:20.05,0:09:23.26,Dialogue,,0,0,0,,Once I become human with the\NPhilosopher's Stone, it will be the same thing.
+Dialogue: 0,0:09:23.34,0:09:24.18,Dialogue,,0,0,0,,No, it won't.
+Dialogue: 0,0:09:25.35,0:09:26.81,Dialogue,,0,0,0,,What will be different about it?
+Dialogue: 0,0:09:27.52,0:09:29.73,Dialogue,,0,0,0,,That which is dead\Ndoes not come back to life.
+Dialogue: 0,0:09:34.73,0:09:36.11,Dialogue,,0,0,0,,What are you planning to do?
+Dialogue: 0,0:09:37.15,0:09:37.98,Dialogue,,0,0,0,,Just a minute!
+Dialogue: 0,0:09:38.36,0:09:39.40,Dialogue,,0,0,0,,Stay back!
+Dialogue: 0,0:09:40.61,0:09:42.11,Dialogue,,0,0,0,,Just be quiet and watch.
+Dialogue: 0,0:10:19.94,0:10:21.24,Dialogue,,0,0,0,,What have you done?
+Dialogue: 0,0:10:25.07,0:10:28.58,Dialogue,,0,0,0,,I inherited this arm\Nfrom my brother.
+Dialogue: 0,0:10:29.99,0:10:32.58,Dialogue,,0,0,0,,My brother turned himself into a transmutation circle
+Dialogue: 0,0:10:33.00,0:10:37.59,Dialogue,,0,0,0,,and sealed up the lives of the\NIshbalan people within himself.
+Dialogue: 0,0:10:39.17,0:10:42.97,Dialogue,,0,0,0,,In order to transmute the\NPhilosopher's Stone inside himself.
+Dialogue: 0,0:10:43.63,0:10:46.97,Dialogue,,0,0,0,,And then it was taken on by you.
+Dialogue: 0,0:10:48.10,0:10:48.93,Dialogue,,0,0,0,,Then...
+Dialogue: 0,0:10:50.18,0:10:51.68,Dialogue,,0,0,0,,Do not go near him.
+Dialogue: 0,0:10:52.64,0:10:57.61,Dialogue,,0,0,0,,There is nothing \Nyou can do now but watch.
+Dialogue: 0,0:10:58.06,0:10:59.36,Dialogue,,0,0,0,,Are you out of your mind?
+Dialogue: 0,0:10:59.69,0:11:02.03,Dialogue,,0,0,0,,You intend to turn this boy\Ninto the Philosopher's Stone?!
+Dialogue: 0,0:11:06.61,0:11:07.87,Dialogue,,0,0,0,,There isn't any time.
+Dialogue: 0,0:11:08.57,0:11:13.41,Dialogue,,0,0,0,,Unless I change his whole body into \Nsome other material, he will explode.
+Dialogue: 0,0:11:13.58,0:11:15.37,Dialogue,,0,0,0,,So you're making him\Nthe Philosopher's Stone?
+Dialogue: 0,0:11:16.29,0:11:18.67,Dialogue,,0,0,0,,Are you sure you want to hand\Na Philosopher's Stone over to them?
+Dialogue: 0,0:11:19.00,0:11:21.50,Dialogue,,0,0,0,,I don't even know\Nif I will succeed.
+Dialogue: 0,0:11:22.09,0:11:24.63,Dialogue,,0,0,0,,If it is to be, then it will be theirs.
+Dialogue: 0,0:11:25.01,0:11:26.43,Dialogue,,0,0,0,,They may do as they wish with it.
+Dialogue: 0,0:11:29.35,0:11:31.18,Dialogue,,0,0,0,,I can't have that.
+Dialogue: 0,0:11:31.76,0:11:34.43,Dialogue,,0,0,0,,I need you to create a genuine Philosopher's Stone.
+Dialogue: 0,0:11:35.10,0:11:40.27,Dialogue,,0,0,0,,Don't do anything so absurd \Nas to transmute that boy's body.
+Dialogue: 0,0:11:40.77,0:11:45.15,Dialogue,,0,0,0,,If you kill me here and now, will your wish be fulfilled?
+Dialogue: 0,0:11:57.25,0:11:58.62,Dialogue,,0,0,0,,Fine, then.
+Dialogue: 0,0:11:59.00,0:12:03.50,Dialogue,,0,0,0,,If he does create the genuine article, I'll just use it right there and then.
+Dialogue: 0,0:12:04.63,0:12:09.18,Dialogue,,0,0,0,,It's no concern of mine what happens to the younger brother, after all.
+Dialogue: 0,0:12:11.72,0:12:16.85,Dialogue,,0,0,0,,Brother... stop... Scar-san...
+Dialogue: 0,0:12:20.81,0:12:23.27,Dialogue,,0,0,0,,At this rate, you'll be able to reach a town farther away.
+Dialogue: 0,0:12:23.57,0:12:24.61,Dialogue,,0,0,0,,You're going now?
+Dialogue: 0,0:12:24.94,0:12:26.11,Dialogue,,0,0,0,,You'll have to manage somehow.
+Dialogue: 0,0:12:26.86,0:12:30.28,Dialogue,,0,0,0,,I'm going to go catch Scar.\NIt's Scar that the military is after.
+Dialogue: 0,0:12:30.82,0:12:32.78,Dialogue,,0,0,0,,You're going to turn Scar over to the military?
+Dialogue: 0,0:12:34.33,0:12:38.00,Dialogue,,0,0,0,,That's probably the only way the military will let the people of Liore off the hook.
+Dialogue: 0,0:12:38.62,0:12:41.25,Dialogue,,0,0,0,,No, Ed, you can't...
+Dialogue: 0,0:12:41.75,0:12:43.00,Dialogue,,0,0,0,,You know why, don't you?
+Dialogue: 0,0:12:44.55,0:12:46.51,Dialogue,,0,0,0,,Equivalent... exchange.
+Dialogue: 0,0:12:49.68,0:12:52.55,Dialogue,,0,0,0,,Maybe there's something I can do.
+Dialogue: 0,0:12:52.76,0:12:56.10,Dialogue,,0,0,0,,I don't know.\NMaybe if I tell the Colonel
+Dialogue: 0,0:12:56.18,0:12:59.52,Dialogue,,0,0,0,,about the Führer's secretary from earlier, and then...
+Dialogue: 0,0:12:59.64,0:13:02.23,Dialogue,,0,0,0,,whatever, make some\Nkind of deal with him.
+Dialogue: 0,0:13:09.15,0:13:11.36,Dialogue,,0,0,0,,Still, don't count on it, okay?
+Dialogue: 0,0:13:12.32,0:13:16.41,Dialogue,,0,0,0,,In any case, get out of here.\NAs far as you can get,\Nbefore the military realizes.
+Dialogue: 0,0:13:16.62,0:13:17.50,Dialogue,,0,0,0,,Right.
+Dialogue: 0,0:13:17.58,0:13:19.96,Dialogue,,0,0,0,,That was the plan\Nfrom the start.
+Dialogue: 0,0:13:20.37,0:13:24.00,Dialogue,,0,0,0,,We'll split up into small groups\Nand slip our way into\Nother cities someplace.
+Dialogue: 0,0:13:24.34,0:13:26.25,Dialogue,,0,0,0,,I'm counting on you, Lyra.
+Dialogue: 0,0:13:26.75,0:13:27.59,Dialogue,,0,0,0,,Rose.
+Dialogue: 0,0:13:28.26,0:13:29.76,Dialogue,,0,0,0,,See you later, Ed.
+Dialogue: 0,0:13:30.34,0:13:31.18,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:13:32.93,0:13:33.76,Dialogue,,0,0,0,,No,
+Dialogue: 0,0:13:34.72,0:13:36.81,Dialogue,,0,0,0,,this is good-bye, Rose.
+Dialogue: 0,0:13:46.27,0:13:47.73,Dialogue,,0,0,0,,There's no sign of anyone!
+Dialogue: 0,0:13:49.44,0:13:51.27,Dialogue,,0,0,0,,Could they be planning a sneak attack?
+Dialogue: 0,0:13:50.12,0:13:51.27,Dialogue,,0,0,0,,What's that?
+Dialogue: 0,0:13:51.20,0:13:52.07,Dialogue,,0,0,0,,There's someone there!
+Dialogue: 0,0:13:52.16,0:13:53.27,Dialogue,,0,0,0,,Colonel!
+Dialogue: 0,0:13:52.16,0:13:53.27,Dialogue,,0,0,0,,What's that?
+Dialogue: 0,0:14:00.37,0:14:03.46,Dialogue,,0,0,0,,Is that...\NThat's a State Alchemist!
+Dialogue: 0,0:14:07.04,0:14:09.01,Dialogue,,0,0,0,,It's Scar! Scar is there!
+Dialogue: 0,0:14:09.46,0:14:10.38,Dialogue,,0,0,0,,That bastard!
+Dialogue: 0,0:14:10.46,0:14:14.22,Dialogue,,0,0,0,,He murdered the\NState Alchemist who went in to talk to him!
+Dialogue: 0,0:14:15.05,0:14:17.26,Dialogue,,0,0,0,,Have the tank division\Nsurround the city!
+Dialogue: 0,0:14:17.35,0:14:18.89,Dialogue,,0,0,0,,Infantrymen, capture Scar!
+Dialogue: 0,0:14:18.97,0:14:19.81,Dialogue,,0,0,0,,Forward!
+Dialogue: 0,0:14:43.29,0:14:45.21,Dialogue,,0,0,0,,The military was not\Nsupposed to move in.
+Dialogue: 0,0:14:45.79,0:14:48.04,Dialogue,,0,0,0,,In that case,\Nit must be the will of God.
+Dialogue: 0,0:14:52.22,0:14:53.42,Dialogue,,0,0,0,,There he is!
+Dialogue: 0,0:15:14.57,0:15:15.74,Dialogue,,0,0,0,,You fool.
+Dialogue: 0,0:15:15.82,0:15:17.87,Dialogue,,0,0,0,,I can't die that easily.
+Dialogue: 0,0:15:19.08,0:15:23.04,Dialogue,,0,0,0,,I knew that...\Nbut my body moved on its own...
+Dialogue: 0,0:15:24.62,0:15:27.46,Dialogue,,0,0,0,,You were in love...
+Dialogue: 0,0:15:27.63,0:15:28.71,Dialogue,,0,0,0,,with me?
+Dialogue: 0,0:15:29.54,0:15:31.17,Dialogue,,0,0,0,,Not with you...
+Dialogue: 0,0:15:35.17,0:15:38.43,Dialogue,,0,0,0,,I hated my brother.
+Dialogue: 0,0:15:39.72,0:15:44.48,Dialogue,,0,0,0,,He turned his back on the teachings of Ishbala and studied alchemy.
+Dialogue: 0,0:15:45.39,0:15:50.48,Dialogue,,0,0,0,,Despite knowing that he gave me his arm so that I would survive,
+Dialogue: 0,0:15:51.32,0:15:54.15,Dialogue,,0,0,0,,I still couldn't help but hate him.
+Dialogue: 0,0:15:55.70,0:16:00.83,Dialogue,,0,0,0,,The Elric brothers...\Neach live for the other.
+Dialogue: 0,0:16:02.37,0:16:03.37,Dialogue,,0,0,0,,Yes.
+Dialogue: 0,0:16:03.74,0:16:08.50,Dialogue,,0,0,0,,The older loves the younger,\Nand the younger loves the older.
+Dialogue: 0,0:16:11.54,0:16:13.30,Dialogue,,0,0,0,,I also wanted to tell...
+Dialogue: 0,0:16:14.96,0:16:18.51,Dialogue,,0,0,0,,my older brother...\Nthat I loved him.
+Dialogue: 0,0:16:21.22,0:16:24.52,Dialogue,,0,0,0,,Which is why you're doing for that younger brother
+Dialogue: 0,0:16:24.89,0:16:26.98,Dialogue,,0,0,0,,what your older brother\Ndid for you, right?
+Dialogue: 0,0:16:28.98,0:16:30.52,Dialogue,,0,0,0,,Now, get going.
+Dialogue: 0,0:16:31.73,0:16:33.86,Dialogue,,0,0,0,,The despicable act\Nis about to begin.
+Dialogue: 0,0:16:35.74,0:16:38.49,Dialogue,,0,0,0,,I don't even know\Nyour real name...
+Dialogue: 0,0:16:40.07,0:16:43.33,Dialogue,,0,0,0,,Our names are something\Nthat are given to us by God.
+Dialogue: 0,0:16:43.83,0:16:48.71,Dialogue,,0,0,0,,However, as someone who\Nhas turned his back on God,\NI no longer have a name.
+Dialogue: 0,0:16:53.96,0:16:55.09,Dialogue,,0,0,0,,There he is! It's Scar!
+Dialogue: 0,0:16:56.24,0:16:57.92,Dialogue,,0,0,0,,After him!
+Dialogue: 0,0:16:56.88,0:16:57.92,Dialogue,,0,0,0,,Yes, sir!
+Dialogue: 0,0:17:02.01,0:17:04.43,Dialogue,,0,0,0,,Farewell, Scar.
+Dialogue: 0,0:17:07.56,0:17:08.52,Dialogue,,0,0,0,,Stop!
+Dialogue: 0,0:17:09.19,0:17:10.81,Dialogue,,0,0,0,,Stop!
+Dialogue: 0,0:17:12.56,0:17:14.15,Dialogue,,0,0,0,,You're safe?
+Dialogue: 0,0:17:15.11,0:17:17.03,Dialogue,,0,0,0,,The citizens of Liore surrender!
+Dialogue: 0,0:17:17.11,0:17:18.57,Dialogue,,0,0,0,,Scar is the only one left!
+Dialogue: 0,0:17:18.69,0:17:20.82,Dialogue,,0,0,0,,Surrender? I don't believe it.
+Dialogue: 0,0:17:21.53,0:17:23.99,Dialogue,,0,0,0,,They killed the Crimson Alchemist.
+Dialogue: 0,0:17:24.20,0:17:25.83,Dialogue,,0,0,0,,Is that what your just cause is?!
+Dialogue: 0,0:17:26.16,0:17:28.33,Dialogue,,0,0,0,,The war has begun.
+Dialogue: 0,0:17:28.75,0:17:30.71,Dialogue,,0,0,0,,You can go ahead and die yourself if you want,
+Dialogue: 0,0:17:30.79,0:17:33.92,Dialogue,,0,0,0,,but don't send those clueless soldiers in there in the name of your worthless lust for glor—
+Dialogue: 0,0:17:34.00,0:17:35.46,Dialogue,,0,0,0,,We've spotted someone who appears to be Scar!
+Dialogue: 0,0:17:35.54,0:17:36.67,Dialogue,,0,0,0,,We are engaging him now!
+Dialogue: 0,0:17:36.75,0:17:37.59,Dialogue,,0,0,0,,All right!
+Dialogue: 0,0:17:38.96,0:17:39.80,Dialogue,,0,0,0,,Stop!
+Dialogue: 0,0:17:40.30,0:17:42.59,Dialogue,,0,0,0,,Hey, wait! Stop!
+Dialogue: 0,0:17:44.22,0:17:45.60,Dialogue,,0,0,0,,Brother...
+Dialogue: 0,0:17:49.39,0:17:53.40,Dialogue,,0,0,0,,"Those who give pain cannot sleep."
+Dialogue: 0,0:17:54.27,0:17:58.03,Dialogue,,0,0,0,,However, I need not worry about that any longer.
+Dialogue: 0,0:17:58.53,0:18:01.15,Dialogue,,0,0,0,,I shall never seek sleep again.
+Dialogue: 0,0:18:13.75,0:18:15.46,Dialogue,,0,0,0,,Brother...
+Dialogue: 0,0:18:42.99,0:18:44.49,Dialogue,,0,0,0,,Wh-What is that?
+Dialogue: 0,0:18:47.28,0:18:48.74,Dialogue,,0,0,0,,What is that?!
+Dialogue: 0,0:18:49.33,0:18:50.37,Dialogue,,0,0,0,,Colonel!
+Dialogue: 0,0:18:51.04,0:18:53.71,Dialogue,,0,0,0,,{\move(360,508,360,524,2670,2870)}You stupid bastards!
+Dialogue: 0,0:19:12.39,0:19:13.56,Dialogue,,0,0,0,,Are you all right?
+Dialogue: 0,0:19:13.77,0:19:14.77,Dialogue,,0,0,0,,More or less.
+Dialogue: 0,0:19:15.27,0:19:16.65,Dialogue,,0,0,0,,Did Colonel Archer\Ntake the division?
+Dialogue: 0,0:19:17.10,0:19:18.27,Dialogue,,0,0,0,,Y-Yes...
+Dialogue: 0,0:19:18.86,0:19:20.94,Dialogue,,0,0,0,,and there's something strange about that...
+Dialogue: 0,0:19:21.19,0:19:23.65,Dialogue,,0,0,0,,The town of Liore\Nlit up a deep red.
+Dialogue: 0,0:19:23.82,0:19:25.65,Dialogue,,0,0,0,,And we can't contact the division.
+Dialogue: 0,0:19:35.50,0:19:37.92,Dialogue,,0,0,0,,What was that?
+Dialogue: 0,0:19:38.00,0:19:38.83,Dialogue,,0,0,0,,What just happened here?
+Dialogue: 0,0:19:38.92,0:19:41.63,Dialogue,,0,0,0,,Hurry and carry away\Nthose who are still alive.
+Dialogue: 0,0:19:48.05,0:19:49.14,Dialogue,,0,0,0,,Scar!
+Dialogue: 0,0:20:00.82,0:20:01.69,Dialogue,,0,0,0,,Al...
+Dialogue: 0,0:20:04.61,0:20:05.74,Dialogue,,0,0,0,,Brother?
+Dialogue: 0,0:20:07.11,0:20:10.41,Dialogue,,0,0,0,,Brother, no! Stay back! I'm going to explode!
+Dialogue: 0,0:20:13.58,0:20:14.50,Dialogue,,0,0,0,,Huh?
+Dialogue: 0,0:20:15.00,0:20:16.00,Dialogue,,0,0,0,,Al...
+Dialogue: 0,0:20:16.58,0:20:18.42,Dialogue,,0,0,0,,What are you doing here?
+Dialogue: 0,0:20:20.13,0:20:20.96,Dialogue,,0,0,0,,Huh?
+Dialogue: 0,0:20:22.21,0:20:24.13,Dialogue,,0,0,0,,I'm back to normal?
+Dialogue: 0,0:20:24.96,0:20:28.43,Dialogue,,0,0,0,,Brother, I'm back!\NMy body is back to normal!
+Dialogue: 0,0:20:28.80,0:20:29.64,Dialogue,,0,0,0,,Huh?
+Dialogue: 0,0:20:29.72,0:20:32.01,Dialogue,,0,0,0,,I don't know\Nwhat's going on here.
+Dialogue: 0,0:20:32.22,0:20:33.31,Dialogue,,0,0,0,,Oh, right.
+Dialogue: 0,0:20:33.68,0:20:36.48,Dialogue,,0,0,0,,I was turned into\Na bomb by Kimbly.
+Dialogue: 0,0:20:36.60,0:20:41.52,Dialogue,,0,0,0,,But Scar-san said that if my armor \Nwere transmuted into something else,
+Dialogue: 0,0:20:37.73,0:20:42.65,Dialogue,,0,0,0,,I would be spared, so he...
+Dialogue: 0,0:20:44.11,0:20:45.78,Dialogue,,0,0,0,,Al, open up your belly.
+Dialogue: 0,0:20:46.82,0:20:47.82,Dialogue,,0,0,0,,Just open it!
+Dialogue: 0,0:20:55.49,0:20:58.25,Dialogue,,0,0,0,,Brother, what is this?
+Dialogue: 0,0:20:59.71,0:21:00.58,Dialogue,,0,0,0,,Al...
+Dialogue: 0,0:21:00.83,0:21:04.21,Dialogue,,0,0,0,,Moments ago, a transmutation circle\Nwas activated in the city.
+Dialogue: 0,0:21:05.42,0:21:08.47,Dialogue,,0,0,0,,Scar has transmuted\Na Philosopher's Stone.
+Dialogue: 0,0:21:09.17,0:21:11.47,Dialogue,,0,0,0,,Not inside himself...
+Dialogue: 0,0:21:12.64,0:21:15.06,Dialogue,,0,0,0,,Yes, that's right, boy.
+Dialogue: 0,0:21:15.60,0:21:16.56,Dialogue,,0,0,0,,Little Brother,
+Dialogue: 0,0:21:17.22,0:21:20.19,Dialogue,,0,0,0,,you have been transmuted\Ninto the Philosopher's Stone.
+Dialogue: 0,0:21:21.19,0:21:23.81,Dialogue,,0,0,0,,I'm... the Philosopher's Stone?
+Dialogue: 0,0:21:23.98,0:21:24.82,Dialogue,,0,0,0,,What's going on here?!
+Dialogue: 0,0:21:25.40,0:21:26.90,Dialogue,,0,0,0,,Why would he do such a thing?!
+Dialogue: 0,0:21:28.28,0:21:29.61,Dialogue,,0,0,0,,Go on.
+Dialogue: 0,0:21:30.24,0:21:33.95,Dialogue,,0,0,0,,Soon, they will be after you, and then everything will be set in motion.
+Dialogue: 0,0:21:34.20,0:21:37.45,Dialogue,,0,0,0,,Didn't you want the\NPhilosopher's Stone as well?
+Dialogue: 0,0:21:58.43,0:22:01.56,Dialogue,,0,0,0,,Brother...\NI'm...
+Dialogue: 0,0:22:02.65,0:22:03.73,Dialogue,,0,0,0,,Al...
+Dialogue: 0,0:23:38.82,0:23:40.58,Dialogue,,0,0,0,,{\i1}Fullmetal Alchemist{\i0}...
+Dialogue: 0,0:23:40.66,0:23:44.54,Dialogue,,0,0,0,,Episode 43: "The Stray Dog"
+Dialogue: 0,0:23:45.71,0:23:47.75,Dialogue,,0,0,0,,I'm sorry, Colonel.
+Dialogue: 0,0:23:48.29,0:23:50.88,Dialogue,,0,0,0,,But we will come back.

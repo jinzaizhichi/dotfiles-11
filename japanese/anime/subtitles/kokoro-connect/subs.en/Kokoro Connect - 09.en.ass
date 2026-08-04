@@ -1,0 +1,323 @@
+[Script Info]
+Title: Kokoro Connect - 09
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1280
+PlayResY: 720
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Dialogue,Noto Sans,46,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,40,40,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:06.15,0:00:07.52,Dialogue,,0,0,0,,Taichi!
+Dialogue: 0,0:00:10.65,0:00:14.28,Dialogue,,0,0,0,,Hey.\NYou didn't need to run all the way to school, you know.
+Dialogue: 0,0:00:15.45,0:00:20.91,Dialogue,,0,0,0,,But... the text you sent... said that you wanted to talk.
+Dialogue: 0,0:00:24.75,0:00:27.96,Dialogue,,0,0,0,,Nagase...
+Dialogue: 0,0:01:58.76,0:02:04.39,Dialogue,,0,0,0,,After a lot of thinking, I've come to realize that I'm a really self-centered and stubborn person.
+Dialogue: 0,0:02:04.97,0:02:08.48,Dialogue,,0,0,0,,When I think something has to be a certain way, I won't listen to reason
+Dialogue: 0,0:02:08.60,0:02:10.52,Dialogue,,0,0,0,,and always try to get my way.
+Dialogue: 0,0:02:10.65,0:02:17.24,Dialogue,,0,0,0,,{\q3}And when I think I'm right, I try to force everyone to believe that I am.
+Dialogue: 0,0:02:17.36,0:02:21.16,Dialogue,,0,0,0,,That's why I ended up hurting Inaba, fighting with Aoki...
+Dialogue: 0,0:02:21.28,0:02:23.28,Dialogue,,0,0,0,,and hurting you, too.
+Dialogue: 0,0:02:23.41,0:02:25.91,Dialogue,,0,0,0,,I'm just a selfish person.
+Dialogue: 0,0:02:26.04,0:02:30.79,Dialogue,,0,0,0,,{\q3}That's why I tried to put some distance between us. I didn't want to hurt anyone.
+Dialogue: 0,0:02:32.25,0:02:37.21,Dialogue,,0,0,0,,But after distancing myself from you all, \NI realized that I really want to be with everyone.
+Dialogue: 0,0:02:37.34,0:02:42.60,Dialogue,,0,0,0,,I realized that I'd rather be with you and hurt you than stay apart and not hurt you.
+Dialogue: 0,0:02:43.26,0:02:48.64,Dialogue,,0,0,0,,So if you don't mind,\Ncan I stay by your side?
+Dialogue: 0,0:02:53.52,0:02:55.15,Dialogue,,0,0,0,,That's so mean, Taichi!
+Dialogue: 0,0:02:55.27,0:02:56.57,Dialogue,,0,0,0,,Um... Uh...
+Dialogue: 0,0:02:56.69,0:03:00.53,Dialogue,,0,0,0,,I tried so hard to keep us together.
+Dialogue: 0,0:03:00.99,0:03:06.24,Dialogue,,0,0,0,,But if we're only going to get hurt, we may need to be apart, after all.
+Dialogue: 0,0:03:06.37,0:03:09.16,Dialogue,,0,0,0,,I thought so, too.
+Dialogue: 0,0:03:09.50,0:03:12.00,Dialogue,,0,0,0,,But now you're saying that we {\i1}need{\i0} to hurt each other?
+Dialogue: 0,0:03:12.08,0:03:13.83,Dialogue,,0,0,0,,Will that really work?
+Dialogue: 0,0:03:14.84,0:03:17.76,Dialogue,,0,0,0,,Well, I guess it can.
+Dialogue: 0,0:03:24.64,0:03:30.94,Dialogue,,0,0,0,,I never thought I'd ever hear {\i1}you{\i0} say that we'd need to hurt each other.
+Dialogue: 0,0:03:31.06,0:03:33.81,Dialogue,,0,0,0,,Well, I did give it a lot of thought.
+Dialogue: 0,0:03:33.94,0:03:38.40,Dialogue,,0,0,0,,{\q3}Are you going to tell everyone else something similar to what you just told me
+Dialogue: 0,0:03:38.53,0:03:40.95,Dialogue,,0,0,0,,and get us all back together?
+Dialogue: 0,0:03:41.07,0:03:42.74,Dialogue,,0,0,0,,That's the plan.
+Dialogue: 0,0:03:42.86,0:03:45.57,Dialogue,,0,0,0,,It just doesn't feel right.
+Dialogue: 0,0:03:45.70,0:03:50.12,Dialogue,,0,0,0,,I try so hard, then you swoop in and take all the glory.
+Dialogue: 0,0:03:50.25,0:03:51.58,Dialogue,,0,0,0,,Well...
+Dialogue: 0,0:03:51.71,0:03:54.46,Dialogue,,0,0,0,,I agree with you.
+Dialogue: 0,0:03:54.58,0:03:55.46,Dialogue,,0,0,0,,You're selfish.
+Dialogue: 0,0:03:56.13,0:04:00.13,Dialogue,,0,0,0,,But you know, I think you're doing the right thing,
+Dialogue: 0,0:04:00.26,0:04:02.84,Dialogue,,0,0,0,,even if there are better ways for you to go about it.
+Dialogue: 0,0:04:02.97,0:04:05.76,Dialogue,,0,0,0,,My sister says the same thing.
+Dialogue: 0,0:04:06.22,0:04:09.22,Dialogue,,0,0,0,,So I'm sorry I pushed you—
+Dialogue: 0,0:04:09.35,0:04:12.48,Dialogue,,0,0,0,,Didn't you just say that sometimes we'd need to hurt each other?
+Dialogue: 0,0:04:12.60,0:04:14.60,Dialogue,,0,0,0,,This is a different kind of "hurt," though.
+Dialogue: 0,0:04:14.73,0:04:17.44,Dialogue,,0,0,0,,It's okay.\NI already told you that.
+Dialogue: 0,0:04:19.44,0:04:21.86,Dialogue,,0,0,0,,I'm going to talk to Inaban first.
+Dialogue: 0,0:04:21.99,0:04:24.15,Dialogue,,0,0,0,,I'll see if I can get a hold of Aoki.
+Dialogue: 0,0:04:24.28,0:04:26.70,Dialogue,,0,0,0,,Okay! Let's do this!\NYeah!
+Dialogue: 0,0:04:34.21,0:04:36.21,Dialogue,,0,0,0,,It feels like we haven't talked in ages.
+Dialogue: 0,0:04:37.00,0:04:38.34,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:04:38.46,0:04:40.13,Dialogue,,0,0,0,,Listen, Aoki.
+Dialogue: 0,0:04:41.13,0:04:44.38,Dialogue,,0,0,0,,I said something really mean the other day.
+Dialogue: 0,0:04:44.51,0:04:46.97,Dialogue,,0,0,0,,I was cocky and full of myself.
+Dialogue: 0,0:04:47.09,0:04:49.68,Dialogue,,0,0,0,,I thought I could do anything.
+Dialogue: 0,0:04:49.81,0:04:52.27,Dialogue,,0,0,0,,But I was wrong.
+Dialogue: 0,0:04:52.89,0:04:56.77,Dialogue,,0,0,0,,I can't undo what I did, but I can at least apologize.\NI'm really sorry.
+Dialogue: 0,0:04:59.94,0:05:00.82,Dialogue,,0,0,0,,Ao—
+Dialogue: 0,0:05:00.94,0:05:02.65,Dialogue,,0,0,0,,Dammit, what the hell?!
+Dialogue: 0,0:05:02.78,0:05:04.90,Dialogue,,0,0,0,,I knew you'd beat me to it!
+Dialogue: 0,0:05:05.03,0:05:08.82,Dialogue,,0,0,0,,You see, I really wanted to apologize, too.
+Dialogue: 0,0:05:10.16,0:05:14.41,Dialogue,,0,0,0,,But I knew you beat me to it as soon as you called.
+Dialogue: 0,0:05:14.54,0:05:18.63,Dialogue,,0,0,0,,Iori-chan telling me to stop being jealous hit me pretty hard.
+Dialogue: 0,0:05:18.75,0:05:20.09,Dialogue,,0,0,0,,Like a knife through the chest.
+Dialogue: 0,0:05:20.21,0:05:22.59,Dialogue,,0,0,0,,But it didn't hurt because it was mean.
+Dialogue: 0,0:05:23.05,0:05:25.30,Dialogue,,0,0,0,,It hurt because it was true.
+Dialogue: 0,0:05:25.42,0:05:31.10,Dialogue,,0,0,0,,I was jealous of you because you saved Yui and everyone else, while I couldn't do anything.
+Dialogue: 0,0:05:31.51,0:05:34.18,Dialogue,,0,0,0,,I was in denial and just couldn't admit it.
+Dialogue: 0,0:05:34.31,0:05:39.40,Dialogue,,0,0,0,,It was nothing more than luck.
+Dialogue: 0,0:05:34.31,0:05:42.23,Dialogue,,0,0,0,,And when all is said and done, I saved them for my own selfish reasons.
+Dialogue: 0,0:05:42.36,0:05:45.74,Dialogue,,0,0,0,,Taichi,\NI'm really sorry, too!
+Dialogue: 0,0:05:45.86,0:05:47.11,Dialogue,,0,0,0,,Aoki...
+Dialogue: 0,0:05:50.57,0:05:52.41,Dialogue,,0,0,0,,Can I come in now?
+Dialogue: 0,0:05:52.83,0:05:55.45,Dialogue,,0,0,0,,I see. So it didn't work.
+Dialogue: 0,0:05:55.58,0:05:58.17,Dialogue,,0,0,0,,She went home before I could talk to her.
+Dialogue: 0,0:05:58.29,0:06:02.34,Dialogue,,0,0,0,,But I think I'll go to her house later today.
+Dialogue: 0,0:06:02.46,0:06:06.26,Dialogue,,0,0,0,,It'd probably be a bad idea for all of us to go.
+Dialogue: 0,0:06:11.30,0:06:14.26,Dialogue,,0,0,0,,Think Inaba-chan let Iori-chan in?
+Dialogue: 0,0:06:14.39,0:06:17.31,Dialogue,,0,0,0,,She said she'd call if things went well.
+Dialogue: 0,0:06:17.43,0:06:19.23,Dialogue,,0,0,0,,She hasn't called yet, so...
+Dialogue: 0,0:06:20.77,0:06:21.90,Dialogue,,0,0,0,,Taichi.
+Dialogue: 0,0:06:24.11,0:06:25.48,Dialogue,,0,0,0,,Let's sit down for a bit.
+Dialogue: 0,0:06:25.61,0:06:29.70,Dialogue,,0,0,0,,Talking man-to-man in a place like this is like youth at full throttle!
+Dialogue: 0,0:06:29.82,0:06:31.70,Dialogue,,0,0,0,,Let's youth it up!
+Dialogue: 0,0:06:32.41,0:06:38.37,Dialogue,,0,0,0,,{\q3}It might be impossible to do stuff for others without thinking about what's in it for ourselves.
+Dialogue: 0,0:06:38.50,0:06:43.04,Dialogue,,0,0,0,,Yeah. Maybe it's all about yourself in the end.{I don't really know what to think about Ayn Rand. Personally, I'm not a fan.}
+Dialogue: 0,0:06:43.59,0:06:44.67,Dialogue,,0,0,0,,But...
+Dialogue: 0,0:06:44.80,0:06:47.01,Dialogue,,0,0,0,,You want to save Yui, right?
+Dialogue: 0,0:06:48.63,0:06:51.43,Dialogue,,0,0,0,,Just us wanting her to come out isn't enough.
+Dialogue: 0,0:06:51.84,0:06:54.01,Dialogue,,0,0,0,,She needs to want to come out, too.
+Dialogue: 0,0:06:54.14,0:06:57.77,Dialogue,,0,0,0,,But we don't know when this whole thing will end.
+Dialogue: 0,0:06:57.89,0:07:00.27,Dialogue,,0,0,0,,We can't let her stay in her room forever.
+Dialogue: 0,0:07:00.39,0:07:07.40,Dialogue,,0,0,0,,Maybe we could stay near Kiriyama and stop her if her desires were to get unleashed.
+Dialogue: 0,0:07:08.15,0:07:11.28,Dialogue,,0,0,0,,Do you really think we could stop her?
+Dialogue: 0,0:07:11.41,0:07:14.16,Dialogue,,0,0,0,,If we're really careful and don't back down...
+Dialogue: 0,0:07:14.28,0:07:17.16,Dialogue,,0,0,0,,That's like something our grandparents would say...
+Dialogue: 0,0:07:17.49,0:07:21.96,Dialogue,,0,0,0,,How'd you think of doing that to help her get over her trauma, anyway?
+Dialogue: 0,0:07:22.08,0:07:25.46,Dialogue,,0,0,0,,The idea came from something you said.
+Dialogue: 0,0:07:25.59,0:07:30.88,Dialogue,,0,0,0,,There were some things we could only do because our personalities were switching.
+Dialogue: 0,0:07:31.34,0:07:33.76,Dialogue,,0,0,0,,That's how I got the idea.
+Dialogue: 0,0:07:33.89,0:07:38.06,Dialogue,,0,0,0,,So maybe there's something we can only do because our desires are being unleashed.
+Dialogue: 0,0:07:45.56,0:07:47.65,Dialogue,,0,0,0,,I think I got it.
+Dialogue: 0,0:07:47.77,0:07:49.03,Dialogue,,0,0,0,,Seriously?
+Dialogue: 0,0:07:51.36,0:07:55.49,Dialogue,,0,0,0,,Yui! Yui!\NYour friends are here to see you.
+Dialogue: 0,0:07:55.62,0:07:58.04,Dialogue,,0,0,0,,Open the door, Yui.
+Dialogue: 0,0:07:58.49,0:08:00.54,Dialogue,,0,0,0,,Don't worry, Mother!
+Dialogue: 0,0:08:00.66,0:08:03.21,Dialogue,,0,0,0,,We can handle things from here!
+Dialogue: 0,0:08:03.33,0:08:06.84,Dialogue,,0,0,0,,I'm so sorry.\NYou go through so much trouble for my daughter.
+Dialogue: 0,0:08:06.96,0:08:08.75,Dialogue,,0,0,0,,Not at all! It's {\i1}because{\i0} it's for your daughter!
+Dialogue: 0,0:08:11.80,0:08:14.34,Dialogue,,0,0,0,,Yui, it's me and Taichi.
+Dialogue: 0,0:08:16.35,0:08:18.76,Dialogue,,0,0,0,,We need to talk. Could you open the door?
+Dialogue: 0,0:08:19.77,0:08:21.81,Dialogue,,0,0,0,,It's open.
+Dialogue: 0,0:08:26.94,0:08:29.32,Dialogue,,0,0,0,,It's been... a while.
+Dialogue: 0,0:08:31.90,0:08:36.24,Dialogue,,0,0,0,,Yui, let's go outside.\NLet's go to school. You'll be fine.
+Dialogue: 0,0:08:36.37,0:08:38.41,Dialogue,,0,0,0,,How many times do I have to tell you?
+Dialogue: 0,0:08:38.53,0:08:41.54,Dialogue,,0,0,0,,I don't know when or if I'll hit someone.
+Dialogue: 0,0:08:41.66,0:08:43.83,Dialogue,,0,0,0,,I can't go outside.
+Dialogue: 0,0:08:43.96,0:08:48.96,Dialogue,,0,0,0,,But if you keep shutting yourself in like this, it could go on forever.
+Dialogue: 0,0:08:52.26,0:08:56.05,Dialogue,,0,0,0,,You'll be fine! I know it!\NYou'll be able to hold back if you—
+Dialogue: 0,0:08:56.18,0:08:58.60,Dialogue,,0,0,0,,Don't lie to me!
+Dialogue: 0,0:08:56.18,0:09:01.47,Dialogue,,0,0,0,,Even if I don't want to, if my desires get unleashed, I'll do it anyway!
+Dialogue: 0,0:09:01.60,0:09:04.43,Dialogue,,0,0,0,,I know you won't!\NEven if your desires get unleashed,
+Dialogue: 0,0:09:04.56,0:09:09.69,Dialogue,,0,0,0,,{\q3}if you really, honestly, absolutely don't want to do it, you won't do it!
+Dialogue: 0,0:09:09.82,0:09:13.28,Dialogue,,0,0,0,,None of that matters when your desires get unleashed.
+Dialogue: 0,0:09:13.40,0:09:15.65,Dialogue,,0,0,0,,Whether you want to stop or not won't matter.
+Dialogue: 0,0:09:15.78,0:09:17.32,Dialogue,,0,0,0,,That's how it works, right?
+Dialogue: 0,0:09:17.45,0:09:19.95,Dialogue,,0,0,0,,That's how it works, but that's not how it works!
+Dialogue: 0,0:09:20.08,0:09:21.08,Dialogue,,0,0,0,,What?
+Dialogue: 0,0:09:21.20,0:09:24.33,Dialogue,,0,0,0,,If you really don't want to do it, you won't do it!
+Dialogue: 0,0:09:24.45,0:09:30.92,Dialogue,,0,0,0,,{\q3}If I can prove that to you, you'll go outside, come to school, and return to the club room, right?
+Dialogue: 0,0:09:31.04,0:09:34.51,Dialogue,,0,0,0,,Well, if you can prove that I won't do it, then...
+Dialogue: 0,0:09:34.63,0:09:36.72,Dialogue,,0,0,0,,All right! Perfect!
+Dialogue: 0,0:09:37.47,0:09:40.72,Dialogue,,0,0,0,,Not to brag, but I love you, Yui.
+Dialogue: 0,0:09:40.85,0:09:44.14,Dialogue,,0,0,0,,I really love you!\NI'll love you forever!\NWith every fiber of my being!
+Dialogue: 0,0:09:44.27,0:09:47.52,Dialogue,,0,0,0,,And not to brag, but I've got a dirty mind.
+Dialogue: 0,0:09:47.64,0:09:51.90,Dialogue,,0,0,0,,It's {\i1}really{\i0} dirty.\NInsanely dirty.\NOne {\i1}hell{\i0} of a dirty mind!
+Dialogue: 0,0:09:52.02,0:09:53.48,Dialogue,,0,0,0,,What's your point?
+Dialogue: 0,0:09:53.61,0:09:56.74,Dialogue,,0,0,0,,And right now, our desires are getting unleashed.
+Dialogue: 0,0:09:56.86,0:10:00.87,Dialogue,,0,0,0,,In other words, there's no telling when I'm going to assault you.
+Dialogue: 0,0:10:00.99,0:10:04.95,Dialogue,,0,0,0,,Wh-What the heck are you saying?!\NGross!{I want her to call me gross}{I know, right?}
+Dialogue: 0,0:10:04.95,0:10:06.75,Dialogue,,0,0,0,,W-Wait! That's not what I meant!
+Dialogue: 0,0:10:05.08,0:10:12.34,Dialogue,,0,0,0,,{\q3}What I'm saying is, I can prove that I can win against my desires through willpower!
+Dialogue: 0,0:10:05.66,0:10:06.75,Dialogue,,0,0,0,,{overlap}You {\i1}freak{\i0}!
+Dialogue: 0,0:10:12.46,0:10:16.72,Dialogue,,0,0,0,,{\q3}I'll prove that you can stop yourself from doing something you really don't want to!
+Dialogue: 0,0:10:16.84,0:10:20.26,Dialogue,,0,0,0,,Wh-What is wrong with you?!\NYou're not making any sense!
+Dialogue: 0,0:10:21.26,0:10:24.22,Dialogue,,0,0,0,,Well, you kind of do, but...
+Dialogue: 0,0:10:24.35,0:10:25.64,Dialogue,,0,0,0,,Right?
+Dialogue: 0,0:10:26.22,0:10:30.52,Dialogue,,0,0,0,,So, Yui...\NLet's go to a love hotel.
+Dialogue: 0,0:10:30.65,0:10:33.57,Dialogue,,0,0,0,,No!
+Dialogue: 0,0:10:33.69,0:10:36.86,Dialogue,,0,0,0,,{\q3}Why would I go to a place like that and put myself in danger?!
+Dialogue: 0,0:10:36.99,0:10:38.40,Dialogue,,0,0,0,,You won't be in any danger.
+Dialogue: 0,0:10:38.53,0:10:40.28,Dialogue,,0,0,0,,How can you say that?!
+Dialogue: 0,0:10:40.41,0:10:44.79,Dialogue,,0,0,0,,Because hurting you is the one thing I never, ever want to do.
+Dialogue: 0,0:10:48.41,0:10:53.38,Dialogue,,0,0,0,,Because I love you.
+Dialogue: 0,0:10:48.41,0:10:54.80,Dialogue,,0,0,0,,Hurting you is the last thing I'd want to do.
+Dialogue: 0,0:10:54.92,0:11:00.76,Dialogue,,0,0,0,,I know it won't happen, but if I {\i1}do{\i0} lose to my desires,
+Dialogue: 0,0:11:00.88,0:11:03.39,Dialogue,,0,0,0,,you can totally beat the crap out of me.
+Dialogue: 0,0:11:03.51,0:11:07.18,Dialogue,,0,0,0,,Don't say that.\NI don't want to hurt you.
+Dialogue: 0,0:11:07.31,0:11:10.89,Dialogue,,0,0,0,,{\q3}And just for good measure, you should wear something erotic.
+Dialogue: 0,0:11:11.31,0:11:15.77,Dialogue,,0,0,0,,Like just your underwear, or a bunny girl outfit, or nothing but an apron—
+Dialogue: 0,0:11:16.19,0:11:18.11,Dialogue,,0,0,0,,Stop imagining things like that, you creep!
+Dialogue: 0,0:11:18.78,0:11:21.03,Dialogue,,0,0,0,,Stop it! Stop it! Stop it!
+Dialogue: 0,0:11:21.53,0:11:24.32,Dialogue,,0,0,0,,Okay, Taichi. Let's end this with a baseless claim.
+Dialogue: 0,0:11:24.45,0:11:26.79,Dialogue,,0,0,0,,Don't call it baseless before I make it!
+Dialogue: 0,0:11:26.91,0:11:30.79,Dialogue,,0,0,0,,You two are just so... stupid.
+Dialogue: 0,0:11:30.91,0:11:33.42,Dialogue,,0,0,0,,So let's hear this baseless claim.
+Dialogue: 0,0:11:33.54,0:11:36.17,Dialogue,,0,0,0,,Don't you call it baseless, too!
+Dialogue: 0,0:11:36.29,0:11:39.92,Dialogue,,0,0,0,,Anyway, I've been wondering.
+Dialogue: 0,0:11:36.29,0:11:43.43,Dialogue,,0,0,0,,Before you went berserk at the station,
+Dialogue: 0,0:11:40.05,0:11:46.56,Dialogue,,0,0,0,,had you ever really gotten violent and injured anyone?
+Dialogue: 0,0:11:46.68,0:11:50.31,Dialogue,,0,0,0,,Well, when I practiced karate, I did a few times.
+Dialogue: 0,0:11:50.43,0:11:57.69,Dialogue,,0,0,0,,But that's not really being violent.
+Dialogue: 0,0:11:53.15,0:11:57.69,Dialogue,,0,0,0,,I mean, it was during practice and matches.
+Dialogue: 0,0:11:57.82,0:12:00.61,Dialogue,,0,0,0,,I thought so.
+Dialogue: 0,0:11:57.82,0:12:05.95,Dialogue,,0,0,0,,That means that you didn't know what it really meant to hurt someone, right?
+Dialogue: 0,0:12:07.16,0:12:10.41,Dialogue,,0,0,0,,But you know exactly what it means now.
+Dialogue: 0,0:12:10.83,0:12:14.33,Dialogue,,0,0,0,,And you don't want to hurt anyone again.
+Dialogue: 0,0:12:14.46,0:12:17.88,Dialogue,,0,0,0,,That means that even if you want to beat someone to a pulp,
+Dialogue: 0,0:12:18.00,0:12:21.59,Dialogue,,0,0,0,,your desire not to hurt them might be stronger.
+Dialogue: 0,0:12:21.72,0:12:26.80,Dialogue,,0,0,0,,Well, if you can call something like that a desire, too...
+Dialogue: 0,0:12:26.93,0:12:32.23,Dialogue,,0,0,0,,{\q3}Actually, I injured Nagase when my desires got unleashed the other day.
+Dialogue: 0,0:12:32.35,0:12:35.69,Dialogue,,0,0,0,,So I think I kind of know how you feel.
+Dialogue: 0,0:12:35.81,0:12:39.07,Dialogue,,0,0,0,,But I still want to be with everyone.
+Dialogue: 0,0:12:39.19,0:12:41.11,Dialogue,,0,0,0,,Don't you feel the same way?
+Dialogue: 0,0:12:41.23,0:12:44.70,Dialogue,,0,0,0,,Why not put some more faith in yourself?
+Dialogue: 0,0:12:47.74,0:12:49.37,Dialogue,,0,0,0,,Good job, Taichi.
+Dialogue: 0,0:12:49.49,0:12:52.62,Dialogue,,0,0,0,,{\q3}But it's nothing more than speculation right now. We don't have any actual proof.
+Dialogue: 0,0:12:52.75,0:12:54.75,Dialogue,,0,0,0,,So let's go to a love ho—
+Dialogue: 0,0:12:54.87,0:12:58.17,Dialogue,,0,0,0,,Quit screaming "love hotel"!\NMy mom is downstairs!
+Dialogue: 0,0:12:58.29,0:13:01.30,Dialogue,,0,0,0,,Kiriyama, you're screaming it, too.
+Dialogue: 0,0:13:02.80,0:13:06.34,Dialogue,,0,0,0,,Okay, fine. I'll go.
+Dialogue: 0,0:13:06.47,0:13:07.72,Dialogue,,0,0,0,,What?!\NScore!
+Dialogue: 0,0:13:07.84,0:13:09.55,Dialogue,,0,0,0,,To school!
+Dialogue: 0,0:13:11.31,0:13:14.68,Dialogue,,0,0,0,,But I'm still really scared,\Nso...{Fixed.}
+Dialogue: 0,0:13:17.23,0:13:22.98,Dialogue,,0,0,0,,If things start getting dangerous,\Nplease stop me.
+Dialogue: 0,0:13:25.03,0:13:27.70,Dialogue,,0,0,0,,That's not what you're supposed to ask.
+Dialogue: 0,0:13:28.91,0:13:30.66,Dialogue,,0,0,0,,Something more like this.
+Dialogue: 0,0:13:34.79,0:13:37.08,Dialogue,,0,0,0,,"Please, protect me"?
+Dialogue: 0,0:13:39.79,0:13:41.00,Dialogue,,0,0,0,,It would be my honor.
+Dialogue: 0,0:14:01.57,0:14:05.11,Dialogue,,0,0,0,,Himeko?
+Dialogue: 0,0:14:06.70,0:14:09.41,Dialogue,,0,0,0,,Didn't your phone just ring?
+Dialogue: 0,0:14:09.70,0:14:12.16,Dialogue,,0,0,0,,Hey, you okay?
+Dialogue: 0,0:14:12.28,0:14:13.91,Dialogue,,0,0,0,,You've been acting pretty weird lately.
+Dialogue: 0,0:14:14.66,0:14:16.00,Dialogue,,0,0,0,,You're imagining things.{Any good Inaba-like ways to say this?}{"You're delusional"?}
+Dialogue: 0,0:14:16.87,0:14:24.17,Dialogue,,0,0,0,,Yui!
+Dialogue: 0,0:14:24.71,0:14:26.88,Dialogue,,0,0,0,,Quit it, Iori.
+Dialogue: 0,0:14:27.72,0:14:29.01,Dialogue,,0,0,0,,Yui?
+Dialogue: 0,0:14:29.13,0:14:32.97,Dialogue,,0,0,0,,Yui, you're back!\NI'm so glad!
+Dialogue: 0,0:14:33.10,0:14:36.64,Dialogue,,0,0,0,,Sorry to make you worry about me.
+Dialogue: 0,0:14:33.10,0:14:38.77,Dialogue,,0,0,0,,Worried sick!
+Dialogue: 0,0:14:36.77,0:14:38.77,Dialogue,,0,0,0,,Silly goose.
+Dialogue: 0,0:14:38.89,0:14:43.77,Dialogue,,0,0,0,,We didn't know if we should've visited or not!
+Dialogue: 0,0:14:43.90,0:14:48.49,Dialogue,,0,0,0,,Really? Sorry.
+Dialogue: 0,0:14:43.90,0:14:51.53,Dialogue,,0,0,0,,Oh, Kiriyama, you're back!
+Dialogue: 0,0:14:48.61,0:14:51.53,Dialogue,,0,0,0,,You're looking healthy.
+Dialogue: 0,0:14:51.66,0:14:54.28,Dialogue,,0,0,0,,Yes. Sorry I made you worry.
+Dialogue: 0,0:14:54.41,0:14:58.62,Dialogue,,0,0,0,,Hey, did you put on some weight?
+Dialogue: 0,0:14:56.33,0:14:58.62,Dialogue,,0,0,0,,You're imagining things!
+Dialogue: 0,0:14:58.75,0:15:03.59,Dialogue,,0,0,0,,Now if only Inaban would come to the club room.
+Dialogue: 0,0:15:06.96,0:15:11.01,Dialogue,,0,0,0,,That's a lot!
+Dialogue: 0,0:15:11.13,0:15:13.85,Dialogue,,0,0,0,,Isn't this a bit too much?
+Dialogue: 0,0:15:13.97,0:15:20.10,Dialogue,,0,0,0,,{\q3}It was just supposed to be what we needed for the week,\Nbut my desires got unleashed at the store...
+Dialogue: 0,0:15:20.23,0:15:25.27,Dialogue,,0,0,0,,My allowance for this month is all gone.\NWe can't really return it all now.
+Dialogue: 0,0:15:25.40,0:15:29.99,Dialogue,,0,0,0,,Aoki?\NHey, Aoki?
+Dialogue: 0,0:15:30.11,0:15:33.87,Dialogue,,0,0,0,,Give me those {\i1}mitarashi dango{\i0}!
+Dialogue: 0,0:15:31.82,0:15:33.87,Dialogue,,0,0,0,,An unleashed desire!
+Dialogue: 0,0:15:33.99,0:15:35.58,Dialogue,,0,0,0,,No!
+Dialogue: 0,0:15:35.70,0:15:39.50,Dialogue,,0,0,0,,These are mine!\NGive me those {\i1}mitarashi dango{\i0}!
+Dialogue: 0,0:15:35.70,0:15:42.87,Dialogue,,0,0,0,,Looks like I got worried for nothing.
+Dialogue: 0,0:15:43.00,0:15:50.01,Dialogue,,0,0,0,,That's mine!\NWait, hold on, Nagase!
+Dialogue: 0,0:15:50.13,0:15:52.09,Dialogue,,0,0,0,,I just took a bite!\NGet a different one!
+Dialogue: 0,0:15:52.80,0:15:55.14,Dialogue,,0,0,0,,I want {\i1}that{\i0} sandwich!
+Dialogue: 0,0:15:55.26,0:15:56.39,Dialogue,,0,0,0,,Not you, too, Kiriyama!
+Dialogue: 0,0:15:59.22,0:16:03.56,Dialogue,,0,0,0,,All three of you?
+Dialogue: 0,0:16:03.69,0:16:10.49,Dialogue,,0,0,0,,I guess it's a good thing it happened now. It's just—
+Dialogue: 0,0:16:08.98,0:16:10.49,Dialogue,,0,0,0,,{\i1}Eat!{\i0}
+Dialogue: 0,0:16:11.57,0:16:12.99,Dialogue,,0,0,0,,Give me that!
+Dialogue: 0,0:16:16.24,0:16:22.91,Dialogue,,0,0,0,,Morning, Inaba.\NUm...
+Dialogue: 0,0:16:23.04,0:16:25.92,Dialogue,,0,0,0,,Don't worry about what you said to me the other day.\NYou shouldn't hold it against yourself.
+Dialogue: 0,0:16:28.17,0:16:32.88,Dialogue,,0,0,0,,Come back to the club room! We're all waiting for you!
+Dialogue: 0,0:16:34.26,0:16:35.14,Dialogue,,0,0,0,,See you!
+Dialogue: 0,0:16:43.94,0:16:49.77,Dialogue,,0,0,0,,Himeko, you have a visitor.
+Dialogue: 0,0:16:48.06,0:16:49.77,Dialogue,,0,0,0,,It's your teacher, Gotou-sensei.{Anyone find this redundant as it is? Or is it fine?}
+Dialogue: 0,0:16:50.44,0:16:51.99,Dialogue,,0,0,0,,Gotou?
+Dialogue: 0,0:17:02.04,0:17:08.75,Dialogue,,0,0,0,,You're not here to tell me it's over, are you?
+Dialogue: 0,0:17:08.88,0:17:14.09,Dialogue,,0,0,0,,It's still not over.
+Dialogue: 0,0:17:14.22,0:17:18.09,Dialogue,,0,0,0,,Were you browsing the internet?
+Dialogue: 0,0:17:16.18,0:17:18.09,Dialogue,,0,0,0,,So what if I was?
+Dialogue: 0,0:17:18.22,0:17:24.77,Dialogue,,0,0,0,,That's all you did back in middle school.
+Dialogue: 0,0:17:24.89,0:17:29.77,Dialogue,,0,0,0,,You were alone after school and on weekends.\NNot trusting anyone.
+Dialogue: 0,0:17:29.90,0:17:35.07,Dialogue,,0,0,0,,Building walls around yourself.
+Dialogue: 0,0:17:29.90,0:17:37.78,Dialogue,,0,0,0,,Getting close enough to others so you could get through school without any problems,
+Dialogue: 0,0:17:37.91,0:17:39.24,Dialogue,,0,0,0,,but not close enough to call anyone a "friend."
+Dialogue: 0,0:17:40.28,0:17:41.29,Dialogue,,0,0,0,,Shut up.
+Dialogue: 0,0:17:41.37,0:17:45.25,Dialogue,,0,0,0,,I don't want to hear about that.
+Dialogue: 0,0:17:46.08,0:17:49.54,Dialogue,,0,0,0,,Just tell me what you're here for already.
+Dialogue: 0,0:17:46.08,0:17:52.25,Dialogue,,0,0,0,,Don't you remember, Inaba-san?
+Dialogue: 0,0:17:52.80,0:17:56.13,Dialogue,,0,0,0,,The last time I came,
+Dialogue: 0,0:17:52.80,0:17:59.09,Dialogue,,0,0,0,,I said that if things weren't interesting, I'd make them interesting.
+Dialogue: 0,0:17:59.22,0:18:02.51,Dialogue,,0,0,0,,Are you going to dump {\i1}me{\i0} in the river this time?
+Dialogue: 0,0:17:59.22,0:18:08.31,Dialogue,,0,0,0,,I thought you'd only interfere if we shut ourselves in.
+Dialogue: 0,0:18:04.06,0:18:13.15,Dialogue,,0,0,0,,Inaba-san, you're practically a shut-in now.
+Dialogue: 0,0:18:08.98,0:18:13.15,Dialogue,,0,0,0,,Like hell I am.
+Dialogue: 0,0:18:13.65,0:18:20.16,Dialogue,,0,0,0,,I'm going to school every day.\NJust to stop me from interfering?
+Dialogue: 0,0:18:20.28,0:18:24.29,Dialogue,,0,0,0,,You really are very interesting, Inaba-san.\NSo what do you want?
+Dialogue: 0,0:18:24.41,0:18:29.79,Dialogue,,0,0,0,,You didn't come here for small talk.\NSmall talk?
+Dialogue: 0,0:18:30.96,0:18:34.67,Dialogue,,0,0,0,,You could call it that.
+Dialogue: 0,0:18:30.96,0:18:36.34,Dialogue,,0,0,0,,I just came here to shake things up.
+Dialogue: 0,0:18:36.84,0:18:41.30,Dialogue,,0,0,0,,Shake things up?\NYes.
+Dialogue: 0,0:18:41.85,0:18:44.47,Dialogue,,0,0,0,,You seem to be troubled right now.
+Dialogue: 0,0:18:44.60,0:18:48.69,Dialogue,,0,0,0,,Why do you feel so troubled?
+Dialogue: 0,0:18:44.60,0:18:51.94,Dialogue,,0,0,0,,Because of this "desire unleashing" bullshit that you're pulling.
+Dialogue: 0,0:18:48.81,0:18:57.74,Dialogue,,0,0,0,,No, I'm not talking about that.
+Dialogue: 0,0:18:52.56,0:19:01.87,Dialogue,,0,0,0,,Why is that place so important to you?
+Dialogue: 0,0:18:58.15,0:19:06.41,Dialogue,,0,0,0,,If you're tired of it, you could just destroy it.
+Dialogue: 0,0:19:06.49,0:19:09.83,Dialogue,,0,0,0,,Judging from your current mental state,
+Dialogue: 0,0:19:06.49,0:19:18.21,Dialogue,,0,0,0,,if you destroyed that place, you'd want to take the whole world out with it.
+Dialogue: 0,0:19:14.13,0:19:21.89,Dialogue,,0,0,0,,Or at least I hoped you would.
+Dialogue: 0,0:19:18.34,0:19:27.85,Dialogue,,0,0,0,,What the hell are you?
+Dialogue: 0,0:19:22.89,0:19:31.48,Dialogue,,0,0,0,,Is that place really the most important thing to you?
+Dialogue: 0,0:19:28.98,0:19:31.48,Dialogue,,0,0,0,,Huh?
+Dialogue: 0,0:19:31.60,0:19:38.74,Dialogue,,0,0,0,,{\q3}Isn't there something in your heart that's just as important?
+Dialogue: 0,0:19:38.86,0:19:41.40,Dialogue,,0,0,0,,I don't know what you're talking about.
+Dialogue: 0,0:19:41.91,0:19:45.62,Dialogue,,0,0,0,,No, I'm right, aren't I?
+Dialogue: 0,0:19:41.91,0:19:51.12,Dialogue,,0,0,0,,You're trying so hard to pretend you don't know.
+Dialogue: 0,0:19:46.08,0:19:54.29,Dialogue,,0,0,0,,Because you might destroy that place if your feelings were found out.
+Dialogue: 0,0:19:54.42,0:19:55.88,Dialogue,,0,0,0,,You have someone very important to you.
+Dialogue: 0,0:19:56.63,0:19:58.25,Dialogue,,0,0,0,,Shut up!
+Dialogue: 0,0:19:59.63,0:20:03.97,Dialogue,,0,0,0,,Ah.
+Dialogue: 0,0:19:59.63,0:20:06.68,Dialogue,,0,0,0,,Looks like you know exactly what I'm talking about.
+Dialogue: 0,0:20:07.06,0:20:11.35,Dialogue,,0,0,0,,You can't go back now.\NOnce you've admitted it, you can't go back.
+Dialogue: 0,0:20:13.27,0:20:18.94,Dialogue,,0,0,0,,Oh?
+Dialogue: 0,0:20:13.27,0:20:23.15,Dialogue,,0,0,0,,I didn't think this would be so effective.
+Dialogue: 0,0:20:20.07,0:20:23.15,Dialogue,,0,0,0,,This looks like it will be very exciting.
+Dialogue: 0,0:20:24.91,0:20:32.54,Dialogue,,0,0,0,,How'd you like a fist to the face?
+Dialogue: 0,0:20:27.78,0:20:36.88,Dialogue,,0,0,0,,I'll just return this body to its owner before you hit me.
+Dialogue: 0,0:20:32.66,0:20:39.21,Dialogue,,0,0,0,,Are you going to do this to the others, too?
+Dialogue: 0,0:20:39.63,0:20:43.30,Dialogue,,0,0,0,,No need to worry.
+Dialogue: 0,0:20:39.63,0:20:47.68,Dialogue,,0,0,0,,This is a special visit just for you.
+Dialogue: 0,0:20:44.26,0:20:51.98,Dialogue,,0,0,0,,Don't you think something like this can be interesting as well?
+Dialogue: 0,0:20:47.80,0:20:51.98,Dialogue,,0,0,0,,How the hell could I?
+Dialogue: 0,0:20:52.10,0:20:59.98,Dialogue,,0,0,0,,And if you can use anyone's body, why didn't you use my family?
+Dialogue: 0,0:20:55.69,0:21:06.99,Dialogue,,0,0,0,,There aren't many people around who wouldn't mind a gap in their memory.
+Dialogue: 0,0:21:03.19,0:21:11.20,Dialogue,,0,0,0,,Don't shut yourself in any more now.
+Dialogue: 0,0:21:21.88,0:21:24.01,Dialogue,,0,0,0,,Yo.
+Dialogue: 0,0:21:24.13,0:21:26.88,Dialogue,,0,0,0,,Inaba!\NMorning!
+Dialogue: 0,0:21:27.01,0:21:29.22,Dialogue,,0,0,0,,I was worried something might've happened since you're late.
+Dialogue: 0,0:21:29.47,0:21:32.18,Dialogue,,0,0,0,,There's no way I could stay home today.
+Dialogue: 0,0:21:32.31,0:21:36.23,Dialogue,,0,0,0,,I'm in charge of bringing vegetables, after all.\NLet's go.\NFujishima'll get bitchy if we're late.
+Dialogue: 0,0:21:51.20,0:22:00.08,Dialogue,,0,0,0,,It feels like it's been a while since we talked like this.
+Dialogue: 0,0:21:57.54,0:22:00.08,Dialogue,,0,0,0,,I wonder how those three are doing.
+Dialogue: 0,0:22:00.21,0:22:02.34,Dialogue,,0,0,0,,Because if I didn't, we couldn't stay together!
+Dialogue: 0,0:22:02.46,0:22:04.84,Dialogue,,0,0,0,,Tell me! Tell me right now!
+Dialogue: 0,0:22:04.96,0:22:10.97,Dialogue,,0,0,0,,She found out! She found out! She found out!

@@ -1,0 +1,303 @@
+[Script Info]
+Title: Fullmetal_Alchemist 07 - Night of the Chimera's Cry
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1280
+PlayResY: 720
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Dialogue,Noto Sans,46,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,40,40,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:06.63,0:00:07.68,Dialogue,,0,0,0,,Here, take this with you.
+Dialogue: 0,0:00:13.01,0:00:16.43,Dialogue,,0,0,0,,There {\i1}are{\i0} ways of handing this to me\Nthat are a bit more poignant, you know.
+Dialogue: 0,0:00:16.60,0:00:17.48,Dialogue,,0,0,0,,Congrats.
+Dialogue: 0,0:00:17.56,0:00:20.02,Dialogue,,0,0,0,,You too are now\Nofficially a dog of the military.
+Dialogue: 0,0:00:20.60,0:00:22.48,Dialogue,,0,0,0,,Lieutenant Havoc, take him home.
+Dialogue: 0,0:00:22.82,0:00:23.65,Dialogue,,0,0,0,,Yes, sir.
+Dialogue: 0,0:00:32.62,0:00:33.70,Dialogue,,0,0,0,,Nina...
+Dialogue: 0,0:00:34.83,0:00:38.62,Dialogue,,0,0,0,,Man cannot obtain anything\Nwithout first sacrificing something.
+Dialogue: 0,0:00:39.50,0:00:43.17,Dialogue,,0,0,0,,In order to obtain anything,\Nsomething of equal value is required.
+Dialogue: 0,0:00:43.79,0:00:48.26,Dialogue,,0,0,0,,That is alchemy's\NLaw of Equivalent Exchange.
+Dialogue: 0,0:00:49.59,0:00:54.35,Dialogue,,0,0,0,,At the time, we believed that\Nto be the true way of the world.
+Dialogue: 0,0:02:44.67,0:02:47.21,Dialogue,,0,0,0,,Hey, Chief, don't make that face.
+Dialogue: 0,0:02:47.29,0:02:50.59,Dialogue,,0,0,0,,The Lt. Colonel is wrapped up in something of a tough case right now.
+Dialogue: 0,0:02:50.67,0:02:51.51,Dialogue,,0,0,0,,A case?
+Dialogue: 0,0:02:51.67,0:02:54.01,Dialogue,,0,0,0,,A serial killer who only\Ngoes after women.
+Dialogue: 0,0:02:55.59,0:02:57.85,Dialogue,,0,0,0,,That's a job for the police, isn't it?
+Dialogue: 0,0:02:58.01,0:03:02.60,Dialogue,,0,0,0,,If the military lets it go for\Ntoo long in their own backyard,\Nit becomes a matter of honor, see?
+Dialogue: 0,0:03:03.60,0:03:05.19,Dialogue,,0,0,0,,He's after another promotion, huh?
+Dialogue: 0,0:03:08.15,0:03:10.77,Dialogue,,0,0,0,,It is true that the Lt. Colonel is a man who won't hesitate
+Dialogue: 0,0:03:10.86,0:03:13.49,Dialogue,,0,0,0,,to use any means necessary to get promoted.
+Dialogue: 0,0:03:14.19,0:03:16.66,Dialogue,,0,0,0,,But if that's all he ever did, we wouldn't follow him.
+Dialogue: 0,0:03:17.36,0:03:19.58,Dialogue,,0,0,0,,What do you mean by that?
+Dialogue: 0,0:03:21.41,0:03:22.66,Dialogue,,0,0,0,,You'll find out soon enough.
+Dialogue: 0,0:03:32.00,0:03:33.46,Dialogue,,0,0,0,,Ta-daa!
+Dialogue: 0,0:03:35.05,0:03:37.13,Dialogue,,0,0,0,,Brother, is that...?
+Dialogue: 0,0:03:39.68,0:03:40.51,Dialogue,,0,0,0,,Hey, you!
+Dialogue: 0,0:03:40.60,0:03:42.14,Dialogue,,0,0,0,,Hold it!
+Dialogue: 0,0:03:42.22,0:03:43.68,Dialogue,,0,0,0,,Hold it, I tell you!\NGive that back!
+Dialogue: 0,0:03:43.77,0:03:45.23,Dialogue,,0,0,0,,Give it back!
+Dialogue: 0,0:03:45.60,0:03:47.14,Dialogue,,0,0,0,,Fooling around again...
+Dialogue: 0,0:03:52.02,0:03:54.15,Dialogue,,0,0,0,,Give it back! Please, give it back!
+Dialogue: 0,0:03:54.74,0:03:56.61,Dialogue,,0,0,0,,He's the talk of the town.
+Dialogue: 0,0:03:57.20,0:04:00.78,Dialogue,,0,0,0,,Whoever would've thought that a twelve-year-old could pass the certification exam?
+Dialogue: 0,0:04:01.24,0:04:04.16,Dialogue,,0,0,0,,Prodigies. They do exist.
+Dialogue: 0,0:04:06.04,0:04:10.00,Dialogue,,0,0,0,,Well, to celebrate Edward-kun passing his test, \Nwe're going to have a big feast today!
+Dialogue: 0,0:04:10.33,0:04:11.50,Dialogue,,0,0,0,,Terrific!
+Dialogue: 0,0:04:11.59,0:04:12.75,Dialogue,,0,0,0,,You mean it?!
+Dialogue: 0,0:04:13.17,0:04:14.05,Dialogue,,0,0,0,,Uh-huh.
+Dialogue: 0,0:04:14.21,0:04:16.17,Dialogue,,0,0,0,,Would you like to join us?
+Dialogue: 0,0:04:16.72,0:04:18.13,Dialogue,,0,0,0,,I still have work to do.
+Dialogue: 0,0:04:18.22,0:04:19.30,Dialogue,,0,0,0,,Is that so?
+Dialogue: 0,0:04:19.47,0:04:21.68,Dialogue,,0,0,0,,Ah, Tucker-san...
+Dialogue: 0,0:04:21.76,0:04:24.22,Dialogue,,0,0,0,,I have a message from\Nthe Lt. Colonel for you.
+Dialogue: 0,0:04:24.43,0:04:26.06,Dialogue,,0,0,0,,"Assessment day will be here soon."
+Dialogue: 0,0:04:26.77,0:04:28.81,Dialogue,,0,0,0,,"I'm looking forward to it."
+Dialogue: 0,0:04:29.85,0:04:31.94,Dialogue,,0,0,0,,Yes, I know.
+Dialogue: 0,0:04:34.61,0:04:35.94,Dialogue,,0,0,0,,This assessment thing—
+Dialogue: 0,0:04:36.15,0:04:37.53,Dialogue,,0,0,0,,is it for State Alchemists?
+Dialogue: 0,0:04:37.82,0:04:38.65,Dialogue,,0,0,0,,Mm-hmm.
+Dialogue: 0,0:04:38.86,0:04:42.78,Dialogue,,0,0,0,,If I don't report the findings of my research and get evaluated once every year,
+Dialogue: 0,0:04:42.87,0:04:45.12,Dialogue,,0,0,0,,my certification as a State Alchemist will be taken from me.
+Dialogue: 0,0:04:45.33,0:04:47.45,Dialogue,,0,0,0,,That's rough.
+Dialogue: 0,0:04:48.41,0:04:51.58,Dialogue,,0,0,0,,Last year, I didn't receive a good evaluation,
+Dialogue: 0,0:04:51.67,0:04:53.29,Dialogue,,0,0,0,,so I have to do better this year.
+Dialogue: 0,0:04:53.63,0:04:54.80,Dialogue,,0,0,0,,Let 'em have it, Papa!
+Dialogue: 0,0:04:56.26,0:04:58.88,Dialogue,,0,0,0,,Will you go with a Chimera that can understand human speech?
+Dialogue: 0,0:04:59.97,0:05:02.09,Dialogue,,0,0,0,,Once you complete it, please show us, okay?
+Dialogue: 0,0:05:03.35,0:05:05.85,Dialogue,,0,0,0,,Sure, I promise.
+Dialogue: 0,0:05:06.31,0:05:08.85,Dialogue,,0,0,0,,Once it's complete, I'll be sure to let you two have a look at it.
+Dialogue: 0,0:05:21.07,0:05:24.32,Dialogue,,0,0,0,,A letter? Who are you writing to?
+Dialogue: 0,0:05:25.03,0:05:26.45,Dialogue,,0,0,0,,I-It doesn't matter who it's to!
+Dialogue: 0,0:05:26.91,0:05:28.95,Dialogue,,0,0,0,,Ah, Brother, it's to Winry, right?
+Dialogue: 0,0:05:29.08,0:05:30.91,Dialogue,,0,0,0,,I-It's just a simple report!
+Dialogue: 0,0:05:31.00,0:05:33.17,Dialogue,,0,0,0,,"I just succeeded in becoming a State Alchemist! Take that!"
+Dialogue: 0,0:05:33.25,0:05:34.63,Dialogue,,0,0,0,,That sort of thing!
+Dialogue: 0,0:05:34.71,0:05:37.71,Dialogue,,0,0,0,,Is Winry Big Brother's girlfriend?
+Dialogue: 0,0:05:38.63,0:05:40.09,Dialogue,,0,0,0,,As a matter of fact—
+Dialogue: 0,0:05:40.30,0:05:42.26,Dialogue,,0,0,0,,No! She's not! She's not! She's not!
+Dialogue: 0,0:05:42.34,0:05:43.43,Dialogue,,0,0,0,,She's not! She's not!
+Dialogue: 0,0:05:43.51,0:05:46.31,Dialogue,,0,0,0,,I'm going to write\Nmy mom a letter too!
+Dialogue: 0,0:05:52.94,0:05:56.11,Dialogue,,0,0,0,,Say, your mom is far away, right?
+Dialogue: 0,0:05:56.32,0:05:59.40,Dialogue,,0,0,0,,Mm-hmm. She said Dad was a good-for-nothing,
+Dialogue: 0,0:05:59.49,0:06:02.32,Dialogue,,0,0,0,,and she couldn't put up with him anymore, so she went back to her parents' home.
+Dialogue: 0,0:06:04.36,0:06:07.74,Dialogue,,0,0,0,,I hope Mom sends me a reply.
+Dialogue: 0,0:06:26.30,0:06:27.14,Dialogue,,0,0,0,,Here.
+Dialogue: 0,0:06:33.60,0:06:37.31,Dialogue,,0,0,0,,My wife couldn't stand being poor and left us.
+Dialogue: 0,0:06:37.48,0:06:40.98,Dialogue,,0,0,0,,That was just before\NI became a State Alchemist.
+Dialogue: 0,0:06:42.95,0:06:47.41,Dialogue,,0,0,0,,If my certification is taken from me,\Nwe'll fall back to the way\Nthings were then.
+Dialogue: 0,0:06:47.83,0:06:49.74,Dialogue,,0,0,0,,If I'm going to keep this lifestyle,
+Dialogue: 0,0:06:50.37,0:06:53.29,Dialogue,,0,0,0,,I have to pass this assessment, no matter what.
+Dialogue: 0,0:06:54.83,0:06:58.00,Dialogue,,0,0,0,,Papa, good luck studying!
+Dialogue: 0,0:07:06.64,0:07:08.14,Dialogue,,0,0,0,,I get it,
+Dialogue: 0,0:07:08.47,0:07:10.10,Dialogue,,0,0,0,,you want to go for a walk, right?
+Dialogue: 0,0:07:26.57,0:07:28.24,Dialogue,,0,0,0,,Not this simple stuff!
+Dialogue: 0,0:07:28.87,0:07:32.41,Dialogue,,0,0,0,,I want to find out about a Chimera that\Na man named Tucker created two years ago!
+Dialogue: 0,0:07:33.70,0:07:36.08,Dialogue,,0,0,0,,Hey, Scieszka, do you know about this?
+Dialogue: 0,0:07:37.29,0:07:40.04,Dialogue,,0,0,0,,Shou Tucker-san's reports are restricted reading.
+Dialogue: 0,0:07:40.25,0:07:42.09,Dialogue,,0,0,0,,Would you check on it, please?
+Dialogue: 0,0:07:42.17,0:07:43.67,Dialogue,,0,0,0,,I'm not any ordinary person, here!
+Dialogue: 0,0:07:44.26,0:07:46.18,Dialogue,,0,0,0,,That's not what I meant.
+Dialogue: 0,0:07:46.76,0:07:49.26,Dialogue,,0,0,0,,Unless you have permission from Brigadier General Basque Grand—
+Dialogue: 0,0:07:50.97,0:07:52.93,Dialogue,,0,0,0,,Brigadier General Basque Grand?
+Dialogue: 0,0:07:53.31,0:07:55.52,Dialogue,,0,0,0,,Don't you know the\NIron Blood Alchemist?
+Dialogue: 0,0:07:55.68,0:07:59.40,Dialogue,,0,0,0,,He's the foremost authority on\Nredirecting alchemy to military tactics.
+Dialogue: 0,0:07:59.48,0:08:03.57,Dialogue,,0,0,0,,If you need his permission,\Nthat must mean it's a military secret.
+Dialogue: 0,0:08:03.78,0:08:05.99,Dialogue,,0,0,0,,Military secret?
+Dialogue: 0,0:08:08.03,0:08:09.87,Dialogue,,0,0,0,,You can't go in! Please stop!
+Dialogue: 0,0:08:09.95,0:08:12.91,Dialogue,,0,0,0,,This first branch is only for State Alchemist use,
+Dialogue: 0,0:08:13.24,0:08:15.08,Dialogue,,0,0,0,,and no one without permission from the military can enter.
+Dialogue: 0,0:08:15.16,0:08:19.79,Dialogue,,0,0,0,,But I was told that this is the only place where I would find out!
+Dialogue: 0,0:08:17.79,0:08:19.79,Dialogue,,0,0,0,,N-Now hold on!
+Dialogue: 0,0:08:21.29,0:08:22.13,Dialogue,,0,0,0,,What?!
+Dialogue: 0,0:08:22.67,0:08:25.09,Dialogue,,0,0,0,,Sorry, but those seem to be the rules.
+Dialogue: 0,0:08:34.64,0:08:36.02,Dialogue,,0,0,0,,Hey, hold it!
+Dialogue: 0,0:08:48.95,0:08:50.36,Dialogue,,0,0,0,,Brother,
+Dialogue: 0,0:08:50.45,0:08:53.45,Dialogue,,0,0,0,,I don't understand.\NWhy would you place this...
+Dialogue: 0,0:08:54.20,0:08:56.79,Dialogue,,0,0,0,,this despicable alchemy brand upon me?
+Dialogue: 0,0:09:01.50,0:09:03.34,Dialogue,,0,0,0,,Look, Elicia-chan,
+Dialogue: 0,0:09:03.54,0:09:05.96,Dialogue,,0,0,0,,it's your big brother Ed!
+Dialogue: 0,0:09:06.05,0:09:09.38,Dialogue,,0,0,0,,Honey, pay attention to what Ed-chan is saying.
+Dialogue: 0,0:09:13.89,0:09:15.51,Dialogue,,0,0,0,,Go ahead, take your time.
+Dialogue: 0,0:09:19.06,0:09:22.40,Dialogue,,0,0,0,,Let's see... Tucker's Chimera, right?
+Dialogue: 0,0:09:22.48,0:09:23.69,Dialogue,,0,0,0,,Uh-huh.
+Dialogue: 0,0:09:23.77,0:09:26.82,Dialogue,,0,0,0,,Major, you're in the\NInvestigations Department, right?\NI thought you might know something.
+Dialogue: 0,0:09:26.90,0:09:29.32,Dialogue,,0,0,0,,You could just ask him yourself,\Ncouldn't you?
+Dialogue: 0,0:09:29.53,0:09:33.03,Dialogue,,0,0,0,,Yeah, but he's so busy now,\Njust before his assessment, and all.
+Dialogue: 0,0:09:34.53,0:09:36.70,Dialogue,,0,0,0,,I don't know all that much myself.
+Dialogue: 0,0:09:36.79,0:09:40.08,Dialogue,,0,0,0,,They say that Tucker is the first person in history to create a Chimera
+Dialogue: 0,0:09:40.16,0:09:42.67,Dialogue,,0,0,0,,that could speak and\Nunderstand human language.
+Dialogue: 0,0:09:42.87,0:09:44.42,Dialogue,,0,0,0,,You're sure about that?
+Dialogue: 0,0:09:44.75,0:09:49.01,Dialogue,,0,0,0,,I hear that the Chimera definitely said one thing: "I want to die."
+Dialogue: 0,0:09:51.09,0:09:53.64,Dialogue,,0,0,0,,Apparently, after that,\Nit didn't eat anything and died.
+Dialogue: 0,0:09:54.01,0:09:57.43,Dialogue,,0,0,0,,I wonder why Tucker-san\Nwould create such a thing.
+Dialogue: 0,0:09:57.76,0:09:59.02,Dialogue,,0,0,0,,Who knows?
+Dialogue: 0,0:09:59.35,0:10:03.56,Dialogue,,0,0,0,,But there was someone in the military who at least\Nthought there was some value in utilizing it.
+Dialogue: 0,0:10:04.60,0:10:06.36,Dialogue,,0,0,0,,What about Tucker-san's wife?
+Dialogue: 0,0:10:06.90,0:10:09.53,Dialogue,,0,0,0,,Ah, you mean the one who died before they came to Central?
+Dialogue: 0,0:10:11.07,0:10:11.90,Dialogue,,0,0,0,,Am I mistaken?
+Dialogue: 0,0:10:17.08,0:10:18.58,Dialogue,,0,0,0,,Yes, this is Hughes.
+Dialogue: 0,0:10:19.70,0:10:21.58,Dialogue,,0,0,0,,That serial killer?!
+Dialogue: 0,0:10:27.46,0:10:30.34,Dialogue,,0,0,0,,{\an8}Mama! Mama!
+Dialogue: 0,0:10:34.59,0:10:36.14,Dialogue,,0,0,0,,This makes the fifth one, huh?
+Dialogue: 0,0:10:36.55,0:10:39.01,Dialogue,,0,0,0,,Hasn't Investigations found anything yet?
+Dialogue: 0,0:10:39.10,0:10:40.14,Dialogue,,0,0,0,,Don't take it out on us.
+Dialogue: 0,0:10:47.40,0:10:49.94,Dialogue,,0,0,0,,Mama!
+Dialogue: 0,0:11:03.58,0:11:05.37,Dialogue,,0,0,0,,Hey, what's the matter?!
+Dialogue: 0,0:11:05.46,0:11:06.29,Dialogue,,0,0,0,,Hey!
+Dialogue: 0,0:11:09.46,0:11:11.76,Dialogue,,0,0,0,,Sounds like you saw\Nsomething awful, huh?
+Dialogue: 0,0:11:13.09,0:11:15.09,Dialogue,,0,0,0,,I'm fine now.
+Dialogue: 0,0:11:15.51,0:11:18.55,Dialogue,,0,0,0,,You've been calling for your mother the whole time.
+Dialogue: 0,0:11:18.64,0:11:20.72,Dialogue,,0,0,0,,And apologizing, too.
+Dialogue: 0,0:11:22.02,0:11:25.98,Dialogue,,0,0,0,,I've had my suspicions\Never since I saw your bodies.
+Dialogue: 0,0:11:41.95,0:11:44.96,Dialogue,,0,0,0,,Your mother, huh?\NThat must've been tough.
+Dialogue: 0,0:11:47.67,0:11:51.04,Dialogue,,0,0,0,,What you did was forbidden from the outset.
+Dialogue: 0,0:11:51.80,0:11:54.13,Dialogue,,0,0,0,,However, I understand how you must've felt.
+Dialogue: 0,0:11:54.51,0:11:56.17,Dialogue,,0,0,0,,Who are you people?!
+Dialogue: 0,0:12:01.01,0:12:03.93,Dialogue,,0,0,0,,I don't know what Mustang told you,
+Dialogue: 0,0:12:04.02,0:12:08.19,Dialogue,,0,0,0,,but matters concerning Shou Tucker fall under the jurisdiction of me, Basque Grand!
+Dialogue: 0,0:12:08.35,0:12:11.11,Dialogue,,0,0,0,,Basque Grand?\NThat's you?
+Dialogue: 0,0:12:11.48,0:12:16.19,Dialogue,,0,0,0,,The Sewing Life Alchemist's research is one of the military's most secret matters.
+Dialogue: 0,0:12:16.36,0:12:19.99,Dialogue,,0,0,0,,It is not an area upon which\Nothers may tread frivolously.
+Dialogue: 0,0:12:24.33,0:12:26.83,Dialogue,,0,0,0,,Big Brothers, where are you going?
+Dialogue: 0,0:12:28.50,0:12:30.92,Dialogue,,0,0,0,,We'll be back in a little while\Nto play with you.
+Dialogue: 0,0:12:31.00,0:12:31.92,Dialogue,,0,0,0,,Really?
+Dialogue: 0,0:12:32.00,0:12:32.92,Dialogue,,0,0,0,,Mm-hmm!
+Dialogue: 0,0:12:34.88,0:12:35.71,Dialogue,,0,0,0,,Yeah.
+Dialogue: 0,0:12:37.76,0:12:38.97,Dialogue,,0,0,0,,Make sure you do!
+Dialogue: 0,0:12:40.55,0:12:42.43,Dialogue,,0,0,0,,It's not aggravating to you?
+Dialogue: 0,0:12:43.26,0:12:47.56,Dialogue,,0,0,0,,I hear that when that kid showed off his transmutation abilities without using a circle,
+Dialogue: 0,0:12:47.64,0:12:51.06,Dialogue,,0,0,0,,the Führer bestowed\Nwords of praise upon him.
+Dialogue: 0,0:12:51.27,0:12:55.65,Dialogue,,0,0,0,,Thanks to him, that upstart Mustang was able to score some more points.
+Dialogue: 0,0:12:55.78,0:12:58.07,Dialogue,,0,0,0,,I'm sorry to have worried you.
+Dialogue: 0,0:12:58.15,0:13:00.66,Dialogue,,0,0,0,,I managed to smooth things over last year,
+Dialogue: 0,0:13:00.74,0:13:02.78,Dialogue,,0,0,0,,but if you don't show\Nany results this year too,
+Dialogue: 0,0:13:02.87,0:13:06.29,Dialogue,,0,0,0,,then I will be put in an awkward position for having supported you.
+Dialogue: 0,0:13:06.37,0:13:07.20,Dialogue,,0,0,0,,But...
+Dialogue: 0,0:13:07.41,0:13:12.67,Dialogue,,0,0,0,,Or would you rather yield the title of Sewing Life Alchemist to that kid
+Dialogue: 0,0:13:07.41,0:13:15.17,Dialogue,,0,0,0,,and go back to \Nyour former lifestyle?
+Dialogue: 0,0:13:15.25,0:13:18.72,Dialogue,,0,0,0,,A life of wandering from town to town\Non an empty stomach?
+Dialogue: 0,0:13:19.97,0:13:21.47,Dialogue,,0,0,0,,This is the end of the line.
+Dialogue: 0,0:13:21.55,0:13:23.80,Dialogue,,0,0,0,,Your assessment will be held the day after tomorrow.
+Dialogue: 0,0:13:33.69,0:13:34.69,Dialogue,,0,0,0,,Papa?
+Dialogue: 0,0:13:36.86,0:13:38.69,Dialogue,,0,0,0,,Do you hurt somewhere?
+Dialogue: 0,0:13:48.37,0:13:52.25,Dialogue,,0,0,0,,I'm at the end of the line here, Nina.
+Dialogue: 0,0:13:54.88,0:13:55.96,Dialogue,,0,0,0,,Papa...
+Dialogue: 0,0:14:12.77,0:14:17.32,Dialogue,,0,0,0,,What if by doing this, the certification \Nyou worked so hard to get is taken away?
+Dialogue: 0,0:14:17.73,0:14:21.53,Dialogue,,0,0,0,,If there's nothing here, \Nit'll be fine with me.
+Dialogue: 0,0:14:34.54,0:14:35.54,Dialogue,,0,0,0,,Over here.
+Dialogue: 0,0:14:41.17,0:14:42.59,Dialogue,,0,0,0,,Come on in.
+Dialogue: 0,0:14:54.94,0:14:56.27,Dialogue,,0,0,0,,Have a look.
+Dialogue: 0,0:14:59.69,0:15:03.36,Dialogue,,0,0,0,,It's a finished version of a Chimera that can understand human words.
+Dialogue: 0,0:15:06.03,0:15:09.66,Dialogue,,0,0,0,,Listen, that person is Edward.
+Dialogue: 0,0:15:10.08,0:15:12.04,Dialogue,,0,0,0,,Ed... ward...
+Dialogue: 0,0:15:12.12,0:15:14.33,Dialogue,,0,0,0,,That's right! Nicely done.
+Dialogue: 0,0:15:14.66,0:15:16.63,Dialogue,,0,0,0,,Nicely... done...
+Dialogue: 0,0:15:16.71,0:15:19.75,Dialogue,,0,0,0,,Unbelievable! It really is talking!
+Dialogue: 0,0:15:20.05,0:15:23.63,Dialogue,,0,0,0,,Somehow, I managed to make it\Nin time for the assessment.
+Dialogue: 0,0:15:24.22,0:15:27.89,Dialogue,,0,0,0,,Now I can get by without having to worry about research funding.
+Dialogue: 0,0:15:44.90,0:15:47.49,Dialogue,,0,0,0,,Ed... ward...
+Dialogue: 0,0:15:49.16,0:15:50.95,Dialogue,,0,0,0,,It's okay...
+Dialogue: 0,0:15:51.53,0:15:54.70,Dialogue,,0,0,0,,Big... Brother... Ed...
+Dialogue: 0,0:15:58.17,0:15:59.42,Dialogue,,0,0,0,,Brother?
+Dialogue: 0,0:15:59.75,0:16:01.09,Dialogue,,0,0,0,,Tucker-san...
+Dialogue: 0,0:16:01.96,0:16:02.80,Dialogue,,0,0,0,,Something the matter?
+Dialogue: 0,0:16:03.38,0:16:07.68,Dialogue,,0,0,0,,When was the first time you transmuted\Na Chimera that could understand human language?
+Dialogue: 0,0:16:08.43,0:16:09.72,Dialogue,,0,0,0,,I told you, didn't I?
+Dialogue: 0,0:16:10.10,0:16:11.43,Dialogue,,0,0,0,,Two years ago.
+Dialogue: 0,0:16:11.97,0:16:14.60,Dialogue,,0,0,0,,And when did your wife leave?
+Dialogue: 0,0:16:15.27,0:16:16.94,Dialogue,,0,0,0,,Two years ago.
+Dialogue: 0,0:16:17.69,0:16:21.77,Dialogue,,0,0,0,,Do your letters still reach your wife?
+Dialogue: 0,0:16:21.98,0:16:23.57,Dialogue,,0,0,0,,What are you trying to say?
+Dialogue: 0,0:16:24.03,0:16:27.40,Dialogue,,0,0,0,,Where have Nina and Alexander gone?!
+Dialogue: 0,0:16:32.20,0:16:35.37,Dialogue,,0,0,0,,I hate perceptive kids like you.
+Dialogue: 0,0:16:37.12,0:16:37.96,Dialogue,,0,0,0,,Brother!
+Dialogue: 0,0:16:38.04,0:16:40.13,Dialogue,,0,0,0,,Yeah, that's right!
+Dialogue: 0,0:16:40.21,0:16:42.04,Dialogue,,0,0,0,,Your own wife?!
+Dialogue: 0,0:16:42.46,0:16:43.88,Dialogue,,0,0,0,,And now, this time,
+Dialogue: 0,0:16:44.34,0:16:47.34,Dialogue,,0,0,0,,he used his own daughter and dog\Nto transmute a Chimera!
+Dialogue: 0,0:16:48.55,0:16:50.93,Dialogue,,0,0,0,,It's easy when you\Nuse people, huh?
+Dialogue: 0,0:16:51.01,0:16:52.01,Dialogue,,0,0,0,,Yeah?!
+Dialogue: 0,0:16:52.10,0:16:53.81,Dialogue,,0,0,0,,What are you so upset about?
+Dialogue: 0,0:16:53.89,0:16:56.43,Dialogue,,0,0,0,,As is typical of medical science,
+Dialogue: 0,0:16:56.52,0:17:00.19,Dialogue,,0,0,0,,the advancement of mankind comes as the result of countless animal experiments, doesn't it?
+Dialogue: 0,0:17:00.40,0:17:01.95,Dialogue,,0,0,0,,Since you, too, are a scientist—
+Dialogue: 0,0:17:00.90,0:17:01.95,Dialogue,,0,0,0,,Stop messing around!
+Dialogue: 0,0:17:01.90,0:17:08.65,Dialogue,,0,0,0,,Do you think you can get away with something like this?!
+Dialogue: 0,0:17:05.23,0:17:08.65,Dialogue,,0,0,0,,With toying around with people's lives like this?!
+Dialogue: 0,0:17:09.32,0:17:10.90,Dialogue,,0,0,0,,People's lives?
+Dialogue: 0,0:17:10.99,0:17:14.83,Dialogue,,0,0,0,,Right, people's lives, indeed!
+Dialogue: 0,0:17:14.91,0:17:17.75,Dialogue,,0,0,0,,Your arm and leg\Nand your brother's body—
+Dialogue: 0,0:17:17.83,0:17:21.12,Dialogue,,0,0,0,,aren't they also results of\Ntoying around with people's lives?
+Dialogue: 0,0:17:28.72,0:17:30.51,Dialogue,,0,0,0,,Why, Tucker-san?
+Dialogue: 0,0:17:31.05,0:17:34.05,Dialogue,,0,0,0,,Didn't you need to\Npass your assessment
+Dialogue: 0,0:17:34.14,0:17:37.02,Dialogue,,0,0,0,,so that you could continue your life with Nina?
+Dialogue: 0,0:17:38.60,0:17:40.77,Dialogue,,0,0,0,,I had no reason to\Ncreate the Chimera.
+Dialogue: 0,0:17:42.06,0:17:45.61,Dialogue,,0,0,0,,The possibility was there\Nbefore my eyes, so I tried it.
+Dialogue: 0,0:17:45.82,0:17:48.49,Dialogue,,0,0,0,,A Chimera that could\Nunderstand human words—
+Dialogue: 0,0:17:48.57,0:17:51.24,Dialogue,,0,0,0,,I just wanted to see\Nif I could make one.
+Dialogue: 0,0:17:51.57,0:17:52.91,Dialogue,,0,0,0,,You've got to be kidding me.
+Dialogue: 0,0:17:52.99,0:17:54.82,Dialogue,,0,0,0,,I knew that it was anathema,
+Dialogue: 0,0:17:54.91,0:17:58.20,Dialogue,,0,0,0,,but I couldn't help myself from\Ntrying out a human transmutation.
+Dialogue: 0,0:17:58.50,0:18:00.33,Dialogue,,0,0,0,,You're the same as me.
+Dialogue: 0,0:18:00.41,0:18:01.25,Dialogue,,0,0,0,,I am not!
+Dialogue: 0,0:18:01.92,0:18:04.67,Dialogue,,0,0,0,,As a scientist—no, as a person,
+Dialogue: 0,0:18:04.79,0:18:09.30,Dialogue,,0,0,0,,there are no bounds to your desire to\Nput your own knowledge into practice.
+Dialogue: 0,0:18:09.71,0:18:12.88,Dialogue,,0,0,0,,You want to test out what kind of power has been given to you,
+Dialogue: 0,0:18:13.22,0:18:18.89,Dialogue,,0,0,0,,by learning all of the secrets that are hidden in this world.
+Dialogue: 0,0:18:19.10,0:18:22.10,Dialogue,,0,0,0,,That is the essence of alchemy.
+Dialogue: 0,0:18:25.69,0:18:29.15,Dialogue,,0,0,0,,We're not... Alchemy isn't...
+Dialogue: 0,0:18:29.69,0:18:30.53,Dialogue,,0,0,0,,this sort of thing...
+Dialogue: 0,0:18:31.24,0:18:32.32,Dialogue,,0,0,0,,I'm not like that!
+Dialogue: 0,0:18:32.36,0:18:36.63,Dialogue,,0,0,0,,I'm not! I'm not!
+Dialogue: 0,0:18:32.45,0:18:35.53,Dialogue,,0,0,0,,I'm not! I'm not! I'm not!
+Dialogue: 0,0:18:35.61,0:18:36.63,Dialogue,,0,0,0,,Brother! He'll die!
+Dialogue: 0,0:18:51.13,0:18:52.92,Dialogue,,0,0,0,,Big... Brother...
+Dialogue: 0,0:18:54.51,0:18:58.85,Dialogue,,0,0,0,,Nina, this might hurt a little,
+Dialogue: 0,0:18:55.43,0:18:58.85,Dialogue,,0,0,0,,but bear with me.
+Dialogue: 0,0:18:59.97,0:19:02.14,Dialogue,,0,0,0,,Brother! Are you planning to re-transmute her?!
+Dialogue: 0,0:19:02.23,0:19:03.52,Dialogue,,0,0,0,,That's not something we can do!
+Dialogue: 0,0:19:05.14,0:19:07.98,Dialogue,,0,0,0,,My Chimera has been perfectly transmuted!
+Dialogue: 0,0:19:08.06,0:19:09.73,Dialogue,,0,0,0,,Nobody can return it\Nto the way it was!
+Dialogue: 0,0:19:10.23,0:19:11.15,Dialogue,,0,0,0,,Be careful!
+Dialogue: 0,0:19:11.23,0:19:13.70,Dialogue,,0,0,0,,Make sure you don't do to her\Nwhat you did to your mother!
+Dialogue: 0,0:19:22.00,0:19:22.95,Dialogue,,0,0,0,,Let's play...
+Dialogue: 0,0:19:23.33,0:19:25.12,Dialogue,,0,0,0,,Let's play...
+Dialogue: 0,0:19:25.79,0:19:26.62,Dialogue,,0,0,0,,Nina...
+Dialogue: 0,0:19:28.42,0:19:30.96,Dialogue,,0,0,0,,What's going on here, Edward Elric?!
+Dialogue: 0,0:19:31.67,0:19:34.22,Dialogue,,0,0,0,,He used his own daughter...
+Dialogue: 0,0:19:38.68,0:19:42.06,Dialogue,,0,0,0,,The Chimera and Tucker will be dealt with in conjunction with a court martial.
+Dialogue: 0,0:19:42.89,0:19:44.64,Dialogue,,0,0,0,,You will not speak of what you saw here to anyone else.
+Dialogue: 0,0:19:44.73,0:19:48.86,Dialogue,,0,0,0,,Hold on! You guys knew what\NTucker had done, didn't you?!
+Dialogue: 0,0:19:49.19,0:19:50.02,Dialogue,,0,0,0,,You're just getting rid of the eviden—
+Dialogue: 0,0:19:58.20,0:19:59.99,Dialogue,,0,0,0,,Let's go!\NYes, sir!
+Dialogue: 0,0:20:05.16,0:20:06.25,Dialogue,,0,0,0,,Dammit!
+Dialogue: 0,0:20:06.50,0:20:09.38,Dialogue,,0,0,0,,I'm not about to let you whisk them away!
+Dialogue: 0,0:20:19.64,0:20:20.64,Dialogue,,0,0,0,,Nina!
+Dialogue: 0,0:20:25.77,0:20:26.60,Dialogue,,0,0,0,,Brother!
+Dialogue: 0,0:20:48.87,0:20:53.21,Dialogue,,0,0,0,,You are composed of both man and beast, are you?
+Dialogue: 0,0:20:55.13,0:20:58.26,Dialogue,,0,0,0,,Why would I know such a thing?
+Dialogue: 0,0:21:01.47,0:21:02.72,Dialogue,,0,0,0,,How regrettable...
+Dialogue: 0,0:21:04.35,0:21:09.23,Dialogue,,0,0,0,,O God, that great God who hast created us and all other things...
+Dialogue: 0,0:21:09.64,0:21:15.07,Dialogue,,0,0,0,,Please receive this woeful spirit into thy bosom.
+Dialogue: 0,0:21:19.45,0:21:20.41,Dialogue,,0,0,0,,Brother!
+Dialogue: 0,0:21:31.46,0:21:32.50,Dialogue,,0,0,0,,Nina!
+Dialogue: 0,0:21:42.89,0:21:45.60,Dialogue,,0,0,0,,{\i1}God, I now understand.
+Dialogue: 0,0:21:46.26,0:21:50.14,Dialogue,,0,0,0,,{\i1}The reason why my brother\Ngave me this accursed arm—
+Dialogue: 0,0:21:50.89,0:21:53.86,Dialogue,,0,0,0,,{\i1}it was so that I would take those alchemists, who have departed from the path of God,
+Dialogue: 0,0:21:54.19,0:21:58.15,Dialogue,,0,0,0,,{\i1}and with their same devilish works,\N{\i1}and destroy them.
+Dialogue: 0,0:22:00.28,0:22:04.45,Dialogue,,0,0,0,,It's...\Nas though she was decomposed by an alchemist...
+Dialogue: 0,0:22:04.95,0:22:05.91,Dialogue,,0,0,0,,But who...
+Dialogue: 0,0:22:07.58,0:22:10.41,Dialogue,,0,0,0,,But then, even if we were to do something...
+Dialogue: 0,0:22:11.91,0:22:12.75,Dialogue,,0,0,0,,I'm sorry...
+Dialogue: 0,0:22:13.67,0:22:15.79,Dialogue,,0,0,0,,Nina, I'm sorry...
+Dialogue: 0,0:22:16.25,0:22:17.42,Dialogue,,0,0,0,,Brother...
+Dialogue: 0,0:23:38.75,0:23:40.46,Dialogue,,0,0,0,,{\i1}Fullmetal Alchemist{\i0}...
+Dialogue: 0,0:23:40.55,0:23:42.80,Dialogue,,0,0,0,,Episode 8: "The Philosopher's Stone"
+Dialogue: 0,0:23:44.05,0:23:47.64,Dialogue,,0,0,0,,We can't do anything.\NWe're only children.
+Dialogue: 0,0:23:48.34,0:23:50.10,Dialogue,,0,0,0,,Even so, we can still...
