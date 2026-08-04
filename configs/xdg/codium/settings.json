@@ -26,7 +26,7 @@
     "telemetry.enableTelemetry": false,
     "code-runner.enableAppInsights": false,
     "update.mode": "none",
-    "extensions.autoUpdate": "onlySelectedExtensions",
+    "extensions.autoUpdate": false,
     "extensions.ignoreRecommendations": true,
     // "workbench.editor.showTabs": "none",
     "workbench.editor.labelFormat": "long",
