@@ -9,6 +9,7 @@ trap 'rm -rf "$temp_dir"' EXIT
 mkdir -p \
     "$temp_dir/home/.config/nvim" \
     "$temp_dir/home/.local/bin" \
+    "$temp_dir/data/applications" \
     "$temp_dir/config/nvim" \
     "$temp_dir/config/systemd/user" \
     "$temp_dir/config/ty"
@@ -22,6 +23,7 @@ ln -s "$repo/xdg/new-tab/new-tab.service" \
 printf 'old unit\n' >"$temp_dir/config/systemd/user/kanata.service"
 
 HOME="$temp_dir/home" XDG_CONFIG_HOME="$temp_dir/config" \
+    XDG_DATA_HOME="$temp_dir/data" \
     "$repo/scripts/bootstrap/link-configs.sh" >/dev/null
 
 test "$(readlink "$temp_dir/config/readline")" = "$repo/configs/xdg/readline"
@@ -63,6 +65,14 @@ test "$(readlink "$temp_dir/home/.local/bin/codium")" = "$repo/bin/codium"
 test "$(readlink "$temp_dir/home/.local/bin/fd")" = "$repo/bin/fd"
 test "$(readlink "$temp_dir/home/.local/bin/rg")" = "$repo/bin/rg"
 test "$(readlink "$temp_dir/home/.local/bin/steam")" = "$repo/bin/steam"
+grep -Fqx 'Exec=codium %F' "$temp_dir/data/applications/codium.desktop"
+grep -Fqx 'Exec=codium --new-window %F' \
+    "$temp_dir/data/applications/codium.desktop"
+if grep -Fq '/usr/share/codium/codium' \
+    "$temp_dir/data/applications/codium.desktop"; then
+    echo 'Codium desktop entry bypasses the fake-home launcher' >&2
+    exit 1
+fi
 "$temp_dir/home/.local/bin/fd" --version | grep -Fq 'fdfind '
 test "$(find "$repo/bin" -mindepth 1 -maxdepth 1 -printf '%f\n' | sort)" = \
     $'appgate\ncodium\nfd\nrg\nsteam'
@@ -133,6 +143,7 @@ git -c core.excludesFile="$repo/configs/xdg/git/ignore" \
     -C "$temp_dir/search" check-ignore -q venv/needle-venv.txt
 
 HOME="$temp_dir/home" XDG_CONFIG_HOME="$temp_dir/config" \
+    XDG_DATA_HOME="$temp_dir/data" \
     "$repo/scripts/bootstrap/link-configs.sh" >/dev/null
 test ! -e "$temp_dir/home/.profile-old"
 

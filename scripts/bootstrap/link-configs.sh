@@ -5,6 +5,7 @@ set -euo pipefail
 scripts_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 DOTFILES="$(cd "$scripts_dir/../.." && pwd)"
 XDG_CONFIG_HOME="${XDG_CONFIG_HOME:-$HOME/.config}"
+XDG_DATA_HOME="${XDG_DATA_HOME:-$HOME/.local/share}"
 
 symlink_configuration() {
 	local source="$1"
@@ -72,6 +73,13 @@ mkdir -p "$HOME/.local/bin"
 for command in "$DOTFILES/bin"/*; do
 	symlink_configuration "$command" "$HOME/.local/bin/$(basename "$command")"
 done
+
+if [ -f /usr/share/applications/codium.desktop ]; then
+	mkdir -p "$XDG_DATA_HOME/applications"
+	sed 's#^Exec=/usr/share/codium/codium#Exec=codium#' \
+		/usr/share/applications/codium.desktop \
+		>"$XDG_DATA_HOME/applications/codium.desktop"
+fi
 
 if [ ! -f "$XDG_CONFIG_HOME/wgetrc" ]; then
 	cp /etc/wgetrc "$XDG_CONFIG_HOME/wgetrc"
