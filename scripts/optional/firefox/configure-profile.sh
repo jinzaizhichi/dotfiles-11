@@ -2,15 +2,18 @@
 
 set -euo pipefail
 
+scripts_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+dotfiles_root="$(cd "$scripts_dir/../../.." && pwd)"
 xdg_root="${XDG_CONFIG_HOME:-$HOME/.config}/mozilla/firefox"
 legacy_root="$HOME/.mozilla/firefox"
+profile_error="Firefox profile not found. Launch and close Firefox once, then rerun this script."
 
 if [ -f "$xdg_root/profiles.ini" ]; then
     firefox_root="$xdg_root"
 elif [ -f "$legacy_root/profiles.ini" ]; then
     firefox_root="$legacy_root"
 else
-    echo "Firefox profiles.ini not found." >&2
+    echo "$profile_error" >&2
     exit 1
 fi
 
@@ -22,7 +25,7 @@ profile_path="$(awk -F= '
 
 profile="$firefox_root/$profile_path"
 if [ -z "$profile_path" ] || [ ! -d "$profile" ]; then
-    echo "Firefox default profile not found." >&2
+    echo "$profile_error" >&2
     exit 1
 fi
 
@@ -40,6 +43,15 @@ link_config() {
 
     if [ -L "$destination" ] && [ "$(readlink "$destination")" = "$source" ]; then
         return
+    fi
+
+    if [ -L "$destination" ]; then
+        case "$(readlink "$destination")" in
+        "$dotfiles_root"/*)
+            ln -sfn "$source" "$destination"
+            return
+            ;;
+        esac
     fi
 
     if [ -e "$destination" ] || [ -L "$destination" ]; then

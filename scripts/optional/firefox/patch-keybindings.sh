@@ -2,11 +2,17 @@
 
 set -e
 
+firefox_archive="${FIREFOX_ARCHIVE:-/usr/lib/firefox/browser/omni.ja}"
+if [ ! -r "$firefox_archive" ]; then
+  echo "Firefox installation not found at $firefox_archive. Run scripts/optional/firefox/install.sh first." >&2
+  exit 1
+fi
+
 tempdir=$(mktemp -d)
 mkdir "$tempdir/extract"
 cd "$tempdir/extract"
 set +e
-unzip /usr/lib/firefox/browser/omni.ja
+unzip "$firefox_archive"
 
 cat << EOF > './chrome/browser/content/browser/blanktab.html'
 <!DOCTYPE html>

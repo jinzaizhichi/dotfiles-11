@@ -34,6 +34,8 @@ test "$(readlink "$temp_dir/config/firefox")" = "$repo/configs/xdg/firefox"
 test "$(readlink "$temp_dir/config/new-tab")" = "$repo/configs/xdg/new-tab"
 test "$(readlink "$temp_dir/config/kanata")" = "$repo/configs/xdg/kanata"
 test "$(readlink "$temp_dir/config/mise")" = "$repo/configs/xdg/mise"
+test "$(readlink "$temp_dir/config/wgetrc")" = "$repo/configs/xdg/wgetrc"
+grep -Fqx 'hsts-file = ~/.local/state/wget-hsts' "$temp_dir/config/wgetrc"
 test "$(readlink "$temp_dir/config/ty/ty.toml")" = "$repo/configs/xdg/ty/ty.toml"
 test "$(readlink "$temp_dir/home/.profile")" = "$repo/configs/home/profile"
 test "$(readlink "$temp_dir/config/systemd/user/new-tab.service")" = \
@@ -160,6 +162,19 @@ fi
 grep -qx 'keep me' "$temp_dir/collision-home/.profile"
 grep -qx 'older backup' "$temp_dir/collision-home/.profile-old"
 
+uninitialized_firefox_home="$temp_dir/uninitialized-firefox-home"
+mkdir -p "$uninitialized_firefox_home/.config"
+if HOME="$uninitialized_firefox_home" \
+    XDG_CONFIG_HOME="$uninitialized_firefox_home/.config" \
+    "$repo/scripts/optional/firefox/configure-profile.sh" \
+    >"$temp_dir/firefox-no-profile.out" 2>"$temp_dir/firefox-no-profile.err"; then
+    echo 'Firefox profile configuration succeeded without a profile' >&2
+    exit 1
+fi
+grep -Fqx \
+    'Firefox profile not found. Launch and close Firefox once, then rerun this script.' \
+    "$temp_dir/firefox-no-profile.err"
+
 firefox_root="$temp_dir/firefox-home/.config/mozilla/firefox"
 mkdir -p \
     "$firefox_root/Profiles/test.default-release/chrome" \
@@ -189,6 +204,20 @@ grep -Fq 'regexp("^moz-extension://.*/html/newtab[.]html$")' \
     "$firefox_root/Profiles/test.default-release/chrome/userContent.css"
 grep -Fq 'background-color: #1c1b22 !important;' \
     "$firefox_root/Profiles/test.default-release/chrome/userContent.css"
+
+ln -sfn "$repo/xdg/firefox/user.js" \
+    "$firefox_root/Profiles/test.default-release/user.js"
+ln -sfn "$repo/xdg/firefox/chrome/userContent.css" \
+    "$firefox_root/Profiles/test.default-release/chrome/userContent.css"
+
+HOME="$temp_dir/firefox-home" \
+    XDG_CONFIG_HOME="$temp_dir/firefox-home/.config" \
+    "$repo/scripts/optional/firefox/configure-profile.sh" >/dev/null
+
+test "$(readlink "$firefox_root/Profiles/test.default-release/user.js")" = \
+    "$repo/configs/xdg/firefox/user.js"
+test "$(readlink "$firefox_root/Profiles/test.default-release/chrome/userContent.css")" = \
+    "$repo/configs/xdg/firefox/chrome/userContent.css"
 
 legacy_root="$temp_dir/legacy-firefox-home/.mozilla/firefox"
 mkdir -p \
@@ -333,7 +362,7 @@ grep -q '^apt-get install -y ' "$temp_dir/sudo.log"
 grep -Fqx -- '--fail --silent --show-error --location https://mise.run' \
     "$temp_dir/curl.log"
 grep -Fqx \
-    'install --yes rust uv lazygit lazydocker shfmt k9s github:zk-org/zk github:ewhauser/shuck bob github:jtroo/kanata' \
+    'install --yes rust uv ty lazygit lazydocker shfmt k9s github:zk-org/zk github:ewhauser/shuck bob github:jtroo/kanata' \
     "$temp_dir/mise.log"
 grep -Fqx 'exec -- bob use nightly' "$temp_dir/mise.log"
 if grep -q 'pipewire-audio-client-libraries' "$temp_dir/sudo.log"; then
@@ -679,6 +708,112 @@ test -f "$repo/configs/gnome-terminal/profile.dconf"
 grep -Fq "\"\$dotfiles/configs/gnome-terminal/profile.dconf\"" \
     "$repo/scripts/optional/desktop/import-gnome-terminal-profile.sh"
 
+if SNAP_BLOCK_FILE="$temp_dir/missing-no-snap.pref" \
+    "$repo/scripts/optional/firefox/install.sh" \
+    >"$temp_dir/firefox-install.out" 2>"$temp_dir/firefox-install.err"; then
+    echo 'Firefox installation succeeded before Snap was disabled' >&2
+    exit 1
+fi
+grep -Fqx \
+    'Snap is not disabled. Run scripts/optional/system/disable-snap.sh first.' \
+    "$temp_dir/firefox-install.err"
+
+firefox_install_test="$temp_dir/firefox-install"
+mkdir -p "$firefox_install_test/bin"
+touch "$firefox_install_test/no-snap.pref"
+cat >"$firefox_install_test/bin/dpkg-query" <<'EOF'
+#!/usr/bin/env bash
+printf 'install ok installed'
+EOF
+cat >"$firefox_install_test/bin/sudo" <<'EOF'
+#!/usr/bin/env bash
+printf '%s\n' "$*" >>"$FIREFOX_INSTALL_LOG"
+if [ "${1:-}" = tee ]; then
+    cat >/dev/null
+fi
+EOF
+chmod +x "$firefox_install_test/bin/dpkg-query" "$firefox_install_test/bin/sudo"
+FIREFOX_ARCHIVE="$firefox_install_test/missing-omni.ja" \
+    FIREFOX_INSTALL_LOG="$firefox_install_test/commands" \
+    SNAP_BLOCK_FILE="$firefox_install_test/no-snap.pref" \
+    PATH="$firefox_install_test/bin:$PATH" \
+    "$repo/scripts/optional/firefox/install.sh" >/dev/null
+grep -Fqx 'apt install -y firefox' "$firefox_install_test/commands"
+
+firefox_patch_test="$temp_dir/firefox-patch"
+mkdir -p "$firefox_patch_test/bin" "$firefox_patch_test/home"
+cat >"$firefox_patch_test/bin/unzip" <<'EOF'
+#!/usr/bin/env bash
+exit 1
+EOF
+chmod +x "$firefox_patch_test/bin/unzip"
+if FIREFOX_ARCHIVE="$firefox_patch_test/missing-omni.ja" \
+    HOME="$firefox_patch_test/home" \
+    PATH="$firefox_patch_test/bin:$PATH" \
+    "$repo/scripts/optional/firefox/patch-keybindings.sh" \
+    >"$firefox_patch_test/out" 2>"$firefox_patch_test/err"; then
+    echo 'Firefox keybinding patch succeeded without Firefox' >&2
+    exit 1
+fi
+grep -Fqx \
+    "Firefox installation not found at $firefox_patch_test/missing-omni.ja. Run scripts/optional/firefox/install.sh first." \
+    "$firefox_patch_test/err"
+
+lightdm_test="$temp_dir/lightdm"
+mkdir -p "$lightdm_test/bin"
+cat >"$lightdm_test/bin/sudo" <<'EOF'
+#!/usr/bin/env bash
+exit 1
+EOF
+cat >"$lightdm_test/bin/strings" <<'EOF'
+#!/usr/bin/env bash
+exit 1
+EOF
+chmod +x "$lightdm_test/bin/sudo" "$lightdm_test/bin/strings"
+for script in configure-xauthority.sh patch-binary.sh; do
+    if LIGHTDM_BIN="$lightdm_test/missing-lightdm" \
+        PATH="$lightdm_test/bin:$PATH" \
+        "$repo/scripts/optional/desktop/lightdm/$script" \
+        >"$lightdm_test/$script.out" 2>"$lightdm_test/$script.err"; then
+        echo "$script succeeded without LightDM" >&2
+        exit 1
+    fi
+    grep -Fqx \
+        'LightDM is not installed. Run this script only on Ubuntu Cinnamon with LightDM.' \
+        "$lightdm_test/$script.err"
+done
+
+gnome_terminal_test="$temp_dir/gnome-terminal"
+mkdir -p "$gnome_terminal_test/bin"
+for command in dconf gsettings; do
+    cat >"$gnome_terminal_test/bin/$command" <<'EOF'
+#!/usr/bin/env bash
+exit 1
+EOF
+    chmod +x "$gnome_terminal_test/bin/$command"
+done
+if DCONF_BIN="$gnome_terminal_test/missing-dconf" \
+    GSETTINGS_BIN="$gnome_terminal_test/missing-gsettings" \
+    PATH="$gnome_terminal_test/bin:$PATH" \
+    "$repo/scripts/optional/desktop/import-gnome-terminal-profile.sh" \
+    >"$gnome_terminal_test/out" 2>"$gnome_terminal_test/err"; then
+    echo 'GNOME Terminal profile import succeeded without GNOME Terminal' >&2
+    exit 1
+fi
+grep -Fqx \
+    'GNOME Terminal is not installed. Run this script only on Ubuntu Cinnamon with GNOME Terminal.' \
+    "$gnome_terminal_test/err"
+
+mkdir -p "$temp_dir/no-zsh-bin"
+if PATH="$temp_dir/no-zsh-bin" SHELL=/usr/bin/zsh \
+    "$repo/scripts/optional/shell/set-default-zsh.sh" \
+    >"$temp_dir/no-zsh.out" 2>"$temp_dir/no-zsh.err"; then
+    echo 'Default-shell configuration succeeded without Zsh' >&2
+    exit 1
+fi
+grep -Fqx 'Zsh is not installed. Run scripts/setup.sh first.' \
+    "$temp_dir/no-zsh.err"
+
 snap_test="$temp_dir/snap-test"
 mkdir -p "$snap_test/bin" "$snap_test/home/snap/firefox" "$snap_test/trash"
 printf 'keep me\n' >"$snap_test/home/snap/firefox/data"
@@ -900,7 +1035,7 @@ grep -Fqx \
     "$repo/configs/xdg/zsh/.zshrc"
 test "$(grep -Ec '^zinit light (chr-fritz/docker-completion[.]zshplugin|greymd/docker-zsh-completion)$' \
     "$repo/configs/xdg/zsh/.zshrc")" -eq 1
-for command in rust uv lazygit lazydocker shfmt k9s zk shuck bob kanata; do
+for command in rust uv ty lazygit lazydocker shfmt k9s zk shuck bob kanata; do
     grep -Eq "^${command}[[:space:]]*=" "$repo/configs/xdg/mise/config.toml" || \
         grep -Eq "github:[^\"]*/${command}\"" "$repo/configs/xdg/mise/config.toml"
 done

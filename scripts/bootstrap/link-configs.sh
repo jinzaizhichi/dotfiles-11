@@ -80,7 +80,3 @@ if [ -f /usr/share/applications/codium.desktop ]; then
 		/usr/share/applications/codium.desktop \
 		>"$XDG_DATA_HOME/applications/codium.desktop"
 fi
-
-if [ ! -f "$XDG_CONFIG_HOME/wgetrc" ]; then
-	cp /etc/wgetrc "$XDG_CONFIG_HOME/wgetrc"
-fi

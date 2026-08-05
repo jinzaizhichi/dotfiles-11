@@ -24,8 +24,9 @@ project_environment="$({
         sh "$repo/configs/home/profile"
 })"
 test "$project_environment" = venv
+ty_bin="$(mise which ty)"
 
 (
     cd "$test_dir/project"
-    XDG_CONFIG_HOME="$test_dir/config" ty check
+    XDG_CONFIG_HOME="$test_dir/config" "$ty_bin" check
 )
