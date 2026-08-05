@@ -11,3 +11,6 @@ user_files/
 
 # Restored separately; do not vendor downloaded Anki add-ons.
 /japanese/anki/addons21/
+
+# Local Git worktrees.
+/.worktrees/
