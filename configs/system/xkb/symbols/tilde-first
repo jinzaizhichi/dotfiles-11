@@ -1,0 +1,6 @@
+default partial alphanumeric_keys
+xkb_symbols "basic" {
+    include "us(basic)"
+    name[Group1] = "English (US, tilde first)";
+    key <TLDE> { [ asciitilde, grave ] };
+};

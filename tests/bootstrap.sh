@@ -392,12 +392,15 @@ grep -Fqx 'set org.freedesktop.ibus.general use-system-keyboard-layout true' \
     "$temp_dir/gsettings.log"
 test -f "$repo/configs/system/keyboard"
 grep -Fqx 'XKBMODEL="pc105"' "$repo/configs/system/keyboard"
-grep -Fqx 'XKBLAYOUT="us,ru"' "$repo/configs/system/keyboard"
+grep -Fqx 'XKBLAYOUT="tilde-first,ru"' "$repo/configs/system/keyboard"
 grep -Fqx 'XKBVARIANT=","' "$repo/configs/system/keyboard"
 grep -Fqx 'XKBOPTIONS="grp:alt_shift_toggle"' "$repo/configs/system/keyboard"
+grep -Fqx \
+    "install -m 644 $repo/configs/system/xkb/symbols/tilde-first /usr/share/X11/xkb/symbols/tilde-first" \
+    "$temp_dir/sudo.log"
 grep -Fqx "install -m 644 $repo/configs/system/keyboard /etc/default/keyboard" \
     "$temp_dir/sudo.log"
-grep -Fqx -- '-layout us,ru -variant , -option  -option grp:alt_shift_toggle' \
+grep -Fqx -- '-layout tilde-first,ru -variant , -option  -option grp:alt_shift_toggle' \
     "$temp_dir/xkb.log"
 
 mkdir -p "$temp_dir/setup-kde-home"
@@ -413,7 +416,7 @@ BOOTSTRAP_LOG="$temp_dir/kde-setup-sudo.log" \
     XDG_CONFIG_HOME="$temp_dir/setup-kde-home/.config" \
     XDG_DATA_HOME="$temp_dir/setup-kde-home/.local/share" \
     "$repo/scripts/setup.sh" >/dev/null
-grep -Fqx -- '--file kxkbrc --group Layout --key LayoutList us,ru' \
+grep -Fqx -- '--file kxkbrc --group Layout --key LayoutList tilde-first,ru' \
     "$temp_dir/kde-setup-kwriteconfig.log"
 grep -Eq '^apt-get install -y .*libncurses-dev' \
     "$temp_dir/kde-setup-sudo.log"
@@ -454,7 +457,7 @@ KWRITECONFIG_LOG="$temp_dir/kwriteconfig.log" \
 for expected in \
     '--file kxkbrc --group Layout --key Use true' \
     '--file kxkbrc --group Layout --key ResetOldOptions true' \
-    '--file kxkbrc --group Layout --key LayoutList us,ru' \
+    '--file kxkbrc --group Layout --key LayoutList tilde-first,ru' \
     '--file kxkbrc --group Layout --key VariantList ,' \
     '--file kxkbrc --group Layout --key Options grp:alt_shift_toggle' \
     '--file kcminputrc --group Keyboard --key KeyRepeat repeat' \
@@ -462,6 +465,13 @@ for expected in \
     '--file kcminputrc --group Keyboard --key RepeatRate 40'; do
     grep -Fqx -- "$expected" "$temp_dir/kwriteconfig.log"
 done
+
+grep -A6 '^(deflayer default' "$repo/configs/xdg/kanata/kanata.kbd" |
+    grep -Fqx '    grv'
+if rg -q '@grave|grave \(switch' "$repo/configs/xdg/kanata/kanata.kbd"; then
+    echo 'Kanata still owns the layout-sensitive grave-key mapping' >&2
+    exit 1
+fi
 
 keyboard_repo="$temp_dir/keyboard-repo"
 mkdir -p "$keyboard_repo/scripts/bootstrap" "$keyboard_repo/configs/system"
