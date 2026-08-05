@@ -1,0 +1,387 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Amira,35,&H00FFFFFF,&H000000FF,&H0000012D,&H96000000,-1,0,0,0,100,100,0,0,1,1.6,0.666667,2,15,15,20,1
+Style: CRKokoro,Amira,35,&H00FFFFFF,&H000000FF,&H0000012D,&H96000000,-1,0,0,0,100,100,0,0,1,1.6,0.666667,2,15,15,20,1
+Style: Ep Title,Amira,35,&H00BA97DE,&H00FFFFFF,&H00000000,&H00202020,0,0,0,0,100,100,0,0,1,0,0,8,0001,0001,0015,0
+Style: Next Ep Title,Amira,35,&H0076DFC0,&H00FFFFFF,&H00000000,&H00202020,0,0,0,0,100,100,0,0,1,0,0,8,0001,0001,0015,0
+Style: sweets,Amira,33,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0015,0015,0015,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:02.32,0:00:04.86,CRKokoro,Aoki,0000,0000,0000,,This might seem like weird timing,
+Dialogue: 0,0:00:04.86,0:00:06.27,CRKokoro,Aoki,0000,0000,0000,,but I'm saying it now.
+Dialogue: 0,0:00:06.49,0:00:08.29,CRKokoro,Yui,0000,0000,0000,,Wh-What?
+Dialogue: 0,0:00:09.27,0:00:12.24,CRKokoro,Aoki,0000,0000,0000,,I love you, Kiriyama Yui-san.
+Dialogue: 0,0:00:12.85,0:00:14.53,CRKokoro,Aoki,0000,0000,0000,,Please go out with me.
+Dialogue: 0,0:00:17.61,0:00:19.73,CRKokoro,Yui,0000,0000,0000,,What are you doing?
+Dialogue: 0,0:00:19.73,0:00:21.54,CRKokoro,Yui,0000,0000,0000,,I already turned you down.
+Dialogue: 0,0:00:21.54,0:00:24.41,CRKokoro,Aoki,0000,0000,0000,,But I still feel the same way about you,
+Dialogue: 0,0:00:24.41,0:00:26.02,CRKokoro,Aoki,0000,0000,0000,,and you might have changed your mind...
+Dialogue: 0,0:00:26.02,0:00:27.33,CRKokoro,Yui,0000,0000,0000,,No! Never!
+Dialogue: 0,0:00:29.41,0:00:31.76,CRKokoro,Yui,0000,0000,0000,,Not yet...
+Dialogue: 0,0:00:32.06,0:00:33.08,CRKokoro,Tai,0000,0000,0000,,Not yet?
+Dialogue: 0,0:00:33.78,0:00:36.92,CRKokoro,Yui,0000,0000,0000,,I've been wondering, why me?
+Dialogue: 0,0:00:37.27,0:00:39.93,CRKokoro,Yui,0000,0000,0000,,Iori's a lot cuter than I am.
+Dialogue: 0,0:00:39.93,0:00:41.52,CRKokoro,Yui,0000,0000,0000,,And Inaba's really pretty.
+Dialogue: 0,0:00:41.78,0:00:44.04,CRKokoro,Aoki,0000,0000,0000,,There's plenty to like about you.
+Dialogue: 0,0:00:44.49,0:00:46.65,CRKokoro,Aoki,0000,0000,0000,,But the biggest factor was intuition.
+Dialogue: 0,0:00:47.39,0:00:50.52,CRKokoro,Aoki,0000,0000,0000,,From the moment I first saw you, \NI knew I would fall for you.
+Dialogue: 0,0:00:50.91,0:00:52.79,CRKokoro,Aoki,0000,0000,0000,,Then I fell in love with you,
+Dialogue: 0,0:00:52.79,0:00:54.28,CRKokoro,Aoki,0000,0000,0000,,and I still love you now.
+Dialogue: 0,0:02:30.46,0:02:33.65,CRKokoro,Yui,0000,0000,0000,,So why are you telling me this now?
+Dialogue: 0,0:02:34.36,0:02:37.30,CRKokoro,Aoki,0000,0000,0000,,How do you feel about Taichi?
+Dialogue: 0,0:02:38.05,0:02:40.68,CRKokoro,Yui,0000,0000,0000,,Taichi? Well...
+Dialogue: 0,0:02:42.29,0:02:43.35,CRKokoro,Yui,0000,0000,0000,,I like him.
+Dialogue: 0,0:02:44.55,0:02:46.13,CRKokoro,Yui,0000,0000,0000,,As a friend.
+Dialogue: 0,0:02:47.48,0:02:49.53,CRKokoro,Aoki,0000,0000,0000,,Wh-What about me?
+Dialogue: 0,0:02:49.53,0:02:50.84,CRKokoro,Yui,0000,0000,0000,,I hate you as a friend.
+Dialogue: 0,0:02:50.84,0:02:51.64,CRKokoro,Aoki,0000,0000,0000,,No way!
+Dialogue: 0,0:02:51.64,0:02:53.30,CRKokoro,Yui,0000,0000,0000,,You actually believed that?
+Dialogue: 0,0:02:53.30,0:02:55.18,CRKokoro,Yui,0000,0000,0000,,I probably like you.
+Dialogue: 0,0:02:55.18,0:02:57.57,CRKokoro,Yui,0000,0000,0000,,Ah, but only as a friend. As a friend.
+Dialogue: 0,0:02:59.21,0:03:02.25,CRKokoro,Yui,0000,0000,0000,,But that's the best I \Ncan manage right now.
+Dialogue: 0,0:03:03.41,0:03:06.46,CRKokoro,Yui,0000,0000,0000,,Sorry, it's not you.
+Dialogue: 0,0:03:06.46,0:03:08.83,CRKokoro,Yui,0000,0000,0000,,I'm not ready to go out with anyone.
+Dialogue: 0,0:03:11.55,0:03:13.96,CRKokoro,Aoki,0000,0000,0000,,Well, at least it sounds \Nlike I have a chance.
+Dialogue: 0,0:03:15.54,0:03:17.23,CRKokoro,Yui,0000,0000,0000,,Are you satisfied now?
+Dialogue: 0,0:03:17.23,0:03:19.21,CRKokoro,Yui,0000,0000,0000,,Can we go back to the \Nclassroom and have lunch?
+Dialogue: 0,0:03:19.21,0:03:21.54,CRKokoro,Aoki,0000,0000,0000,,Are you inviting me to join you?
+Dialogue: 0,0:03:21.54,0:03:24.31,CRKokoro,Yui,0000,0000,0000,,No, my friends are waiting for me!
+Dialogue: 0,0:03:24.31,0:03:25.48,CRKokoro,Aoki,0000,0000,0000,,Ah, wait!
+Dialogue: 0,0:03:25.48,0:03:28.27,CRKokoro,Yui,0000,0000,0000,,{\an8}Just so you know, you're way behind
+Dialogue: 0,0:03:28.27,0:03:30.74,CRKokoro,,0000,0000,0000,,{\an8}Taichi on my male friend list.
+Dialogue: 0,0:03:30.09,0:03:32.32,CRKokoro,Tai,0000,0000,0000,,How did you know this \Nwas going to happen?
+Dialogue: 0,0:03:30.74,0:03:34.08,CRKokoro,Aoki,0000,0000,0000,,{\an8}What?! So Taichi is my biggest rival!
+Dialogue: 0,0:03:32.32,0:03:34.56,CRKokoro,Ina,0000,0000,0000,,I switched with Yui yesterday and
+Dialogue: 0,0:03:34.56,0:03:37.07,CRKokoro,,0000,0000,0000,,happened to see the text from Aoki.
+Dialogue: 0,0:03:37.07,0:03:38.73,CRKokoro,Ina,0000,0000,0000,,It was an accident.
+Dialogue: 0,0:03:38.94,0:03:43.99,CRKokoro,Ina,0000,0000,0000,,And I figured it might \Nhelp give you two a jolt.
+Dialogue: 0,0:03:44.28,0:03:45.49,CRKokoro,Tai,0000,0000,0000,,A jolt?
+Dialogue: 0,0:03:47.36,0:03:49.29,CRKokoro,Ina,0000,0000,0000,,Well, it's up to you from here.
+Dialogue: 0,0:03:49.80,0:03:50.68,CRKokoro,Ina,0000,0000,0000,,Bye.
+Dialogue: 0,0:03:53.28,0:03:54.74,CRKokoro,Tai,0000,0000,0000,,We should get going.
+Dialogue: 0,0:03:58.32,0:04:00.01,CRKokoro,Iori,0000,0000,0000,,I'm okay.
+Dialogue: 0,0:04:09.10,0:04:10.77,CRKokoro,Iori,0000,0000,0000,,You're it, Taichi?
+Dialogue: 0,0:04:10.77,0:04:12.02,CRKokoro,Tai,0000,0000,0000,,Yeah...
+Dialogue: 0,0:04:12.02,0:04:14.27,CRKokoro,Tai,0000,0000,0000,,Are you Inaba?
+Dialogue: 0,0:04:14.27,0:04:16.25,CRKokoro,Iori,0000,0000,0000,,Yeah, that's right.
+Dialogue: 0,0:04:16.25,0:04:18.69,CRKokoro,Iori,0000,0000,0000,,Iori and I switched places.
+Dialogue: 0,0:04:18.99,0:04:20.23,CRKokoro,Iori,0000,0000,0000,,So...
+Dialogue: 0,0:04:21.15,0:04:23.45,CRKokoro,Iori,0000,0000,0000,,What did you think after seeing \NAoki and Yui during lunch?
+Dialogue: 0,0:04:23.45,0:04:24.94,CRKokoro,Tai,0000,0000,0000,,What did I think?
+Dialogue: 0,0:04:25.35,0:04:27.91,CRKokoro,Tai,0000,0000,0000,,It felt like I was watching \Npeople from a different planet.
+Dialogue: 0,0:04:29.05,0:04:32.54,CRKokoro,Tai,0000,0000,0000,,Why did you want us to watch them?
+Dialogue: 0,0:04:32.54,0:04:35.92,CRKokoro,Iori,0000,0000,0000,,You can't seriously be so dense,
+Dialogue: 0,0:04:35.92,0:04:37.02,CRKokoro,Iori,0000,0000,0000,,can you?
+Dialogue: 0,0:04:37.02,0:04:37.77,CRKokoro,Tai,0000,0000,0000,,Huh?
+Dialogue: 0,0:04:38.15,0:04:39.64,CRKokoro,Iori,0000,0000,0000,,Forget it.
+Dialogue: 0,0:04:39.64,0:04:41.98,CRKokoro,Iori,0000,0000,0000,,I'll cut to the chase.
+Dialogue: 0,0:04:41.98,0:04:45.74,CRKokoro,Iori,0000,0000,0000,,How do you feel about Iori?
+Dialogue: 0,0:04:47.16,0:04:50.43,CRKokoro,Tai,0000,0000,0000,,Nothing is ever off-limits for you.
+Dialogue: 0,0:04:50.81,0:04:54.94,CRKokoro,Tai,0000,0000,0000,,And it's more awkward when \Nyou look like Nagase.
+Dialogue: 0,0:04:54.94,0:04:56.81,CRKokoro,Iori,0000,0000,0000,,Perfect timing, right?
+Dialogue: 0,0:04:56.81,0:04:58.23,CRKokoro,Tai,0000,0000,0000,,Why would you think that?
+Dialogue: 0,0:04:58.74,0:05:00.40,CRKokoro,Tai,0000,0000,0000,,Well, I guess...
+Dialogue: 0,0:05:01.07,0:05:05.31,CRKokoro,Tai,0000,0000,0000,,I really like our current relationship,
+Dialogue: 0,0:05:05.31,0:05:08.23,CRKokoro,Tai,0000,0000,0000,,and I don't want to ruin that.
+Dialogue: 0,0:05:08.57,0:05:09.60,CRKokoro,Tai,0000,0000,0000,,But...
+Dialogue: 0,0:05:10.74,0:05:13.08,CRKokoro,Ina,0000,0000,0000,,Hey, it's just you two?
+Dialogue: 0,0:05:13.08,0:05:14.83,CRKokoro,Iori,0000,0000,0000,,You're too early, Inaban.
+Dialogue: 0,0:05:14.83,0:05:15.69,CRKokoro,Ina,0000,0000,0000,,Huh?
+Dialogue: 0,0:05:20.91,0:05:22.76,CRKokoro,Iori,0000,0000,0000,,I really fooled you.
+Dialogue: 0,0:05:23.81,0:05:24.60,CRKokoro,Ina,0000,0000,0000,,Iori!
+Dialogue: 0,0:05:24.99,0:05:26.74,CRKokoro,Ina,0000,0000,0000,,Taichi, what did you do?!
+Dialogue: 0,0:05:26.74,0:05:28.04,CRKokoro,Tai,0000,0000,0000,,Hell if I know!
+Dialogue: 0,0:05:28.04,0:05:30.14,CRKokoro,Tai,0000,0000,0000,,Nagase was pretending to \Nhave switched with you.
+Dialogue: 0,0:05:30.14,0:05:32.77,CRKokoro,Ina,0000,0000,0000,,What's that supposed to mean?
+Dialogue: 0,0:05:32.77,0:05:35.34,CRKokoro,Tai,0000,0000,0000,,I don't get it either...
+Dialogue: 0,0:05:36.24,0:05:37.55,CRKokoro,Tai,0000,0000,0000,,{\i1}Because no matter what happens,{\i0}
+Dialogue: 0,0:05:37.55,0:05:39.36,CRKokoro,,0000,0000,0000,,{\i1}no matter how much you change,{\i0}
+Dialogue: 0,0:05:39.36,0:05:42.76,CRKokoro,Tai,0000,0000,0000,,{\i1}I'll always be able to recognize \Nyou for who you are.{\i0}
+Dialogue: 0,0:05:46.22,0:05:48.90,CRKokoro,Ina,0000,0000,0000,,Looks like you have some idea.
+Dialogue: 0,0:05:49.40,0:05:52.99,CRKokoro,Tai,0000,0000,0000,,Yeah, I realized that I'm pathetic.
+Dialogue: 0,0:05:53.70,0:05:56.71,CRKokoro,Tai,0000,0000,0000,,She wanted to trust me.
+Dialogue: 0,0:05:57.82,0:06:00.50,CRKokoro,Ina,0000,0000,0000,,Want me to sock you good?
+Dialogue: 0,0:06:00.50,0:06:02.54,CRKokoro,Tai,0000,0000,0000,,Yeah, go ahe—
+Dialogue: 0,0:06:03.82,0:06:05.56,CRKokoro,Ina,0000,0000,0000,,Chase her down.
+Dialogue: 0,0:06:05.56,0:06:07.56,CRKokoro,Ina,0000,0000,0000,,I'm not the one she needs.
+Dialogue: 0,0:06:14.71,0:06:15.49,CRKokoro,Tai,0000,0000,0000,,Fujishima!
+Dialogue: 0,0:06:15.49,0:06:16.78,CRKokoro,Fuji,0000,0000,0000,,Yaegashi-kun...
+Dialogue: 0,0:06:16.78,0:06:18.14,CRKokoro,Tai,0000,0000,0000,,Did you see Nagase?
+Dialogue: 0,0:06:18.48,0:06:20.91,CRKokoro,Fuji,0000,0000,0000,,Must we live in a world where a
+Dialogue: 0,0:06:20.91,0:06:24.15,CRKokoro,,0000,0000,0000,,couple is defined as a man and a woman?
+Dialogue: 0,0:06:24.60,0:06:25.52,CRKokoro,Fuji,0000,0000,0000,,What do you think?
+Dialogue: 0,0:06:25.92,0:06:28.55,CRKokoro,Tai,0000,0000,0000,,I don't have time to talk \Nabout that right now!
+Dialogue: 0,0:06:28.55,0:06:29.90,CRKokoro,Tai,0000,0000,0000,,I'm looking for Nagase!
+Dialogue: 0,0:06:31.11,0:06:32.66,CRKokoro,Tai,0000,0000,0000,,Move, Fujishi—
+Dialogue: 0,0:06:33.97,0:06:36.62,CRKokoro,Fuji,0000,0000,0000,,Nagase-san ran out the front gate!
+Dialogue: 0,0:06:37.26,0:06:39.00,CRKokoro,Fuji,0000,0000,0000,,I wasn't able to help her.
+Dialogue: 0,0:06:39.91,0:06:43.92,CRKokoro,Fuji,0000,0000,0000,,I'm guessing that you're \Nthe one she needs.
+Dialogue: 0,0:06:44.65,0:06:46.92,CRKokoro,Tai,0000,0000,0000,,Fujishima... Are you okay with that?
+Dialogue: 0,0:06:47.70,0:06:51.04,CRKokoro,Fuji,0000,0000,0000,,If you're the one Nagase-san \Nneeds right now,
+Dialogue: 0,0:06:51.04,0:06:52.55,CRKokoro,,0000,0000,0000,,I won't stand in your way.
+Dialogue: 0,0:06:53.00,0:06:54.19,CRKokoro,Fuji,0000,0000,0000,,Hurry up now.
+Dialogue: 0,0:06:58.56,0:06:59.81,CRKokoro,Tai,0000,0000,0000,,{\i1}Nagase...{\i0}
+Dialogue: 0,0:07:00.23,0:07:02.93,CRKokoro,Tai,0000,0000,0000,,{\i1}Where are you, Nagase?{\i0}
+Dialogue: 0,0:07:11.48,0:07:12.45,CRKokoro,Tai,0000,0000,0000,,Nagase!
+Dialogue: 0,0:07:14.98,0:07:16.04,CRKokoro,Iori,0000,0000,0000,,Taichi...
+Dialogue: 0,0:07:17.80,0:07:20.54,CRKokoro,Tai,0000,0000,0000,,I'm really sorry that I \Ndidn't notice it was you!
+Dialogue: 0,0:07:21.22,0:07:22.54,CRKokoro,Tai,0000,0000,0000,,After I made that promise...
+Dialogue: 0,0:07:25.39,0:07:29.17,CRKokoro,Iori,0000,0000,0000,,What defines humans... defines us?
+Dialogue: 0,0:07:30.14,0:07:32.24,CRKokoro,Iori,0000,0000,0000,,Nobody will notice a change on the inside
+Dialogue: 0,0:07:32.24,0:07:34.80,CRKokoro,,0000,0000,0000,,if you look the same on the outside.
+Dialogue: 0,0:07:35.24,0:07:38.59,CRKokoro,Iori,0000,0000,0000,,Oh, I'm not blaming you \Nfor anything, Taichi.
+Dialogue: 0,0:07:38.59,0:07:41.17,CRKokoro,Iori,0000,0000,0000,,That was all my fault.
+Dialogue: 0,0:07:41.17,0:07:42.69,CRKokoro,Iori,0000,0000,0000,,I'm sorry.
+Dialogue: 0,0:07:43.35,0:07:48.31,CRKokoro,Tai,0000,0000,0000,,But you were trying to move on, right?
+Dialogue: 0,0:07:49.93,0:07:51.00,CRKokoro,Tai,0000,0000,0000,,Thanks.
+Dialogue: 0,0:07:51.42,0:07:54.25,CRKokoro,Tai,0000,0000,0000,,And now, it's my turn.
+Dialogue: 0,0:07:55.11,0:07:58.31,CRKokoro,Tai,0000,0000,0000,,Uh, where to start...
+Dialogue: 0,0:07:58.64,0:08:01.91,CRKokoro,Tai,0000,0000,0000,,I really admire you, Nagase.
+Dialogue: 0,0:08:02.49,0:08:03.96,CRKokoro,Iori,0000,0000,0000,,You admire me?
+Dialogue: 0,0:08:03.96,0:08:07.85,CRKokoro,Tai,0000,0000,0000,,I can't express myself the way you do.
+Dialogue: 0,0:08:07.85,0:08:10.49,CRKokoro,Tai,0000,0000,0000,,I don't know how to show \Njoy, anger, or sorrow.
+Dialogue: 0,0:08:11.09,0:08:17.46,CRKokoro,Tai,0000,0000,0000,,That's why I admire the \Nway you enjoy life.
+Dialogue: 0,0:08:18.54,0:08:23.35,CRKokoro,Iori,0000,0000,0000,,That's because I keep switching roles.
+Dialogue: 0,0:08:23.35,0:08:25.36,CRKokoro,Tai,0000,0000,0000,,You told me that the other day.
+Dialogue: 0,0:08:25.86,0:08:29.73,CRKokoro,Tai,0000,0000,0000,,But is that really the case?
+Dialogue: 0,0:08:31.76,0:08:32.76,CRKokoro,Iori,0000,0000,0000,,What do you mean?
+Dialogue: 0,0:08:33.30,0:08:34.83,CRKokoro,Iori,0000,0000,0000,,What are you trying to say?
+Dialogue: 0,0:08:35.51,0:08:37.49,CRKokoro,Iori,0000,0000,0000,,You seem to be confused.
+Dialogue: 0,0:08:38.81,0:08:40.83,CRKokoro,Tai,0000,0000,0000,,When you joke around or play dumb,
+Dialogue: 0,0:08:40.83,0:08:43.42,CRKokoro,Tai,0000,0000,0000,,get embarrassed or make dirty jokes,
+Dialogue: 0,0:08:43.42,0:08:47.18,CRKokoro,Tai,0000,0000,0000,,do things spontaneously \Nor plan everything out,
+Dialogue: 0,0:08:47.18,0:08:51.40,CRKokoro,Tai,0000,0000,0000,,think too much or don't think at all,
+Dialogue: 0,0:08:51.40,0:08:55.96,CRKokoro,Tai,0000,0000,0000,,tell a joke before a \Nserious conversation
+Dialogue: 0,0:08:55.96,0:08:58.10,CRKokoro,Tai,0000,0000,0000,,or act cold...
+Dialogue: 0,0:08:58.10,0:09:00.39,CRKokoro,Iori,0000,0000,0000,,Um, what are you getting at?
+Dialogue: 0,0:09:00.83,0:09:02.31,CRKokoro,Tai,0000,0000,0000,,In each case, you're still you.
+Dialogue: 0,0:09:02.31,0:09:03.77,CRKokoro,Iori,0000,0000,0000,,What's that mean?
+Dialogue: 0,0:09:04.21,0:09:06.02,CRKokoro,Tai,0000,0000,0000,,You're still Nagase Iori!
+Dialogue: 0,0:09:07.13,0:09:09.72,CRKokoro,Iori,0000,0000,0000,,There's no such person!
+Dialogue: 0,0:09:09.72,0:09:11.98,CRKokoro,Iori,0000,0000,0000,,One person can't wear \Nall of those masks!
+Dialogue: 0,0:09:12.20,0:09:13.96,CRKokoro,Tai,0000,0000,0000,,That's normal.
+Dialogue: 0,0:09:13.96,0:09:16.17,CRKokoro,Tai,0000,0000,0000,,Everyone wears a mask at some point.
+Dialogue: 0,0:09:16.17,0:09:17.59,CRKokoro,Tai,0000,0000,0000,,I don't do it often.
+Dialogue: 0,0:09:17.59,0:09:18.93,CRKokoro,Tai,0000,0000,0000,,You do it a lot.
+Dialogue: 0,0:09:19.49,0:09:21.47,CRKokoro,Tai,0000,0000,0000,,That's all it means.
+Dialogue: 0,0:09:21.47,0:09:24.04,CRKokoro,Iori,0000,0000,0000,,But I behave differently \Naround different people!
+Dialogue: 0,0:09:24.04,0:09:26.96,CRKokoro,Tai,0000,0000,0000,,Lots of people will change \Nthemselves to fit the situation.
+Dialogue: 0,0:09:26.96,0:09:30.18,CRKokoro,Iori,0000,0000,0000,,But I'm always thinking about \Nwhich role I should play!
+Dialogue: 0,0:09:30.18,0:09:32.31,CRKokoro,Tai,0000,0000,0000,,Nobody's strong enough to ignore
+Dialogue: 0,0:09:32.31,0:09:34.16,CRKokoro,,0000,0000,0000,,everyone else and be themselves.
+Dialogue: 0,0:09:34.16,0:09:37.45,CRKokoro,Iori,0000,0000,0000,,But what I like changes \Ndepending on the situation!
+Dialogue: 0,0:09:37.45,0:09:39.31,CRKokoro,Iori,0000,0000,0000,,I couldn't even choose \Na club for myself!
+Dialogue: 0,0:09:39.31,0:09:41.48,CRKokoro,Tai,0000,0000,0000,,That just means you \Nlike a lot of things.
+Dialogue: 0,0:09:41.86,0:09:44.79,CRKokoro,Tai,0000,0000,0000,,And you're no worse than \Nthe people who choose
+Dialogue: 0,0:09:44.79,0:09:46.23,CRKokoro,,0000,0000,0000,,a club because it looks easy.
+Dialogue: 0,0:09:48.04,0:09:49.73,CRKokoro,Iori,0000,0000,0000,,That's pure sophistry.
+Dialogue: 0,0:09:50.34,0:09:53.33,CRKokoro,Tai,0000,0000,0000,,Yeah, not at first though.
+Dialogue: 0,0:10:04.26,0:10:05.75,CRKokoro,Iori,0000,0000,0000,,You know,
+Dialogue: 0,0:10:05.96,0:10:08.48,CRKokoro,Iori,0000,0000,0000,,I admire you, Taichi.
+Dialogue: 0,0:10:09.21,0:10:11.64,CRKokoro,Iori,0000,0000,0000,,You're always true to yourself.
+Dialogue: 0,0:10:12.07,0:10:16.76,CRKokoro,Iori,0000,0000,0000,,No matter who I become, \Nyou'll always be you.
+Dialogue: 0,0:10:17.04,0:10:21.16,CRKokoro,Iori,0000,0000,0000,,I admire that stability you project.
+Dialogue: 0,0:10:21.16,0:10:22.17,CRKokoro,Tai,0000,0000,0000,,Nagase...
+Dialogue: 0,0:10:23.47,0:10:26.28,CRKokoro,Tai,0000,0000,0000,,I love you, Nagase Iori.
+Dialogue: 0,0:10:26.28,0:10:27.64,CRKokoro,Tai,0000,0000,0000,,Will you go out with me?
+Dialogue: 0,0:10:46.35,0:10:47.26,CRKokoro,Tai,0000,0000,0000,,Uh...
+Dialogue: 0,0:10:49.75,0:10:50.89,CRKokoro,Heart,0000,0000,0000,,Hello.
+Dialogue: 0,0:10:50.89,0:10:52.82,CRKokoro,Heart,0000,0000,0000,,It's been a while.
+Dialogue: 0,0:10:52.82,0:10:56.30,CRKokoro,Heart,0000,0000,0000,,You can probably guess who I am.
+Dialogue: 0,0:10:57.15,0:10:58.67,CRKokoro,Tai,0000,0000,0000,,Heartseed...
+Dialogue: 0,0:10:58.67,0:11:00.24,CRKokoro,Iori,0000,0000,0000,,Yes...
+Dialogue: 0,0:11:01.26,0:11:04.00,CRKokoro,Iori,0000,0000,0000,,I'll apologize up front.
+Dialogue: 0,0:11:04.00,0:11:05.01,CRKokoro,Iori,0000,0000,0000,,Sorry.
+Dialogue: 0,0:11:05.44,0:11:08.64,CRKokoro,Iori,0000,0000,0000,,But it's all you guys' fault
+Dialogue: 0,0:11:08.64,0:11:11.97,CRKokoro,Iori,0000,0000,0000,,because you people are too boring.
+Dialogue: 0,0:11:25.93,0:11:27.70,CRKokoro,Tai,0000,0000,0000,,Hey, what are you doing?
+Dialogue: 0,0:11:28.00,0:11:31.28,CRKokoro,Iori,0000,0000,0000,,I already apologized.
+Dialogue: 0,0:11:36.63,0:11:37.68,CRKokoro,Tai,0000,0000,0000,,Nagase!
+Dialogue: 0,0:11:52.21,0:11:54.39,CRKokoro,Ina,0000,0000,0000,,Yes, thank you.
+Dialogue: 0,0:11:55.62,0:11:56.65,CRKokoro,Tai,0000,0000,0000,,What'd Mr. Go say?
+Dialogue: 0,0:11:56.65,0:11:58.42,CRKokoro,Ina,0000,0000,0000,,He's almost here.
+Dialogue: 0,0:11:58.42,0:12:00.96,CRKokoro,Ina,0000,0000,0000,,And they managed to get \Nin touch with Iori's mom.
+Dialogue: 0,0:12:04.71,0:12:06.91,CRKokoro,Heart,0000,0000,0000,,Hello there.
+Dialogue: 0,0:12:08.14,0:12:09.41,CRKokoro,Ina,0000,0000,0000,,Bastard...
+Dialogue: 0,0:12:10.01,0:12:11.29,CRKokoro,Ina,0000,0000,0000,,What is your objective?
+Dialogue: 0,0:12:11.45,0:12:15.79,CRKokoro,Heart,0000,0000,0000,,Nagase Iori-san's body will die soon.
+Dialogue: 0,0:12:17.33,0:12:18.46,CRKokoro,Ina,0000,0000,0000,,What are you talking about?!
+Dialogue: 0,0:12:18.94,0:12:21.92,CRKokoro,Ina,0000,0000,0000,,You can play God with our lives?
+Dialogue: 0,0:12:21.92,0:12:24.93,CRKokoro,Heart,0000,0000,0000,,Of course not.
+Dialogue: 0,0:12:26.06,0:12:33.64,CRKokoro,Heart,0000,0000,0000,,But the fact remains that \NI'm capable of many things.
+Dialogue: 0,0:12:34.83,0:12:37.82,CRKokoro,Yui,0000,0000,0000,,Why should we believe you?
+Dialogue: 0,0:12:37.82,0:12:39.83,CRKokoro,Heart,0000,0000,0000,,Well, it's up to you
+Dialogue: 0,0:12:39.83,0:12:44.47,CRKokoro,,0000,0000,0000,,to decide if you want \Nto believe me or not.
+Dialogue: 0,0:12:45.14,0:12:47.78,CRKokoro,Heart,0000,0000,0000,,So, are you ready?
+Dialogue: 0,0:12:48.43,0:12:50.71,CRKokoro,Heart,0000,0000,0000,,Listen carefully.
+Dialogue: 0,0:12:52.96,0:12:56.18,CRKokoro,Heart,0000,0000,0000,,I want you to choose which personality
+Dialogue: 0,0:12:56.18,0:12:58.84,CRKokoro,,0000,0000,0000,,will die with Nagase-san's body.
+Dialogue: 0,0:13:00.64,0:13:02.21,CRKokoro,Yui,0000,0000,0000,,Huh? Do you mean...?
+Dialogue: 0,0:13:02.59,0:13:04.73,CRKokoro,Heart,0000,0000,0000,,For the next thirty minutes,
+Dialogue: 0,0:13:04.73,0:13:11.22,CRKokoro,,0000,0000,0000,,you'll be able to switch bodies \Nif you make an oral request.
+Dialogue: 0,0:13:12.71,0:13:14.23,CRKokoro,Heart,0000,0000,0000,,There you have it.
+Dialogue: 0,0:13:15.42,0:13:18.86,CRKokoro,Tai,0000,0000,0000,,Stop treating us like toys!
+Dialogue: 0,0:13:21.68,0:13:22.52,CRKokoro,Ina,0000,0000,0000,,Taichi!
+Dialogue: 0,0:13:22.52,0:13:23.56,CRKokoro,Heart,0000,0000,0000,,Understood?
+Dialogue: 0,0:13:23.98,0:13:26.66,CRKokoro,Heart,0000,0000,0000,,You have thirty minutes.
+Dialogue: 0,0:13:34.83,0:13:39.77,CRKokoro,Aoki,0000,0000,0000,,He's telling us to choose who dies.
+Dialogue: 0,0:13:39.77,0:13:43.63,CRKokoro,Yui,0000,0000,0000,,But we don't know that \NIori's going to die.
+Dialogue: 0,0:13:43.63,0:13:46.30,CRKokoro,Yui,0000,0000,0000,,The doctors are doing their best.
+Dialogue: 0,0:13:46.57,0:13:50.07,CRKokoro,Ina,0000,0000,0000,,Yeah, he could have been lying.
+Dialogue: 0,0:13:50.07,0:13:51.85,CRKokoro,Ina,0000,0000,0000,,But he could have been \Ntelling the truth.
+Dialogue: 0,0:13:52.69,0:13:55.81,CRKokoro,Ina,0000,0000,0000,,Either way, we have to face reality.
+Dialogue: 0,0:13:56.63,0:13:58.06,CRKokoro,Ina,0000,0000,0000,,Even if it makes you sick.
+Dialogue: 0,0:13:59.65,0:14:00.47,CRKokoro,Tai,0000,0000,0000,,If...
+Dialogue: 0,0:14:01.47,0:14:04.57,CRKokoro,Tai,0000,0000,0000,,If someone has to make the sacrifice,
+Dialogue: 0,0:14:05.50,0:14:06.40,CRKokoro,Tai,0000,0000,0000,,I'll do it.
+Dialogue: 0,0:14:08.34,0:14:10.37,CRKokoro,Ina,0000,0000,0000,,That's a load of bull.
+Dialogue: 0,0:14:10.74,0:14:13.24,CRKokoro,Ina,0000,0000,0000,,You're volunteering to be the sacrifice?
+Dialogue: 0,0:14:13.24,0:14:14.97,CRKokoro,Ina,0000,0000,0000,,Have you ever considered how it feels
+Dialogue: 0,0:14:14.97,0:14:16.63,CRKokoro,,0000,0000,0000,,to be on the other side?
+Dialogue: 0,0:14:16.63,0:14:18.84,CRKokoro,Ina,0000,0000,0000,,You act like you're \Nconcerned about others,
+Dialogue: 0,0:14:18.84,0:14:21.09,CRKokoro,,0000,0000,0000,,but you only care about yourself!
+Dialogue: 0,0:14:21.39,0:14:24.01,CRKokoro,Ina,0000,0000,0000,,You're just a selfish freak!
+Dialogue: 0,0:14:24.78,0:14:25.71,CRKokoro,Tai,0000,0000,0000,,Is that so wrong?!
+Dialogue: 0,0:14:26.29,0:14:30.65,CRKokoro,Tai,0000,0000,0000,,That's right, I don't want to \Nsee anyone else suffer!
+Dialogue: 0,0:14:30.65,0:14:33.17,CRKokoro,Tai,0000,0000,0000,,It hurts me more than I can imagine
+Dialogue: 0,0:14:33.17,0:14:36.23,CRKokoro,Tai,0000,0000,0000,,when I think about the \Npain they must feel!
+Dialogue: 0,0:14:36.54,0:14:38.10,CRKokoro,Tai,0000,0000,0000,,I can't stand it!
+Dialogue: 0,0:14:38.10,0:14:39.94,CRKokoro,Tai,0000,0000,0000,,I'd rather suffer in their place!
+Dialogue: 0,0:14:40.61,0:14:42.68,CRKokoro,Tai,0000,0000,0000,,At least then, I'd know how \Nmuch pain they endure.
+Dialogue: 0,0:14:42.68,0:14:44.36,CRKokoro,Tai,0000,0000,0000,,That way, I could bear my own pain.
+Dialogue: 0,0:14:44.36,0:14:48.76,CRKokoro,Tai,0000,0000,0000,,Right, I'm not doing \Nthis for anyone else.
+Dialogue: 0,0:14:50.00,0:14:53.58,CRKokoro,Tai,0000,0000,0000,,I'm a selfless freak for my own good.
+Dialogue: 0,0:14:56.30,0:14:57.53,CRKokoro,Ina,0000,0000,0000,,Really...
+Dialogue: 0,0:14:57.53,0:14:59.75,CRKokoro,Ina,0000,0000,0000,,Something's wrong with you.
+Dialogue: 0,0:15:03.23,0:15:04.75,CRKokoro,Ina,0000,0000,0000,,Something's very wrong,
+Dialogue: 0,0:15:05.62,0:15:07.45,CRKokoro,,0000,0000,0000,,but it's a gentle form of insanity.
+Dialogue: 0,0:15:08.16,0:15:13.06,CRKokoro,Ina,0000,0000,0000,,Gentle, awkward, and \Nstupid, seriously...
+Dialogue: 0,0:15:13.79,0:15:17.39,CRKokoro,Ina,0000,0000,0000,,But you should understand our pain then.
+Dialogue: 0,0:15:18.65,0:15:22.27,CRKokoro,Aoki,0000,0000,0000,,I believe that Iori-chan \Nshould be the one
+Dialogue: 0,0:15:22.27,0:15:24.19,CRKokoro,,0000,0000,0000,,who dies with her body.
+Dialogue: 0,0:15:24.19,0:15:25.71,CRKokoro,Yui,0000,0000,0000,,How can you say that?!
+Dialogue: 0,0:15:25.71,0:15:28.83,CRKokoro,Aoki,0000,0000,0000,,I didn't want to say it,
+Dialogue: 0,0:15:29.70,0:15:33.59,CRKokoro,Aoki,0000,0000,0000,,but somebody had to.
+Dialogue: 0,0:15:36.23,0:15:39.35,CRKokoro,Aoki,0000,0000,0000,,Anyway, we need to tell \NIori-chan what's going on.
+Dialogue: 0,0:15:40.15,0:15:41.22,CRKokoro,Ina,0000,0000,0000,,That's true.
+Dialogue: 0,0:15:41.88,0:15:44.77,CRKokoro,Aoki,0000,0000,0000,,Since I brought it up, I'll switch.
+Dialogue: 0,0:15:46.53,0:15:51.63,CRKokoro,Aoki,0000,0000,0000,,Please switch me, Aoki \NYoshifumi, with Nagase Iori.
+Dialogue: 0,0:15:54.53,0:15:55.72,CRKokoro,,0000,0000,0000,,Huh?
+Dialogue: 0,0:15:55.72,0:15:57.35,CRKokoro,AokiIori,0000,0000,0000,,Why is everyone here?
+Dialogue: 0,0:15:58.11,0:16:02.56,CRKokoro,AokiIori,0000,0000,0000,,I was talking with \NTaichi by the river...
+Dialogue: 0,0:16:02.82,0:16:05.31,CRKokoro,Ina,0000,0000,0000,,Iori, listen carefully.
+Dialogue: 0,0:16:06.22,0:16:07.33,CRKokoro,Ina,0000,0000,0000,,You're...
+Dialogue: 0,0:16:26.26,0:16:27.51,CRKokoro,AokiIori,0000,0000,0000,,In that case,
+Dialogue: 0,0:16:28.23,0:16:30.05,CRKokoro,AokiIori,0000,0000,0000,,I have to die.
+Dialogue: 0,0:16:30.27,0:16:32.83,CRKokoro,Tai,0000,0000,0000,,Nagase, it's not over yet.
+Dialogue: 0,0:16:32.83,0:16:34.57,CRKokoro,AokiIori,0000,0000,0000,,I could never bring myself
+Dialogue: 0,0:16:34.57,0:16:39.18,CRKokoro,,0000,0000,0000,,to kill someone else and \Ntake over their body.
+Dialogue: 0,0:16:40.53,0:16:42.87,CRKokoro,AokiIori,0000,0000,0000,,I wouldn't be able to live with myself.
+Dialogue: 0,0:16:45.05,0:16:46.38,CRKokoro,AokiIori,0000,0000,0000,,What about my mom?
+Dialogue: 0,0:16:46.38,0:16:48.91,CRKokoro,Ina,0000,0000,0000,,She's supposed to be on her way here.
+Dialogue: 0,0:16:48.91,0:16:49.96,CRKokoro,AokiIori,0000,0000,0000,,Oh...
+Dialogue: 0,0:16:50.99,0:16:52.32,CRKokoro,AokiIori,0000,0000,0000,,Um...
+Dialogue: 0,0:16:53.45,0:16:54.50,CRKokoro,AokiIori,0000,0000,0000,,Can I
+Dialogue: 0,0:16:55.38,0:16:59.74,CRKokoro,,0000,0000,0000,,talk with each of you \Nindividually, one last time?
+Dialogue: 0,0:17:28.95,0:17:30.18,CRKokoro,Yui,0000,0000,0000,,Taichi,
+Dialogue: 0,0:17:30.80,0:17:32.54,CRKokoro,,0000,0000,0000,,Iori wants to talk to you.
+Dialogue: 0,0:17:34.33,0:17:36.06,CRKokoro,InaIori,0000,0000,0000,,'Sup, Taichi.
+Dialogue: 0,0:17:36.06,0:17:37.87,CRKokoro,Tai,0000,0000,0000,,Hey, Nagase.
+Dialogue: 0,0:17:37.87,0:17:41.29,CRKokoro,InaTori,0000,0000,0000,,Oh? You're the only one who \Ndoesn't seem too different.
+Dialogue: 0,0:17:41.47,0:17:43.78,CRKokoro,Tai,0000,0000,0000,,That's because I'm supposed \Nto be the stoic character.
+Dialogue: 0,0:17:45.25,0:17:47.97,CRKokoro,InaTori,0000,0000,0000,,Anyway, Taichi, thanks.
+Dialogue: 0,0:17:48.56,0:17:50.68,CRKokoro,InaTori,0000,0000,0000,,After talking to you,
+Dialogue: 0,0:17:50.68,0:17:53.43,CRKokoro,,0000,0000,0000,,my problems don't seem so significant.
+Dialogue: 0,0:17:53.43,0:17:57.87,CRKokoro,InaTori,0000,0000,0000,,I think I can learn to love myself.
+Dialogue: 0,0:17:58.88,0:18:02.43,CRKokoro,InaTori,0000,0000,0000,,You said that you love me.
+Dialogue: 0,0:18:03.08,0:18:05.33,CRKokoro,InaTori,0000,0000,0000,,I want to give a response now.
+Dialogue: 0,0:18:07.91,0:18:11.57,CRKokoro,InaTori,0000,0000,0000,,But you're probably expecting \Na joke first, right?
+Dialogue: 0,0:18:11.57,0:18:13.48,CRKokoro,Tai,0000,0000,0000,,Not really, but I figured
+Dialogue: 0,0:18:13.48,0:18:15.24,CRKokoro,,0000,0000,0000,,you might drop one on me.
+Dialogue: 0,0:18:19.73,0:18:22.73,CRKokoro,InaAori,0000,0000,0000,,Why are you the same as always?
+Dialogue: 0,0:18:22.73,0:18:25.20,CRKokoro,InaAori,0000,0000,0000,,Everyone else looked so sad.
+Dialogue: 0,0:18:25.20,0:18:26.45,CRKokoro,Tai,0000,0000,0000,,I'm sad.
+Dialogue: 0,0:18:26.86,0:18:28.23,CRKokoro,Tai,0000,0000,0000,,So sad, I could die.
+Dialogue: 0,0:18:28.86,0:18:31.71,CRKokoro,Tai,0000,0000,0000,,But you must feel even worse.
+Dialogue: 0,0:18:32.64,0:18:35.84,CRKokoro,Tai,0000,0000,0000,,If I cry, you won't be able to.
+Dialogue: 0,0:18:46.52,0:18:48.73,CRKokoro,InaIori,0000,0000,0000,,I don't want to die.
+Dialogue: 0,0:18:48.73,0:18:50.67,CRKokoro,InaIori,0000,0000,0000,,I want to keep on living.
+Dialogue: 0,0:18:50.67,0:18:53.08,CRKokoro,InaIori,0000,0000,0000,,I have so much to look forward to.
+Dialogue: 0,0:18:53.08,0:18:54.51,CRKokoro,InaIori,0000,0000,0000,,Why?
+Dialogue: 0,0:18:54.51,0:18:58.08,CRKokoro,InaIori,0000,0000,0000,,Why did this have to happen to me?
+Dialogue: 0,0:18:58.08,0:19:00.30,CRKokoro,InaIori,0000,0000,0000,,What did I do wrong?
+Dialogue: 0,0:19:01.24,0:19:04.70,CRKokoro,InaIori,0000,0000,0000,,Right after you told \Nme that you love me...
+Dialogue: 0,0:19:07.86,0:19:11.21,CRKokoro,InaIori,0000,0000,0000,,I love you, Taichi.
+Dialogue: 0,0:19:12.34,0:19:16.01,CRKokoro,InaIori,0000,0000,0000,,So I don't want you to go out with me.
+Dialogue: 0,0:19:16.01,0:19:16.85,CRKokoro,Tai,0000,0000,0000,,Huh?
+Dialogue: 0,0:19:19.34,0:19:21.53,CRKokoro,InaIori,0000,0000,0000,,I mean, I'm going to die.
+Dialogue: 0,0:19:21.53,0:19:24.72,CRKokoro,InaIori,0000,0000,0000,,That wouldn't be much of a relationship.
+Dialogue: 0,0:19:25.08,0:19:27.02,CRKokoro,Tai,0000,0000,0000,,How can you...
+Dialogue: 0,0:19:27.30,0:19:30.53,CRKokoro,InaIori,0000,0000,0000,,Instead, I want a memory \Nto remember you by.
+Dialogue: 0,0:19:32.20,0:19:35.98,CRKokoro,InaIori,0000,0000,0000,,So, let's kiss.
+Dialogue: 0,0:19:37.89,0:19:42.21,CRKokoro,InaIori,0000,0000,0000,,I'm sure that Inaban will forgive me.
+Dialogue: 0,0:19:53.53,0:19:55.34,CRKokoro,Heart,0000,0000,0000,,Are you ready?
+Dialogue: 0,0:19:55.64,0:19:56.99,CRKokoro,Heart,0000,0000,0000,,Who will it be?
+Dialogue: 0,0:19:56.99,0:19:58.30,CRKokoro,InaIori,0000,0000,0000,,Me.
+Dialogue: 0,0:19:58.30,0:20:02.31,CRKokoro,InaIori,0000,0000,0000,,Nagase Iori will die with \NNagase Iori's body.
+Dialogue: 0,0:20:03.79,0:20:07.60,CRKokoro,Heart,0000,0000,0000,,Well, that would be the \Nlogical conclusion.
+Dialogue: 0,0:20:07.94,0:20:09.85,CRKokoro,InaIori,0000,0000,0000,,Can I ask you a question?
+Dialogue: 0,0:20:10.29,0:20:13.35,CRKokoro,InaIori,0000,0000,0000,,I need an answer now.
+Dialogue: 0,0:20:13.81,0:20:17.11,CRKokoro,InaIori,0000,0000,0000,,You won't do this to anyone else, right?
+Dialogue: 0,0:20:19.03,0:20:20.24,CRKokoro,Heart,0000,0000,0000,,Of course.
+Dialogue: 0,0:20:21.39,0:20:23.36,CRKokoro,Heart,0000,0000,0000,,Oh, it's time.
+Dialogue: 0,0:20:24.41,0:20:25.73,CRKokoro,Ina,0000,0000,0000,,Where's Iori?!
+Dialogue: 0,0:20:32.23,0:20:33.27,CRKokoro,Tai,0000,0000,0000,,{\i1}Wait...{\i0}
+Dialogue: 0,0:20:33.65,0:20:35.12,CRKokoro,Tai,0000,0000,0000,,{\i1}Don't let this end...{\i0}
+Dialogue: 0,0:20:38.79,0:20:40.58,CRKokoro,Doc,0000,0000,0000,,Luck was on our side.
+Dialogue: 0,0:20:40.58,0:20:42.09,CRKokoro,Doc,0000,0000,0000,,She's going to survive.
+Dialogue: 0,0:20:42.09,0:20:43.09,CRKokoro,All,0000,0000,0000,,Huh?
+Dialogue: 0,0:20:43.43,0:20:45.49,CRKokoro,Doc,0000,0000,0000,,It appears that there won't \Nbe any permanent damage.
+Dialogue: 0,0:20:45.49,0:20:48.07,CRKokoro,Doc,0000,0000,0000,,If you wait a little longer, \Nyou'll be able to see her.
+Dialogue: 0,0:20:53.59,0:20:57.11,CRKokoro,Heart,0000,0000,0000,,Ah, everyone. Good job.
+Dialogue: 0,0:20:57.41,0:20:58.75,CRKokoro,Heart,0000,0000,0000,,Take this.
+Dialogue: 0,0:20:58.75,0:21:00.25,CRKokoro,Heart,0000,0000,0000,,Consider it my apology.
+Dialogue: 0,0:21:01.96,0:21:04.86,CRKokoro,Heart,0000,0000,0000,,It also serves as a get \Nwell gift for Nagase-san.
+Dialogue: 0,0:21:06.39,0:21:07.92,CRKokoro,Ina,0000,0000,0000,,You got us good.
+Dialogue: 0,0:21:08.83,0:21:11.44,CRKokoro,Ina,0000,0000,0000,,Well, I knew it was a possibility.
+Dialogue: 0,0:21:11.44,0:21:14.83,CRKokoro,Yui,0000,0000,0000,,So Iori's okay? She's alive?
+Dialogue: 0,0:21:16.22,0:21:17.54,CRKokoro,Aoki,0000,0000,0000,,That's wonderful.
+Dialogue: 0,0:21:19.92,0:21:23.10,CRKokoro,Ina,0000,0000,0000,,Hey, how much of this was planned?
+Dialogue: 0,0:21:23.10,0:21:27.30,CRKokoro,Heart,0000,0000,0000,,Well, I suppose you could say that \Neverything is part of my plan.
+Dialogue: 0,0:21:27.86,0:21:30.31,CRKokoro,Heart,0000,0000,0000,,That's one way to look at it,
+Dialogue: 0,0:21:31.01,0:21:36.52,CRKokoro,Heart,0000,0000,0000,,since you people don't seem to \Nrealize what I'm capable of.
+Dialogue: 0,0:21:36.85,0:21:40.95,CRKokoro,Tai,0000,0000,0000,,So you never intended to \Ndo anything to Nagase?
+Dialogue: 0,0:21:41.50,0:21:46.82,CRKokoro,Heart,0000,0000,0000,,I would never cause any trouble \Nfor an innocent person.
+Dialogue: 0,0:21:47.56,0:21:51.06,CRKokoro,Heart,0000,0000,0000,,I even made sure that her \Ncell phone didn't get wet.
+Dialogue: 0,0:21:52.29,0:21:55.56,CRKokoro,Heart,0000,0000,0000,,I'm not going to ask \Nfor your forgiveness,
+Dialogue: 0,0:21:56.29,0:21:59.54,CRKokoro,Heart,0000,0000,0000,,but I hope that you won't hold a grudge
+Dialogue: 0,0:22:00.11,0:22:05.23,CRKokoro,Heart,0000,0000,0000,,since you also benefited \Nfrom the experience.
+Dialogue: 0,0:22:09.00,0:22:10.30,CRKokoro,Heart,0000,0000,0000,,Until next time.
+Dialogue: 0,0:22:27.85,0:22:29.73,CRKokoro,All,0000,0000,0000,,Welcome back!
+Dialogue: 0,0:22:29.73,0:22:30.87,CRKokoro,Iori,0000,0000,0000,,Thanks!
+Dialogue: 0,0:22:31.30,0:22:33.83,CRKokoro,Iori,0000,0000,0000,,Sorry to make everyone worry.
+Dialogue: 0,0:22:33.83,0:22:35.87,CRKokoro,Aoki,0000,0000,0000,,Don't worry about that.
+Dialogue: 0,0:22:36.97,0:22:40.13,CRKokoro,Iori,0000,0000,0000,,Anyway, did anything strange happen?
+Dialogue: 0,0:22:40.31,0:22:41.87,CRKokoro,Tai,0000,0000,0000,,Nothing's happened.
+Dialogue: 0,0:22:41.87,0:22:45.49,CRKokoro,,0000,0000,0000,,There hasn't been any more body swapping.
+Dialogue: 0,0:22:45.49,0:22:48.34,CRKokoro,Yui,0000,0000,0000,,Looks like it's all over then.
+Dialogue: 0,0:22:49.28,0:22:51.01,CRKokoro,Ina,0000,0000,0000,,I hope you're right.
+Dialogue: 0,0:22:51.01,0:22:52.97,CRKokoro,Yui,0000,0000,0000,,Anyway, let's dig in.
+Dialogue: 0,0:22:53.20,0:22:55.01,CRKokoro,Yui,0000,0000,0000,,Aoki, make some tea.
+Dialogue: 0,0:22:55.01,0:22:58.16,CRKokoro,Aoki,0000,0000,0000,,Sure. Have a seat, Iori-chan.
+Dialogue: 0,0:22:58.16,0:23:00.82,CRKokoro,Iori,0000,0000,0000,,Thanks. Sorry about this.
+Dialogue: 0,0:23:00.82,0:23:04.61,CRKokoro,Yui,0000,0000,0000,,Come on! Taichi, Inaba, get to work!
+Dialogue: 0,0:23:06.95,0:23:07.82,CRKokoro,Ina,0000,0000,0000,,Right.
+Dialogue: 0,0:23:07.82,0:23:10.82,CRKokoro,Ina,0000,0000,0000,,I heard from Iori when \NI went to visit her.
+Dialogue: 0,0:23:12.02,0:23:17.09,CRKokoro,Ina,0000,0000,0000,,It sounds like you stole my first kiss?
+Dialogue: 0,0:23:17.09,0:23:20.23,CRKokoro,Ina,0000,0000,0000,,That's going to cost you dearly.
