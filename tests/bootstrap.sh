@@ -34,6 +34,9 @@ test "$(readlink "$temp_dir/config/firefox")" = "$repo/configs/xdg/firefox"
 test "$(readlink "$temp_dir/config/new-tab")" = "$repo/configs/xdg/new-tab"
 test "$(readlink "$temp_dir/config/kanata")" = "$repo/configs/xdg/kanata"
 test "$(readlink "$temp_dir/config/mise")" = "$repo/configs/xdg/mise"
+test "$(git config --file "$temp_dir/config/git/config" --get core.pager)" = delta
+test "$(git config --file "$temp_dir/config/git/config" --get interactive.diffFilter)" = \
+    'delta --color-only'
 test "$(readlink "$temp_dir/config/wgetrc")" = "$repo/configs/xdg/wgetrc"
 grep -Fqx 'hsts-file = ~/.local/state/wget-hsts' "$temp_dir/config/wgetrc"
 test "$(readlink "$temp_dir/config/ty/ty.toml")" = "$repo/configs/xdg/ty/ty.toml"
@@ -362,7 +365,7 @@ grep -q '^apt-get install -y ' "$temp_dir/sudo.log"
 grep -Fqx -- '--fail --silent --show-error --location https://mise.run' \
     "$temp_dir/curl.log"
 grep -Fqx \
-    'install --yes rust uv ty lazygit lazydocker shfmt k9s github:zk-org/zk github:ewhauser/shuck bob github:jtroo/kanata' \
+    'install --yes rust uv ty bat eza delta bottom lazygit lazydocker shfmt k9s github:zk-org/zk github:ewhauser/shuck bob github:jtroo/kanata' \
     "$temp_dir/mise.log"
 grep -Fqx 'exec -- bob use nightly' "$temp_dir/mise.log"
 if grep -q 'pipewire-audio-client-libraries' "$temp_dir/sudo.log"; then
@@ -1035,7 +1038,7 @@ grep -Fqx \
     "$repo/configs/xdg/zsh/.zshrc"
 test "$(grep -Ec '^zinit light (chr-fritz/docker-completion[.]zshplugin|greymd/docker-zsh-completion)$' \
     "$repo/configs/xdg/zsh/.zshrc")" -eq 1
-for command in rust uv ty lazygit lazydocker shfmt k9s zk shuck bob kanata; do
+for command in rust uv ty bat eza delta bottom lazygit lazydocker shfmt k9s zk shuck bob kanata; do
     grep -Eq "^${command}[[:space:]]*=" "$repo/configs/xdg/mise/config.toml" || \
         grep -Eq "github:[^\"]*/${command}\"" "$repo/configs/xdg/mise/config.toml"
 done
