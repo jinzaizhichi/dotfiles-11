@@ -17,11 +17,16 @@
     esc
     @left-shift
     @right-shift
-    grv
+    @grave
     @space-ctrl
 )
 
 (defalias
+    ;; Unshifted = ~, shifted = `
+    grave (switch
+        (lsft rsft) (unshift grv) break
+        () S-grv break)
+
     ;; Space: tap = space, hold = Ctrl + symbol layer
     space-ctrl
     (tap-hold-press 150 150 spc (multi lctl (layer-while-held symbols)))
@@ -58,10 +63,4 @@
 
 (defvirtualkeys
     shift-lock lsft
-)
-
-;; Swap ` and ~
-(defoverrides
-    (grv) (lsft grv)
-    (lsft grv) (grv)
 )
