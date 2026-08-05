@@ -14,6 +14,7 @@
 - Leave `/home/evakuator/Shared/[Timecraft & NASTR] Kokoro Connect` untouched.
 - Never merge, split, stretch, duplicate, translate, or semantically rewrite dialogue cues.
 - Never alter timing merely to force Japanese/English overlap.
+- For a malformed source cue whose end precedes its start, swap the two existing endpoints; do not invent or extend a duration.
 - Remove only songs, signs, credits, typesetting, animation numbers, and source-metadata-confirmed background chatter.
 - Keep ambiguous overlapping dialogue.
 - Preserve original styles except the approved Erased Japanese font-size-outline override.
@@ -101,13 +102,15 @@ Use `unzip`, `unrar`, and `7z` without writing beside the MKVs. Download the Ful
 
 - [ ] **Step 3: Extract the correct embedded English dialogue tracks**
 
-Use `ffmpeg -map 0:s:N -c:s copy` per MKV with these source tracks:
+Select subtitle streams by their exact title with `ffprobe`, then use `ffmpeg -map 0:<stream-index> -c:s copy` per MKV:
 
-- Bakemonogatari: English `Coalgirls` (`0:s:0`).
-- Erased: English `[Full]` (`0:s:1`).
-- Sonny Boy: `Dialog - ENG` (`0:s:1`).
-- Wonder Egg Priority: `Dialog - ENG` (`0:s:1`).
-- Fullmetal Alchemist: `Full (FMA1394)` (`0:s:1`).
+- Bakemonogatari: `Coalgirls`.
+- Erased: `English [Full]`.
+- Sonny Boy: `Dialog - ENG`.
+- Wonder Egg Priority: `Dialog - ENG`.
+- Fullmetal Alchemist: `Full (FMA1394)`.
+
+Do not assume a fixed subtitle ordinal: Sonny Boy episode 8 and several Fullmetal Alchemist episodes use different stream orders.
 
 Write all extracted files under `/tmp/subtitle-reset/english/<show>/` using the matching video stem.
 
@@ -165,13 +168,13 @@ Use only Python's standard library. Preserve source cue sequence and text. Permi
 
 English dialogue style allowlists:
 
-- Bakemonogatari: `Default`, `Default - margin`.
+- Bakemonogatari: `Default`, `Default - margin`, `Alternative`.
 - Erased: `GJM_Main`, `GJM_Overlap`.
-- Sonny Boy: `Default`, `Overlap`, `Alt Style`.
-- Wonder Egg Priority: `Default`, `Default - Top`, `Default - Brain`.
+- Sonny Boy: `Default`, `Overlap`, `Alt Style`, `Alt Styling`, `Alt Overlap`.
+- Wonder Egg Priority: `Default`, `Default - Top`, `Default - Brain`, `Default - Momo`.
 - Fullmetal Alchemist: `Dialogue`, `Dialogue Alt`.
 
-Do not treat a style named `Overlap`, `GJM_Overlap`, `Alt Style`, or `Default - Top` as background chatter; these are ambiguous spoken dialogue and must remain.
+Do not treat overlap, alternate, top-positioned, or character-specific dialogue styles as background chatter merely because of their presentation; ambiguous spoken dialogue must remain.
 
 - [ ] **Step 4: Run the self-check**
 
@@ -311,4 +314,3 @@ Stage only the approved paths and commit with:
 ```sh
 git commit -m 'Reset anime subtitles to source-faithful cues'
 ```
-
