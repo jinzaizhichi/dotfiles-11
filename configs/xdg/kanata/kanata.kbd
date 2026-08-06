@@ -1,6 +1,7 @@
 (defcfg
     process-unmapped-keys yes
     log-layer-changes no
+    linux-x11-repeat-delay-rate 220,40
 )
 
 (defsrc
@@ -28,9 +29,11 @@
 
     ;; Tap = one-shot Shift, double tap = locked Shift, tap again = unlock
     left-shift (switch
+        ((or (input real lalt) (input real ralt))) lsft break
         ((input virtual shift-lock)) (on-press release-vkey shift-lock) break
         () (tap-dance-eager 250 ((one-shot 2000 lsft) (on-press toggle-vkey shift-lock))) break)
     right-shift (switch
+        ((or (input real lalt) (input real ralt))) rsft break
         ((input virtual shift-lock)) (on-press release-vkey shift-lock) break
         () (tap-dance-eager 250 ((one-shot 2000 rsft) (on-press toggle-vkey shift-lock))) break)
 )

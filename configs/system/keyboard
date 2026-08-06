@@ -1,5 +1,5 @@
 XKBMODEL="pc105"
-XKBLAYOUT="tilde-first,ru"
+XKBLAYOUT="en,ru"
 XKBVARIANT=","
 XKBOPTIONS="grp:alt_shift_toggle"
 BACKSPACE="guess"

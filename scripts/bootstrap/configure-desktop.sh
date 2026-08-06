@@ -4,9 +4,9 @@ set -euo pipefail
 
 repo="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
 keyboard_config="$repo/configs/system/keyboard"
-xkb_symbols="$repo/configs/system/xkb/symbols/tilde-first"
+xkb_symbols="$repo/configs/system/xkb/symbols/en"
 . "$keyboard_config"
-sudo install -m 644 "$xkb_symbols" /usr/share/X11/xkb/symbols/tilde-first
+sudo install -m 644 "$xkb_symbols" /usr/share/X11/xkb/symbols/en
 sudo install -m 644 "$keyboard_config" /etc/default/keyboard
 
 configure_cinnamon() {
