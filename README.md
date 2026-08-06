@@ -220,7 +220,7 @@ Nothing under `scripts/optional/` runs automatically. Several scripts use sudo, 
 
 - `japanese/anki/addons21/` contains downloaded Anki add-ons and is intentionally ignored; `japanese/anki/addons.txt` is the reproducible source list.
 - `japanese/yomitan/dictionaries/` contains the eight Git-tracked importable archives. Their internals are third-party data and are not documented here.
-- `configs/xdg/mpv/scripts/mpvacious/` is the installed upstream mpvacious checkout. `japanese/setup.sh` installs the pinned release and reapplies the intentional menu-line-length mutation.
+- `configs/xdg/mpv/scripts/mpvacious/` is an ignored generated checkout. `japanese/setup.sh` installs a pinned commit from the `kuator/mpvacious` fork, including cue alignment and equivalent-sentence deduplication.
 
 ## Maintenance rule
 

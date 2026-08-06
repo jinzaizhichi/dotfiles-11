@@ -255,14 +255,19 @@ chmod +x "$temp_dir/fake-bin/sudo"
 cat >"$temp_dir/fake-bin/git" <<'EOF'
 #!/usr/bin/env bash
 [ -z "${GIT_TEST_LOG:-}" ] || printf '%s\n' "$*" >>"$GIT_TEST_LOG"
+if [ "$1" = "-C" ] && [ "$3" = "rev-parse" ] && [ "$4" = "HEAD" ]; then
+    cat "$2/.git-head"
+    exit
+fi
 destination="${!#}"
 test -d "$(dirname "$destination")"
 mkdir "$destination"
 case "$destination" in
     */zinit.git) touch "$destination/zinit.zsh" ;;
     */mpvacious)
-        mkdir -p "$destination/mpvacious"
-        printf '    max_shown_line_length = 30,\n' >"$destination/mpvacious/main.lua"
+        mkdir -p "$destination/.git" "$destination/mpvacious"
+        printf '%s\n' 'ae4c9a8dddabfef722302a71aff24739544a85ed' >"$destination/.git-head"
+        printf 'return cfg_mgr.query("menu_max_shown_line_length")\n' >"$destination/mpvacious/main.lua"
         printf '{"version": "v26.7.13.0"}' >"$destination/mpvacious/version.json"
         ;;
 esac
@@ -921,10 +926,13 @@ GIT_TEST_LOG="$study_home/git.log" \
     XDG_DATA_HOME="$study_home/.local/share" \
     "$repo/scripts/optional/japanese/setup.sh" >/dev/null
 
-grep -q -- 'clone --depth 1 --branch v26.7.28.0 https://github.com/Ajatt-Tools/mpvacious' \
+grep -q -- 'clone --depth 1 --branch dotfiles-2026-08-06 https://github.com/kuator/mpvacious' \
     "$study_home/git.log"
-grep -qx '    max_shown_line_length = 300,' \
-    "$study_home/.config/mpv/scripts/mpvacious/mpvacious/main.lua"
+test "$(grep -Fc 'clone --depth 1 --branch dotfiles-2026-08-06' "$study_home/git.log")" -eq 1
+grep -Fq -- '-C '"$study_home/.config/mpv/scripts/mpvacious"' rev-parse HEAD' \
+    "$study_home/git.log"
+grep -Fqx 'menu_max_shown_line_length=200' \
+    "$repo/configs/xdg/mpv/script-opts/subs2srs.conf"
 grep -Fqx '{"version": "v26.7.28.0"}' \
     "$study_home/.config/mpv/scripts/mpvacious/mpvacious/version.json"
 

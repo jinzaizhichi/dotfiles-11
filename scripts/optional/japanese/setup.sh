@@ -13,6 +13,9 @@ PREFIX="/usr"
 
 VERSION="26.08"
 MPVACIOUS_VERSION="v26.7.28.0"
+MPVACIOUS_REF="dotfiles-2026-08-06"
+MPVACIOUS_COMMIT="ae4c9a8dddabfef722302a71aff24739544a85ed"
+MPVACIOUS_REPO="https://github.com/kuator/mpvacious"
 
 ANKI_RELEASE="anki-linux"
 ANKI_ARCHIVE="anki-${VERSION}-linux-x86_64.tar.zst"
@@ -103,24 +106,26 @@ fi
 MPVACIOUS_DIR="$XDG_CONFIG_HOME/mpv/scripts/mpvacious"
 mkdir -p "$XDG_CONFIG_HOME/mpv/scripts"
 
-if [ ! -d "$MPVACIOUS_DIR" ]; then
-    git clone --depth 1 --branch "$MPVACIOUS_VERSION" \
-        https://github.com/Ajatt-Tools/mpvacious \
-        "$MPVACIOUS_DIR"
-else
-    echo "mpvacious already installed."
+installed_mpvacious_commit=""
+if [ -d "$MPVACIOUS_DIR/.git" ]; then
+    installed_mpvacious_commit="$(git -C "$MPVACIOUS_DIR" rev-parse HEAD)"
 fi
 
-sed -i \
-    's/^    max_shown_line_length = 30,$/    max_shown_line_length = 300,/' \
-    "$MPVACIOUS_DIR/mpvacious/main.lua"
+if [ "$installed_mpvacious_commit" != "$MPVACIOUS_COMMIT" ]; then
+    rm -rf "$MPVACIOUS_DIR"
+    git clone --depth 1 --branch "$MPVACIOUS_REF" \
+        "$MPVACIOUS_REPO" "$MPVACIOUS_DIR"
+    installed_mpvacious_commit="$(git -C "$MPVACIOUS_DIR" rev-parse HEAD)"
+    if [ "$installed_mpvacious_commit" != "$MPVACIOUS_COMMIT" ]; then
+        echo "Unexpected mpvacious commit: $installed_mpvacious_commit" >&2
+        exit 1
+    fi
+else
+    echo "mpvacious $MPVACIOUS_COMMIT already installed."
+fi
+
 printf '{"version": "%s"}' "$MPVACIOUS_VERSION" \
     >"$MPVACIOUS_DIR/mpvacious/version.json"
-
-grep -q '^    max_shown_line_length = 300,$' "$MPVACIOUS_DIR/mpvacious/main.lua" || {
-    echo "Unable to patch mpvacious menu line length." >&2
-    exit 1
-}
 
 # ----------------------------
 # Anki addons

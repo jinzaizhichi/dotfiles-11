@@ -42,9 +42,9 @@
 - Consumes: the exact commit produced by Task 1
 - Produces: an idempotent installation at `$XDG_CONFIG_HOME/mpv/scripts/mpvacious`
 
-- [ ] Change the bootstrap test to expect cloning `https://github.com/kuator/mpvacious`, branch `fix/deduplicate-secondary-lines`, and the exact fixed commit; verify `bash tests/bootstrap.sh` fails.
-- [ ] Change `setup.sh` to clone that branch and verify `git rev-parse HEAD` equals the pinned commit; reinstall when the existing checkout is at another revision.
-- [ ] Keep the existing menu-line-length mutation and write the fork commit to `version.json`.
+- [ ] Change the bootstrap test to expect cloning immutable tag `dotfiles-2026-08-06` from `https://github.com/kuator/mpvacious` and the exact fixed commit; verify `bash tests/bootstrap.sh` fails.
+- [ ] Change `setup.sh` to clone that tag and verify `git rev-parse HEAD` equals the pinned commit; reinstall when the existing checkout is at another revision.
+- [ ] Keep the upstream semantic version in `version.json`; a commit hash would trigger a false update warning. Use the exposed menu-length option rather than mutating source.
 - [ ] Update README to describe the pinned fork rather than an upstream release.
 - [ ] Run `bash tests/bootstrap.sh` and `git diff --check`; verify both pass.
 
