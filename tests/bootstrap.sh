@@ -266,7 +266,7 @@ case "$destination" in
     */zinit.git) touch "$destination/zinit.zsh" ;;
     */mpvacious)
         mkdir -p "$destination/.git" "$destination/mpvacious"
-        printf '%s\n' 'ae4c9a8dddabfef722302a71aff24739544a85ed' >"$destination/.git-head"
+        printf '%s\n' '5dc199342d8b98a529170aff1d18bbaec904f877' >"$destination/.git-head"
         printf 'return cfg_mgr.query("menu_max_shown_line_length")\n' >"$destination/mpvacious/main.lua"
         printf '{"version": "v26.7.13.0"}' >"$destination/mpvacious/version.json"
         ;;
@@ -926,9 +926,9 @@ GIT_TEST_LOG="$study_home/git.log" \
     XDG_DATA_HOME="$study_home/.local/share" \
     "$repo/scripts/optional/japanese/setup.sh" >/dev/null
 
-grep -q -- 'clone --depth 1 --branch dotfiles-2026-08-06 https://github.com/kuator/mpvacious' \
+grep -q -- 'clone --depth 1 --branch dotfiles-2026-08-09-v2 https://github.com/kuator/mpvacious' \
     "$study_home/git.log"
-test "$(grep -Fc 'clone --depth 1 --branch dotfiles-2026-08-06' "$study_home/git.log")" -eq 1
+test "$(grep -Fc 'clone --depth 1 --branch dotfiles-2026-08-09-v2' "$study_home/git.log")" -eq 1
 grep -Fq -- '-C '"$study_home/.config/mpv/scripts/mpvacious"' rev-parse HEAD' \
     "$study_home/git.log"
 grep -Fqx 'menu_max_shown_line_length=200' \
