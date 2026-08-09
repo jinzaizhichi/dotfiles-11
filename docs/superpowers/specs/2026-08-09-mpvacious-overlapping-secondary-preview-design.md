@@ -9,9 +9,9 @@ primary timing range from the full secondary track.
 
 ## Design
 
-This is a local-fork feature, not part of the OSD-wrapping pull request. Ren's
-merged `collector` and `sub_list` implementation remains authoritative for
-joining and deduplicating observed cues. The omitted full-track cache remains
+This is separate from the OSD-wrapping pull request. Ren's merged `collector`
+and `sub_list` implementation remains authoritative for joining and
+deduplicating observed cues. The omitted full-track cache will be rewritten as
 an isolated look-ahead extension and must consume the same selected `Subtitle`
 timing window as `sub_list.get_overlapping_text()`.
 
@@ -28,6 +28,13 @@ No new overlap algorithm, configuration option, or card-creation path is
 introduced. Embedded-track loading remains asynchronous; opening or updating
 the menu reads the latest available cache and otherwise preserves the merged
 observed-cue fallback.
+
+The work will be proposed as a draft upstream pull request. Its description
+will explain the concrete Japanese-cue/English-cues scenario, state that the
+full-track behavior is the part omitted from PR #173, show the fallback when a
+track cannot be loaded, and explicitly ask maintainers whether the behavior
+belongs upstream and whether it should be configurable. The old `4b95adb`
+commit will not be reused as the PR implementation.
 
 ## Verification
 
