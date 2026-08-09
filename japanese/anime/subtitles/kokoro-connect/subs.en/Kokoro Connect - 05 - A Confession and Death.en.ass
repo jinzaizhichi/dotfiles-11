@@ -1,4 +1,4 @@
-﻿[Script Info]
+[Script Info]
 Title: HorribleSubs
 ScriptType: v4.00+
 WrapStyle: 0
@@ -57,10 +57,10 @@ Dialogue: 0,0:03:17.23,0:03:19.21,CRKokoro,Yui,0000,0000,0000,,Can we go back to
 Dialogue: 0,0:03:19.21,0:03:21.54,CRKokoro,Aoki,0000,0000,0000,,Are you inviting me to join you?
 Dialogue: 0,0:03:21.54,0:03:24.31,CRKokoro,Yui,0000,0000,0000,,No, my friends are waiting for me!
 Dialogue: 0,0:03:24.31,0:03:25.48,CRKokoro,Aoki,0000,0000,0000,,Ah, wait!
-Dialogue: 0,0:03:25.48,0:03:28.27,CRKokoro,Yui,0000,0000,0000,,{\an8}Just so you know, you're way behind
-Dialogue: 0,0:03:28.27,0:03:30.74,CRKokoro,,0000,0000,0000,,{\an8}Taichi on my male friend list.
+Dialogue: 0,0:03:25.48,0:03:28.27,CRKokoro,Yui,0000,0000,0000,,Just so you know, you're way behind
+Dialogue: 0,0:03:28.27,0:03:30.74,CRKokoro,,0000,0000,0000,,Taichi on my male friend list.
 Dialogue: 0,0:03:30.09,0:03:32.32,CRKokoro,Tai,0000,0000,0000,,How did you know this \Nwas going to happen?
-Dialogue: 0,0:03:30.74,0:03:34.08,CRKokoro,Aoki,0000,0000,0000,,{\an8}What?! So Taichi is my biggest rival!
+Dialogue: 0,0:03:30.74,0:03:34.08,CRKokoro,Aoki,0000,0000,0000,,What?! So Taichi is my biggest rival!
 Dialogue: 0,0:03:32.32,0:03:34.56,CRKokoro,Ina,0000,0000,0000,,I switched with Yui yesterday and
 Dialogue: 0,0:03:34.56,0:03:37.07,CRKokoro,,0000,0000,0000,,happened to see the text from Aoki.
 Dialogue: 0,0:03:37.07,0:03:38.73,CRKokoro,Ina,0000,0000,0000,,It was an accident.

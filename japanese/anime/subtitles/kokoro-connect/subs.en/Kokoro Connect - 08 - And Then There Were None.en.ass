@@ -1,4 +1,4 @@
-﻿[Script Info]
+[Script Info]
 Title: HorribleSubs
 ScriptType: v4.00+
 WrapStyle: 0
@@ -254,7 +254,7 @@ Dialogue: 0,0:13:43.21,0:13:45.13,CRKokoro,Iori,0000,0000,0000,,I'm trying to he
 Dialogue: 0,0:13:45.13,0:13:47.21,CRKokoro,Ina,0000,0000,0000,,My opinion is the correct one.
 Dialogue: 0,0:13:47.21,0:13:48.96,CRKokoro,Iori,0000,0000,0000,,How can you be so sure?!
 Dialogue: 0,0:13:48.96,0:13:50.60,CRKokoro,Wata,0000,0000,0000,,Hey, Yaegashi...
-Dialogue: 0,0:13:48.96,0:13:50.94,CRKokoro,Ina,0000,0000,0000,,{\an8}Don't throw a hissy fit, idiot.
+Dialogue: 0,0:13:48.96,0:13:50.94,CRKokoro,Ina,0000,0000,0000,,Don't throw a hissy fit, idiot.
 Dialogue: 0,0:13:50.94,0:13:51.92,CRKokoro,Iori,0000,0000,0000,,Did you call me an idiot?
 Dialogue: 0,0:13:51.92,0:13:53.27,CRKokoro,Iori,0000,0000,0000,,Did you just call me an idiot?
 Dialogue: 0,0:13:53.69,0:13:55.21,CRKokoro,Ina,0000,0000,0000,,Calm down!

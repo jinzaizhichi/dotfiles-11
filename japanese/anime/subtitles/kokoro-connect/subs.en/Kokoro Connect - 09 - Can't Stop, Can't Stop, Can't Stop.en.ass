@@ -1,4 +1,4 @@
-﻿[Script Info]
+[Script Info]
 Title: HorribleSubs
 ScriptType: v4.00+
 WrapStyle: 0
@@ -295,7 +295,7 @@ Dialogue: 0,0:14:52.30,0:14:55.08,CRKokoro,Yui,0000,0000,0000,,Yes, sorry about 
 Dialogue: 0,0:14:55.35,0:14:57.83,CRKokoro,Goto,0000,0000,0000,,Did you put on some weight?
 Dialogue: 0,0:14:58.11,0:14:59.85,CRKokoro,Yui,0000,0000,0000,,You're imagining things!
 Dialogue: 0,0:15:01.25,0:15:02.52,CRKokoro,Yuki,0000,0000,0000,,I think he's right.
-Dialogue: 0,0:15:02.52,0:15:04.75,CRKokoro,Yui,0000,0000,0000,,{\an8}Hey! Watch your mouth!
+Dialogue: 0,0:15:02.52,0:15:04.75,CRKokoro,Yui,0000,0000,0000,,Hey! Watch your mouth!
 Dialogue: 0,0:15:02.52,0:15:07.42,CRKokoro,Iori,0000,0000,0000,,I hope Inaban also \Ncomes to the clubroom.
 Dialogue: 0,0:15:10.60,0:15:12.14,CRKokoro,Iori,0000,0000,0000,,So much!
 Dialogue: 0,0:15:12.65,0:15:14.87,CRKokoro,Aoki,0000,0000,0000,,Isn't this a little excessive?
@@ -309,9 +309,9 @@ Dialogue: 0,0:15:31.17,0:15:33.53,CRKokoro,Aoki,0000,0000,0000,,Give me that mit
 Dialogue: 0,0:15:33.53,0:15:34.74,CRKokoro,Iori,0000,0000,0000,,Desire unleashed?!
 Dialogue: 0,0:15:34.74,0:15:35.24,CRKokoro,Tai,0000,0000,0000,,What?!
 Dialogue: 0,0:15:35.24,0:15:37.77,CRKokoro,Yui,0000,0000,0000,,No way! Don't take mine!
-Dialogue: 0,0:15:37.77,0:15:39.67,CRKokoro,Aoki,0000,0000,0000,,{\an8}Give me the mitarashi dango!
+Dialogue: 0,0:15:37.77,0:15:39.67,CRKokoro,Aoki,0000,0000,0000,,Give me the mitarashi dango!
 Dialogue: 0,0:15:39.12,0:15:41.91,CRKokoro,Tai,0000,0000,0000,,I wondered where this would lead...
-Dialogue: 0,0:15:39.67,0:15:42.46,CRKokoro,Yui,0000,0000,0000,,{\an8}There's more over there!
+Dialogue: 0,0:15:39.67,0:15:42.46,CRKokoro,Yui,0000,0000,0000,,There's more over there!
 Dialogue: 0,0:15:42.46,0:15:46.03,CRKokoro,Aoki,0000,0000,0000,,No! I absolutely must have yours!
 Dialogue: 0,0:15:46.03,0:15:48.01,CRKokoro,Yui,0000,0000,0000,,Why do you want mine?!
 Dialogue: 0,0:15:48.01,0:15:49.92,CRKokoro,Iori,0000,0000,0000,,That's mine!

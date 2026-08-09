@@ -1,6 +1,6 @@
 {
     "version": 0,
-    "date": "2026-08-02 06:24:06",
+    "date": "2026-08-09 10:32:45",
     "url": "moz-extension://db6dbcf8-2953-4a82-837b-8694869265fd/",
     "manifest": {
         "author": "Yomidevs",
@@ -169,10 +169,10 @@
             }
         },
         "devtools_page": null,
+        "page_action": null,
         "omnibox": {
             "keyword": "yomi"
         },
-        "page_action": null,
         "sidebar_action": null,
         "chrome_url_overrides": null,
         "declarative_net_request": null,

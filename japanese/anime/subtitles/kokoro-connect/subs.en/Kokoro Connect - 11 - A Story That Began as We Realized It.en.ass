@@ -1,4 +1,4 @@
-﻿[Script Info]
+[Script Info]
 Title: HorribleSubs
 ScriptType: v4.00+
 WrapStyle: 0
@@ -125,11 +125,11 @@ Dialogue: 0,0:04:21.34,0:04:24.42,CRKokoro,Ina,0000,0000,0000,,What do we have h
 Dialogue: 0,0:04:24.42,0:04:27.96,CRKokoro,Tai,0000,0000,0000,,So basically, Nagase and Kiriyama \Nhad their youth restored?
 Dialogue: 0,0:04:27.96,0:04:31.78,CRKokoro,Ina,0000,0000,0000,,Yes. They're little kids again.
 Dialogue: 0,0:04:32.29,0:04:36.11,CRKokoro,Ina,0000,0000,0000,,They don't understand \Ntheir current situation,
-Dialogue: 0,0:04:33.79,0:04:35.31,CRKokoro,Iori,0000,0000,0000,,{\an8}Here you go.
+Dialogue: 0,0:04:33.79,0:04:35.31,CRKokoro,Iori,0000,0000,0000,,Here you go.
 Dialogue: 0,0:04:36.11,0:04:40.23,CRKokoro,Ina,0000,0000,0000,,but they've adapted \Nto the circumstances,
 Dialogue: 0,0:04:40.23,0:04:43.17,CRKokoro,Ina,0000,0000,0000,,so they don't question why they're here.
-Dialogue: 0,0:04:40.62,0:04:41.97,CRKokoro,Yui,0000,0000,0000,,{\an8}Thank you.
-Dialogue: 0,0:04:41.97,0:04:43.17,CRKokoro,Iori,0000,0000,0000,,{\an8}You're welcome.
+Dialogue: 0,0:04:40.62,0:04:41.97,CRKokoro,Yui,0000,0000,0000,,Thank you.
+Dialogue: 0,0:04:41.97,0:04:43.17,CRKokoro,Iori,0000,0000,0000,,You're welcome.
 Dialogue: 0,0:04:43.17,0:04:46.66,CRKokoro,Ina,0000,0000,0000,,It makes no sense at all, \Nbut that's where we stand.
 Dialogue: 0,0:04:46.66,0:04:49.77,CRKokoro,Aoki,0000,0000,0000,,So is this Heartseed?
 Dialogue: 0,0:04:49.77,0:04:51.62,CRKokoro,Ina,0000,0000,0000,,It has to be.

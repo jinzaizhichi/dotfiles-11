@@ -141,6 +141,13 @@ Finally, start Anki with AnkiConnect enabled and update or create the official J
 
 Restart Anki afterward so AJT Japanese refreshes its injected CSS and JavaScript.
 
+To recover a missing book title on cards created from copied EPUB text, preview exact matches first, then apply the reviewed changes:
+
+```sh
+./scripts/optional/japanese/attribute-epub-cards.py ~/Books/book.epub
+./scripts/optional/japanese/attribute-epub-cards.py ~/Books/book.epub --apply
+```
+
 ### 6. Verify the machine
 
 ```sh
@@ -191,6 +198,7 @@ Nothing under `scripts/optional/` runs automatically. Several scripts use sudo, 
 | `japanese/download-yomitan-audio.sh` | Downloads, caches, and installs the optional local-audio collection. |
 | `japanese/download-yomitan-dictionaries.sh` | Restores missing dictionary archives from the tracked manifest. |
 | `japanese/setup.sh` | Installs Anki and mpvacious and reports missing Anki add-ons. |
+| `japanese/attribute-epub-cards.py` | Previews or restores EPUB book titles on matching Japanese Sentences notes. |
 | `japanese/update-japanese-sentences.sh` | Fetches upstream Japanese Sentences, applies compatibility patches, and updates it through AnkiConnect. |
 | `shell/configure-bash-xdg.sh` | Makes system Bash startup and history use XDG locations. |
 | `shell/install-codex.sh` | Installs Codex through Mise-managed npm with an XDG data home and migrates an existing `~/.codex`; Codex must be closed. |
