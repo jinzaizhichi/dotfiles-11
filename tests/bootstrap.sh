@@ -259,6 +259,10 @@ if [ "$1" = "-C" ] && [ "$3" = "rev-parse" ] && [ "$4" = "HEAD" ]; then
     cat "$2/.git-head"
     exit
 fi
+if [ "$1" = "-C" ] && [ "$3" = "checkout" ] && [ "$4" = "--detach" ]; then
+    printf '%s\n' "$5" >"$2/.git-head"
+    exit
+fi
 destination="${!#}"
 test -d "$(dirname "$destination")"
 mkdir "$destination"
@@ -269,6 +273,10 @@ case "$destination" in
         printf '%s\n' '5dc199342d8b98a529170aff1d18bbaec904f877' >"$destination/.git-head"
         printf 'return cfg_mgr.query("menu_max_shown_line_length")\n' >"$destination/mpvacious/main.lua"
         printf '{"version": "v26.7.13.0"}' >"$destination/mpvacious/version.json"
+        ;;
+    */autosubsync-mpv)
+        mkdir -p "$destination/.git"
+        printf '%s\n' 'a6dc1bbf86d82d001b34c6b223d1f82ee3d7b2cc' >"$destination/.git-head"
         ;;
 esac
 EOF
@@ -282,6 +290,25 @@ mkdir -p "$(dirname "$MISE_INSTALL_PATH")"
 cat >"$MISE_INSTALL_PATH" <<'MISE'
 #!/usr/bin/env bash
 printf '%s\n' "$*" >>"$MISE_TEST_LOG"
+if [ "${3:-}" = uv ] && [ "${4:-}" = tool ] && [ "${5:-}" = list ]; then
+    if [ -x "$UV_TOOL_BIN_DIR/ffsubsync" ]; then
+        printf '%s\n' 'ffsubsync v0.4.31' '- ffsubsync'
+    fi
+elif [ "${3:-}" = uv ] && [ "${4:-}" = tool ] && [ "${5:-}" = install ]; then
+    mkdir -p "$UV_TOOL_BIN_DIR"
+    cat >"$UV_TOOL_BIN_DIR/ffsubsync" <<'FFSUBSYNC'
+#!/usr/bin/env sh
+printf '%s\n' 'ffsubsync 0.4.31'
+FFSUBSYNC
+    chmod +x "$UV_TOOL_BIN_DIR/ffsubsync"
+elif [ "${3:-}" = cargo ] && [ "${4:-}" = install ]; then
+    mkdir -p "$CARGO_HOME/bin"
+    cat >"$CARGO_HOME/bin/alass-cli" <<'ALASS'
+#!/usr/bin/env sh
+printf '%s\n' 'alass-cli 2.0.0'
+ALASS
+    chmod +x "$CARGO_HOME/bin/alass-cli"
+fi
 MISE
 chmod +x "$MISE_INSTALL_PATH"
 INSTALLER
@@ -352,9 +379,11 @@ grep -Fqx -- '--user restart kanata.service' \
     "$temp_dir/kanata-systemctl.log"
 
 BOOTSTRAP_LOG="$temp_dir/sudo.log" \
+    CARGO_HOME="$temp_dir/setup-home/.local/share/cargo" \
     CURL_TEST_LOG="$temp_dir/curl.log" \
     GSETTINGS_LOG="$temp_dir/gsettings.log" \
     MISE_TEST_LOG="$temp_dir/mise.log" \
+    MPV_SCRIPTS_DIR="$temp_dir/setup-home/mpv-scripts" \
     OS_RELEASE_FILE="$temp_dir/ubuntu-24.04" \
     XKB_TEST_LOG="$temp_dir/xkb.log" \
     DISPLAY=:99 \
@@ -363,6 +392,8 @@ BOOTSTRAP_LOG="$temp_dir/sudo.log" \
     XDG_CURRENT_DESKTOP=X-Cinnamon \
     XDG_CONFIG_HOME="$temp_dir/setup-home/.config" \
     XDG_DATA_HOME="$temp_dir/setup-home/.local/share" \
+    UV_TOOL_BIN_DIR="$temp_dir/setup-home/.local/bin" \
+    UV_TOOL_DIR="$temp_dir/setup-home/.local/share/uv/tools" \
     "$repo/scripts/setup.sh" >/dev/null
 
 grep -qx 'apt-get update' "$temp_dir/sudo.log"
@@ -373,6 +404,17 @@ grep -Fqx \
     'install --yes rust uv ty bat eza delta bottom lazygit lazydocker shfmt k9s github:zk-org/zk github:ewhauser/shuck bob github:jtroo/kanata' \
     "$temp_dir/mise.log"
 grep -Fqx 'exec -- bob use nightly' "$temp_dir/mise.log"
+grep -Fqx 'exec -- uv tool list' "$temp_dir/mise.log"
+grep -Fqx 'exec -- uv tool install --force ffsubsync==0.4.31' \
+    "$temp_dir/mise.log"
+grep -Fqx 'exec -- cargo install --locked --version 2.0.0 alass-cli' \
+    "$temp_dir/mise.log"
+test "$("$temp_dir/setup-home/.local/bin/ffsubsync" --version)" = \
+    'ffsubsync 0.4.31'
+test "$("$temp_dir/setup-home/.local/bin/alass" --version)" = \
+    'alass-cli 2.0.0'
+test "$(cat "$temp_dir/setup-home/mpv-scripts/autosubsync-mpv/.git-head")" = \
+    'a6dc1bbf86d82d001b34c6b223d1f82ee3d7b2cc'
 if grep -q 'pipewire-audio-client-libraries' "$temp_dir/sudo.log"; then
     echo "default bootstrap would replace the existing audio stack" >&2
     exit 1
@@ -410,9 +452,11 @@ grep -Fqx -- '-layout en,ru -variant , -option  -option grp:alt_shift_toggle' \
 
 mkdir -p "$temp_dir/setup-kde-home"
 BOOTSTRAP_LOG="$temp_dir/kde-setup-sudo.log" \
+    CARGO_HOME="$temp_dir/setup-kde-home/.local/share/cargo" \
     CURL_TEST_LOG="$temp_dir/kde-setup-curl.log" \
     KWRITECONFIG_LOG="$temp_dir/kde-setup-kwriteconfig.log" \
     MISE_TEST_LOG="$temp_dir/kde-setup-mise.log" \
+    MPV_SCRIPTS_DIR="$temp_dir/setup-kde-home/mpv-scripts" \
     OS_RELEASE_FILE="$temp_dir/ubuntu-26.04" \
     DISPLAY= \
     HOME="$temp_dir/setup-kde-home" \
@@ -420,6 +464,8 @@ BOOTSTRAP_LOG="$temp_dir/kde-setup-sudo.log" \
     XDG_CURRENT_DESKTOP=KDE \
     XDG_CONFIG_HOME="$temp_dir/setup-kde-home/.config" \
     XDG_DATA_HOME="$temp_dir/setup-kde-home/.local/share" \
+    UV_TOOL_BIN_DIR="$temp_dir/setup-kde-home/.local/bin" \
+    UV_TOOL_DIR="$temp_dir/setup-kde-home/.local/share/uv/tools" \
     "$repo/scripts/setup.sh" >/dev/null
 grep -Fqx -- '--file kxkbrc --group Layout --key LayoutList en,ru' \
     "$temp_dir/kde-setup-kwriteconfig.log"
@@ -575,6 +621,7 @@ expected_scripts=(
     scripts/bootstrap/configure-desktop.sh
     scripts/bootstrap/install-mise.sh
     scripts/bootstrap/install-packages.sh
+    scripts/bootstrap/install-subtitle-sync.sh
     scripts/bootstrap/link-configs.sh
     scripts/optional/desktop/import-gnome-terminal-profile.sh
     scripts/optional/desktop/install-steam.sh

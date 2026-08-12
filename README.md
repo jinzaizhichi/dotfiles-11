@@ -18,7 +18,7 @@ cd "$HOME/dotfiles"
 ./scripts/setup.sh
 ```
 
-This is the only automatic entry point. It rejects other Ubuntu release/desktop combinations before making changes, asks for sudo normally, installs the base APT packages and Zinit, links the tracked configuration, installs Mise-managed tools including Kanata and Bob's Neovim nightly, and applies the tracked desktop keyboard settings. It is safe to rerun: an existing destination is moved to `<name>-old`, and setup stops rather than overwriting an existing backup.
+This is the only automatic entry point. It rejects other Ubuntu release/desktop combinations before making changes, asks for sudo normally, installs the base APT packages and Zinit, links the tracked configuration, installs Mise-managed tools including Kanata and Bob's Neovim nightly, installs the subtitle synchronization tools used by mpv, and applies the tracked desktop keyboard settings. It is safe to rerun: an existing destination is moved to `<name>-old`, and setup stops rather than overwriting an existing backup.
 
 Run every remaining command only after `scripts/setup.sh` succeeds.
 
@@ -52,6 +52,31 @@ cd "$HOME/dotfiles"
 ```
 
 The Appgate wrapper uses a private fake home under `$XDG_DATA_HOME`; the system service and running VPN client remain vendor software.
+
+Appgate's **Disconnect** action removes the tunnel, routes, and DNS changes, but leaves the privileged `appgatedriver.service` running. To guarantee that no Appgate process remains active outside work hours, disable its automatic startup once:
+
+```sh
+sudo systemctl disable --now appgatedriver.service
+```
+
+Start the driver immediately before using Appgate, then disconnect and quit Appgate before stopping it again:
+
+```sh
+sudo systemctl start appgatedriver.service
+appgate
+
+# After disconnecting and quitting Appgate:
+sudo systemctl stop appgatedriver.service
+```
+
+Manual starts still work while the service is disabled. Confirm that the driver is stopped with:
+
+```sh
+systemctl is-active appgatedriver.service  # expected: inactive
+pgrep -x appgate-driver                   # expected: no output
+```
+
+An Appgate package reinstall or upgrade may enable the service again; recheck it afterward.
 
 ### 3. Log out or reboot
 
@@ -139,7 +164,18 @@ Finally, start Anki with AnkiConnect enabled and update or create the official J
 ./scripts/optional/japanese/update-japanese-sentences.sh
 ```
 
-Restart Anki afterward so AJT Japanese refreshes its injected CSS and JavaScript.
+The local template keeps images expanded on mobile, places them directly below the sentence on the answer side before definitions and notes, and presents Yomitan dictionary provenance as compact colored labels while retaining the full dictionary name in the card HTML and label tooltip. Restart Anki afterward so AJT Japanese refreshes its injected CSS and JavaScript.
+
+Normal runs use a reviewed, pinned upstream commit. Check for upstream changes without modifying Anki, then explicitly test a reviewed commit if one is available:
+
+```sh
+./scripts/optional/japanese/update-japanese-sentences.sh --check-upstream
+./scripts/optional/japanese/update-japanese-sentences.sh --upstream-ref <40-character-commit>
+```
+
+The second command is a one-time override. After accepting the result, update `upstream_ref` near the top of the script so future normal runs keep that revision; otherwise, a normal run deliberately restores the existing pin.
+
+The updater also maintains a local `VocabFreq` field, displayed as compact JPDB/CC100 labels on answer sides. Import the tracked Yomitan settings so newly mined notes fill it with `{frequencies}`.
 
 To recover a missing book title on cards created from copied EPUB text, preview exact matches first, then apply the reviewed changes:
 
@@ -178,6 +214,7 @@ On Ubuntu 24.04 Cinnamon/X11, also run `setxkbmap -query`. On Kubuntu 26.04, run
 - `scripts/bootstrap/install-packages.sh` installs Ubuntu packages.
 - `scripts/bootstrap/link-configs.sh` backs up and links tracked configuration.
 - `scripts/bootstrap/install-mise.sh` installs Mise-managed CLI tools and Bob's Neovim nightly.
+- `scripts/bootstrap/install-subtitle-sync.sh` installs pinned ffsubsync through uv, alass-cli through the Mise-managed Rust toolchain, and autosubsync-mpv under mpv's scripts directory.
 - `scripts/bootstrap/configure-desktop.sh` derives desktop keyboard settings from `configs/system/keyboard`.
 
 ### Manual setup
@@ -228,7 +265,7 @@ Nothing under `scripts/optional/` runs automatically. Several scripts use sudo, 
 
 - `japanese/anki/addons21/` contains downloaded Anki add-ons and is intentionally ignored; `japanese/anki/addons.txt` is the reproducible source list.
 - `japanese/yomitan/dictionaries/` contains the eight Git-tracked importable archives. Their internals are third-party data and are not documented here.
-- `configs/xdg/mpv/scripts/mpvacious/` is an ignored generated checkout. `japanese/setup.sh` installs a pinned commit from the `kuator/mpvacious` fork, including cue alignment and equivalent-sentence deduplication.
+- `configs/xdg/mpv/scripts/mpvacious/` and `configs/xdg/mpv/scripts/autosubsync-mpv/` are ignored generated checkouts. `japanese/setup.sh` installs a pinned commit from the `kuator/mpvacious` fork, while the automatic bootstrap installs a pinned autosubsync-mpv commit and its ffsubsync and alass backends.
 
 ## Maintenance rule
 

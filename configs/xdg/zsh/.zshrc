@@ -42,7 +42,10 @@ zinit light greymd/docker-zsh-completion
 ########## PROMPT
 # Load version control information
 autoload -Uz vcs_info
-precmd() { vcs_info }
+precmd() {
+  vcs_info
+  print -n -- $'\e[2 q'
+}
 
 # Format the vcs_info_msg_0_ variable
 zstyle ':vcs_info:git:*' formats '%b'
@@ -130,3 +133,5 @@ alias wget="wget --hsts-file=$XDG_CACHE_HOME/wget-hsts"
 alias zkcd="cd $ZK_NOTEBOOK_DIR"
 
 (( $+commands[zoxide] )) && eval "$(zoxide init zsh)"
+
+(( $+commands[mise] )) && eval "$(mise activate zsh)"

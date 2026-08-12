@@ -584,8 +584,12 @@
                                         "value": "{pitch-accent-positions}",
                                         "overwriteMode": "coalesce"
                                     },
+                                    "VocabFreq": {
+                                        "value": "{frequencies}",
+                                        "overwriteMode": "coalesce"
+                                    },
                                     "VocabDef": {
-                                        "value": "{glossary-brief}",
+                                        "value": "{glossary}",
                                         "overwriteMode": "coalesce"
                                     },
                                     "VocabAudio": {
@@ -649,8 +653,12 @@
                                         "value": "{pitch-accent-positions}",
                                         "overwriteMode": "coalesce"
                                     },
+                                    "VocabFreq": {
+                                        "value": "{frequencies}",
+                                        "overwriteMode": "coalesce"
+                                    },
                                     "VocabDef": {
-                                        "value": "{glossary-brief}",
+                                        "value": "{glossary}",
                                         "overwriteMode": "coalesce"
                                     },
                                     "VocabAudio": {

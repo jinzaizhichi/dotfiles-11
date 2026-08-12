@@ -40,6 +40,7 @@ fi
 
 "$scripts_dir/bootstrap/link-configs.sh"
 "$scripts_dir/bootstrap/install-mise.sh"
+"$scripts_dir/bootstrap/install-subtitle-sync.sh"
 
 "$scripts_dir/bootstrap/configure-desktop.sh"
 

@@ -1,5 +1,6 @@
 # Font
 font-family = "UbuntuMono Nerd Font"
+font-family = "Noto Sans Mono CJK JP"
 font-size = 12
 
 # Colors
@@ -28,6 +29,10 @@ palette = 15=#FFFFFF
 background-opacity = 0.94
 
 shell-integration = detect
+shell-integration-features = no-cursor
+
+cursor-style = block
+cursor-style-blink = false
 
 window-padding-x = 0
 window-padding-y = 0
@@ -35,3 +40,4 @@ gtk-titlebar = false
 window-show-tab-bar = never
 
 keybind = ctrl+m=text:\r
+keybind = ctrl+[=text:\x1b
