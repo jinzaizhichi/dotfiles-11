@@ -50,10 +50,14 @@ symlink_configuration "$DOTFILES/configs/home/profile" "$HOME/.profile"
 shopt -s nullglob dotglob
 for path in "$DOTFILES/configs/xdg"/*; do
 	case "$(basename "$path")" in
-	codium | ty) continue ;;
+	autostart | codium | ty) continue ;;
 	esac
 	symlink_configuration "$path" "$XDG_CONFIG_HOME/$(basename "$path")"
 done
+
+symlink_configuration \
+	"$DOTFILES/configs/xdg/autostart/gammastep-indicator.desktop" \
+	"$XDG_CONFIG_HOME/autostart/gammastep-indicator.desktop"
 
 for service in kanata new-tab xm6-audio-guard; do
 	symlink_configuration \

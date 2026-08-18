@@ -18,7 +18,7 @@ cd "$HOME/dotfiles"
 ./scripts/setup.sh
 ```
 
-This is the only automatic entry point. It rejects other Ubuntu release/desktop combinations before making changes, asks for sudo normally, installs the base APT packages and Zinit, links the tracked configuration, installs Mise-managed tools including Kanata and Bob's Neovim nightly, installs the subtitle synchronization tools used by mpv, configures desktop-specific window-to-tray support, and applies the tracked desktop keyboard settings. It is safe to rerun: an existing destination is moved to `<name>-old`, and setup stops rather than overwriting an existing backup.
+This is the only automatic entry point. It rejects other Ubuntu release/desktop combinations before making changes, asks for sudo normally, installs the base APT packages and Zinit, links the tracked configuration, installs Mise-managed tools including Kanata and Bob's Neovim nightly, installs the subtitle synchronization tools used by mpv, configures desktop-specific window-to-tray and color-temperature support, and applies the tracked desktop keyboard settings. It is safe to rerun: an existing destination is moved to `<name>-old`, and setup stops rather than overwriting an existing backup.
 
 Run every remaining command only after `scripts/setup.sh` succeeds.
 
@@ -95,6 +95,8 @@ Install the shared terminal font:
 
 #### Ubuntu 24.04 Cinnamon
 
+Gammastep starts in the system tray and transitions between the tracked 5500K daytime and 4500K nighttime temperatures. Its duplicate background daemon is masked so only the indicator controls the gamma ramp.
+
 The bootstrap installs KDocker for arbitrary X11 windows. Appgate starts normally; its title-bar close button hides it in the tray, while KDocker's tray-menu **Close** actually quits it. Run `kdocker` and click a window, or use `kdocker -f` for other applications.
 
 Import the GNOME Terminal profile, then apply the LightDM home-cleanup changes used by this machine:
@@ -108,6 +110,8 @@ Import the GNOME Terminal profile, then apply the LightDM home-cleanup changes u
 #### Kubuntu 26.04 KDE
 
 Use Kubuntu's installed KDE terminal and display manager. Do not run the GNOME Terminal or LightDM scripts; the bootstrap has already written KDE's keyboard and repeat settings.
+
+The bootstrap enables Plasma Night Light in dark/light mode at 5500K with a light theme and 4500K with a dark theme. It does not install an external color-temperature daemon on KDE/Wayland.
 
 The bootstrap builds the pinned KWin Minimize2Tray script for Plasma Wayland. Log out and back in after its first installation, then use `Meta+Alt+PgDown` on the active window. Chromium and Electron applications work best when launched in native Wayland mode.
 
@@ -215,6 +219,7 @@ On Ubuntu 24.04 Cinnamon/X11, also run `setxkbmap -query`. On Kubuntu 26.04, run
 - `configs/xdg/xm6-audio-guard/` mutes fallback outputs when the paired Sony WH-1000XM6 disappears and unmutes only the headphones when they reconnect.
 - `configs/system/keyboard` is the single tracked source for the system, Cinnamon, KDE, IBus, and live X11 keyboard layout; `configs/gnome-terminal/profile.dconf` is imported rather than linked.
 - `docs/ergonomic-keyboard.md` records the ergonomic-keyboard requirements, shortlist, and current recommendation.
+- `docs/backups-and-qol.md` records the personal-backup scope, encrypted GitHub option, restore requirements, and quality-of-life software shortlist.
 - `docs/todo.md` tracks setup that still requires an external account or private recovery material.
 - `japanese/anki/addons.txt` is the named AnkiWeb add-on manifest; the pinned Forvo fork is installed separately.
 - `japanese/yomitan/dictionaries.txt`, `japanese/yomitan/settings.json`, and `japanese/yomitan/sort-dictionaries.js` define the selected dictionaries, exported settings, and active-profile order.
@@ -230,6 +235,8 @@ On Ubuntu 24.04 Cinnamon/X11, also run `setxkbmap -query`. On Kubuntu 26.04, run
 - `scripts/bootstrap/install-subtitle-sync.sh` installs pinned ffsubsync through uv, alass-cli through the Mise-managed Rust toolchain, and autosubsync-mpv under mpv's scripts directory.
 - `scripts/bootstrap/install-window-tray.sh` uses Ubuntu's KDocker package on Cinnamon/X11 and installs pinned KWin Minimize2Tray on KDE/Wayland.
 - `scripts/bootstrap/configure-desktop.sh` derives desktop keyboard settings from `configs/system/keyboard`.
+- `configs/system/tmpfiles.d/cpu-energy-preference.conf` keeps CPU boost available with the less aggressive `balance_performance` energy preference. Bootstrap applies it only when every exposed CPU policy advertises support, so unsupported laptop and desktop CPUs keep their defaults.
+- On Cinnamon, Gammastep starts through XDG autostart after the display is ready; its early-starting vendor user units are masked.
 
 ### Manual setup
 

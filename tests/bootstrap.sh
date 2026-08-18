@@ -11,6 +11,7 @@ mkdir -p \
     "$temp_dir/home/.local/bin" \
     "$temp_dir/data/applications" \
     "$temp_dir/config/nvim" \
+    "$temp_dir/config/autostart" \
     "$temp_dir/config/systemd/user" \
     "$temp_dir/config/ty"
 touch "$temp_dir/home/.local/bin/existing-command"
@@ -31,6 +32,9 @@ test "$(readlink "$temp_dir/config/fd")" = "$repo/configs/xdg/fd"
 test "$(readlink "$temp_dir/config/mpv")" = "$repo/configs/xdg/mpv"
 test "$(readlink "$temp_dir/config/fontconfig")" = "$repo/configs/xdg/fontconfig"
 test "$(readlink "$temp_dir/config/firefox")" = "$repo/configs/xdg/firefox"
+test "$(readlink "$temp_dir/config/gammastep")" = "$repo/configs/xdg/gammastep"
+test "$(readlink "$temp_dir/config/autostart/gammastep-indicator.desktop")" = \
+    "$repo/configs/xdg/autostart/gammastep-indicator.desktop"
 test "$(readlink "$temp_dir/config/new-tab")" = "$repo/configs/xdg/new-tab"
 test "$(readlink "$temp_dir/config/kanata")" = "$repo/configs/xdg/kanata"
 test "$(readlink "$temp_dir/config/atuin")" = "$repo/configs/xdg/atuin"
@@ -445,6 +449,14 @@ ID=ubuntu
 VERSION_ID="26.04"
 EOF
 
+mkdir -p "$temp_dir/cpufreq-supported/policy0"
+printf '%s\n' 'default performance balance_performance balance_power power' \
+    >"$temp_dir/cpufreq-supported/policy0/energy_performance_available_preferences"
+mkdir -p "$temp_dir/cpufreq-unsupported/policy0" \
+    "$temp_dir/cpufreq-unsupported/policy1"
+printf '%s\n' 'default performance balance_performance balance_power power' \
+    >"$temp_dir/cpufreq-unsupported/policy0/energy_performance_available_preferences"
+
 SYSTEMCTL_LOG="$temp_dir/systemctl.log" \
     HOME="$temp_dir/home" \
     PATH="$temp_dir/fake-bin:$PATH" \
@@ -471,10 +483,12 @@ BOOTSTRAP_LOG="$temp_dir/sudo.log" \
     BITWARDEN_INSTALLED_VERSION=2026.7.0 \
     CARGO_HOME="$temp_dir/setup-home/.local/share/cargo" \
     CURL_TEST_LOG="$temp_dir/curl.log" \
+    CPUFREQ_ROOT="$temp_dir/cpufreq-supported" \
     GSETTINGS_LOG="$temp_dir/gsettings.log" \
     MISE_TEST_LOG="$temp_dir/mise.log" \
     MPV_SCRIPTS_DIR="$temp_dir/setup-home/mpv-scripts" \
     OS_RELEASE_FILE="$temp_dir/ubuntu-24.04" \
+    SYSTEMCTL_LOG="$temp_dir/setup-systemctl.log" \
     XKB_TEST_LOG="$temp_dir/xkb.log" \
     DISPLAY=:99 \
     HOME="$temp_dir/setup-home" \
@@ -489,6 +503,7 @@ BOOTSTRAP_LOG="$temp_dir/sudo.log" \
 grep -qx 'apt-get update' "$temp_dir/sudo.log"
 grep -q '^apt-get install -y ' "$temp_dir/sudo.log"
 grep -Eq '^apt-get install -y .*kdocker' "$temp_dir/sudo.log"
+grep -Eq '^apt-get install -y .*gammastep' "$temp_dir/sudo.log"
 grep -Eq '^apt-get install -y .*xdotool' "$temp_dir/sudo.log"
 grep -Fqx -- '--fail --silent --show-error --location https://mise.run' \
     "$temp_dir/curl.log"
@@ -529,6 +544,13 @@ grep -Fqx 'set org.cinnamon.desktop.peripherals.keyboard repeat-interval 25' \
     "$temp_dir/gsettings.log"
 grep -Fqx 'set org.freedesktop.ibus.general use-system-keyboard-layout true' \
     "$temp_dir/gsettings.log"
+grep -Fqx -- \
+    '--user mask --now gammastep.service gammastep-indicator.service' \
+    "$temp_dir/setup-systemctl.log"
+grep -Fqx 'Exec=gammastep-indicator' \
+    "$repo/configs/xdg/autostart/gammastep-indicator.desktop"
+grep -Fqx 'temp-day=5500' "$repo/configs/xdg/gammastep/config.ini"
+grep -Fqx 'temp-night=4500' "$repo/configs/xdg/gammastep/config.ini"
 test -f "$repo/configs/system/keyboard"
 grep -Fqx 'XKBMODEL="pc105"' "$repo/configs/system/keyboard"
 grep -Fqx 'XKBLAYOUT="en,ru"' "$repo/configs/system/keyboard"
@@ -539,6 +561,15 @@ grep -Fqx \
     "$temp_dir/sudo.log"
 grep -Fqx "install -m 644 $repo/configs/system/keyboard /etc/default/keyboard" \
     "$temp_dir/sudo.log"
+grep -Fqx \
+    "install -m 644 $repo/configs/system/tmpfiles.d/cpu-energy-preference.conf /etc/tmpfiles.d/cpu-energy-preference.conf" \
+    "$temp_dir/sudo.log"
+grep -Fqx \
+    'systemd-tmpfiles --create /etc/tmpfiles.d/cpu-energy-preference.conf' \
+    "$temp_dir/sudo.log"
+grep -Fqx \
+    'w- /sys/devices/system/cpu/cpufreq/policy*/energy_performance_preference - - - - balance_performance' \
+    "$repo/configs/system/tmpfiles.d/cpu-energy-preference.conf"
 grep -Fqx -- '-layout en,ru -variant , -option  -option grp:alt_shift_toggle' \
     "$temp_dir/xkb.log"
 
@@ -579,6 +610,11 @@ done
 if grep -Eq '^apt-get install -y .*kdocker' \
     "$temp_dir/kde-setup-sudo.log"; then
     echo 'Kubuntu setup requested the X11-only KDocker package' >&2
+    exit 1
+fi
+if grep -Eq '^apt-get install -y .*gammastep|^apt-get install -y .*redshift' \
+    "$temp_dir/kde-setup-sudo.log"; then
+    echo 'Kubuntu setup requested an external color-temperature daemon' >&2
     exit 1
 fi
 grep -Fq \
@@ -634,7 +670,11 @@ for expected in \
     '--file kxkbrc --group Layout --key Options grp:alt_shift_toggle' \
     '--file kcminputrc --group Keyboard --key KeyRepeat repeat' \
     '--file kcminputrc --group Keyboard --key RepeatDelay 220' \
-    '--file kcminputrc --group Keyboard --key RepeatRate 40'; do
+    '--file kcminputrc --group Keyboard --key RepeatRate 40' \
+    '--file kwinrc --group NightColor --key Active true' \
+    '--file kwinrc --group NightColor --key Mode DarkLight' \
+    '--file kwinrc --group NightColor --key DayTemperature 5500' \
+    '--file kwinrc --group NightColor --key NightTemperature 4500'; do
     grep -Fqx -- "$expected" "$temp_dir/kwriteconfig.log"
 done
 
@@ -674,11 +714,19 @@ grep -Fqx -- '--file kxkbrc --group Layout --key VariantList ,,' \
 
 KWRITECONFIG_LOG="$temp_dir/unknown-kwriteconfig.log" \
     BOOTSTRAP_LOG="$temp_dir/unknown-sudo.log" \
+    CPUFREQ_ROOT="$temp_dir/cpufreq-unsupported" \
     DISPLAY= \
     PATH="$temp_dir/fake-bin:$PATH" \
     XDG_CURRENT_DESKTOP=sway \
     "$repo/scripts/bootstrap/configure-desktop.sh"
 test ! -e "$temp_dir/unknown-kwriteconfig.log"
+grep -Fqx \
+    "install -m 644 $repo/configs/system/tmpfiles.d/cpu-energy-preference.conf /etc/tmpfiles.d/cpu-energy-preference.conf" \
+    "$temp_dir/unknown-sudo.log"
+if grep -Fq 'systemd-tmpfiles --create' "$temp_dir/unknown-sudo.log"; then
+    echo 'Unsupported CPU attempted to apply balance_performance' >&2
+    exit 1
+fi
 
 cat >"$temp_dir/fake-bin/dpkg-divert" <<'EOF'
 #!/usr/bin/env bash
@@ -1260,10 +1308,8 @@ grep -Fqx 'export NLTK_DATA="$XDG_DATA_HOME/nltk"' "$repo/configs/home/profile"
 grep -Fqx 'export KUBECACHEDIR="$XDG_CACHE_HOME/kube"' "$repo/configs/home/profile"
 test "$(grep '^export PATH=' "$repo/configs/home/profile" | tail -n 1)" = \
     'export PATH="$XDG_DATA_HOME/mise/shims:$PATH"'
-if rg -q 'mise activate' "$repo/configs/xdg/zsh/.zshrc"; then
-    echo 'Mise activation belongs in the inherited profile PATH' >&2
-    exit 1
-fi
+grep -Fqx '(( $+commands[mise] )) && eval "$(mise activate zsh)"' \
+    "$repo/configs/xdg/zsh/.zshrc"
 if rg -q 'alias ssh=|SSH_CONFIG|sshCommand' \
     "$repo/configs/home/profile" "$repo/configs/xdg/zsh/.zshrc" "$repo/configs/xdg/git/config"; then
     echo 'SSH still depends on command-specific XDG overrides' >&2

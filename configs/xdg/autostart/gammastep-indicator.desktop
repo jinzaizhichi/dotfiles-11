@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Gammastep
+Comment=Adjust display colour temperature
+Exec=gammastep-indicator
+Icon=gammastep
+Terminal=false
+StartupNotify=false
+OnlyShowIn=X-Cinnamon;Cinnamon;
+X-GNOME-Autostart-enabled=true
+X-GNOME-Autostart-Delay=3

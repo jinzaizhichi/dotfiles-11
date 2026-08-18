@@ -36,7 +36,6 @@ packages=(
     pipewire
     pulseaudio-utils
     python-is-python3
-    redshift-gtk
     ripgrep
     skkdic
     skkdic-extra
@@ -59,7 +58,7 @@ packages=(
 
 case "${XDG_CURRENT_DESKTOP:-}" in
 *Cinnamon*)
-    packages+=(kdocker libx11-dev xdotool)
+    packages+=(gammastep kdocker libx11-dev xdotool)
     ;;
 *KDE*)
     packages+=(

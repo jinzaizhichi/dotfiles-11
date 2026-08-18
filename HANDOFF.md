@@ -53,11 +53,8 @@ Verification already passed:
 - `shfmt -d scripts/optional/shell/install-codex.sh` and `git diff --check` in
   both repositories.
 
-Known unrelated/non-regression failures:
+Known unrelated/non-regression failure:
 
-- Root `./tests/bootstrap.sh` passes the new Codex assertions, then fails on the
-  tracked `configs/xdg/zsh/.zshrc:137` `mise activate zsh` line with
-  `Mise activation belongs in the inherited profile PATH`.
 - `nvim --headless -l tests/lazy_commands.lua` reported `Telescope was not
   restored`; the supported normal-startup form using `-c 'luafile ...'` passes.
 
@@ -196,9 +193,8 @@ Relevant files: `scripts/optional/japanese/update-japanese-sentences.sh`,
   reproducibly installs ffsubsync 0.4.31, alass-cli 2.0.0, and autosubsync-mpv
   `a6dc1bbf86d82d001b34c6b223d1f82ee3d7b2cc`. Initial/idempotent installs,
   pins, post-install checks, shell syntax, Ubuntu 24.04 Cinnamon/Kubuntu 26.04
-  simulations, Lua loading, and real versions passed. The known full-bootstrap
-  `.zshrc` failure above is unrelated; ignore the unrelated missing-ruff
-  environment warning from `uv tool list`.
+  simulations, Lua loading, and real versions passed. Ignore the unrelated
+  missing-ruff environment warning from `uv tool list`.
 - Firefox Alt+A still needs a Vimium-disabled test before changing Kanata/XKB.
 
 ## Repository/worktree state to preserve

@@ -8,6 +8,7 @@ trap 'rm -rf "$temp_dir"' EXIT
 
 state_file="$temp_dir/state"
 mute_log="$temp_dir/mute.log"
+query_log="$temp_dir/query.log"
 printf 'connected\n' >"$state_file"
 
 cat >"$temp_dir/pactl" <<'EOF'
@@ -17,6 +18,7 @@ set -euo pipefail
 
 case "$1 ${2:-} ${3:-}" in
 "list short sinks")
+	printf 'list\n' >>"$AUDIO_GUARD_TEST_QUERY_LOG"
 	case "$(cat "$AUDIO_GUARD_TEST_STATE")" in
 	connected)
 		printf '20\tbluez_output.58_18_62_26_39_3E.1\tPipeWire\n'
@@ -35,10 +37,11 @@ case "$1 ${2:-} ${3:-}" in
 	;;
 "subscribe "*)
 	printf 'disconnected\n' >"$AUDIO_GUARD_TEST_STATE"
-	printf 'Event remove sink\n'
+	printf "Event 'new' on client #99\n"
+	printf "Event 'remove' on sink #20\n"
 	sleep 0.35
 	printf 'reconnected\n' >"$AUDIO_GUARD_TEST_STATE"
-	printf 'Event new sink\n'
+	printf "Event 'new' on sink #21\n"
 	;;
 *)
 	printf 'Unexpected pactl arguments: %s\n' "$*" >&2
@@ -50,10 +53,12 @@ chmod +x "$temp_dir/pactl"
 
 AUDIO_GUARD_TEST_STATE="$state_file" \
     AUDIO_GUARD_TEST_LOG="$mute_log" \
+    AUDIO_GUARD_TEST_QUERY_LOG="$query_log" \
     PACTL_BIN="$temp_dir/pactl" \
     "$repo/configs/xdg/xm6-audio-guard/watch.sh" >/dev/null
 
 test "$(cat "$mute_log")" = $'10 1\n21 0'
+test "$(wc -l <"$query_log")" -eq 5
 
 repair_dir="$temp_dir/repair"
 mkdir -p "$repair_dir"

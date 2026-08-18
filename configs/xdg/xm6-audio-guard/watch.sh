@@ -32,7 +32,16 @@ if [ -n "$(xm6_sink_id)" ]; then
 	connected=true
 fi
 
-while IFS= read -r _; do
+while IFS= read -r event; do
+	# Querying pactl creates short-lived PulseAudio clients, and pactl subscribe
+	# reports those client events too. Reacting to every event therefore creates
+	# a feedback loop: query -> client event -> query. Sink events are sufficient
+	# for detecting the XM6 appearing or disappearing.
+	case "$event" in
+	*" on sink #"*) ;;
+	*) continue ;;
+	esac
+
 	sink_id="$(xm6_sink_id)"
 	if [ -n "$sink_id" ] && [ "$connected" = false ]; then
 		"$pactl_bin" set-sink-mute "$sink_id" 0
