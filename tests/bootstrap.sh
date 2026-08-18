@@ -33,6 +33,9 @@ test "$(readlink "$temp_dir/config/fontconfig")" = "$repo/configs/xdg/fontconfig
 test "$(readlink "$temp_dir/config/firefox")" = "$repo/configs/xdg/firefox"
 test "$(readlink "$temp_dir/config/new-tab")" = "$repo/configs/xdg/new-tab"
 test "$(readlink "$temp_dir/config/kanata")" = "$repo/configs/xdg/kanata"
+test "$(readlink "$temp_dir/config/atuin")" = "$repo/configs/xdg/atuin"
+test "$(readlink "$temp_dir/config/xm6-audio-guard")" = \
+    "$repo/configs/xdg/xm6-audio-guard"
 test "$(readlink "$temp_dir/config/mise")" = "$repo/configs/xdg/mise"
 test "$(git config --file "$temp_dir/config/git/config" --get core.pager)" = delta
 test "$(git config --file "$temp_dir/config/git/config" --get interactive.diffFilter)" = \
@@ -45,6 +48,8 @@ test "$(readlink "$temp_dir/config/systemd/user/new-tab.service")" = \
     "$repo/configs/xdg/new-tab/new-tab.service"
 test "$(readlink "$temp_dir/config/systemd/user/kanata.service")" = \
     "$repo/configs/xdg/kanata/kanata.service"
+test "$(readlink "$temp_dir/config/systemd/user/xm6-audio-guard.service")" = \
+    "$repo/configs/xdg/xm6-audio-guard/xm6-audio-guard.service"
 grep -Fqx 'old unit' "$temp_dir/config/systemd/user/kanata.service-old"
 test ! -e "$temp_dir/config/readline-old" && test ! -L "$temp_dir/config/readline-old"
 test ! -e "$temp_dir/home/.profile-old" && test ! -L "$temp_dir/home/.profile-old"
@@ -54,6 +59,8 @@ test -f "$temp_dir/config/new-tab/blank.html"
 test -f "$temp_dir/config/new-tab/background.webp"
 test -f "$temp_dir/config/new-tab/new-tab.service"
 test -f "$temp_dir/config/kanata/kanata.service"
+test -f "$temp_dir/config/xm6-audio-guard/watch.sh"
+test -f "$temp_dir/config/xm6-audio-guard/xm6-audio-guard.service"
 grep -Fq 'background.webp' "$temp_dir/config/new-tab/blank.html"
 grep -Fq 'background-size: cover' "$temp_dir/config/new-tab/blank.html"
 grep -Fq 'background-position: right center' "$temp_dir/config/new-tab/blank.html"
@@ -61,6 +68,12 @@ grep -Fq 'http.server 8766 --bind 127.0.0.1' "$temp_dir/config/new-tab/new-tab.s
 grep -Fq \
     'ExecStart=%h/.local/share/mise/shims/kanata --cfg %h/.config/kanata/kanata.kbd' \
     "$temp_dir/config/kanata/kanata.service"
+grep -Fq 'bluez_output.58_18_62_26_39_3E.' \
+    "$temp_dir/config/xm6-audio-guard/watch.sh"
+grep -Fq 'set-sink-mute "$sink_id" 1' \
+    "$temp_dir/config/xm6-audio-guard/watch.sh"
+grep -Fq 'ExecStart=/usr/bin/bash %h/.config/xm6-audio-guard/watch.sh' \
+    "$temp_dir/config/xm6-audio-guard/xm6-audio-guard.service"
 test "$(readlink "$temp_dir/config/VSCodium/User/settings.json")" = "$repo/configs/xdg/codium/settings.json"
 test "$(readlink "$temp_dir/config/VSCodium/User/keybindings.json")" = "$repo/configs/xdg/codium/keybindings.json"
 test ! -e "$temp_dir/config/codium"
@@ -80,7 +93,7 @@ if grep -Fq '/usr/share/codium/codium' \
 fi
 "$temp_dir/home/.local/bin/fd" --version | grep -Fq 'fdfind '
 test "$(find "$repo/bin" -mindepth 1 -maxdepth 1 -printf '%f\n' | sort)" = \
-    $'appgate\ncodium\nfd\nrg\nsteam'
+    $'appgate\ncodium\nfd\nfix-xm6-audio\njson-to-env\nrg\nsteam'
 
 appgate_test="$temp_dir/appgate"
 mkdir -p "$appgate_test/bin" "$appgate_test/data"
@@ -95,8 +108,53 @@ output="$(XDG_DATA_HOME="$appgate_test/data" \
 test "$output" = "$appgate_test/data/appgate/home
 --url=appgate://example"
 test -d "$appgate_test/data/appgate/home"
-grep -Fqx 'exec "${APPGATE_BIN:-/usr/bin/appgate.vendor}" "$@"' \
+grep -Fqx 'exec "$appgate_bin" "$@"' \
     "$repo/bin/appgate"
+
+printf 'appgate icon\n' >"$appgate_test/icon.svg"
+cat >"$appgate_test/bin/real-kdocker" <<'EOF'
+#!/usr/bin/env sh
+printf '%s\n' "$*" >"$KDOCKER_TEST_LOG"
+EOF
+cat >"$appgate_test/bin/real-xdotool" <<'EOF'
+#!/usr/bin/env sh
+printf '%s\n' 123456
+EOF
+cat >"$appgate_test/bin/real-close-to-tray" <<'EOF'
+#!/usr/bin/env sh
+printf '%s\n' "$*" >"$APPGATE_CLOSE_TO_TRAY_TEST_LOG"
+EOF
+chmod +x "$appgate_test/bin/real-kdocker" \
+    "$appgate_test/bin/real-xdotool" \
+    "$appgate_test/bin/real-close-to-tray"
+
+output="$(APPGATE_BIN="$appgate_test/bin/real-appgate" \
+    APPGATE_CLOSE_TO_TRAY_BIN="$appgate_test/bin/real-close-to-tray" \
+    APPGATE_CLOSE_TO_TRAY_TEST_LOG="$appgate_test/close-to-tray.log" \
+    APPGATE_ICON="$appgate_test/icon.svg" \
+    DISPLAY=:99 \
+    KDOCKER_BIN="$appgate_test/bin/real-kdocker" \
+    KDOCKER_TEST_LOG="$appgate_test/kdocker.log" \
+    XDOTOOL_BIN="$appgate_test/bin/real-xdotool" \
+    XDG_DATA_HOME="$appgate_test/data" \
+    XDG_SESSION_TYPE=x11 \
+    "$repo/bin/appgate" --url=appgate://example)"
+test "$output" = "$appgate_test/data/appgate/home
+--url=appgate://example"
+grep -Fqx -- \
+    "-m -i $appgate_test/icon.svg -w 0x1e240" \
+    "$appgate_test/kdocker.log"
+grep -Fqx '0x1e240' "$appgate_test/close-to-tray.log"
+
+output="$(APPGATE_BIN="$appgate_test/bin/real-appgate" \
+    APPGATE_ICON="$appgate_test/icon.svg" \
+    DISPLAY=:99 \
+    KDOCKER_BIN="$appgate_test/bin/real-kdocker" \
+    XDG_DATA_HOME="$appgate_test/data" \
+    XDG_SESSION_TYPE=wayland \
+    "$repo/bin/appgate" --url=appgate://example)"
+test "$output" = "$appgate_test/data/appgate/home
+--url=appgate://example"
 
 steam_test="$temp_dir/steam"
 mkdir -p "$steam_test/data/fixsteam"
@@ -278,9 +336,40 @@ case "$destination" in
         mkdir -p "$destination/.git"
         printf '%s\n' 'a6dc1bbf86d82d001b34c6b223d1f82ee3d7b2cc' >"$destination/.git-head"
         ;;
+    */kwin-minimize2tray)
+        mkdir -p "$destination/.git"
+        printf '%s\n' 'f5e8d140a6660324cafa2188350c858134c80ab2' \
+            >"$destination/.git-head"
+        ;;
+    */checkout)
+        if printf '%s\n' "$*" | grep -Fq \
+            'https://github.com/kuator/yomichan-forvo-server'; then
+            mkdir -p "$destination/.git"
+            printf '%s\n' 'e1c167ef6c0c5de8b2144ae5e88ff3b274262f3b' \
+                >"$destination/.git-head"
+            printf '%s\n' 'fork source' >"$destination/__init__.py"
+            cat >"$destination/config.json" <<'CONFIG'
+{
+  "port": 8770,
+  "language": "ja",
+  "request_timeout_seconds": 3,
+  "lookup_timeout_seconds": 5
+}
+CONFIG
+        fi
+        ;;
 esac
 EOF
 chmod +x "$temp_dir/fake-bin/git"
+
+cat >"$temp_dir/fake-bin/cmake" <<'EOF'
+#!/usr/bin/env bash
+printf '%s\n' "$*" >>"$CMAKE_TEST_LOG"
+if [ "${1:-}" = -B ]; then
+    mkdir -p "$2"
+fi
+EOF
+chmod +x "$temp_dir/fake-bin/cmake"
 
 cat >"$temp_dir/fake-bin/curl" <<'EOF'
 #!/usr/bin/env bash
@@ -379,6 +468,7 @@ grep -Fqx -- '--user restart kanata.service' \
     "$temp_dir/kanata-systemctl.log"
 
 BOOTSTRAP_LOG="$temp_dir/sudo.log" \
+    BITWARDEN_INSTALLED_VERSION=2026.7.0 \
     CARGO_HOME="$temp_dir/setup-home/.local/share/cargo" \
     CURL_TEST_LOG="$temp_dir/curl.log" \
     GSETTINGS_LOG="$temp_dir/gsettings.log" \
@@ -398,6 +488,8 @@ BOOTSTRAP_LOG="$temp_dir/sudo.log" \
 
 grep -qx 'apt-get update' "$temp_dir/sudo.log"
 grep -q '^apt-get install -y ' "$temp_dir/sudo.log"
+grep -Eq '^apt-get install -y .*kdocker' "$temp_dir/sudo.log"
+grep -Eq '^apt-get install -y .*xdotool' "$temp_dir/sudo.log"
 grep -Fqx -- '--fail --silent --show-error --location https://mise.run' \
     "$temp_dir/curl.log"
 grep -Fqx \
@@ -452,8 +544,11 @@ grep -Fqx -- '-layout en,ru -variant , -option  -option grp:alt_shift_toggle' \
 
 mkdir -p "$temp_dir/setup-kde-home"
 BOOTSTRAP_LOG="$temp_dir/kde-setup-sudo.log" \
+    BITWARDEN_INSTALLED_VERSION=2026.7.0 \
     CARGO_HOME="$temp_dir/setup-kde-home/.local/share/cargo" \
+    CMAKE_TEST_LOG="$temp_dir/kde-setup-cmake.log" \
     CURL_TEST_LOG="$temp_dir/kde-setup-curl.log" \
+    GIT_TEST_LOG="$temp_dir/kde-setup-git.log" \
     KWRITECONFIG_LOG="$temp_dir/kde-setup-kwriteconfig.log" \
     MISE_TEST_LOG="$temp_dir/kde-setup-mise.log" \
     MPV_SCRIPTS_DIR="$temp_dir/setup-kde-home/mpv-scripts" \
@@ -471,6 +566,32 @@ grep -Fqx -- '--file kxkbrc --group Layout --key LayoutList en,ru' \
     "$temp_dir/kde-setup-kwriteconfig.log"
 grep -Eq '^apt-get install -y .*libncurses-dev' \
     "$temp_dir/kde-setup-sudo.log"
+for package in \
+    cmake \
+    extra-cmake-modules \
+    libkf6package-dev \
+    libkf6service-dev \
+    libkf6statusnotifieritem-dev \
+    qt6-declarative-dev; do
+    grep -Eq "^apt-get install -y .*$package" \
+        "$temp_dir/kde-setup-sudo.log"
+done
+if grep -Eq '^apt-get install -y .*kdocker' \
+    "$temp_dir/kde-setup-sudo.log"; then
+    echo 'Kubuntu setup requested the X11-only KDocker package' >&2
+    exit 1
+fi
+grep -Fq \
+    'clone --no-checkout https://github.com/luisbocanegra/kwin-minimize2tray.git' \
+    "$temp_dir/kde-setup-git.log"
+grep -Fq \
+    'checkout --detach f5e8d140a6660324cafa2188350c858134c80ab2' \
+    "$temp_dir/kde-setup-git.log"
+grep -Fq -- '-DBUILD_PLUGIN=OFF' "$temp_dir/kde-setup-cmake.log"
+grep -Fq -- '-DINSTALL_SCRIPT=OFF' "$temp_dir/kde-setup-cmake.log"
+grep -Fq 'cmake --install ' "$temp_dir/kde-setup-sudo.log"
+grep -Fqx 'f5e8d140a6660324cafa2188350c858134c80ab2' \
+    "$temp_dir/setup-kde-home/.local/share/dotfiles/kwin-minimize2tray.commit"
 if grep -Eq '^apt-get install -y .*libncursesw5-dev' \
     "$temp_dir/kde-setup-sudo.log"; then
     echo 'Kubuntu setup requested removed libncursesw5-dev' >&2
@@ -621,7 +742,9 @@ expected_scripts=(
     scripts/bootstrap/configure-desktop.sh
     scripts/bootstrap/install-mise.sh
     scripts/bootstrap/install-packages.sh
+    scripts/bootstrap/install-bitwarden.sh
     scripts/bootstrap/install-subtitle-sync.sh
+    scripts/bootstrap/install-window-tray.sh
     scripts/bootstrap/link-configs.sh
     scripts/optional/desktop/import-gnome-terminal-profile.sh
     scripts/optional/desktop/install-steam.sh
@@ -645,6 +768,10 @@ expected_scripts=(
     scripts/optional/system/disable-snap.sh
     scripts/optional/system/disable-sudo-admin-flag.sh
 )
+grep -Fqx 'BITWARDEN_VERSION="2026.7.0"' \
+    "$repo/scripts/bootstrap/install-bitwarden.sh"
+grep -Fqx '"$scripts_dir/bootstrap/install-bitwarden.sh"' \
+    "$repo/scripts/setup.sh"
 for script in "${expected_scripts[@]}"; do
     test -x "$repo/$script"
     case "$script" in
@@ -713,6 +840,7 @@ grep -Fqx 'model = "test"' "$codex_test/data/codex/config.toml"
 test ! -L "$codex_test/home/.local/bin/codex"
 grep -Fqx "$codex_test/data/codex" "$codex_test/codex-home.log"
 grep -Fqx 'exec -- npm install --global @openai/codex@latest' "$codex_test/mise.log"
+grep -Fqx 'exec -- npm install --global @agentclientprotocol/codex-acp@latest' "$codex_test/mise.log"
 grep -Fqx 'reshim' "$codex_test/mise.log"
 
 mkdir -p "$codex_test/home/.codex"
@@ -948,8 +1076,22 @@ mkdir -p \
     "$study_home/opt/anki" \
     "$study_home/Downloads" \
     "$study_home/.config/mpv/scripts" \
+    "$study_home/.local/share/Anki2/addons21/580654285" \
     "$study_home/.local/share/Anki2/addons21/2055492159"
 printf '26.08\n' >"$study_home/opt/anki/.version"
+cat >"$study_home/.local/share/Anki2/addons21/580654285/config.json" <<'EOF'
+{
+  "port": 9999,
+  "language": "zh"
+}
+EOF
+cat >"$study_home/.local/share/Anki2/addons21/580654285/meta.json" <<'EOF'
+{
+  "name": "Yomichan Forvo Server",
+  "disabled": false,
+  "update_enabled": true
+}
+EOF
 
 grep -Fqx 'VERSION="26.08"' "$repo/scripts/optional/japanese/setup.sh"
 grep -Fqx 'ANKI_RELEASE="anki-linux"' "$repo/scripts/optional/japanese/setup.sh"
@@ -976,7 +1118,12 @@ GIT_TEST_LOG="$study_home/git.log" \
 grep -q -- 'clone --depth 1 --branch dotfiles-2026-08-09-v2 https://github.com/kuator/mpvacious' \
     "$study_home/git.log"
 test "$(grep -Fc 'clone --depth 1 --branch dotfiles-2026-08-09-v2' "$study_home/git.log")" -eq 1
+grep -q -- 'clone --depth 1 --branch dotfiles-2026-08-15-forvo-timeout https://github.com/kuator/yomichan-forvo-server' \
+    "$study_home/git.log"
+test "$(grep -Fc 'clone --depth 1 --branch dotfiles-2026-08-15-forvo-timeout' "$study_home/git.log")" -eq 1
 grep -Fq -- '-C '"$study_home/.config/mpv/scripts/mpvacious"' rev-parse HEAD' \
+    "$study_home/git.log"
+grep -Fq -- '-C '"$study_home/.local/share/Anki2/addons21/580654285"' rev-parse HEAD' \
     "$study_home/git.log"
 grep -Fqx 'menu_max_shown_line_length=200' \
     "$repo/configs/xdg/mpv/script-opts/subs2srs.conf"
@@ -991,6 +1138,15 @@ if printf '%s\n' "$missing_addons" | grep -qw 2055492159; then
 fi
 printf '%s\n' "$study_output" | grep -Fq \
     'Run download-yomitan-audio.sh after installing add-on 1045800357.'
+test "$(jq -r '.port' "$study_home/.local/share/Anki2/addons21/580654285/config.json")" -eq 9999
+test "$(jq -r '.language' "$study_home/.local/share/Anki2/addons21/580654285/config.json")" = zh
+test "$(jq -r '.request_timeout_seconds' "$study_home/.local/share/Anki2/addons21/580654285/config.json")" -eq 3
+test "$(jq -r '.lookup_timeout_seconds' "$study_home/.local/share/Anki2/addons21/580654285/config.json")" -eq 5
+test "$(jq -r '.name' "$study_home/.local/share/Anki2/addons21/580654285/meta.json")" = \
+    'Yomichan Forvo Server (kuator fork)'
+test "$(jq -r '.update_enabled' "$study_home/.local/share/Anki2/addons21/580654285/meta.json")" = false
+grep -Fqx 'fork source' \
+    "$study_home/.local/share/Anki2/addons21/580654285/__init__.py"
 
 audio_test="$temp_dir/audio-test"
 mkdir -p \
@@ -1041,6 +1197,10 @@ test "$(wc -l <"$audio_test/aria2.log")" -eq 1
 
 test -f "$repo/japanese/anki/addons.txt"
 grep -Eq '^1344485230[[:space:]]+AJT Japanese$' "$repo/japanese/anki/addons.txt"
+if grep -Eq '^580654285[[:space:]]' "$repo/japanese/anki/addons.txt"; then
+    echo 'the pinned Forvo fork should not be listed as an AnkiWeb add-on' >&2
+    exit 1
+fi
 awk 'NF < 2 || $1 !~ /^[0-9]+$/ { exit 1 }' "$repo/japanese/anki/addons.txt" || {
     echo 'japanese/anki/addons.txt must contain a numeric code and name on each line' >&2
     exit 1
@@ -1074,6 +1234,7 @@ grep -Fqx 'bookmark_save_keybind=["alt+b", "alt+B"]' \
 
 "$repo/tests/update-japanese-sentences.sh"
 "$repo/tests/python-environment.sh"
+"$repo/tests/xm6-audio-guard.sh"
 
 test ! -e "$repo/configs/xdg/zsh/.zshenv"
 test ! -e "$repo/configs/xdg/zsh/.zprofile"
@@ -1082,6 +1243,11 @@ test ! -e "$repo/xdg"
 test ! -e "$repo/desktop"
 test ! -e "$repo/.profile"
 grep -Fqx 'HISTFILE="$XDG_STATE_HOME/zsh/history"' "$repo/configs/xdg/zsh/.zshrc"
+grep -Fqx '  eval "$(atuin init zsh --disable-up-arrow --disable-ctrl-r --disable-ai)"' \
+    "$repo/configs/xdg/zsh/.zshrc"
+grep -Fqx 'secrets_filter = true' "$repo/configs/xdg/atuin/config.toml"
+grep -Fqx 'add-zsh-hook zshaddhistory _reject_sensitive_history' \
+    "$repo/configs/xdg/zsh/.zshrc"
 grep -Fqx 'ZINIT[ZCOMPDUMP_PATH]="$XDG_CACHE_HOME/zsh/zcompdump"' \
     "$repo/configs/xdg/zsh/.zshrc"
 grep -Fqx 'export PATH="$XDG_DATA_HOME/mise/shims:$PATH"' "$repo/configs/home/profile"
@@ -1108,8 +1274,8 @@ grep -Fqx \
     "$repo/configs/xdg/zsh/.zshrc"
 test "$(grep -Ec '^zinit light (chr-fritz/docker-completion[.]zshplugin|greymd/docker-zsh-completion)$' \
     "$repo/configs/xdg/zsh/.zshrc")" -eq 1
-for command in rust uv ty bat eza delta bottom lazygit lazydocker shfmt k9s zk shuck bob kanata; do
-    grep -Eq "^${command}[[:space:]]*=" "$repo/configs/xdg/mise/config.toml" || \
+for command in rust uv ty bat eza delta bottom lazygit lazydocker shfmt k9s atuin zk shuck bob kanata; do
+    grep -Eq "^${command}[[:space:]]*=" "$repo/configs/xdg/mise/config.toml" ||
         grep -Eq "github:[^\"]*/${command}\"" "$repo/configs/xdg/mise/config.toml"
 done
 if grep -Eq '^python[[:space:]]*=|^\[settings[.]python\]' \

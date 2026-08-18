@@ -1,0 +1,86 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+xm6_mac="${XM6_MAC:-58:18:62:26:39:3E}"
+xm6_sink_prefix="${XM6_SINK_PREFIX:-bluez_output.${xm6_mac//:/_}.}"
+bluetoothctl_bin="${BLUETOOTHCTL_BIN:-bluetoothctl}"
+pactl_bin="${PACTL_BIN:-pactl}"
+sleep_bin="${SLEEP_BIN:-sleep}"
+sudo_bin="${SUDO_BIN:-sudo}"
+systemctl_bin="${SYSTEMCTL_BIN:-systemctl}"
+timeout_bin="${TIMEOUT_BIN:-timeout}"
+
+xm6_sink_name() {
+	"$pactl_bin" list short sinks | awk -v prefix="$xm6_sink_prefix" '
+		index($2, prefix) == 1 {
+			print $2
+			exit
+		}
+	'
+}
+
+wait_for_sink() {
+	local attempt
+	local sink
+
+	for attempt in {1..10}; do
+		sink="$(xm6_sink_name)"
+		if [ -n "$sink" ]; then
+			printf '%s\n' "$sink"
+			return 0
+		fi
+		"$sleep_bin" 1
+	done
+
+	return 1
+}
+
+activate_sink() {
+	local sink="$1"
+
+	"$pactl_bin" set-default-sink "$sink"
+	"$pactl_bin" set-sink-mute "$sink" 0
+	printf 'XM6 audio restored: %s\n' "$sink"
+}
+
+sink="$(xm6_sink_name)"
+if [ -n "$sink" ]; then
+	activate_sink "$sink"
+	exit 0
+fi
+
+echo 'XM6 audio sink is missing; trying a Bluetooth reconnect...'
+"$timeout_bin" 15 "$bluetoothctl_bin" disconnect "$xm6_mac" \
+	>/dev/null 2>&1 || true
+if "$timeout_bin" 30 "$bluetoothctl_bin" connect "$xm6_mac"; then
+	if sink="$(wait_for_sink)"; then
+		activate_sink "$sink"
+		exit 0
+	fi
+fi
+
+echo 'The reconnect did not restore audio; restarting Bluetooth...'
+"$sudo_bin" "$systemctl_bin" restart bluetooth
+
+controller_ready=false
+for _ in {1..15}; do
+	if "$bluetoothctl_bin" list | grep -q '^Controller '; then
+		controller_ready=true
+		break
+	fi
+	"$sleep_bin" 1
+done
+
+if [ "$controller_ready" = false ]; then
+	echo 'Bluetooth restarted, but no controller became available.' >&2
+	exit 1
+fi
+
+"$timeout_bin" 30 "$bluetoothctl_bin" connect "$xm6_mac"
+if ! sink="$(wait_for_sink)"; then
+	echo 'The XM6 connected, but its audio sink did not appear.' >&2
+	exit 1
+fi
+
+activate_sink "$sink"

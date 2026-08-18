@@ -18,7 +18,7 @@ cd "$HOME/dotfiles"
 ./scripts/setup.sh
 ```
 
-This is the only automatic entry point. It rejects other Ubuntu release/desktop combinations before making changes, asks for sudo normally, installs the base APT packages and Zinit, links the tracked configuration, installs Mise-managed tools including Kanata and Bob's Neovim nightly, installs the subtitle synchronization tools used by mpv, and applies the tracked desktop keyboard settings. It is safe to rerun: an existing destination is moved to `<name>-old`, and setup stops rather than overwriting an existing backup.
+This is the only automatic entry point. It rejects other Ubuntu release/desktop combinations before making changes, asks for sudo normally, installs the base APT packages and Zinit, links the tracked configuration, installs Mise-managed tools including Kanata and Bob's Neovim nightly, installs the subtitle synchronization tools used by mpv, configures desktop-specific window-to-tray support, and applies the tracked desktop keyboard settings. It is safe to rerun: an existing destination is moved to `<name>-old`, and setup stops rather than overwriting an existing backup.
 
 Run every remaining command only after `scripts/setup.sh` succeeds.
 
@@ -31,13 +31,14 @@ Disable Snap before installing Firefox, then apply the remaining system and shel
 ./scripts/optional/shell/configure-bash-xdg.sh
 ./scripts/optional/shell/set-default-zsh.sh
 ./scripts/optional/system/configure-kanata.sh
+./scripts/optional/system/configure-xm6-audio-guard.sh
 ./scripts/optional/system/configure-ssh-xdg.sh
 ./scripts/optional/system/disable-sudo-admin-flag.sh
 ```
 
 The final script applies the legacy home-marker fix on Ubuntu 24.04 and exits without changing anything under Kubuntu 26.04's sudo-rs.
 
-Close every Codex process, then install Codex with its home under `$XDG_DATA_HOME`. The script also migrates an existing `~/.codex`:
+Close every Codex process, then install Codex and its ACP adapter with the Codex home under `$XDG_DATA_HOME`. The script also migrates an existing `~/.codex`:
 
 ```sh
 ./scripts/optional/shell/install-codex.sh
@@ -51,7 +52,7 @@ cd "$HOME/dotfiles"
 ./scripts/optional/system/configure-appgate-xdg.sh
 ```
 
-The Appgate wrapper uses a private fake home under `$XDG_DATA_HOME`; the system service and running VPN client remain vendor software.
+The Appgate wrapper uses a private fake home under `$XDG_DATA_HOME`; the system service and running VPN client remain vendor software. On Cinnamon/X11 it launches Appgate through KDocker, uses Appgate's installed SVG icon, and starts with the window hidden in the system tray. Wayland and machines without KDocker fall back to the normal Appgate window.
 
 Appgate's **Disconnect** action removes the tunnel, routes, and DNS changes, but leaves the privileged `appgatedriver.service` running. To guarantee that no Appgate process remains active outside work hours, disable its automatic startup once:
 
@@ -94,6 +95,8 @@ Install the shared terminal font:
 
 #### Ubuntu 24.04 Cinnamon
 
+The bootstrap installs KDocker for arbitrary X11 windows. Appgate starts normally; its title-bar close button hides it in the tray, while KDocker's tray-menu **Close** actually quits it. Run `kdocker` and click a window, or use `kdocker -f` for other applications.
+
 Import the GNOME Terminal profile, then apply the LightDM home-cleanup changes used by this machine:
 
 ```sh
@@ -105,6 +108,8 @@ Import the GNOME Terminal profile, then apply the LightDM home-cleanup changes u
 #### Kubuntu 26.04 KDE
 
 Use Kubuntu's installed KDE terminal and display manager. Do not run the GNOME Terminal or LightDM scripts; the bootstrap has already written KDE's keyboard and repeat settings.
+
+The bootstrap builds the pinned KWin Minimize2Tray script for Plasma Wayland. Log out and back in after its first installation, then use `Meta+Alt+PgDown` on the active window. Chromium and Electron applications work best when launched in native Wayland mode.
 
 #### Shared applications
 
@@ -149,6 +154,12 @@ Paste any printed codes into **Anki → Tools → Add-ons → Get Add-ons**, the
 ```
 
 The torrent and archive stay in `${XDG_CACHE_HOME:-$HOME/.cache}/dotfiles/yomitan-audio`; the main bootstrap never starts this download.
+
+The Japanese setup installs add-on `580654285` from the pinned `kuator/yomichan-forvo-server` fork instead of AnkiWeb. This keeps slow or unavailable Forvo lookups from blocking Yomitan card creation for longer than the configured five-second total timeout. The installer preserves existing add-on settings, disables AnkiWeb updates for this checkout, and can also be run on its own:
+
+```sh
+./scripts/optional/japanese/install-yomitan-forvo-server.sh
+```
 
 The eight selected Yomitan dictionary ZIPs are carried directly in `japanese/yomitan/dictionaries/`. If an archive is missing, restore it from the manifest:
 
@@ -200,11 +211,12 @@ On Ubuntu 24.04 Cinnamon/X11, also run `setxkbmap -query`. On Kubuntu 26.04, run
 ### Configurations and study resources
 
 - `configs/home/profile` defines the login environment, XDG locations, and user-tool paths and is linked to `~/.profile`.
-- `configs/xdg/` contains application configuration linked into `$XDG_CONFIG_HOME`, grouped by application. Notable exceptions handled specially by the linker are Codium's files and the global `ty.toml`.
+- `configs/xdg/` contains application configuration linked into `$XDG_CONFIG_HOME`, grouped by application. Notable exceptions handled specially by the linker are Codium's files and the global `ty.toml`. Atuin records contextual shell history with secret filtering while leaving the existing `fzf` and arrow-key bindings untouched.
+- `configs/xdg/xm6-audio-guard/` mutes fallback outputs when the paired Sony WH-1000XM6 disappears and unmutes only the headphones when they reconnect.
 - `configs/system/keyboard` is the single tracked source for the system, Cinnamon, KDE, IBus, and live X11 keyboard layout; `configs/gnome-terminal/profile.dconf` is imported rather than linked.
 - `docs/ergonomic-keyboard.md` records the ergonomic-keyboard requirements, shortlist, and current recommendation.
 - `docs/todo.md` tracks setup that still requires an external account or private recovery material.
-- `japanese/anki/addons.txt` is the named AnkiWeb add-on manifest.
+- `japanese/anki/addons.txt` is the named AnkiWeb add-on manifest; the pinned Forvo fork is installed separately.
 - `japanese/yomitan/dictionaries.txt`, `japanese/yomitan/settings.json`, and `japanese/yomitan/sort-dictionaries.js` define the selected dictionaries, exported settings, and active-profile order.
 - `japanese/anime/` contains older subtitle timing tools and source-specific data; it is not part of bootstrap.
 
@@ -212,9 +224,11 @@ On Ubuntu 24.04 Cinnamon/X11, also run `setxkbmap -query`. On Kubuntu 26.04, run
 
 - `scripts/setup.sh` is the only entry point.
 - `scripts/bootstrap/install-packages.sh` installs Ubuntu packages.
+- `scripts/bootstrap/install-bitwarden.sh` installs the pinned official Bitwarden desktop package after verifying its SHA-256 checksum.
 - `scripts/bootstrap/link-configs.sh` backs up and links tracked configuration.
 - `scripts/bootstrap/install-mise.sh` installs Mise-managed CLI tools and Bob's Neovim nightly.
 - `scripts/bootstrap/install-subtitle-sync.sh` installs pinned ffsubsync through uv, alass-cli through the Mise-managed Rust toolchain, and autosubsync-mpv under mpv's scripts directory.
+- `scripts/bootstrap/install-window-tray.sh` uses Ubuntu's KDocker package on Cinnamon/X11 and installs pinned KWin Minimize2Tray on KDE/Wayland.
 - `scripts/bootstrap/configure-desktop.sh` derives desktop keyboard settings from `configs/system/keyboard`.
 
 ### Manual setup
@@ -234,14 +248,16 @@ Nothing under `scripts/optional/` runs automatically. Several scripts use sudo, 
 | `firefox/patch-keybindings.sh` | Rebuilds Firefox's `omni.ja` with the custom shortcuts. |
 | `japanese/download-yomitan-audio.sh` | Downloads, caches, and installs the optional local-audio collection. |
 | `japanese/download-yomitan-dictionaries.sh` | Restores missing dictionary archives from the tracked manifest. |
+| `japanese/install-yomitan-forvo-server.sh` | Installs the pinned Forvo audio-server fork while preserving its settings. |
 | `japanese/setup.sh` | Installs Anki and mpvacious and reports missing Anki add-ons. |
 | `japanese/attribute-epub-cards.py` | Previews or restores EPUB book titles on matching Japanese Sentences notes. |
 | `japanese/update-japanese-sentences.sh` | Fetches upstream Japanese Sentences, applies compatibility patches, and updates it through AnkiConnect. |
 | `shell/configure-bash-xdg.sh` | Makes system Bash startup and history use XDG locations. |
-| `shell/install-codex.sh` | Installs Codex through Mise-managed npm with an XDG data home and migrates an existing `~/.codex`; Codex must be closed. |
+| `shell/install-codex.sh` | Installs Codex and `codex-acp` through Mise-managed npm with an XDG data home and migrates an existing `~/.codex`; Codex must be closed. |
 | `shell/set-default-zsh.sh` | Interactively changes the login shell to Zsh. |
 | `system/configure-appgate-xdg.sh` | Installs the Appgate fake-home wrapper with `dpkg-divert`. |
 | `system/configure-kanata.sh` | Configures Linux groups, udev, and uinput, then enables the tracked Kanata user service. |
+| `system/configure-xm6-audio-guard.sh` | Enables the user service that prevents audio from spilling to speakers when the XM6 disconnects. |
 | `system/configure-ssh-xdg.sh` | Makes all OpenSSH clients use the tracked XDG config and migrates host keys. |
 | `system/disable-snap.sh` | Removes Snap while preserving user data and prevents its reinstallation. |
 | `system/disable-sudo-admin-flag.sh` | Prevents classic sudo from creating its home marker; safely does nothing under sudo-rs. |
@@ -251,6 +267,7 @@ Nothing under `scripts/optional/` runs automatically. Several scripts use sudo, 
 - `bin/appgate` gives the vendor Appgate client a private fake home.
 - `bin/codium` launches VSCodium with its XDG data directory.
 - `bin/fd` exposes Ubuntu's `fdfind` executable under its upstream `fd` name.
+- `bin/fix-xm6-audio` repairs a stale XM6 Bluetooth audio transport and restores the headphones as the default output.
 - `bin/rg` makes ripgrep share the ignore file used by fd.
 - `bin/steam` launches the optional fixsteam installation from its XDG data path.
 
@@ -259,11 +276,12 @@ Nothing under `scripts/optional/` runs automatically. Several scripts use sudo, 
 - `tests/bootstrap.sh` checks links, environment settings, desktop configuration, wrappers, migrations, and documented scripts.
 - `tests/python-environment.sh` checks the `venv`-based uv and ty project environment.
 - `tests/update-japanese-sentences.sh` exercises note-type download, patching, and AnkiConnect behavior with local fakes.
+- `tests/xm6-audio-guard.sh` simulates XM6 disconnect/reconnect events and verifies safe muting without touching live audio.
 - `tests/yomitan-sort-dictionaries.js` checks dictionary ordering without Yomitan.
 
 ### Downloaded/vendor content
 
-- `japanese/anki/addons21/` contains downloaded Anki add-ons and is intentionally ignored; `japanese/anki/addons.txt` is the reproducible source list.
+- `japanese/anki/addons21/` contains downloaded Anki add-ons and is intentionally ignored; `japanese/anki/addons.txt` lists AnkiWeb sources, while the Forvo fork is pinned in its installer.
 - `japanese/yomitan/dictionaries/` contains the eight Git-tracked importable archives. Their internals are third-party data and are not documented here.
 - `configs/xdg/mpv/scripts/mpvacious/` and `configs/xdg/mpv/scripts/autosubsync-mpv/` are ignored generated checkouts. `japanese/setup.sh` installs a pinned commit from the `kuator/mpvacious` fork, while the automatic bootstrap installs a pinned autosubsync-mpv commit and its ffsubsync and alass backends.
 

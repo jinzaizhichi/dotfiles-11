@@ -14,10 +14,13 @@ lazygit = "latest"
 lazydocker = "latest"
 shfmt = "latest"
 k9s = "latest"
+atuin = "latest"
 "github:zk-org/zk" = "latest"
 "github:ewhauser/shuck" = { version = "latest", matching = "shuck-cli" }
 bob = "latest"
 "github:jtroo/kanata" = { version = "latest", asset_pattern = "linux-binaries-x64.zip", rename_exe = { kanata_linux_x64 = "kanata" }, filter_bins = "kanata" }
+"cargo:presse" = "latest"
+"github:neovide/neovide" = { version = "latest", matching_regex = '^neovide-linux-x86_64\.tar(\.gz)?$' }
 
 [settings]
 idiomatic_version_file_enable_tools = []

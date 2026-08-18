@@ -5,4 +5,48 @@ set -eu
 real_home="$HOME"
 export HOME="${XDG_DATA_HOME:-$real_home/.local/share}/appgate/home"
 mkdir -p "$HOME"
-exec "${APPGATE_BIN:-/usr/bin/appgate.vendor}" "$@"
+
+appgate_bin="${APPGATE_BIN:-/usr/bin/appgate.vendor}"
+appgate_icon="${APPGATE_ICON:-/usr/share/icons/hicolor/scalable/apps/appgate-icon.svg}"
+kdocker_bin="${KDOCKER_BIN:-kdocker}"
+xdotool_bin="${XDOTOOL_BIN:-xdotool}"
+close_to_tray_bin="${APPGATE_CLOSE_TO_TRAY_BIN:-$real_home/.local/libexec/dotfiles/x11-close-to-tray}"
+
+if [ "${XDG_SESSION_TYPE:-}" != wayland ] && [ -n "${DISPLAY:-}" ] &&
+	command -v "$kdocker_bin" >/dev/null 2>&1 &&
+	command -v "$xdotool_bin" >/dev/null 2>&1 &&
+	[ -x "$close_to_tray_bin" ] && [ -r "$appgate_icon" ]; then
+	"$appgate_bin" "$@" &
+	appgate_pid=$!
+	attempt=0
+	while [ "$attempt" -lt 120 ]; do
+		window_id="$("$xdotool_bin" search --onlyvisible --class 'Appgate SDP' 2>/dev/null | head -n 1 || true)"
+		if [ -n "$window_id" ]; then
+			window_id="$(printf '0x%x' "$window_id")"
+			"$close_to_tray_bin" "$window_id" &
+			close_to_tray_pid=$!
+			"$kdocker_bin" -m -i "$appgate_icon" -w "$window_id"
+			if wait "$appgate_pid"; then
+				appgate_status=0
+			else
+				appgate_status=$?
+			fi
+			kill "$close_to_tray_pid" 2>/dev/null || true
+			wait "$close_to_tray_pid" 2>/dev/null || true
+			exit "$appgate_status"
+		fi
+
+		if ! kill -0 "$appgate_pid" 2>/dev/null; then
+			wait "$appgate_pid"
+			exit $?
+		fi
+
+		attempt=$((attempt + 1))
+		sleep 0.25
+	done
+
+	wait "$appgate_pid"
+	exit $?
+fi
+
+exec "$appgate_bin" "$@"

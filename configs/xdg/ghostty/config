@@ -41,3 +41,4 @@ window-show-tab-bar = never
 
 keybind = ctrl+m=text:\r
 keybind = ctrl+[=text:\x1b
+adjust-font-baseline = 1

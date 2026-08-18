@@ -57,5 +57,21 @@ packages=(
     zstd
 )
 
+case "${XDG_CURRENT_DESKTOP:-}" in
+*Cinnamon*)
+    packages+=(kdocker libx11-dev xdotool)
+    ;;
+*KDE*)
+    packages+=(
+        cmake
+        extra-cmake-modules
+        libkf6package-dev
+        libkf6service-dev
+        libkf6statusnotifieritem-dev
+        qt6-declarative-dev
+    )
+    ;;
+esac
+
 sudo apt-get update
 sudo apt-get install -y "${packages[@]}"

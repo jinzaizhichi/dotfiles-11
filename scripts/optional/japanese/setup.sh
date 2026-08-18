@@ -138,6 +138,8 @@ ADDON_MANIFEST="$DOTFILES/japanese/anki/addons.txt"
 
 mkdir -p "$ADDONS_DIR"
 
+"$scripts_dir/install-yomitan-forvo-server.sh"
+
 missing_addons=()
 while IFS=$'\t' read -r addon_id addon_name; do
     if [[ ! "$addon_id" =~ ^[0-9]+$ ]] || [ -z "$addon_name" ]; then

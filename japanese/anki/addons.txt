@@ -2,7 +2,6 @@
 182970692	AJT Browser Play Button
 385888438	Edit Field During Review Cloze
 530953383	Removes Empty Note Types for 21
-580654285	Yomichan Forvo Server
 819023663	RefoldEase
 909972618	Kanji Grid
 1045800357	Local Audio Server for Yomichan

@@ -320,7 +320,7 @@
                             }
                         ],
                         "fallbackSoundType": "click",
-                        "enableDefaultAudioSources": true
+                        "enableDefaultAudioSources": false
                     },
                     "scanning": {
                         "inputs": [
@@ -543,7 +543,7 @@
                         "suspendNewCards": false,
                         "noteGuiMode": "browse",
                         "apiKey": "",
-                        "downloadTimeout": 0,
+                        "downloadTimeout": 5000,
                         "displayTagsAndFlags": "never",
                         "cardFormats": [
                             {

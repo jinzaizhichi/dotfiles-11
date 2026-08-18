@@ -122,6 +122,19 @@ setopt HIST_EXPIRE_DUPS_FIRST HIST_IGNORE_ALL_DUPS HIST_FIND_NO_DUPS
 setopt HIST_IGNORE_SPACE HIST_SAVE_NO_DUPS HIST_REDUCE_BLANKS
 setopt HIST_VERIFY HIST_BEEP
 
+_reject_sensitive_history() {
+  setopt localoptions nocasematch
+  local pattern='(^|[[:space:]])[^[:space:]]*(password|passwd|token|secret|api[-_]?key|private[-_]?key)[^[:space:]]*(=|[[:space:]])'
+  [[ "$1" =~ $pattern ]] && return 1
+  return 0
+}
+autoload -Uz add-zsh-hook
+add-zsh-hook zshaddhistory _reject_sensitive_history
+
+if (( $+commands[atuin] )); then
+  eval "$(atuin init zsh --disable-up-arrow --disable-ctrl-r --disable-ai)"
+fi
+
 if [ -x "$(command -v workon)" ]; then
   alias workon=". =workon"
 fi

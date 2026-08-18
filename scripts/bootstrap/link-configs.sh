@@ -55,7 +55,7 @@ for path in "$DOTFILES/configs/xdg"/*; do
 	symlink_configuration "$path" "$XDG_CONFIG_HOME/$(basename "$path")"
 done
 
-for service in kanata new-tab; do
+for service in kanata new-tab xm6-audio-guard; do
 	symlink_configuration \
 		"$DOTFILES/configs/xdg/$service/$service.service" \
 		"$XDG_CONFIG_HOME/systemd/user/$service.service"

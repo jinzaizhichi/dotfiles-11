@@ -31,6 +31,7 @@ fi
 
 export CODEX_HOME="$target_dir"
 "$mise_bin" exec -- npm install --global @openai/codex@latest
+"$mise_bin" exec -- npm install --global @agentclientprotocol/codex-acp@latest
 "$mise_bin" reshim
 
 if [ -L "$launcher" ]; then
@@ -39,4 +40,4 @@ if [ -L "$launcher" ]; then
 	esac
 fi
 
-echo "Codex is installed with its data in $target_dir."
+echo "Codex and its ACP adapter are installed with Codex data in $target_dir."

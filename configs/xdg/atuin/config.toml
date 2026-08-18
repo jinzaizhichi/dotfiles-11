@@ -1,0 +1,15 @@
+auto_sync = true
+enter_accept = false
+filter_mode = "global"
+history_filter = [
+  '(?i)(^|\s)[^\s]*(password|passwd|token|secret|api[-_]?key|private[-_]?key)[^\s]*(=|\s)',
+]
+inline_height = 20
+search_mode = "fuzzy"
+secrets_filter = true
+style = "compact"
+update_check = false
+workspaces = true
+
+[ai]
+enabled = false
