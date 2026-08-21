@@ -97,7 +97,7 @@ if grep -Fq '/usr/share/codium/codium' \
 fi
 "$temp_dir/home/.local/bin/fd" --version | grep -Fq 'fdfind '
 test "$(find "$repo/bin" -mindepth 1 -maxdepth 1 -printf '%f\n' | sort)" = \
-    $'appgate\ncodium\nfd\nfix-xm6-audio\njson-to-env\nrg\nsteam'
+    $'appgate\ncodium\nfd\nfix-xm6-audio\njson-to-env\nrg\nsteam\nsteam-textractor'
 
 appgate_test="$temp_dir/appgate"
 mkdir -p "$appgate_test/bin" "$appgate_test/data"
@@ -172,6 +172,54 @@ STEAM_TEST_LAUNCH_LOG="$steam_test/launch.log" \
     XDG_DATA_HOME="$steam_test/data" \
     "$repo/bin/steam" 'argument with spaces' steam://open/games
 grep -Fqx 'argument with spaces steam://open/games' "$steam_test/launch.log"
+
+textractor_launcher_test="$temp_dir/steam-textractor"
+mkdir -p \
+    "$textractor_launcher_test/bin" \
+    "$textractor_launcher_test/data/Steam/steamapps/common/Test Game" \
+    "$textractor_launcher_test/data/textractor/current/x86"
+cat >"$textractor_launcher_test/data/Steam/steamapps/appmanifest_123.acf" <<'EOF'
+"AppState"
+{
+    "appid" "123"
+    "installdir" "Test Game"
+}
+EOF
+printf 'fake PE\n' >"$textractor_launcher_test/data/Steam/steamapps/common/Test Game/game.exe"
+printf 'fake Textractor\n' >"$textractor_launcher_test/data/textractor/current/x86/Textractor.exe"
+cat >"$textractor_launcher_test/bin/file" <<'EOF'
+#!/usr/bin/env bash
+printf 'PE32 executable (GUI) Intel 80386, for MS Windows\n'
+EOF
+cat >"$textractor_launcher_test/bin/protontricks-launch" <<'EOF'
+#!/usr/bin/env bash
+printf '%s\n' "$*" >"$TEXTRACTOR_LAUNCH_TEST_LOG"
+EOF
+cat >"$textractor_launcher_test/bin/game" <<'EOF'
+#!/usr/bin/env bash
+printf '%s\n' "$*" >"$TEXTRACTOR_GAME_TEST_LOG"
+EOF
+chmod +x "$textractor_launcher_test/bin/"*
+
+SteamAppId=123 \
+    TEXTRACTOR_ATTACH_DELAY=0 \
+    TEXTRACTOR_GAME_TEST_LOG="$textractor_launcher_test/game.log" \
+    TEXTRACTOR_LAUNCH_TEST_LOG="$textractor_launcher_test/launch.log" \
+    XDG_DATA_HOME="$textractor_launcher_test/data" \
+    PATH="$textractor_launcher_test/bin:$PATH" \
+    "$repo/bin/steam-textractor" game \
+    "$textractor_launcher_test/data/Steam/steamapps/common/Test Game/game.exe" \
+    'argument with spaces'
+grep -Fqx \
+    "$textractor_launcher_test/data/Steam/steamapps/common/Test Game/game.exe argument with spaces" \
+    "$textractor_launcher_test/game.log"
+grep -Fqx -- \
+    "--no-term --appid 123 $textractor_launcher_test/data/textractor/current/x86/Textractor.exe /pgame.exe" \
+    "$textractor_launcher_test/launch.log"
+tr -d '\r' <"$textractor_launcher_test/data/textractor/current/x86/SavedGames.txt" |
+    grep -Fqx "Z:${textractor_launcher_test//\//\\}\\data\\Steam\\steamapps\\common\\Test Game\\game.exe"
+grep -Fqx 'Auto%20attach=true' \
+    "$textractor_launcher_test/data/textractor/current/x86/Textractor.ini"
 
 mkdir -p "$temp_dir/search/node_modules"
 mkdir -p "$temp_dir/search/venv"
@@ -440,6 +488,32 @@ printf '%s\n' "$*" >>"$XKB_TEST_LOG"
 EOF
 chmod +x "$temp_dir/fake-bin/setxkbmap"
 
+cat >"$temp_dir/fake-bin/protontricks" <<'EOF'
+#!/usr/bin/env bash
+printf 'protontricks (1.13.1)\n'
+EOF
+cat >"$temp_dir/fake-bin/fc-cache" <<'EOF'
+#!/usr/bin/env bash
+exit 0
+EOF
+chmod +x "$temp_dir/fake-bin/protontricks" "$temp_dir/fake-bin/fc-cache"
+
+prepare_textractor_fixture() {
+    local fixture_home="$1"
+    local fixture_release="$fixture_home/.local/share/textractor/releases/260801"
+    mkdir -p "$fixture_release/x86" "$fixture_release/x64" \
+        "$fixture_home/.local/share/fonts"
+    printf 'fake Textractor\n' >"$fixture_release/x86/Textractor.exe"
+    printf 'fake Textractor\n' >"$fixture_release/x64/Textractor.exe"
+    printf 'fake hook\n' >"$fixture_release/x86/texthook.dll"
+    printf 'fake hook\n' >"$fixture_release/x64/texthook.dll"
+    printf 'fake font\n' >"$fixture_release/INSTALL_THIS_UNICODE_FONT.ttf"
+    printf 'fake font\n' >"$fixture_home/.local/share/fonts/Textractor-Unicode.ttf"
+    printf '%s\n' \
+        '86346c71ba961e993b8b40419d8720204ccaf8fe20606bbd267eb765ba2ff2ef' \
+        >"$fixture_release/.archive-sha256"
+}
+
 cat >"$temp_dir/ubuntu-24.04" <<'EOF'
 ID=ubuntu
 VERSION_ID="24.04"
@@ -456,6 +530,8 @@ mkdir -p "$temp_dir/cpufreq-unsupported/policy0" \
     "$temp_dir/cpufreq-unsupported/policy1"
 printf '%s\n' 'default performance balance_performance balance_power power' \
     >"$temp_dir/cpufreq-unsupported/policy0/energy_performance_available_preferences"
+
+prepare_textractor_fixture "$temp_dir/setup-home"
 
 SYSTEMCTL_LOG="$temp_dir/systemctl.log" \
     HOME="$temp_dir/home" \
@@ -574,6 +650,7 @@ grep -Fqx -- '-layout en,ru -variant , -option  -option grp:alt_shift_toggle' \
     "$temp_dir/xkb.log"
 
 mkdir -p "$temp_dir/setup-kde-home"
+prepare_textractor_fixture "$temp_dir/setup-kde-home"
 BOOTSTRAP_LOG="$temp_dir/kde-setup-sudo.log" \
     BITWARDEN_INSTALLED_VERSION=2026.7.0 \
     CARGO_HOME="$temp_dir/setup-kde-home/.local/share/cargo" \
@@ -746,6 +823,83 @@ grep -Fqx \
     "install -m 755 $repo/bin/appgate /usr/bin/appgate" \
     "$temp_dir/appgate-system.log"
 
+appgate_install_test="$temp_dir/appgate-install"
+mkdir -p "$appgate_install_test/bin"
+cat >"$appgate_install_test/bin/dpkg-query" <<'EOF'
+#!/usr/bin/env bash
+if [ -f "$APPGATE_TEST_STATE" ]; then
+    cat "$APPGATE_TEST_STATE"
+    exit 0
+fi
+exit 1
+EOF
+cat >"$appgate_install_test/bin/curl" <<'EOF'
+#!/usr/bin/env bash
+while [ "$#" -gt 0 ]; do
+    if [ "$1" = --output ]; then
+        printf 'fake deb\n' >"$2"
+        exit 0
+    fi
+    shift
+done
+exit 1
+EOF
+cat >"$appgate_install_test/bin/sha256sum" <<'EOF'
+#!/usr/bin/env bash
+cat >/dev/null
+EOF
+cat >"$appgate_install_test/bin/dpkg-deb" <<'EOF'
+#!/usr/bin/env bash
+case "$3" in
+Package) printf 'appgate\n' ;;
+Version) printf '6.5.3+41284+release\n' ;;
+Architecture) printf 'amd64\n' ;;
+*) exit 1 ;;
+esac
+EOF
+cat >"$appgate_install_test/bin/sudo" <<'EOF'
+#!/usr/bin/env bash
+exec "$@"
+EOF
+cat >"$appgate_install_test/bin/apt-get" <<'EOF'
+#!/usr/bin/env bash
+printf '%s\n' "$*" >>"$APPGATE_TEST_APT_LOG"
+printf '6.5.3+41284+release\n' >"$APPGATE_TEST_STATE"
+EOF
+chmod +x "$appgate_install_test/bin/"*
+
+APPGATE_TEST_APT_LOG="$appgate_install_test/apt.log" \
+    APPGATE_TEST_STATE="$appgate_install_test/installed-version" \
+    DEB_ARCHITECTURE=amd64 \
+    PATH="$appgate_install_test/bin:$PATH" \
+    "$repo/scripts/bootstrap/install-appgate.sh" >/dev/null
+grep -Eq '^install -y .*/appgate-sdp_6\.5\.3_amd64\.deb$' \
+    "$appgate_install_test/apt.log"
+test "$(cat "$appgate_install_test/installed-version")" = \
+    '6.5.3+41284+release'
+
+appgate_skip_output="$(
+    APPGATE_TEST_APT_LOG="$appgate_install_test/apt.log" \
+        APPGATE_TEST_STATE="$appgate_install_test/installed-version" \
+        DEB_ARCHITECTURE=amd64 \
+        PATH="$appgate_install_test/bin:$PATH" \
+        "$repo/scripts/bootstrap/install-appgate.sh"
+)"
+test "$appgate_skip_output" = \
+    'Appgate 6.5.3+41284+release already installed.'
+test "$(wc -l <"$appgate_install_test/apt.log")" -eq 1
+
+printf '6.6.0+newer\n' >"$appgate_install_test/installed-version"
+if APPGATE_TEST_APT_LOG="$appgate_install_test/apt.log" \
+    APPGATE_TEST_STATE="$appgate_install_test/installed-version" \
+    DEB_ARCHITECTURE=amd64 \
+    PATH="$appgate_install_test/bin:$PATH" \
+    "$repo/scripts/bootstrap/install-appgate.sh" >/dev/null 2>&1; then
+    echo 'Appgate installer replaced an unexpected installed version' >&2
+    exit 1
+fi
+test "$(wc -l <"$appgate_install_test/apt.log")" -eq 1
+
 sudo_test="$temp_dir/sudo-provider"
 mkdir -p "$sudo_test/bin"
 cat >"$sudo_test/bin/sudo" <<'EOF'
@@ -788,9 +942,11 @@ grep -Fqx 'Defaults !admin_flag' "$sudo_test/classic-admin-flag"
 
 expected_scripts=(
     scripts/bootstrap/configure-desktop.sh
+    scripts/bootstrap/install-appgate.sh
     scripts/bootstrap/install-mise.sh
     scripts/bootstrap/install-packages.sh
     scripts/bootstrap/install-bitwarden.sh
+    scripts/bootstrap/install-textractor.sh
     scripts/bootstrap/install-subtitle-sync.sh
     scripts/bootstrap/install-window-tray.sh
     scripts/bootstrap/link-configs.sh
@@ -818,7 +974,19 @@ expected_scripts=(
 )
 grep -Fqx 'BITWARDEN_VERSION="2026.7.0"' \
     "$repo/scripts/bootstrap/install-bitwarden.sh"
+grep -Fqx 'APPGATE_VERSION="6.5.3+41284+release"' \
+    "$repo/scripts/bootstrap/install-appgate.sh"
+grep -Fqx 'APPGATE_SHA256="3320b6f1c3933bd129bc7be5356b5d3516eecb0974b810fc1b9f9c0020733116"' \
+    "$repo/scripts/bootstrap/install-appgate.sh"
+grep -Fqx '"$scripts_dir/bootstrap/install-appgate.sh"' \
+    "$repo/scripts/setup.sh"
 grep -Fqx '"$scripts_dir/bootstrap/install-bitwarden.sh"' \
+    "$repo/scripts/setup.sh"
+grep -Fqx 'TEXTRACTOR_VERSION="260801"' \
+    "$repo/scripts/bootstrap/install-textractor.sh"
+grep -Fqx 'TEXTRACTOR_SHA256="86346c71ba961e993b8b40419d8720204ccaf8fe20606bbd267eb765ba2ff2ef"' \
+    "$repo/scripts/bootstrap/install-textractor.sh"
+grep -Fqx '"$scripts_dir/bootstrap/install-textractor.sh"' \
     "$repo/scripts/setup.sh"
 for script in "${expected_scripts[@]}"; do
     test -x "$repo/$script"

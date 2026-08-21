@@ -3,4 +3,5 @@ user_pref("webchannel.allowObject.urlWhitelist", "https://content.cdn.mozilla.ne
 user_pref("extensions.webextensions.restrictedDomains", "");
 user_pref("privacy.resistFingerprinting.block_mozAddonManager", true);
 user_pref("font.cjk_pref_fallback_order", "ja,zh-cn,zh-hk,zh-tw,ko");
+user_pref("media.av1.enabled", false);
 // user_pref("xpinstall.signatures.required", false);

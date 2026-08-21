@@ -31,6 +31,7 @@ export XDG_CONFIG_HOME="${XDG_CONFIG_HOME:-$HOME/.config}"
 export XDG_DATA_HOME="${XDG_DATA_HOME:-$HOME/.local/share}"
 
 "$scripts_dir/bootstrap/install-packages.sh"
+"$scripts_dir/bootstrap/install-appgate.sh"
 "$scripts_dir/bootstrap/install-bitwarden.sh"
 
 mkdir -p "$XDG_CONFIG_HOME" "$XDG_DATA_HOME/zinit"
@@ -41,6 +42,7 @@ fi
 
 "$scripts_dir/bootstrap/link-configs.sh"
 "$scripts_dir/bootstrap/install-mise.sh"
+"$scripts_dir/bootstrap/install-textractor.sh"
 "$scripts_dir/bootstrap/install-subtitle-sync.sh"
 "$scripts_dir/bootstrap/install-window-tray.sh"
 

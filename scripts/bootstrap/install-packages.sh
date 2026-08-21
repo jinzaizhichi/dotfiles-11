@@ -10,6 +10,7 @@ packages=(
     dirmngr
     fd-find
     ffmpeg
+    file
     fonts-noto-cjk
     fzf
     gawk

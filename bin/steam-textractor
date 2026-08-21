@@ -1,0 +1,134 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+usage() {
+	echo 'Usage: steam-textractor [--target GAME_EXECUTABLE_RELATIVE_PATH] %command%' >&2
+	exit 2
+}
+
+game_relative=
+if [ "${1:-}" = --target ]; then
+	[ "$#" -ge 3 ] || usage
+	game_relative="$2"
+	shift 2
+fi
+[ "$#" -ge 1 ] || usage
+
+appid="${SteamAppId:-${SteamGameId:-}}"
+case "$appid" in
+'' | *[!0-9]*)
+	echo 'Steam did not provide a numeric SteamAppId.' >&2
+	exit 1
+	;;
+esac
+
+data_home="${XDG_DATA_HOME:-$HOME/.local/share}"
+steam_root="${STEAM_ROOT:-$data_home/Steam}"
+install_path="${STEAM_COMPAT_INSTALL_PATH:-}"
+if [ -z "$install_path" ]; then
+	manifest="$steam_root/steamapps/appmanifest_${appid}.acf"
+	[ -r "$manifest" ] || {
+		echo "Steam manifest not found: $manifest" >&2
+		exit 1
+	}
+	install_dir="$(awk -F '"' '/"installdir"/{ print $4; exit }' "$manifest")"
+	[ -n "$install_dir" ] || {
+		echo "Steam install directory is missing from $manifest" >&2
+		exit 1
+	}
+	install_path="$steam_root/steamapps/common/$install_dir"
+fi
+
+install_path="$(realpath -m "$install_path")"
+if [ -n "$game_relative" ]; then
+	game_executable="$(realpath -m "$install_path/$game_relative")"
+	case "$game_executable" in
+	"$install_path"/*) ;;
+	*)
+		echo 'The Textractor target must stay inside the Steam game directory.' >&2
+		exit 1
+		;;
+	esac
+	[ -f "$game_executable" ] || {
+		echo "Game executable not found: $game_executable" >&2
+		exit 1
+	}
+else
+	game_executable=
+	for argument in "$@"; do
+		[ -f "$argument" ] || continue
+		candidate="$(realpath -m "$argument")"
+		case "$candidate" in
+		"$install_path"/*)
+			case "$(file -b "$candidate")" in
+			*PE32*) game_executable="$candidate" ;;
+			esac
+			;;
+		esac
+	done
+	[ -n "$game_executable" ] || {
+		echo 'Could not infer the Windows game executable; use --target with its path relative to the game directory.' >&2
+		exit 1
+	}
+fi
+
+description="$(file -b "$game_executable")"
+case "$description" in
+*PE32+*) textractor_arch=x64 ;;
+*PE32*) textractor_arch=x86 ;;
+*)
+	echo "Unsupported Windows executable: $description" >&2
+	exit 1
+	;;
+esac
+
+textractor_root="${TEXTRACTOR_ROOT:-$data_home/textractor/current}"
+textractor="$textractor_root/$textractor_arch/Textractor.exe"
+[ -f "$textractor" ] || {
+	echo "Textractor $textractor_arch is not installed at $textractor" >&2
+	exit 1
+}
+
+protontricks_launch="${PROTONTRICKS_LAUNCH:-protontricks-launch}"
+command -v "$protontricks_launch" >/dev/null 2>&1 || {
+	echo 'protontricks-launch is required to start Textractor in the game prefix.' >&2
+	exit 1
+}
+
+process_name="$(basename "$game_executable")"
+wine_game_path="Z:${game_executable//\//\\}"
+saved_games="$textractor_root/$textractor_arch/SavedGames.txt"
+touch "$saved_games"
+if ! tr -d '\r' <"$saved_games" | grep -Fqx "$wine_game_path"; then
+	printf '%s\r\n' "$wine_game_path" >>"$saved_games"
+fi
+
+settings="$textractor_root/$textractor_arch/Textractor.ini"
+if [ ! -e "$settings" ]; then
+	cat >"$settings" <<'EOF'
+[General]
+Auto%20attach=true
+Auto%20attach%20(saved%20only)=false
+Check%20for%20texthook%20updates%20on%20startup=false
+EOF
+fi
+
+"$@" &
+game_launcher_pid=$!
+
+attach_delay="${TEXTRACTOR_ATTACH_DELAY:-5}"
+sleep "$attach_delay"
+"$protontricks_launch" --no-term --appid "$appid" \
+	"$textractor" "/p$process_name" &
+textractor_launcher_pid=$!
+
+game_status=0
+wait "$game_launcher_pid" || game_status=$?
+textractor_status=0
+wait "$textractor_launcher_pid" || textractor_status=$?
+
+if [ "$game_status" -ne 0 ]; then
+	exit "$game_status"
+fi
+exit "$textractor_status"

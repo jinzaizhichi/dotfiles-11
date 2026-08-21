@@ -18,7 +18,7 @@ cd "$HOME/dotfiles"
 ./scripts/setup.sh
 ```
 
-This is the only automatic entry point. It rejects other Ubuntu release/desktop combinations before making changes, asks for sudo normally, installs the base APT packages and Zinit, links the tracked configuration, installs Mise-managed tools including Kanata and Bob's Neovim nightly, installs the subtitle synchronization tools used by mpv, configures desktop-specific window-to-tray and color-temperature support, and applies the tracked desktop keyboard settings. It is safe to rerun: an existing destination is moved to `<name>-old`, and setup stops rather than overwriting an existing backup.
+This is the only automatic entry point. It rejects other Ubuntu release/desktop combinations before making changes, asks for sudo normally, installs the base APT packages, pinned Appgate and Bitwarden packages, and Zinit, links the tracked configuration, installs Mise-managed tools including Kanata and Bob's Neovim nightly, installs the subtitle synchronization tools used by mpv, configures desktop-specific window-to-tray and color-temperature support, and applies the tracked desktop keyboard settings. It is safe to rerun: an existing destination is moved to `<name>-old`, and setup stops rather than overwriting an existing backup.
 
 Run every remaining command only after `scripts/setup.sh` succeeds.
 
@@ -44,11 +44,9 @@ Close every Codex process, then install Codex and its ACP adapter with the Codex
 ./scripts/optional/shell/install-codex.sh
 ```
 
-Install the Appgate Debian package before installing the XDG wrapper. For example, from the directory containing the package:
+Bootstrap installs the verified Appgate `6.5.3+41284+release` Debian package. Install its XDG wrapper afterward:
 
 ```sh
-sudo dpkg -i AppGate-SDP-client.deb
-cd "$HOME/dotfiles"
 ./scripts/optional/system/configure-appgate-xdg.sh
 ```
 
@@ -143,6 +141,21 @@ Install Valve's Steam package and the fixsteam fake-home launcher:
 
 The script preserves the existing library in `$XDG_DATA_HOME/Steam` and installs [fixsteam](https://github.com/Samueru-sama/fixsteam) under `$XDG_DATA_HOME/fixsteam`. Run `steam` once afterwards so fixsteam can create its fake home and desktop launcher. Steam remains outside the automatic bootstrap.
 
+Bootstrap installs the maintained Textractor `260801` build and Protontricks. To launch a Steam visual novel and attach the matching x86/x64 Textractor automatically, set its Steam **Launch Options** to one of these commands:
+
+```sh
+# 9-nine-:NewEpisode
+steam-textractor %command%
+
+# My Little Sister's Special Place
+steam-textractor %command%
+
+# Katawa Shoujo
+steam-textractor --target "lib/windows-i686/Katawa Shoujo.exe" %command%
+```
+
+The launcher starts the game normally, infers its Windows executable from Steam's command, runs Textractor inside that game's Proton prefix, selects x86 or x64, and records the exact Windows path for retrying auto-attach. Use `--target` only when Steam starts a launcher that spawns a different executable, as Katawa Shoujo does. Close Textractor before exiting the game so it can detach its hook cleanly. The old per-prefix Textractor installation can remain until the shared setup has been tested.
+
 ### 5. Restore Japanese study tools
 
 Install Anki, link mpv configuration, install mpvacious, and check the Anki add-on manifest:
@@ -229,9 +242,11 @@ On Ubuntu 24.04 Cinnamon/X11, also run `setxkbmap -query`. On Kubuntu 26.04, run
 
 - `scripts/setup.sh` is the only entry point.
 - `scripts/bootstrap/install-packages.sh` installs Ubuntu packages.
+- `scripts/bootstrap/install-appgate.sh` installs the pinned official Appgate 6.5.3 build after verifying its SHA-256 checksum and package metadata.
 - `scripts/bootstrap/install-bitwarden.sh` installs the pinned official Bitwarden desktop package after verifying its SHA-256 checksum.
 - `scripts/bootstrap/link-configs.sh` backs up and links tracked configuration.
 - `scripts/bootstrap/install-mise.sh` installs Mise-managed CLI tools and Bob's Neovim nightly.
+- `scripts/bootstrap/install-textractor.sh` installs the pinned maintained Textractor build, its Unicode font, and Protontricks for Steam-prefix launching.
 - `scripts/bootstrap/install-subtitle-sync.sh` installs pinned ffsubsync through uv, alass-cli through the Mise-managed Rust toolchain, and autosubsync-mpv under mpv's scripts directory.
 - `scripts/bootstrap/install-window-tray.sh` uses Ubuntu's KDocker package on Cinnamon/X11 and installs pinned KWin Minimize2Tray on KDE/Wayland.
 - `scripts/bootstrap/configure-desktop.sh` derives desktop keyboard settings from `configs/system/keyboard`.
@@ -277,6 +292,7 @@ Nothing under `scripts/optional/` runs automatically. Several scripts use sudo, 
 - `bin/fix-xm6-audio` repairs a stale XM6 Bluetooth audio transport and restores the headphones as the default output.
 - `bin/rg` makes ripgrep share the ignore file used by fd.
 - `bin/steam` launches the optional fixsteam installation from its XDG data path.
+- `bin/steam-textractor` starts a Steam game and automatically attaches the matching Textractor build inside its Proton prefix.
 
 ### Test
 
